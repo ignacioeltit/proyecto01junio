@@ -1,0 +1,272 @@
+# Documento de Requerimiento Técnico (DRT) - FASE 1
+
+## 1. **Nombre del Proyecto**
+
+**Sistema de Captura y Logging de Datos OBD-II - Plataforma Base para Diagnóstico Automotriz**
+
+---
+
+## 2. **Objetivo General**
+
+Desarrollar un software multiplataforma capaz de establecer comunicación estable con dispositivos OBD-II, capturar datos de sensores vehiculares en tiempo real, almacenar históricos de manera estructurada y proporcionar herramientas básicas de visualización y exportación. Esta fase constituye la base técnica para futuras implementaciones de análisis avanzado e integración con sistemas de inteligencia artificial.
+
+---
+
+## 3. **Alcance - FASE 1**
+
+### **Incluido en esta fase:**
+* Conectividad estable con interfaces OBD-II WiFi y USB (protocolo ELM327)
+* Captura en tiempo real de parámetros vehiculares estándar (PIDs OBD-II)
+* Sistema robusto de logging y almacenamiento de datos históricos
+* Dashboard básico de monitoreo en tiempo real
+* Gestión fundamental de códigos de diagnóstico (DTC)
+* Exportación de datos en formatos estándar
+* Interfaz de usuario intuitiva y responsiva
+
+### **Excluido de esta fase (futuras fases):**
+* Integración con sistemas de Inteligencia Artificial
+* Análisis automático de patrones en logs
+* Edición de mapas ECU y funcionalidades de tuning
+* Conectividad Bluetooth
+* Protocolos OBD-II avanzados o propietarios
+
+---
+
+## 4. **Requerimientos Funcionales**
+
+### 4.1 **Conectividad OBD-II**
+* **RF-001:** Soporte para adaptadores ELM327 WiFi con configuración de IP/Puerto
+* **RF-002:** Soporte para adaptadores ELM327 USB con detección automática de puerto serie
+* **RF-003:** Autodetección del protocolo OBD-II del vehículo (ISO9141-2, ISO14230-4, ISO15765-4, SAE J1850)
+* **RF-004:** Configuración manual de parámetros de conexión (baudrate, timeout, reintentos)
+* **RF-005:** Indicadores visuales de estado de conexión en tiempo real
+* **RF-006:** Sistema de reconexión automática ante pérdida de comunicación
+
+### 4.2 **Captura de Datos Vehiculares**
+* **RF-007:** Lectura de PIDs estándar prioritarios:
+  * RPM del motor
+  * Velocidad del vehículo
+  * Temperatura del refrigerante
+  * Presión absoluta del múltiple (MAP)
+  * Posición del acelerador (TPS)
+  * Flujo de aire masivo (MAF)
+  * Relación aire-combustible (AFR)
+  * Carga calculada del motor
+* **RF-008:** Frecuencia de muestreo configurable (0.5Hz - 10Hz)
+* **RF-009:** Selección dinámica de parámetros a monitorear (máximo 8 simultáneos)
+* **RF-010:** Validación automática y filtrado de datos erróneos o fuera de rango
+* **RF-011:** Timestamp preciso para cada lectura de sensor
+
+### 4.3 **Sistema de Logging y Almacenamiento**
+* **RF-012:** Base de datos SQLite local para almacenamiento de logs
+* **RF-013:** Estructura de sesiones de logging con metadatos:
+  * Fecha y hora de inicio/fin
+  * Identificación del vehículo (VIN si disponible)
+  * Parámetros monitoreados
+  * Condiciones ambientales (si aplica)
+* **RF-014:** Almacenamiento continuo durante sesiones activas de hasta 4 horas
+* **RF-015:** Compresión automática de logs antiguos (>30 días)
+* **RF-016:** Gestión automática de espacio en disco (límite configurable)
+* **RF-017:** Integridad de datos garantizada al 99.5%
+
+### 4.4 **Dashboard de Monitoreo**
+* **RF-018:** Visualización en tiempo real de máximo 8 parámetros simultáneos
+* **RF-019:** Gráficos en tiempo real con historial de últimos 5 minutos
+* **RF-020:** Medidores tipo gauge para parámetros críticos (RPM, temperatura)
+* **RF-021:** Sistema de alertas configurables por umbral (visual y sonora)
+* **RF-022:** Indicadores de estado de conexión y calidad de datos
+* **RF-023:** Tiempo de actualización de interfaz menor a 100ms
+
+### 4.5 **Gestión de Códigos de Diagnóstico (DTC)**
+* **RF-024:** Lectura automática de DTCs al establecer conexión
+* **RF-025:** Interpretación y descripción de códigos DTC estándar
+* **RF-026:** Borrado manual de códigos DTC con confirmación del usuario
+* **RF-027:** Registro automático de DTCs en el log de la sesión activa
+* **RF-028:** Historial de DTCs por vehículo identificado
+
+### 4.6 **Exportación y Reportes**
+* **RF-029:** Exportación de logs en formato CSV con headers descriptivos
+* **RF-030:** Exportación de logs en formato JSON estructurado
+* **RF-031:** Generación de reportes básicos de sesión (PDF simple)
+* **RF-032:** Filtrado de datos por fecha/hora para exportación
+* **RF-033:** Selección de parámetros específicos para exportación
+
+### 4.7 **Configuración y Preferencias**
+* **RF-034:** Configuración de parámetros de conexión OBD-II
+* **RF-035:** Selección de unidades de medida (métrico/imperial)
+* **RF-036:** Configuración de umbrales de alerta por parámetro
+* **RF-037:** Configuración de frecuencia de muestreo
+* **RF-038:** Gestión de perfiles de vehículo
+
+---
+
+## 5. **Requerimientos No Funcionales**
+
+### 5.1 **Rendimiento**
+* **RNF-001:** Latencia máxima de 200ms entre lectura OBD-II y visualización
+* **RNF-002:** Tiempo de respuesta de interfaz menor a 100ms
+* **RNF-003:** Capacidad de logging continuo por mínimo 4 horas sin degradación
+* **RNF-004:** Uso de memoria RAM máximo 512MB durante operación normal
+* **RNF-005:** Tamaño de base de datos optimizado (máximo 100MB por 1000 horas de logging)
+
+### 5.2 **Compatibilidad**
+* **RNF-006:** Soporte para Windows 10/11 (64-bit)
+* **RNF-007:** Compatibilidad con adaptadores ELM327 v1.5 y superiores
+* **RNF-008:** Soporte para vehículos OBD-II 2008 en adelante (mínimo 80% compatibilidad)
+* **RNF-009:** Resolución mínima de pantalla: 1024x768
+
+### 5.3 **Usabilidad**
+* **RNF-010:** Interfaz intuitiva para usuarios con conocimientos técnicos básicos
+* **RNF-011:** Tiempo de aprendizaje máximo de 30 minutos para operación básica
+* **RNF-012:** Documentación completa en español
+* **RNF-013:** Mensajes de error claros y con sugerencias de solución
+
+### 5.4 **Confiabilidad**
+* **RNF-014:** Disponibilidad del sistema del 99% durante sesiones de logging
+* **RNF-015:** Recuperación automática ante errores de comunicación
+* **RNF-016:** Pérdida máxima de datos del 0.5% durante interrupciones de conexión
+* **RNF-017:** Backup automático de configuraciones
+
+### 5.5 **Seguridad**
+* **RNF-018:** Almacenamiento local seguro de datos del vehículo
+* **RNF-019:** No transmisión de datos a servidores externos sin consentimiento explícito
+* **RNF-020:** Validación de entrada para prevenir inyección de datos maliciosos
+
+### 5.6 **Mantenibilidad**
+* **RNF-021:** Arquitectura modular para facilitar futuras extensiones
+* **RNF-022:** Logging de eventos del sistema para debugging
+* **RNF-023:** Código documentado y versionado
+* **RNF-024:** API interna preparada para futuras integraciones
+
+---
+
+## 6. **Restricciones**
+
+### 6.1 **Técnicas**
+* Dependencia de la disponibilidad y calidad del adaptador OBD-II
+* Limitaciones de PIDs soportados según fabricante del vehículo
+* Frecuencia de muestreo limitada por capacidad del bus OBD-II
+* Almacenamiento limitado a disco local (sin cloud en esta fase)
+
+### 6.2 **Legales y Normativas**
+* Cumplimiento con regulaciones locales sobre acceso a datos vehiculares
+* Disclaimers sobre uso responsable y limitaciones del sistema
+* No alteración de parámetros del vehículo (solo lectura)
+
+### 6.3 **Presupuestarias**
+* Desarrollo con herramientas y frameworks open source cuando sea posible
+* Sin licencias de software propietario costosas
+* Hardware de testing limitado a adaptadores ELM327 estándar
+
+---
+
+## 7. **Entregables**
+
+### 7.1 **Software**
+* **E-001:** Aplicación ejecutable con instalador para Windows
+* **E-002:** Base de datos SQLite con estructura optimizada
+* **E-003:** Archivos de configuración por defecto
+
+### 7.2 **Documentación**
+* **E-004:** Manual de usuario detallado (PDF + HTML)
+* **E-005:** Guía de instalación y configuración
+* **E-006:** Documentación técnica de la API interna
+* **E-007:** Especificación de formato de datos exportados
+
+### 7.3 **Testing**
+* **E-008:** Suite de pruebas automatizadas
+* **E-009:** Reporte de compatibilidad con diferentes adaptadores OBD-II
+* **E-010:** Casos de prueba documentados
+
+---
+
+## 8. **Criterios de Aceptación**
+
+### 8.1 **Funcionalidad Core**
+* **CA-001:** Establecimiento de conexión exitosa con al menos 80% de adaptadores ELM327 probados
+* **CA-002:** Lectura continua de datos por mínimo 2 horas sin pérdida de conexión
+* **CA-003:** Almacenamiento íntegro del 99.5% de los datos capturados
+* **CA-004:** Visualización en tiempo real con latencia menor a 200ms
+
+### 8.2 **Compatibilidad de Vehículos**
+* **CA-005:** Funcionamiento correcto en al menos 80% de vehículos 2008+
+* **CA-006:** Lectura exitosa de DTCs en marcas principales (Toyota, Honda, Ford, Chevrolet, Nissan)
+* **CA-007:** Autodetección correcta de protocolo OBD-II en 90% de casos
+
+### 8.3 **Rendimiento**
+* **CA-008:** Tiempo de inicialización de aplicación menor a 10 segundos
+* **CA-009:** Uso de memoria estable durante sesiones de 4+ horas
+* **CA-010:** Exportación de logs de 1 hora en menos de 30 segundos
+
+### 8.4 **Calidad de Software**
+* **CA-011:** Zero errores críticos que causen cierre de aplicación
+* **CA-012:** Recuperación automática ante 95% de errores de comunicación
+* **CA-013:** Interfaz responsiva sin bloqueos durante operación normal
+
+---
+
+## 9. **Cronograma Estimado**
+
+### **Fase de Desarrollo - 8 meses**
+
+**Mes 1-2: Arquitectura y Conectividad Base**
+- Diseño de arquitectura modular
+- Implementación de comunicación OBD-II básica
+- Pruebas de conectividad con adaptadores ELM327
+
+**Mes 3-4: Sistema de Captura y Almacenamiento**
+- Implementación de lectura de PIDs estándar
+- Desarrollo de base de datos SQLite
+- Sistema de logging robusto
+
+**Mes 5-6: Interfaz de Usuario y Dashboard**
+- Desarrollo de dashboard de monitoreo
+- Implementación de gráficos en tiempo real
+- Sistema de alertas y configuración
+
+**Mes 7: Testing y Optimización**
+- Pruebas de compatibilidad exhaustivas
+- Optimización de rendimiento
+- Corrección de bugs críticos
+
+**Mes 8: Documentación y Entrega**
+- Documentación completa de usuario y técnica
+- Preparación de instaladores
+- Entrega final y transferencia
+
+---
+
+## 10. **Riesgos Identificados**
+
+### **Alto Impacto**
+* **R-001:** Incompatibilidad con adaptadores OBD-II específicos
+  * *Mitigación:* Testing extensivo con múltiples marcas/modelos
+* **R-002:** Variabilidad en implementación OBD-II entre fabricantes
+  * *Mitigación:* Base de datos de compatibilidad y configuraciones específicas
+
+### **Impacto Medio**
+* **R-003:** Rendimiento degradado en equipos de gama baja
+  * *Mitigación:* Optimización desde diseño y testing en hardware variado
+* **R-004:** Pérdida de datos durante interrupciones de energía
+  * *Mitigación:* Guardado incremental y recuperación automática
+
+---
+
+## 11. **Consideraciones para Futuras Fases**
+
+### **Preparación para Escalabilidad**
+- API interna diseñada para integración con módulos de IA
+- Estructura de datos preparada para análisis avanzado
+- Arquitectura modular que permita agregar nuevos protocolos
+- Sistema de plugins para funcionalidades extendidas
+
+### **Datos Recolectados para IA Futura**
+- Logs estructurados listos para machine learning
+- Correlación automática entre DTCs y parámetros
+- Metadatos ricos para entrenamiento de modelos
+
+---
+
+**Documento generado el:** 01 de Junio, 2025  
+**Versión:** 1.0 - Fase 1  
+**Estado:** Borrador para Revisión

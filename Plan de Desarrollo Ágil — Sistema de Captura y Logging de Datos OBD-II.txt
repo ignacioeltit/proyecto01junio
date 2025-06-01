@@ -1,0 +1,211 @@
+¡Perfecto! Aquí tienes un **documento formal editable** para la planificación del MVP y la secuencia de Sprints bajo metodología ágil, pensado para entregar al equipo y comenzar el ciclo de desarrollo.
+
+---
+
+# **Plan de Desarrollo Ágil — Sistema de Captura y Logging de Datos OBD-II**
+
+**Proyecto:** Sistema de Captura y Logging de Datos OBD-II
+**Versión:** 1.0
+**Fecha:** 01 de Junio, 2025
+**Responsable:** \[Completar]
+**Equipo de Desarrollo:** \[Completar]
+
+---
+
+## **1. Alcance del MVP (Producto Mínimo Viable)**
+
+**Objetivo:**
+Desarrollar una primera versión funcional capaz de:
+
+* Conectarse a un adaptador ELM327 (USB o WiFi).
+* Leer y mostrar en tiempo real al menos 2 parámetros OBD-II (RPM y velocidad).
+* Almacenar logs simples en SQLite.
+* Permitir la lectura y el borrado de DTC estándar.
+* Exportar logs en formato CSV.
+* Mostrar los datos en pantalla mediante una interfaz básica.
+
+**Fuera de alcance del MVP:**
+
+* Configuraciones avanzadas.
+* Gráficos históricos.
+* Alertas configurables.
+* Exportación en formatos adicionales a CSV.
+* Perfilamiento de usuario, backup y compresión automática de logs.
+
+---
+
+## **2. Sprints y Roadmap de Desarrollo**
+
+### **Sprint 0: Preparación y Setup**
+
+**Duración estimada:** 1 semana
+
+* Definir stack tecnológico, instalar herramientas y librerías necesarias.
+* Configurar repositorio de código y control de versiones.
+* Configurar hardware de testing: adaptadores ELM327 y vehículos.
+* Documentar y acordar el flujo de trabajo ágil (Kanban, Jira, etc.).
+* Primer backlog y criterios de definición de terminado (DoD).
+
+**Entregable:**
+Entorno de desarrollo listo y documentado.
+
+---
+
+### **Sprint 1: Conectividad Básica y Lectura de PIDs**
+
+**Duración estimada:** 1 semana
+
+* Implementar conexión a adaptador ELM327 vía USB (pyserial) y WiFi (socket).
+* Detección de puerto serie y conexión por IP/puerto.
+* Implementar handshake (comandos AT) y confirmación de comunicación.
+* Implementar lectura de 2 PIDs estándar: RPM y velocidad.
+* Mostrar resultados en consola o ventana básica.
+
+**Entregable:**
+Conexión estable y lectura funcional de 2 parámetros en tiempo real.
+
+---
+
+### **Sprint 2: Logging Básico y Lectura/Borrado de DTC**
+
+**Duración estimada:** 1 semana
+
+* Guardar lecturas de parámetros con timestamp en SQLite.
+* Implementar lectura y borrado de DTC estándar.
+* Exportación simple de logs en CSV.
+* UI básica para visualizar parámetros y DTC (puede ser consola o ventana).
+
+**Entregable:**
+Logging local en SQLite y gestión de DTCs funcional.
+
+---
+
+### **Sprint 3: Interfaz de Usuario Básica**
+
+**Duración estimada:** 1 semana
+
+* Crear primer dashboard en PyQt6: mostrar parámetros en tiempo real (gauge y texto).
+* Selección de adaptador y tipo de conexión.
+* Pantalla básica de configuración (frecuencia de muestreo).
+
+**Entregable:**
+App con interfaz visual mínima y operativa.
+
+---
+
+### **Sprint 4: Selección Dinámica de PIDs y Logging Mejorado**
+
+**Duración estimada:** 1 semana
+
+* Permitir selección dinámica de hasta 8 parámetros a monitorear simultáneamente.
+* Mejorar almacenamiento de sesiones y metadatos en la base de datos.
+* Mejorar la visualización y gestión de DTCs.
+
+**Entregable:**
+Selección flexible de PIDs y logging estructurado por sesión.
+
+---
+
+### **Sprint 5: Gráficos en Tiempo Real y Alertas**
+
+**Duración estimada:** 1 semana
+
+* Implementar gráficos históricos (últimos 5 minutos) para parámetros monitoreados.
+* Gauges avanzados para parámetros críticos (RPM, temperatura).
+* Sistema de alertas visuales básicas (por umbral).
+
+**Entregable:**
+Dashboard con gráficos y alertas básicas en vivo.
+
+---
+
+### **Sprint 6: Exportaciones y Reportes**
+
+**Duración estimada:** 1 semana
+
+* Exportación avanzada en formatos CSV, JSON y PDF simple.
+* Filtros de exportación por fecha y parámetro.
+* Generación de reportes básicos de sesión.
+
+**Entregable:**
+Reportes exportables y filtrados en varios formatos.
+
+---
+
+### **Sprint 7: Configuración, Preferencias y Gestión de Logs**
+
+**Duración estimada:** 1 semana
+
+* Configuración avanzada de conexión y umbrales por parámetro.
+* Gestión de perfiles de vehículo y selección de unidades.
+* Compresión y borrado automático de logs antiguos.
+* Indicadores de espacio disponible y backup de configuraciones.
+
+**Entregable:**
+App adaptable, configurable y lista para escenarios reales.
+
+---
+
+### **Sprint 8: Testing, Optimización y Documentación**
+
+**Duración estimada:** 1 semana
+
+* Pruebas funcionales, de compatibilidad y rendimiento.
+* Optimización de código y manejo de errores.
+* Documentación técnica y de usuario.
+* Preparación de instalador y checklist de entrega.
+
+**Entregable:**
+Versión candidata a producción, documentada y lista para validación.
+
+---
+
+## **3. Tabla Resumida de Sprints**
+
+| Sprint | Objetivo Principal                             | Entregable                                | Duración Estimada |
+| ------ | ---------------------------------------------- | ----------------------------------------- | ----------------- |
+| 0      | Setup y ambiente                               | Entorno listo y documentado               | 1 semana          |
+| 1      | Conectividad básica y lectura de 2 PIDs        | Lectura real de parámetros en consola/UI  | 1 semana          |
+| 2      | Logging y gestión básica de DTC                | Logging y DTC funcional                   | 1 semana          |
+| 3      | Interfaz básica                                | Dashboard PyQt6 inicial                   | 1 semana          |
+| 4      | Selección flexible de PIDs y mejora de logging | Logging estructurado y dinámico           | 1 semana          |
+| 5      | Gráficos históricos y alertas                  | Dashboard avanzado con alertas            | 1 semana          |
+| 6      | Exportaciones y reportes avanzados             | Exportación multi-formato y filtrada      | 1 semana          |
+| 7      | Configuración avanzada y gestión de logs       | App adaptable y gestión de logs eficiente | 1 semana          |
+| 8      | Testing, optimización y documentación final    | Versión candidata lista y documentada     | 1 semana          |
+
+---
+
+## **4. Consideraciones y Roles**
+
+* **Scrum Master:** \[Completar]
+* **Product Owner:** \[Completar]
+* **Equipo de desarrollo:** \[Completar]
+* **Ciclo de sprint sugerido:** 1 semana por iteración.
+* **Demo y retrospectiva:** al finalizar cada sprint.
+* **Priorización:** El Product Owner puede ajustar prioridades y alcance de cada sprint según feedback.
+
+---
+
+## **5. Historias de Usuario (Ejemplos para Primeros Sprints)**
+
+* *Como usuario técnico, quiero conectar mi adaptador OBD-II para poder ver RPM y velocidad del vehículo en tiempo real.*
+* *Como usuario, quiero poder guardar un registro de las lecturas para revisarlas después y exportarlas.*
+* *Como mecánico, quiero poder leer y borrar códigos de falla desde la app para realizar diagnósticos rápidos.*
+
+---
+
+## **6. Observaciones**
+
+* La planificación puede ajustarse según feedback, validación con usuarios finales o descubrimiento técnico.
+* Todo entregable debe ser funcional y probado en hardware real (o simulador OBD-II, si aplica).
+* Se recomienda trabajar en ramas de Git para cada sprint, y documentar las pruebas y resultados.
+
+---
+
+**Fin del Documento**
+*Este plan está abierto a revisión y debe completarse con responsables y fechas según el equipo real de trabajo.*
+
+---
+
+¿Lo necesitas en **Word**, **Google Docs**, o solo así en texto para que lo pegues y edites donde prefieras? Si quieres te lo paso en formato tabla para Excel, o agrego más historias de usuario tipo “ready to use”. ¡Avísame cómo lo necesitas!

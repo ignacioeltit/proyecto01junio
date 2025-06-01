@@ -1,0 +1,1 @@
+# Indicadores visuales de estado
