@@ -1,0 +1,101 @@
+# Bitácora de Desarrollo MVP - Sistema de Captura y Logging de Datos OBD-II
+
+# Corrección: Todos los valores numéricos de PIDs se convierten a int/float antes de operar, loguear o exportar.
+# Si la conversión falla, se deja el valor original y se puede advertir en el log o UI.
+
+## Hitos según el Plan de Desarrollo
+
+1. **Preparación y Setup**
+   - Definir stack tecnológico, instalar herramientas y librerías necesarias.
+   - Configurar repositorio de código y control de versiones.
+   - Configurar hardware de testing: adaptadores ELM327 y vehículos.
+   - Documentar y acordar el flujo de trabajo ágil.
+   - Primer backlog y criterios de definición de terminado (DoD).
+
+2. **Conectividad Básica y Lectura de PIDs**
+   - Implementar conexión a adaptador ELM327 vía USB (pyserial) y WiFi (socket).
+   - Detección de puerto serie y conexión por IP/puerto.
+   - Implementar handshake (comandos AT) y confirmación de comunicación.
+   - Implementar lectura de 2 PIDs estándar: RPM y velocidad.
+   - Mostrar resultados en consola o ventana básica.
+
+3. **Logging Básico y Lectura/Borrado de DTC**
+   - Guardar lecturas de parámetros con timestamp en SQLite.
+   - Implementar lectura y borrado de DTC estándar.
+   - Exportación simple de logs en CSV.
+   - UI básica para visualizar parámetros y DTC (puede ser consola o ventana).
+
+4. **Interfaz de Usuario Básica**
+   - Crear primer dashboard en PyQt6: mostrar parámetros en tiempo real (gauge y texto).
+   - Selección de adaptador y tipo de conexión.
+   - Pantalla básica de configuración (frecuencia de muestreo).
+
+5. **Selección Dinámica de PIDs y Logging Mejorado**
+   - Permitir selección dinámica de hasta 8 parámetros a monitorear simultáneamente.
+
+---
+
+## Hitos ya desarrollados (al 01/06/2025)
+
+- [x] Preparación y Setup: estructura de carpetas, repositorio y dependencias creadas.
+- [x] Conectividad básica: conexión ELM327 por USB y WiFi, handshake y comunicación AT.
+- [x] Lectura de PIDs: lectura y visualización de RPM y velocidad en tiempo real.
+- [x] Logging básico: almacenamiento automático de lecturas en SQLite.
+- [x] Lectura y borrado de DTC: comandos y parseo de códigos de diagnóstico.
+- [x] Exportación de logs: generación de archivo CSV desde la base de datos.
+- [x] Menú interactivo en consola para todas las funciones MVP.
+- [x] **Prueba real en vehículo:**
+      - Fecha: 01/06/2025
+      - Se realizó una prueba de adquisición de datos OBD-II con el auto en movimiento, validando la lectura de RPM y velocidad en tiempo real, logging en SQLite y exportación a CSV.
+      - Resultado: Comunicación estable, datos coherentes y exportación exitosa.
+- [x] Unificación de columna de velocidad en base de datos y código:
+      - Se eliminó la columna 'velocidad' y todo el sistema usa solo 'vel'.
+      - El logger, dashboard y exportaciones son coherentes y robustos.
+      - Validado en pruebas reales y con emulador.
+- [x] Script de migración ejecutado y documentado.
+- [x] Código revisado y limpiado de referencias a 'velocidad'.
+- [x] Se versionó el módulo de interfaz gráfica como 'interfazgraficav1.py' (copia de seguridad antes de validación en calle).
+      - Falta realizar la prueba real en calle para validar la versión.
+- [x] Se creó y documentó el diccionario extendido de PIDs OBD-II estándar (src/obd/pids_ext.py).
+      - Incluye nombre, descripción, comando, bytes, fórmula, rango y tipo de dato.
+      - Usar como referencia principal para selección dinámica y validación de parámetros.
+- [x] Corrección aplicada: la columna 'escenario' (modo/fase) es ahora obligatoria en todos los logs exportados.
+      - El emulador, la UI, el backend y el exportador fuerzan la presencia y actualización de 'escenario' en cada registro.
+      - Validar visualmente y con scripts automáticos que la columna 'escenario' está presente y es coherente con la selección de la UI.
+      - Documentado en README y aquí el flujo y significado de la columna.
+
+## Convención de logs y columna 'escenario'
+- Cada registro del log debe incluir la columna 'escenario', que indica el modo/fase activa de simulación o adquisición.
+- Esta columna es obligatoria y debe reflejar siempre el valor real seleccionado en la UI/app.
+- Permite auditar y analizar el contexto de los datos exportados.
+
+## Procedimiento de prueba en dos fases: pre-logging y logging real en calle
+
+**Fase 1: Pre-logging (simulación o entorno controlado)**
+- Realizar un ciclo completo de logging y exportación en modo emulador o con el vehículo detenido.
+- Validar que el log generado es válido (encabezado, columnas, datos, columna 'escenario', feedback de validación OK).
+- Revisar que la selección de PIDs y el escenario se reflejan correctamente en el archivo exportado.
+- Si hay errores, corregir antes de pasar a la fase real.
+
+**Fase 2: Logging real en calle**
+- Preparar equipos, vehículo y software en modo adquisición real.
+- Registrar hora de inicio, vehículo y condiciones en la bitácora.
+- Realizar la adquisición de datos en movimiento, cambiando de escenario/modo si aplica.
+- Exportar el log al finalizar y validar en terreno (usando la función automática).
+- Registrar observaciones y resultados en la bitácora.
+
+**Checklist previo y posterior:**
+- Confirmar que la validación automática informa correctamente al usuario tras cada exportación.
+- Revisar que la columna 'escenario' y los PIDs seleccionados están presentes y con datos coherentes.
+- Documentar cualquier incidencia o mejora detectada.
+
+## Próximos hitos sugeridos
+
+- [ ] Selección dinámica de PIDs y logging avanzado.
+- [ ] Mejoras de robustez y experiencia de usuario.
+
+## Checklist de validación pendiente
+
+- [ ] Realizar prueba real de la interfaz gráfica en calle y documentar resultados.
+- [ ] Validar que el log y la UI muestran exactamente los mismos valores de velocidad (vel).
+- [ ] Confirmar estabilidad y exportación correcta tras la prueba real.
