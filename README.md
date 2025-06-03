@@ -59,3 +59,43 @@ El emulador (`src/obd/emulador.py`) genera datos realistas para cada PID soporta
 - Todos los PIDs seleccionados aparecen como columnas en la UI y el log.
 - Los valores son realistas si el PID está soportado.
 - Si no está soportado, la columna está vacía y se muestra advertencia en consola/log.
+
+---
+
+## Ejecución, logs por sesión y diagnóstico automático
+
+### Ejecución estándar
+
+- Ejecuta SIEMPRE el dashboard desde la raíz del proyecto con:
+  ```
+  python run_dashboard.py
+  ```
+- Los imports internos están estandarizados para máxima portabilidad.
+
+### Logging por sesión y análisis automático
+
+- Cada vez que se inicia el dashboard, se crea un archivo de log único por sesión en la raíz, con nombre `log_YYYYMMDD_HHMMSS.txt`.
+- El log incluye:
+  - Todos los comandos OBD-II enviados y respuestas crudas recibidas.
+  - Advertencias si algún PID no responde, no está definido o no se puede parsear.
+  - Validación previa de adquisición de PIDs antes de mostrar la UI (en modo real).
+  - Resumen automático al cierre: qué PIDs tuvieron datos válidos, cuáles estuvieron vacíos y advertencias relevantes.
+- El resumen de sesión se imprime en consola y queda registrado al cerrar la app.
+
+#### Ejemplo de análisis de log de sesión
+
+```
+2025-06-02 10:00:00 [INFO] --- INICIO DE SESIÓN OBD-II: log_20250602_100000.txt ---
+2025-06-02 10:00:01 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 10:00:01 [INFO] Respuesta cruda para 010C (PID: rpm): 410C1130
+2025-06-02 10:00:01 [INFO] Enviando comando: 010D (PID: vel)
+2025-06-02 10:00:01 [INFO] Respuesta cruda para 010D (PID: vel): 410D28
+...
+2025-06-02 10:10:00 [INFO] Resumen de sesión:
+2025-06-02 10:10:00 [INFO] PIDs con datos válidos: rpm, vel, temp
+2025-06-02 10:10:00 [INFO] PIDs siempre vacíos: maf, presion_adm
+2025-06-02 10:10:00 [WARNING] Algunos PIDs no recibieron datos válidos durante la sesión.
+```
+
+- Puedes auditar cualquier sesión revisando estos archivos de log.
+- El CSV exportado siempre incluye todos los PIDs seleccionados y la columna 'escenario'.

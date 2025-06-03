@@ -1,0 +1,919 @@
+2025-06-02 20:48:39,306 [INFO] --- INICIO DE SESIÓN OBD-II: log_20250602_204839.txt ---
+2025-06-02 20:48:40,580 [INFO] [TEST] Test automático de PIDs lanzado automáticamente al inicio de la app.
+2025-06-02 20:48:55,263 [ERROR] [HANDSHAKE] Handshake fallido con ELM327
+2025-06-02 20:49:07,318 [INFO] [HANDSHAKE] Handshake OK con ELM327
+2025-06-02 20:49:07,322 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:09,388 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): ATE0OK>
+2025-06-02 20:49:09,390 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: ATE0OK>, Parsing: None
+2025-06-02 20:49:09,392 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:09,493 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): OK>41 0C 0B 48 41 0C 0B 64 >41 0D 00 41 0D 00 
+2025-06-02 20:49:09,498 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: OK>41 0C 0B 48 41 0C 0B 64 >41 0D 00 41 0D 00 , Parsing: None
+2025-06-02 20:49:09,499 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:11,627 [INFO] [HANDSHAKE] Handshake OK con ELM327
+2025-06-02 20:49:11,632 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:11,736 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): OK>
+2025-06-02 20:49:11,739 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: OK>, Parsing: None
+2025-06-02 20:49:11,739 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:12,146 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0B 08 41 0C 0B 0C 
+2025-06-02 20:49:12,148 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0B 08 41 0C 0B 0C , Parsing: None
+2025-06-02 20:49:12,150 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:12,187 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:12,288 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:12,292 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:12,293 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:12,394 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 STOPPED>7F 10 12 7F 10 13 >
+2025-06-02 20:49:12,396 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:12,396 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:12,515 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:12,617 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0D 00 41 0D 00 >
+2025-06-02 20:49:12,620 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: 41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:12,620 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:12,721 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0B 2C 41 0C 0B 28 >
+2025-06-02 20:49:12,727 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0B 2C 41 0C 0B 28 >, Parsing: None
+2025-06-02 20:49:12,728 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:12,736 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:12,837 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0D 00 41 0D 00 
+2025-06-02 20:49:12,840 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: 41 0D 00 41 0D 00 , Parsing: None
+2025-06-02 20:49:12,841 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:12,965 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): STOPPED>7F 10 12 7F 10 13 
+2025-06-02 20:49:12,969 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-02 20:49:12,970 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:13,062 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:13,164 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0D 00 41 0D 00 >41 0C 0B 40 41 0C 0B 58 
+2025-06-02 20:49:13,165 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0D 00 41 0D 00 >41 0C 0B 40 41 0C 0B 58 , Parsing: None
+2025-06-02 20:49:13,166 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:13,267 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 >
+2025-06-02 20:49:13,269 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:13,270 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:13,279 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:13,682 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 14 41 0C 0B 20 
+2025-06-02 20:49:13,684 [INFO] [OBD] rpm recibido: 709
+2025-06-02 20:49:13,684 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:13,785 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 02 41 0D 01 
+2025-06-02 20:49:13,788 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 02 41 0D 01 , Parsing: None
+2025-06-02 20:49:13,791 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:13,839 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:13,941 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 0B 28 41 0C 0B 20 
+2025-06-02 20:49:13,944 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 0B 28 41 0C 0B 20 , Parsing: None
+2025-06-02 20:49:13,945 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:14,046 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 02 41 0D 02 
+2025-06-02 20:49:14,049 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 02 41 0D 02 , Parsing: None
+2025-06-02 20:49:14,049 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:14,060 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:14,161 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:14,164 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:14,164 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:14,264 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0B 40 41 0C 0B 3C >41 0D 02 41 0D 02 
+2025-06-02 20:49:14,267 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0B 40 41 0C 0B 3C >41 0D 02 41 0D 02 , Parsing: None
+2025-06-02 20:49:14,268 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:14,382 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:14,483 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:14,485 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:14,486 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:14,587 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0C D0 41 0C 0C 98 >
+2025-06-02 20:49:14,591 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0C D0 41 0C 0C 98 >, Parsing: None
+2025-06-02 20:49:14,592 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:14,598 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:14,700 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0D 02 41 0D 02 >41 0C 0F 08 41 0C 0E 9C 
+2025-06-02 20:49:14,702 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: 41 0D 02 41 0D 02 >41 0C 0F 08 41 0C 0E 9C , Parsing: None
+2025-06-02 20:49:14,702 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:14,804 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 03 41 0D 03 >
+2025-06-02 20:49:14,808 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 03 41 0D 03 >, Parsing: None
+2025-06-02 20:49:14,809 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:14,925 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:15,064 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 12 8C 41 0C 12 84 
+2025-06-02 20:49:15,066 [INFO] [OBD] rpm recibido: 1187
+2025-06-02 20:49:15,066 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:15,167 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 04 41 0D 03 
+2025-06-02 20:49:15,171 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 04 41 0D 03 , Parsing: None
+2025-06-02 20:49:15,174 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:15,260 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:15,362 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:15,365 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:15,365 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:15,525 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 11 D8 41 0C 11 E8 
+2025-06-02 20:49:15,529 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 11 D8 41 0C 11 E8 , Parsing: None
+2025-06-02 20:49:15,530 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:15,578 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:15,678 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0D 05 41 0D 04 
+2025-06-02 20:49:15,681 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0D 05 41 0D 04 , Parsing: None
+2025-06-02 20:49:15,681 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:15,843 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): STOPPED>7F 10 12 7F 10 13 
+2025-06-02 20:49:15,845 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-02 20:49:15,846 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:15,908 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:16,009 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0D 05 41 0D 05 
+2025-06-02 20:49:16,012 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0D 05 41 0D 05 , Parsing: None
+2025-06-02 20:49:16,013 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:16,153 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0C 0F 3C 41 0C 0F 40 
+2025-06-02 20:49:16,158 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0C 0F 3C 41 0C 0F 40 , Parsing: None
+2025-06-02 20:49:16,159 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:16,236 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:16,340 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0D 06 41 0D 05 >41 0C 0E 58 41 0C 0E 5C 
+2025-06-02 20:49:16,342 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0D 06 41 0D 05 >41 0C 0E 58 41 0C 0E 5C , Parsing: None
+2025-06-02 20:49:16,342 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:16,444 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 06 41 0D 06 
+2025-06-02 20:49:16,445 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 06 41 0D 06 , Parsing: None
+2025-06-02 20:49:16,447 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:16,458 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:16,559 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:16,561 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:16,561 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:16,663 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0E 7C 41 0C 0E 78 >41 0D 06 41 0D 06 >
+2025-06-02 20:49:16,665 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0E 7C 41 0C 0E 78 >41 0D 06 41 0D 06 >, Parsing: None
+2025-06-02 20:49:16,666 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:16,675 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:16,776 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0D 00 41 0C 0D 28 
+2025-06-02 20:49:16,777 [INFO] [OBD] rpm recibido: 832
+2025-06-02 20:49:16,777 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:17,057 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-02 20:49:17,062 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-02 20:49:17,063 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:17,108 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:17,209 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0D 07 41 0D 06 >41 0C 0B 50 41 0C 0B 78 
+2025-06-02 20:49:17,211 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: 41 0D 07 41 0D 06 >41 0C 0B 50 41 0C 0B 78 , Parsing: None
+2025-06-02 20:49:17,211 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:17,313 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 07 41 0D 06 >
+2025-06-02 20:49:17,316 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 07 41 0D 06 >, Parsing: None
+2025-06-02 20:49:17,316 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:17,342 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:17,443 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 40 41 0C 0B 44 >
+2025-06-02 20:49:17,443 [INFO] [OBD] rpm recibido: 720
+2025-06-02 20:49:17,444 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:17,545 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 07 41 0D 06 >
+2025-06-02 20:49:17,547 [INFO] [OBD] vel recibido: 7
+2025-06-02 20:49:17,547 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:17,667 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:17,769 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 3C 41 0C 0B 48 
+2025-06-02 20:49:17,771 [INFO] [OBD] rpm recibido: 719
+2025-06-02 20:49:17,772 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:17,873 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 06 41 0D 06 >
+2025-06-02 20:49:17,876 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 06 41 0D 06 >, Parsing: None
+2025-06-02 20:49:17,877 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:17,889 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:17,990 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B A4 41 0C 0B 6C 
+2025-06-02 20:49:17,991 [INFO] [OBD] rpm recibido: 745
+2025-06-02 20:49:17,991 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:18,093 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 06 41 0D 06 >
+2025-06-02 20:49:18,096 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 06 41 0D 06 >, Parsing: None
+2025-06-02 20:49:18,096 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:18,214 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:18,315 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0C 50 41 0C 0C 50 
+2025-06-02 20:49:18,317 [INFO] [OBD] rpm recibido: 788
+2025-06-02 20:49:18,317 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:18,419 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 06 41 0D 05 
+2025-06-02 20:49:18,423 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 06 41 0D 05 , Parsing: None
+2025-06-02 20:49:18,424 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:18,543 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:18,643 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 0B DC 41 0C 0B CC >
+2025-06-02 20:49:18,647 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 0B DC 41 0C 0B CC >, Parsing: None
+2025-06-02 20:49:18,647 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:18,748 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 05 41 0D 04 >
+2025-06-02 20:49:18,749 [INFO] [OBD] vel recibido: 5
+2025-06-02 20:49:18,752 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:18,872 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:18,974 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B D4 41 0C 0B E4 >
+2025-06-02 20:49:18,975 [INFO] [OBD] rpm recibido: 757
+2025-06-02 20:49:18,976 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:19,077 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 03 41 0D 03 >
+2025-06-02 20:49:19,079 [INFO] [OBD] vel recibido: 3
+2025-06-02 20:49:19,080 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:19,092 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:19,369 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 8C 41 0C 0B 80 
+2025-06-02 20:49:19,370 [INFO] [OBD] rpm recibido: 739
+2025-06-02 20:49:19,371 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:19,472 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-02 20:49:19,473 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-02 20:49:19,474 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:19,543 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:19,644 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0D 00 41 0D 00 >
+2025-06-02 20:49:19,646 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: 41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:19,646 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:19,828 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0B 6C 41 0C 0B 6C >
+2025-06-02 20:49:19,829 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0B 6C 41 0C 0B 6C >, Parsing: None
+2025-06-02 20:49:19,830 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:19,885 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:19,986 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0D 00 41 0D 00 >41 0C 0A F0 41 0C 0A F0 
+2025-06-02 20:49:19,989 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: 41 0D 00 41 0D 00 >41 0C 0A F0 41 0C 0A F0 , Parsing: None
+2025-06-02 20:49:19,989 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:20,090 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-02 20:49:20,092 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 , Parsing: None
+2025-06-02 20:49:20,093 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:20,211 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:20,312 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 0B 64 41 0C 0B 64 >
+2025-06-02 20:49:20,316 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 0B 64 41 0C 0B 64 >, Parsing: None
+2025-06-02 20:49:20,316 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:20,613 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 
+2025-06-02 20:49:20,618 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:20,620 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:20,645 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:20,940 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:20,942 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:20,943 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:21,054 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0B F0 41 0C 0C 28 >
+2025-06-02 20:49:21,057 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0B F0 41 0C 0C 28 >, Parsing: None
+2025-06-02 20:49:21,058 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:21,084 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:21,185 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0D 00 41 0D 00 >41 0C 0C 70 41 0C 0C 70 
+2025-06-02 20:49:21,187 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: 41 0D 00 41 0D 00 >41 0C 0C 70 41 0C 0C 70 , Parsing: None
+2025-06-02 20:49:21,188 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:21,289 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 >
+2025-06-02 20:49:21,291 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:21,292 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:21,301 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:21,402 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B DC 41 0C 0C 08 >
+2025-06-02 20:49:21,404 [INFO] [OBD] rpm recibido: 759
+2025-06-02 20:49:21,404 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:21,505 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 >
+2025-06-02 20:49:21,507 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:21,507 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:21,515 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:21,618 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B B4 41 0C 0B C0 >
+2025-06-02 20:49:21,620 [INFO] [OBD] rpm recibido: 749
+2025-06-02 20:49:21,620 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:21,721 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 >
+2025-06-02 20:49:21,723 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:21,723 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:21,737 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:21,838 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 70 41 0C 0B 70 >
+2025-06-02 20:49:21,839 [INFO] [OBD] rpm recibido: 732
+2025-06-02 20:49:21,839 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:21,941 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 
+2025-06-02 20:49:21,941 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:21,943 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:21,954 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:22,056 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 0C 20 41 0C 0C 20 
+2025-06-02 20:49:22,058 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 0C 20 41 0C 0C 20 , Parsing: None
+2025-06-02 20:49:22,058 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:22,159 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 >
+2025-06-02 20:49:22,162 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:22,163 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:22,285 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:22,386 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B D8 41 0C 0B D8 
+2025-06-02 20:49:22,387 [INFO] [OBD] rpm recibido: 758
+2025-06-02 20:49:22,387 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:22,488 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 >
+2025-06-02 20:49:22,491 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:22,491 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:22,613 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:22,713 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 5C 41 0C 0B 58 >
+2025-06-02 20:49:22,717 [INFO] [OBD] rpm recibido: 727
+2025-06-02 20:49:22,717 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:22,818 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 >
+2025-06-02 20:49:22,819 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:22,820 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:22,940 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:23,042 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B E4 41 0C 0B E4 >
+2025-06-02 20:49:23,057 [INFO] [OBD] rpm recibido: 761
+2025-06-02 20:49:23,057 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:23,162 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 02 41 0D 01 
+2025-06-02 20:49:23,173 [INFO] [OBD] vel recibido: 2
+2025-06-02 20:49:23,175 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:23,270 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:23,372 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:23,374 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:23,374 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:23,515 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0B C8 41 0C 0B C8 
+2025-06-02 20:49:23,517 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0B C8 41 0C 0B C8 , Parsing: None
+2025-06-02 20:49:23,518 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:23,602 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:23,703 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0D 02 41 0D 02 >41 0C 0B 38 41 0C 0B 24 
+2025-06-02 20:49:23,705 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0D 02 41 0D 02 >41 0C 0B 38 41 0C 0B 24 , Parsing: None
+2025-06-02 20:49:23,705 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:23,807 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 03 41 0D 03 >
+2025-06-02 20:49:23,809 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 03 41 0D 03 >, Parsing: None
+2025-06-02 20:49:23,810 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:23,821 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:24,097 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0C 84 41 0C 0C 70 
+2025-06-02 20:49:24,100 [INFO] [OBD] rpm recibido: 801
+2025-06-02 20:49:24,100 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:24,201 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 04 41 0D 03 
+2025-06-02 20:49:24,203 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 04 41 0D 03 , Parsing: None
+2025-06-02 20:49:24,204 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:24,253 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:24,354 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:24,356 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:24,356 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:24,532 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 10 2C 41 0C 10 30 
+2025-06-02 20:49:24,534 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 10 2C 41 0C 10 30 , Parsing: None
+2025-06-02 20:49:24,535 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:24,581 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:24,681 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0D 05 41 0D 04 
+2025-06-02 20:49:24,684 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0D 05 41 0D 04 , Parsing: None
+2025-06-02 20:49:24,684 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:24,845 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): STOPPED>7F 10 12 7F 10 13 
+2025-06-02 20:49:24,849 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-02 20:49:24,850 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:24,910 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:25,049 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:25,052 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:25,052 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:25,153 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 05 41 0D 05 >STOPPED>
+2025-06-02 20:49:25,155 [INFO] [OBD] vel recibido: 5
+2025-06-02 20:49:25,156 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:25,232 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:25,334 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): ?>
+2025-06-02 20:49:25,337 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: ?>, Parsing: None
+2025-06-02 20:49:25,337 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:25,439 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 06 41 0D 05 
+2025-06-02 20:49:25,440 [INFO] [OBD] vel recibido: 6
+2025-06-02 20:49:25,441 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:25,452 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:25,553 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 0D 2C 41 0C 0D 1C >
+2025-06-02 20:49:25,555 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 0D 2C 41 0C 0D 1C >, Parsing: None
+2025-06-02 20:49:25,555 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:25,656 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 06 41 0D 05 >
+2025-06-02 20:49:25,657 [INFO] [OBD] vel recibido: 6
+2025-06-02 20:49:25,658 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:25,669 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:25,771 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0E 18 41 0C 0D D4 >
+2025-06-02 20:49:25,772 [INFO] [OBD] rpm recibido: 902
+2025-06-02 20:49:25,772 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:25,874 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 06 41 0D 06 
+2025-06-02 20:49:25,875 [INFO] [OBD] vel recibido: 6
+2025-06-02 20:49:25,876 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:25,886 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:25,988 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 11 34 41 0C 11 08 >
+2025-06-02 20:49:25,990 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 11 34 41 0C 11 08 >, Parsing: None
+2025-06-02 20:49:25,990 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:26,091 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 07 41 0D 07 >
+2025-06-02 20:49:26,092 [INFO] [OBD] vel recibido: 7
+2025-06-02 20:49:26,093 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:26,108 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:26,209 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 13 CC 41 0C 13 B4 >
+2025-06-02 20:49:26,212 [INFO] [OBD] rpm recibido: 1267
+2025-06-02 20:49:26,212 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:26,314 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 08 41 0D 08 >
+2025-06-02 20:49:26,315 [INFO] [OBD] vel recibido: 8
+2025-06-02 20:49:26,316 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:26,330 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:26,432 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 15 2C 41 0C 15 08 
+2025-06-02 20:49:26,433 [INFO] [OBD] rpm recibido: 1355
+2025-06-02 20:49:26,434 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:26,534 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 09 41 0D 09 >
+2025-06-02 20:49:26,536 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 09 41 0D 09 >, Parsing: None
+2025-06-02 20:49:26,537 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:26,550 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:26,651 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 16 08 41 0C 15 F0 
+2025-06-02 20:49:26,653 [INFO] [OBD] rpm recibido: 1410
+2025-06-02 20:49:26,653 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:26,755 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 0A 41 0D 0A 
+2025-06-02 20:49:26,757 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 0A 41 0D 0A , Parsing: None
+2025-06-02 20:49:26,758 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:26,874 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:26,976 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 14 34 41 0C 14 6C 
+2025-06-02 20:49:26,981 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 14 34 41 0C 14 6C , Parsing: None
+2025-06-02 20:49:26,981 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:27,082 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 0B 41 0D 0A 
+2025-06-02 20:49:27,085 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 0B 41 0D 0A , Parsing: None
+2025-06-02 20:49:27,086 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:27,097 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:27,198 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 13 48 41 0C 13 38 
+2025-06-02 20:49:27,201 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 13 48 41 0C 13 38 , Parsing: None
+2025-06-02 20:49:27,201 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:27,303 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 0B 41 0D 0B >
+2025-06-02 20:49:27,304 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 0B 41 0D 0B >, Parsing: None
+2025-06-02 20:49:27,305 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:27,315 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:27,416 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 12 38 41 0C 12 28 
+2025-06-02 20:49:27,417 [INFO] [OBD] rpm recibido: 1166
+2025-06-02 20:49:27,418 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:27,518 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 0A 41 0D 0A >
+2025-06-02 20:49:27,520 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 0A 41 0D 0A >, Parsing: None
+2025-06-02 20:49:27,521 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:27,534 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:27,807 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 10 B4 41 0C 10 B4 
+2025-06-02 20:49:27,811 [INFO] [OBD] rpm recibido: 1069
+2025-06-02 20:49:27,811 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:27,912 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 0A 41 0D 0A 
+2025-06-02 20:49:27,916 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 0A 41 0D 0A , Parsing: None
+2025-06-02 20:49:27,917 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:27,964 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:28,067 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:28,070 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:28,070 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:28,170 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0C EC 41 0C 0D 24 >41 0D 0A 41 0D 09 
+2025-06-02 20:49:28,173 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0C EC 41 0C 0D 24 >41 0D 0A 41 0D 09 , Parsing: None
+2025-06-02 20:49:28,174 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:28,185 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:28,287 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 0C 00 41 0C 0C 00 
+2025-06-02 20:49:28,289 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 0C 00 41 0C 0C 00 , Parsing: None
+2025-06-02 20:49:28,289 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:28,390 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 09 41 0D 08 >
+2025-06-02 20:49:28,395 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 09 41 0D 08 >, Parsing: None
+2025-06-02 20:49:28,395 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:28,417 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:28,681 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B E8 41 0C 0B F8 
+2025-06-02 20:49:28,683 [INFO] [OBD] rpm recibido: 762
+2025-06-02 20:49:28,683 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:28,784 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 07 41 0D 06 
+2025-06-02 20:49:28,786 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 07 41 0D 06 , Parsing: None
+2025-06-02 20:49:28,787 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:28,854 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:28,955 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:28,958 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:28,959 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:29,103 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0B 98 41 0C 0B 80 
+2025-06-02 20:49:29,105 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0B 98 41 0C 0B 80 , Parsing: None
+2025-06-02 20:49:29,107 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:29,198 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:29,300 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0D 06 41 0D 05 >41 0C 0B 68 41 0C 0B 68 
+2025-06-02 20:49:29,302 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0D 06 41 0D 05 >41 0C 0B 68 41 0C 0B 68 , Parsing: None
+2025-06-02 20:49:29,302 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:29,404 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 05 41 0D 04 >
+2025-06-02 20:49:29,405 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 05 41 0D 04 >, Parsing: None
+2025-06-02 20:49:29,407 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:29,418 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:29,519 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 3C 41 0C 0B 50 >
+2025-06-02 20:49:29,521 [INFO] [OBD] rpm recibido: 719
+2025-06-02 20:49:29,521 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:29,622 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 04 41 0D 03 
+2025-06-02 20:49:29,623 [INFO] [OBD] vel recibido: 4
+2025-06-02 20:49:29,625 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:29,638 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:29,738 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 0B D4 41 0C 0B C8 >
+2025-06-02 20:49:29,742 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 0B D4 41 0C 0B C8 >, Parsing: None
+2025-06-02 20:49:29,742 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:29,844 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 03 41 0D 02 >
+2025-06-02 20:49:29,845 [INFO] [OBD] vel recibido: 3
+2025-06-02 20:49:29,845 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:29,862 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:29,963 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B C4 41 0C 0B C8 
+2025-06-02 20:49:29,965 [INFO] [OBD] rpm recibido: 753
+2025-06-02 20:49:29,965 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:30,066 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 02 41 0D 01 >
+2025-06-02 20:49:30,068 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 02 41 0D 01 >, Parsing: None
+2025-06-02 20:49:30,069 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:30,080 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:30,181 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 7C 41 0C 0B 80 
+2025-06-02 20:49:30,182 [INFO] [OBD] rpm recibido: 735
+2025-06-02 20:49:30,183 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:30,284 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 >
+2025-06-02 20:49:30,286 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:30,287 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:30,299 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:30,400 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 8C 41 0C 0B 80 >
+2025-06-02 20:49:30,401 [INFO] [OBD] rpm recibido: 739
+2025-06-02 20:49:30,401 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:30,502 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 >
+2025-06-02 20:49:30,503 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:30,503 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:30,515 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:30,617 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B C8 41 0C 0B C8 
+2025-06-02 20:49:30,618 [INFO] [OBD] rpm recibido: 754
+2025-06-02 20:49:30,618 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:30,719 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-02 20:49:30,722 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 , Parsing: None
+2025-06-02 20:49:30,723 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:30,736 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:30,836 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 0B 98 41 0C 0B 98 
+2025-06-02 20:49:30,838 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 0B 98 41 0C 0B 98 , Parsing: None
+2025-06-02 20:49:30,839 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:30,940 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 >
+2025-06-02 20:49:30,943 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:30,944 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:31,076 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:31,207 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 68 41 0C 0B 68 
+2025-06-02 20:49:31,210 [INFO] [OBD] rpm recibido: 730
+2025-06-02 20:49:31,210 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:31,310 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 >
+2025-06-02 20:49:31,314 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:31,315 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:31,403 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:31,679 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B E4 41 0C 0B E4 
+2025-06-02 20:49:31,681 [INFO] [OBD] rpm recibido: 761
+2025-06-02 20:49:31,681 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:31,787 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-02 20:49:31,815 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 , Parsing: None
+2025-06-02 20:49:31,816 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:31,836 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:31,939 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:31,945 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:31,945 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:32,046 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0B AC 41 0C 0B AC >
+2025-06-02 20:49:32,095 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0B AC 41 0C 0B AC >, Parsing: None
+2025-06-02 20:49:32,097 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:32,169 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:32,271 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0D 00 41 0D 00 >41 0C 0B 94 41 0C 0B A8 
+2025-06-02 20:49:32,280 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: 41 0D 00 41 0D 00 >41 0C 0B 94 41 0C 0B A8 , Parsing: None
+2025-06-02 20:49:32,280 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:32,386 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-02 20:49:32,388 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-02 20:49:32,390 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:32,486 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:32,592 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0D 00 41 0D 00 
+2025-06-02 20:49:32,594 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: 41 0D 00 41 0D 00 , Parsing: None
+2025-06-02 20:49:32,594 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:32,853 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-02 20:49:32,860 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-02 20:49:32,861 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:32,935 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:33,038 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B A8 41 0C 0B A8 >41 0D 00 41 0D 00 >41 0C 0B CC 41 0C 0B D0 
+2025-06-02 20:49:33,041 [INFO] [OBD] rpm recibido: 746
+2025-06-02 20:49:33,042 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:33,144 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-02 20:49:33,145 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 , Parsing: None
+2025-06-02 20:49:33,146 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:33,249 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:33,350 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 0B 98 41 0C 0B B0 
+2025-06-02 20:49:33,353 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 0B 98 41 0C 0B B0 , Parsing: None
+2025-06-02 20:49:33,353 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:33,456 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-02 20:49:33,459 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 , Parsing: None
+2025-06-02 20:49:33,459 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:33,578 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:33,680 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 0B A8 41 0C 0B C0 >
+2025-06-02 20:49:33,681 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 0B A8 41 0C 0B C0 >, Parsing: None
+2025-06-02 20:49:33,681 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:33,782 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 >
+2025-06-02 20:49:33,783 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:33,784 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:33,794 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:33,895 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B A8 41 0C 0B A8 
+2025-06-02 20:49:33,897 [INFO] [OBD] rpm recibido: 746
+2025-06-02 20:49:33,897 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:33,998 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 >
+2025-06-02 20:49:33,999 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:34,000 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:34,013 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:34,114 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 7C 41 0C 0B 70 >
+2025-06-02 20:49:34,115 [INFO] [OBD] rpm recibido: 735
+2025-06-02 20:49:34,115 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:34,216 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 >
+2025-06-02 20:49:34,218 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:34,220 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:34,231 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:34,332 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 98 41 0C 0B AC >
+2025-06-02 20:49:34,333 [INFO] [OBD] rpm recibido: 742
+2025-06-02 20:49:34,333 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:34,434 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 
+2025-06-02 20:49:34,442 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:34,460 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:34,618 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:34,723 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 0B 74 41 0C 0B 74 >
+2025-06-02 20:49:34,727 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 0B 74 41 0C 0B 74 >, Parsing: None
+2025-06-02 20:49:34,727 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:34,829 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 >
+2025-06-02 20:49:34,829 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:34,830 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:34,900 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:35,001 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 90 41 0C 0B B0 >
+2025-06-02 20:49:35,003 [INFO] [OBD] rpm recibido: 740
+2025-06-02 20:49:35,003 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:35,104 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 >
+2025-06-02 20:49:35,107 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:35,109 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:35,226 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:35,401 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 80 41 0C 0B 80 
+2025-06-02 20:49:35,403 [INFO] [OBD] rpm recibido: 736
+2025-06-02 20:49:35,404 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:35,507 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-02 20:49:35,509 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 , Parsing: None
+2025-06-02 20:49:35,510 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:35,548 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:35,649 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:35,651 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:35,651 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:35,752 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0B 74 41 0C 0B 74 >41 0D 00 41 0D 00 
+2025-06-02 20:49:35,757 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0B 74 41 0C 0B 74 >41 0D 00 41 0D 00 , Parsing: None
+2025-06-02 20:49:35,758 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:35,876 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:35,977 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 0B AC 41 0C 0B AC >
+2025-06-02 20:49:35,979 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 0B AC 41 0C 0B AC >, Parsing: None
+2025-06-02 20:49:35,979 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:36,208 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 
+2025-06-02 20:49:36,210 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:36,210 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:36,309 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:36,411 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:36,412 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:36,412 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:36,527 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0B A4 41 0C 0B 98 
+2025-06-02 20:49:36,530 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0B A4 41 0C 0B 98 , Parsing: None
+2025-06-02 20:49:36,531 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:36,638 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:36,884 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:36,890 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:36,890 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:36,991 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 >
+2025-06-02 20:49:36,992 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:36,993 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:37,075 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:37,177 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 98 41 0C 0B 98 STOPPED>7F 10 13 7F 10 12 >
+2025-06-02 20:49:37,178 [INFO] [OBD] rpm recibido: 742
+2025-06-02 20:49:37,178 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:37,280 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0B A8 41 0C 0B A8 >41 0D 00 41 0D 00 >
+2025-06-02 20:49:37,283 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0B A8 41 0C 0B A8 >41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:37,283 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:37,309 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:37,410 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B AC 41 0C 0B AC 
+2025-06-02 20:49:37,413 [INFO] [OBD] rpm recibido: 747
+2025-06-02 20:49:37,413 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:37,513 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 >
+2025-06-02 20:49:37,514 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:37,515 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:37,530 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:37,630 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 88 41 0C 0B 70 
+2025-06-02 20:49:37,636 [INFO] [OBD] rpm recibido: 738
+2025-06-02 20:49:37,637 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:37,739 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-02 20:49:37,742 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 , Parsing: None
+2025-06-02 20:49:37,743 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:37,853 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:37,954 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 0B 80 41 0C 0B 70 >
+2025-06-02 20:49:37,956 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 0B 80 41 0C 0B 70 >, Parsing: None
+2025-06-02 20:49:37,956 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:38,057 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 >
+2025-06-02 20:49:38,058 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:38,059 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:38,074 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:38,175 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B AC 41 0C 0B AC 
+2025-06-02 20:49:38,176 [INFO] [OBD] rpm recibido: 747
+2025-06-02 20:49:38,176 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:38,277 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 >
+2025-06-02 20:49:38,279 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:38,280 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:38,295 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:38,396 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 7C 41 0C 0B 94 
+2025-06-02 20:49:38,397 [INFO] [OBD] rpm recibido: 735
+2025-06-02 20:49:38,397 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:38,499 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 >
+2025-06-02 20:49:38,504 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:38,504 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:38,615 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:38,715 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 90 41 0C 0B A8 
+2025-06-02 20:49:38,718 [INFO] [OBD] rpm recibido: 740
+2025-06-02 20:49:38,718 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:38,820 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 >
+2025-06-02 20:49:38,822 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:38,824 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:38,941 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:39,042 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 74 41 0C 0B 74 
+2025-06-02 20:49:39,044 [INFO] [OBD] rpm recibido: 733
+2025-06-02 20:49:39,044 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:39,145 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-02 20:49:39,147 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 , Parsing: None
+2025-06-02 20:49:39,149 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:39,265 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:39,367 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:39,372 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:39,372 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:39,544 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0B 50 41 0C 0B 68 
+2025-06-02 20:49:39,546 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0B 50 41 0C 0B 68 , Parsing: None
+2025-06-02 20:49:39,547 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:39,592 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:39,693 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0D 00 41 0D 00 STOPPED>7F 10 13 7F 10 12 >
+2025-06-02 20:49:39,696 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0D 00 41 0D 00 STOPPED>7F 10 13 7F 10 12 >, Parsing: None
+2025-06-02 20:49:39,696 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:39,868 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 
+2025-06-02 20:49:39,870 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:39,871 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:39,920 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:40,022 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:40,024 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:40,024 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:40,125 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0B 80 41 0C 0B 94 >
+2025-06-02 20:49:40,128 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0B 80 41 0C 0B 94 >, Parsing: None
+2025-06-02 20:49:40,129 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:40,141 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:40,451 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0D 00 41 0D 00 STOPPED>7F 10 13 7F 10 12 
+2025-06-02 20:49:40,453 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: 41 0D 00 41 0D 00 STOPPED>7F 10 13 7F 10 12 , Parsing: None
+2025-06-02 20:49:40,453 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:40,555 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-02 20:49:40,558 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 , Parsing: None
+2025-06-02 20:49:40,559 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:40,578 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:40,680 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:40,683 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:40,684 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:40,819 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0B 8C 41 0C 0B 8C 
+2025-06-02 20:49:40,822 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0B 8C 41 0C 0B 8C , Parsing: None
+2025-06-02 20:49:40,823 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:40,919 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:41,021 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0D 00 41 0D 00 >
+2025-06-02 20:49:41,023 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:41,023 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:41,150 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0B 54 41 0C 0B 54 
+2025-06-02 20:49:41,167 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0B 54 41 0C 0B 54 , Parsing: None
+2025-06-02 20:49:41,169 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:41,229 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:41,331 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0D 00 41 0D 00 >41 0C 0B 7C 41 0C 0B 7C 
+2025-06-02 20:49:41,335 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0D 00 41 0D 00 >41 0C 0B 7C 41 0C 0B 7C , Parsing: None
+2025-06-02 20:49:41,336 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:41,437 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 >
+2025-06-02 20:49:41,440 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:41,441 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:41,466 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:41,569 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 8C 41 0C 0B 88 
+2025-06-02 20:49:41,571 [INFO] [OBD] rpm recibido: 739
+2025-06-02 20:49:41,571 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:41,672 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 >
+2025-06-02 20:49:41,674 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:41,675 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:41,779 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:41,881 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 98 41 0C 0B 98 >
+2025-06-02 20:49:41,884 [INFO] [OBD] rpm recibido: 742
+2025-06-02 20:49:41,884 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:41,985 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 >
+2025-06-02 20:49:41,987 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:41,988 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:42,001 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:42,102 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 8C 41 0C 0B 8C >
+2025-06-02 20:49:42,103 [INFO] [OBD] rpm recibido: 739
+2025-06-02 20:49:42,103 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:42,205 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 
+2025-06-02 20:49:42,207 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:42,208 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:42,223 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:42,325 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 0B 88 41 0C 0B 88 >
+2025-06-02 20:49:42,328 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 0B 88 41 0C 0B 88 >, Parsing: None
+2025-06-02 20:49:42,328 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:42,429 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 
+2025-06-02 20:49:42,430 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:42,433 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:42,446 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:42,548 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 0B 8C 41 0C 0B 8C 
+2025-06-02 20:49:42,551 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 0B 8C 41 0C 0B 8C , Parsing: None
+2025-06-02 20:49:42,551 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:42,652 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 >
+2025-06-02 20:49:42,654 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:42,657 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:42,763 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:42,865 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 90 41 0C 0B 90 
+2025-06-02 20:49:42,868 [INFO] [OBD] rpm recibido: 740
+2025-06-02 20:49:42,868 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:42,969 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 >
+2025-06-02 20:49:42,971 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:42,971 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:42,989 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:43,090 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 74 41 0C 0B 88 >
+2025-06-02 20:49:43,091 [INFO] [OBD] rpm recibido: 733
+2025-06-02 20:49:43,091 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:43,193 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 
+2025-06-02 20:49:43,195 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:43,196 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:43,317 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:43,418 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:43,421 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:43,421 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:43,593 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0B 94 41 0C 0B 94 
+2025-06-02 20:49:43,597 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0B 94 41 0C 0B 94 , Parsing: None
+2025-06-02 20:49:43,598 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:43,643 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:43,744 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0D 00 41 0D 00 STOPPED>7F 10 12 7F 10 13 
+2025-06-02 20:49:43,748 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0D 00 41 0D 00 STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-02 20:49:43,748 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:43,849 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-02 20:49:43,853 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 , Parsing: None
+2025-06-02 20:49:43,854 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:43,971 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:44,073 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:44,075 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:44,075 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:44,198 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0B 7C 41 0C 0B 88 
+2025-06-02 20:49:44,200 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0B 7C 41 0C 0B 88 , Parsing: None
+2025-06-02 20:49:44,201 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:44,302 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:44,403 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0D 00 41 0D 00 >41 0C 0B 78 41 0C 0B 7C >
+2025-06-02 20:49:44,405 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0D 00 41 0D 00 >41 0C 0B 78 41 0C 0B 7C >, Parsing: None
+2025-06-02 20:49:44,405 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:44,705 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 
+2025-06-02 20:49:44,707 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:44,708 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:44,740 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:44,841 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 0B 4C 41 0C 0B 50 
+2025-06-02 20:49:44,846 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 0B 4C 41 0C 0B 50 , Parsing: None
+2025-06-02 20:49:44,846 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:44,947 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-02 20:49:44,950 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-02 20:49:44,952 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:45,066 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:45,167 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0D 00 41 0D 00 >
+2025-06-02 20:49:45,170 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: 41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:45,170 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:45,271 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0B 5C 41 0C 0B 5C >41 0D 00 41 0D 00 >
+2025-06-02 20:49:45,273 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0B 5C 41 0C 0B 5C >41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:45,275 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:45,391 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:45,492 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 84 41 0C 0B 7C >
+2025-06-02 20:49:45,493 [INFO] [OBD] rpm recibido: 737
+2025-06-02 20:49:45,494 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:45,596 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 >
+2025-06-02 20:49:45,598 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:45,599 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:45,609 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:45,711 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 58 41 0C 0B 70 >
+2025-06-02 20:49:45,713 [INFO] [OBD] rpm recibido: 726
+2025-06-02 20:49:45,714 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:45,815 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 
+2025-06-02 20:49:45,816 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:45,818 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:45,835 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:45,937 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 0B 40 41 0C 0B 40 
+2025-06-02 20:49:45,939 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 0B 40 41 0C 0B 40 , Parsing: None
+2025-06-02 20:49:45,939 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:46,041 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 >
+2025-06-02 20:49:46,043 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:46,045 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:46,157 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:46,259 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 7C 41 0C 0B 7C 
+2025-06-02 20:49:46,263 [INFO] [OBD] rpm recibido: 735
+2025-06-02 20:49:46,263 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:46,364 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-02 20:49:46,367 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 , Parsing: None
+2025-06-02 20:49:46,369 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:46,482 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:46,584 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 0B 70 41 0C 0B 70 
+2025-06-02 20:49:46,586 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 0B 70 41 0C 0B 70 , Parsing: None
+2025-06-02 20:49:46,587 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:46,688 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-02 20:49:46,691 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 , Parsing: None
+2025-06-02 20:49:46,692 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:46,702 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:46,803 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 0B 8C 41 0C 0B 8C 
+2025-06-02 20:49:46,806 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 0B 8C 41 0C 0B 8C , Parsing: None
+2025-06-02 20:49:46,806 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:46,907 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 >
+2025-06-02 20:49:46,911 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:46,912 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:47,031 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:47,132 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 64 41 0C 0B 68 >
+2025-06-02 20:49:47,134 [INFO] [OBD] rpm recibido: 729
+2025-06-02 20:49:47,134 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:47,268 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 
+2025-06-02 20:49:47,269 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:47,270 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:47,360 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:47,463 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:47,465 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:47,465 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:47,578 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0B 70 41 0C 0B 70 
+2025-06-02 20:49:47,580 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0B 70 41 0C 0B 70 , Parsing: None
+2025-06-02 20:49:47,581 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:47,686 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:47,788 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0D 00 41 0D 00 >
+2025-06-02 20:49:47,790 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0D 00 41 0D 00 >, Parsing: None
+2025-06-02 20:49:47,790 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:47,995 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0B 5C 41 0C 0B 5C 
+2025-06-02 20:49:47,998 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0B 5C 41 0C 0B 5C , Parsing: None
+2025-06-02 20:49:47,999 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:48,013 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:48,115 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:48,117 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:48,117 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:48,219 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 STOPPED>7F 10 12 7F 10 13 >
+2025-06-02 20:49:48,220 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:48,221 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:48,236 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:48,337 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0D 00 41 0D 00 STOPPED>7F 10 12 7F 10 13 
+2025-06-02 20:49:48,340 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: 41 0D 00 41 0D 00 STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-02 20:49:48,341 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:48,442 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-02 20:49:48,445 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-02 20:49:48,446 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:48,462 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:48,563 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0D 00 41 0D 00 >41 0C 0B 84 41 0C 0B 84 
+2025-06-02 20:49:48,565 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: 41 0D 00 41 0D 00 >41 0C 0B 84 41 0C 0B 84 , Parsing: None
+2025-06-02 20:49:48,565 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:48,702 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): STOPPED>7F 10 12 7F 10 13 
+2025-06-02 20:49:48,705 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-02 20:49:48,706 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:48,794 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:48,895 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-02 20:49:48,898 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-02 20:49:48,898 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:49,116 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0B 64 41 0C 0B 64 
+2025-06-02 20:49:49,119 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0B 64 41 0C 0B 64 , Parsing: None
+2025-06-02 20:49:49,120 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:49,227 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:49,329 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0D 00 41 0D 00 >41 0C 0B 64 41 0C 0B 64 
+2025-06-02 20:49:49,331 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0D 00 41 0D 00 >41 0C 0B 64 41 0C 0B 64 , Parsing: None
+2025-06-02 20:49:49,332 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:49,433 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-02 20:49:49,436 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >41 0D 00 41 0D 00 , Parsing: None
+2025-06-02 20:49:49,437 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:49,550 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:49,651 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >41 0C 0B 68 41 0C 0B 68 >
+2025-06-02 20:49:49,655 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >41 0C 0B 68 41 0C 0B 68 >, Parsing: None
+2025-06-02 20:49:49,655 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:49,756 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 >
+2025-06-02 20:49:49,757 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:49,760 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:49,878 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:49,981 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 50 41 0C 0B 50 >
+2025-06-02 20:49:49,982 [INFO] [OBD] rpm recibido: 724
+2025-06-02 20:49:49,982 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:50,083 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 >
+2025-06-02 20:49:50,084 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:50,085 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:50,210 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-02 20:49:50,312 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0B 70 41 0C 0B 70 >
+2025-06-02 20:49:50,313 [INFO] [OBD] rpm recibido: 732
+2025-06-02 20:49:50,313 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-02 20:49:50,414 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 >
+2025-06-02 20:49:50,415 [INFO] [OBD] vel recibido: 0
+2025-06-02 20:49:50,416 [WARNING] ADVERTENCIA: El PID escenario no está definido en PIDS para modo real.
+2025-06-02 20:49:52,821 [INFO] PIDs con datos válidos: escenario, rpm, timestamp, vel
+2025-06-02 20:49:52,823 [INFO] PIDs siempre vacíos: 
+2025-06-02 20:49:52,823 [INFO] [AUDITORÍA] Comandos y respuestas crudas por sesión:
+2025-06-02 20:49:52,824 [INFO] Gauges activos en UI: 4, gauges ocultados por falta de datos: 0

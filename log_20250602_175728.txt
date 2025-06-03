@@ -1,0 +1,2 @@
+2025-06-02 17:57:28,323 [INFO] --- INICIO DE SESIÓN OBD-II: log_20250602_175728.txt ---
+2025-06-02 17:57:48,695 [INFO] No se registraron datos en la sesión.

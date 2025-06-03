@@ -1,0 +1,1051 @@
+2025-06-02 19:24:24,077 [INFO] --- INICIO DE SESIÓN OBD-II: log_20250602_192424.txt ---
+2025-06-02 19:24:51,138 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:51,138 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:51,139 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:51,158 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:51,158 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:51,159 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:51,262 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:51,263 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:51,263 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:51,376 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:51,376 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:51,377 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:51,487 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:51,487 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:51,488 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:51,589 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:51,590 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:51,590 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:51,700 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:51,700 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:51,702 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:51,812 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:51,814 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:51,814 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:51,919 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:51,919 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:51,919 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:52,029 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:52,030 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:52,030 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:52,142 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:52,143 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:52,143 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:52,255 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:52,255 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:52,256 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:52,356 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:52,357 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:52,358 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:52,468 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:52,469 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:52,470 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:52,575 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:52,576 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:52,576 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:52,687 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:52,687 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:52,687 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:52,798 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:52,799 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:52,799 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:52,911 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:52,911 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:52,912 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:53,013 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:53,013 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:53,014 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:53,124 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:53,126 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:53,126 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:53,231 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:53,231 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:53,232 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:53,343 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:53,344 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:53,345 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:53,455 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:53,455 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:53,456 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:53,566 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:53,566 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:53,567 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:53,666 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:53,666 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:53,668 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:53,782 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:53,783 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:53,783 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:53,886 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:53,887 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:53,887 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:53,998 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:54,000 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:54,000 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:54,109 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:54,109 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:54,110 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:54,220 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:54,221 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:54,221 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:54,324 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:54,326 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:54,326 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:54,433 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:54,433 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:54,434 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:54,543 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:54,543 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:54,543 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:54,654 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:54,655 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:54,655 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:54,765 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:54,765 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:54,767 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:54,876 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:54,876 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:54,876 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:54,982 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:54,982 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:54,983 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:56,666 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:56,667 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:56,668 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:56,745 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:56,749 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:56,752 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:56,845 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:56,845 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:56,846 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:56,948 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:56,949 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:56,949 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:57,062 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:57,063 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:57,063 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:57,172 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:57,172 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:57,174 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:57,280 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:57,280 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:57,281 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:57,385 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:57,387 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:57,387 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:57,497 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:57,497 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:57,497 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:57,604 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:57,604 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:57,606 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:57,714 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:57,714 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:57,715 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:57,827 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:57,827 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:57,828 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:57,935 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:57,935 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:57,936 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:58,046 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:58,048 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:58,048 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:58,155 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:58,156 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:24:58,156 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:58,262 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:58,262 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:24:58,363 [INFO] Respuesta cruda para 010C (PID: rpm): SEARCHING...
+2025-06-02 19:24:58,366 [WARNING] PID rpm sin datos válidos tras parsing.
+2025-06-02 19:24:58,367 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:24:58,368 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:58,487 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:58,488 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:24:58,588 [INFO] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013
+2025-06-02 19:24:58,591 [WARNING] PID rpm sin datos válidos tras parsing.
+2025-06-02 19:24:58,592 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:24:58,593 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:58,705 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:58,705 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:24:58,805 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0FCC410C0FCC
+2025-06-02 19:24:58,808 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:24:58,809 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:58,919 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:58,919 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:24:59,020 [INFO] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013
+2025-06-02 19:24:59,023 [WARNING] PID rpm sin datos válidos tras parsing.
+2025-06-02 19:24:59,024 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:24:59,024 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:59,139 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:59,139 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:24:59,240 [INFO] Respuesta cruda para 010C (PID: rpm): >410C1000410C0FF4
+2025-06-02 19:24:59,242 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:24:59,242 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:59,361 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:59,361 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:24:59,462 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0FBC410C0FBC
+2025-06-02 19:24:59,465 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:24:59,465 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:59,573 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:59,573 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:24:59,674 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0FAC410C0FAC
+2025-06-02 19:24:59,675 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:24:59,677 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:59,688 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:59,688 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:24:59,789 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0F94410C0FAC
+2025-06-02 19:24:59,790 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:24:59,791 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:24:59,800 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:24:59,800 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:24:59,901 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0FC4410C0FB4>
+2025-06-02 19:24:59,903 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:24:59,904 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:00,014 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:00,014 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:00,116 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0FD8410C0FD8
+2025-06-02 19:25:00,117 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:00,117 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:00,229 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:00,229 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:00,229 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:00,330 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0FD0410C0FC8>
+2025-06-02 19:25:00,332 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:00,333 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:00,453 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:00,453 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:00,453 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:00,554 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0FD8410C0FD8
+2025-06-02 19:25:00,557 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:00,558 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:00,571 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:00,571 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:00,571 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:00,672 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0F60410C0F60
+2025-06-02 19:25:00,673 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:00,674 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:00,782 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:00,782 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:00,782 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:00,884 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0F80410C0F80>
+2025-06-02 19:25:00,887 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:00,888 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:00,897 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:00,898 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:00,898 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:00,999 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0F88410C0F88
+2025-06-02 19:25:01,001 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:01,002 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:01,105 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:01,105 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:01,105 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:01,206 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0F88410C0F90
+2025-06-02 19:25:01,207 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:01,207 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:01,216 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:01,217 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:01,217 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:01,317 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0FCC410C0FCC
+2025-06-02 19:25:01,320 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:01,321 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:01,439 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:01,441 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:01,441 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:01,541 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0FC4410C0FC0>
+2025-06-02 19:25:01,544 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:01,545 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:01,654 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:01,654 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:01,654 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:01,755 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0F3C410C0F3C>
+2025-06-02 19:25:01,757 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:01,758 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:01,764 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:01,765 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:01,765 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:01,866 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0F28410C0F2C>
+2025-06-02 19:25:01,868 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:01,869 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:01,878 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:01,880 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:01,880 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:01,980 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0F5C410C0F54
+2025-06-02 19:25:01,981 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:01,982 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:02,094 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:02,095 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:02,095 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:02,196 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0F98410C0FB8>
+2025-06-02 19:25:02,198 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:02,198 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:02,206 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:02,207 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:02,207 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:02,309 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0FAC410C0FB8>
+2025-06-02 19:25:02,310 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:02,311 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:02,423 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:02,424 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:02,424 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:02,525 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0FCC410C0FC0
+2025-06-02 19:25:02,527 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:02,527 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:02,640 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:02,641 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:02,641 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:02,742 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0FA0410C0F94
+2025-06-02 19:25:02,743 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:02,744 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:02,751 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:02,751 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:02,752 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:02,852 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0F74410C0F64
+2025-06-02 19:25:02,853 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:02,853 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:02,861 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:02,862 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:02,862 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:02,963 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0F78410C0F78
+2025-06-02 19:25:02,965 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:02,965 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:02,972 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:02,972 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:02,972 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:03,074 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0F68410C0F44>
+2025-06-02 19:25:03,075 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:03,075 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:03,184 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:03,184 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:03,184 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:03,285 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0F78410C0F78
+2025-06-02 19:25:03,286 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:03,286 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:03,295 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:03,295 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:03,295 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:03,396 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0F6C410C0F80>
+2025-06-02 19:25:03,398 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:03,398 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:03,406 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:03,407 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:03,407 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:03,508 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0F88410C0F80>
+2025-06-02 19:25:03,511 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:03,511 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:03,523 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:03,525 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:03,525 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:03,626 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0F50410C0F4C
+2025-06-02 19:25:03,635 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:03,639 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:03,744 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:03,749 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:03,749 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:03,850 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0F90410C0F90
+2025-06-02 19:25:03,852 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:03,852 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:03,951 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:03,952 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:03,952 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:04,053 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0F58410C0F58
+2025-06-02 19:25:04,054 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:04,054 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:04,061 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:04,062 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:04,062 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:04,163 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0F54410C0F54>
+2025-06-02 19:25:04,164 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:04,164 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:04,174 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:04,175 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:04,175 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:04,276 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0F18410C0F1C>
+2025-06-02 19:25:04,278 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:04,278 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:04,285 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:04,286 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:04,286 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:04,387 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0F18410C0F4C>
+2025-06-02 19:25:04,388 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:04,389 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:04,395 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:04,396 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:04,396 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:04,497 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0F58410C0F58>
+2025-06-02 19:25:04,499 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:04,499 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:04,606 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:04,606 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:04,606 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:04,708 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0F2C410C0F34
+2025-06-02 19:25:04,708 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:04,709 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:04,718 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:04,720 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:04,721 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:04,822 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0F54410C0F3C>
+2025-06-02 19:25:04,824 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:04,824 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:04,830 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:04,830 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:04,830 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:04,931 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0F70410C0F70
+2025-06-02 19:25:04,933 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:04,933 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:04,938 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:04,939 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:04,939 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:05,039 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0F6C410C0F6C>
+2025-06-02 19:25:05,042 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:05,043 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:05,057 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:05,057 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:05,057 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:05,158 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0F64410C0F60
+2025-06-02 19:25:05,159 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:05,160 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:05,263 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:05,263 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:05,263 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:05,364 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0F3C410C0F4C
+2025-06-02 19:25:05,368 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:05,369 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:05,481 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:05,482 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:05,482 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:05,582 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0EF8410C0EF4
+2025-06-02 19:25:05,585 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:05,586 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:05,700 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:05,701 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:05,701 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:05,802 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0EC4410C0EB4
+2025-06-02 19:25:05,805 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:05,806 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:05,920 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:05,921 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:05,921 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:06,022 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0EF0410C0EE4
+2025-06-02 19:25:06,022 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:06,023 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:06,027 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:06,027 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:06,027 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:06,128 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0EFC410C0F18>
+2025-06-02 19:25:06,129 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:06,130 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:06,140 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:06,140 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:06,140 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:06,242 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0F40410C0F48
+2025-06-02 19:25:06,243 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:06,243 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:06,358 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:06,358 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:06,358 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:06,460 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0F44410C0F60
+2025-06-02 19:25:06,461 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:06,461 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:06,575 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:06,576 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:06,576 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:06,676 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0F20410C0F14>
+2025-06-02 19:25:06,678 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:06,678 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:06,687 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:06,687 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:06,687 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:06,789 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0EBC410C0EC4>
+2025-06-02 19:25:06,790 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:06,791 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:06,799 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:06,800 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:06,800 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:06,901 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0EDC410C0EEC>
+2025-06-02 19:25:06,903 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:06,903 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:06,908 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:06,910 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:06,910 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:07,010 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0ED0410C0EE8>
+2025-06-02 19:25:07,011 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:07,011 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:07,018 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:07,019 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:07,019 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:07,120 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0F10410C0F18>
+2025-06-02 19:25:07,121 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:07,121 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:07,231 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:07,231 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:07,232 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:07,232 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:07,355 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0F04410C0F2C
+2025-06-02 19:25:07,356 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:07,357 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:07,452 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:07,453 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:07,453 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:07,453 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:07,554 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0F00410C0EFC
+2025-06-02 19:25:07,556 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:07,556 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:07,668 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:07,668 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:07,670 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:07,670 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:07,770 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0EB0410C0EB0
+2025-06-02 19:25:07,772 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:07,772 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:07,780 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:07,780 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:07,781 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:07,781 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:07,881 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0EC0410C0ED0>
+2025-06-02 19:25:07,884 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:07,885 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:07,996 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:07,996 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:07,997 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:07,997 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:08,097 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0ECC410C0EF0>
+2025-06-02 19:25:08,098 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:08,098 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:08,106 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:08,107 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:08,111 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:08,111 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:08,212 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0EE4410C0EE4
+2025-06-02 19:25:08,213 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:08,213 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:08,324 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:08,324 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:08,325 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:08,325 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:08,426 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0F14410C0F04>
+2025-06-02 19:25:08,429 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:08,430 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:08,544 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:08,544 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:08,545 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:08,545 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:08,645 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0F04410C0F04>
+2025-06-02 19:25:08,647 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:08,647 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:08,761 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:08,761 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:08,762 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:08,762 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:08,863 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0EF4410C0EF0>
+2025-06-02 19:25:08,865 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:08,867 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:08,980 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:08,981 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:08,981 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:08,981 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:09,082 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0EB8410C0EB4
+2025-06-02 19:25:09,083 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:09,083 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:09,092 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:09,093 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:09,093 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:09,093 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:09,093 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:09,194 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0EA0410C0E98
+2025-06-02 19:25:09,197 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:09,198 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:09,310 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:09,310 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:09,311 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:09,311 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:09,311 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:09,412 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0E84410C0E84
+2025-06-02 19:25:09,414 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:09,414 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:09,421 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:09,421 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:09,422 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:09,422 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:09,422 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:09,524 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0E9C410C0E9C>
+2025-06-02 19:25:09,527 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:09,528 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:09,538 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:09,538 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:09,539 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:09,539 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:09,539 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:09,641 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0EB8410C0EC4>
+2025-06-02 19:25:09,642 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:09,643 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:09,750 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:09,750 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:09,751 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:09,751 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:09,751 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:09,852 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0EE0410C0ED0>
+2025-06-02 19:25:09,854 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:09,854 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:09,860 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:09,861 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:09,861 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:09,862 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:09,862 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:09,963 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0E98410C0E88>
+2025-06-02 19:25:09,965 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:09,967 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:10,074 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:10,074 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:10,075 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:10,075 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:10,075 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:10,176 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0E2C410C0E34
+2025-06-02 19:25:10,178 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:10,180 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:10,294 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:10,294 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:10,295 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:10,295 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:10,295 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:10,396 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0E74410C0E80
+2025-06-02 19:25:10,397 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:10,398 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:10,512 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:10,512 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:10,512 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:10,513 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:10,513 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:10,513 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:10,615 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0E74410C0E50>
+2025-06-02 19:25:10,616 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:10,617 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:10,624 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:10,624 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:10,625 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:10,626 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:10,626 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:10,626 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:10,727 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0E68410C0E4C>
+2025-06-02 19:25:10,728 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:10,728 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:10,847 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:10,848 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:10,848 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:10,849 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:10,849 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:10,849 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:10,950 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0E58410C0E64>
+2025-06-02 19:25:10,953 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:10,954 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:11,062 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:11,062 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:11,062 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:11,063 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:11,063 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:11,064 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:11,165 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0E40410C0E40
+2025-06-02 19:25:11,166 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:11,166 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:11,278 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:11,280 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:11,281 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:11,281 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:11,282 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:11,282 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:11,383 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0E14410C0E14>
+2025-06-02 19:25:11,386 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:11,387 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:11,498 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:11,498 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:11,498 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:11,499 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:11,499 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:11,499 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:11,600 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0E48410C0E5C>
+2025-06-02 19:25:11,603 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:11,605 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:11,716 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:11,717 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:11,717 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:11,717 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:11,717 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:11,717 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:11,818 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0E80410C0E70>
+2025-06-02 19:25:11,821 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:11,823 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:11,832 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:11,832 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:11,833 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:11,834 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:11,836 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:11,836 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:11,937 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0E04410C0DF8
+2025-06-02 19:25:11,940 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:11,941 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:12,046 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:12,047 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:12,048 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:12,048 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:12,048 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:12,049 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:12,049 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:12,150 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0DEC410C0DF4>
+2025-06-02 19:25:12,152 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:12,153 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:12,261 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:12,262 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:12,262 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:12,263 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:12,264 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:12,264 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:12,264 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:12,365 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0E44410C0E44
+2025-06-02 19:25:12,368 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:12,370 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:12,381 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:12,382 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:12,382 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:12,383 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:12,385 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:12,386 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:12,386 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:12,487 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0E70410C0E5C
+2025-06-02 19:25:12,490 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:12,491 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:12,590 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:12,590 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:12,591 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:12,591 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:12,591 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:12,593 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:12,593 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:12,694 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0E08410C0E08
+2025-06-02 19:25:12,696 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:12,697 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:12,708 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:12,708 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:12,709 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:12,709 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:12,709 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:12,710 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:12,710 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:12,811 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0E0C410C0E0C
+2025-06-02 19:25:12,813 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:12,815 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:12,928 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:12,928 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:12,929 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:12,930 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:12,930 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:12,930 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:12,930 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:13,031 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0E60410C0E84
+2025-06-02 19:25:13,034 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:13,035 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:13,140 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:13,141 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:13,141 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:13,142 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:13,142 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:13,144 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:13,144 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:13,245 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0E34410C0E1C>
+2025-06-02 19:25:13,247 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:13,247 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:13,360 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:13,360 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:13,361 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:13,361 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:13,362 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:13,362 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:13,362 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:13,463 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0E08410C0E18>
+2025-06-02 19:25:13,464 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:13,465 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:13,472 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:13,474 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:13,476 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:13,476 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:13,476 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:13,477 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:13,477 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:13,578 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0DEC410C0E08
+2025-06-02 19:25:13,580 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:13,581 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:13,685 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:13,685 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:13,685 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:13,685 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:13,686 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:13,686 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:13,686 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:13,788 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0DF8410C0DEC>
+2025-06-02 19:25:13,790 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:13,791 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:13,803 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:13,804 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:13,804 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:13,805 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:13,805 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:13,805 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:13,805 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:13,906 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0DF4410C0DF4
+2025-06-02 19:25:13,908 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:13,911 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:14,015 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:14,016 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:14,016 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:14,016 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:14,017 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:14,017 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:14,018 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:14,119 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0DE8410C0DE4>
+2025-06-02 19:25:14,120 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:14,120 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:14,127 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:14,128 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:14,129 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:14,130 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:14,130 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:14,131 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:14,131 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:14,232 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0DB8410C0DB8
+2025-06-02 19:25:14,235 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:14,236 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:14,340 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:14,341 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:14,341 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:14,342 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:14,342 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:14,342 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:14,342 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:14,443 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0D90410C0D9C
+2025-06-02 19:25:14,447 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:14,448 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:14,461 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:14,461 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:14,462 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:14,462 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:14,463 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:14,463 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:14,463 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:14,564 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0D90410C0D90
+2025-06-02 19:25:14,567 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:14,568 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:14,671 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:14,671 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:14,671 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:14,672 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:14,672 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:14,672 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:14,672 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:14,774 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0DE4410C0DE4>
+2025-06-02 19:25:14,777 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:14,778 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:14,790 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:14,790 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:14,790 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:14,790 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:14,791 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:14,791 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:14,791 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:14,892 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0DF4410C0DF4
+2025-06-02 19:25:14,896 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:14,897 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:14,996 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:14,996 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:14,997 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:14,997 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:14,997 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:14,998 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:14,998 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:15,099 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0DB0410C0DC0
+2025-06-02 19:25:15,100 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:15,100 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:15,109 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:15,110 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:15,110 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:15,112 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:15,116 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:15,117 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:15,117 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:15,217 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0DA0410C0DBC>
+2025-06-02 19:25:15,218 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:15,220 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:15,326 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:15,327 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:15,328 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:15,328 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:15,329 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:15,329 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:15,329 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:15,430 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0DB4410C0DB4>
+2025-06-02 19:25:15,433 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:15,434 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:15,446 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:15,446 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:15,447 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:15,447 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:15,449 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:15,450 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:15,450 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:15,550 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0D90410C0D90>
+2025-06-02 19:25:15,552 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:15,554 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:15,652 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:15,653 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:15,653 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:15,653 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:15,653 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:15,654 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:15,654 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:15,756 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0D9C410C0D9C
+2025-06-02 19:25:15,757 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:15,758 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:15,769 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:15,769 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:15,770 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:15,770 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:15,771 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:15,771 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:15,771 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:15,872 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0DA0410C0DA0
+2025-06-02 19:25:15,875 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:15,876 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:15,983 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:15,983 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:15,984 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:15,984 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:15,984 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:15,985 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:15,985 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:16,085 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0D44410C0D44
+2025-06-02 19:25:16,087 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:16,088 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:16,098 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:16,099 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:16,099 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:16,100 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:16,100 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:16,101 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:16,101 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:16,201 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0D1C410C0D1C
+2025-06-02 19:25:16,203 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:16,203 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:16,310 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:16,310 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:16,310 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:16,311 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:16,311 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:16,312 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:16,312 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:16,413 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0D94410C0D6C>
+2025-06-02 19:25:16,416 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:16,417 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:16,429 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:16,431 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:16,432 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:16,432 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:16,433 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:16,433 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:16,433 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:16,534 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0D80410C0D70
+2025-06-02 19:25:16,535 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:16,536 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:16,639 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:16,640 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:16,640 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:16,640 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:16,641 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:16,642 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:16,642 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:16,744 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0D8C410C0DA0
+2025-06-02 19:25:16,745 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:16,745 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:16,754 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:16,756 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:16,756 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:16,757 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:16,757 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:16,757 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:16,757 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:16,858 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0D78410C0D88
+2025-06-02 19:25:16,860 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:16,862 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:16,966 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:16,966 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:16,966 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:16,967 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:16,967 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:16,967 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:16,968 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:17,069 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0CE4410C0CE4>
+2025-06-02 19:25:17,071 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:17,072 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:17,083 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:17,083 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:17,085 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:17,085 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:17,086 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:17,086 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:17,086 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:17,187 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0CA8410C0CF8
+2025-06-02 19:25:17,188 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:17,189 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:17,294 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:17,294 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:17,295 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:17,295 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:17,297 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:17,297 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:17,297 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:17,398 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0D40410C0D28>
+2025-06-02 19:25:17,399 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:17,399 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:17,409 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:17,410 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:17,411 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:17,411 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:17,412 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:17,413 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:17,413 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:17,514 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0D34410C0D34
+2025-06-02 19:25:17,518 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:17,519 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:17,621 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:17,621 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:17,622 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:17,622 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:17,622 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:17,623 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:17,623 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:17,724 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0D4C410C0D4C
+2025-06-02 19:25:17,725 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:17,726 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:17,839 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:17,840 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:17,840 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:17,841 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:17,841 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:17,842 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:17,842 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:17,943 [INFO] Respuesta cruda para 010C (PID: rpm): >410C0D00410C0CD8>
+2025-06-02 19:25:17,945 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:17,947 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:17,957 [WARNING] PID 010C no está definido en PIDS para modo real.
+2025-06-02 19:25:17,959 [WARNING] PID 010D no está definido en PIDS para modo real.
+2025-06-02 19:25:17,959 [WARNING] PID 0105 no está definido en PIDS para modo real.
+2025-06-02 19:25:17,960 [WARNING] PID 0110 no está definido en PIDS para modo real.
+2025-06-02 19:25:17,961 [WARNING] PID 0111 no está definido en PIDS para modo real.
+2025-06-02 19:25:17,962 [WARNING] PID 012F no está definido en PIDS para modo real.
+2025-06-02 19:25:17,962 [INFO] Enviando comando: 010C (PID: rpm)
+2025-06-02 19:25:18,063 [INFO] Respuesta cruda para 010C (PID: rpm): 410C0D4C410C0D4C
+2025-06-02 19:25:18,065 [WARNING] PID vel no está definido en PIDS para modo real.
+2025-06-02 19:25:18,066 [WARNING] PID escenario no está definido en PIDS para modo real.
+2025-06-02 19:25:20,033 [INFO] Resumen de sesión:
+2025-06-02 19:25:20,033 [INFO] PIDs con datos válidos: escenario, rpm, timestamp
+2025-06-02 19:25:20,033 [INFO] PIDs siempre vacíos: 010C, vel
+2025-06-02 19:25:20,033 [WARNING] Algunos PIDs no recibieron datos válidos durante la sesión.
+2025-06-02 19:25:20,033 [INFO] Gauges activos en UI: 3, gauges ocultados por falta de datos: 2

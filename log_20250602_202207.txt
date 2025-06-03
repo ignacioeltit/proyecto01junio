@@ -1,0 +1,20 @@
+2025-06-02 20:22:07,881 [INFO] --- INICIO DE SESIÓN OBD-II: log_20250602_202207.txt ---
+2025-06-02 20:22:09,066 [INFO] [TEST] Test automático de PIDs lanzado automáticamente al inicio de la app.
+2025-06-02 20:22:10,355 [INFO] [TEST] Iniciando test automatizado de selección/borrado de PIDs
+2025-06-02 20:22:10,383 [INFO] [TEST] Seleccionado PID: 010C | Gauges activos: ['010C'] | Columnas: ['010C']
+2025-06-02 20:22:10,396 [INFO] [TEST] Seleccionado PID: 010D | Gauges activos: ['010D'] | Columnas: ['010D']
+2025-06-02 20:22:10,412 [INFO] [TEST] Seleccionado PID: 0105 | Gauges activos: ['0105'] | Columnas: ['0105']
+2025-06-02 20:22:10,418 [INFO] [TEST] Seleccionado PID: 0110 | Gauges activos: ['0110'] | Columnas: ['0110']
+2025-06-02 20:22:10,427 [INFO] [TEST] Seleccionado PID: 0111 | Gauges activos: ['0111'] | Columnas: ['0111']
+2025-06-02 20:22:10,436 [INFO] [TEST] Seleccionado PID: 012F | Gauges activos: ['012F'] | Columnas: ['012F']
+2025-06-02 20:22:10,743 [INFO] [TEST] Borrado PID: 010C | Gauges activos: ['012F'] | Columnas: ['012F']
+2025-06-02 20:22:11,049 [INFO] [TEST] Borrado PID: 010D | Gauges activos: ['012F'] | Columnas: ['012F']
+2025-06-02 20:22:11,354 [INFO] [TEST] Borrado PID: 0105 | Gauges activos: ['012F'] | Columnas: ['012F']
+2025-06-02 20:22:11,659 [INFO] [TEST] Borrado PID: 0110 | Gauges activos: ['012F'] | Columnas: ['012F']
+2025-06-02 20:22:11,962 [INFO] [TEST] Borrado PID: 0111 | Gauges activos: ['012F'] | Columnas: ['012F']
+2025-06-02 20:22:12,272 [INFO] [TEST] Borrado PID: 012F | Gauges activos: [] | Columnas: []
+2025-06-02 20:22:12,395 [INFO] 
+--- RESUMEN TEST AUTOMATIZADO ---
+PIDs/gauges correctamente activados/desactivados: {'0110', '0111', '010D', '0105', '012F', '010C'}
+[OK] El sistema pasó el test: no hay gauges ni columnas fantasma.
+2025-06-02 20:22:20,682 [INFO] No se registraron datos en la sesión.

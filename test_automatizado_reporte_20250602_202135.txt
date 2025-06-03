@@ -1,0 +1,4 @@
+
+--- RESUMEN TEST AUTOMATIZADO ---
+PIDs/gauges correctamente activados/desactivados: {'0111', '0110', '012F', '010C', '0105', '010D'}
+[OK] El sistema pasó el test: no hay gauges ni columnas fantasma.

@@ -1,0 +1,3 @@
+2025-06-02 20:54:55,505 [INFO] --- INICIO DE SESIÓN OBD-II: log_20250602_205455.txt ---
+2025-06-02 20:54:56,564 [INFO] [TEST] Test automático de PIDs lanzado automáticamente al inicio de la app.
+2025-06-02 20:55:30,803 [INFO] [HANDSHAKE] Handshake OK con ELM327

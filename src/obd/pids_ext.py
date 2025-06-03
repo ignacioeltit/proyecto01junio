@@ -66,5 +66,31 @@ PIDS = {
     # Puedes agregar más PIDs según lo necesites
 }
 
-# Este archivo debe ser usado como referencia principal para selección dinámica,
-# validación y parsing de parámetros OBD-II en el sistema.
+# --- Mapeo global PID (hex) -> nombre legible ---
+PID_MAP = {
+    '010C': 'rpm',
+    '010D': 'vel',
+    '0105': 'temp',
+    '0110': 'maf',
+    '0111': 'throttle',
+    '012F': 'fuel_level',
+    # Agrega aquí más mapeos si agregas más PIDs
+}
+
+
+# --- Función centralizada de normalización de PID ---
+def normalizar_pid(pid_code):
+    """
+    Normaliza cualquier variante de PID (hex o nombre legible) a su nombre
+    legible estándar. Si ya es nombre legible, lo retorna igual. Si es hex,
+    retorna el nombre legible según el mapeo.
+    """
+    if pid_code in PID_MAP:
+        return PID_MAP[pid_code]
+    # Si ya es nombre legible
+    if pid_code in PID_MAP.values():
+        return pid_code
+    return pid_code  # Si no está mapeado, retorna igual
+
+# Este archivo debe ser usado como referencia principal para selección
+# dinámica, validación y parsing de parámetros OBD-II en el sistema.

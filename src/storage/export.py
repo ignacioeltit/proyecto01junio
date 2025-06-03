@@ -50,18 +50,40 @@ def export_dynamic_log(filename, log_data, pids):
             active_pids.add('escenario')
     # Ordena según pids originales, pero siempre antepone 'escenario' tras timestamp
     export_pids = ['timestamp', 'escenario'] + [pid for pid in pids if pid in active_pids and pid not in ['timestamp', 'escenario']]
-    # Limpia los registros para solo exportar columnas activas
+    # --- DEDUPLICACIÓN DE PIDs EN EXPORTACIÓN ---
+    pid_map = {}
+    dedup_pids = []
+    for pid in export_pids:
+        norm = pid.lower()
+        if norm not in pid_map:
+            pid_map[norm] = pid
+            dedup_pids.append(pid)
+        else:
+            print(
+                f"[EXPORT] Duplicado detectado y eliminado: {pid} "
+                f"(normalizado como {norm})"
+            )
+    export_pids = dedup_pids
+    # Limpia los registros para solo exportar columnas activas y sin duplicados
     export_log = []
     for row in log_data:
-        export_row = {pid: str(row.get(pid, '')) if row.get(pid, '') is not None else '' for pid in export_pids}
+        export_row = {
+            pid: str(row.get(pid, '')) if row.get(pid, '') is not None else ''
+            for pid in export_pids
+        }
         export_log.append(export_row)
     with open(filename, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=export_pids)
         writer.writeheader()
         writer.writerows(export_log)
-    print(f"[EXPORT] Log exportado correctamente en '{filename}' con {len(export_log)} registros y columnas: {export_pids}")
+    print(
+        f"[EXPORT] Log exportado correctamente en '{filename}' "
+        f"con {len(export_log)} registros y columnas: {export_pids}"
+    )
     # Validación automática tras exportar
-    valido, errores = validar_log_csv(filename, [pid for pid in pids if pid != 'timestamp'])
+    valido, errores = validar_log_csv(
+        filename, [pid for pid in pids if pid != 'timestamp']
+    )
     return valido, errores
 
 # --- Ejemplo de uso/documentación para desarrolladores ---
