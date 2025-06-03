@@ -1,6 +1,6 @@
 from .connection import OBDConnection
 from .elm327 import ELM327
-from .pids import PIDS
+from .pids_ext import PIDS
 from src.storage.logger import DataLogger
 import time
 import sys

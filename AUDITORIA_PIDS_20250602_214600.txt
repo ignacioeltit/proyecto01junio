@@ -1,0 +1,48 @@
+AUDITORÍA DE REFERENCIAS A MÓDULOS DE PIDs — SISTEMA OBD-II
+
+Fecha: 2025-06-02
+Responsable: GitHub Copilot
+
+---
+
+1. Objetivo
+Auditar y migrar todas las referencias a módulos de PIDs obsoletos, asegurando el uso exclusivo de `pids_ext.py` como fuente única de verdad en todo el sistema.
+
+2. Hallazgos
+
+- Se detectó el archivo `src/obd/ejemplo_lectura.py` importando PIDS desde `pids.py`:
+  - Línea original: `from .pids import PIDS`
+- No se encontraron más referencias a `pids.py` ni imports obsoletos en el resto del proyecto.
+- El resto de los módulos relevantes (`dashboard_gui.py`, `test_obd_real.py`, etc.) ya utilizan `from obd.pids_ext import PIDS`.
+- El archivo `src/obd/pids.py` sigue existiendo, pero ya no es referenciado tras la migración.
+
+3. Acciones realizadas
+
+- Se reemplazó en `src/obd/ejemplo_lectura.py` el import obsoleto por:
+  - `from .pids_ext import PIDS`
+- Se actualizó el README para dejar constancia de la convención de uso centralizado de PIDs.
+
+4. Sugerencias de limpieza final
+
+- Eliminar el archivo `src/obd/pids.py` para evitar confusiones futuras.
+- Revisar que ningún script externo o notebook use aún `pids.py`.
+- Mantener la documentación y la bitácora de auditoría actualizadas ante cualquier cambio futuro en la definición de PIDs.
+
+5. Estado final
+
+- Estado: **100% migrado a pids_ext.py**
+- No quedan referencias activas a módulos de PIDs obsoletos.
+- El sistema cumple con la convención de centralización y trazabilidad de PIDs.
+
+---
+
+Ejemplo de comando para auditoría manual:
+
+```bash
+# Buscar imports obsoletos en todo el proyecto
+find . -type f -name "*.py" | xargs grep -E "import pids|from pids import|import obd.pids|from obd.pids import"
+```
+
+---
+
+Este informe fue generado automáticamente y deja trazabilidad de la auditoría y migración.

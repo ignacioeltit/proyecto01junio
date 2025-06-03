@@ -1,0 +1,55 @@
+INFORME DE DESARROLLO — CENTRALIZACIÓN DE PIDs OBD-II
+
+Fecha: 2 de junio de 2025  
+Responsable: GitHub Copilot
+
+1. Objetivo
+Centralizar la definición y uso de los PIDs OBD-II en todo el sistema, eliminando duplicidades y asegurando que todos los módulos (UI, backend, emulador, exportador, tests) utilicen una única fuente de verdad para los PIDs, facilitando el mantenimiento, la trazabilidad y la robustez del sistema.
+
+2. Acciones Realizadas
+
+Auditoría de Módulos de PIDs
+- Se identificaron dos archivos principales: src/obd/pids.py y src/obd/pids_ext.py.
+- Se determinó que pids_ext.py es el más completo y adecuado para ser la fuente única de PIDs.
+
+Revisión y Unificación de Imports
+- Se revisaron todos los módulos que referenciaban PIDs.
+- Se detectó que algunos módulos (como la UI y algunos tests) ya usaban pids_ext.py, pero otros seguían usando pids.py.
+- Se migró el archivo dashboard_gui.py para que utilice exclusivamente PIDS y normalizar_pid desde pids_ext.py.
+- Se eliminaron referencias a pids.py y a la variable PIDS_EXT en la UI.
+- Se eliminó el parcheo manual de PIDs en la UI.
+
+Documentación y Estándares
+- Se documentó en el encabezado de dashboard_gui.py el estándar de flujo de PIDs y la política de deduplicación.
+- Se dejó constancia en el README y en el informe de la convención de uso centralizado.
+
+Generación de Informes
+- Se generó y exportó un informe consolidado (INFORME_20250602_214600.txt) que incluye:
+  - Bitácora de auditoría.
+  - Test automatizado de PIDs.
+  - Plan de desarrollo y próximos pasos.
+  - Evidencia de migración y cambios realizados.
+
+Validaciones y Pruebas
+- Se ejecutó el test automatizado de PIDs desde la UI, validando la correcta activación/desactivación de gauges y columnas, y la ausencia de duplicados.
+- Se dejó registro de advertencias y errores en el log de sesión.
+
+3. Estado Actual del Código
+- La UI (dashboard_gui.py) ya utiliza únicamente la fuente centralizada de PIDs (pids_ext.py).
+- El archivo pids.py fue identificado como redundante y está pendiente de eliminación total.
+- El sistema de logging y exportación ya opera bajo la convención de deduplicación y nomenclatura estándar.
+- Se detectaron advertencias de métodos no implementados en la clase ELM327, pero no afectan la centralización de PIDs.
+
+4. Pendientes
+- Migrar el resto de los módulos (emulador, tests, backend) para que usen exclusivamente pids_ext.py.
+- Eliminar completamente pids.py si ya no es referenciado.
+- Revisar e implementar los métodos faltantes en ELM327 para evitar advertencias.
+- Validar que el emulador utilice el mapeo y normalización de PIDs centralizado.
+- Documentar en el README y en el propio módulo de PIDs la convención de uso centralizado.
+
+5. Conclusión
+El sistema está ahora parcialmente centralizado en cuanto a PIDs, con la UI ya migrada y funcionando bajo el nuevo estándar. Falta completar la migración en el resto de los módulos y limpiar el código redundante para lograr una centralización total y robusta.
+
+---
+
+Este informe fue generado automáticamente el 20250602_214600.

@@ -6,8 +6,8 @@ import sys
 import os
 from obd.connection import OBDConnection
 from obd.elm327 import ELM327
-from obd.pids import PIDS
-from obd.pids_ext import normalizar_pid
+from obd.pids_ext import PIDS  # Solo PIDS, no normalizar_pid
+
 
 def main():
     ip = "192.168.0.10"
@@ -27,15 +27,15 @@ def main():
             # Parsing básico
             if pid == "010C" and resp and "41 0C" in resp:
                 idx = resp.find("41 0C")
-                hexdata = resp[idx+5:idx+10].replace(" ","")
+                hexdata = resp[idx + 5:idx + 10].replace(" ", "")
                 if len(hexdata) == 4:
                     A = int(hexdata[:2], 16)
                     B = int(hexdata[2:], 16)
-                    rpm = ((A*256)+B)//4
+                    rpm = ((A * 256) + B) // 4
                     print(f"RPM parseado: {rpm}")
             elif pid == "010D" and resp and "41 0D" in resp:
                 idx = resp.find("41 0D")
-                hexdata = resp[idx+5:idx+7].replace(" ","")
+                hexdata = resp[idx + 5:idx + 7].replace(" ", "")
                 if len(hexdata) == 2:
                     vel = int(hexdata, 16)
                     print(f"Velocidad parseada: {vel}")
@@ -43,6 +43,7 @@ def main():
             print(f"Error al enviar/parsear {cmd}: {e}")
     conn.close()
     print("Conexión cerrada.")
+
 
 if __name__ == "__main__":
     main()

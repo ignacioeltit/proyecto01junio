@@ -64,17 +64,7 @@ from PyQt6.QtGui import QFont, QColor
 from ui.widgets.gauge import GaugeWidget
 from obd.connection import OBDConnection
 from obd.elm327 import ELM327
-from obd.pids import PIDS
-from obd.pids_ext import PIDS as PIDS_EXT, normalizar_pid
-# --- Agregar PID de velocidad estándar a PIDS si no existe ---
-if 'vel' not in PIDS:
-    PIDS['vel'] = {
-        'cmd': '010D',
-        'desc': 'Velocidad',
-        'min': 0,
-        'max': 255,
-        'unidad': 'km/h',
-    }
+from obd.pids_ext import PIDS, normalizar_pid
 from storage.export import export_dynamic_log
 from utils.logging_app import log_evento_app
 
@@ -287,7 +277,7 @@ class OBDDataSource:
                         val = self.parse_vel(l, pid_context=pid, cmd_context=cmd_context)
                         if val is not None:
                             return val
-                    elif pid in PIDS_EXT and "cmd" in PIDS_EXT[pid]:
+                    elif pid in PIDS and "cmd" in PIDS[pid]:
                         # Aquí podrías agregar lógica robusta para otros PIDs
                         pass
                 except Exception as e:
@@ -559,7 +549,7 @@ class DashboardOBD(QWidget):
         headers = (
             ["Timestamp"]
             + [
-                PIDS_EXT[pid]["desc"] if pid in PIDS_EXT else pid
+                PIDS[pid]["desc"] if pid in PIDS else pid
                 for pid in self.selected_pids
             ]
             + ["Escenario"]
@@ -578,7 +568,7 @@ class DashboardOBD(QWidget):
         pid_widget = QWidget()
         grid = QGridLayout()
         self.pid_checkboxes = {}
-        for i, (pid, info) in enumerate(PIDS_EXT.items()):
+        for i, (pid, info) in enumerate(PIDS.items()):
             cb = QCheckBox(f"{pid} - {info.get('desc', pid)}")
             cb.stateChanged.connect(self.on_pid_selection_changed)
             self.pid_checkboxes[pid] = cb
@@ -715,11 +705,11 @@ class DashboardOBD(QWidget):
         # Agrega gauges nuevos solo para PIDs activos
         datos_actuales = self.data_source.get_log()[-1] if self.data_source.get_log() else {}
         for pid in self.selected_pids:
-            if pid not in self.gauge_widgets and pid in PIDS_EXT:
+            if pid not in self.gauge_widgets and pid in PIDS:
                 valor = datos_actuales.get(pid, None)
-                minv = PIDS_EXT[pid].get("min", 0)
-                maxv = PIDS_EXT[pid].get("max", 100)
-                label = PIDS_EXT[pid].get("desc", pid)
+                minv = PIDS[pid].get("min", 0)
+                maxv = PIDS[pid].get("max", 100)
+                label = PIDS[pid].get("desc", pid)
                 color = QColor(120, 255, 120)
                 gauge = GaugeWidget(minv, maxv, label, color)
                 self.gauges_layout.addWidget(gauge)
@@ -752,7 +742,7 @@ class DashboardOBD(QWidget):
         self.table_log.setColumnCount(len(self.selected_pids) + 2)
         headers = (
             ["Timestamp"]
-            + [PIDS_EXT[pid]["desc"] if pid in PIDS_EXT else pid for pid in self.selected_pids]
+            + [PIDS[pid]["desc"] if pid in PIDS else pid for pid in self.selected_pids]
             + ["Escenario"]
         )
         self.table_log.setHorizontalHeaderLabels(headers)
@@ -846,7 +836,7 @@ class DashboardOBD(QWidget):
             self.status_label.setText("Test automático de PIDs ya está en ejecución.")
             return
         self.test_en_ejecucion = True
-        pids_disponibles = list(PIDS_EXT.keys())
+        pids_disponibles = list(PIDS.keys())
         self.status_label.setText("Iniciando test automatizado de PIDs...")
         SESSION_LOGGER.info("[TEST] Iniciando test automatizado de selección/borrado de PIDs")
         resumen, gauges_fantasma, columnas_fantasma = self._seleccionar_y_validar_pids(pids_disponibles)

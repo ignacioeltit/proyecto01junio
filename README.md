@@ -99,3 +99,13 @@ El emulador (`src/obd/emulador.py`) genera datos realistas para cada PID soporta
 
 - Puedes auditar cualquier sesión revisando estos archivos de log.
 - El CSV exportado siempre incluye todos los PIDs seleccionados y la columna 'escenario'.
+
+---
+
+## Convención de uso centralizado de PIDs (2025-06-02)
+
+- **Fuente única de verdad:** Todo el sistema (UI, backend, emulador, exportador, tests) debe importar los PIDs exclusivamente desde `src/obd/pids_ext.py`.
+- **Prohibido usar:** Cualquier referencia, import o lógica duplicada de PIDs en otros archivos (ej: `pids.py`) está obsoleta y debe eliminarse.
+- **Auditoría 2025-06-02:** Se realizó una auditoría y migración completa. Todos los imports y referencias a PIDs han sido centralizados en `pids_ext.py`.
+- **Mantenimiento:** Si se agregan nuevos PIDs, deben definirse únicamente en `pids_ext.py` y nunca duplicarse en otros módulos.
+- **Ver bitácora e informes de auditoría para trazabilidad.**

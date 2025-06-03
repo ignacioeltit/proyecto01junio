@@ -1,0 +1,74 @@
+# INFORME DE AVANCE Y AUDITORÍA — SISTEMA OBD-II
+
+## 1. Bitácora de la Última Sesión (`log_ultimos25min.txt`)
+
+- Se registraron múltiples advertencias de ausencia de datos de RPM y velocidad, principalmente en el contexto de adquisición de datos (`update_data`).
+- El sistema emite advertencias cuando un PID solicitado no está soportado en la emulación, y exporta el valor vacío.
+- Se detectaron conversiones fallidas al intentar castear valores vacíos a enteros.
+- El modo emulador fue utilizado, y se registraron los PIDs solicitados y recibidos.
+- El log muestra que el sistema es robusto ante errores y los deja registrados para auditoría.
+
+**Ejemplo de advertencias:**
+```
+[2025-06-02 16:47:49] ADVERTENCIA: Sin datos de RPM | Contexto: update_data
+[2025-06-02 16:47:53] ADVERTENCIA: Advertencia: El PID solicitado '010C' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-02 16:47:53] ADVERTENCIA: Conversión fallida:  (invalid literal for int() with base 10: '') | Contexto: safe_cast
+```
+
+---
+
+## 2. Resumen de Test Automatizado (`test_automatizado_reporte_20250602_204241.txt`)
+
+```
+--- RESUMEN TEST AUTOMATIZADO ---
+PIDs/gauges correctamente activados/desactivados: {'0105', '0111', '010D', '0110', '012F', '010C'}
+[OK] El sistema pasó el test: no hay gauges ni columnas fantasma.
+```
+- El test automatizado de selección y borrado de PIDs fue exitoso: todos los gauges y columnas se activaron/desactivaron correctamente.
+- No se detectaron "gauges fantasma" ni columnas residuales, lo que valida la integridad de la UI y el backend.
+
+---
+
+## 3. Plan de Desarrollo Ágil (extracto)
+
+**Alcance del MVP:**
+- Conexión a ELM327 (USB/WiFi).
+- Lectura en tiempo real de RPM y velocidad.
+- Logging en SQLite.
+- Lectura/borrado de DTC estándar.
+- Exportación de logs a CSV.
+- Interfaz básica para visualización.
+
+**Sprints realizados:**
+- Sprint 0: Setup y entorno de desarrollo.
+- Sprint 1: Conectividad básica y lectura de PIDs.
+- Sprint 2: Logging y gestión de DTC.
+- Sprint 3: Interfaz de usuario básica.
+- Sprint 4: Selección dinámica de PIDs y logging mejorado.
+
+**Pendientes fuera de MVP:** Gráficos históricos, alertas configurables, backup automático, etc.
+
+---
+
+## 4. Extracto de README.md
+
+- El sistema permite captura, visualización y exportación de datos OBD-II usando ELM327.
+- El diccionario extendido de PIDs está en `src/obd/pids_ext.py`.
+- Todos los logs incluyen la columna 'escenario' para auditar el contexto de adquisición.
+- El emulador genera datos realistas por escenario y advierte si un PID no está soportado.
+- Cada sesión genera un log único con comandos enviados, respuestas y advertencias.
+- Al cierre, se imprime y registra un resumen de PIDs válidos y vacíos.
+
+---
+
+## 5. Conclusiones y Recomendaciones
+
+- El sistema es robusto en logging y auditoría, con advertencias claras y trazabilidad.
+- El test automatizado valida la integridad de la UI y la lógica de selección/borrado de PIDs.
+- El desarrollo sigue el plan ágil y el MVP está cubierto.
+- Se recomienda revisar los logs de advertencias para afinar la emulación y mejorar la cobertura de PIDs soportados.
+- Para producción, se sugiere ampliar la documentación, agregar pruebas unitarias y validar en vehículos reales.
+
+---
+
+Generado automáticamente el 20250602_214600.
