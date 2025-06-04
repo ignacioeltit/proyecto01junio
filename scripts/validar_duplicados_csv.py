@@ -3,6 +3,7 @@ import sys
 
 # Script de validación de logs exportados para buscar duplicados de columnas
 
+
 def validar_duplicados_csv(path_csv):
     with open(path_csv, encoding="utf-8") as f:
         reader = csv.reader(f)
@@ -14,6 +15,7 @@ def validar_duplicados_csv(path_csv):
             return False
         print("[VALIDADOR] No hay columnas duplicadas. Exportación OK.")
         return True
+
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:

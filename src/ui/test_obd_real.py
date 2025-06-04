@@ -1,12 +1,11 @@
 """
 Test mínimo de conexión y adquisición OBD-II real.
-Conecta al ELM327, envía 010C (RPM) y 010D (velocidad), muestra respuesta cruda y parseada.
+Conecta al ELM327, envía 010C (RPM) y 010D (velocidad),
+muestra respuesta cruda y parseada.
 """
-import sys
-import os
 from obd.connection import OBDConnection
 from obd.elm327 import ELM327
-from obd.pids_ext import PIDS  # Solo PIDS, no normalizar_pid
+from obd.pids_ext import PIDS
 
 
 def main():

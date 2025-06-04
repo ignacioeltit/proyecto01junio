@@ -102,10 +102,30 @@ El emulador (`src/obd/emulador.py`) genera datos realistas para cada PID soporta
 
 ---
 
-## Convención de uso centralizado de PIDs (2025-06-02)
+## Arquitectura y convención de PIDs (actualización 2025-06-02)
 
-- **Fuente única de verdad:** Todo el sistema (UI, backend, emulador, exportador, tests) debe importar los PIDs exclusivamente desde `src/obd/pids_ext.py`.
-- **Prohibido usar:** Cualquier referencia, import o lógica duplicada de PIDs en otros archivos (ej: `pids.py`) está obsoleta y debe eliminarse.
-- **Auditoría 2025-06-02:** Se realizó una auditoría y migración completa. Todos los imports y referencias a PIDs han sido centralizados en `pids_ext.py`.
-- **Mantenimiento:** Si se agregan nuevos PIDs, deben definirse únicamente en `pids_ext.py` y nunca duplicarse en otros módulos.
-- **Ver bitácora e informes de auditoría para trazabilidad.**
+A partir del 2025-06-02, todas las definiciones, mapeos y parsing de PIDs OBD-II están exclusivamente en `pids_ext.py`. El archivo `pids.py` fue eliminado tras la migración y auditoría final.
+
+---
+
+## Instrucción maestra para integración de nuevos PIDs
+
+Consulta la metodología y ejemplo detallado en el archivo [INSTRUCCION_MAESTRA_PIDS.md](INSTRUCCION_MAESTRA_PIDS.md) para agregar, validar y documentar nuevos PIDs OBD-II de forma controlada y trazable.
+
+---
+
+## Bitácora
+
+[2025-06-03] — INSTRUCCIÓN MAESTRA PARA INTEGRACIÓN DE NUEVOS PIds
+- Se crea y publica el archivo INSTRUCCION_MAESTRA_PIDS.md en la raíz del proyecto.
+- Incluye metodología paso a paso, ejemplo, reglas de validación y registro para integración controlada de nuevos PIDs OBD-II.
+- Toda integración futura debe seguir esta instrucción y dejar registro en README y bitácora.
+
+[2025-06-04] — INTEGRACIÓN PID 0105 (temp, Temperatura refrigerante)
+
+- Se integra el PID 0105 ("temp", Temperatura refrigerante) siguiendo la INSTRUCCIÓN MAESTRA.
+- Definición y parseo centralizados en `src/obd/pids_ext.py` (parse_temp_refrigerante).
+- Lógica de emulación dinámica implementada en el dashboard (escenario-dependiente).
+- Validación con test unitario (`tests/test_parse_temp_refrigerante.py`).
+- Confirmada la aparición y actualización dinámica en UI, log y exportación.
+- Documentado el proceso en README y bitácora para trazabilidad completa.

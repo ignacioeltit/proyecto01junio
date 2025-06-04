@@ -1,0 +1,1724 @@
+2025-06-03 10:10:11,936 [INFO] --- INICIO DE SESIÓN OBD-II: log_20250603_101011.txt ---
+2025-06-03 10:10:12,359 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:12,395 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:12,505 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:12,617 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:12,712 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:12,823 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:12,934 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:13,043 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:13,151 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:13,170 [INFO] [TEST] Test automático de PIDs lanzado automáticamente al inicio de la app.
+2025-06-03 10:10:13,261 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:13,373 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:13,484 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:13,595 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:13,706 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:13,818 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:13,927 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:14,031 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:14,134 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:14,247 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:14,356 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:14,466 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:14,572 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:14,684 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:14,800 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:14,912 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:15,036 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:15,119 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:15,243 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:15,354 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:15,466 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:15,577 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:15,694 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:15,800 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:15,911 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:16,018 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:16,127 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:16,243 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:16,340 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:16,447 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:16,576 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:16,670 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:16,777 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:16,887 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:16,998 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:17,104 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:17,221 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:17,331 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:17,431 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:17,542 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:17,663 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:17,763 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:17,868 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:17,999 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:18,093 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:18,223 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:18,326 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:18,439 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:18,541 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:18,652 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:18,763 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:18,874 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:18,980 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:19,094 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:19,206 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:19,314 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:19,426 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:19,533 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:19,644 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:19,749 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:19,862 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:19,971 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:20,074 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:20,185 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:20,297 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:20,406 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:20,511 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:20,622 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:20,732 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:20,840 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:20,951 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:21,057 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:21,167 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:21,279 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:21,396 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:21,504 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:21,606 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:21,721 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:21,832 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:21,938 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:21,998 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:22,047 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:22,156 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:22,264 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:22,374 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:22,481 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:22,589 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:22,702 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:22,810 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:22,920 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:23,028 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:23,136 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:23,245 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:23,366 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:23,473 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:23,572 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:23,685 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:23,794 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:23,908 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:24,019 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:24,122 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:24,236 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:24,346 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:24,456 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:24,563 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:24,672 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:24,784 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:24,890 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:25,000 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:25,108 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:25,219 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:25,329 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:25,437 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:25,547 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:25,654 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:25,763 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:25,870 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:25,979 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:26,089 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:26,199 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:26,307 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:26,415 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:26,526 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:26,635 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:26,746 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:26,855 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:26,963 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:27,073 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:27,183 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:27,291 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:27,399 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:27,510 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:27,619 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:27,729 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:27,853 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:27,949 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:28,064 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:28,178 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:28,286 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:28,393 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:28,498 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:28,611 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:28,723 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:28,828 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:28,940 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:29,049 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:29,155 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:29,267 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:29,376 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:29,482 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:29,592 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:29,700 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:29,809 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:29,916 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:30,026 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:30,137 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:30,246 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:30,356 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:30,466 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:30,573 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:30,680 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:30,791 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:30,901 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:31,011 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:31,118 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:31,229 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:31,338 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:10:31,364 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → desconectado
+2025-06-03 10:10:31,462 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:31,463 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:31,475 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:31,479 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:31,479 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:31,480 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:31,482 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:31,482 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:31,482 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:31,483 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:31,484 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:31,484 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:31,485 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:31,485 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:31,487 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:31,571 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:31,571 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:31,572 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:31,575 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:31,576 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:31,577 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:31,579 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:31,579 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:31,580 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:31,580 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:31,582 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:31,582 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:31,583 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:31,583 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:31,584 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:31,678 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:31,679 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:31,680 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:31,682 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:31,682 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:31,682 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:31,684 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:31,684 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:31,685 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:31,685 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:31,687 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:31,687 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:31,687 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:31,688 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:31,689 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:31,778 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:31,779 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:31,779 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:31,781 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:31,781 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:31,781 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:31,783 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:31,783 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:31,784 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:31,784 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:31,786 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:31,786 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:31,786 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:31,787 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:31,789 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:31,894 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:31,895 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:31,896 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:31,898 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:31,898 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:31,899 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:31,901 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:31,901 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:31,901 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:31,901 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:31,903 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:31,903 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:31,903 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:31,904 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:31,905 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:32,001 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:32,002 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:32,003 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,006 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:32,006 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:32,006 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,010 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:32,010 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:32,010 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,011 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:32,013 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:32,013 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:32,014 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,014 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:32,016 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:32,107 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:32,111 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:32,112 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,114 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:32,114 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:32,115 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,117 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:32,117 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:32,117 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,117 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:32,119 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:32,119 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:32,119 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,119 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:32,121 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:32,218 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:32,219 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:32,220 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,221 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:32,221 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:32,221 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,223 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:32,223 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:32,223 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,223 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:32,227 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:32,227 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:32,228 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,228 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:32,229 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:32,323 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:32,324 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:32,324 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,327 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:32,328 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:32,328 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,330 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:32,330 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:32,330 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,330 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:32,332 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:32,332 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:32,332 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,332 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:32,334 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:32,435 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:32,436 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:32,436 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,438 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:32,438 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:32,438 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,440 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:32,441 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:32,442 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,443 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:32,444 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:32,445 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:32,445 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,445 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:32,447 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:32,547 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:32,548 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:32,548 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,550 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:32,551 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:32,551 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,552 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:32,553 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:32,553 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,553 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:32,555 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:32,555 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:32,555 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,556 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:32,558 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:32,652 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:32,653 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:32,653 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,655 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:32,655 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:32,655 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,657 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:32,657 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:32,657 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,658 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:32,661 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:32,661 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:32,661 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,662 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:32,663 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:32,763 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:32,764 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:32,765 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,767 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:32,767 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:32,767 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,769 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:32,770 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:32,770 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,771 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:32,772 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:32,772 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:32,772 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,773 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:32,776 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:32,876 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:32,878 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:32,878 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,880 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:32,880 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:32,881 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,883 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:32,883 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:32,883 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,883 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:32,885 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:32,885 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:32,885 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,886 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:32,888 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:32,984 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:32,985 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:32,985 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,987 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:32,987 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:32,987 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,990 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:32,990 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:32,991 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,991 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:32,994 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:32,994 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:32,994 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:32,994 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:32,996 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:33,093 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:33,094 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:33,094 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,096 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:33,096 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:33,097 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,098 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:33,098 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:33,098 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,099 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:33,100 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:33,100 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:33,101 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,101 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:33,102 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:33,201 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:33,202 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:33,202 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,204 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:33,204 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:33,205 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,207 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:33,208 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:33,209 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,210 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:33,211 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:33,211 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:33,212 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,212 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:33,214 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:33,309 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:33,311 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:33,311 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,313 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:33,313 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:33,313 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,315 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:33,315 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:33,315 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,316 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:33,317 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:33,317 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:33,318 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,318 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:33,320 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:33,419 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:33,420 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:33,420 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,421 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:33,421 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:33,422 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,424 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:33,424 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:33,425 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,425 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:33,426 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:33,426 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:33,427 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,427 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:33,428 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:33,526 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:33,540 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:33,541 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,543 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:33,543 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:33,545 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,545 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:33,546 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:33,546 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,546 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:33,548 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:33,548 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:33,548 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,549 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:33,551 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:33,635 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:33,636 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:33,637 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,639 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:33,640 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:33,641 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,643 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:33,644 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:33,644 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,644 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:33,646 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:33,646 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:33,646 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,646 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:33,648 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:33,745 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:33,746 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:33,747 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,748 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:33,748 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:33,748 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,750 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:33,750 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:33,751 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,751 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:33,753 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:33,753 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:33,753 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,754 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:33,755 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:33,854 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:33,857 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:33,859 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,862 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:33,862 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:33,862 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,863 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:33,863 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:33,864 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,864 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:33,865 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:33,865 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:33,865 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,865 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:33,866 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:33,965 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:33,966 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:33,967 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,968 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:33,969 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:33,969 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,970 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:33,970 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:33,970 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,970 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:33,976 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:33,976 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:33,976 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:33,976 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:33,978 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:34,078 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:34,079 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:34,079 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,080 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:34,080 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:34,081 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,082 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:34,082 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:34,082 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,082 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:34,083 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:34,083 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:34,083 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,083 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:34,085 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:34,182 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:34,183 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:34,183 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,184 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:34,184 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:34,184 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,186 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:34,186 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:34,186 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,186 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:34,187 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:34,187 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:34,187 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,187 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:34,192 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:34,291 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:34,292 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:34,293 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,294 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:34,294 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:34,294 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,296 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:34,296 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:34,296 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,297 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:34,298 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:34,298 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:34,298 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,298 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:34,299 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:34,402 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:34,403 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:34,403 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,405 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:34,405 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:34,406 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,409 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:34,409 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:34,409 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,410 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:34,411 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:34,411 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:34,411 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,412 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:34,413 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:34,514 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:34,515 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:34,515 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,517 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:34,517 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:34,518 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,520 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:34,520 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:34,520 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,520 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:34,523 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:34,524 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:34,524 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,525 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:34,527 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:34,623 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:34,625 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:34,626 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,628 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:34,628 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:34,628 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,631 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:34,631 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:34,632 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,632 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:34,634 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:34,634 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:34,634 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,635 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:34,636 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:34,747 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:34,749 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:34,749 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,750 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:34,750 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:34,750 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,752 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:34,752 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:34,752 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,754 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:34,756 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:34,756 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:34,756 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,757 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:34,759 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:34,854 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:34,858 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:34,858 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,860 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:34,860 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:34,860 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,862 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:34,862 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:34,862 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,862 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:34,863 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:34,864 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:34,864 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,864 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:34,865 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:34,965 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:34,965 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:34,966 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,968 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:34,968 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:34,968 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,970 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:34,970 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:34,971 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,971 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:34,975 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:34,975 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:34,975 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:34,976 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:34,978 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:35,075 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:35,076 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:35,077 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:35,078 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:35,078 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:35,079 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:35,080 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:35,080 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:35,081 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:35,081 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:35,083 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:35,083 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:35,084 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:35,084 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:35,085 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:35,184 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:35,185 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:35,186 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:35,188 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:35,188 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:35,191 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:35,193 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:35,193 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:35,193 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:35,193 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:35,195 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:35,195 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:35,196 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'send_pid'
+2025-06-03 10:10:35,196 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:35,198 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:36,966 [INFO] [HANDSHAKE] Handshake OK con ELM327
+2025-06-03 10:10:36,968 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → conectado
+2025-06-03 10:10:36,973 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:36,974 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:37,174 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): OK>
+2025-06-03 10:10:37,175 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'OK', cmd=010C
+2025-06-03 10:10:37,175 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:37,175 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:10:37,178 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: OK>, Parsing: None
+2025-06-03 10:10:37,178 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:37,380 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): SEARCHING...
+2025-06-03 10:10:37,381 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'SEARCHING...', cmd=010D
+2025-06-03 10:10:37,384 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: SEARCHING..., Parsing: None
+2025-06-03 10:10:37,384 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:37,686 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): STOPPED>7F 10 12 7F 10 13 
+2025-06-03 10:10:37,688 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: STOPPED>7F 10 12 7F 10 13 , cmd=0105
+2025-06-03 10:10:37,691 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: 
+2025-06-03 10:10:37,691 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:37,792 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 10:10:37,792 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 10:10:37,796 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 10:10:37,816 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:37,817 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:37,917 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 05 8B STOPPED>>
+2025-06-03 10:10:37,917 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '41 05 8B ', cmd=010C
+2025-06-03 10:10:37,917 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:37,917 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:37,917 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:10:37,917 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:10:37,921 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: 41 05 8B STOPPED>>, Parsing: None
+2025-06-03 10:10:37,922 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:38,097 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0A B0 41 0C 0A B0 
+2025-06-03 10:10:38,098 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '41 0C 0A B0 ', cmd=010D
+2025-06-03 10:10:38,098 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '41 0C 0A B0', cmd=010D
+2025-06-03 10:10:38,101 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0A B0 41 0C 0A B0 , Parsing: None
+2025-06-03 10:10:38,101 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:38,201 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 10:10:38,202 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 10:10:38,205 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 10:10:38,205 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:38,307 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): 41 0D 00 41 0D 00 
+2025-06-03 10:10:38,307 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: 41 0D 00 41 0D 00 , cmd=0110
+2025-06-03 10:10:38,310 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: 41 0D 00 41 0D 00 , Parsing: 
+2025-06-03 10:10:38,358 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:38,359 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:38,505 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >STOPPED>>
+2025-06-03 10:10:38,506 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>STOPPED', cmd=010C
+2025-06-03 10:10:38,506 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:38,506 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:10:38,506 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:10:38,508 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >STOPPED>>, Parsing: None
+2025-06-03 10:10:38,508 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:38,721 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0A C0 41 0C 0A C0 
+2025-06-03 10:10:38,722 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '41 0C 0A C0 ', cmd=010D
+2025-06-03 10:10:38,722 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '41 0C 0A C0', cmd=010D
+2025-06-03 10:10:38,724 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0A C0 41 0C 0A C0 , Parsing: None
+2025-06-03 10:10:38,724 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:38,825 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 10:10:38,826 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 10:10:38,828 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 10:10:38,828 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:38,929 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): 41 0D 00 STOPPED>7F 10 12 41 0D 00 >
+2025-06-03 10:10:38,929 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: 41 0D 00 STOPPED>7F 10 12 41 0D 00 >, cmd=0110
+2025-06-03 10:10:38,932 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: 41 0D 00 STOPPED>7F 10 12 41 0D 00 >, Parsing: 
+2025-06-03 10:10:39,020 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:39,022 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:39,325 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F 10 12 7F 10 13 
+2025-06-03 10:10:39,326 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:39,326 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:39,326 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 12 ', cmd=010C
+2025-06-03 10:10:39,326 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 13', cmd=010C
+2025-06-03 10:10:39,328 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-03 10:10:39,329 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:39,430 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-03 10:10:39,430 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>41 0D 00 ', cmd=010D
+2025-06-03 10:10:39,431 [INFO] [OBD] vel recibido: 0
+2025-06-03 10:10:39,431 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:39,532 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >41 05 8B 41 05 8A 
+2025-06-03 10:10:39,533 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >41 05 8B 41 05 8A , cmd=0105
+2025-06-03 10:10:39,537 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >41 05 8B 41 05 8A , Parsing: 
+2025-06-03 10:10:39,537 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:39,639 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 10:10:39,639 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 10:10:39,641 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 10:10:39,666 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:39,667 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:40,040 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F 10 12 7F 10 13 
+2025-06-03 10:10:40,041 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:40,041 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:40,041 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 12 ', cmd=010C
+2025-06-03 10:10:40,041 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 13', cmd=010C
+2025-06-03 10:10:40,043 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-03 10:10:40,043 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:40,145 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 10:10:40,145 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:10:40,147 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 10:10:40,147 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:40,249 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 41 0D 00 41 0D 00 >41 05 8B 41 05 8A 
+2025-06-03 10:10:40,250 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 41 0D 00 41 0D 00 >41 05 8B 41 05 8A , cmd=0105
+2025-06-03 10:10:40,254 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 41 0D 00 41 0D 00 >41 05 8B 41 05 8A , Parsing: 
+2025-06-03 10:10:40,254 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:40,355 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 10:10:40,365 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 10:10:40,369 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 10:10:40,431 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:40,432 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:40,656 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F 10 12 7F 10 13 
+2025-06-03 10:10:40,656 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:40,656 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:40,656 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 12 ', cmd=010C
+2025-06-03 10:10:40,656 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 13', cmd=010C
+2025-06-03 10:10:40,658 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-03 10:10:40,658 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:40,760 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 >
+2025-06-03 10:10:40,760 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>41 0D 00 ', cmd=010D
+2025-06-03 10:10:40,761 [INFO] [OBD] vel recibido: 0
+2025-06-03 10:10:40,761 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:41,064 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 41 05 8B 41 05 8A 
+2025-06-03 10:10:41,065 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 41 05 8B 41 05 8A , cmd=0105
+2025-06-03 10:10:41,069 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 41 05 8B 41 05 8A , Parsing: 
+2025-06-03 10:10:41,070 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:41,171 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 10:10:41,172 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 10:10:41,174 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 10:10:41,208 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:41,209 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:41,353 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F 10 12 7F 10 13 
+2025-06-03 10:10:41,353 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:41,354 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:41,354 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 12 ', cmd=010C
+2025-06-03 10:10:41,354 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 13', cmd=010C
+2025-06-03 10:10:41,356 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-03 10:10:41,356 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:41,458 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-03 10:10:41,459 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>41 0D 00 ', cmd=010D
+2025-06-03 10:10:41,459 [INFO] [OBD] vel recibido: 0
+2025-06-03 10:10:41,460 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:41,782 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 10:10:41,784 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 10:10:41,786 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 10:10:41,787 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:41,888 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): 41 05 8B 41 05 8A >
+2025-06-03 10:10:41,888 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: 41 05 8B 41 05 8A >, cmd=0110
+2025-06-03 10:10:41,890 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: 41 05 8B 41 05 8A >, Parsing: 
+2025-06-03 10:10:41,969 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:41,970 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:42,103 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F 10 12 7F 10 13 
+2025-06-03 10:10:42,103 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:42,103 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:42,103 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 12 ', cmd=010C
+2025-06-03 10:10:42,103 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 13', cmd=010C
+2025-06-03 10:10:42,105 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-03 10:10:42,105 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:42,206 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 10:10:42,206 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:10:42,209 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 10:10:42,209 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:42,310 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 41 0D 00 41 0D 00 >41 05 8B 41 05 8A >
+2025-06-03 10:10:42,310 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 41 0D 00 41 0D 00 >41 05 8B 41 05 8A >, cmd=0105
+2025-06-03 10:10:42,313 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 41 0D 00 41 0D 00 >41 05 8B 41 05 8A >, Parsing: 
+2025-06-03 10:10:42,313 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:42,674 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): NO DATA>
+2025-06-03 10:10:42,675 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: NO DATA>, cmd=0110
+2025-06-03 10:10:42,677 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: NO DATA>, Parsing: 
+2025-06-03 10:10:42,736 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:42,737 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:42,845 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0A 94 41 0C 0A A4 
+2025-06-03 10:10:42,846 [INFO] [OBD] rpm recibido: 677
+2025-06-03 10:10:42,847 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:42,948 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-03 10:10:42,951 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>41 0D 00 ', cmd=010D
+2025-06-03 10:10:42,952 [INFO] [OBD] vel recibido: 0
+2025-06-03 10:10:42,952 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:43,054 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >41 05 8A 41 05 8A 
+2025-06-03 10:10:43,054 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >41 05 8A 41 05 8A , cmd=0105
+2025-06-03 10:10:43,056 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >41 05 8A 41 05 8A , Parsing: 
+2025-06-03 10:10:43,056 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:43,157 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 10:10:43,158 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 10:10:43,160 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 10:10:43,169 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:43,170 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:43,272 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F 10 12 7F 10 13 
+2025-06-03 10:10:43,273 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:43,273 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:43,273 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 12 ', cmd=010C
+2025-06-03 10:10:43,273 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 13', cmd=010C
+2025-06-03 10:10:43,275 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-03 10:10:43,276 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:43,377 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 10:10:43,377 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:10:43,379 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 10:10:43,379 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:43,480 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 41 0D 00 41 0D 00 >41 05 8A 41 05 89 
+2025-06-03 10:10:43,481 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 41 0D 00 41 0D 00 >41 05 8A 41 05 89 , cmd=0105
+2025-06-03 10:10:43,484 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 41 0D 00 41 0D 00 >41 05 8A 41 05 89 , Parsing: 
+2025-06-03 10:10:43,484 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:43,626 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 10:10:43,626 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 10:10:43,629 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 10:10:43,717 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:43,718 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:43,944 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F 10 12 7F 10 13 
+2025-06-03 10:10:43,944 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:43,945 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:43,945 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 12 ', cmd=010C
+2025-06-03 10:10:43,945 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 13', cmd=010C
+2025-06-03 10:10:43,948 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-03 10:10:43,948 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:44,050 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-03 10:10:44,050 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>41 0D 00 ', cmd=010D
+2025-06-03 10:10:44,052 [INFO] [OBD] vel recibido: 0
+2025-06-03 10:10:44,052 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:44,343 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 10:10:44,343 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 10:10:44,345 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 10:10:44,345 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:44,446 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): 41 05 8A 41 05 89 >
+2025-06-03 10:10:44,449 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: 41 05 8A 41 05 89 >, cmd=0110
+2025-06-03 10:10:44,452 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: 41 05 8A 41 05 89 >, Parsing: 
+2025-06-03 10:10:44,482 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:44,484 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:44,633 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F 10 12 7F 10 13 
+2025-06-03 10:10:44,634 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:44,634 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:44,634 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 12 ', cmd=010C
+2025-06-03 10:10:44,634 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 13', cmd=010C
+2025-06-03 10:10:44,635 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-03 10:10:44,635 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:44,752 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 10:10:44,753 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:10:44,756 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 10:10:44,756 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:44,857 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 41 0D 00 41 0D 00 >41 05 8A 41 05 89 
+2025-06-03 10:10:44,857 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 41 0D 00 41 0D 00 >41 05 8A 41 05 89 , cmd=0105
+2025-06-03 10:10:44,858 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 41 0D 00 41 0D 00 >41 05 8A 41 05 89 , Parsing: 
+2025-06-03 10:10:44,859 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:44,960 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 10:10:44,961 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 10:10:44,965 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 10:10:45,031 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:45,033 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:45,134 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): NO DATA>
+2025-06-03 10:10:45,134 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'NO DATA', cmd=010C
+2025-06-03 10:10:45,134 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:45,134 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:10:45,136 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: NO DATA>, Parsing: None
+2025-06-03 10:10:45,136 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:45,354 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0A F8 41 0C 0A E4 
+2025-06-03 10:10:45,354 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '41 0C 0A F8 ', cmd=010D
+2025-06-03 10:10:45,354 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '41 0C 0A E4', cmd=010D
+2025-06-03 10:10:45,356 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0A F8 41 0C 0A E4 , Parsing: None
+2025-06-03 10:10:45,356 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:45,457 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 10:10:45,457 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 10:10:45,459 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 10:10:45,459 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:45,571 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): STOPPED>
+2025-06-03 10:10:45,572 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: STOPPED>, cmd=0110
+2025-06-03 10:10:45,573 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: STOPPED>, Parsing: 
+2025-06-03 10:10:45,695 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:45,698 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:45,891 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): NO DATA>
+2025-06-03 10:10:45,891 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'NO DATA', cmd=010C
+2025-06-03 10:10:45,892 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:45,892 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:10:45,893 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: NO DATA>, Parsing: None
+2025-06-03 10:10:45,893 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:46,083 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0A A0 41 0C 0A AC 
+2025-06-03 10:10:46,084 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '41 0C 0A A0 ', cmd=010D
+2025-06-03 10:10:46,084 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '41 0C 0A AC', cmd=010D
+2025-06-03 10:10:46,085 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0A A0 41 0C 0A AC , Parsing: None
+2025-06-03 10:10:46,085 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:46,187 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 10:10:46,187 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 10:10:46,189 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 10:10:46,189 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:46,391 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): STOPPED>7F 10 12 41 0D 00 
+2025-06-03 10:10:46,392 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: STOPPED>7F 10 12 41 0D 00 , cmd=0110
+2025-06-03 10:10:46,393 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: STOPPED>7F 10 12 41 0D 00 , Parsing: 
+2025-06-03 10:10:46,470 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:46,471 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:46,572 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-03 10:10:46,572 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:10:46,574 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-03 10:10:46,574 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:46,675 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): STOPPED>7F 10 13 7F 10 12 >41 0D 00 41 0D 00 
+2025-06-03 10:10:46,675 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+2025-06-03 10:10:46,675 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+2025-06-03 10:10:46,675 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>7F 10 13 ', cmd=010D
+2025-06-03 10:10:46,675 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '7F 10 12 ', cmd=010D
+2025-06-03 10:10:46,675 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+2025-06-03 10:10:46,675 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>41 0D 00 ', cmd=010D
+2025-06-03 10:10:46,679 [INFO] [OBD] vel recibido: 0
+2025-06-03 10:10:46,679 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:46,866 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >41 05 8A 41 05 89 
+2025-06-03 10:10:46,866 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >41 05 8A 41 05 89 , cmd=0105
+2025-06-03 10:10:46,867 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >41 05 8A 41 05 89 , Parsing: 
+2025-06-03 10:10:46,868 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:46,969 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 10:10:46,969 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 10:10:46,971 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 10:10:47,023 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:47,024 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:47,191 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F 10 12 7F 10 13 
+2025-06-03 10:10:47,192 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:47,193 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:47,193 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 12 ', cmd=010C
+2025-06-03 10:10:47,193 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 13', cmd=010C
+2025-06-03 10:10:47,198 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-03 10:10:47,198 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:47,300 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 10:10:47,303 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:10:47,306 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 10:10:47,306 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:47,407 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 41 0D 00 41 0D 00 >41 05 8A 41 05 89 >
+2025-06-03 10:10:47,408 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 41 0D 00 41 0D 00 >41 05 8A 41 05 89 >, cmd=0105
+2025-06-03 10:10:47,411 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 41 0D 00 41 0D 00 >41 05 8A 41 05 89 >, Parsing: 
+2025-06-03 10:10:47,411 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:47,721 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): NO DATA>
+2025-06-03 10:10:47,722 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: NO DATA>, cmd=0110
+2025-06-03 10:10:47,723 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: NO DATA>, Parsing: 
+2025-06-03 10:10:47,785 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:47,786 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:47,888 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0A BC 41 0C 0A C0 
+2025-06-03 10:10:47,889 [INFO] [OBD] rpm recibido: 687
+2025-06-03 10:10:47,890 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:47,990 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-03 10:10:47,991 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>41 0D 00 ', cmd=010D
+2025-06-03 10:10:47,992 [INFO] [OBD] vel recibido: 0
+2025-06-03 10:10:47,992 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:48,093 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >41 05 8A 41 05 89 
+2025-06-03 10:10:48,094 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >41 05 8A 41 05 89 , cmd=0105
+2025-06-03 10:10:48,098 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >41 05 8A 41 05 89 , Parsing: 
+2025-06-03 10:10:48,099 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:48,199 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 10:10:48,200 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 10:10:48,201 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 10:10:48,214 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:48,215 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:48,348 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F 10 12 7F 10 13 
+2025-06-03 10:10:48,349 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:48,349 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:48,349 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 12 ', cmd=010C
+2025-06-03 10:10:48,349 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 13', cmd=010C
+2025-06-03 10:10:48,351 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-03 10:10:48,352 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:48,453 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 >
+2025-06-03 10:10:48,453 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>41 0D 00 ', cmd=010D
+2025-06-03 10:10:48,454 [INFO] [OBD] vel recibido: 0
+2025-06-03 10:10:48,454 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:48,591 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 41 05 8A 41 05 89 
+2025-06-03 10:10:48,592 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 41 05 8A 41 05 89 , cmd=0105
+2025-06-03 10:10:48,594 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 41 05 8A 41 05 89 , Parsing: 
+2025-06-03 10:10:48,595 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:48,697 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 10:10:48,698 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 10:10:48,700 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 10:10:48,767 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:48,769 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:48,878 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F 10 12 7F 10 13 
+2025-06-03 10:10:48,879 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:48,879 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:48,879 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 12 ', cmd=010C
+2025-06-03 10:10:48,879 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 13', cmd=010C
+2025-06-03 10:10:48,881 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-03 10:10:48,881 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:48,983 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-03 10:10:48,983 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>41 0D 00 ', cmd=010D
+2025-06-03 10:10:48,983 [INFO] [OBD] vel recibido: 0
+2025-06-03 10:10:48,984 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:49,085 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >41 05 8A 41 05 89 
+2025-06-03 10:10:49,085 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >41 05 8A 41 05 89 , cmd=0105
+2025-06-03 10:10:49,087 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >41 05 8A 41 05 89 , Parsing: 
+2025-06-03 10:10:49,087 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:49,188 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 10:10:49,189 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 10:10:49,192 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 10:10:49,202 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:49,203 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:49,391 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): NO DATA>
+2025-06-03 10:10:49,392 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'NO DATA', cmd=010C
+2025-06-03 10:10:49,392 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:49,392 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:10:49,395 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: NO DATA>, Parsing: None
+2025-06-03 10:10:49,395 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:49,513 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): STOPPED>
+2025-06-03 10:10:49,514 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+2025-06-03 10:10:49,514 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+2025-06-03 10:10:49,514 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:10:49,516 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED>, Parsing: None
+2025-06-03 10:10:49,516 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:49,678 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 41 05 8A 41 05 89 
+2025-06-03 10:10:49,679 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 41 05 8A 41 05 89 , cmd=0105
+2025-06-03 10:10:49,681 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 41 05 8A 41 05 89 , Parsing: 
+2025-06-03 10:10:49,681 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:49,782 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 10:10:49,782 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 10:10:49,784 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 10:10:49,869 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:49,871 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:50,032 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F 10 12 7F 10 13 
+2025-06-03 10:10:50,033 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:50,033 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:50,033 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 12 ', cmd=010C
+2025-06-03 10:10:50,033 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 13', cmd=010C
+2025-06-03 10:10:50,035 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-03 10:10:50,036 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:50,137 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 10:10:50,138 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:10:50,141 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 10:10:50,142 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:50,243 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 41 0D 00 41 0D 00 >
+2025-06-03 10:10:50,244 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 41 0D 00 41 0D 00 >, cmd=0105
+2025-06-03 10:10:50,245 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 41 0D 00 41 0D 00 >, Parsing: 
+2025-06-03 10:10:50,245 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:50,347 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): 41 05 89 41 05 89 >
+2025-06-03 10:10:50,348 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: 41 05 89 41 05 89 >, cmd=0110
+2025-06-03 10:10:50,349 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: 41 05 89 41 05 89 >, Parsing: 
+2025-06-03 10:10:50,401 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:50,402 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:50,564 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F 10 12 7F 10 13 
+2025-06-03 10:10:50,564 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:50,564 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:50,564 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 12 ', cmd=010C
+2025-06-03 10:10:50,564 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 13', cmd=010C
+2025-06-03 10:10:50,566 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-03 10:10:50,566 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:50,668 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 10:10:50,668 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:10:50,670 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 10:10:50,671 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:50,771 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 41 0D 00 41 0D 00 
+2025-06-03 10:10:50,771 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 41 0D 00 41 0D 00 , cmd=0105
+2025-06-03 10:10:50,774 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 41 0D 00 41 0D 00 , Parsing: 
+2025-06-03 10:10:50,774 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:50,875 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >41 05 89 41 05 89 
+2025-06-03 10:10:50,877 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >41 05 89 41 05 89 , cmd=0110
+2025-06-03 10:10:50,880 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >41 05 89 41 05 89 , Parsing: 
+2025-06-03 10:10:50,959 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:50,962 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:51,063 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >STOPPED>7F 10 13 7F 10 12 >
+2025-06-03 10:10:51,063 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>STOPPED', cmd=010C
+2025-06-03 10:10:51,063 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:51,063 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 13 ', cmd=010C
+2025-06-03 10:10:51,063 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 12 ', cmd=010C
+2025-06-03 10:10:51,065 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:51,065 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:10:51,067 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >STOPPED>7F 10 13 7F 10 12 >, Parsing: None
+2025-06-03 10:10:51,067 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:51,168 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 
+2025-06-03 10:10:51,169 [INFO] [OBD] vel recibido: 0
+2025-06-03 10:10:51,169 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:51,270 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >41 05 89 41 05 89 
+2025-06-03 10:10:51,271 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >41 05 89 41 05 89 , cmd=0105
+2025-06-03 10:10:51,275 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >41 05 89 41 05 89 , Parsing: 
+2025-06-03 10:10:51,276 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:51,378 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 10:10:51,378 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 10:10:51,381 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 10:10:51,387 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:51,389 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:51,490 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F 10 12 7F 10 13 >
+2025-06-03 10:10:51,491 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:51,491 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:51,491 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 12 ', cmd=010C
+2025-06-03 10:10:51,491 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 13 ', cmd=010C
+2025-06-03 10:10:51,491 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:51,491 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:10:51,496 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F 10 12 7F 10 13 >, Parsing: None
+2025-06-03 10:10:51,496 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:51,597 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0D 00 41 0D 00 
+2025-06-03 10:10:51,598 [INFO] [OBD] vel recibido: 0
+2025-06-03 10:10:51,599 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:51,700 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >41 05 89 41 05 89 
+2025-06-03 10:10:51,700 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >41 05 89 41 05 89 , cmd=0105
+2025-06-03 10:10:51,702 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >41 05 89 41 05 89 , Parsing: 
+2025-06-03 10:10:51,702 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:51,804 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 10:10:51,805 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 10:10:51,808 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 10:10:51,828 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:51,830 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:51,930 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F 10 12 7F 10 13 
+2025-06-03 10:10:51,931 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:51,931 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:51,931 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 12 ', cmd=010C
+2025-06-03 10:10:51,931 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 13', cmd=010C
+2025-06-03 10:10:51,933 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-03 10:10:51,933 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:52,034 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 10:10:52,034 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:10:52,037 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 10:10:52,038 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:52,138 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 41 0D 00 41 0D 00 >41 05 89 41 05 89 
+2025-06-03 10:10:52,138 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 41 0D 00 41 0D 00 >41 05 89 41 05 89 , cmd=0105
+2025-06-03 10:10:52,143 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 41 0D 00 41 0D 00 >41 05 89 41 05 89 , Parsing: 
+2025-06-03 10:10:52,143 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:52,244 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 10:10:52,244 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 10:10:52,248 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 10:10:52,261 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:52,262 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:52,377 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F 10 12 7F 10 13 
+2025-06-03 10:10:52,377 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:52,377 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:52,377 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 12 ', cmd=010C
+2025-06-03 10:10:52,377 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 13', cmd=010C
+2025-06-03 10:10:52,379 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-03 10:10:52,381 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:52,481 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): STOPPED>7F 10 13 7F 10 12 >
+2025-06-03 10:10:52,482 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+2025-06-03 10:10:52,482 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+2025-06-03 10:10:52,482 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>7F 10 13 ', cmd=010D
+2025-06-03 10:10:52,482 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '7F 10 12 ', cmd=010D
+2025-06-03 10:10:52,482 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+2025-06-03 10:10:52,482 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:10:52,485 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED>7F 10 13 7F 10 12 >, Parsing: None
+2025-06-03 10:10:52,485 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:52,586 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 41 05 89 41 05 88 
+2025-06-03 10:10:52,587 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 41 05 89 41 05 88 , cmd=0105
+2025-06-03 10:10:52,590 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 41 05 89 41 05 88 , Parsing: 
+2025-06-03 10:10:52,592 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:52,693 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 10:10:52,695 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 10:10:52,697 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 10:10:52,809 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:52,810 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:52,912 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): NO DATA>41 0C 0A F0 41 0C 0A F0 
+2025-06-03 10:10:52,913 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'NO DATA', cmd=010C
+2025-06-03 10:10:52,913 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:52,913 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>41 0C 0A F0 ', cmd=010C
+2025-06-03 10:10:52,914 [INFO] [OBD] rpm recibido: 700
+2025-06-03 10:10:52,914 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:53,016 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-03 10:10:53,016 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>41 0D 00 ', cmd=010D
+2025-06-03 10:10:53,017 [INFO] [OBD] vel recibido: 0
+2025-06-03 10:10:53,018 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:53,119 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >41 05 89 41 05 88 
+2025-06-03 10:10:53,119 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >41 05 89 41 05 88 , cmd=0105
+2025-06-03 10:10:53,123 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >41 05 89 41 05 88 , Parsing: 
+2025-06-03 10:10:53,123 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:53,225 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 10:10:53,226 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 10:10:53,228 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 10:10:53,246 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:53,248 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:53,541 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F 10 12 7F 10 13 
+2025-06-03 10:10:53,542 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:53,543 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:53,543 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 12 ', cmd=010C
+2025-06-03 10:10:53,543 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 13', cmd=010C
+2025-06-03 10:10:53,545 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-03 10:10:53,545 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:53,646 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-03 10:10:53,647 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>41 0D 00 ', cmd=010D
+2025-06-03 10:10:53,648 [INFO] [OBD] vel recibido: 0
+2025-06-03 10:10:53,648 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:53,750 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >41 05 89 41 05 88 
+2025-06-03 10:10:53,750 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >41 05 89 41 05 88 , cmd=0105
+2025-06-03 10:10:53,752 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >41 05 89 41 05 88 , Parsing: 
+2025-06-03 10:10:53,752 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:53,868 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 10:10:53,869 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 10:10:53,872 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 10:10:53,915 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:53,916 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:54,190 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): NO DATA>
+2025-06-03 10:10:54,191 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'NO DATA', cmd=010C
+2025-06-03 10:10:54,191 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:54,191 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:10:54,193 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: NO DATA>, Parsing: None
+2025-06-03 10:10:54,193 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:54,305 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 41 0C 0A CC 41 0C 0A CC >
+2025-06-03 10:10:54,307 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '41 0C 0A CC ', cmd=010D
+2025-06-03 10:10:54,307 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '41 0C 0A CC ', cmd=010D
+2025-06-03 10:10:54,307 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+2025-06-03 10:10:54,307 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:10:54,310 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 41 0C 0A CC 41 0C 0A CC >, Parsing: None
+2025-06-03 10:10:54,310 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:54,412 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 41 0D 00 41 0D 00 
+2025-06-03 10:10:54,413 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 41 0D 00 41 0D 00 , cmd=0105
+2025-06-03 10:10:54,415 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 41 0D 00 41 0D 00 , Parsing: 
+2025-06-03 10:10:54,415 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:54,516 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >41 05 89 41 05 88 
+2025-06-03 10:10:54,517 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >41 05 89 41 05 88 , cmd=0110
+2025-06-03 10:10:54,519 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >41 05 89 41 05 88 , Parsing: 
+2025-06-03 10:10:54,568 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:54,569 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:54,669 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-03 10:10:54,670 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:10:54,674 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-03 10:10:54,674 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:54,775 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): STOPPED>7F 10 12 7F 10 13 >
+2025-06-03 10:10:54,775 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+2025-06-03 10:10:54,775 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+2025-06-03 10:10:54,775 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>7F 10 12 ', cmd=010D
+2025-06-03 10:10:54,775 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '7F 10 13 ', cmd=010D
+2025-06-03 10:10:54,775 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+2025-06-03 10:10:54,775 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:10:54,778 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED>7F 10 12 7F 10 13 >, Parsing: None
+2025-06-03 10:10:54,779 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:54,895 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 41 0D 00 41 0D 00 STOPPED>7F 10 12 7F 10 13 
+2025-06-03 10:10:54,895 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 41 0D 00 41 0D 00 STOPPED>7F 10 12 7F 10 13 , cmd=0105
+2025-06-03 10:10:54,897 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 41 0D 00 41 0D 00 STOPPED>7F 10 12 7F 10 13 , Parsing: 
+2025-06-03 10:10:54,898 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:54,998 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 10:10:54,999 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 10:10:55,000 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 10:10:55,108 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:55,110 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:55,211 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): NO DATA>41 0C 0A D0 41 0C 0A D0 
+2025-06-03 10:10:55,212 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'NO DATA', cmd=010C
+2025-06-03 10:10:55,212 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:55,212 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>41 0C 0A D0 ', cmd=010C
+2025-06-03 10:10:55,213 [INFO] [OBD] rpm recibido: 692
+2025-06-03 10:10:55,213 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:55,315 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-03 10:10:55,315 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>41 0D 00 ', cmd=010D
+2025-06-03 10:10:55,316 [INFO] [OBD] vel recibido: 0
+2025-06-03 10:10:55,316 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:55,417 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >41 05 89 41 05 88 
+2025-06-03 10:10:55,417 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >41 05 89 41 05 88 , cmd=0105
+2025-06-03 10:10:55,420 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >41 05 89 41 05 88 , Parsing: 
+2025-06-03 10:10:55,420 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:55,522 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 10:10:55,523 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 10:10:55,526 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 10:10:55,542 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:55,543 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:55,645 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F 10 12 7F 10 13 
+2025-06-03 10:10:55,645 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:55,645 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:55,645 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 12 ', cmd=010C
+2025-06-03 10:10:55,645 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 13', cmd=010C
+2025-06-03 10:10:55,647 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-03 10:10:55,647 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:55,748 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-03 10:10:55,748 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>41 0D 00 ', cmd=010D
+2025-06-03 10:10:55,751 [INFO] [OBD] vel recibido: 0
+2025-06-03 10:10:55,751 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:55,852 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 10:10:55,853 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 10:10:55,857 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 10:10:55,857 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:55,959 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): 41 05 89 41 05 88 >
+2025-06-03 10:10:55,959 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: 41 05 89 41 05 88 >, cmd=0110
+2025-06-03 10:10:55,961 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: 41 05 89 41 05 88 >, Parsing: 
+2025-06-03 10:10:55,993 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:55,994 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:56,095 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F 10 12 7F 10 13 
+2025-06-03 10:10:56,095 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:56,096 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:56,096 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 12 ', cmd=010C
+2025-06-03 10:10:56,096 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 13', cmd=010C
+2025-06-03 10:10:56,098 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-03 10:10:56,098 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:56,199 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-03 10:10:56,199 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>41 0D 00 ', cmd=010D
+2025-06-03 10:10:56,201 [INFO] [OBD] vel recibido: 0
+2025-06-03 10:10:56,201 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:56,302 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >41 05 89 41 05 88 
+2025-06-03 10:10:56,302 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >41 05 89 41 05 88 , cmd=0105
+2025-06-03 10:10:56,307 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >41 05 89 41 05 88 , Parsing: 
+2025-06-03 10:10:56,307 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:56,408 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 10:10:56,409 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 10:10:56,411 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 10:10:56,443 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:56,445 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:56,546 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F 10 12 7F 10 13 
+2025-06-03 10:10:56,546 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:56,546 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:56,546 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 12 ', cmd=010C
+2025-06-03 10:10:56,546 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 13', cmd=010C
+2025-06-03 10:10:56,548 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-03 10:10:56,548 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:56,649 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-03 10:10:56,650 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>41 0D 00 ', cmd=010D
+2025-06-03 10:10:56,652 [INFO] [OBD] vel recibido: 0
+2025-06-03 10:10:56,652 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:56,755 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >41 05 89 41 05 88 
+2025-06-03 10:10:56,755 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >41 05 89 41 05 88 , cmd=0105
+2025-06-03 10:10:56,757 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >41 05 89 41 05 88 , Parsing: 
+2025-06-03 10:10:56,758 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:56,859 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 10:10:56,859 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 10:10:56,861 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 10:10:56,868 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:56,871 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:57,015 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F 10 12 7F 10 13 
+2025-06-03 10:10:57,017 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:57,017 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:57,017 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 12 ', cmd=010C
+2025-06-03 10:10:57,017 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 13', cmd=010C
+2025-06-03 10:10:57,021 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F 10 12 7F 10 13 , Parsing: None
+2025-06-03 10:10:57,022 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:57,123 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 10:10:57,123 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:10:57,126 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 10:10:57,126 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:57,226 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 41 0D 00 41 0D 00 >
+2025-06-03 10:10:57,226 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 41 0D 00 41 0D 00 >, cmd=0105
+2025-06-03 10:10:57,229 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 41 0D 00 41 0D 00 >, Parsing: 
+2025-06-03 10:10:57,229 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:57,329 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): 41 05 88 41 05 88 STOPPED>>
+2025-06-03 10:10:57,330 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: 41 05 88 41 05 88 STOPPED>>, cmd=0110
+2025-06-03 10:10:57,332 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: 41 05 88 41 05 88 STOPPED>>, Parsing: 
+2025-06-03 10:10:57,416 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:57,417 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:57,697 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 41 0C 0A EC 41 0C 0A DC 
+2025-06-03 10:10:57,699 [INFO] [OBD] rpm recibido: 699
+2025-06-03 10:10:57,699 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:57,800 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >41 0D 00 41 0D 00 
+2025-06-03 10:10:57,800 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>41 0D 00 ', cmd=010D
+2025-06-03 10:10:57,801 [INFO] [OBD] vel recibido: 0
+2025-06-03 10:10:57,802 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:57,910 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 10:10:57,910 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 10:10:57,912 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 10:10:57,913 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:58,014 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): 41 05 88 41 05 88 >
+2025-06-03 10:10:58,014 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: 41 05 88 41 05 88 >, cmd=0110
+2025-06-03 10:10:58,016 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: 41 05 88 41 05 88 >, Parsing: 
+2025-06-03 10:10:58,073 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:10:58,080 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:58,294 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F 10 13 7F 10 12 
+2025-06-03 10:10:58,294 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:10:58,294 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:10:58,294 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F 10 13 ', cmd=010C
+2025-06-03 10:10:58,294 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F 10 12', cmd=010C
+2025-06-03 10:10:58,296 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F 10 13 7F 10 12 , Parsing: None
+2025-06-03 10:10:58,296 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:58,614 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 10:10:58,615 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:10:58,617 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 10:10:58,618 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:58,781 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 41 0D 00 41 0D 00 >
+2025-06-03 10:10:58,782 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 41 0D 00 41 0D 00 >, cmd=0105
+2025-06-03 10:10:58,784 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 41 0D 00 41 0D 00 >, Parsing: 
+2025-06-03 10:10:58,785 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:58,887 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): 41 05 88 41 05 88 >
+2025-06-03 10:10:58,887 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: 41 05 88 41 05 88 >, cmd=0110
+2025-06-03 10:10:58,889 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: 41 05 88 41 05 88 >, Parsing: 
+2025-06-03 10:10:58,908 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → desconectado
+2025-06-03 10:10:58,956 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:58,956 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:58,957 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:58,959 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:58,959 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:58,960 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:58,962 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:58,962 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:58,962 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:58,963 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:58,964 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:58,964 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:58,965 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:58,965 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:58,967 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:59,060 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:59,062 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:59,062 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,064 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:59,064 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:59,064 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,068 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:59,069 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:59,070 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,070 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:59,071 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:59,071 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:59,071 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,072 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:59,073 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:59,170 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:59,172 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:59,172 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,174 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:59,175 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:59,175 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,177 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:59,177 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:59,177 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,178 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:59,179 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:59,179 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:59,180 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,180 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:59,181 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:59,276 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:59,277 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:59,278 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,280 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:59,280 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:59,280 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,286 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:59,286 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:59,286 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,286 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:59,288 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:59,288 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:59,289 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,289 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:59,291 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:59,389 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:59,390 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:59,390 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,392 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:59,392 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:59,393 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,394 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:59,394 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:59,395 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,395 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:59,397 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:59,397 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:59,397 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,398 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:59,399 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:59,496 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:59,498 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:59,498 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,502 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:59,502 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:59,503 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,505 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:59,505 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:59,506 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,506 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:59,508 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:59,508 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:59,508 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,508 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:59,510 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:59,606 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:59,607 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:59,607 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,609 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:59,609 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:59,609 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,611 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:59,611 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:59,611 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,612 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:59,613 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:59,613 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:59,613 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,614 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:59,616 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:59,714 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:59,717 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:59,718 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,720 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:59,720 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:59,721 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,723 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:59,724 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:59,724 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,724 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:59,726 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:59,726 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:59,727 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,727 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:59,729 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:59,825 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:59,826 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:59,826 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,828 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:59,828 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:59,829 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,830 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:59,831 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:59,831 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,831 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:59,833 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:59,833 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:59,834 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,834 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:59,836 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:10:59,933 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:10:59,935 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:10:59,936 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,938 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:10:59,938 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:10:59,938 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,941 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:10:59,941 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:10:59,941 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,941 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:10:59,943 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:10:59,943 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:10:59,943 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:10:59,944 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:10:59,945 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:11:00,043 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:11:00,044 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:11:00,044 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,046 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:11:00,046 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:11:00,046 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,049 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:11:00,049 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:11:00,049 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,051 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:11:00,054 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:11:00,054 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:11:00,054 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,054 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:11:00,056 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:11:00,153 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:11:00,154 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:11:00,154 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,156 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:11:00,156 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:11:00,156 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,158 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:11:00,158 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:11:00,159 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,159 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:11:00,161 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:11:00,161 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:11:00,161 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,161 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:11:00,163 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:11:00,261 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:11:00,262 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:11:00,262 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,264 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:11:00,264 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:11:00,265 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,268 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:11:00,269 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:11:00,269 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,269 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:11:00,271 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:11:00,271 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:11:00,271 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,272 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:11:00,274 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:11:00,371 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:11:00,373 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:11:00,373 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,375 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:11:00,375 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:11:00,376 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,378 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:11:00,378 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:11:00,378 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,379 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:11:00,380 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:11:00,381 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:11:00,381 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,381 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:11:00,384 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:11:00,479 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:11:00,481 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:11:00,482 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,485 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:11:00,485 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:11:00,486 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,487 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:11:00,487 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:11:00,488 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,488 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:11:00,490 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:11:00,490 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:11:00,490 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,490 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:11:00,491 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:11:00,590 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:11:00,591 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:11:00,591 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,593 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:11:00,593 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:11:00,594 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,595 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:11:00,595 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:11:00,596 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,596 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:11:00,598 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:11:00,598 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:11:00,598 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,598 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:11:00,602 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:11:00,698 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:11:00,699 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:11:00,700 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,703 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:11:00,703 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:11:00,703 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,705 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:11:00,705 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:11:00,705 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,706 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:11:00,707 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:11:00,707 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:11:00,707 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,707 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:11:00,709 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:11:00,931 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:11:00,934 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:11:00,935 [WARNING] [OBD] Error al enviar comando 010C (PID: rpm): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,937 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: None, Parsing: None
+2025-06-03 10:11:00,937 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:11:00,938 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,940 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 10:11:00,940 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:11:00,940 [WARNING] [OBD] Error al enviar comando 0105 (PID: temp): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,941 [WARNING] [PARSE][temp] Respuesta vacía. Contexto: cmd=0105
+2025-06-03 10:11:00,943 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: None, Parsing: 
+2025-06-03 10:11:00,943 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 10:11:00,943 [WARNING] [OBD] Error al enviar comando 0110 (PID: maf): 'NoneType' object has no attribute 'sendall'
+2025-06-03 10:11:00,944 [WARNING] [PARSE][maf] Respuesta vacía. Contexto: cmd=0110
+2025-06-03 10:11:00,946 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: None, Parsing: 
+2025-06-03 10:11:01,074 [INFO] PIDs con datos válidos: escenario, rpm, timestamp, vel
+2025-06-03 10:11:01,075 [INFO] PIDs siempre vacíos: maf, temp
+2025-06-03 10:11:01,075 [WARNING] Algunos PIDs no recibieron datos válidos durante la sesión.
+2025-06-03 10:11:01,076 [INFO] [AUDITORÍA] Comandos y respuestas crudas por sesión:
+2025-06-03 10:11:01,076 [INFO] Gauges activos en UI: 4, gauges ocultados por falta de datos: 2

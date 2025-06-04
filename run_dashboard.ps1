@@ -9,7 +9,8 @@ if ($resp -eq 's') {
     echo "Iniciando emulador avanzado emu2..."
     Start-Process -NoNewWindow -FilePath python -ArgumentList "src/obd/emu2.py"
     Start-Sleep -Seconds 2
-} else {
+}
+else {
     $modo = ''
 }
 

@@ -2,7 +2,7 @@
 import sqlite3
 import os
 
-DB = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'obd_log.db'))
+DB = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "obd_log.db"))
 
 conn = sqlite3.connect(DB)
 c = conn.cursor()
@@ -10,12 +10,10 @@ c = conn.cursor()
 # 1. Verificar si existe la columna 'velocidad'
 c.execute("PRAGMA table_info(lecturas)")
 cols = [row[1] for row in c.fetchall()]
-if 'velocidad' in cols:
-    print('Migrando datos de velocidad...')
+if "velocidad" in cols:
+    print("Migrando datos de velocidad...")
     # 2. Si hay datos en 'velocidad' y 'vel' está vacía, migrar
-    c.execute(
-        "UPDATE lecturas SET vel = velocidad WHERE vel IS NULL OR vel = 0"
-    )
+    c.execute("UPDATE lecturas SET vel = velocidad WHERE vel IS NULL OR vel = 0")
     # 3. Crear tabla temporal sin 'velocidad'
     c.execute(
         """
@@ -38,4 +36,4 @@ if 'velocidad' in cols:
 else:
     print('No se requiere migración. Solo existe la columna "vel".')
 conn.close()
-print('Migración completada.')
+print("Migración completada.")

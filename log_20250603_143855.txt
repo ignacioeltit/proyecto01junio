@@ -1,0 +1,701 @@
+2025-06-03 14:38:55,178 [INFO] --- INICIO DE SESIÓN OBD-II: log_20250603_143855.txt ---
+2025-06-03 14:39:07,704 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:07,814 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:07,922 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:08,032 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:08,142 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:08,247 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:08,358 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:08,463 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:08,577 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:08,686 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:08,796 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:08,906 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:09,016 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:09,125 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:09,234 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:09,344 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:09,454 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:09,565 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:09,674 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:09,785 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:09,895 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:10,003 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:10,112 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:10,221 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:10,330 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:10,440 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:10,548 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:10,656 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:10,765 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:10,876 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:10,985 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:11,095 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:11,202 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:11,311 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:11,419 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:11,528 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:11,636 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:11,744 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:11,851 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:11,961 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:12,069 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:12,179 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:12,302 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:12,412 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:12,521 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:12,630 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:12,740 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:12,866 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:12,990 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:13,086 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:13,208 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:13,303 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:13,412 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:13,527 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:13,646 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:13,758 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:13,882 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:13,977 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:14,086 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:14,195 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:14,307 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:14,417 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:14,525 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:14,635 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:14,744 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:14,854 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:14,963 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:15,074 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:15,181 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:15,290 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:15,398 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:15,510 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:15,618 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:15,726 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:15,837 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:15,960 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:16,057 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:16,164 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:16,273 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:16,381 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:16,495 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:16,606 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:16,710 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:16,822 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:16,942 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:17,037 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:17,148 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:17,262 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:17,374 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:17,479 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:17,598 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:17,706 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:17,807 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:17,924 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:18,034 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:18,143 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:39:18,252 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:18,360 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:18,470 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:18,575 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:18,687 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:18,798 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:18,906 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:19,015 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:19,123 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:19,233 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:19,342 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:19,453 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:19,562 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:19,670 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:19,780 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:19,887 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:19,995 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:20,103 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:20,213 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:20,323 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:20,433 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:20,541 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:20,649 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:20,758 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:20,882 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:20,993 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:21,103 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:21,212 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:21,335 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:21,442 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:21,551 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:21,659 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:21,770 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:21,879 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:21,989 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:22,099 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:22,209 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:22,318 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:22,427 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:22,536 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:22,646 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:22,755 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:22,862 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:22,971 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:23,079 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:23,188 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:23,298 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:23,407 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:23,515 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:23,624 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:23,735 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:23,845 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:23,954 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:24,063 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:24,173 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:24,282 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:24,392 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:24,501 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:24,610 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:24,717 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:24,826 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:24,935 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:25,043 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:25,151 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:25,260 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:25,369 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:25,477 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:25,587 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:25,698 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:25,806 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:25,914 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:26,038 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:26,145 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:26,255 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:26,365 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:26,473 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:26,592 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:26,693 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:26,804 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:26,912 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:27,021 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:27,130 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:27,239 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:27,348 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:27,456 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:27,564 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:27,672 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:27,783 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:27,895 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:28,003 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:28,113 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:28,222 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:28,330 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:28,440 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:28,551 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:28,662 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:28,770 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:28,880 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:28,989 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:29,097 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:29,206 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:29,323 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:29,423 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:29,531 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:29,641 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:29,749 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:29,858 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:29,966 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:30,075 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:30,184 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:30,294 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:30,403 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:30,511 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:30,621 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:30,730 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:30,841 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:30,950 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:31,059 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:31,168 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:31,278 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:31,386 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:31,495 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:31,605 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:31,713 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:31,823 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:31,930 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:32,048 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:32,163 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:32,289 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:32,398 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:32,522 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:32,631 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:32,741 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:32,850 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:32,958 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:33,066 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:33,175 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:33,284 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:33,402 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:33,502 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:33,610 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:33,718 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:33,826 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:33,935 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:34,045 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:34,155 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:34,264 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:34,372 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:34,479 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:34,590 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:34,698 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:34,808 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:34,917 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:35,026 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:35,135 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:35,243 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:35,353 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:35,461 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:35,572 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:35,680 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:35,789 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:35,899 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:36,009 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:36,118 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:36,228 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:36,338 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:36,447 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:36,555 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:36,679 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:36,787 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:36,895 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:37,005 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:37,113 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:37,222 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:37,331 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:37,443 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:37,552 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:37,660 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:37,769 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:37,878 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:37,988 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:38,096 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:38,205 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:38,314 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:38,424 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:38,533 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:38,643 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:38,751 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:38,860 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:38,970 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:39,078 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:39,186 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:39,295 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:39,405 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:39,515 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:39,624 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:39,734 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:39,845 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:39,953 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:40,061 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:40,170 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:40,278 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:40,389 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:40,499 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:40,608 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:40,718 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:40,827 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:40,934 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:41,042 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:41,152 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:41,262 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:41,371 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:41,482 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:41,590 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:41,699 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:41,808 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:41,918 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:42,028 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:42,135 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:42,246 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:42,354 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:42,462 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:42,572 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:42,683 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:42,793 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:42,902 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:43,010 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:43,118 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:43,227 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:43,335 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:43,445 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:43,567 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:43,677 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:43,786 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:43,895 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:44,004 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:44,115 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:44,223 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:44,333 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:44,442 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:44,552 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:44,660 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:44,771 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:44,882 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:44,990 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:45,098 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:45,207 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:45,316 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:45,427 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:45,537 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:45,646 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:45,754 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:45,864 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:45,973 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:46,082 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:46,192 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:46,302 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:46,411 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:46,522 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:46,617 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:46,741 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:46,850 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:46,958 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:47,070 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:47,179 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:47,302 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:47,411 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:47,520 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:47,629 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:47,737 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:47,844 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:47,952 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:48,060 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:48,171 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:48,279 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:48,398 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:48,497 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:48,607 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:48,717 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:48,826 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:48,936 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:49,046 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:49,155 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:49,263 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:49,375 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:49,484 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:49,593 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:49,703 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:49,813 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:49,922 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:50,030 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:50,141 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:50,249 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:50,357 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:50,467 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:50,575 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:50,683 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:50,791 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:50,902 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:51,012 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:51,131 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:51,230 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:51,340 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:51,448 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:51,556 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:51,667 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:51,775 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:51,884 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:51,993 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:52,102 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:52,211 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:52,334 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:52,444 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:52,554 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:52,663 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:52,788 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:52,913 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:53,007 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:53,132 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:53,240 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:53,349 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:53,458 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:53,565 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:53,674 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:53,784 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:53,894 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:54,005 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:54,113 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:54,223 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:54,341 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:54,440 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:54,548 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:54,658 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:54,767 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:54,878 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:54,989 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:55,097 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:55,216 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:55,316 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:55,425 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:55,535 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:55,645 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:55,752 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:55,864 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:55,971 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:56,080 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:56,190 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:56,300 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:56,408 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:56,544 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:56,625 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:56,734 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:56,843 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:56,953 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:57,061 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:57,170 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:57,280 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:57,388 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:57,499 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:57,608 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:57,718 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:57,826 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:57,944 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:58,043 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:58,152 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:58,261 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:58,373 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:58,482 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:58,591 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:58,699 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:58,808 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:58,916 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:59,026 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:59,135 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:59,245 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:59,354 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:59,463 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:59,575 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:59,685 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:59,795 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:39:59,904 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:00,014 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:00,123 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:00,230 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:00,337 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:00,446 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:00,556 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:00,674 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:00,774 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:00,883 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:00,992 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:01,101 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:01,212 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:01,321 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:01,444 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:01,552 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:01,661 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:01,770 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:01,879 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:01,986 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:02,095 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:02,204 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:02,313 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:02,422 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:02,531 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:02,642 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:02,750 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:02,861 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:02,970 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:03,080 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:03,189 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:03,297 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:03,406 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:03,516 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:03,625 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:03,734 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:03,845 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:03,953 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:04,063 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:04,173 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:04,282 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:04,389 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:04,499 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:04,608 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:04,714 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:04,822 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:04,931 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:05,042 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:05,152 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:05,261 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:05,369 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:05,478 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:05,587 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:05,696 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:05,805 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:05,915 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:06,025 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:06,133 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:06,243 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:06,353 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:06,464 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:06,571 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:06,680 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:06,803 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:06,913 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:07,022 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:07,133 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:07,243 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:07,351 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:07,486 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:07,586 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:07,694 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:07,818 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:07,927 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:08,036 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:08,145 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:08,258 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:08,367 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:08,475 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:08,586 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:08,709 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:08,804 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:08,928 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:09,038 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:09,148 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:09,257 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:09,381 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:09,490 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:09,598 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:09,706 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:09,814 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:09,923 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:10,032 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:10,140 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:10,249 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:10,360 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:10,468 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:10,574 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:10,683 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:10,794 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:10,903 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:11,013 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:11,124 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:11,234 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:11,343 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:11,450 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:11,559 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:11,667 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:11,776 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:11,888 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:11,996 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:12,106 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:12,218 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:12,325 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:12,432 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:12,542 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:12,649 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:12,758 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:12,869 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:12,978 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:13,089 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:13,199 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:13,309 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:13,421 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:13,530 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:13,641 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:13,750 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:13,882 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:13,987 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:14,076 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:14,187 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:14,305 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:14,407 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:14,514 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:14,642 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:14,732 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:14,841 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:14,951 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:15,060 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:15,168 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:15,277 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:15,383 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:15,495 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:15,604 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:15,710 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:15,822 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:15,929 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:40:19,192 [INFO] [HANDSHAKE] Handshake OK con ELM327
+2025-06-03 14:40:19,194 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:19,226 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:19,339 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:19,456 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:19,563 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:19,673 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:19,783 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:19,890 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:19,998 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:20,109 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:20,217 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:20,326 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:20,433 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:20,546 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:20,656 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:20,758 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:20,870 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:20,982 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:21,087 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:21,199 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:21,305 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:21,415 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:21,527 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:21,636 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:21,742 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:21,855 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:21,966 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:22,070 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:22,185 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:22,295 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:22,402 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:22,511 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:22,619 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:22,730 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:22,839 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:22,950 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:23,058 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:23,169 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:23,274 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:23,386 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:23,497 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:23,606 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:23,718 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:23,828 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:23,934 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:24,038 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:24,155 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:24,263 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:24,371 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:24,479 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:24,588 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:24,694 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:24,807 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:24,917 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:25,023 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:25,135 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:25,244 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:25,353 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:25,462 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:25,570 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:25,682 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:25,792 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:40:25,902 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001ACBD122480>
+2025-06-03 14:40:26,012 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001ACBD122480>
+2025-06-03 14:40:26,118 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001ACBD122480>
+2025-06-03 14:40:26,230 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001ACBD122480>
+2025-06-03 14:40:26,354 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001ACBD122480>
+2025-06-03 14:40:26,463 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001ACBD122480>
+2025-06-03 14:40:26,573 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001ACBD122480>
+2025-06-03 14:40:26,684 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001ACBD122480>
+2025-06-03 14:40:26,793 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001ACBD122480>
+2025-06-03 14:40:26,900 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001ACBD122480>
+2025-06-03 14:40:27,009 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001ACBD122480>
+2025-06-03 14:40:27,119 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001ACBD122480>
+2025-06-03 14:40:27,227 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001ACBD122480>
+2025-06-03 14:40:27,374 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001ACBD122480>

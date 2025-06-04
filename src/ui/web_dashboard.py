@@ -10,19 +10,21 @@ app = Flask(__name__)
 # Preguntar si usar emulador o conexión real al iniciar el dashboard
 USE_EMULADOR = None
 while USE_EMULADOR is None:
-    respuesta = input('¿Deseas usar el emulador OBD-II? (s/n): ').strip().lower()
-    if respuesta == 's':
+    respuesta = input("¿Deseas usar el emulador OBD-II? (s/n): ").strip().lower()
+    if respuesta == "s":
         USE_EMULADOR = True
-    elif respuesta == 'n':
+    elif respuesta == "n":
         USE_EMULADOR = False
 
 # Lanzar el proceso de adquisición de datos en modo emulador o real
 if USE_EMULADOR:
-    proceso = subprocess.Popen([sys.executable, '-m', 'src.obd.ejemplo_lectura', 'emulador'])
+    proceso = subprocess.Popen(
+        [sys.executable, "-m", "src.obd.ejemplo_lectura", "emulador"]
+    )
 else:
-    proceso = subprocess.Popen([sys.executable, '-m', 'src.obd.ejemplo_lectura'])
+    proceso = subprocess.Popen([sys.executable, "-m", "src.obd.ejemplo_lectura"])
 
-HTML = '''
+HTML = """
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -61,56 +63,60 @@ HTML = '''
     </script>
 </body>
 </html>
-'''
+"""
+
 
 def get_ultimo_registro():
-    conn = sqlite3.connect('obd_log.db')
+    conn = sqlite3.connect("obd_log.db")
     cursor = conn.cursor()
-    cursor.execute('SELECT rpm, vel FROM lecturas ORDER BY id DESC LIMIT 1')
+    cursor.execute("SELECT rpm, vel FROM lecturas ORDER BY id DESC LIMIT 1")
     row = cursor.fetchone()
     conn.close()
     if row:
-        return {'rpm': row[0], 'vel': row[1]}
-    return {'rpm': None, 'vel': None}
+        return {"rpm": row[0], "vel": row[1]}
+    return {"rpm": None, "vel": None}
 
-@app.route('/')
+
+@app.route("/")
 def index():
     return render_template_string(HTML)
 
-@app.route('/api/ultimo')
+
+@app.route("/api/ultimo")
 def api_ultimo():
     return jsonify(get_ultimo_registro())
 
-@app.route('/exportar')
+
+@app.route("/exportar")
 def exportar():
     from src.storage.export import exportar_logs_csv
+
     ruta = exportar_logs_csv()
     return f"<p>Exportación completada: <b>{ruta}</b></p><a href='/'>Volver</a>"
 
-@app.route('/log')
+
+@app.route("/log")
 def ver_log():
     # Muestra las últimas 50 líneas del log en pantalla
-    conn = sqlite3.connect('obd_log.db')
+    conn = sqlite3.connect("obd_log.db")
     cursor = conn.cursor()
-    cursor.execute(
-        'SELECT timestamp, rpm, vel FROM lecturas ORDER BY id DESC LIMIT 50'
-    )
+    cursor.execute("SELECT timestamp, rpm, vel FROM lecturas ORDER BY id DESC LIMIT 50")
     rows = cursor.fetchall()
     conn.close()
     html = (
-        '<h2>Últimos registros</h2>'
-        '<table border=1>'
-        '<tr><th>Timestamp</th><th>RPM</th><th>Velocidad</th></tr>'
+        "<h2>Últimos registros</h2>"
+        "<table border=1>"
+        "<tr><th>Timestamp</th><th>RPM</th><th>Velocidad</th></tr>"
     )
     for t, r, v in rows:
-        html += f'<tr><td>{t}</td><td>{r}</td><td>{v}</td></tr>'
+        html += f"<tr><td>{t}</td><td>{r}</td><td>{v}</td></tr>"
     html += '</table><a href="/">Volver</a>'
     return html
 
+
 HTML = HTML.replace(
-    '</div>\n    <script>',
-    '<a class="btn" href="/log">Ver log</a></div>\n    <script>'
+    "</div>\n    <script>", '<a class="btn" href="/log">Ver log</a></div>\n    <script>'
 )
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run(debug=True, port=5000)

@@ -1,0 +1,1298 @@
+2025-06-03 10:24:42,614 [INFO] --- INICIO DE SESIÓN OBD-II: log_20250603_102442.txt ---
+2025-06-03 10:24:43,124 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:43,238 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:43,348 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:43,459 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:43,570 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:43,681 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:43,791 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:43,904 [INFO] [TEST] Test automático de PIDs lanzado automáticamente al inicio de la app.
+2025-06-03 10:24:43,905 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:44,025 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:44,136 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:44,246 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:44,358 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:44,469 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:44,580 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:44,692 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:44,804 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:44,914 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:45,025 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:45,139 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:45,251 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:45,356 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:45,466 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:45,572 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:45,697 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:45,790 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:45,900 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:46,009 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:46,119 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:46,231 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:46,354 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:46,465 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:46,574 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:46,683 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:46,796 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:46,905 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:47,014 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:47,122 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:47,233 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:47,347 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:47,461 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:47,557 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:47,668 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 10:24:47,733 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → desconectado
+2025-06-03 10:24:47,780 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:47,785 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:47,888 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:47,891 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:47,996 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:47,998 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:48,111 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:48,114 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:48,222 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:48,225 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:48,336 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:48,338 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:48,447 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:48,464 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:48,543 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:48,545 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:48,653 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:48,655 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:48,760 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:48,762 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:48,868 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:48,870 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:48,981 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:48,982 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:49,089 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:49,092 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:49,197 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:49,199 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:49,344 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:49,347 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:49,434 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:49,436 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:49,542 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:49,544 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:49,653 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:49,657 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:49,759 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:49,761 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:49,872 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:49,876 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:49,981 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:49,983 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:50,091 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:50,093 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:50,200 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:50,202 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:50,311 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:50,313 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:50,420 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:50,426 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:50,525 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:50,527 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:50,637 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:50,641 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:50,749 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:50,751 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:50,857 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:50,860 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:50,962 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:50,964 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:51,074 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:51,077 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:51,184 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:51,187 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:51,295 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:51,296 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:51,400 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:51,402 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:51,524 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:51,545 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:51,630 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:51,642 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:51,728 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:51,729 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:51,843 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:51,846 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:51,953 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:51,957 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:52,062 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:52,063 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:52,172 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:52,174 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:52,279 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:52,280 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:52,394 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:52,396 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:52,505 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:52,509 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:52,615 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:52,617 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 10:24:55,695 [ERROR] [HANDSHAKE] Handshake fallido con ELM327
+2025-06-03 10:24:55,712 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:55,713 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:55,715 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:55,815 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:55,819 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:55,925 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:55,929 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:56,036 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:56,041 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:56,144 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:56,146 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:56,255 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:56,257 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:56,366 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:56,368 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:56,477 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:56,479 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:56,571 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:56,573 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:56,682 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:56,686 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:56,791 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:56,794 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:56,903 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:56,908 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:57,011 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:57,013 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:57,123 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:57,125 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:57,236 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:57,238 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:57,345 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:57,346 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:57,456 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:57,458 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:57,570 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:57,572 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:57,679 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:57,682 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:57,776 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:57,778 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:57,886 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:57,889 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:57,994 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:57,996 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:58,105 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:58,107 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:58,215 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:58,218 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:58,322 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:58,324 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:58,435 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:58,437 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:58,545 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:58,569 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:58,653 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:58,656 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:58,763 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:58,767 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:58,874 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:58,876 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:58,984 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:58,986 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:59,091 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:59,093 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:59,201 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:59,203 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:59,310 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:59,313 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:59,418 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:59,420 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:59,525 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:59,527 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:59,636 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:59,638 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:59,743 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:59,745 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:59,868 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:59,870 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:24:59,978 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:24:59,980 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:00,087 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:00,089 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:00,197 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:00,201 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:00,307 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:00,309 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:00,417 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:00,419 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:00,540 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:00,542 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:00,648 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:00,650 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:00,744 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:00,747 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:00,854 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:00,855 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:00,962 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:00,966 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:01,086 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:01,088 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:01,198 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:01,199 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:01,307 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:01,309 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:01,416 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:01,419 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:01,540 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:01,542 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:01,649 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:01,651 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:01,757 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:01,759 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:01,866 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:01,868 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:01,976 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:01,979 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:02,084 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:02,086 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:02,194 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:02,199 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:02,303 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:02,305 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:02,410 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:02,414 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:02,518 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:02,520 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:02,628 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:02,632 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:02,738 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:02,740 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:04,666 [INFO] [HANDSHAKE] Handshake OK con ELM327
+2025-06-03 10:25:04,668 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → conectado
+2025-06-03 10:25:04,669 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:04,669 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:04,770 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): OK>
+2025-06-03 10:25:04,772 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'OK', cmd=010C
+2025-06-03 10:25:04,772 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:04,772 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:04,774 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: OK>, Parsing: None
+2025-06-03 10:25:04,775 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:04,912 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): OK>
+2025-06-03 10:25:04,912 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'OK', cmd=010D
+2025-06-03 10:25:04,913 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+2025-06-03 10:25:04,913 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:25:04,915 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: OK>, Parsing: None
+2025-06-03 10:25:04,915 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:05,321 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410D1C410D1C
+2025-06-03 10:25:05,321 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410D1C410D1C, cmd=0105
+2025-06-03 10:25:05,324 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410D1C410D1C, Parsing: 
+2025-06-03 10:25:05,366 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:05,367 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:05,468 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-03 10:25:05,469 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:05,470 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-03 10:25:05,471 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:05,638 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410587410586
+2025-06-03 10:25:05,638 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410587', cmd=010D
+2025-06-03 10:25:05,639 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410586', cmd=010D
+2025-06-03 10:25:05,642 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 410587410586, Parsing: None
+2025-06-03 10:25:05,643 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:05,745 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): STOPPED>7F10127F1013>
+2025-06-03 10:25:05,746 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: STOPPED>7F10127F1013>, cmd=0105
+2025-06-03 10:25:05,748 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: STOPPED>7F10127F1013>, Parsing: 
+2025-06-03 10:25:05,802 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:05,803 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:05,904 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>?>
+2025-06-03 10:25:05,905 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:25:05,905 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:05,905 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>?', cmd=010C
+2025-06-03 10:25:05,905 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:05,905 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:05,907 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>?>, Parsing: None
+2025-06-03 10:25:05,907 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:06,139 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410C0F70410C0F70
+2025-06-03 10:25:06,140 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C0F70', cmd=010D
+2025-06-03 10:25:06,140 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C0F70', cmd=010D
+2025-06-03 10:25:06,145 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 410C0F70410C0F70, Parsing: None
+2025-06-03 10:25:06,145 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:06,247 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 10:25:06,247 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 10:25:06,249 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 10:25:06,347 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:06,347 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:06,449 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F1012410D14>410C0E38410C0E38
+2025-06-03 10:25:06,449 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:25:06,449 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:06,449 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 10:25:06,449 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410D14', cmd=010C
+2025-06-03 10:25:06,449 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:06,449 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C0E38', cmd=010C
+2025-06-03 10:25:06,450 [INFO] [OBD] rpm recibido: 910
+2025-06-03 10:25:06,451 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:06,552 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D14410D14
+2025-06-03 10:25:06,553 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D14', cmd=010D
+2025-06-03 10:25:06,554 [INFO] [OBD] vel recibido: 20
+2025-06-03 10:25:06,554 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:06,754 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410587410586
+2025-06-03 10:25:06,754 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410587410586, cmd=0105
+2025-06-03 10:25:06,759 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410587410586, Parsing: 
+2025-06-03 10:25:06,782 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:06,783 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:06,884 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C0D58410C0D58
+2025-06-03 10:25:06,885 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C0D58', cmd=010C
+2025-06-03 10:25:06,886 [INFO] [OBD] rpm recibido: 854
+2025-06-03 10:25:06,886 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:06,987 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D14410D13
+2025-06-03 10:25:06,987 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D14', cmd=010D
+2025-06-03 10:25:06,988 [INFO] [OBD] vel recibido: 19
+2025-06-03 10:25:06,988 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:07,090 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410587410586>
+2025-06-03 10:25:07,091 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410587410586>, cmd=0105
+2025-06-03 10:25:07,095 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410587410586>, Parsing: 
+2025-06-03 10:25:07,110 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:07,111 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:07,379 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410C0F14410C0F14
+2025-06-03 10:25:07,381 [INFO] [OBD] rpm recibido: 965
+2025-06-03 10:25:07,381 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:07,481 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 10:25:07,481 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:25:07,484 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 10:25:07,484 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:07,585 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410D14410D14>410587410586
+2025-06-03 10:25:07,586 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410D14410D14>410587410586, cmd=0105
+2025-06-03 10:25:07,588 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410D14410D14>410587410586, Parsing: 
+2025-06-03 10:25:07,651 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:07,652 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:07,753 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C1A58410C1A44
+2025-06-03 10:25:07,754 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C1A58', cmd=010C
+2025-06-03 10:25:07,755 [INFO] [OBD] rpm recibido: 1681
+2025-06-03 10:25:07,755 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:07,857 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 10:25:07,857 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:25:07,861 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 10:25:07,862 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:07,983 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410D15410D14
+2025-06-03 10:25:07,984 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410D15410D14, cmd=0105
+2025-06-03 10:25:07,986 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410D15410D14, Parsing: 
+2025-06-03 10:25:08,100 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:08,102 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:08,203 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410587410586>410C1DD8410C1DD8>
+2025-06-03 10:25:08,204 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410587', cmd=010C
+2025-06-03 10:25:08,204 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410586', cmd=010C
+2025-06-03 10:25:08,204 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:08,204 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C1DD8', cmd=010C
+2025-06-03 10:25:08,206 [INFO] [OBD] rpm recibido: 1910
+2025-06-03 10:25:08,206 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:08,393 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D17410D17
+2025-06-03 10:25:08,395 [INFO] [OBD] vel recibido: 23
+2025-06-03 10:25:08,395 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:08,496 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 10:25:08,496 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 10:25:08,498 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 10:25:08,535 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:08,536 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:08,637 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410587410586>410C1D48410C1D50>
+2025-06-03 10:25:08,637 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410587', cmd=010C
+2025-06-03 10:25:08,637 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410586', cmd=010C
+2025-06-03 10:25:08,637 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:08,638 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C1D48', cmd=010C
+2025-06-03 10:25:08,640 [INFO] [OBD] rpm recibido: 1876
+2025-06-03 10:25:08,641 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:08,988 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D19410D19
+2025-06-03 10:25:08,992 [INFO] [OBD] vel recibido: 25
+2025-06-03 10:25:08,992 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:09,096 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 10:25:09,096 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 10:25:09,099 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 10:25:09,191 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:09,193 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:09,294 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410587410586>
+2025-06-03 10:25:09,295 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410587', cmd=010C
+2025-06-03 10:25:09,295 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410586', cmd=010C
+2025-06-03 10:25:09,295 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:09,295 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:09,298 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: 410587410586>, Parsing: None
+2025-06-03 10:25:09,298 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:09,399 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410C1E1C410C1E1C>
+2025-06-03 10:25:09,399 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C1E1C', cmd=010D
+2025-06-03 10:25:09,399 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C1E1C', cmd=010D
+2025-06-03 10:25:09,399 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+2025-06-03 10:25:09,399 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:25:09,401 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 410C1E1C410C1E1C>, Parsing: None
+2025-06-03 10:25:09,401 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:09,734 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410D1D410D1C
+2025-06-03 10:25:09,735 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410D1D410D1C, cmd=0105
+2025-06-03 10:25:09,737 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410D1D410D1C, Parsing: 
+2025-06-03 10:25:09,841 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:09,843 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:09,944 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410587410586>
+2025-06-03 10:25:09,944 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410587', cmd=010C
+2025-06-03 10:25:09,944 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410586', cmd=010C
+2025-06-03 10:25:09,944 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:09,944 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:09,947 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >410587410586>, Parsing: None
+2025-06-03 10:25:09,947 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:10,143 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410C1AD4410C1AEC
+2025-06-03 10:25:10,144 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C1AD4', cmd=010D
+2025-06-03 10:25:10,144 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C1AEC', cmd=010D
+2025-06-03 10:25:10,146 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 410C1AD4410C1AEC, Parsing: None
+2025-06-03 10:25:10,147 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:10,248 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 10:25:10,248 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 10:25:10,250 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 10:25:10,278 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:10,279 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:10,590 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410D20STOPPED>7F1012410D20
+2025-06-03 10:25:10,592 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410D20', cmd=010C
+2025-06-03 10:25:10,592 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:25:10,592 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:10,593 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 10:25:10,593 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410D20', cmd=010C
+2025-06-03 10:25:10,595 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: 410D20STOPPED>7F1012410D20, Parsing: None
+2025-06-03 10:25:10,595 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:10,696 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 10:25:10,697 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:25:10,699 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 10:25:10,699 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:10,850 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410C144CSTOPPED>7F1012410C1448
+2025-06-03 10:25:10,851 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410C144CSTOPPED>7F1012410C1448, cmd=0105
+2025-06-03 10:25:10,854 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410C144CSTOPPED>7F1012410C1448, Parsing: 
+2025-06-03 10:25:10,944 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:10,945 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:11,046 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410587410586>410C13F8410C13F8>
+2025-06-03 10:25:11,046 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410587', cmd=010C
+2025-06-03 10:25:11,047 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410586', cmd=010C
+2025-06-03 10:25:11,047 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:11,047 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C13F8', cmd=010C
+2025-06-03 10:25:11,048 [INFO] [OBD] rpm recibido: 1278
+2025-06-03 10:25:11,048 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:11,362 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D24410D23
+2025-06-03 10:25:11,364 [INFO] [OBD] vel recibido: 36
+2025-06-03 10:25:11,364 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:11,465 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410587410586>
+2025-06-03 10:25:11,465 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410587410586>, cmd=0105
+2025-06-03 10:25:11,468 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410587410586>, Parsing: 
+2025-06-03 10:25:11,616 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:11,618 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:11,782 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410C14C8410C14CC
+2025-06-03 10:25:11,785 [INFO] [OBD] rpm recibido: 1330
+2025-06-03 10:25:11,785 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:11,886 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 10:25:11,887 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:25:11,891 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 10:25:11,891 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:11,992 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410D26410D26>410587410586
+2025-06-03 10:25:11,992 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410D26410D26>410587410586, cmd=0105
+2025-06-03 10:25:11,995 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410D26410D26>410587410586, Parsing: 
+2025-06-03 10:25:12,050 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:12,051 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:12,153 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C157C410C1574
+2025-06-03 10:25:12,154 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C157C', cmd=010C
+2025-06-03 10:25:12,157 [INFO] [OBD] rpm recibido: 1373
+2025-06-03 10:25:12,157 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:12,258 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D27410D27>
+2025-06-03 10:25:12,258 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D27', cmd=010D
+2025-06-03 10:25:12,260 [INFO] [OBD] vel recibido: 39
+2025-06-03 10:25:12,260 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:12,499 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410587410586
+2025-06-03 10:25:12,499 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410587410586, cmd=0105
+2025-06-03 10:25:12,503 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410587410586, Parsing: 
+2025-06-03 10:25:12,598 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:12,599 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:12,700 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-03 10:25:12,701 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:12,704 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-03 10:25:12,705 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:12,806 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410C13F8410C13F8>
+2025-06-03 10:25:12,806 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C13F8', cmd=010D
+2025-06-03 10:25:12,806 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C13F8', cmd=010D
+2025-06-03 10:25:12,806 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+2025-06-03 10:25:12,807 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:25:12,808 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 410C13F8410C13F8>, Parsing: None
+2025-06-03 10:25:12,810 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:13,173 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410D29410D28STOPPED>7F10137F1012
+2025-06-03 10:25:13,174 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410D29410D28STOPPED>7F10137F1012, cmd=0105
+2025-06-03 10:25:13,175 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410D29410D28STOPPED>7F10137F1012, Parsing: 
+2025-06-03 10:25:13,250 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:13,253 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:13,355 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-03 10:25:13,355 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:13,358 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-03 10:25:13,358 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:13,608 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410C117C410C117C
+2025-06-03 10:25:13,609 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C117C', cmd=010D
+2025-06-03 10:25:13,609 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C117C', cmd=010D
+2025-06-03 10:25:13,611 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 410C117C410C117C, Parsing: None
+2025-06-03 10:25:13,611 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:13,712 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 10:25:13,712 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 10:25:13,714 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 10:25:13,794 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:13,795 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:13,896 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>
+2025-06-03 10:25:13,896 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:25:13,896 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:13,896 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:13,898 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>, Parsing: None
+2025-06-03 10:25:13,898 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:14,000 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410C1184410C1184>410D2A410D29
+2025-06-03 10:25:14,003 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C1184', cmd=010D
+2025-06-03 10:25:14,003 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C1184', cmd=010D
+2025-06-03 10:25:14,003 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+2025-06-03 10:25:14,004 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D2A', cmd=010D
+2025-06-03 10:25:14,005 [INFO] [OBD] vel recibido: 41
+2025-06-03 10:25:14,005 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:14,105 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410586410585
+2025-06-03 10:25:14,105 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410586410585, cmd=0105
+2025-06-03 10:25:14,107 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410586410585, Parsing: 
+2025-06-03 10:25:14,119 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:14,120 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:14,222 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C11B8410C11B8
+2025-06-03 10:25:14,222 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C11B8', cmd=010C
+2025-06-03 10:25:14,224 [INFO] [OBD] rpm recibido: 1134
+2025-06-03 10:25:14,224 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:14,325 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D2A410D29>
+2025-06-03 10:25:14,326 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D2A', cmd=010D
+2025-06-03 10:25:14,327 [INFO] [OBD] vel recibido: 41
+2025-06-03 10:25:14,327 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:14,428 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410586410585>
+2025-06-03 10:25:14,428 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410586410585>, cmd=0105
+2025-06-03 10:25:14,431 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410586410585>, Parsing: 
+2025-06-03 10:25:14,447 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:14,450 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:14,553 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410C11C8410C11C8
+2025-06-03 10:25:14,555 [INFO] [OBD] rpm recibido: 1138
+2025-06-03 10:25:14,555 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:14,656 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D2A410D2A>
+2025-06-03 10:25:14,657 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D2A', cmd=010D
+2025-06-03 10:25:14,658 [INFO] [OBD] vel recibido: 42
+2025-06-03 10:25:14,658 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:14,759 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410586410585
+2025-06-03 10:25:14,759 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410586410585, cmd=0105
+2025-06-03 10:25:14,764 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410586410585, Parsing: 
+2025-06-03 10:25:14,776 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:14,778 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:14,879 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C11EC410C11E0>
+2025-06-03 10:25:14,879 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C11EC', cmd=010C
+2025-06-03 10:25:14,880 [INFO] [OBD] rpm recibido: 1144
+2025-06-03 10:25:14,880 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:14,981 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D2A410D2A>
+2025-06-03 10:25:14,986 [INFO] [OBD] vel recibido: 42
+2025-06-03 10:25:14,986 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:15,087 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410586410585>
+2025-06-03 10:25:15,087 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410586410585>, cmd=0105
+2025-06-03 10:25:15,090 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410586410585>, Parsing: 
+2025-06-03 10:25:15,106 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:15,107 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:15,208 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410C11DC410C11EC>
+2025-06-03 10:25:15,209 [INFO] [OBD] rpm recibido: 1143
+2025-06-03 10:25:15,209 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:15,310 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D2A410D2A>
+2025-06-03 10:25:15,312 [INFO] [OBD] vel recibido: 42
+2025-06-03 10:25:15,312 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:15,413 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410586410585
+2025-06-03 10:25:15,413 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410586410585, cmd=0105
+2025-06-03 10:25:15,417 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410586410585, Parsing: 
+2025-06-03 10:25:15,434 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:15,436 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:15,537 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C11F8410C1204>
+2025-06-03 10:25:15,538 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C11F8', cmd=010C
+2025-06-03 10:25:15,539 [INFO] [OBD] rpm recibido: 1153
+2025-06-03 10:25:15,539 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:15,640 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D2A410D2A>
+2025-06-03 10:25:15,641 [INFO] [OBD] vel recibido: 42
+2025-06-03 10:25:15,641 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:15,742 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410586410585
+2025-06-03 10:25:15,742 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410586410585, cmd=0105
+2025-06-03 10:25:15,745 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410586410585, Parsing: 
+2025-06-03 10:25:15,761 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:15,762 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:15,863 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C1224410C1224
+2025-06-03 10:25:15,863 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C1224', cmd=010C
+2025-06-03 10:25:15,866 [INFO] [OBD] rpm recibido: 1161
+2025-06-03 10:25:15,867 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:15,968 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D2A410D2A>
+2025-06-03 10:25:15,968 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D2A', cmd=010D
+2025-06-03 10:25:15,970 [INFO] [OBD] vel recibido: 42
+2025-06-03 10:25:15,970 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:16,071 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410586410585
+2025-06-03 10:25:16,071 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410586410585, cmd=0105
+2025-06-03 10:25:16,073 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410586410585, Parsing: 
+2025-06-03 10:25:16,104 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:16,105 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:16,206 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C1230410C122C>
+2025-06-03 10:25:16,206 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C1230', cmd=010C
+2025-06-03 10:25:16,207 [INFO] [OBD] rpm recibido: 1163
+2025-06-03 10:25:16,207 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:16,390 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D2B410D2A
+2025-06-03 10:25:16,392 [INFO] [OBD] vel recibido: 43
+2025-06-03 10:25:16,392 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:16,618 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 10:25:16,619 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 10:25:16,621 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 10:25:16,651 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:16,652 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:16,753 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410586410585>410C1234410C1244
+2025-06-03 10:25:16,753 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410586', cmd=010C
+2025-06-03 10:25:16,754 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410585', cmd=010C
+2025-06-03 10:25:16,754 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:16,754 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C1234', cmd=010C
+2025-06-03 10:25:16,755 [INFO] [OBD] rpm recibido: 1169
+2025-06-03 10:25:16,755 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:16,901 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 10:25:16,902 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:25:16,903 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 10:25:16,904 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:17,005 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410D2B410D2A>410586410585
+2025-06-03 10:25:17,005 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410D2B410D2A>410586410585, cmd=0105
+2025-06-03 10:25:17,007 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410D2B410D2A>410586410585, Parsing: 
+2025-06-03 10:25:17,092 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:17,093 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:17,195 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-03 10:25:17,195 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:17,200 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-03 10:25:17,200 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:17,302 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410C1228410C1228
+2025-06-03 10:25:17,303 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C1228', cmd=010D
+2025-06-03 10:25:17,303 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C1228', cmd=010D
+2025-06-03 10:25:17,305 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 410C1228410C1228, Parsing: None
+2025-06-03 10:25:17,305 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:17,406 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 10:25:17,407 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 10:25:17,408 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 10:25:17,418 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:17,420 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:17,618 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>410D2B410D2A
+2025-06-03 10:25:17,619 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:25:17,619 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:17,619 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410D2B', cmd=010C
+2025-06-03 10:25:17,619 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410D2A', cmd=010C
+2025-06-03 10:25:17,621 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>410D2B410D2A, Parsing: None
+2025-06-03 10:25:17,622 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:17,723 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 10:25:17,723 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:25:17,725 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 10:25:17,725 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:17,926 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): STOPPED>
+2025-06-03 10:25:17,926 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: STOPPED>, cmd=0105
+2025-06-03 10:25:17,928 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: STOPPED>, Parsing: 
+2025-06-03 10:25:17,968 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:17,970 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:18,131 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410587410586
+2025-06-03 10:25:18,131 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410587', cmd=010C
+2025-06-03 10:25:18,132 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410586', cmd=010C
+2025-06-03 10:25:18,133 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: 410587410586, Parsing: None
+2025-06-03 10:25:18,133 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:18,235 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 10:25:18,235 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:25:18,236 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 10:25:18,237 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:18,338 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): STOPPED>?>
+2025-06-03 10:25:18,338 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: STOPPED>?>, cmd=0105
+2025-06-03 10:25:18,341 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: STOPPED>?>, Parsing: 
+2025-06-03 10:25:18,404 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:18,405 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:18,718 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410587410586
+2025-06-03 10:25:18,719 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410587', cmd=010C
+2025-06-03 10:25:18,719 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410586', cmd=010C
+2025-06-03 10:25:18,721 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: 410587410586, Parsing: None
+2025-06-03 10:25:18,721 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:18,822 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 10:25:18,822 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:25:18,824 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 10:25:18,825 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:19,052 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): STOPPED>
+2025-06-03 10:25:19,053 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: STOPPED>, cmd=0105
+2025-06-03 10:25:19,055 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: STOPPED>, Parsing: 
+2025-06-03 10:25:19,174 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:19,175 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:19,276 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410587410586>
+2025-06-03 10:25:19,277 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410587', cmd=010C
+2025-06-03 10:25:19,277 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410586', cmd=010C
+2025-06-03 10:25:19,277 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:19,277 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:19,282 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: 410587410586>, Parsing: None
+2025-06-03 10:25:19,282 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:19,400 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410C1224410C1218STOPPED>7F10127F1013
+2025-06-03 10:25:19,400 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C1224', cmd=010D
+2025-06-03 10:25:19,401 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C1218', cmd=010D
+2025-06-03 10:25:19,401 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+2025-06-03 10:25:19,401 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+2025-06-03 10:25:19,401 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>7F1012', cmd=010D
+2025-06-03 10:25:19,401 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '7F1013', cmd=010D
+2025-06-03 10:25:19,403 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 410C1224410C1218STOPPED>7F10127F1013, Parsing: None
+2025-06-03 10:25:19,403 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:19,504 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410587410586
+2025-06-03 10:25:19,504 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410587410586, cmd=0105
+2025-06-03 10:25:19,506 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410587410586, Parsing: 
+2025-06-03 10:25:19,614 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:19,615 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:19,717 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-03 10:25:19,718 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:19,719 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-03 10:25:19,720 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:19,820 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410C12A4410C12A0>410D2B410D2A
+2025-06-03 10:25:19,820 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C12A4', cmd=010D
+2025-06-03 10:25:19,821 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C12A0', cmd=010D
+2025-06-03 10:25:19,821 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+2025-06-03 10:25:19,821 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D2B', cmd=010D
+2025-06-03 10:25:19,822 [INFO] [OBD] vel recibido: 42
+2025-06-03 10:25:19,822 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:20,076 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410587410586
+2025-06-03 10:25:20,078 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410587410586, cmd=0105
+2025-06-03 10:25:20,081 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410587410586, Parsing: 
+2025-06-03 10:25:20,158 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:20,160 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:20,263 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-03 10:25:20,263 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:20,265 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-03 10:25:20,265 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:20,549 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410C11F0410C1208
+2025-06-03 10:25:20,550 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C11F0', cmd=010D
+2025-06-03 10:25:20,550 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C1208', cmd=010D
+2025-06-03 10:25:20,552 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 410C11F0410C1208, Parsing: None
+2025-06-03 10:25:20,552 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:20,653 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >STOPPED>
+2025-06-03 10:25:20,653 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >STOPPED>, cmd=0105
+2025-06-03 10:25:20,655 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >STOPPED>, Parsing: 
+2025-06-03 10:25:20,702 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:20,703 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:20,886 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410C1214410C1218
+2025-06-03 10:25:20,888 [INFO] [OBD] rpm recibido: 1157
+2025-06-03 10:25:20,888 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:20,989 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 10:25:20,989 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:25:20,991 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 10:25:20,991 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:21,092 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410D2B410D2A>410586410586
+2025-06-03 10:25:21,093 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410D2B410D2A>410586410586, cmd=0105
+2025-06-03 10:25:21,097 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410D2B410D2A>410586410586, Parsing: 
+2025-06-03 10:25:21,140 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:21,141 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:21,243 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C11EC410C11EC
+2025-06-03 10:25:21,245 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C11EC', cmd=010C
+2025-06-03 10:25:21,246 [INFO] [OBD] rpm recibido: 1147
+2025-06-03 10:25:21,246 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:21,347 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D2B410D2A>
+2025-06-03 10:25:21,347 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D2B', cmd=010D
+2025-06-03 10:25:21,348 [INFO] [OBD] vel recibido: 42
+2025-06-03 10:25:21,348 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:21,501 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410586410586
+2025-06-03 10:25:21,502 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410586410586, cmd=0105
+2025-06-03 10:25:21,503 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410586410586, Parsing: 
+2025-06-03 10:25:21,578 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:21,579 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:21,680 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-03 10:25:21,680 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:21,682 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-03 10:25:21,683 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:21,784 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410C11A0410C1188>410D2A410D2A
+2025-06-03 10:25:21,784 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C11A0', cmd=010D
+2025-06-03 10:25:21,785 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C1188', cmd=010D
+2025-06-03 10:25:21,785 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+2025-06-03 10:25:21,785 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D2A', cmd=010D
+2025-06-03 10:25:21,786 [INFO] [OBD] vel recibido: 42
+2025-06-03 10:25:21,786 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:22,135 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 10:25:22,136 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 10:25:22,139 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 10:25:22,232 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:22,233 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:22,334 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410586410585>
+2025-06-03 10:25:22,335 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410586', cmd=010C
+2025-06-03 10:25:22,335 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410585', cmd=010C
+2025-06-03 10:25:22,335 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:22,335 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:22,337 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: 410586410585>, Parsing: None
+2025-06-03 10:25:22,337 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:22,438 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410C1140410C1138>410D29410D28
+2025-06-03 10:25:22,439 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C1140', cmd=010D
+2025-06-03 10:25:22,439 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C1138', cmd=010D
+2025-06-03 10:25:22,439 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+2025-06-03 10:25:22,439 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D29', cmd=010D
+2025-06-03 10:25:22,440 [INFO] [OBD] vel recibido: 40
+2025-06-03 10:25:22,440 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:22,772 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410586410585
+2025-06-03 10:25:22,773 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410586410585, cmd=0105
+2025-06-03 10:25:22,777 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410586410585, Parsing: 
+2025-06-03 10:25:22,786 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:22,787 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:22,888 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C1014410C1010
+2025-06-03 10:25:22,888 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C1014', cmd=010C
+2025-06-03 10:25:22,889 [INFO] [OBD] rpm recibido: 1028
+2025-06-03 10:25:22,889 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:23,148 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 10:25:23,149 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:25:23,151 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 10:25:23,151 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:23,252 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410D27410D26>410586410585>
+2025-06-03 10:25:23,253 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410D27410D26>410586410585>, cmd=0105
+2025-06-03 10:25:23,255 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410D27410D26>410586410585>, Parsing: 
+2025-06-03 10:25:23,328 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:23,329 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:23,548 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410C1444410C1458
+2025-06-03 10:25:23,550 [INFO] [OBD] rpm recibido: 1297
+2025-06-03 10:25:23,550 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:23,651 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D25410D24
+2025-06-03 10:25:23,652 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D25', cmd=010D
+2025-06-03 10:25:23,653 [INFO] [OBD] vel recibido: 36
+2025-06-03 10:25:23,653 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:23,754 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410586410585
+2025-06-03 10:25:23,755 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410586410585, cmd=0105
+2025-06-03 10:25:23,757 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410586410585, Parsing: 
+2025-06-03 10:25:23,870 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:23,872 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:23,973 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-03 10:25:23,974 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:23,977 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-03 10:25:23,977 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:24,213 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410C13C8410C13D8
+2025-06-03 10:25:24,214 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C13C8', cmd=010D
+2025-06-03 10:25:24,215 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C13D8', cmd=010D
+2025-06-03 10:25:24,217 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 410C13C8410C13D8, Parsing: None
+2025-06-03 10:25:24,217 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:24,318 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >STOPPED>
+2025-06-03 10:25:24,319 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >STOPPED>, cmd=0105
+2025-06-03 10:25:24,321 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >STOPPED>, Parsing: 
+2025-06-03 10:25:24,426 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:24,427 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:24,667 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): NO DATA>
+2025-06-03 10:25:24,668 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'NO DATA', cmd=010C
+2025-06-03 10:25:24,669 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:24,669 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:24,670 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: NO DATA>, Parsing: None
+2025-06-03 10:25:24,670 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:24,772 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D24410D23
+2025-06-03 10:25:24,776 [INFO] [OBD] vel recibido: 36
+2025-06-03 10:25:24,776 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:24,878 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410586410585>
+2025-06-03 10:25:24,878 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410586410585>, cmd=0105
+2025-06-03 10:25:24,881 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410586410585>, Parsing: 
+2025-06-03 10:25:24,975 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:24,977 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:25,078 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410C13C8410C13D4
+2025-06-03 10:25:25,079 [INFO] [OBD] rpm recibido: 1266
+2025-06-03 10:25:25,079 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:25,181 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D24410D23
+2025-06-03 10:25:25,181 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D24', cmd=010D
+2025-06-03 10:25:25,182 [INFO] [OBD] vel recibido: 35
+2025-06-03 10:25:25,182 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:25,284 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410586410585>
+2025-06-03 10:25:25,284 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410586410585>, cmd=0105
+2025-06-03 10:25:25,286 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410586410585>, Parsing: 
+2025-06-03 10:25:25,414 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:25,416 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:25,517 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410C13D0410C13BC>
+2025-06-03 10:25:25,519 [INFO] [OBD] rpm recibido: 1268
+2025-06-03 10:25:25,519 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:25,620 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D24410D23>
+2025-06-03 10:25:25,622 [INFO] [OBD] vel recibido: 36
+2025-06-03 10:25:25,622 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:25,724 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410586410585
+2025-06-03 10:25:25,724 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410586410585, cmd=0105
+2025-06-03 10:25:25,728 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410586410585, Parsing: 
+2025-06-03 10:25:25,838 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:25,842 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:25,943 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C141C410C142C
+2025-06-03 10:25:25,944 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C141C', cmd=010C
+2025-06-03 10:25:25,946 [INFO] [OBD] rpm recibido: 1291
+2025-06-03 10:25:25,946 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:26,047 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D24410D23>
+2025-06-03 10:25:26,048 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D24', cmd=010D
+2025-06-03 10:25:26,049 [INFO] [OBD] vel recibido: 35
+2025-06-03 10:25:26,049 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:26,150 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410586410585>
+2025-06-03 10:25:26,151 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410586410585>, cmd=0105
+2025-06-03 10:25:26,153 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410586410585>, Parsing: 
+2025-06-03 10:25:26,182 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:26,183 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:26,390 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410C1390410C1388
+2025-06-03 10:25:26,392 [INFO] [OBD] rpm recibido: 1252
+2025-06-03 10:25:26,392 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:26,494 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D24410D24
+2025-06-03 10:25:26,495 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D24', cmd=010D
+2025-06-03 10:25:26,496 [INFO] [OBD] vel recibido: 36
+2025-06-03 10:25:26,496 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:26,621 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 10:25:26,623 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 10:25:26,626 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 10:25:26,740 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:26,741 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:26,843 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410586410585>
+2025-06-03 10:25:26,843 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410586', cmd=010C
+2025-06-03 10:25:26,843 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410585', cmd=010C
+2025-06-03 10:25:26,844 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:26,844 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:26,846 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: 410586410585>, Parsing: None
+2025-06-03 10:25:26,846 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:26,947 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410C13D4410C13DC>
+2025-06-03 10:25:26,948 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C13D4', cmd=010D
+2025-06-03 10:25:26,948 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C13DC', cmd=010D
+2025-06-03 10:25:26,948 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+2025-06-03 10:25:26,948 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:25:26,950 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 410C13D4410C13DC>, Parsing: None
+2025-06-03 10:25:26,950 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:27,256 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410D25410D25STOPPED>7F10127F1013
+2025-06-03 10:25:27,257 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410D25410D25STOPPED>7F10127F1013, cmd=0105
+2025-06-03 10:25:27,260 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410D25410D25STOPPED>7F10127F1013, Parsing: 
+2025-06-03 10:25:27,277 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:27,278 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:27,380 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C13E4410C13E0
+2025-06-03 10:25:27,381 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C13E4', cmd=010C
+2025-06-03 10:25:27,382 [INFO] [OBD] rpm recibido: 1272
+2025-06-03 10:25:27,382 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:27,483 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D25410D25>
+2025-06-03 10:25:27,483 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D25', cmd=010D
+2025-06-03 10:25:27,484 [INFO] [OBD] vel recibido: 37
+2025-06-03 10:25:27,485 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:27,655 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410585410585
+2025-06-03 10:25:27,656 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410585410585, cmd=0105
+2025-06-03 10:25:27,658 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410585410585, Parsing: 
+2025-06-03 10:25:27,723 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:27,725 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:27,826 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-03 10:25:27,827 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:27,829 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-03 10:25:27,829 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:28,049 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410C13F0410C13E8
+2025-06-03 10:25:28,050 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C13F0', cmd=010D
+2025-06-03 10:25:28,050 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C13E8', cmd=010D
+2025-06-03 10:25:28,054 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 410C13F0410C13E8, Parsing: None
+2025-06-03 10:25:28,055 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:28,156 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 10:25:28,157 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 10:25:28,158 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 10:25:28,267 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:28,268 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:28,370 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F1012410D24>410C13C8410C13F8>
+2025-06-03 10:25:28,372 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:25:28,373 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:28,373 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 10:25:28,373 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410D24', cmd=010C
+2025-06-03 10:25:28,373 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:28,373 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C13C8', cmd=010C
+2025-06-03 10:25:28,374 [INFO] [OBD] rpm recibido: 1278
+2025-06-03 10:25:28,374 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:28,476 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D25410D24>
+2025-06-03 10:25:28,477 [INFO] [OBD] vel recibido: 37
+2025-06-03 10:25:28,477 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:28,579 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410585410585
+2025-06-03 10:25:28,579 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410585410585, cmd=0105
+2025-06-03 10:25:28,582 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410585410585, Parsing: 
+2025-06-03 10:25:28,595 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:28,596 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:28,697 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C141C410C1408>
+2025-06-03 10:25:28,697 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C141C', cmd=010C
+2025-06-03 10:25:28,699 [INFO] [OBD] rpm recibido: 1282
+2025-06-03 10:25:28,699 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:28,800 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D25410D24
+2025-06-03 10:25:28,802 [INFO] [OBD] vel recibido: 37
+2025-06-03 10:25:28,802 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:28,904 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410585410584
+2025-06-03 10:25:28,906 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410585410584, cmd=0105
+2025-06-03 10:25:28,908 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410585410584, Parsing: 
+2025-06-03 10:25:28,917 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:28,920 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:29,022 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C1424410C141C
+2025-06-03 10:25:29,022 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C1424', cmd=010C
+2025-06-03 10:25:29,023 [INFO] [OBD] rpm recibido: 1287
+2025-06-03 10:25:29,023 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:29,125 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D25410D24>
+2025-06-03 10:25:29,126 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D25', cmd=010D
+2025-06-03 10:25:29,127 [INFO] [OBD] vel recibido: 36
+2025-06-03 10:25:29,127 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:29,228 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410585410584>
+2025-06-03 10:25:29,228 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410585410584>, cmd=0105
+2025-06-03 10:25:29,230 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410585410584>, Parsing: 
+2025-06-03 10:25:29,247 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:29,248 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:29,349 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410C1440410C1448
+2025-06-03 10:25:29,351 [INFO] [OBD] rpm recibido: 1296
+2025-06-03 10:25:29,351 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:29,453 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D25410D24
+2025-06-03 10:25:29,454 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D25', cmd=010D
+2025-06-03 10:25:29,456 [INFO] [OBD] vel recibido: 36
+2025-06-03 10:25:29,456 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:29,557 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410585410584>
+2025-06-03 10:25:29,557 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410585410584>, cmd=0105
+2025-06-03 10:25:29,560 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410585410584>, Parsing: 
+2025-06-03 10:25:29,573 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:29,574 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:29,675 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410C1434410C1454>
+2025-06-03 10:25:29,677 [INFO] [OBD] rpm recibido: 1293
+2025-06-03 10:25:29,677 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:29,779 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D25410D25>
+2025-06-03 10:25:29,780 [INFO] [OBD] vel recibido: 37
+2025-06-03 10:25:29,780 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:29,881 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410585410584
+2025-06-03 10:25:29,882 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410585410584, cmd=0105
+2025-06-03 10:25:29,885 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410585410584, Parsing: 
+2025-06-03 10:25:29,913 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:29,914 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:30,015 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C1480410C1464>
+2025-06-03 10:25:30,016 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C1480', cmd=010C
+2025-06-03 10:25:30,017 [INFO] [OBD] rpm recibido: 1305
+2025-06-03 10:25:30,018 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:30,119 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D25410D25>
+2025-06-03 10:25:30,122 [INFO] [OBD] vel recibido: 37
+2025-06-03 10:25:30,122 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:30,224 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410585410584
+2025-06-03 10:25:30,225 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410585410584, cmd=0105
+2025-06-03 10:25:30,227 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410585410584, Parsing: 
+2025-06-03 10:25:30,350 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:30,353 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:30,455 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-03 10:25:30,455 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:30,457 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-03 10:25:30,457 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:30,629 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410C1488410C149C
+2025-06-03 10:25:30,629 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C1488', cmd=010D
+2025-06-03 10:25:30,629 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C149C', cmd=010D
+2025-06-03 10:25:30,631 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 410C1488410C149C, Parsing: None
+2025-06-03 10:25:30,632 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:30,732 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 10:25:30,733 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 10:25:30,736 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 10:25:30,784 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:30,787 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:30,889 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F1012410D25>410C150C410C14F0
+2025-06-03 10:25:30,889 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:25:30,889 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:30,889 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 10:25:30,889 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410D25', cmd=010C
+2025-06-03 10:25:30,889 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:30,890 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C150C', cmd=010C
+2025-06-03 10:25:30,891 [INFO] [OBD] rpm recibido: 1340
+2025-06-03 10:25:30,891 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:31,190 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 10:25:31,191 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:25:31,193 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 10:25:31,193 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:31,294 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410D26410D26>410585410584
+2025-06-03 10:25:31,294 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410D26410D26>410585410584, cmd=0105
+2025-06-03 10:25:31,296 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410D26410D26>410585410584, Parsing: 
+2025-06-03 10:25:31,328 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:31,330 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:31,431 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-03 10:25:31,431 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:31,435 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-03 10:25:31,436 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:31,537 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410C1524410C1530>410D27410D26
+2025-06-03 10:25:31,537 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C1524', cmd=010D
+2025-06-03 10:25:31,537 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C1530', cmd=010D
+2025-06-03 10:25:31,537 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+2025-06-03 10:25:31,537 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D27', cmd=010D
+2025-06-03 10:25:31,539 [INFO] [OBD] vel recibido: 38
+2025-06-03 10:25:31,540 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:31,641 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410585410584
+2025-06-03 10:25:31,642 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410585410584, cmd=0105
+2025-06-03 10:25:31,644 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410585410584, Parsing: 
+2025-06-03 10:25:31,655 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:31,656 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:31,757 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-03 10:25:31,758 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:31,760 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-03 10:25:31,760 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:31,937 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410C14F0410C14F0
+2025-06-03 10:25:31,938 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C14F0', cmd=010D
+2025-06-03 10:25:31,938 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C14F0', cmd=010D
+2025-06-03 10:25:31,940 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 410C14F0410C14F0, Parsing: None
+2025-06-03 10:25:31,941 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:32,247 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 10:25:32,249 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 10:25:32,252 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 10:25:32,309 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:32,310 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:32,411 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410D27410D27>410585410584>410C123C410C1210
+2025-06-03 10:25:32,412 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410D27', cmd=010C
+2025-06-03 10:25:32,412 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410D27', cmd=010C
+2025-06-03 10:25:32,412 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:32,412 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410585', cmd=010C
+2025-06-03 10:25:32,412 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410584', cmd=010C
+2025-06-03 10:25:32,412 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:32,412 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C123C', cmd=010C
+2025-06-03 10:25:32,413 [INFO] [OBD] rpm recibido: 1156
+2025-06-03 10:25:32,413 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:32,515 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D28410D27>
+2025-06-03 10:25:32,516 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D28', cmd=010D
+2025-06-03 10:25:32,519 [INFO] [OBD] vel recibido: 39
+2025-06-03 10:25:32,519 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:32,620 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410585410584
+2025-06-03 10:25:32,620 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410585410584, cmd=0105
+2025-06-03 10:25:32,623 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410585410584, Parsing: 
+2025-06-03 10:25:32,634 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:32,635 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:32,737 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C1138410C1134>
+2025-06-03 10:25:32,738 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C1138', cmd=010C
+2025-06-03 10:25:32,739 [INFO] [OBD] rpm recibido: 1101
+2025-06-03 10:25:32,739 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:32,840 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D29410D28>
+2025-06-03 10:25:32,842 [INFO] [OBD] vel recibido: 41
+2025-06-03 10:25:32,842 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:32,943 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410585410584
+2025-06-03 10:25:32,944 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410585410584, cmd=0105
+2025-06-03 10:25:32,946 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410585410584, Parsing: 
+2025-06-03 10:25:32,976 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:32,978 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:33,079 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C117C410C117C
+2025-06-03 10:25:33,080 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C117C', cmd=010C
+2025-06-03 10:25:33,083 [INFO] [OBD] rpm recibido: 1119
+2025-06-03 10:25:33,083 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:33,185 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D29410D29>
+2025-06-03 10:25:33,185 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D29', cmd=010D
+2025-06-03 10:25:33,186 [INFO] [OBD] vel recibido: 41
+2025-06-03 10:25:33,187 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:33,288 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410585410584
+2025-06-03 10:25:33,289 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410585410584, cmd=0105
+2025-06-03 10:25:33,291 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410585410584, Parsing: 
+2025-06-03 10:25:33,301 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:33,303 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:33,404 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C1150410C1150>
+2025-06-03 10:25:33,406 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C1150', cmd=010C
+2025-06-03 10:25:33,407 [INFO] [OBD] rpm recibido: 1108
+2025-06-03 10:25:33,407 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:33,508 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D2A410D29>
+2025-06-03 10:25:33,510 [INFO] [OBD] vel recibido: 42
+2025-06-03 10:25:33,510 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:33,611 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410585410584
+2025-06-03 10:25:33,611 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410585410584, cmd=0105
+2025-06-03 10:25:33,615 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410585410584, Parsing: 
+2025-06-03 10:25:33,625 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:33,626 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:33,728 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C1114410C113C>
+2025-06-03 10:25:33,728 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C1114', cmd=010C
+2025-06-03 10:25:33,729 [INFO] [OBD] rpm recibido: 1103
+2025-06-03 10:25:33,729 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:33,831 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D29410D28
+2025-06-03 10:25:33,834 [INFO] [OBD] vel recibido: 41
+2025-06-03 10:25:33,835 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:33,935 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410585410584
+2025-06-03 10:25:33,936 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410585410584, cmd=0105
+2025-06-03 10:25:33,938 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410585410584, Parsing: 
+2025-06-03 10:25:33,951 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:33,952 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:34,054 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C1074410C10C0>
+2025-06-03 10:25:34,054 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C1074', cmd=010C
+2025-06-03 10:25:34,055 [INFO] [OBD] rpm recibido: 1072
+2025-06-03 10:25:34,055 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:34,157 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D27410D27
+2025-06-03 10:25:34,158 [INFO] [OBD] vel recibido: 39
+2025-06-03 10:25:34,158 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:34,259 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410585410584
+2025-06-03 10:25:34,260 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410585410584, cmd=0105
+2025-06-03 10:25:34,262 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410585410584, Parsing: 
+2025-06-03 10:25:34,278 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:34,279 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:34,379 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C0F7C410C0FA0>
+2025-06-03 10:25:34,382 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C0F7C', cmd=010C
+2025-06-03 10:25:34,384 [INFO] [OBD] rpm recibido: 1000
+2025-06-03 10:25:34,384 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:34,516 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D25410D25
+2025-06-03 10:25:34,518 [INFO] [OBD] vel recibido: 37
+2025-06-03 10:25:34,518 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:34,620 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410585410584
+2025-06-03 10:25:34,620 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410585410584, cmd=0105
+2025-06-03 10:25:34,623 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410585410584, Parsing: 
+2025-06-03 10:25:34,720 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:34,721 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:34,822 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-03 10:25:34,822 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:34,824 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-03 10:25:34,824 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:35,002 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410C12D8410C12C4
+2025-06-03 10:25:35,003 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C12D8', cmd=010D
+2025-06-03 10:25:35,003 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C12C4', cmd=010D
+2025-06-03 10:25:35,005 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 410C12D8410C12C4, Parsing: None
+2025-06-03 10:25:35,006 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:35,107 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 10:25:35,107 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 10:25:35,110 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 10:25:35,159 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:35,160 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:35,261 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>
+2025-06-03 10:25:35,262 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 10:25:35,262 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:35,262 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:35,267 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>, Parsing: None
+2025-06-03 10:25:35,267 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:35,368 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410C1318410C1300STOPPED>7F10127F1013
+2025-06-03 10:25:35,369 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C1318', cmd=010D
+2025-06-03 10:25:35,369 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C1300', cmd=010D
+2025-06-03 10:25:35,369 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+2025-06-03 10:25:35,369 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+2025-06-03 10:25:35,369 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>7F1012', cmd=010D
+2025-06-03 10:25:35,369 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '7F1013', cmd=010D
+2025-06-03 10:25:35,372 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 410C1318410C1300STOPPED>7F10127F1013, Parsing: None
+2025-06-03 10:25:35,372 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:35,473 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 10:25:35,473 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 10:25:35,476 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 10:25:35,486 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:35,486 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:35,588 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410585410584>410C1374410C1374>
+2025-06-03 10:25:35,588 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410585', cmd=010C
+2025-06-03 10:25:35,588 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410584', cmd=010C
+2025-06-03 10:25:35,588 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 10:25:35,588 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C1374', cmd=010C
+2025-06-03 10:25:35,590 [INFO] [OBD] rpm recibido: 1245
+2025-06-03 10:25:35,590 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:35,784 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D1C410D1B
+2025-06-03 10:25:35,786 [INFO] [OBD] vel recibido: 28
+2025-06-03 10:25:35,787 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:35,888 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410585410584
+2025-06-03 10:25:35,888 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410585410584, cmd=0105
+2025-06-03 10:25:35,891 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410585410584, Parsing: 
+2025-06-03 10:25:35,919 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → conectado
+2025-06-03 10:25:35,921 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 10:25:36,022 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >
+2025-06-03 10:25:36,022 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 10:25:36,024 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: >, Parsing: None
+2025-06-03 10:25:36,025 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 10:25:36,125 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410C119C410C119C>
+2025-06-03 10:25:36,126 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C119C', cmd=010D
+2025-06-03 10:25:36,126 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C119C', cmd=010D
+2025-06-03 10:25:36,126 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+2025-06-03 10:25:36,126 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 10:25:36,129 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 410C119C410C119C>, Parsing: None
+2025-06-03 10:25:36,130 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 10:25:37,977 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410D18410D17STOPPED>7F10127F1013
+2025-06-03 10:25:37,979 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410D18410D17STOPPED>7F10127F1013, cmd=0105
+2025-06-03 10:25:37,981 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410D18410D17STOPPED>7F10127F1013, Parsing: 
+2025-06-03 10:25:38,002 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: conectado → desconectado
+2025-06-03 10:25:38,003 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:38,005 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:38,119 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:38,122 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:38,242 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:38,245 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:38,351 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:38,354 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:38,460 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:38,464 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:38,568 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:38,570 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:38,680 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:38,682 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:38,790 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:38,792 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:38,899 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:38,901 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:39,011 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:39,013 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:39,118 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:39,120 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:39,229 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:39,231 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:39,340 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:39,342 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:39,450 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:39,452 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:39,558 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:39,562 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:39,746 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:39,748 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>
+2025-06-03 10:25:39,764 [INFO] PIDs con datos válidos: escenario, rpm, timestamp, vel
+2025-06-03 10:25:39,764 [INFO] PIDs siempre vacíos: temp
+2025-06-03 10:25:39,765 [WARNING] Algunos PIDs no recibieron datos válidos durante la sesión.
+2025-06-03 10:25:39,765 [INFO] [AUDITORÍA] Comandos y respuestas crudas por sesión:
+2025-06-03 10:25:39,765 [INFO] Gauges activos en UI: 4, gauges ocultados por falta de datos: 1
+2025-06-03 10:25:39,789 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → desconectado
+2025-06-03 10:25:39,793 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000001998DBD2600>

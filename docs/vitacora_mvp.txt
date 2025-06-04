@@ -99,3 +99,13 @@
 - [ ] Realizar prueba real de la interfaz gráfica en calle y documentar resultados.
 - [ ] Validar que el log y la UI muestran exactamente los mismos valores de velocidad (vel).
 - [ ] Confirmar estabilidad y exportación correcta tras la prueba real.
+
+[2025-06-03] — INSTRUCCIÓN MAESTRA PARA INTEGRACIÓN DE NUEVOS PIDs
+- Se crea y publica el archivo INSTRUCCION_MAESTRA_PIDS.md en la raíz del proyecto.
+- Incluye metodología paso a paso, ejemplo, reglas de validación y registro para integración controlada de nuevos PIDs OBD-II.
+- Toda integración futura debe seguir esta instrucción y dejar registro en README y bitácora.
+
+[2025-06-04] — INTEGRACIÓN PID 0105 (temp, Temperatura refrigerante)
+- Integrado PID 0105 ("temp") según INSTRUCCIÓN MAESTRA: definición y parseo en `pids_ext.py`, test unitario, lógica de emulación en dashboard, validación en UI/log/export.
+- Confirmada trazabilidad y registro en README y bitácora.
+- Validado: el PID aparece y varía dinámicamente según escenario, se exporta correctamente y es seleccionable en la UI.

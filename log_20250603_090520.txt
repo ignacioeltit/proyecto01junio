@@ -1,0 +1,47 @@
+2025-06-03 09:05:20,663 [INFO] --- INICIO DE SESIÓN OBD-II: log_20250603_090520.txt ---
+2025-06-03 09:05:21,015 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:21,043 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:21,151 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:21,260 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:21,368 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:21,494 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:21,606 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:21,728 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:21,831 [INFO] [TEST] Test automático de PIDs lanzado automáticamente al inicio de la app.
+2025-06-03 09:05:21,852 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:21,979 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:22,090 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:22,202 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:22,308 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:22,419 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:22,525 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:22,640 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:22,759 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:22,871 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:22,978 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:23,088 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:23,196 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:23,307 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:23,418 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:23,529 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:23,640 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:23,749 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:23,861 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:23,979 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:24,077 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:24,188 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:24,314 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:24,400 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:24,517 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:24,624 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:24,738 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:24,843 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:24,955 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:25,065 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:25,170 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:25,373 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador
+2025-06-03 09:05:25,388 [INFO] PIDs con datos válidos: escenario, timestamp
+2025-06-03 09:05:25,388 [INFO] PIDs siempre vacíos: 
+2025-06-03 09:05:25,389 [INFO] [AUDITORÍA] Comandos y respuestas crudas por sesión:
+2025-06-03 09:05:25,389 [INFO] Gauges activos en UI: 2, gauges ocultados por falta de datos: 0
+2025-06-03 09:05:25,404 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → emulador

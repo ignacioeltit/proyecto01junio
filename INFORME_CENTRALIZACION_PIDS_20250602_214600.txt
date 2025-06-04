@@ -1,6 +1,6 @@
 INFORME DE DESARROLLO — CENTRALIZACIÓN DE PIDs OBD-II
 
-Fecha: 2 de junio de 2025  
+Fecha: 2 de junio de 2025
 Responsable: GitHub Copilot
 
 1. Objetivo

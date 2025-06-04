@@ -1,0 +1,448 @@
+2025-06-03 14:37:06,253 [INFO] --- INICIO DE SESIÓN OBD-II: log_20250603_143706.txt ---
+2025-06-03 14:37:08,940 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:09,053 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:09,158 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:09,267 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:09,376 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:09,478 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:09,591 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:09,703 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:09,810 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:09,917 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:10,022 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:10,136 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:10,244 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:10,352 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:10,462 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:10,569 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:10,680 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:10,805 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:10,915 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:11,026 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:11,134 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:11,246 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:11,352 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:11,463 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:11,573 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:11,682 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:11,790 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:11,901 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:12,011 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:12,123 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:12,230 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:12,337 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:12,446 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:12,555 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:12,663 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:12,774 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:12,896 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:13,004 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:13,112 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:13,220 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:13,328 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:13,436 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:13,546 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:13,653 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:13,762 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:13,886 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:13,976 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:14,104 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:14,203 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:14,311 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:14,414 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:14,525 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:14,638 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:14,747 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:14,857 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:14,967 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:15,075 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:15,186 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:15,294 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:15,404 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:15,513 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:15,621 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:15,730 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:15,838 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:15,946 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:16,055 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:16,180 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:16,277 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:16,384 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:16,494 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:16,603 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:16,713 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:16,824 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:16,933 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:17,041 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:17,148 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:17,262 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:17,367 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:17,478 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:17,590 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:17,706 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:17,816 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:17,924 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:18,033 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:18,141 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:18,249 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:18,357 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:18,461 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:18,574 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:18,684 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:18,794 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:18,902 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:19,012 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:19,121 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:19,232 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:19,341 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:19,450 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:19,560 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:19,668 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:19,778 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:19,884 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:19,995 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:20,104 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:20,214 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:20,323 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:20,434 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:20,543 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:20,652 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:20,760 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:20,870 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:20,981 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:21,086 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:21,198 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:21,308 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:21,417 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:21,527 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:21,637 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:21,744 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:21,854 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:21,963 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:22,072 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:22,182 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:22,294 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:22,398 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:22,511 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:22,619 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:22,726 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:22,837 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:22,946 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:23,055 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:23,163 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:23,273 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:23,382 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:23,492 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:23,602 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:23,711 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:23,821 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:23,932 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:24,039 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:24,148 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:24,272 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:24,380 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:24,491 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:24,601 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:24,725 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:24,834 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:24,943 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:25,049 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:25,150 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:25,278 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:25,376 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:25,486 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:25,595 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:25,704 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:25,813 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:25,922 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:26,032 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:26,141 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:26,250 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:26,360 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:26,469 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:26,579 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:26,688 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:26,797 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:26,907 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:27,014 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:27,125 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:27,233 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:27,344 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:27,453 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:27,561 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:27,669 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:27,777 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:27,885 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:28,003 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:28,101 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:28,212 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:28,322 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:28,431 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:28,540 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:28,648 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:28,772 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:28,880 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:28,989 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:29,098 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:29,207 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:29,315 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:29,425 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:29,534 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:29,644 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:29,755 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:29,863 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:29,974 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:30,083 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:30,191 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:30,300 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:30,408 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:30,516 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:30,627 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:30,736 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:30,845 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:30,953 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:31,062 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:31,169 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:31,277 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:31,387 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:31,494 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:31,603 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:31,713 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:31,823 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:31,934 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:32,044 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:32,154 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:32,263 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:32,373 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:32,483 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:32,593 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:32,702 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:32,811 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:32,919 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:33,026 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:33,136 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:33,246 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:33,356 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:33,465 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:33,574 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:33,683 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:33,793 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:33,902 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:34,009 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:34,120 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:34,228 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:34,337 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:34,447 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:34,555 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:34,664 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:34,788 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:34,896 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:35,004 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:35,114 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:35,224 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:35,334 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:35,443 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:35,538 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:35,648 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:35,757 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:35,881 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:35,990 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:36,099 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:36,207 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:36,317 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:36,425 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:36,536 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:36,645 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:36,754 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:36,865 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:36,972 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:37,081 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:37,189 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:37,295 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:37,405 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:37,511 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:37,622 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:37,732 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:37,837 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:37,948 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:38,056 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:38,166 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:38,276 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:38,384 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:38,492 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:38,603 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:38,711 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:38,822 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:38,931 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:39,040 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:39,148 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:39,257 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:39,366 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:39,478 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:39,584 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:39,708 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:39,807 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:39,913 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:40,022 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:40,132 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:40,255 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:40,364 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:40,476 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:40,568 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:40,693 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 14:37:42,389 [INFO] [HANDSHAKE] Handshake OK con ELM327
+2025-06-03 14:37:42,390 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:42,439 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:42,550 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:42,658 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:42,766 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:42,877 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:42,982 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:43,094 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:43,198 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:43,310 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:43,418 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:43,527 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:43,636 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:43,745 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:43,856 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:43,965 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:44,075 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:44,184 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:44,289 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:44,398 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:44,511 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:44,621 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:44,731 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:44,840 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:44,948 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:45,058 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:45,168 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:45,276 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:45,386 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:45,496 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:45,603 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:45,713 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:45,821 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:45,931 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:46,039 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:46,147 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:46,262 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:46,366 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:46,478 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:46,597 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:46,705 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:46,814 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:46,925 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:47,035 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:47,143 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:47,251 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:47,360 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:47,470 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:47,570 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:47,689 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:47,799 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:47,906 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:48,014 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:48,118 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:48,231 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:48,340 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:48,449 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:48,557 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:48,665 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:48,777 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:48,887 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:48,996 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:49,104 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:49,212 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:49,322 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:49,430 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:49,539 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:49,648 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:49,758 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:49,866 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:49,982 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:50,088 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:50,198 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:50,319 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:50,426 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:50,526 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:50,646 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:50,756 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:50,867 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:50,975 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:51,086 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:51,195 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:51,303 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:51,428 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:51,537 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:51,660 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:51,758 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:51,878 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:51,982 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:52,094 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:52,206 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:52,316 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:52,412 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:52,533 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:52,640 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:52,750 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:52,859 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:52,967 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:53,070 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:53,182 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:53,294 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:53,399 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:53,516 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:53,626 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:53,736 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:53,839 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:53,955 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:54,065 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:54,167 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:54,277 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:54,382 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:54,500 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:54,609 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:54,717 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:54,822 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:54,935 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:55,038 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:55,150 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:55,260 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:55,370 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:55,478 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:55,587 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:55,694 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:55,806 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:55,926 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:56,024 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:56,132 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:56,247 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:56,353 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:56,461 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:56,572 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:56,686 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:56,789 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:56,897 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:57,006 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:57,127 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:57,239 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:57,342 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:57,447 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:57,558 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:57,662 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:57,784 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:57,886 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:57,998 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:58,112 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:58,220 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 14:37:58,327 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000166815AA240>
+2025-06-03 14:37:58,430 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000166815AA240>
+2025-06-03 14:37:58,546 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000166815AA240>
+2025-06-03 14:37:58,656 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000166815AA240>
+2025-06-03 14:37:58,759 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000166815AA240>
+2025-06-03 14:37:58,875 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000166815AA240>
+2025-06-03 14:37:58,984 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000166815AA240>
+2025-06-03 14:37:59,093 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000166815AA240>
+2025-06-03 14:37:59,255 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000166815AA240>

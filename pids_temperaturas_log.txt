@@ -1,0 +1,3 @@
+﻿
+--- Resultados de PIDs de Temperatura ---
+

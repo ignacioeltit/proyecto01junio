@@ -1,0 +1,507 @@
+2025-06-03 12:59:33,916 [INFO] --- INICIO DE SESIÓN OBD-II: log_20250603_125933.txt ---
+2025-06-03 12:59:33,916 [INFO] --- INICIO DE SESIÓN OBD-II: log_20250603_125933.txt ---
+2025-06-03 12:59:33,916 [INFO] --- INICIO DE SESIÓN OBD-II: log_20250603_125933.txt ---
+2025-06-03 12:59:36,794 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → desconectado
+2025-06-03 12:59:36,794 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: emulador → desconectado
+2025-06-03 12:59:36,826 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:36,826 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:36,933 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:36,933 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:37,063 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:37,063 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:37,164 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:37,164 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:37,294 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:37,294 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:37,390 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:37,390 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:37,489 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:37,489 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:37,594 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:37,594 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:37,703 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:37,703 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:37,807 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:37,807 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:37,918 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:37,918 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:38,038 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:38,038 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:38,139 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:38,139 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:38,248 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:38,248 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:38,360 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:38,360 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:38,470 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:38,470 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:38,575 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:38,575 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:38,682 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:38,682 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:38,799 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:38,799 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:38,912 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:38,912 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:39,020 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:39,020 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 12:59:40,724 [INFO] [HANDSHAKE] Handshake OK con ELM327
+2025-06-03 12:59:40,724 [INFO] [HANDSHAKE] Handshake OK con ELM327
+2025-06-03 12:59:40,739 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → conectado
+2025-06-03 12:59:40,739 [INFO] [ESTADO CONEXIÓN] Cambio de estado de conexión: desconectado → conectado
+2025-06-03 12:59:40,741 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:40,741 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:40,752 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:40,752 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:40,760 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:40,760 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:40,770 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:40,770 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:40,869 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:40,869 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:40,876 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:40,876 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:40,908 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:40,908 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:40,919 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:40,919 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:40,985 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:40,985 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:40,993 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:40,993 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:41,094 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:41,094 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:41,104 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:41,104 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:41,202 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:41,202 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:41,210 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:41,210 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:41,310 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:41,310 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:41,318 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:41,318 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:41,418 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:41,418 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:41,425 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:41,425 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:41,526 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:41,526 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:41,535 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:41,535 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:41,634 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:41,634 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:41,640 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:41,640 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:41,758 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:41,758 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:41,767 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:41,767 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:41,866 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:41,866 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:41,873 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:41,873 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:41,973 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:41,973 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:41,983 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:41,983 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:42,083 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:42,083 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:42,090 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:42,090 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:42,189 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:42,189 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:42,197 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:42,197 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:42,294 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:42,294 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:42,302 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:42,302 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:42,405 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:42,405 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:42,411 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:42,411 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:42,510 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:42,510 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:42,519 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:42,519 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:42,622 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:42,622 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:42,633 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:42,633 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:42,728 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:42,728 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:42,738 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:42,738 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:42,851 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:42,851 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:42,858 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:42,858 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:42,958 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:42,958 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:42,966 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:42,966 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:43,067 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:43,067 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:43,073 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:43,073 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:43,174 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:43,174 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:43,183 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:43,183 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:43,278 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:43,278 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:43,286 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:43,286 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:43,389 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:43,389 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:43,399 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:43,399 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:43,498 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:43,498 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:43,506 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:43,506 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:43,603 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:43,603 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:43,610 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:43,610 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:43,718 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:43,718 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:43,725 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:43,725 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:43,822 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:43,822 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:43,831 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:43,831 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:43,934 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:43,934 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:43,941 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:43,941 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:44,048 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:44,048 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:44,056 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:44,056 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:44,156 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:44,156 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:44,165 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:44,165 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:44,264 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:44,264 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:44,270 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:44,270 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:44,372 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:44,372 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:44,382 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:44,382 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:44,486 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:44,486 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:44,493 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:44,493 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:44,587 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:44,587 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:44,595 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:44,595 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:44,711 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:44,711 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:44,719 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:44,719 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:44,814 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:44,814 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:44,821 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:44,821 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:44,918 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:44,918 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:44,925 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:44,925 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:45,031 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:45,031 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:45,038 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:45,038 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:45,138 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:45,138 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:45,149 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:45,149 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:45,247 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:45,247 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:45,254 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:45,254 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:45,370 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:45,370 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:45,379 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:45,379 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:45,480 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:45,480 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:45,487 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:45,487 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:45,590 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:45,590 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:45,598 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:45,598 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:45,702 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:45,702 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:45,712 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:45,712 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:45,807 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:45,807 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:45,815 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:45,815 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:45,918 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:45,918 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:45,925 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:45,925 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:46,030 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:46,030 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:46,037 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:46,037 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:46,139 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:46,139 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:46,149 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:46,149 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:46,248 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:46,248 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:46,255 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:46,255 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:46,356 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:46,356 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:46,364 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:46,364 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:46,470 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:46,470 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:46,479 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:46,479 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:46,585 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:46,585 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:46,591 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:46,591 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:46,692 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:46,692 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:46,702 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:46,702 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:46,798 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:46,798 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:46,805 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:46,805 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:46,908 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:46,908 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:46,918 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:46,918 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:47,014 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:47,014 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:47,021 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:47,021 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:47,128 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:47,128 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:47,137 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:47,137 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:47,232 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:47,232 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:47,239 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:47,239 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:47,345 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:47,345 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:47,351 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:47,351 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:47,447 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:47,447 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:47,453 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:47,453 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:47,560 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:47,560 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:47,568 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:47,568 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:47,678 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:47,678 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:47,685 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:47,685 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:47,782 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:47,782 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:47,788 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:47,788 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:47,894 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:47,894 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:47,901 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:47,901 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:48,002 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:48,002 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:48,011 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:48,011 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:48,111 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:48,111 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:48,119 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:48,119 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:48,214 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:48,214 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:48,221 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:48,221 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:48,327 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:48,327 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:48,334 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:48,334 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:48,434 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:48,434 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:48,443 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:48,443 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:48,543 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:48,543 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:48,550 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:48,550 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:48,650 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:48,650 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:48,657 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:48,657 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:48,775 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:48,775 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:48,783 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:48,783 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:48,870 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:48,870 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:48,878 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:48,878 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:48,990 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:48,990 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:48,999 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:48,999 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:49,097 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:49,097 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:49,104 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:49,104 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:49,205 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:49,205 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:49,214 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:49,214 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:49,312 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:49,312 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:49,319 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:49,319 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:49,422 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:49,422 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:49,432 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:49,432 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:49,526 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:49,526 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:49,533 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:49,533 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:49,647 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:49,647 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:49,654 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:49,654 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:49,755 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:49,755 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:49,764 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:49,764 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:49,854 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:49,854 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:49,862 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:49,862 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:49,972 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:49,972 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:49,980 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:49,980 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:50,079 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:50,079 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:50,085 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:50,085 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:50,186 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:50,186 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:50,196 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:50,196 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:50,294 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:50,294 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:50,300 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:50,300 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:50,403 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:50,403 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:50,412 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:50,412 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:50,512 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:50,512 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:50,519 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:50,519 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:50,620 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:50,620 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:50,629 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:50,629 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:50,729 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:50,729 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:50,735 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:50,735 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:50,852 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:50,852 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:50,860 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:50,860 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:50,959 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:50,959 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:50,966 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:50,966 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:51,067 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:51,067 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:51,075 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:51,075 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:51,166 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:51,166 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:51,175 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:51,175 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:51,282 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:51,282 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:51,291 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:51,291 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:51,391 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:51,391 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:51,398 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:51,398 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:51,498 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:51,498 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:51,508 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:51,508 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:51,608 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:51,608 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:51,618 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:51,618 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:51,713 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:51,713 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:51,720 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:51,720 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:51,824 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:51,824 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:51,831 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:51,831 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:51,945 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:51,945 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:51,951 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:51,951 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:52,052 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:52,052 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:52,060 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:52,060 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:52,160 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:52,160 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:52,167 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:52,167 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:52,262 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:52,262 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:52,269 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:52,269 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:52,376 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:52,376 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:52,382 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:52,382 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:52,483 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:52,483 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:52,491 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:52,491 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:52,590 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:52,590 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:52,597 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:52,597 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:52,699 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:52,699 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:52,708 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:52,708 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:52,888 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:52,888 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:52,898 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:52,898 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:52,918 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:52,918 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 12:59:52,928 [ERROR] [DB_LOG] Error: tuple index out of range
+2025-06-03 12:59:52,928 [ERROR] [DB_LOG] Error: tuple index out of range

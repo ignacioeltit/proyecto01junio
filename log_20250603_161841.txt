@@ -1,0 +1,1246 @@
+2025-06-03 16:18:41,181 [INFO] --- INICIO DE SESIÓN OBD-II: log_20250603_161841.txt ---
+2025-06-03 16:19:31,008 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:31,121 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:31,229 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:31,337 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:31,446 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:31,555 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:31,663 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:31,774 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:31,882 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:32,005 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:32,113 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:32,222 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:32,330 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:32,440 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:32,550 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:32,653 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:32,757 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:32,870 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:32,982 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:33,093 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:33,201 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:33,310 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:33,418 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:33,526 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:33,636 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:33,742 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:33,856 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:33,964 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:34,074 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:34,183 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:34,292 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:34,403 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:34,513 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:34,620 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:34,732 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:34,841 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:34,952 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:35,062 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:35,166 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:35,281 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:35,391 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:35,498 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:35,605 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:35,716 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:35,826 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:35,934 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:36,054 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:36,153 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:36,261 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:36,369 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:36,479 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:36,586 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:36,695 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:36,806 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:36,913 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:37,023 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:37,146 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:37,246 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:37,357 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:37,459 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:37,583 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:37,686 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:37,801 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:37,910 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:38,008 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:38,117 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:38,229 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:38,342 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:38,454 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:38,562 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:38,671 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:38,778 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:38,889 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 16:19:38,996 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 16:19:39,102 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 16:19:39,213 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 16:19:39,321 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 16:19:39,430 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 16:19:39,538 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 16:19:39,654 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 16:19:39,766 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 16:19:39,870 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 16:19:39,981 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 16:19:40,087 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 16:19:40,208 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 16:19:40,310 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None
+2025-06-03 16:19:42,005 [INFO] [HANDSHAKE] Handshake OK con ELM327
+2025-06-03 16:19:42,006 [INFO] [AUTOMÁTICO] Iniciando escaneo de PIDs soportados...
+2025-06-03 16:19:42,006 [INFO] [AUTOMÁTICO] PIDs soportados detectados: []
+2025-06-03 16:19:42,006 [INFO] [AUTOMÁTICO] PIDs funcionales detectados: []
+2025-06-03 16:19:42,007 [INFO] [AUTOMÁTICO] PIDs funcionales legibles: []
+2025-06-03 16:19:42,026 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:42,057 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:42,165 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:42,275 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:42,385 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:42,494 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:42,603 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:42,711 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:42,820 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:42,930 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:43,040 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:43,149 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:43,256 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:43,374 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:43,478 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:43,590 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:43,706 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:43,805 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:43,927 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:44,036 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:44,146 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:44,255 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:44,357 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:44,461 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:44,573 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:44,686 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:44,790 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:44,902 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:45,016 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:45,117 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:45,234 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:45,341 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:45,454 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:45,569 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:45,670 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): OK>SEARCHING...
+2025-06-03 16:19:45,670 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'OK', cmd=010C
+2025-06-03 16:19:45,670 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:45,670 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+2025-06-03 16:19:45,671 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: OK>SEARCHING..., Parsing: None
+2025-06-03 16:19:45,671 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:45,675 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:45,776 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013
+2025-06-03 16:19:45,776 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:19:45,776 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:45,776 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:19:45,776 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:19:45,777 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013, Parsing: None
+2025-06-03 16:19:45,777 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:45,782 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:45,883 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013
+2025-06-03 16:19:45,883 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:19:45,883 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:45,883 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:19:45,883 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:19:45,884 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013, Parsing: None
+2025-06-03 16:19:45,884 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:45,888 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:45,990 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013
+2025-06-03 16:19:45,990 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:19:45,990 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:45,990 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:19:45,990 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:19:45,991 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013, Parsing: None
+2025-06-03 16:19:45,992 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:46,101 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:46,203 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C0D7C410C0D7C
+2025-06-03 16:19:46,203 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C0D7C', cmd=010C
+2025-06-03 16:19:46,203 [INFO] [OBD] rpm recibido: 863
+2025-06-03 16:19:46,204 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:46,217 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:46,318 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C0D68410C0D8C
+2025-06-03 16:19:46,318 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C0D68', cmd=010C
+2025-06-03 16:19:46,319 [INFO] [OBD] rpm recibido: 867
+2025-06-03 16:19:46,319 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:46,434 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:46,535 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C0D90410C0D5C
+2025-06-03 16:19:46,535 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C0D90', cmd=010C
+2025-06-03 16:19:46,536 [INFO] [OBD] rpm recibido: 855
+2025-06-03 16:19:46,536 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:46,540 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:46,642 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C0D90410C0DBC
+2025-06-03 16:19:46,642 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C0D90', cmd=010C
+2025-06-03 16:19:46,642 [INFO] [OBD] rpm recibido: 879
+2025-06-03 16:19:46,643 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:46,648 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:46,749 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C0D98410C0DB8>
+2025-06-03 16:19:46,749 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C0D98', cmd=010C
+2025-06-03 16:19:46,749 [INFO] [OBD] rpm recibido: 878
+2025-06-03 16:19:46,750 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:46,760 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:46,861 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410C0DDC410C0DD4>
+2025-06-03 16:19:46,861 [INFO] [OBD] rpm recibido: 887
+2025-06-03 16:19:46,862 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:46,870 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:46,971 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410C0DD4410C0DB4
+2025-06-03 16:19:46,971 [INFO] [OBD] rpm recibido: 885
+2025-06-03 16:19:46,972 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:47,072 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410572410573
+2025-06-03 16:19:47,072 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410572410573, cmd=0105
+2025-06-03 16:19:47,073 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410572410573, Parsing: 
+2025-06-03 16:19:47,073 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:47,092 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:47,192 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C0D84410C0D94
+2025-06-03 16:19:47,192 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C0D84', cmd=010C
+2025-06-03 16:19:47,193 [INFO] [OBD] rpm recibido: 869
+2025-06-03 16:19:47,193 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:47,294 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410572410573
+2025-06-03 16:19:47,294 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410572410573, cmd=0105
+2025-06-03 16:19:47,295 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410572410573, Parsing: 
+2025-06-03 16:19:47,296 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:47,304 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:47,405 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C0DD4410C0DD8
+2025-06-03 16:19:47,405 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C0DD4', cmd=010C
+2025-06-03 16:19:47,405 [INFO] [OBD] rpm recibido: 886
+2025-06-03 16:19:47,406 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:47,507 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410572410573
+2025-06-03 16:19:47,507 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410572410573, cmd=0105
+2025-06-03 16:19:47,508 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410572410573, Parsing: 
+2025-06-03 16:19:47,509 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:47,526 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:47,626 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C0D90410C0D84
+2025-06-03 16:19:47,626 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C0D90', cmd=010C
+2025-06-03 16:19:47,626 [INFO] [OBD] rpm recibido: 865
+2025-06-03 16:19:47,627 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:47,728 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410572410573
+2025-06-03 16:19:47,728 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410572410573, cmd=0105
+2025-06-03 16:19:47,730 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410572410573, Parsing: 
+2025-06-03 16:19:47,731 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:47,741 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:47,842 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C0D7C410C0DA0
+2025-06-03 16:19:47,842 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C0D7C', cmd=010C
+2025-06-03 16:19:47,842 [INFO] [OBD] rpm recibido: 872
+2025-06-03 16:19:47,843 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:47,944 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410572410573
+2025-06-03 16:19:47,944 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410572410573, cmd=0105
+2025-06-03 16:19:47,945 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410572410573, Parsing: 
+2025-06-03 16:19:47,947 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:47,963 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:48,064 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C0D84410C0D80
+2025-06-03 16:19:48,064 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C0D84', cmd=010C
+2025-06-03 16:19:48,066 [INFO] [OBD] rpm recibido: 864
+2025-06-03 16:19:48,066 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:48,166 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410573410573
+2025-06-03 16:19:48,173 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410573410573, cmd=0105
+2025-06-03 16:19:48,175 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410573410573, Parsing: 
+2025-06-03 16:19:48,175 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:48,180 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:48,282 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C0D64410C0D5C
+2025-06-03 16:19:48,282 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C0D64', cmd=010C
+2025-06-03 16:19:48,282 [INFO] [OBD] rpm recibido: 855
+2025-06-03 16:19:48,283 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:48,384 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 16:19:48,384 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 16:19:48,385 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 16:19:48,385 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:48,410 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:48,510 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410573410573>410C0D98410C0D98
+2025-06-03 16:19:48,510 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410573', cmd=010C
+2025-06-03 16:19:48,510 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410573', cmd=010C
+2025-06-03 16:19:48,510 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:48,510 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C0D98', cmd=010C
+2025-06-03 16:19:48,512 [INFO] [OBD] rpm recibido: 870
+2025-06-03 16:19:48,512 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:19:48,613 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D00410D00
+2025-06-03 16:19:48,613 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D00', cmd=010D
+2025-06-03 16:19:48,614 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:19:48,614 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:48,715 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 16:19:48,715 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 16:19:48,716 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 16:19:48,717 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:48,741 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:48,843 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410573410573>410C0D74410C0D64
+2025-06-03 16:19:48,843 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410573', cmd=010C
+2025-06-03 16:19:48,843 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '410573', cmd=010C
+2025-06-03 16:19:48,843 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:48,843 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C0D74', cmd=010C
+2025-06-03 16:19:48,844 [INFO] [OBD] rpm recibido: 857
+2025-06-03 16:19:48,844 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:19:48,946 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 16:19:48,946 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 16:19:48,947 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 16:19:48,948 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:49,049 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410D00STOPPED>7F10127F1013
+2025-06-03 16:19:49,049 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410D00STOPPED>7F10127F1013, cmd=0105
+2025-06-03 16:19:49,050 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410D00STOPPED>7F10127F1013, Parsing: 
+2025-06-03 16:19:49,051 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:49,079 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:49,181 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C0DB0410C0DA8
+2025-06-03 16:19:49,181 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C0DB0', cmd=010C
+2025-06-03 16:19:49,182 [INFO] [OBD] rpm recibido: 874
+2025-06-03 16:19:49,182 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:19:49,282 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 16:19:49,282 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 16:19:49,283 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 16:19:49,283 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:49,384 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410D00410D00>410573410573
+2025-06-03 16:19:49,384 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410D00410D00>410573410573, cmd=0105
+2025-06-03 16:19:49,385 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410D00410D00>410573410573, Parsing: 
+2025-06-03 16:19:49,387 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:49,405 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:49,506 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): >410C0D60410C0D60
+2025-06-03 16:19:49,506 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>410C0D60', cmd=010C
+2025-06-03 16:19:49,506 [INFO] [OBD] rpm recibido: 856
+2025-06-03 16:19:49,507 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:19:49,608 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 16:19:49,608 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 16:19:49,609 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 16:19:49,609 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:49,710 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410D00410D00STOPPED>7F10127F1013
+2025-06-03 16:19:49,711 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410D00410D00STOPPED>7F10127F1013, cmd=0105
+2025-06-03 16:19:49,712 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410D00410D00STOPPED>7F10127F1013, Parsing: 
+2025-06-03 16:19:49,712 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:19:49,813 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:19:49,813 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:19:49,814 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:19:49,815 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:49,838 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:49,938 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10137F1012
+2025-06-03 16:19:49,938 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:19:49,938 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:49,938 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1013', cmd=010C
+2025-06-03 16:19:49,938 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1012', cmd=010C
+2025-06-03 16:19:49,939 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10137F1012, Parsing: None
+2025-06-03 16:19:49,939 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:19:50,040 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D00410D00
+2025-06-03 16:19:50,040 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D00', cmd=010D
+2025-06-03 16:19:50,040 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:19:50,041 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:50,142 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410573410573>
+2025-06-03 16:19:50,142 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410573410573>, cmd=0105
+2025-06-03 16:19:50,144 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410573410573>, Parsing: 
+2025-06-03 16:19:50,144 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:19:50,384 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): NO DATA>
+2025-06-03 16:19:50,384 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: NO DATA>, cmd=0110
+2025-06-03 16:19:50,387 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: NO DATA>, Parsing: 
+2025-06-03 16:19:50,388 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:50,493 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:50,594 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410C0D7C410C0D7C
+2025-06-03 16:19:50,595 [INFO] [OBD] rpm recibido: 863
+2025-06-03 16:19:50,595 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:19:52,702 [WARNING] [OBD] Error al enviar comando 010D (PID: vel): timed out
+2025-06-03 16:19:52,703 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: None, Parsing: None
+2025-06-03 16:19:52,704 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:53,147 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 16:19:53,147 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 16:19:53,148 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 16:19:53,148 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:19:53,249 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): 410D00410D00>410573410573>
+2025-06-03 16:19:53,249 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: 410D00410D00>410573410573>, cmd=0110
+2025-06-03 16:19:53,250 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: 410D00410D00>410573410573>, Parsing: 
+2025-06-03 16:19:53,251 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:53,342 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:53,442 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013
+2025-06-03 16:19:53,442 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:19:53,442 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:53,442 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:19:53,442 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:19:53,444 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013, Parsing: None
+2025-06-03 16:19:53,444 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:19:53,545 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D00410D00>
+2025-06-03 16:19:53,545 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D00', cmd=010D
+2025-06-03 16:19:53,545 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:19:53,546 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:53,647 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410573410574
+2025-06-03 16:19:53,647 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410573410574, cmd=0105
+2025-06-03 16:19:53,648 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410573410574, Parsing: 
+2025-06-03 16:19:53,648 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:19:53,748 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:19:53,748 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:19:53,749 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:19:53,751 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:53,774 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:53,887 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): NO DATA>
+2025-06-03 16:19:53,887 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'NO DATA', cmd=010C
+2025-06-03 16:19:53,887 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:53,887 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:19:53,888 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: NO DATA>, Parsing: None
+2025-06-03 16:19:53,888 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:19:53,989 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410C0CACSTOPPED>7F1012410C0C9C
+2025-06-03 16:19:53,989 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C0CAC', cmd=010D
+2025-06-03 16:19:53,989 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+2025-06-03 16:19:53,989 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+2025-06-03 16:19:53,989 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>7F1012', cmd=010D
+2025-06-03 16:19:53,989 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '410C0C9C', cmd=010D
+2025-06-03 16:19:53,992 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: 410C0CACSTOPPED>7F1012410C0C9C, Parsing: None
+2025-06-03 16:19:53,992 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:54,092 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410573410574
+2025-06-03 16:19:54,092 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410573410574, cmd=0105
+2025-06-03 16:19:54,093 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410573410574, Parsing: 
+2025-06-03 16:19:54,093 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:19:54,195 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:19:54,195 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:19:54,196 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:19:54,197 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:54,211 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:54,311 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10137F1012>
+2025-06-03 16:19:54,311 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:19:54,311 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:54,311 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1013', cmd=010C
+2025-06-03 16:19:54,311 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1012', cmd=010C
+2025-06-03 16:19:54,311 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:54,311 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:19:54,313 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10137F1012>, Parsing: None
+2025-06-03 16:19:54,313 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:19:54,414 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00
+2025-06-03 16:19:54,414 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:19:54,415 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:54,515 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410573410574
+2025-06-03 16:19:54,515 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410573410574, cmd=0105
+2025-06-03 16:19:54,516 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410573410574, Parsing: 
+2025-06-03 16:19:54,516 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:19:54,617 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:19:54,617 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:19:54,618 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:19:54,619 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:54,660 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:54,762 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013
+2025-06-03 16:19:54,762 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:19:54,762 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:54,762 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:19:54,762 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:19:54,763 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013, Parsing: None
+2025-06-03 16:19:54,763 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:19:54,864 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D00410D00
+2025-06-03 16:19:54,864 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D00', cmd=010D
+2025-06-03 16:19:54,864 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:19:54,865 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:54,966 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410574410574
+2025-06-03 16:19:54,966 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410574410574, cmd=0105
+2025-06-03 16:19:54,967 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410574410574, Parsing: 
+2025-06-03 16:19:54,967 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:19:55,068 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:19:55,068 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:19:55,069 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:19:55,070 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:55,094 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:55,196 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10137F1012>
+2025-06-03 16:19:55,196 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:19:55,196 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:55,196 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1013', cmd=010C
+2025-06-03 16:19:55,196 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1012', cmd=010C
+2025-06-03 16:19:55,196 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:55,196 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:19:55,197 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10137F1012>, Parsing: None
+2025-06-03 16:19:55,197 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:19:55,298 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00
+2025-06-03 16:19:55,298 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:19:55,299 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:55,400 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410574410574
+2025-06-03 16:19:55,400 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410574410574, cmd=0105
+2025-06-03 16:19:55,401 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410574410574, Parsing: 
+2025-06-03 16:19:55,401 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:19:55,502 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:19:55,502 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:19:55,503 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:19:55,504 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:55,530 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:55,632 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013>
+2025-06-03 16:19:55,632 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:19:55,632 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:55,632 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:19:55,632 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:19:55,632 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:55,632 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:19:55,633 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013>, Parsing: None
+2025-06-03 16:19:55,633 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:19:55,734 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00
+2025-06-03 16:19:55,734 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:19:55,735 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:55,836 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410574410574
+2025-06-03 16:19:55,836 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410574410574, cmd=0105
+2025-06-03 16:19:55,837 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410574410574, Parsing: 
+2025-06-03 16:19:55,837 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:19:55,938 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:19:55,939 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:19:55,940 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:19:55,942 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:55,968 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:56,069 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013>
+2025-06-03 16:19:56,069 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:19:56,069 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:56,069 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:19:56,069 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:19:56,069 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:56,069 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:19:56,071 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013>, Parsing: None
+2025-06-03 16:19:56,071 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:19:56,173 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00
+2025-06-03 16:19:56,174 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:19:56,174 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:56,274 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410574410574
+2025-06-03 16:19:56,275 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410574410574, cmd=0105
+2025-06-03 16:19:56,275 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410574410574, Parsing: 
+2025-06-03 16:19:56,276 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:19:56,376 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:19:56,376 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:19:56,377 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:19:56,379 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:56,405 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:56,507 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013
+2025-06-03 16:19:56,507 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:19:56,507 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:56,507 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:19:56,507 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:19:56,508 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013, Parsing: None
+2025-06-03 16:19:56,508 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:19:56,610 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D00410D00
+2025-06-03 16:19:56,610 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D00', cmd=010D
+2025-06-03 16:19:56,610 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:19:56,611 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:56,711 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 16:19:56,711 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 16:19:56,712 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 16:19:56,712 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:19:56,813 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): 410574410574>
+2025-06-03 16:19:56,813 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: 410574410574>, cmd=0110
+2025-06-03 16:19:56,814 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: 410574410574>, Parsing: 
+2025-06-03 16:19:56,816 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:56,841 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:56,942 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013>
+2025-06-03 16:19:56,942 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:19:56,942 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:56,942 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:19:56,942 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:19:56,942 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:56,942 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:19:56,943 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013>, Parsing: None
+2025-06-03 16:19:56,943 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:19:57,045 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00
+2025-06-03 16:19:57,045 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:19:57,046 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:57,146 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410574410574
+2025-06-03 16:19:57,146 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410574410574, cmd=0105
+2025-06-03 16:19:57,147 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410574410574, Parsing: 
+2025-06-03 16:19:57,147 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:19:57,249 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:19:57,249 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:19:57,250 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:19:57,251 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:57,274 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:57,376 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10137F1012>
+2025-06-03 16:19:57,376 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:19:57,376 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:57,376 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1013', cmd=010C
+2025-06-03 16:19:57,376 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1012', cmd=010C
+2025-06-03 16:19:57,376 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:57,376 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:19:57,377 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10137F1012>, Parsing: None
+2025-06-03 16:19:57,377 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:19:57,479 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00
+2025-06-03 16:19:57,479 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:19:57,480 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:57,580 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410574410574
+2025-06-03 16:19:57,580 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410574410574, cmd=0105
+2025-06-03 16:19:57,581 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410574410574, Parsing: 
+2025-06-03 16:19:57,581 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:19:57,682 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:19:57,682 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:19:57,683 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:19:57,684 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:57,723 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:57,825 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013>
+2025-06-03 16:19:57,825 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:19:57,825 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:57,825 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:19:57,825 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:19:57,825 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:57,825 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:19:57,826 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013>, Parsing: None
+2025-06-03 16:19:57,826 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:19:57,927 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00
+2025-06-03 16:19:57,927 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:19:57,928 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:58,029 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410574410574
+2025-06-03 16:19:58,029 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410574410574, cmd=0105
+2025-06-03 16:19:58,030 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410574410574, Parsing: 
+2025-06-03 16:19:58,030 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:19:58,131 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:19:58,131 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:19:58,132 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:19:58,133 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:58,152 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:58,253 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10137F1012>
+2025-06-03 16:19:58,253 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:19:58,253 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:58,253 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1013', cmd=010C
+2025-06-03 16:19:58,253 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1012', cmd=010C
+2025-06-03 16:19:58,253 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:58,253 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:19:58,254 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10137F1012>, Parsing: None
+2025-06-03 16:19:58,254 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:19:58,356 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00
+2025-06-03 16:19:58,357 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:19:58,357 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:58,457 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410574410574
+2025-06-03 16:19:58,457 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410574410574, cmd=0105
+2025-06-03 16:19:58,458 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410574410574, Parsing: 
+2025-06-03 16:19:58,458 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:19:58,559 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:19:58,559 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:19:58,560 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:19:58,562 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:58,595 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:58,697 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013>
+2025-06-03 16:19:58,697 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:19:58,697 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:58,697 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:19:58,697 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:19:58,697 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:58,697 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:19:58,698 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013>, Parsing: None
+2025-06-03 16:19:58,698 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:19:58,799 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00
+2025-06-03 16:19:58,799 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:19:58,800 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:58,901 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 16:19:58,901 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 16:19:58,903 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 16:19:58,903 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:19:59,004 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): 410574410574>
+2025-06-03 16:19:59,004 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: 410574410574>, cmd=0110
+2025-06-03 16:19:59,005 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: 410574410574>, Parsing: 
+2025-06-03 16:19:59,006 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:59,032 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:59,133 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013
+2025-06-03 16:19:59,133 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:19:59,133 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:59,133 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:19:59,133 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:19:59,135 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013, Parsing: None
+2025-06-03 16:19:59,135 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:19:59,236 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D00410D00
+2025-06-03 16:19:59,237 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D00', cmd=010D
+2025-06-03 16:19:59,237 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:19:59,237 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:59,338 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410574410574
+2025-06-03 16:19:59,338 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410574410574, cmd=0105
+2025-06-03 16:19:59,339 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410574410574, Parsing: 
+2025-06-03 16:19:59,339 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:19:59,440 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:19:59,440 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:19:59,441 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:19:59,442 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:59,467 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:19:59,568 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10137F1012
+2025-06-03 16:19:59,569 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:19:59,569 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:19:59,569 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1013', cmd=010C
+2025-06-03 16:19:59,569 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1012', cmd=010C
+2025-06-03 16:19:59,570 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10137F1012, Parsing: None
+2025-06-03 16:19:59,570 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:19:59,671 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >
+2025-06-03 16:19:59,671 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+2025-06-03 16:19:59,672 [WARNING] ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: >, Parsing: None
+2025-06-03 16:19:59,672 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:19:59,773 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410D00410D00>410574410574
+2025-06-03 16:19:59,773 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410D00410D00>410574410574, cmd=0105
+2025-06-03 16:19:59,774 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410D00410D00>410574410574, Parsing: 
+2025-06-03 16:19:59,774 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:19:59,875 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:19:59,875 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:19:59,877 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:19:59,878 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:19:59,904 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:00,005 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10137F1012>
+2025-06-03 16:20:00,005 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:00,005 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:00,005 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1013', cmd=010C
+2025-06-03 16:20:00,005 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1012', cmd=010C
+2025-06-03 16:20:00,005 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:00,005 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:20:00,006 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10137F1012>, Parsing: None
+2025-06-03 16:20:00,006 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:00,107 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00
+2025-06-03 16:20:00,107 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:00,108 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:00,209 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410574410574
+2025-06-03 16:20:00,209 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410574410574, cmd=0105
+2025-06-03 16:20:00,210 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410574410574, Parsing: 
+2025-06-03 16:20:00,210 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:00,311 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:00,311 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:00,312 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:00,313 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:00,340 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:00,441 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10137F1012
+2025-06-03 16:20:00,443 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:00,443 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:00,443 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1013', cmd=010C
+2025-06-03 16:20:00,443 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1012', cmd=010C
+2025-06-03 16:20:00,444 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10137F1012, Parsing: None
+2025-06-03 16:20:00,444 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:00,546 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D00410D00
+2025-06-03 16:20:00,546 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D00', cmd=010D
+2025-06-03 16:20:00,546 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:00,547 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:00,647 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410574410574
+2025-06-03 16:20:00,647 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410574410574, cmd=0105
+2025-06-03 16:20:00,649 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410574410574, Parsing: 
+2025-06-03 16:20:00,649 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:00,750 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:00,751 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:00,752 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:00,753 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:00,777 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:00,878 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013>
+2025-06-03 16:20:00,878 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:00,878 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:00,878 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:00,878 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:00,878 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:00,878 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:20:00,879 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013>, Parsing: None
+2025-06-03 16:20:00,879 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:00,980 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00
+2025-06-03 16:20:00,980 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:00,981 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:01,082 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410574410574
+2025-06-03 16:20:01,082 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410574410574, cmd=0105
+2025-06-03 16:20:01,085 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410574410574, Parsing: 
+2025-06-03 16:20:01,085 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:01,186 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:01,186 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:01,187 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:01,188 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:01,213 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:01,314 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013>
+2025-06-03 16:20:01,314 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:01,314 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:01,314 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:01,314 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:01,314 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:01,314 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:20:01,315 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013>, Parsing: None
+2025-06-03 16:20:01,316 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:01,417 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00
+2025-06-03 16:20:01,418 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:01,418 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:01,519 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410574410574
+2025-06-03 16:20:01,519 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410574410574, cmd=0105
+2025-06-03 16:20:01,520 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410574410574, Parsing: 
+2025-06-03 16:20:01,520 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:01,621 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:01,621 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:01,622 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:01,623 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:01,662 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:01,764 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013>
+2025-06-03 16:20:01,764 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:01,764 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:01,764 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:01,764 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:01,764 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:01,764 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:20:01,765 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013>, Parsing: None
+2025-06-03 16:20:01,765 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:01,866 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00>
+2025-06-03 16:20:01,867 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:01,867 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:01,968 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410574410574
+2025-06-03 16:20:01,969 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410574410574, cmd=0105
+2025-06-03 16:20:01,969 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410574410574, Parsing: 
+2025-06-03 16:20:01,970 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:02,070 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:02,070 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:02,071 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:02,072 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:02,114 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:02,215 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013>
+2025-06-03 16:20:02,215 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:02,215 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:02,215 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:02,215 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:02,215 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:02,215 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:20:02,216 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013>, Parsing: None
+2025-06-03 16:20:02,217 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:02,317 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00
+2025-06-03 16:20:02,319 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:02,319 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:02,419 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410574410574
+2025-06-03 16:20:02,419 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410574410574, cmd=0105
+2025-06-03 16:20:02,420 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410574410574, Parsing: 
+2025-06-03 16:20:02,420 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:02,521 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:02,521 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:02,522 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:02,524 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:02,549 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:02,650 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013>
+2025-06-03 16:20:02,650 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:02,650 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:02,650 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:02,650 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:02,650 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:02,650 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:20:02,652 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013>, Parsing: None
+2025-06-03 16:20:02,652 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:02,753 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00
+2025-06-03 16:20:02,754 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:02,754 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:02,854 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410575410574
+2025-06-03 16:20:02,854 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410575410574, cmd=0105
+2025-06-03 16:20:02,855 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410575410574, Parsing: 
+2025-06-03 16:20:02,855 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:02,957 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:02,957 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:02,958 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:02,959 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:02,986 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:03,087 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013>
+2025-06-03 16:20:03,087 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:03,087 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:03,087 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:03,087 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:03,087 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:03,087 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:20:03,089 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013>, Parsing: None
+2025-06-03 16:20:03,089 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:03,190 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00
+2025-06-03 16:20:03,190 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:03,191 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:03,292 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410575410574
+2025-06-03 16:20:03,292 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410575410574, cmd=0105
+2025-06-03 16:20:03,293 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410575410574, Parsing: 
+2025-06-03 16:20:03,294 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:03,395 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:03,395 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:03,396 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:03,397 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:03,420 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:03,521 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013>
+2025-06-03 16:20:03,521 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:03,521 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:03,521 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:03,521 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:03,521 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:03,521 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:20:03,522 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013>, Parsing: None
+2025-06-03 16:20:03,522 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:03,623 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00
+2025-06-03 16:20:03,623 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:03,624 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:03,725 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410575410574
+2025-06-03 16:20:03,725 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410575410574, cmd=0105
+2025-06-03 16:20:03,726 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410575410574, Parsing: 
+2025-06-03 16:20:03,726 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:03,827 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:03,827 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:03,829 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:03,829 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:03,856 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:03,958 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013
+2025-06-03 16:20:03,958 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:03,958 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:03,958 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:03,958 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:03,959 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013, Parsing: None
+2025-06-03 16:20:03,959 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:04,060 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D00410D00
+2025-06-03 16:20:04,060 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D00', cmd=010D
+2025-06-03 16:20:04,060 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:04,061 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:04,162 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410575410574
+2025-06-03 16:20:04,162 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410575410574, cmd=0105
+2025-06-03 16:20:04,163 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410575410574, Parsing: 
+2025-06-03 16:20:04,164 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:04,265 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:04,265 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:04,267 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:04,268 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:04,301 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:04,403 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013>
+2025-06-03 16:20:04,403 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:04,403 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:04,403 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:04,403 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:04,403 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:04,403 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:20:04,404 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013>, Parsing: None
+2025-06-03 16:20:04,404 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:04,505 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00>
+2025-06-03 16:20:04,505 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:04,506 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:04,607 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): 410575410574
+2025-06-03 16:20:04,607 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: 410575410574, cmd=0105
+2025-06-03 16:20:04,608 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: 410575410574, Parsing: 
+2025-06-03 16:20:04,608 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:04,709 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:04,709 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:04,710 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:04,711 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:04,729 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:04,831 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013
+2025-06-03 16:20:04,831 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:04,831 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:04,831 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:04,831 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:04,832 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013, Parsing: None
+2025-06-03 16:20:04,832 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:04,934 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D00410D00
+2025-06-03 16:20:04,934 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D00', cmd=010D
+2025-06-03 16:20:04,934 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:04,935 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:05,035 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410575410574
+2025-06-03 16:20:05,035 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410575410574, cmd=0105
+2025-06-03 16:20:05,036 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410575410574, Parsing: 
+2025-06-03 16:20:05,036 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:05,137 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:05,137 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:05,138 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:05,139 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:05,165 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:05,267 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013>
+2025-06-03 16:20:05,267 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:05,267 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:05,267 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:05,267 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:05,267 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:05,267 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:20:05,269 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013>, Parsing: None
+2025-06-03 16:20:05,269 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:05,370 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00
+2025-06-03 16:20:05,370 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:05,370 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:05,472 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410575410575
+2025-06-03 16:20:05,472 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410575410575, cmd=0105
+2025-06-03 16:20:05,473 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410575410575, Parsing: 
+2025-06-03 16:20:05,473 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:05,574 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:05,574 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:05,575 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:05,576 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:05,615 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:05,717 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013
+2025-06-03 16:20:05,717 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:05,717 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:05,717 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:05,717 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:05,718 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013, Parsing: None
+2025-06-03 16:20:05,718 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:05,819 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D00410D00
+2025-06-03 16:20:05,819 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D00', cmd=010D
+2025-06-03 16:20:05,820 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:05,820 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:05,921 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410575410575
+2025-06-03 16:20:05,921 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410575410575, cmd=0105
+2025-06-03 16:20:05,922 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410575410575, Parsing: 
+2025-06-03 16:20:05,922 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:06,023 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:06,023 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:06,024 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:06,025 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:06,061 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:06,162 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10137F1012>
+2025-06-03 16:20:06,163 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:06,163 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:06,163 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1013', cmd=010C
+2025-06-03 16:20:06,163 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1012', cmd=010C
+2025-06-03 16:20:06,163 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:06,163 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:20:06,164 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10137F1012>, Parsing: None
+2025-06-03 16:20:06,164 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:06,265 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00
+2025-06-03 16:20:06,265 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:06,266 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:06,367 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410575410575
+2025-06-03 16:20:06,367 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410575410575, cmd=0105
+2025-06-03 16:20:06,368 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410575410575, Parsing: 
+2025-06-03 16:20:06,368 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:06,470 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:06,470 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:06,471 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:06,472 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:06,501 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:06,602 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013
+2025-06-03 16:20:06,602 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:06,602 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:06,602 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:06,602 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:06,603 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013, Parsing: None
+2025-06-03 16:20:06,603 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:06,705 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D00410D00
+2025-06-03 16:20:06,705 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D00', cmd=010D
+2025-06-03 16:20:06,705 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:06,706 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:06,806 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410575410575
+2025-06-03 16:20:06,807 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410575410575, cmd=0105
+2025-06-03 16:20:06,808 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410575410575, Parsing: 
+2025-06-03 16:20:06,808 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:06,909 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:06,909 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:06,910 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:06,912 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:06,939 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:07,040 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013
+2025-06-03 16:20:07,040 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:07,040 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:07,040 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:07,040 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:07,041 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013, Parsing: None
+2025-06-03 16:20:07,041 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:07,142 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D00410D00
+2025-06-03 16:20:07,142 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D00', cmd=010D
+2025-06-03 16:20:07,143 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:07,143 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:07,245 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410575410575
+2025-06-03 16:20:07,245 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410575410575, cmd=0105
+2025-06-03 16:20:07,246 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410575410575, Parsing: 
+2025-06-03 16:20:07,246 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:07,348 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:07,348 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:07,349 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:07,350 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:07,375 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:07,476 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013>
+2025-06-03 16:20:07,476 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:07,476 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:07,476 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:07,476 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:07,476 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:07,476 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:20:07,479 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013>, Parsing: None
+2025-06-03 16:20:07,479 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:07,580 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00
+2025-06-03 16:20:07,580 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:07,581 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:07,681 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410575410575
+2025-06-03 16:20:07,681 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410575410575, cmd=0105
+2025-06-03 16:20:07,682 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410575410575, Parsing: 
+2025-06-03 16:20:07,682 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:07,784 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:07,784 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:07,785 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:07,786 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:07,805 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:07,907 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013
+2025-06-03 16:20:07,907 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:07,907 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:07,907 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:07,907 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:07,908 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013, Parsing: None
+2025-06-03 16:20:07,908 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:08,009 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D00410D00
+2025-06-03 16:20:08,009 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D00', cmd=010D
+2025-06-03 16:20:08,010 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:08,010 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:08,111 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410575410575
+2025-06-03 16:20:08,111 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410575410575, cmd=0105
+2025-06-03 16:20:08,113 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410575410575, Parsing: 
+2025-06-03 16:20:08,113 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:08,214 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:08,214 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:08,215 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:08,216 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:08,246 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:08,347 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013
+2025-06-03 16:20:08,347 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:08,347 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:08,347 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:08,347 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:08,348 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013, Parsing: None
+2025-06-03 16:20:08,348 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:08,449 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D00410D00
+2025-06-03 16:20:08,449 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D00', cmd=010D
+2025-06-03 16:20:08,449 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:08,450 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:08,551 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >
+2025-06-03 16:20:08,551 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0105
+2025-06-03 16:20:08,552 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >, Parsing: 
+2025-06-03 16:20:08,552 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:08,653 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): 410575410575>
+2025-06-03 16:20:08,653 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: 410575410575>, cmd=0110
+2025-06-03 16:20:08,655 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: 410575410575>, Parsing: 
+2025-06-03 16:20:08,656 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:08,678 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:08,779 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013
+2025-06-03 16:20:08,779 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:08,779 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:08,779 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:08,779 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:08,780 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013, Parsing: None
+2025-06-03 16:20:08,780 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:08,882 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D00410D00
+2025-06-03 16:20:08,882 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D00', cmd=010D
+2025-06-03 16:20:08,882 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:08,883 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:08,984 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410575410575>
+2025-06-03 16:20:08,984 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410575410575>, cmd=0105
+2025-06-03 16:20:08,985 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410575410575>, Parsing: 
+2025-06-03 16:20:08,985 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:09,268 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): NO DATA>
+2025-06-03 16:20:09,268 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: NO DATA>, cmd=0110
+2025-06-03 16:20:09,269 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: NO DATA>, Parsing: 
+2025-06-03 16:20:09,271 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:09,349 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:09,450 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): 410C0B00410C0B00
+2025-06-03 16:20:09,451 [INFO] [OBD] rpm recibido: 704
+2025-06-03 16:20:09,451 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:09,552 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D00410D00
+2025-06-03 16:20:09,552 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D00', cmd=010D
+2025-06-03 16:20:09,552 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:09,553 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:09,653 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410576410575
+2025-06-03 16:20:09,653 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410576410575, cmd=0105
+2025-06-03 16:20:09,655 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410576410575, Parsing: 
+2025-06-03 16:20:09,655 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:09,756 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:09,756 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:09,757 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:09,758 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:09,773 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:09,875 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013
+2025-06-03 16:20:09,875 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:09,875 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:09,875 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:09,875 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:09,876 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013, Parsing: None
+2025-06-03 16:20:09,876 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:09,978 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D00410D00
+2025-06-03 16:20:09,979 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D00', cmd=010D
+2025-06-03 16:20:09,979 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:09,980 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:10,081 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410576410575
+2025-06-03 16:20:10,081 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410576410575, cmd=0105
+2025-06-03 16:20:10,083 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410576410575, Parsing: 
+2025-06-03 16:20:10,083 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:10,192 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:10,192 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:10,194 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:10,195 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:10,216 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:10,317 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013
+2025-06-03 16:20:10,317 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:10,317 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:10,317 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:10,317 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:10,319 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013, Parsing: None
+2025-06-03 16:20:10,319 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:10,420 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D00410D00
+2025-06-03 16:20:10,420 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D00', cmd=010D
+2025-06-03 16:20:10,421 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:10,421 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:10,522 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410576410575
+2025-06-03 16:20:10,522 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410576410575, cmd=0105
+2025-06-03 16:20:10,523 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410576410575, Parsing: 
+2025-06-03 16:20:10,523 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:10,624 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:10,625 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:10,626 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:10,627 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:10,652 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:10,754 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013>
+2025-06-03 16:20:10,754 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:10,754 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:10,754 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:10,754 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:10,754 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:10,754 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:20:10,755 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013>, Parsing: None
+2025-06-03 16:20:10,755 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:10,856 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00
+2025-06-03 16:20:10,856 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:10,857 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:10,958 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410576410575
+2025-06-03 16:20:10,958 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410576410575, cmd=0105
+2025-06-03 16:20:10,959 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410576410575, Parsing: 
+2025-06-03 16:20:10,959 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:11,060 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:11,060 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:11,061 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:11,063 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:11,086 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:11,187 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013>
+2025-06-03 16:20:11,187 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:11,187 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:11,187 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:11,187 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:11,187 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:11,187 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:20:11,188 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013>, Parsing: None
+2025-06-03 16:20:11,188 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:11,289 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00
+2025-06-03 16:20:11,290 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:11,290 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:11,391 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410576410575
+2025-06-03 16:20:11,391 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410576410575, cmd=0105
+2025-06-03 16:20:11,392 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410576410575, Parsing: 
+2025-06-03 16:20:11,392 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:11,493 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:11,493 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:11,493 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:11,495 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:11,525 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:11,626 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10127F1013
+2025-06-03 16:20:11,626 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:11,626 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:11,626 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1012', cmd=010C
+2025-06-03 16:20:11,626 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1013', cmd=010C
+2025-06-03 16:20:11,628 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10127F1013, Parsing: None
+2025-06-03 16:20:11,628 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:11,729 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): >410D00410D00
+2025-06-03 16:20:11,729 [WARNING] [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>410D00', cmd=010D
+2025-06-03 16:20:11,729 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:11,730 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:11,830 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410576410575
+2025-06-03 16:20:11,831 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410576410575, cmd=0105
+2025-06-03 16:20:11,832 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410576410575, Parsing: 
+2025-06-03 16:20:11,832 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:11,933 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:11,933 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:11,934 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:11,935 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:11,969 [INFO] [OBD] Enviando comando: 010C (PID: rpm)
+2025-06-03 16:20:12,070 [INFO] [OBD] Respuesta cruda para 010C (PID: rpm): STOPPED>7F10137F1012>
+2025-06-03 16:20:12,070 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+2025-06-03 16:20:12,070 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:12,070 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>7F1013', cmd=010C
+2025-06-03 16:20:12,070 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '7F1012', cmd=010C
+2025-06-03 16:20:12,070 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+2025-06-03 16:20:12,070 [WARNING] [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+2025-06-03 16:20:12,071 [WARNING] ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED>7F10137F1012>, Parsing: None
+2025-06-03 16:20:12,071 [INFO] [OBD] Enviando comando: 010D (PID: vel)
+2025-06-03 16:20:12,173 [INFO] [OBD] Respuesta cruda para 010D (PID: vel): 410D00410D00
+2025-06-03 16:20:12,174 [INFO] [OBD] vel recibido: 0
+2025-06-03 16:20:12,174 [INFO] [OBD] Enviando comando: 0105 (PID: temp)
+2025-06-03 16:20:12,276 [INFO] [OBD] Respuesta cruda para 0105 (PID: temp): >410576410575
+2025-06-03 16:20:12,276 [WARNING] [PARSE][temp] Ninguna línea válida encontrada en respuesta. Resp completa: >410576410575, cmd=0105
+2025-06-03 16:20:12,277 [WARNING] ADVERTENCIA: El PID temp no entregó datos válidos. Comando: 0105, Respuesta: >410576410575, Parsing: 
+2025-06-03 16:20:12,277 [INFO] [OBD] Enviando comando: 0110 (PID: maf)
+2025-06-03 16:20:12,378 [INFO] [OBD] Respuesta cruda para 0110 (PID: maf): >
+2025-06-03 16:20:12,378 [WARNING] [PARSE][maf] Ninguna línea válida encontrada en respuesta. Resp completa: >, cmd=0110
+2025-06-03 16:20:12,378 [WARNING] ADVERTENCIA: El PID maf no entregó datos válidos. Comando: 0110, Respuesta: >, Parsing: 
+2025-06-03 16:20:12,380 [WARNING] [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+2025-06-03 16:20:12,398 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000248B0A1EE10>
+2025-06-03 16:20:12,514 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000248B0A1EE10>
+2025-06-03 16:20:12,623 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000248B0A1EE10>
+2025-06-03 16:20:12,731 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000248B0A1EE10>
+2025-06-03 16:20:12,840 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000248B0A1EE10>
+2025-06-03 16:20:12,950 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000248B0A1EE10>
+2025-06-03 16:20:13,059 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000248B0A1EE10>
+2025-06-03 16:20:13,168 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000248B0A1EE10>
+2025-06-03 16:20:13,277 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000248B0A1EE10>
+2025-06-03 16:20:13,385 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000248B0A1EE10>
+2025-06-03 16:20:13,493 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000248B0A1EE10>
+2025-06-03 16:20:13,603 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000248B0A1EE10>
+2025-06-03 16:20:13,712 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000248B0A1EE10>
+2025-06-03 16:20:13,822 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000248B0A1EE10>
+2025-06-03 16:20:13,930 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000248B0A1EE10>
+2025-06-03 16:20:14,038 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000248B0A1EE10>
+2025-06-03 16:20:14,149 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000248B0A1EE10>
+2025-06-03 16:20:14,258 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000248B0A1EE10>
+2025-06-03 16:20:14,366 [WARNING] ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x00000248B0A1EE10>

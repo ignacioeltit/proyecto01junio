@@ -23,33 +23,41 @@ def export_dynamic_log(filename, log_data, pids):
     Uso recomendado: import y llamada desde dashboard/logger.
     """
     if not log_data:
-        print("[EXPORT] No hay datos en memoria para exportar. Se generarán datos de prueba.")
+        print(
+            "[EXPORT] No hay datos en memoria para exportar. Se generarán datos de prueba."
+        )
         now = datetime.now()
         log_data = []
         for i in range(5):
-            entry = {pid: '' for pid in pids}
-            entry['timestamp'] = (now + timedelta(seconds=i)).strftime("%Y-%m-%d %H:%M:%S")
-            if 'rpm' in pids:
-                entry['rpm'] = str(800 + i * 20)
-            if 'vel' in pids:
-                entry['vel'] = str(i)
-            if 'temp' in pids:
-                entry['temp'] = str(65 + i)
-            if 'maf' in pids:
-                entry['maf'] = str(round(2.0 + 0.1 * i, 2)) if i % 2 == 0 else ''
-            entry['escenario'] = 'prueba'
+            entry = {pid: "" for pid in pids}
+            entry["timestamp"] = (now + timedelta(seconds=i)).strftime(
+                "%Y-%m-%d %H:%M:%S"
+            )
+            if "rpm" in pids:
+                entry["rpm"] = str(800 + i * 20)
+            if "vel" in pids:
+                entry["vel"] = str(i)
+            if "temp" in pids:
+                entry["temp"] = str(65 + i)
+            if "maf" in pids:
+                entry["maf"] = str(round(2.0 + 0.1 * i, 2)) if i % 2 == 0 else ""
+            entry["escenario"] = "prueba"
             log_data.append(entry)
     # Determina PIDs realmente activos y con datos
-    active_pids = set(['timestamp', 'escenario'])
+    active_pids = set(["timestamp", "escenario"])
     for row in log_data:
         for pid in pids:
-            if pid != 'timestamp' and row.get(pid) not in (None, '', 'None'):
+            if pid != "timestamp" and row.get(pid) not in (None, "", "None"):
                 active_pids.add(pid)
         # Forzar 'escenario' como activo si existe en el registro
-        if 'escenario' in row:
-            active_pids.add('escenario')
+        if "escenario" in row:
+            active_pids.add("escenario")
     # Ordena según pids originales, pero siempre antepone 'escenario' tras timestamp
-    export_pids = ['timestamp', 'escenario'] + [pid for pid in pids if pid in active_pids and pid not in ['timestamp', 'escenario']]
+    export_pids = ["timestamp", "escenario"] + [
+        pid
+        for pid in pids
+        if pid in active_pids and pid not in ["timestamp", "escenario"]
+    ]
     # --- DEDUPLICACIÓN DE PIDs EN EXPORTACIÓN ---
     pid_map = {}
     dedup_pids = []
@@ -68,7 +76,7 @@ def export_dynamic_log(filename, log_data, pids):
     export_log = []
     for row in log_data:
         export_row = {
-            pid: str(row.get(pid, '')) if row.get(pid, '') is not None else ''
+            pid: str(row.get(pid, "")) if row.get(pid, "") is not None else ""
             for pid in export_pids
         }
         export_log.append(export_row)
@@ -82,9 +90,10 @@ def export_dynamic_log(filename, log_data, pids):
     )
     # Validación automática tras exportar
     valido, errores = validar_log_csv(
-        filename, [pid for pid in pids if pid != 'timestamp']
+        filename, [pid for pid in pids if pid != "timestamp"]
     )
     return valido, errores
+
 
 # --- Ejemplo de uso/documentación para desarrolladores ---
 # from src.storage.export import export_dynamic_log

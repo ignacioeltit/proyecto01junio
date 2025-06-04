@@ -1,0 +1,6 @@
+2025-06-03 00:30:30,841 [INFO] --- INICIO DE SESIÓN OBD-II: log_20250603_003030.txt ---
+2025-06-03 00:30:32,072 [INFO] [TEST] Test automático de PIDs lanzado automáticamente al inicio de la app.
+2025-06-03 00:31:37,012 [INFO] PIDs con datos válidos: escenario, rpm, timestamp
+2025-06-03 00:31:37,013 [INFO] PIDs siempre vacíos: 
+2025-06-03 00:31:37,013 [INFO] [AUDITORÍA] Comandos y respuestas crudas por sesión:
+2025-06-03 00:31:37,013 [INFO] Gauges activos en UI: 3, gauges ocultados por falta de datos: 0

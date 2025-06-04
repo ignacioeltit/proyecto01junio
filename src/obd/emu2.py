@@ -2,14 +2,16 @@ import random
 import math
 from flask import Flask, render_template_string, request, jsonify
 
+
 class EmuladorOBD2:
     """
     Emulador avanzado de OBD-II con modos de conducción y fallas.
     """
-    MODOS = ['ralenti', 'ciudad', 'carretera', 'falla']
+
+    MODOS = ["ralenti", "ciudad", "carretera", "falla"]
 
     def __init__(self):
-        self.modo = 'ralenti'
+        self.modo = "ralenti"
         self.rpm = 800
         self.velocidad = 0
         self.t = 0
@@ -26,27 +28,33 @@ class EmuladorOBD2:
 
     def update(self):
         self.t += 1
-        if self.modo == 'ralenti':
+        if self.modo == "ralenti":
             self.rpm = 800 + random.randint(-20, 20)
             self.velocidad = 0
-        elif self.modo == 'ciudad':
-            self.rpm = 900 + int(1200 * abs(math.sin(self.t/15))) + random.randint(-50, 50)
+        elif self.modo == "ciudad":
+            self.rpm = (
+                900 + int(1200 * abs(math.sin(self.t / 15))) + random.randint(-50, 50)
+            )
             if self.t % 40 < 10:
                 self.velocidad = 0
             elif self.t % 40 < 30:
                 self.velocidad = min(60, self.velocidad + random.randint(0, 4))
             else:
                 self.velocidad = max(0, self.velocidad - random.randint(0, 6))
-        elif self.modo == 'carretera':
-            self.rpm = 2200 + int(600 * abs(math.sin(self.t/30))) + random.randint(-40, 40)
-            self.velocidad = 90 + int(30 * abs(math.sin(self.t/20))) + random.randint(-5, 5)
-        elif self.modo == 'falla':
+        elif self.modo == "carretera":
+            self.rpm = (
+                2200 + int(600 * abs(math.sin(self.t / 30))) + random.randint(-40, 40)
+            )
+            self.velocidad = (
+                90 + int(30 * abs(math.sin(self.t / 20))) + random.randint(-5, 5)
+            )
+        elif self.modo == "falla":
             # Simula fallas: valores erráticos o imposibles
-            if self.falla == 'sensor_rpm':
+            if self.falla == "sensor_rpm":
                 self.rpm = random.choice([0, 200, 8000, 3000])
-            elif self.falla == 'sensor_vel':
+            elif self.falla == "sensor_vel":
                 self.velocidad = random.choice([0, 255, 10, 180])
-            elif self.falla == 'dtc':
+            elif self.falla == "dtc":
                 self.rpm = 1200
                 self.velocidad = 30
             else:
@@ -58,29 +66,30 @@ class EmuladorOBD2:
 
     def send_pid(self, pid_cmd):
         self.update()
-        if pid_cmd == '010C':  # RPM
+        if pid_cmd == "010C":  # RPM
             rpm_val = self.rpm * 4
             A = (rpm_val >> 8) & 0xFF
             B = rpm_val & 0xFF
-            return f'410C{A:02X}{B:02X}'
-        elif pid_cmd == '010D':  # Velocidad
-            return f'410D{int(self.velocidad):02X}'
+            return f"410C{A:02X}{B:02X}"
+        elif pid_cmd == "010D":  # Velocidad
+            return f"410D{int(self.velocidad):02X}"
         else:
-            return 'NO DATA'
+            return "NO DATA"
 
     def get_status(self):
         return {
-            'modo': self.modo,
-            'rpm': self.rpm,
-            'velocidad': self.velocidad,
-            'falla': self.falla
+            "modo": self.modo,
+            "rpm": self.rpm,
+            "velocidad": self.velocidad,
+            "falla": self.falla,
         }
+
 
 # --- Panel de control Flask ---
 app = Flask(__name__)
 emu = EmuladorOBD2()
 
-PANEL_HTML = '''
+PANEL_HTML = """
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -127,27 +136,32 @@ PANEL_HTML = '''
     </script>
 </body>
 </html>
-'''
+"""
 
-@app.route('/')
+
+@app.route("/")
 def panel():
     return render_template_string(PANEL_HTML)
 
-@app.route('/status')
+
+@app.route("/status")
 def status():
     return jsonify(emu.get_status())
 
-@app.route('/set_modo', methods=['POST'])
+
+@app.route("/set_modo", methods=["POST"])
 def set_modo():
-    modo = request.json.get('modo')
+    modo = request.json.get("modo")
     emu.set_modo(modo)
-    return jsonify({'ok': True})
+    return jsonify({"ok": True})
 
-@app.route('/set_falla', methods=['POST'])
+
+@app.route("/set_falla", methods=["POST"])
 def set_falla():
-    falla = request.json.get('falla')
+    falla = request.json.get("falla")
     emu.set_falla(falla)
-    return jsonify({'ok': True})
+    return jsonify({"ok": True})
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     app.run(port=5001, debug=True)
