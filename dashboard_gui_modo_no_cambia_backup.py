@@ -18,7 +18,7 @@ try:
     from src.obd.emulador import EmuladorOBD
     from src.utils.logging_app import setup_logging
 except ImportError:
-    print("🔧 Usando implementaciones básicas...")
+    print("Usando implementaciones básicas...")
     
     class OBDConnection:
         def __init__(self, mode="usb", port=None, baudrate=38400, ip=None, tcp_port=None, timeout=2):
@@ -29,89 +29,37 @@ except ImportError:
             self.tcp_port = tcp_port
             self.timeout = timeout
             self.connection = None
-            print(f"🔧 OBDConnection creada en modo: {mode}")
             
         def connect(self):
             try:
                 if self.mode == "wifi":
-                    print(f"📡 WIFI: Conectando a {self.ip}:{self.tcp_port}")
+                    print(f"🔌 Intentando conectar WiFi a {self.ip}:{self.tcp_port}")
                     self.connection = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                     self.connection.settimeout(self.timeout)
                     self.connection.connect((self.ip, self.tcp_port))
-                    print(f"✅ WIFI: Conexión TCP establecida")
-                    
-                    # Probar comando básico
-                    self.connection.sendall(b'ATI\r\n')
-                    time.sleep(1)
-                    response = self.connection.recv(1024).decode('utf-8', errors='ignore')
-                    print(f"📝 WIFI: Respuesta ELM327: {response.strip()}")
-                    
+                    print(f"✅ Conexión WiFi establecida a {self.ip}:{self.tcp_port}")
                     return self.connection
                 else:
-                    raise ValueError(f"Modo {self.mode} no soportado en implementación básica")
+                    raise ValueError("Modo no soportado en implementación básica")
             except Exception as e:
-                print(f"❌ WIFI: Error conexión: {e}")
+                print(f"❌ Error conexión WiFi: {e}")
                 return None
                 
         def disconnect(self):
             if self.connection:
                 self.connection.close()
                 self.connection = None
-                print("🔌 WIFI: Conexión cerrada")
                 
         def read_data(self, pids):
-            """Leer datos reales del ELM327 WiFi"""
-            if not self.connection:
-                return {}
-                
-            try:
-                data = {}
-                for pid in pids:
-                    # Enviar comando PID al ELM327
-                    cmd = f"{pid}\r\n"
-                    self.connection.sendall(cmd.encode())
-                    time.sleep(0.1)
-                    
-                    response = self.connection.recv(1024).decode('utf-8', errors='ignore')
-                    response = response.replace('\r', '').replace('\n', '').replace('>', '').strip()
-                    
-                    print(f"📡 WIFI: {pid} → {response}")
-                    
-                    # Parsear respuesta básica (simplificado)
-                    if response and 'ERROR' not in response and len(response) > 4:
-                        try:
-                            # Extraer valor hexadecimal básico
-                            hex_part = response[-4:]  # Últimos 4 caracteres
-                            value = int(hex_part, 16) if hex_part.isalnum() else 0
-                            
-                            # Conversiones básicas por PID
-                            if pid == '010C':  # RPM
-                                data[pid] = int(value / 4)  # RPM = (A*256+B)/4
-                            elif pid == '010D':  # Velocidad
-                                data[pid] = value  # km/h
-                            elif pid == '0105':  # Temperatura
-                                data[pid] = value - 40  # °C
-                            else:
-                                data[pid] = value
-                                
-                        except:
-                            data[pid] = 0
-                    else:
-                        data[pid] = 0
-                
-                return data
-                
-            except Exception as e:
-                print(f"❌ WIFI: Error leyendo datos: {e}")
-                return {}
+            # Simulación para pruebas
+            import random
+            return {pid: random.randint(0, 100) for pid in pids}
     
     class EmuladorOBD:
         def __init__(self):
-            print("🤖 EMULADOR: Inicializado")
-            
+            pass
         def get_simulated_data(self, pids):
             import random
-            print(f"🤖 EMULADOR: Generando datos para {pids}")
             data = {}
             for pid in pids:
                 if pid == 'rpm':
@@ -128,22 +76,123 @@ except ImportError:
                     data[pid] = round(random.uniform(13.0, 14.5), 2)
                 else:
                     data[pid] = random.randint(0, 100)
-            print(f"🤖 EMULADOR: Datos generados: {data}")
             return data
     
     def setup_logging():
         logging.basicConfig(level=logging.INFO)
 
+class WiFiDiagnosticDialog(QDialog):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.setWindowTitle("🔍 Diagnóstico WiFi ELM327")
+        self.setGeometry(200, 200, 600, 400)
+        self.init_ui()
+        
+    def init_ui(self):
+        layout = QVBoxLayout(self)
+        
+        # Texto de resultados
+        self.results_text = QTextEdit()
+        self.results_text.setReadOnly(True)
+        layout.addWidget(self.results_text)
+        
+        # Botones
+        buttons_layout = QHBoxLayout()
+        
+        self.scan_btn = QPushButton("🔍 Escanear WiFi")
+        self.scan_btn.clicked.connect(self.scan_wifi_networks)
+        buttons_layout.addWidget(self.scan_btn)
+        
+        self.test_ips_btn = QPushButton("🌐 Probar IPs Comunes")
+        self.test_ips_btn.clicked.connect(self.test_common_ips)
+        buttons_layout.addWidget(self.test_ips_btn)
+        
+        self.close_btn = QPushButton("Cerrar")
+        self.close_btn.clicked.connect(self.close)
+        buttons_layout.addWidget(self.close_btn)
+        
+        layout.addLayout(buttons_layout)
+        
+    def log_result(self, message):
+        timestamp = datetime.now().strftime("%H:%M:%S")
+        self.results_text.append(f"[{timestamp}] {message}")
+        
+    def scan_wifi_networks(self):
+        self.log_result("🔍 Escaneando redes WiFi...")
+        try:
+            import subprocess
+            result = subprocess.run(['netsh', 'wlan', 'show', 'networks'], 
+                                  capture_output=True, text=True)
+            
+            networks = []
+            elm327_networks = []
+            
+            for line in result.stdout.split('\n'):
+                if 'SSID' in line and 'All User Profile' not in line:
+                    network = line.split(':')[1].strip()
+                    networks.append(network)
+                    if any(keyword in network.lower() for keyword in 
+                          ['elm327', 'obd', 'wifi', 'car', 'auto']):
+                        elm327_networks.append(network)
+            
+            self.log_result(f"✅ Encontradas {len(networks)} redes WiFi")
+            for network in networks[:10]:  # Mostrar primeras 10
+                self.log_result(f"   📡 {network}")
+                
+            if elm327_networks:
+                self.log_result(f"🎯 Candidatos ELM327: {elm327_networks}")
+            else:
+                self.log_result("⚠️ No se detectaron redes con nombres típicos de ELM327")
+                
+        except Exception as e:
+            self.log_result(f"❌ Error escaneando WiFi: {e}")
+    
+    def test_common_ips(self):
+        common_configs = [
+            ('192.168.0.10', 35000),
+            ('192.168.4.1', 35000),
+            ('192.168.1.10', 35000),
+            ('10.0.0.10', 35000),
+            ('192.168.0.10', 23),
+            ('192.168.4.1', 23)
+        ]
+        
+        self.log_result("🌐 Probando IPs y puertos comunes de ELM327...")
+        
+        for ip, port in common_configs:
+            try:
+                self.log_result(f"   Probando {ip}:{port}...")
+                sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+                sock.settimeout(3)
+                result = sock.connect_ex((ip, port))
+                
+                if result == 0:
+                    self.log_result(f"   ✅ ÉXITO: {ip}:{port} responde!")
+                    # Probar comando básico
+                    try:
+                        sock.sendall(b'ATI\r\n')
+                        time.sleep(1)
+                        response = sock.recv(1024).decode('utf-8', errors='ignore')
+                        self.log_result(f"   📝 Respuesta: {response.strip()}")
+                    except:
+                        pass
+                else:
+                    self.log_result(f"   ❌ Sin respuesta: {ip}:{port}")
+                    
+                sock.close()
+                
+            except Exception as e:
+                self.log_result(f"   💥 Error {ip}:{port}: {e}")
+
 class OBDDataSource(QObject):
     data_received = pyqtSignal(dict)
     status_changed = pyqtSignal(str)
-    mode_changed = pyqtSignal(str)  # Nueva señal para mostrar cambios de modo
     
     def __init__(self):
         super().__init__()
         self.connection = None
         self.emulator = None
-        self.connection_mode = "emulator"  # Estado inicial
+        self.connection_mode = "emulator"
         self.selected_pids = []
         self.is_connected = False
         self.logger = logging.getLogger(__name__)
@@ -170,9 +219,7 @@ class OBDDataSource(QObject):
         except:
             logging.basicConfig(level=logging.INFO)
     
-    def force_set_mode(self, mode, **params):
-        """FORZAR cambio de modo con logging detallado"""
-        old_mode = self.connection_mode
+    def set_connection_mode(self, mode, **params):
         self.connection_mode = mode
         
         if mode == "usb" and "port" in params:
@@ -182,55 +229,38 @@ class OBDDataSource(QObject):
                 self.wifi_ip = params["ip"]
             if "port" in params:
                 self.wifi_port = params["port"]
-        
-        # Limpiar conexiones anteriores
-        if self.connection:
-            try:
-                self.connection.disconnect()
-                self.connection = None
-            except:
-                pass
-        if self.emulator:
-            self.emulator = None
-        
-        print(f"🔄 CAMBIO DE MODO FORZADO:")
-        print(f"   Anterior: {old_mode}")
-        print(f"   Nuevo: {mode}")
+                
+        print(f"🔧 Modo configurado: {mode}")
         if mode == "wifi":
-            print(f"   WiFi Config: {self.wifi_ip}:{self.wifi_port}")
-        
-        # Emitir señal de cambio
-        self.mode_changed.emit(f"Modo cambiado: {old_mode} → {mode}")
-        
-        return True
+            print(f"📡 WiFi: {self.wifi_ip}:{self.wifi_port}")
     
     def connect(self):
-        print(f"🔌 CONECTANDO EN MODO: {self.connection_mode}")
+        print(f"🔌 Intentando conectar en modo: {self.connection_mode}")
         
         try:
             if self.connection_mode == "emulator":
-                print("🤖 Inicializando EMULADOR...")
                 self.emulator = EmuladorOBD()
                 self.is_connected = True
-                self.status_changed.emit("✅ Conectado (EMULADOR)")
+                self.status_changed.emit("Conectado (Emulador)")
+                print("✅ Conexión emulador establecida")
                 return True
                 
             elif self.connection_mode == "wifi":
-                print(f"📡 Inicializando WIFI {self.wifi_ip}:{self.wifi_port}...")
+                print(f"📡 Conectando WiFi a {self.wifi_ip}:{self.wifi_port}...")
                 
-                # Verificar conectividad básica
+                # Verificar conectividad básica primero
                 test_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-                test_sock.settimeout(3)
+                test_sock.settimeout(5)
                 test_result = test_sock.connect_ex((self.wifi_ip, self.wifi_port))
                 test_sock.close()
                 
                 if test_result != 0:
-                    error_msg = f"❌ No hay conectividad TCP a {self.wifi_ip}:{self.wifi_port}"
+                    error_msg = f"❌ No se puede conectar a {self.wifi_ip}:{self.wifi_port}"
                     print(error_msg)
                     self.status_changed.emit(error_msg)
                     return False
                 
-                # Crear conexión OBD WiFi
+                # Si la conexión básica funciona, crear conexión OBD
                 self.connection = OBDConnection(
                     mode="wifi", 
                     ip=self.wifi_ip, 
@@ -240,24 +270,18 @@ class OBDDataSource(QObject):
                 
                 if self.connection.connect():
                     self.is_connected = True
-                    success_msg = f"✅ Conectado (WIFI {self.wifi_ip}:{self.wifi_port})"
-                    print(success_msg)
+                    success_msg = f"✅ Conectado (WiFi {self.wifi_ip}:{self.wifi_port})"
                     self.status_changed.emit(success_msg)
+                    print(success_msg)
                     return True
                 else:
-                    error_msg = "❌ Falló conexión OBD WiFi"
-                    print(error_msg)
+                    error_msg = "❌ Conexión OBD WiFi falló"
                     self.status_changed.emit(error_msg)
+                    print(error_msg)
                     return False
                     
-            elif self.connection_mode == "usb":
-                print(f"🔌 Inicializando USB {self.usb_port}...")
-                # Implementar USB si es necesario
-                self.status_changed.emit("⚠️ USB no implementado aún")
-                return False
-                
         except Exception as e:
-            error_msg = f"💥 ERROR: {e}"
+            error_msg = f"💥 Error en conexión: {e}"
             print(error_msg)
             self.status_changed.emit(error_msg)
             return False
@@ -266,29 +290,23 @@ class OBDDataSource(QObject):
         try:
             if self.connection:
                 self.connection.disconnect()
-                self.connection = None
-            if self.emulator:
-                self.emulator = None
             self.is_connected = False
-            self.status_changed.emit("🔌 Desconectado")
-            print("🔌 Desconectado de todos los modos")
+            self.status_changed.emit("Desconectado")
+            print("🔌 Conexión terminada")
         except Exception as e:
             print(f"❌ Error al desconectar: {e}")
     
     def set_selected_pids(self, pids):
         self.selected_pids = pids[:8]
-        print(f"📋 PIDs configurados: {self.selected_pids}")
+        print(f"📋 PIDs seleccionados: {self.selected_pids}")
     
     def read_data(self):
         if not self.is_connected:
             return {}
         
-        print(f"📊 LEYENDO DATOS EN MODO: {self.connection_mode}")
-        
         try:
             if self.connection_mode == "emulator" and self.emulator:
-                print("🤖 Obteniendo datos del EMULADOR...")
-                # Convertir hex a nombres para emulador
+                # Convertir hex a nombres
                 emulator_pids = []
                 for pid in self.selected_pids:
                     if pid in self.pid_mapping['hex_to_name']:
@@ -309,23 +327,17 @@ class OBDDataSource(QObject):
                         data[name] = value
                 
             elif self.connection_mode == "wifi" and self.connection:
-                print("📡 Obteniendo datos del WIFI...")
                 data = self.connection.read_data(self.selected_pids)
-                
             else:
-                print("⚠️ Sin conexión activa")
                 data = {}
             
             if data:
-                print(f"✅ Datos obtenidos: {data}")
                 self.data_received.emit(data)
-            else:
-                print("❌ Sin datos")
             
             return data
             
         except Exception as e:
-            print(f"💥 Error leyendo datos: {e}")
+            print(f"❌ Error leyendo datos: {e}")
             return {}
     
     def get_connection_status(self):
@@ -334,13 +346,12 @@ class OBDDataSource(QObject):
 class OBDDashboard(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Dashboard OBD-II - MODO FORZADO")
-        self.setGeometry(100, 100, 1400, 950)
+        self.setWindowTitle("Dashboard OBD-II - Diagnóstico WiFi Avanzado")
+        self.setGeometry(100, 100, 1400, 900)
         
         self.data_source = OBDDataSource()
         self.data_source.data_received.connect(self.update_display)
         self.data_source.status_changed.connect(self.update_status)
-        self.data_source.mode_changed.connect(self.update_mode_display)
         
         self.data_timer = QTimer()
         self.data_timer.timeout.connect(self.read_data)
@@ -353,10 +364,6 @@ class OBDDashboard(QMainWindow):
         
         layout = QVBoxLayout(central_widget)
         
-        # Panel de estado de modo
-        mode_panel = self.create_mode_status_panel()
-        layout.addWidget(mode_panel)
-        
         control_panel = self.create_control_panel()
         layout.addWidget(control_panel)
         
@@ -364,55 +371,22 @@ class OBDDashboard(QMainWindow):
         layout.addWidget(data_panel)
         
         self.status_bar = self.statusBar()
-        self.status_bar.showMessage("Desconectado - Dashboard con cambio de modo FORZADO")
-    
-    def create_mode_status_panel(self):
-        """Panel para mostrar el estado actual del modo"""
-        group_box = QGroupBox("📊 Estado del Modo de Conexión")
-        layout = QHBoxLayout(group_box)
-        
-        self.current_mode_label = QLabel("🤖 MODO ACTUAL: EMULADOR")
-        self.current_mode_label.setStyleSheet("""
-            font-weight: bold; 
-            font-size: 14px; 
-            color: #FF6B35;
-            padding: 10px;
-            background-color: #FFF8DC;
-            border: 2px solid #FF6B35;
-            border-radius: 5px;
-        """)
-        
-        layout.addWidget(self.current_mode_label)
-        layout.addStretch()
-        
-        return group_box
+        self.status_bar.showMessage("Desconectado - Dashboard con diagnóstico WiFi")
         
     def create_control_panel(self):
-        group_box = QGroupBox("🔌 Control de Conexión OBD-II (CAMBIO FORZADO)")
+        group_box = QGroupBox("🔌 Control de Conexión OBD-II (con Diagnóstico WiFi)")
         layout = QVBoxLayout(group_box)
         
-        # Modo con botón de forzar
+        # Modo
         mode_layout = QHBoxLayout()
         mode_layout.addWidget(QLabel("Modo:"))
         
         self.mode_combo = QComboBox()
         self.mode_combo.addItems(["Emulador", "WiFi ELM327"])
+        self.mode_combo.currentTextChanged.connect(self.on_mode_changed)
         mode_layout.addWidget(self.mode_combo)
-        
-        # Botón FORZAR cambio
-        self.force_mode_btn = QPushButton("🔄 FORZAR CAMBIO")
-        self.force_mode_btn.clicked.connect(self.force_mode_change)
-        self.force_mode_btn.setStyleSheet("""
-            font-weight: bold; 
-            padding: 8px; 
-            background-color: #FF6B35; 
-            color: white; 
-            border: none; 
-            border-radius: 5px;
-        """)
-        mode_layout.addWidget(self.force_mode_btn)
-        
         mode_layout.addStretch()
+        
         layout.addLayout(mode_layout)
         
         # Configuración WiFi
@@ -427,6 +401,11 @@ class OBDDashboard(QMainWindow):
         self.wifi_port_input.setMaximumWidth(80)
         wifi_layout.addWidget(self.wifi_port_input)
         
+        # Botón diagnóstico
+        self.diagnostic_btn = QPushButton("🔍 Diagnóstico WiFi")
+        self.diagnostic_btn.clicked.connect(self.open_wifi_diagnostic)
+        wifi_layout.addWidget(self.diagnostic_btn)
+        
         wifi_layout.addStretch()
         layout.addLayout(wifi_layout)
         
@@ -435,17 +414,15 @@ class OBDDashboard(QMainWindow):
         
         self.connect_btn = QPushButton("🔌 Conectar")
         self.connect_btn.clicked.connect(self.toggle_connection)
-        self.connect_btn.setStyleSheet("font-weight: bold; padding: 10px; font-size: 12px;")
+        self.connect_btn.setStyleSheet("font-weight: bold; padding: 8px;")
         
         self.start_btn = QPushButton("▶️ Iniciar Lectura")
         self.start_btn.clicked.connect(self.start_reading)
         self.start_btn.setEnabled(False)
-        self.start_btn.setStyleSheet("font-weight: bold; padding: 10px; font-size: 12px;")
         
         self.stop_btn = QPushButton("⏹️ Detener")
         self.stop_btn.clicked.connect(self.stop_reading)
         self.stop_btn.setEnabled(False)
-        self.stop_btn.setStyleSheet("font-weight: bold; padding: 10px; font-size: 12px;")
         
         buttons_layout.addWidget(self.connect_btn)
         buttons_layout.addWidget(self.start_btn)
@@ -469,12 +446,12 @@ class OBDDashboard(QMainWindow):
         
         for i, (display_name, pid) in enumerate(pids):
             label = QLabel(f"{display_name}:")
-            label.setStyleSheet("font-weight: bold; font-size: 12px;")
+            label.setStyleSheet("font-weight: bold;")
             
             value_label = QLabel("--")
             value_label.setStyleSheet("""
-                font-weight: bold; font-size: 18px; color: #2E8B57;
-                border: 2px solid #ccc; padding: 10px; background-color: #f0f0f0;
+                font-weight: bold; font-size: 16px; color: #2E8B57;
+                border: 2px solid #ccc; padding: 8px; background-color: #f0f0f0;
                 min-width: 120px; border-radius: 5px;
             """)
             
@@ -488,42 +465,23 @@ class OBDDashboard(QMainWindow):
             
         return group_box
     
-    def force_mode_change(self):
-        """FORZAR cambio de modo inmediatamente"""
-        selected_mode = self.mode_combo.currentText()
+    def open_wifi_diagnostic(self):
+        dialog = WiFiDiagnosticDialog(self)
+        dialog.exec()
         
-        if selected_mode == "Emulador":
-            success = self.data_source.force_set_mode("emulator")
-            if success:
-                self.current_mode_label.setText("🤖 MODO ACTUAL: EMULADOR")
-                self.current_mode_label.setStyleSheet("""
-                    font-weight: bold; font-size: 14px; color: #FF6B35;
-                    padding: 10px; background-color: #FFF8DC;
-                    border: 2px solid #FF6B35; border-radius: 5px;
-                """)
-                
-        elif selected_mode == "WiFi ELM327":
-            ip = self.wifi_ip_input.text()
-            port = int(self.wifi_port_input.text())
-            success = self.data_source.force_set_mode("wifi", ip=ip, port=port)
-            if success:
-                self.current_mode_label.setText(f"📡 MODO ACTUAL: WIFI ({ip}:{port})")
-                self.current_mode_label.setStyleSheet("""
-                    font-weight: bold; font-size: 14px; color: #2E8B57;
-                    padding: 10px; background-color: #F0FFF0;
-                    border: 2px solid #2E8B57; border-radius: 5px;
-                """)
-        
-        print(f"🔄 Modo forzado a: {selected_mode}")
-        
-    def update_mode_display(self, message):
-        """Actualizar display cuando cambia el modo"""
-        print(f"📊 Update mode display: {message}")
+    def on_mode_changed(self, mode):
+        self.status_bar.showMessage(f"Modo {mode} seleccionado")
         
     def toggle_connection(self):
         if not self.data_source.get_connection_status():
-            # Forzar modo antes de conectar
-            self.force_mode_change()
+            mode = self.mode_combo.currentText()
+            
+            if mode == "Emulador":
+                self.data_source.set_connection_mode("emulator")
+            elif mode == "WiFi ELM327":
+                ip = self.wifi_ip_input.text()
+                port = int(self.wifi_port_input.text())
+                self.data_source.set_connection_mode("wifi", ip=ip, port=port)
             
             if self.data_source.connect():
                 self.connect_btn.setText("🔌 Desconectar")
@@ -572,7 +530,7 @@ class OBDDashboard(QMainWindow):
                 self.data_labels[pid].setText(formatted_value)
                 
         timestamp = datetime.now().strftime("%H:%M:%S")
-        self.status_bar.showMessage(f"Última actualización: {timestamp} - Modo funcionando correctamente")
+        self.status_bar.showMessage(f"Última actualización: {timestamp}")
                     
     def update_status(self, status):
         self.status_bar.showMessage(status)
@@ -586,8 +544,8 @@ def main():
     except:
         logging.basicConfig(level=logging.INFO)
     
-    print("🚀 Dashboard OBD-II con CAMBIO DE MODO FORZADO")
-    print("🔄 Usa el botón 'FORZAR CAMBIO' para garantizar el cambio de modo")
+    print("🚀 Dashboard OBD-II con Diagnóstico WiFi Avanzado")
+    print("🔍 Usa 'Diagnóstico WiFi' para encontrar tu ELM327")
     
     dashboard = OBDDashboard()
     dashboard.show()
@@ -596,9 +554,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    # Exportar log automáticamente tras finalizar la app
-    import subprocess
-    try:
-        subprocess.run(["python", "post_run_export.py"], check=True)
-    except Exception as e:
-        print(f"[EXPORT][ERROR] Falló la exportación automática del log: {e}")

@@ -1313,3 +1313,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # Exportar log automáticamente tras finalizar la app
+    import subprocess
+    try:
+        subprocess.run(["python", "post_run_export.py"], check=True)
+    except Exception as e:
+        print(f"[EXPORT][ERROR] Falló la exportación automática del log: {e}")

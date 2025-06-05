@@ -1,0 +1,178 @@
+PRUEBA COMPLETA DE TODOS LOS PIDs SOPORTADOS
+============================================================
+Fecha: 2025-06-05 11:30:31
+Total PIDs probados: 42
+PIDs funcionales: 42
+
+PIDs FUNCIONALES:
+--------------------
+0101: Datos: 00 07 E0 00 41 00 04 00 00
+  Respuesta: SEARCHING...41 01 00 07 E0 00 41 01 00 04 00 00
+  Bytes: 00 07 E0 00 41 00 04 00 00
+
+0103: Datos: 02 02
+  Respuesta: 41 03 02 02
+  Bytes: 02 02
+
+0104: 19.2% (Carga motor)
+  Respuesta: 41 04 31 41 04 31
+  Bytes: 31 41 31
+
+0105: 94°C (Refrigerante)
+  Respuesta: 41 05 86 41 05 84
+  Bytes: 86 41 84
+
+0106: Datos: 7B
+  Respuesta: 41 06 7B
+  Bytes: 7B
+
+0107: Datos: 73
+  Respuesta: 41 07 73
+  Bytes: 73
+
+0108: Datos: 7E
+  Respuesta: 41 08 7E
+  Bytes: 7E
+
+0109: Datos: 7C
+  Respuesta: 41 09 7C
+  Bytes: 7C
+
+010B: 28 kPa (Colector)
+  Respuesta: 41 0B 1C
+  Bytes: 1C
+
+010C: 671.0 RPM
+  Respuesta: 41 0C 0A 7C 41 0C 0A C0
+  Bytes: 0A 7C 41 0A C0
+
+010D: 0 km/h
+  Respuesta: 41 0D 00 41 0D 00
+  Bytes: 00 41 00
+
+010E: Datos: 94
+  Respuesta: 41 0E 94
+  Bytes: 94
+
+010F: 57°C (Admisión)
+  Respuesta: 41 0F 61
+  Bytes: 61
+
+0111: 13.7% (Acelerador)
+  Respuesta: 41 11 23
+  Bytes: 23
+
+0113: Datos: 33
+  Respuesta: 41 13 33
+  Bytes: 33
+
+0114: Datos: A4 7F
+  Respuesta: 41 14 A4 7F
+  Bytes: A4 7F
+
+0115: Datos: 98 FF
+  Respuesta: 41 15 98 FF
+  Bytes: 98 FF
+
+0118: Datos: 2F 7F
+  Respuesta: 41 18 2F 7F
+  Bytes: 2F 7F
+
+0119: Datos: 23 FF
+  Respuesta: 41 19 23 FF
+  Bytes: 23 FF
+
+011C: Datos: 06
+  Respuesta: 41 1C 06
+  Bytes: 06
+
+011F: Datos: 03 03
+  Respuesta: 41 1F 03 03
+  Bytes: 03 03
+
+0120: Datos: 80 07 A0 19 41 80 01 80 01
+  Respuesta: 41 20 80 07 A0 19 41 20 80 01 80 01
+  Bytes: 80 07 A0 19 41 80 01 80 01
+
+0121: Datos: 00 00 41 00 00
+  Respuesta: 41 21 00 00 41 21 00 00
+  Bytes: 00 00 41 00 00
+
+012E: Datos: 4D
+  Respuesta: 41 2E 4D
+  Bytes: 4D
+
+012F: 25.9% (Combustible)
+  Respuesta: 41 2F 42
+  Bytes: 42
+
+0130: Datos: FF 41 FF
+  Respuesta: 41 30 FF 41 30 FF
+  Bytes: FF 41 FF
+
+0131: Datos: 14 F3 41 19 25
+  Respuesta: 41 31 14 F3 41 31 19 25
+  Bytes: 14 F3 41 19 25
+
+0133: Datos: 64
+  Respuesta: 41 33 64
+  Bytes: 64
+
+013C: Datos: 14 50
+  Respuesta: 41 3C 14 50
+  Bytes: 14 50
+
+013D: Datos: 14 50
+  Respuesta: 41 3D 14 50
+  Bytes: 14 50
+
+0140: Datos: FE D0 80 00 41 80 00 00
+  Respuesta: 41 40 FE D0 80 00 41 40 40 80 00 00
+  Bytes: FE D0 80 00 41 80 00 00
+
+0141: Datos: 00 04 E0 E0
+  Respuesta: 41 41 00 04 E0 E0
+  Bytes: 00 04 E0 E0
+
+0142: 13.88V (Módulo)
+  Respuesta: 41 42 36 3A 41 42 35 57
+  Bytes: 36 3A 41 35 57
+
+0143: Datos: 00 25
+  Respuesta: 41 43 00 25
+  Bytes: 00 25
+
+0144: Datos: 80 00
+  Respuesta: 41 44 80 00
+  Bytes: 80 00
+
+0145: Datos: 09
+  Respuesta: 41 45 09
+  Bytes: 09
+
+0146: Datos: 42
+  Respuesta: 41 46 42
+  Bytes: 42
+
+0147: Datos: 23
+  Respuesta: 41 47 23
+  Bytes: 23
+
+0149: Datos: 14 41 14
+  Respuesta: 41 49 14 41 49 14
+  Bytes: 14 41 14
+
+014A: Datos: 0A
+  Respuesta: 41 4A 0A
+  Bytes: 0A
+
+014C: Datos: 09
+  Respuesta: 41 4C 09
+  Bytes: 09
+
+0151: Datos: 01
+  Respuesta: 41 51 01
+  Bytes: 01
+
+PIDs SIN DATOS:
+---------------

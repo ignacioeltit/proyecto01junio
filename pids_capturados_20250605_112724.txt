@@ -1,0 +1,39 @@
+CAPTURA PIDs ELM327
+==============================
+Fecha: 2025-06-05 11:27:24
+
+PIDs FUNCIONALES: ['010C', '010D', '0105', '010F', '0111', '012F', '0142', '0104']
+
+DETALLES:
+010C: RPM del motor
+  Valor: 686.0 RPM
+  Respuesta: 41 0C 0A B8 41 0C 0A B8
+
+010D: Velocidad del vehículo
+  Valor: 0 km/h
+  Respuesta: 41 0D 00 41 0D 00
+
+0105: Temperatura refrigerante
+  Valor: 97°C
+  Respuesta: 41 05 89 41 05 88
+
+010F: Temperatura aire admisión
+  Valor: None
+  Respuesta: 41 0F 5C
+
+0111: Posición acelerador
+  Valor: None
+  Respuesta: 41 11 24
+
+012F: Nivel de combustible
+  Valor: None
+  Respuesta: 41 2F 42
+
+0142: Voltaje módulo control
+  Valor: None
+  Respuesta: 41 42 36 87 41 42 34 AE
+
+0104: Carga calculada del motor
+  Valor: None
+  Respuesta: 41 04 35 41 04 34
+

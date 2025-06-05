@@ -1,0 +1,87 @@
+timestamp,nivel,mensaje,contexto
+[2025-06-02 16:47:49],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:49],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:49],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:49],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:50],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:50],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:50],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:50],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:50],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:50],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:50],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:50],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:50],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:50],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:50],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:50],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:50],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:50],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:50],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:50],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:50],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:50],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:51],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:51],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:51],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:51],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:51],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:51],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:51],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:51],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:51],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:51],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:51],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:51],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:51],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:51],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:51],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:51],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:51],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:51],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:52],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:52],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:52],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:52],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:52],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:52],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:52],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:52],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:52],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:52],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:52],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:52],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:52],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:52],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:52],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:52],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:52],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:53],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:53],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:53],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:53],INFO,Modo emulador conectado,connect
+[2025-06-02 16:47:53],INFO,[DASHBOARD] PIDs seleccionados antes de emular: ['010C', '010D', 'escenario'],read_data
+[2025-06-02 16:47:53],INFO,[TRACE] PIDs solicitados al emulador: ['010C', '010D', 'escenario'],read_data
+[2025-06-02 16:47:53],INFO,[EMULADOR] PIDs recibidos: ['010C', '010D', 'escenario'],emulador
+[2025-06-02 16:47:53],ADVERTENCIA,Advertencia: El PID solicitado '010C' no está soportado en la emulación. Se exportará vacío.,emulador
+[2025-06-02 16:47:53],ADVERTENCIA,Advertencia: El PID solicitado '010D' no está soportado en la emulación. Se exportará vacío.,emulador
+[2025-06-02 16:47:53],INFO,[EMULADOR] Registro generado: {'010C': '', '010D': '', 'escenario': 'ralenti'},emulador
+[2025-06-02 16:47:53],ADVERTENCIA,Conversión fallida:  (invalid literal for int() with base 10: ''),safe_cast
+[2025-06-02 16:47:53],ADVERTENCIA,Conversión fallida:  (invalid literal for int() with base 10: ''),safe_cast
+[2025-06-02 16:47:53],ADVERTENCIA,Conversión fallida:  (invalid literal for int() with base 10: ''),safe_cast
+[2025-06-02 16:47:53],ADVERTENCIA,Conversión fallida:  (invalid literal for int() with base 10: ''),safe_cast
+[2025-06-02 16:47:53],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:53],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:53],INFO,[DASHBOARD] PIDs seleccionados antes de emular: ['010C', '010D', 'escenario'],read_data
+[2025-06-02 16:47:53],INFO,[TRACE] PIDs solicitados al emulador: ['010C', '010D', 'escenario'],read_data
+[2025-06-02 16:47:53],INFO,[EMULADOR] PIDs recibidos: ['010C', '010D', 'escenario'],emulador
+[2025-06-02 16:47:53],ADVERTENCIA,Advertencia: El PID solicitado '010C' no está soportado en la emulación. Se exportará vacío.,emulador
+[2025-06-02 16:47:53],ADVERTENCIA,Advertencia: El PID solicitado '010D' no está soportado en la emulación. Se exportará vacío.,emulador
+[2025-06-02 16:47:53],INFO,[EMULADOR] Registro generado: {'010C': '', '010D': '', 'escenario': 'ralenti'},emulador
+[2025-06-02 16:47:53],ADVERTENCIA,Conversión fallida:  (invalid literal for int() with base 10: ''),safe_cast
+[2025-06-02 16:47:53],ADVERTENCIA,Conversión fallida:  (invalid literal for int() with base 10: ''),safe_cast
+[2025-06-02 16:47:53],ADVERTENCIA,Conversión fallida:  (invalid literal for int() with base 10: ''),safe_cast
+[2025-06-02 16:47:53],ADVERTENCIA,Conversión fallida:  (invalid literal for int() with base 10: ''),safe_cast
+[2025-06-02 16:47:53],ADVERTENCIA,Sin datos de RPM,update_data
+[2025-06-02 16:47:53],ADVERTENCIA,Sin datos de velocidad,update_data
+[2025-06-02 16:47:53],INFO,[DASHBOARD] PIDs seleccionados antes de emular: ['010C', '010D', 'escenario'],read_data
