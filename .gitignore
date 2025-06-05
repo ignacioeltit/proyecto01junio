@@ -17,3 +17,6 @@ __pycache__/
 
 # Archivos de VSCode
 .vscode/
+
+# Archivos de respaldo grandes
+backups/*.zip
