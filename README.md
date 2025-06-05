@@ -1,3 +1,52 @@
+# 🚗 Dashboard OBD-II ELM327 WiFi
+
+## ✅ ESTADO: FUNCIONANDO CORRECTAMENTE
+
+Dashboard en tiempo real para datos OBD-II mediante ELM327 WiFi.
+
+## 🚀 CÓMO EJECUTAR LA APLICACIÓN
+
+```bash
+python dashboard_optimizado_wifi.py
+```
+
+📋 **INSTRUCCIONES DE USO**
+- Conectar ELM327 WiFi al puerto OBD del vehículo
+- Conectar PC a la red WiFi del ELM327 (generalmente WiFi_OBDII)
+- Ejecutar el comando: `python dashboard_optimizado_wifi.py`
+- Seleccionar modo: ELM327 WiFi
+- Clic en Conectar
+- Activar Modo Rápido para datos en tiempo real
+
+📊 **DATOS MOSTRADOS**
+- RPM: Revoluciones por minuto del motor
+- Velocidad: km/h del vehículo
+- Temperatura Motor: °C del refrigerante
+- Carga Motor: % de carga actual
+- Acelerador: % de posición del pedal
+
+🔧 **PROBLEMA RESUELTO**
+- ✅ Conexión ELM327: Funciona correctamente
+- ✅ Lectura PIDs: Métodos parse_response() y read_fast_data() corregidos
+- ✅ Dashboard: Muestra datos reales en tiempo real
+
+📁 **ARCHIVOS PRINCIPALES**
+- dashboard_optimizado_wifi.py: Aplicación principal ⭐
+- dashboard_optimizado_wifi_backup.py: Backup del archivo original
+
+🔄 **HISTORIAL DE CAMBIOS**
+v1.1 - Dashboard Funcional
+- Corregido parsing de respuestas OBD-II
+- Implementado método parse_response() completo
+- Arreglado read_fast_data() para lectura correcta de PIDs
+- Dashboard muestra datos reales en tiempo real
+
+v1.0 - Versión Base
+- Estructura inicial del dashboard
+- Conexión básica ELM327 WiFi
+
+---
+
 # Sistema de Captura y Logging de Datos OBD-II
 
 Proyecto Python para captura, visualización y exportación de datos OBD-II usando ELM327 (USB/WiFi).
