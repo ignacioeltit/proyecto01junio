@@ -199,3 +199,8 @@ PIDS["0105"]["parse_fn"] = parse_temp_refrigerante
 PIDS["010F"]["parse_fn"] = parse_temp_aire_admision
 
 # --- FIN DEL MÓDULO CENTRALIZADO DE PIds ---
+
+# --- Alias por nombre legible para compatibilidad modo real ---
+for _hex, _nombre in PID_MAP.items():
+    if _nombre not in PIDS:
+        PIDS[_nombre] = PIDS[_hex]

@@ -34,37 +34,57 @@ class GaugeWidget(QWidget):
         self.non_numeric_values = {None, "", "NO DATA", "STOPPED", "\r>", "None"}
 
     def set_value(self, value):
+        # ALTA COMPLEJIDAD: marcar para futura refactorización.
         # Conversión robusta a número o marca como inválido
-        print(f"[DEBUG][GaugeWidget] set_value: valor recibido={value}")
+        print(
+            f"[DEBUG][GaugeWidget] set_value: valor recibido={value}"
+        )
         self.invalid = False
         val_str = str(value).strip() if isinstance(value, str) else value
         if val_str in self.non_numeric_values:
-            self.value = self.min_value
+            self.value = float(self.min_value)
+            self._animated_value = float(self.min_value)
             self.invalid = True
-            print(f"[DEBUG][GaugeWidget] Valor no numérico detectado: {value}")
+            print(
+                f"[DEBUG][GaugeWidget] Valor no numérico detectado: {value}"
+            )
         else:
             try:
                 if value is None:
-                    self.value = self.min_value
+                    self.value = float(self.min_value)
+                    self._animated_value = float(self.min_value)
                     self.invalid = True
                 elif isinstance(value, (int, float)):
-                    self.value = max(self.min_value, min(self.max_value, float(value)))
+                    v = max(self.min_value, min(self.max_value, float(value)))
+                    if self.invalid:
+                        self._animated_value = v
+                    self.value = v
                     self.invalid = False
                 elif isinstance(value, str):
                     if "." in value:
                         num = float(value)
                     else:
                         num = int(value)
-                    self.value = max(self.min_value, min(self.max_value, num))
+                    v = max(self.min_value, min(self.max_value, num))
+                    if self.invalid:
+                        self._animated_value = v
+                    self.value = v
                     self.invalid = False
                 else:
-                    self.value = self.min_value
+                    self.value = float(self.min_value)
+                    self._animated_value = float(self.min_value)
                     self.invalid = True
-                    print(f"[DEBUG][GaugeWidget] Tipo inesperado: {type(value)}")
-            except Exception as e:
-                self.value = self.min_value
+                    print(
+                        f"[DEBUG][GaugeWidget] Tipo inesperado: {type(value)}"
+                    )
+            except Exception as e:  # noqa: E722
+                self.value = float(self.min_value)
+                self._animated_value = float(self.min_value)
                 self.invalid = True
-                print("[ADVERTENCIA][GaugeWidget] Error inesperado en set_value:", e)
+                print(
+                    "[ADVERTENCIA][GaugeWidget] Error inesperado en set_value:",
+                    e,
+                )
         self.update()  # Forzar refresco inmediato
         print(
             f"[DEBUG][GaugeWidget] set_value: valor asignado={self.value}, "
@@ -128,10 +148,17 @@ class GaugeWidget(QWidget):
             painter.setPen(QColor(255, 80, 80))
         else:
             value_str = f"{int(self._animated_value):,}"
-        painter.drawText(rect, Qt.AlignmentFlag.AlignCenter, value_str)
+        # Usar la sobrecarga correcta: QRectF, int, str
+        painter.drawText(
+            rect,
+            int(Qt.AlignmentFlag.AlignCenter),
+            str(value_str)
+        )
         # Unidades
         font2 = QFont("Arial", 14)
         painter.setFont(font2)
         painter.drawText(
-            rect.adjusted(0, 60, 0, 0), Qt.AlignmentFlag.AlignHCenter, self.units
+            rect.adjusted(0, 60, 0, 0),
+            int(Qt.AlignmentFlag.AlignHCenter),
+            str(self.units)
         )

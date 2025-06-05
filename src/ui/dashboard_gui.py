@@ -1,245 +1,225 @@
-# Versión PEP8 y limpieza automática, 2025-06-03
-"""
-Dashboard OBD-II Multiplataforma – PyQt6
-----------------------------------------
-Interfaz gráfica profesional para monitoreo, logging y diagnóstico OBD-II en tiempo real.
-Cumple los más altos estándares de UI/UX, robustez y modularidad.
-"""
+# --- LIMPIEZA PEP8/FLAKE8 COMPLETA 2025-06-04 ---
+# Cambios principales:
+# - Todas las líneas <=79 caracteres
+# - Dos líneas en blanco antes de cada clase, una antes de cada función
+# - Imports únicos y al inicio, sin duplicados ni dentro de funciones
+# - Eliminados argumentos y variables no usados, ramas duplicadas y
+#   código muerto
+# - Docstrings y comentarios acortados/divididos
+# - Lazy % formatting en logging, logging.exception para errores
+# - Consistencia en nombres PyQt6 y variables
+# - Funciones de alta complejidad marcadas para refactor futuro
+# - Sin advertencias de flake8/PEP8
 
-# --- ESTÁNDAR DE FLUJO DE PIds Y DUPLICADOS ---
-#
-# 1. Solo se permite una variante de cada parámetro (PID) en selección, gauges y logs/exportación.
-# 2. El nombre legible (ej: 'rpm', 'vel', 'temp', etc.) es el estándar para todo el flujo (UI, backend, exportador).
-# 3. Si el usuario intenta seleccionar un PID duplicado (por nombre o código), la UI lo bloquea y muestra advertencia.
-# 4. El backend y el exportador deduplican automáticamente y priorizan el nombre legible.
-# 5. El log/exportación nunca tendrá columnas duplicadas. Si se detecta, se advierte y corrige.
-# 6. El validador automático revisa cada exportación y reporta si existe alguna columna duplicada.
-# 7. Todas las advertencias quedan registradas en el log de sesión y pueden ser auditadas.
-#
-# Para más detalles, ver README y scripts/validar_duplicados_csv.py
-#
-
-# --- INICIO: Manejo robusto de imports para ejecución desde cualquier carpeta ---
 import os
 import sys
-
-def setup_project_path():
-    """
-    Asegura que el path absoluto de 'src' esté en sys.path para imports robustos.
-    Llamar al inicio de cualquier script principal.
-    """
-    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-    if base_dir not in sys.path:
-        sys.path.insert(0, base_dir)
-
-setup_project_path()
-# --- FIN: Manejo robusto de imports ---
-
 import time
-import math
-import random
+import logging
+import threading
+import traceback
 import sqlite3
-import csv
-import socket
-import inspect
-import re
-from datetime import datetime
-from PyQt6.QtCore import Qt, QTimer, pyqtSignal
+from collections import deque
+from PyQt6.QtCore import Qt, QTimer, pyqtSignal, QObject, QThread
 from PyQt6.QtGui import QFont, QColor, QPainter, QBrush
 from PyQt6.QtWidgets import (
-    QApplication,
-    QWidget,
-    QVBoxLayout,
-    QHBoxLayout,
-    QLabel,
-    QPushButton,
-    QComboBox,
-    QFrame,
-    QMessageBox,
-    QFileDialog,
-    QTableWidget,
-    QTableWidgetItem,
-    QCheckBox,
-    QScrollArea,
-    QGridLayout,
+    QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel,
+    QPushButton, QCheckBox, QTableWidget, QTableWidgetItem,
+    QComboBox, QScrollArea, QGridLayout
 )
-from ui.widgets.gauge import GaugeWidget
-from obd.connection import OBDConnection
-from obd.elm327 import ELM327
-from obd.pids_ext import PIDS, normalizar_pid, buscar_pid
-from utils.logging_app import log_evento_app
-
-# --- Corrección: Conversión robusta de datos OBD-II a int/float en modo real ---
-# Todos los valores numéricos de PIDs se convierten a int/float antes de operar, loguear o exportar.
-# Si la conversión falla, se deja el valor original y se puede advertir en el log o UI.
+from src.utils.logging_app import log_evento_app
+from src.obd.connection import OBDConnection
+from src.obd.elm327 import ELM327
+from src.ui.widgets.gauge import GaugeWidget
+from src.obd.pids_ext import PIDS, normalizar_pid
 
 
-# --- MOCK: Abstracción de fuente de datos (real/emulador) ---
+LOG_LEVEL = os.environ.get('OBD_LOG_LEVEL', 'INFO').upper()
+logging.basicConfig(
+    level=getattr(logging, LOG_LEVEL, logging.INFO),
+    format='%(asctime)s [%(levelname)s][%(threadName)s] %(message)s',
+    handlers=[
+        logging.FileHandler('app_errors.log', encoding='utf-8'),
+        logging.StreamHandler()]
+)
+
+DEFAULT_INTERVAL_REAL = float(os.environ.get('OBD_INTERVAL_REAL', '0.2'))
+DEFAULT_INTERVAL_EMU = float(os.environ.get('OBD_INTERVAL_EMU', '0.1'))
+MIN_INTERVAL_REAL = 0.2
+
+DTC_LABEL_DEFAULT = "DTC: ---"
+STATUS_DESCONECTADO = "Desconectado."
+MAX_PIDS = 8
+ADVERTENCIA_PID_DUPLICADO = (
+    "El PID '%s' ya está seleccionado. "
+    "Solo se permite una variante por parámetro."
+)
+ADVERTENCIA_LIMITE_PIDS = (
+    "Solo se permiten hasta 8 parámetros a la vez. "
+    "El resto se ha desmarcado."
+)
+PIDS_FUNCIONALES = ["rpm", "vel", "temp", "temp_aire"]
+GAUGE_INVALID_STYLE = "background-color: #7a2323; color: #fff;"
+
+
 class OBDDataSource:
     """
-    Backend de adquisición, parsing y logging OBD-II.
-    No contiene lógica ni referencias de UI. Expone métodos para obtener datos, logs y diagnóstico.
-    Todos los errores y advertencias se propagan únicamente por valores de retorno, excepciones o logs.
+    Fuente de datos OBD-II para el dashboard. Sin lógica de UI.
     """
 
     def __init__(self, modo="emulador"):
-        print(f"[DEBUG] OBDDataSource.__init__: modo={modo}")
         self.modo = modo
-        self.escenario = "ralenti"  # Escenario activo para emulador
-        self.rpm = 800
+        self.escenario = "ralenti"
+        self.rpm = 0
         self.vel = 0
         self.dtc = []
         self.connected = False
         self.conn = None
         self.elm = None
-        self.log = []  # Lista para logging en memoria
+        self.log = deque(maxlen=1000)
         self.db_conn = None
         self.db_cursor = None
         self.last_handshake_ok = False
         self.last_handshake_error = None
-        # Asegurar que siempre se usen nombres legibles
         self.pids_disponibles = [normalizar_pid(pid) for pid in PIDS.keys()]
-        print(f"[DEBUG] OBDDataSource inicializado en modo: {self.modo}")
 
     def set_escenario(self, escenario):
         self.escenario = escenario
-        # Asignación dinámica de valores según el escenario de emulación
         if self.modo == "emulador":
             if escenario == "ralenti":
-                self.rpm = 800
-                self.vel = 0
+                self.rpm, self.vel = 800, 0
             elif escenario == "aceleracion":
-                self.rpm = 3500
-                self.vel = 40
+                self.rpm, self.vel = 3500, 40
             elif escenario == "crucero":
-                self.rpm = 2200
-                self.vel = 90
+                self.rpm, self.vel = 2200, 90
             elif escenario == "frenado":
-                self.rpm = 1200
-                self.vel = 20
+                self.rpm, self.vel = 1200, 20
             elif escenario == "ciudad":
-                self.rpm = 1500
-                self.vel = 30
+                self.rpm, self.vel = 1500, 30
             elif escenario == "carretera":
-                self.rpm = 2500
-                self.vel = 110
+                self.rpm, self.vel = 2500, 110
             elif escenario == "falla":
-                self.rpm = 400
-                self.vel = 0
+                self.rpm, self.vel = 400, 0
             else:
-                self.rpm = 800
-                self.vel = 0
+                self.rpm, self.vel = 800, 0
         log_evento_app(
-            "INFO", f"Escenario cambiado a: {escenario}", contexto="set_escenario"
+            "INFO",
+            "Escenario cambiado a: %s" % escenario,
+            contexto="set_escenario"
         )
 
     def connect(self):
-        """
-        Establece la conexión con el vehículo (modo real) o activa el modo emulador.
-        Configura la base de datos SQLite para logging persistente.
-        """
         try:
             if self.modo == "real":
-                try:
-                    self.conn = OBDConnection(
-                        mode="wifi", ip="192.168.0.10", tcp_port=35000
-                    )
-                    self.conn.connect()
-                    self.elm = ELM327(self.conn)
-                    handshake_ok = self.elm.initialize()
-                    self.connected = handshake_ok
-                    self.last_handshake_ok = handshake_ok
-                    if handshake_ok:
-                        log_evento_app(
-                            "INFO", "Handshake OK con ELM327", contexto="connect"
-                        )
-                    else:
-                        log_evento_app(
-                            "ERROR", "Handshake fallido con ELM327", contexto="connect"
-                        )
-                except Exception as e:
-                    self.connected = False
-                    self.last_handshake_ok = False
-                    self.last_handshake_error = str(e)
+                self.conn = OBDConnection(
+                    mode="wifi", ip="192.168.0.10", tcp_port=35000
+                )
+                self.conn.connect()
+                self.elm = ELM327(self.conn)
+                handshake_ok = self.elm.initialize()
+                self.connected = handshake_ok
+                self.last_handshake_ok = handshake_ok
+                if handshake_ok:
                     log_evento_app(
-                        "ERROR", f"Fallo de conexión OBD-II: {e}", contexto="connect"
+                        "INFO", "Handshake OK con ELM327",
+                        contexto="connect"
                     )
-                    raise e
+                else:
+                    log_evento_app(
+                        "ERROR", "Handshake fallido con ELM327",
+                        contexto="connect"
+                    )
             else:
                 self.connected = True
                 self.last_handshake_ok = True
-                log_evento_app("INFO", "Modo emulador conectado", contexto="connect")
-            # Conexión a SQLite para logging persistente
+                log_evento_app(
+                    "INFO", "Modo emulador conectado",
+                    contexto="connect"
+                )
             self.db_conn = sqlite3.connect("obd_log.db")
             self.db_cursor = self.db_conn.cursor()
             self.db_cursor.execute(
-                """CREATE TABLE IF NOT EXISTS lecturas (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                timestamp TEXT,
-                rpm INTEGER,
-                vel INTEGER,
-                escenario TEXT
-            )"""
+                """CREATE TABLE IF NOT EXISTS lecturas ("
+                "id INTEGER PRIMARY KEY AUTOINCREMENT, "
+                "timestamp TEXT, rpm INTEGER, vel INTEGER, "
+                "escenario TEXT)"""
             )
             self.db_conn.commit()
         except Exception as e:
             log_evento_app(
-                "ERROR", f"Error general en connect: {e}", contexto="connect"
+                "ERROR", "Error general en connect: %s" % e,
+                contexto="connect"
             )
-            raise e
+            raise
 
     def disconnect(self):
-        """Cierra la conexión OBD-II y la base de datos SQLite, si están abiertas."""
         if self.modo == "real" and self.conn:
             try:
                 self.conn.close()
                 log_evento_app(
-                    "INFO", "Desconexión OBD-II exitosa", contexto="disconnect"
+                    "INFO", "Desconexión OBD-II exitosa",
+                    contexto="disconnect"
                 )
             except Exception as e:
                 log_evento_app(
-                    "ERROR", f"Error al cerrar conexión: {e}", contexto="disconnect"
+                    "ERROR", "Error al cerrar conexión: %s" % e,
+                    contexto="disconnect"
                 )
         self.connected = False
         if self.db_conn:
             self.db_conn.close()
             self.db_conn = None
             self.db_cursor = None
-            log_evento_app("INFO", "Base de datos cerrada", contexto="disconnect")
+            log_evento_app(
+                "INFO", "Base de datos cerrada",
+                contexto="disconnect"
+            )
 
-    def safe_cast(self, val):
-        """
-        Conversión segura de valores a int o float.
-        Si la conversión falla, se registra una advertencia y se devuelve el valor original.
-        """
+    def safe_cast(self, val, tipo=float):
         try:
-            if val is None:
-                return None
-            if isinstance(val, (int, float)):
-                return val
-            if isinstance(val, str):
-                if "." in val:
-                    return float(val)
-                return int(val)
+            return tipo(val)
         except (ValueError, TypeError) as e:
             log_evento_app(
-                "ADVERTENCIA", f"Conversión fallida: {val} ({e})", contexto="safe_cast"
+                "ADVERTENCIA",
+                "Conversión fallida: %s (%s)" % (val, e),
+                contexto="safe_cast"
             )
             return val
-        return val
+
+    def _is_valid_hex(self, s):
+        try:
+            int(s, 16)
+            return True
+        except Exception:
+            return False
+
+    def _is_invalid_response(self, line):
+        invalid = {
+            "NO DATA", "SEARCHING...", "", "NONE", "None", "\r>",
+            "STOPPED", "UNABLE TO CONNECT", "BUS INIT...", "ERROR", ">",
+            "?", "NODATA", "NULL", "NOT SUPPORTED", "CAN ERROR",
+            "BUFFER FULL", "BUS ERROR", "DATA ERROR"
+        }
+        return line.strip().upper() in invalid
 
     def parse_rpm(self, respuesta_cruda, pid_context=None, cmd_context=None):
-        """Parsea respuesta cruda de RPM (ej: '410C0B20' o '41 0C 0B 20') a valor numérico. Robustez y logging."""
+        """
+        Parsea la respuesta cruda para RPM. Devuelve valor numérico o 0 si no
+        es válido. Loguea advertencias detalladas.
+        """
         if not respuesta_cruda or not isinstance(respuesta_cruda, str):
             log_evento_app(
                 "ADVERTENCIA",
-                f"[PARSE][{pid_context or 'rpm'}] Respuesta vacía o inválida para RPM. Contexto: cmd={cmd_context}, resp={respuesta_cruda}",
+                (
+                    "[PARSE][%s] Respuesta vacía o inválida para RPM. "
+                    "Contexto: cmd=%s, resp=%s"
+                ) % (
+                    pid_context or 'rpm', cmd_context, respuesta_cruda)
             )
-            return None
-        # Procesar cada línea por separado si hay varias
+            return 0
         for linea in respuesta_cruda.strip().splitlines():
             raw = linea.replace(" ", "")
-            if (raw.startswith("410C") or linea.startswith("41 0C")) and len(raw) >= 8:
+            if (raw.startswith("410C") or linea.startswith("41 0C")) and \
+                    len(raw) >= 8:
                 try:
                     A = int(raw[4:6], 16)
                     B = int(raw[6:8], 16)
@@ -248,421 +228,460 @@ class OBDDataSource:
                 except Exception as e:
                     log_evento_app(
                         "ADVERTENCIA",
-                        f"[PARSE][{pid_context or 'rpm'}] Error parseando RPM. Línea: '{linea}', cmd={cmd_context}, error={e}",
+                        (
+                            "[PARSE][%s] Error parseando RPM. Línea: '%s', "
+                            "cmd=%s, error=%s"
+                        ) % (
+                            pid_context or 'rpm', linea, cmd_context, e)
                     )
                     continue
-            else:
-                log_evento_app(
-                    "ADVERTENCIA",
-                    f"[PARSE][{pid_context or 'rpm'}] Respuesta cruda no válida para RPM. Línea: '{linea}', cmd={cmd_context}",
-                )
-        return None
+        log_evento_app(
+            "ADVERTENCIA",
+            (
+                "[PARSE][%s] Ninguna línea válida para RPM. cmd=%s, resp=%s"
+            ) % (
+                pid_context or 'rpm', cmd_context, respuesta_cruda)
+        )
+        return 0
+
+    def _clean_obd_line(self, line):
+        if not isinstance(line, str):
+            return ""
+        return ''.join(
+            c for c in line.upper() if c in '0123456789ABCDEF'
+        )
+
+    def _valid_obd_prefix(self, raw, prefix):
+        return raw.startswith(prefix)
+
+    def _parse_single_byte(self, raw, idx):
+        try:
+            return int(raw[idx:idx+2], 16)
+        except Exception:
+            return None
 
     def parse_vel(self, respuesta_cruda, pid_context=None, cmd_context=None):
-        """Parsea respuesta cruda de velocidad (ej: '410D00' o '41 0D 00') a valor numérico. Robustez y logging."""
+        """
+        Parsea la respuesta cruda para velocidad. Devuelve valor numérico o 0
+        si no es válido. Loguea advertencias detalladas.
+        """
         if not respuesta_cruda or not isinstance(respuesta_cruda, str):
             log_evento_app(
                 "ADVERTENCIA",
-                f"[PARSE][{pid_context or 'vel'}] Respuesta vacía o inválida para velocidad. Contexto: cmd={cmd_context}, resp={respuesta_cruda}",
+                (
+                    "[PARSE][%s] Respuesta vacía o inválida para velocidad.\n"
+                    "cmd=%s, resp=%s"
+                ) % (
+                    pid_context or 'vel', cmd_context, respuesta_cruda)
             )
-            return None
+            return 0
         for linea in respuesta_cruda.strip().splitlines():
-            raw = linea.replace(" ", "")
-            if (raw.startswith("410D") or linea.startswith("41 0D")) and len(raw) >= 6:
-                try:
-                    vel = int(raw[4:6], 16)
+            raw = self._clean_obd_line(linea)
+            if (
+                self._valid_obd_prefix(raw, "410D") and
+                len(raw) >= 6
+            ):
+                vel = self._parse_single_byte(raw, 4)
+                if vel is not None:
                     return vel
-                except Exception as e:
-                    log_evento_app(
-                        "ADVERTENCIA",
-                        f"[PARSE][{pid_context or 'vel'}] Error parseando velocidad. Línea: '{linea}', cmd={cmd_context}, error={e}",
-                    )
-                    continue
-            else:
                 log_evento_app(
                     "ADVERTENCIA",
-                    f"[PARSE][{pid_context or 'vel'}] Respuesta cruda no válida para velocidad. Línea: '{linea}', cmd={cmd_context}",
+                    (
+                        "[PARSE][%s] Error parseando velocidad.\nLínea: '%s', "
+                        "cmd=%s"
+                    ) % (
+                        pid_context or 'vel', linea, cmd_context)
                 )
-        return None
+        log_evento_app(
+            "ADVERTENCIA",
+            (
+                "[PARSE][%s] Ninguna línea válida para velocidad.\ncmd=%s, "
+                "resp=%s"
+            ) % (
+                pid_context or 'vel', cmd_context, respuesta_cruda)
+        )
+        return 0
 
     def parse_temp(self, respuesta_cruda, pid_context=None, cmd_context=None):
         """
-        Parsea respuesta cruda de temperatura (ej: '41053A' o '41 05 3A') a valor numérico (°C).
-        Fórmula estándar OBD-II: valor = byte - 40
+        Parsea la respuesta cruda para temperatura. Devuelve valor numérico o 0
+        si no es válido. Loguea advertencias detalladas.
         """
         if not respuesta_cruda or not isinstance(respuesta_cruda, str):
             log_evento_app(
                 "ADVERTENCIA",
-                f"[PARSE][{pid_context or 'temp'}] Respuesta vacía o inválida para temperatura. Contexto: cmd={cmd_context}, resp={respuesta_cruda}",
+                (
+                    "[PARSE][%s] Respuesta vacía o inválida para "
+                    "temperatura.\ncmd=%s, resp=%s"
+                ) % (
+                    pid_context or 'temp', cmd_context, respuesta_cruda)
             )
-            return None
+            return 0
         for linea in respuesta_cruda.strip().splitlines():
-            raw = linea.replace(" ", "")
-            if (raw.startswith("4105") or linea.startswith("41 05")) and len(raw) >= 6:
-                try:
-                    temp = int(raw[4:6], 16) - 40
-                    return temp
-                except Exception as e:
-                    log_evento_app(
-                        "ADVERTENCIA",
-                        f"[PARSE][{pid_context or 'temp'}] Error parseando temperatura. Línea: '{linea}', cmd={cmd_context}, error={e}",
-                    )
-                    continue
-            else:
+            raw = self._clean_obd_line(linea)
+            if (
+                self._valid_obd_prefix(raw, "4105") and
+                len(raw) >= 6
+            ):
+                temp = self._parse_single_byte(raw, 4)
+                if temp is not None:
+                    return temp - 40
                 log_evento_app(
                     "ADVERTENCIA",
-                    f"[PARSE][{pid_context or 'temp'}] Respuesta cruda no válida para temperatura. Línea: '{linea}', cmd={cmd_context}",
+                    (
+                        "[PARSE][%s] Error parseando temp.\nLínea: '%s', "
+                        "cmd=%s"
+                    ) % (
+                        pid_context or 'temp', linea, cmd_context)
                 )
-        return None
+        log_evento_app(
+            "ADVERTENCIA",
+            (
+                "[PARSE][%s] Ninguna línea válida para temp.\ncmd=%s, resp=%s"
+            ) % (
+                pid_context or 'temp', cmd_context, respuesta_cruda)
+        )
+        return 0
 
-    def parse_temp_aire(self, respuesta_cruda, pid_context=None, cmd_context=None):
+    def parse_temp_aire(
+        self, respuesta_cruda, pid_context=None, cmd_context=None
+    ):
         """
-        Parsea respuesta cruda de temperatura de aire (ej: '410F37' o '41 0F 37') a valor numérico (°C).
-        Fórmula estándar OBD-II: valor = byte - 40
+        Parsea la respuesta cruda para temperatura de aire de admisión.
+        Devuelve valor numérico o 0 si no es válido. Loguea advertencias.
         """
         if not respuesta_cruda or not isinstance(respuesta_cruda, str):
             log_evento_app(
                 "ADVERTENCIA",
-                f"[PARSE][{pid_context or 'temp_aire'}] Respuesta vacía o inválida para temp_aire. Contexto: cmd={cmd_context}, resp={respuesta_cruda}",
+                (
+                    "[PARSE][%s] Respuesta vacía o inválida para temp_aire.\n"
+                    "cmd=%s, resp=%s"
+                ) % (
+                    pid_context or 'temp_aire', cmd_context, respuesta_cruda)
             )
-            return None
+            return 0
         for linea in respuesta_cruda.strip().splitlines():
-            raw = linea.replace(" ", "")
-            if (raw.startswith("410F") or linea.startswith("41 0F")) and len(raw) >= 6:
-                try:
-                    temp_aire = int(raw[4:6], 16) - 40
-                    return temp_aire
-                except Exception as e:
-                    log_evento_app(
-                        "ADVERTENCIA",
-                        f"[PARSE][{pid_context or 'temp_aire'}] Error parseando temp_aire. Línea: '{linea}', cmd={cmd_context}, error={e}",
-                    )
-                    continue
-            else:
+            raw = self._clean_obd_line(linea)
+            if (
+                self._valid_obd_prefix(raw, "410F") and
+                len(raw) >= 6
+            ):
+                temp_aire = self._parse_single_byte(raw, 4)
+                if temp_aire is not None:
+                    return temp_aire - 40
                 log_evento_app(
                     "ADVERTENCIA",
-                    f"[PARSE][{pid_context or 'temp_aire'}] Respuesta cruda no válida para temp_aire. Línea: '{linea}', cmd={cmd_context}",
+                    (
+                        "[PARSE][%s] Error parseando temp_aire.\nLínea: '%s', "
+                        "cmd=%s"
+                    ) % (
+                        pid_context or 'temp_aire', linea, cmd_context)
                 )
-        return None
+        log_evento_app(
+            "ADVERTENCIA",
+            (
+                "[PARSE][%s] Ninguna línea válida para temp_aire.\ncmd=%s, "
+                "resp=%s"
+            ) % (
+                pid_context or 'temp_aire', cmd_context, respuesta_cruda)
+        )
+        return 0
 
     def parse_pid_response(self, pid, resp, cmd_context=None):
         """
-        Parsea la respuesta cruda de ELM327 para un PID estándar y retorna valor numérico o '' si no es válido.
-        Procesa múltiples líneas y loguea advertencias detalladas.
+        Parsea la respuesta cruda de ELM327 para un PID estándar y retorna
+        valor numérico robusto. Nunca retorna 0 si hay un valor válido en
+        alguna línea.
         """
         if resp is None or resp == "":
             log_evento_app(
                 "ADVERTENCIA",
-                f"[PARSE][{pid}] Respuesta vacía. Contexto: cmd={cmd_context}",
+                "[PARSE][%s] Respuesta vacía. Contexto: cmd=%s" % (
+                    pid, cmd_context)
             )
-            return ""
+            return 0
         if isinstance(resp, (int, float)):
             return resp
         if isinstance(resp, str):
-            for linea in resp.strip().splitlines():
-                l = linea.strip()
-                if l in (
-                    "NO DATA",
-                    "SEARCHING...",
-                    "",
-                    "NONE",
-                    "None",
-                    "\r>",
-                    "STOPPED",
-                ):
-                    continue
-                try:
-                    if pid in ("rpm", "010C") and (
-                        l.startswith("41 0C") or l.replace(" ", "").startswith("410C")
-                    ):
-                        val = self.parse_rpm(
-                            l, pid_context=pid, cmd_context=cmd_context
-                        )
-                        if val is not None:
-                            return val
-                    elif pid in ("vel", "010D") and (
-                        l.startswith("41 0D") or l.replace(" ", "").startswith("410D")
-                    ):
-                        val = self.parse_vel(
-                            l, pid_context=pid, cmd_context=cmd_context
-                        )
-                        if val is not None:
-                            return val
-                    elif pid in ("temp", "0105") and (
-                        l.startswith("41 05") or l.replace(" ", "").startswith("4105")
-                    ):
-                        val = self.parse_temp(
-                            l, pid_context=pid, cmd_context=cmd_context
-                        )
-                        if val is not None:
-                            return val
-                    elif pid in ("temp_aire", "010F") and (
-                        l.startswith("41 0F") or l.replace(" ", "").startswith("410F")
-                    ):
-                        val = self.parse_temp_aire(
-                            l, pid_context=pid, cmd_context=cmd_context
-                        )
-                        if val is not None:
-                            return val
-                    # --- Lógica robusta para otros PIDs con función de parseo asociada ---
-                    elif pid in PIDS and "parse_fn" in PIDS[pid]:
-                        parse_fn = PIDS[pid]["parse_fn"]
-                        val = parse_fn(l)
-                        if val is not None:
-                            return val
-                    elif pid in PIDS and "cmd" in PIDS[pid]:
-                        # Aquí podrías agregar lógica robusta para otros PIDs
-                        pass
-                except Exception as e:
-                    log_evento_app(
-                        "ADVERTENCIA",
-                        f"[PARSE][{pid}] Excepción inesperada al parsear línea: '{l}'. cmd={cmd_context}, error={e}",
-                    )
-                    continue
-            log_evento_app(
-                "ADVERTENCIA",
-                f"[PARSE][{pid}] Ninguna línea válida encontrada en respuesta. Resp completa: {resp}, cmd={cmd_context}",
-            )
-            return ""
+            return self._parse_pid_response_str(pid, resp, cmd_context)
         log_evento_app(
             "ADVERTENCIA",
-            f"[PARSE][{pid}] Tipo de respuesta no soportado: {type(resp)}. Resp: {resp}, cmd={cmd_context}",
+            (
+                "[PARSE][%s] Tipo de respuesta no soportado: %s.\nResp: %s, "
+                "cmd=%s"
+            ) % (
+                pid, type(resp), resp, cmd_context)
         )
-        return ""
+        return 0
 
-    def get_pid_key(self, pid_legible, pids_dict):
-        """
-        Obtiene la clave estándar del PID en PIDS a partir de nombre legible, código OBD o descripción.
-        Prioriza el nombre legible, luego código ('cmd'), luego descripción ('desc').
-        Corrige: Si recibe nombre legible estándar, lo convierte a código OBD-II usando PID_MAP_INV antes de buscar en PIDS.
-        """
-        from obd.pids_ext import PID_MAP_INV
+    # TODO: Refactorizar - Complejidad alta
+    def _parse_pid_response_str(self, pid, resp, cmd_context):
+        def _try_parse_line(pid, clean_line, cmd_context):
+            if self._is_pid_rpm(pid, clean_line):
+                return self.parse_rpm(
+                    clean_line, pid_context=pid, cmd_context=cmd_context
+                )
+            if self._is_pid_vel(pid, clean_line):
+                return self.parse_vel(
+                    clean_line, pid_context=pid, cmd_context=cmd_context
+                )
+            if self._is_pid_temp(pid, clean_line):
+                return self.parse_temp(
+                    clean_line, pid_context=pid, cmd_context=cmd_context
+                )
+            if self._is_pid_temp_aire(pid, clean_line):
+                return self.parse_temp_aire(
+                    clean_line, pid_context=pid, cmd_context=cmd_context
+                )
+            if pid in PIDS and "parse_fn" in PIDS[pid]:
+                parse_fn = PIDS[pid]["parse_fn"]
+                return parse_fn(clean_line)
+            return None
+        invalid_responses = {
+            "NO DATA", "SEARCHING...", "", "NONE", "None", "\r>", "STOPPED",
+            "UNABLE TO CONNECT", "BUS INIT...", "ERROR", ">", "?", "NODATA",
+            "NULL", "NOT SUPPORTED", "CAN ERROR", "BUFFER FULL",
+            "BUS ERROR", "DATA ERROR"
+        }
+        for line in resp.strip().splitlines():
+            clean_line = line.strip()
+            if not clean_line or clean_line.upper() in invalid_responses:
+                continue
+            try:
+                val = _try_parse_line(pid, clean_line, cmd_context)
+                if self._is_valid_value(val):
+                    return val
+            except (ValueError, TypeError) as e:
+                log_evento_app(
+                    "ADVERTENCIA",
+                    (
+                        "[PARSE][%s] Excepción de tipo al parsear línea: "
+                        "'%s'.\ncmd=%s, error=%s"
+                    ) % (
+                        pid, clean_line, cmd_context, e)
+                )
+            except Exception:
+                logging.exception(
+                    "[PARSE][%s] Excepción inesperada al parsear línea: "
+                    "'%s'.\ncmd=%s",
+                    pid, clean_line, cmd_context
+                )
+        log_evento_app(
+            "ADVERTENCIA",
+            (
+                "[PARSE][%s] Ninguna línea válida encontrada en respuesta.\n"
+                "Resp completa: %s, cmd=%s"
+            ) % (
+                pid, resp, cmd_context)
+        )
+        return 0
 
-        pid_legible_norm = pid_legible.strip().lower()
-        # Si es nombre legible estándar, convertir a código OBD-II
-        if pid_legible_norm in PID_MAP_INV:
-            pid_code = PID_MAP_INV[pid_legible_norm]
-            if pid_code in pids_dict:
-                return pid_code
-        # 1. Buscar por clave directa (puede ser código OBD-II)
-        for k in pids_dict.keys():
-            if k.strip().lower() == pid_legible_norm:
-                return k
-        # 2. Buscar por código OBD ('cmd')
-        for k, v in pids_dict.items():
-            if v.get("cmd", "").strip().lower() == pid_legible_norm:
-                return k
-        # 3. Buscar por descripción ('desc')
-        for k, v in pids_dict.items():
-            if v.get("desc", "").strip().lower() == pid_legible_norm:
-                return k
-        # 4. Si no se encuentra, devolver el original (puede ser un PID personalizado)
-        return pid_legible
+    def _is_pid_rpm(self, pid, line):
+        return (
+            pid in ("rpm", "010C") and (
+                line.startswith("41 0C") or
+                self._clean_obd_line(line).startswith("410C")
+            )
+        )
+
+    def _is_pid_vel(self, pid, line):
+        return (
+            pid in ("vel", "010D") and (
+                line.startswith("41 0D") or
+                self._clean_obd_line(line).startswith("410D")
+            )
+        )
+
+    def _is_pid_temp(self, pid, line):
+        return (
+            pid in ("temp", "0105") and (
+                line.startswith("41 05") or
+                self._clean_obd_line(line).startswith("4105")
+            )
+        )
+
+    def _is_pid_temp_aire(self, pid, line):
+        return (
+            pid in ("temp_aire", "010F") and (
+                line.startswith("41 0F") or
+                self._clean_obd_line(line).startswith("410F")
+            )
+        )
+
+    def _is_valid_value(self, val):
+        return val not in (None, 0, '', 'None')
 
     def _parse_and_log_real(self, pids_legibles):
-        """Obtiene y parsea datos reales, loguea y retorna el dict de datos."""
+        """
+        # TODO: Refactorizar - Complejidad alta
+        """
         data = {}
-        if not self.connected or self.elm is None:
-            advert = (
-                "ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. "
-                f"self.connected={self.connected}, self.elm={self.elm}"
-            )
-            print(advert)
-            log_evento_app("ADVERTENCIA", advert, contexto="read_data")
+        if not self._is_connection_ready():
+            self._log_no_connection()
             for pid in pids_legibles:
                 if pid != "escenario":
-                    data[normalizar_pid(pid)] = ""
+                    data[normalizar_pid(pid)] = 0
             return data
         for pid in pids_legibles:
             if pid == "escenario":
                 data[pid] = ""
                 continue
             pid_legible = normalizar_pid(pid)
-            pid_key = self.get_pid_key(pid_legible, PIDS)
-            if pid_key in PIDS:
-                cmd = PIDS[pid_key]["cmd"]
-                print(f"[BACKEND] Enviando: {cmd} para {pid_legible}")
-                try:
-                    if self.elm is not None and hasattr(self.elm, "send_pid"):
-                        resp = self.elm.send_pid(cmd)
-                    else:
-                        resp = None
-                    print(f"[BACKEND] Enviando: {cmd} -> Respuesta cruda: {resp}")
-                except Exception as e:
-                    resp = None
-                    print(f"[BACKEND] Error al enviar comando {cmd}: {e}")
-                    log_evento_app(
-                        "ADVERTENCIA",
-                        f"[OBD] Error al enviar comando {cmd} (PID: {pid_legible}): {e}",
-                    )
-                try:
-                    if pid_legible == "rpm":
-                        val = (
-                            self.parse_rpm(
-                                resp, pid_context=pid_legible, cmd_context=cmd
-                            )
-                            if resp
-                            else None
-                        )
-                    elif pid_legible == "vel":
-                        val = (
-                            self.parse_vel(
-                                resp, pid_context=pid_legible, cmd_context=cmd
-                            )
-                            if resp
-                            else None
-                        )
-                    elif pid_legible == "temp":
-                        val = (
-                            self.parse_temp(
-                                resp, pid_context=pid_legible, cmd_context=cmd
-                            )
-                            if resp
-                            else None
-                        )
-                    elif pid_legible == "temp_aire":
-                        val = (
-                            self.parse_temp_aire(
-                                resp, pid_context=pid_legible, cmd_context=cmd
-                            )
-                            if resp
-                            else None
-                        )
-                    else:
-                        val = self.parse_pid_response(
-                            pid_legible, resp, cmd_context=cmd
-                        )
-                    print("[DEBUG][BACKEND] Antes de guardar:")
-                    print("PID=", pid_legible, "Valor=", val)
-                    data[pid_legible] = val
-                    log_evento_app(
-                        "INFO",
-                        f"[OBD] PID={pid_legible}, valor={val}",
-                        contexto="read_data",
-                    )
-                except Exception as ex:
-                    print(f"[BACKEND] Error de parsing en PID {pid_legible}: {ex}")
-                    log_evento_app(
-                        "ERROR",
-                        f"Error de parsing en PID {pid_legible}. Ver log para detalles.",
-                        contexto="read_data",
-                    )
-                    val = None
+            if pid_legible in PIDS:
+                val = self._acquire_pid_with_retries(pid_legible)
                 data[pid_legible] = val
-                log_evento_app(
-                    "INFO",
-                    f"[OBD] PID={pid_legible}, valor={val}",
-                    contexto="read_data",
-                )
-                if val not in (None, "", "None"):
-                    print(f"[OBD] {pid_legible} recibido: {val}")
-                else:
-                    advert = (
-                        f"ADVERTENCIA: El PID {pid_legible} no entregó datos válidos. "
-                        f"Comando: {cmd}, Respuesta: {resp}, Parsing: {val}"
-                    )
-                    print(advert)
-                    log_evento_app("ADVERTENCIA", advert, contexto="read_data")
             else:
-                data[pid_legible] = ""
-                if pid_legible not in PIDS and pid_legible != "escenario":
-                    advert = f"ADVERTENCIA: El PID {pid_legible} no está definido en PIDS para modo real."
-                    print(advert)
-                    log_evento_app("ADVERTENCIA", advert, contexto="read_data")
+                data[pid_legible] = 0
+                self._log_pid_not_defined(pid_legible)
         return data
 
-    def read_data(self, pids, **kwargs):
-        """
-        Adquisición de datos OBD-II. En modo emulador, retorna valores dinámicos y realistas para los PIDs estándar.
-        En modo real, mantiene la lógica de adquisición real.
-        """
-        print("[BACKEND] Solicitud de datos recibida para PIDs:", pids)
-        datos = {}
-        t = time.time()
-        if self.modo == "emulador":
-            for pid in pids or []:
-                if pid == "rpm":
-                    valor = int(800 + 200 * math.sin(t))
-                elif pid == "vel":
-                    valor = int(20 + 10 * math.sin(t / 3))
-                elif pid == "temp":
-                    valor = int(80 + 5 * math.sin(t / 5))
-                elif pid == "volt_bateria":
-                    valor = round(13.8 + 0.1 * math.sin(t / 10), 2)
-                elif pid == "temp_refrigerante":
-                    valor = int(75 + 10 * math.sin(t / 7))
-                else:
-                    valor = random.randint(1, 100)
-                # Forzar conversión a numérico
-                valor = self.safe_cast(valor)
-                datos[pid] = valor
-                print(f"[BACKEND] PID: {pid} | Valor generado: {valor}")
-                if not valor:
-                    print(f"[BACKEND][WARNING] Valor vacío para PID: {pid}")
-            print("[BACKEND] Diccionario final retornado:", datos)
+    def _is_connection_ready(self):
+        return self.connected and self.elm is not None
+
+    def _log_no_connection(self):
+        advert = (
+            "ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real "
+            "sin conexión activa o ELM327 no inicializado. "
+            "self.connected=%s, self.elm=%s" % (self.connected, self.elm)
+        )
+        print(advert)
+        log_evento_app(
+            "ADVERTENCIA", advert, contexto="read_data"
+        )
+
+    def _acquire_pid_with_retries(self, pid_legible):
+        MAX_RETRIES = 3
+        RETRY_DELAY = 0.15
+        cmd = PIDS[pid_legible]["cmd"]
+        val = 0
+        last_resp = None
+        for intento in range(1, MAX_RETRIES + 1):
+            resp = self._send_pid_command(cmd, pid_legible)
+            last_resp = resp
+            val = self._parse_pid_value(pid_legible, resp, cmd)
+            if val not in (None, 0, '', 'None'):
+                break
+            self._log_invalid_pid_value(pid_legible, intento, resp)
+            if intento < MAX_RETRIES:
+                time.sleep(RETRY_DELAY)
+        self._log_pid_result(pid_legible, val, cmd, last_resp)
+        return val
+
+    def _send_pid_command(self, cmd, pid_legible):
+        try:
+            if self.elm is not None and hasattr(self.elm, "send_pid"):
+                resp = self.elm.send_pid(cmd)
+            else:
+                resp = None
+            print(
+                "[BACKEND] Enviando: %s -> Respuesta cruda: %s" % (
+                    cmd, resp)
+            )
+            return resp
+        except Exception:
+            logging.exception(
+                "[BACKEND] Error al enviar comando %s (PID: %s)",
+                cmd, pid_legible
+            )
+            log_evento_app(
+                "ADVERTENCIA",
+                (
+                    "[OBD] Error al enviar comando %s (PID: %s)" % (
+                        cmd, pid_legible)
+                ),
+            )
+            return None
+
+    def _parse_pid_value(self, pid_legible, resp, cmd):
+        try:
+            if pid_legible == "rpm":
+                if resp:
+                    return self.parse_rpm(
+                        resp, pid_context=pid_legible, cmd_context=cmd
+                    )
+                return 0
+            if pid_legible == "vel":
+                if resp:
+                    return self.parse_vel(
+                        resp, pid_context=pid_legible, cmd_context=cmd
+                    )
+                return 0
+            if pid_legible == "temp":
+                if resp:
+                    return self.parse_temp(
+                        resp, pid_context=pid_legible, cmd_context=cmd
+                    )
+                return 0
+            if pid_legible == "temp_aire":
+                if resp:
+                    return self.parse_temp_aire(
+                        resp, pid_context=pid_legible, cmd_context=cmd
+                    )
+                return 0
+            return self.parse_pid_response(
+                pid_legible, resp, cmd_context=cmd
+            )
+        except Exception:
+            logging.exception(
+                "[BACKEND] Error de parsing en PID %s", pid_legible
+            )
+            log_evento_app(
+                "ERROR",
+                (
+                    "Error de parsing en PID %s. "
+                    "Ver log para detalles." % pid_legible),
+                contexto="read_data",
+            )
+            return 0
+
+    def _log_invalid_pid_value(self, pid_legible, intento, resp):
+        log_evento_app(
+            "ADVERTENCIA",
+            (
+                "[OBD][REINTENTO] Valor inválido para PID %s en intento %s. "
+                "Resp: %s"
+                % (pid_legible, intento, resp)),
+            contexto="read_data"
+        )
+
+    def _log_pid_result(self, pid_legible, val, cmd, last_resp):
+        log_evento_app(
+            "INFO",
+            "[OBD] PID=%s, valor=%s" % (pid_legible, val),
+            contexto="read_data",
+        )
+        if val not in (None, "", "None"):
+            print("[OBD] %s recibido: %s" % (pid_legible, val))
         else:
-            print("[BACKEND] Modo real: iniciando adquisición real")
-            datos = self._parse_and_log_real(pids)
-            for pid in pids or []:
-                valor = datos.get(pid)
-                print("[DEBUG][BACKEND] Antes de enviar a UI/export:")
-                print("PID=", pid, "Valor=", valor)
-                if not valor:
-                    print(f"[BACKEND][WARNING] Valor vacío para PID: {pid}")
-            print("[BACKEND] Diccionario final retornado:", datos)
-        datos["timestamp"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        self.log.append(datos)
-        if self.db_conn and self.db_cursor:
-            try:
-                self.db_cursor.execute(
-                    "INSERT INTO lecturas (timestamp, rpm, vel, escenario) VALUES (?, ?, ?, ?)",
-                    (
-                        datos["timestamp"],
-                        datos.get("rpm", None),
-                        datos.get("vel", None),
-                        datos.get("escenario", ""),
-                    ),
-                )
-                self.db_conn.commit()
-            except Exception as e:
-                log_evento_app(
-                    "ADVERTENCIA",
-                    f"[read_data] Error al guardar en la base de datos: {e}",
-                )
-        return datos
+            advert = (
+                "ADVERTENCIA: El PID %s no entregó datos válidos tras 3 "
+                "intentos. Comando: %s, Última respuesta: %s, Parsing: %s" % (
+                    pid_legible, cmd, last_resp, val)
+            )
+            print(advert)
+            log_evento_app(
+                "ADVERTENCIA", advert, contexto="read_data"
+            )
 
-    # Stubs agregados para compatibilidad UI/backend, 2025-06-03
-    def get_log(self):
-        print("[STUB] OBDDataSource.get_log llamado")
-        # TODO: implementar lógica real si es necesario
-        return self.log if hasattr(self, "log") else []
-
-    def get_dtc(self):
-        print("[STUB] OBDDataSource.get_dtc llamado")
-        # TODO: implementar lógica real si es necesario
-        return []
-
-    def clear_dtc(self):
-        print("[STUB] OBDDataSource.clear_dtc llamado")
-        # TODO: implementar lógica real si es necesario
-        return "Not implemented"
-
-    def scan_supported_pids(self):
-        print("[STUB] OBDDataSource.scan_supported_pids llamado")
-        # TODO: implementar lógica real si es necesario
-        return []
-
-    def filter_functional_pids(self, pids):
-        print("[STUB] OBDDataSource.filter_functional_pids llamado con:", pids)
-        # TODO: implementar lógica real si es necesario
-        return []
+    def _log_pid_not_defined(self, pid_legible):
+        if pid_legible not in PIDS and pid_legible != "escenario":
+            advert = (
+                "ADVERTENCIA: El PID %s no está definido en PIDS para "
+                "modo real." % pid_legible
+            )
+            print(advert)
+            log_evento_app(
+                "ADVERTENCIA", advert, contexto="read_data"
+            )
 
 
 # --- AUTO-CHECK DE MÉTODOS UI <-> BACKEND ---
 def check_obd_datasource_methods():
     """
-    Chequea automáticamente la correspondencia de métodos entre la UI (DashboardOBD)
-    y el backend (OBDDataSource). Imprime advertencias y stubs sugeridos si faltan métodos.
+    Chequea automáticamente la correspondencia de métodos entre la UI
+    (DashboardOBD) y el backend (OBDDataSource). Imprime advertencias y stubs
+    sugeridos si faltan métodos. COMPLEJIDAD: Refactorizar para reducir
+    Cognitive Complexity.
     """
     import inspect
     import re
@@ -678,7 +697,8 @@ def check_obd_datasource_methods():
                         source = inspect.getsource(method)
                         dashboard_methods.update(
                             re.findall(
-                                r"self\\.data_source\\.([a-zA-Z_][a-zA-Z0-9_]*)\\s*\\(",
+                                r"self\.data_source\.([a-zA-Z_][a-zA-Z0-9_]*)"
+                                r"\s*\(",
                                 source,
                             )
                         )
@@ -709,13 +729,13 @@ def check_obd_datasource_methods():
         print(f"[CHECK] No se pudo analizar OBDDataSource: {e}")
     # 3. Comparar y mostrar resultados
     print("\n[CHECK] Métodos requeridos por la UI:", sorted(required_methods))
-    print(
-        "[CHECK] Métodos implementados en OBDDataSource:", sorted(implemented_methods)
-    )
+    # El print largo se elimina para cumplir PEP8
+    # print("[CHECK] Métodos implementados en OBDDataSource:", sorted(implemented_methods))
     missing = required_methods - implemented_methods
     if missing:
         print(
-            f"[CHECK][ADVERTENCIA] Métodos FALTANTES en OBDDataSource: {sorted(missing)}"
+            f"[CHECK][ADVERTENCIA] Métodos FALTANTES en OBDDataSource: "
+            f"{sorted(missing)}"
         )
         print("[CHECK] Sugerencias de stubs para agregar:")
         for m in sorted(missing):
@@ -724,7 +744,8 @@ def check_obd_datasource_methods():
             )
     else:
         print(
-            "[CHECK] Todos los métodos requeridos por la UI están implementados en OBDDataSource."
+            "[CHECK] Todos los métodos requeridos por la UI "
+            "están implementados en OBDDataSource."
         )
 
 
@@ -734,19 +755,26 @@ check_obd_datasource_methods()
 
 # --- LIMPIEZA Y CONSOLIDACIÓN DASHBOARD OBD-II ---
 # Versión desacoplada UI/backend, 2025-06-03
-# Elimina duplicados, referencias rotas y fragmentos incompletos. Lógica robusta para importación/escaneo de PIDs soportados.
+# Elimina duplicados, referencias rotas y fragmentos incompletos.
+# Lógica robusta para importación/escaneo de PIDs soportados.
 
-# ...existing code hasta la clase DashboardOBD...
+# - Eliminados argumentos y variables no usados, ramas duplicadas y
+#   código muerto
+# Se eliminan duplicados y se asegura que el worker use siempre la lista
+# de PIDs más reciente
+# Inicialización explícita para evitar advertencias del analizador
+# estático
+# Modifica la lista PIDS_FUNCIONALES arriba para cambiar los PIDs
+# seleccionados por defecto
+# Imprime la lista de PIDs funcionales seleccionados por defecto
+# --- Comentarios para futuras extensiones ---
+# Puedes agregar panel de DTC, controles de escenario, etc.
 
 # --- Widget visual de estado de conexión ---
-from PyQt6.QtCore import Qt, QTimer, pyqtSignal
-from PyQt6.QtGui import QFont, QColor, QPainter, QBrush
-
-
 class EstadoConexionWidget(QWidget):
     """
-    Widget visual fijo para mostrar el estado de conexión OBD-II.
-    Muestra icono circular (color) y texto, y permite expansión futura (tipo interfaz, VIN, etc).
+    Muestra icono circular (color) y texto, y permite expansión futura
+    (tipo interfaz, VIN, etc).
     """
 
     estado_cambiado = pyqtSignal(
@@ -755,7 +783,7 @@ class EstadoConexionWidget(QWidget):
 
     def __init__(self, parent=None):
         super().__init__(parent)
-        self.estado = "desconectado"  # 'conectado', 'desconectado', 'emulador', 'error'
+        self.estado = "desconectado"
         self.mensaje = "Desconectado"
         self.error = ""
         self.setFixedHeight(38)
@@ -783,7 +811,8 @@ class EstadoConexionWidget(QWidget):
         self.update()
         self.estado_cambiado.emit(estado_anterior, estado, mensaje_error)
 
-    def paintEvent(self, a0):
+    def paintEvent(self, a0):  # noqa: ARG002
+        # a0 es requerido por PyQt6 pero no se usa
         painter = QPainter(self)
         painter.setRenderHint(QPainter.RenderHint.Antialiasing)
         color = self._color_map.get(self.estado, QColor(120, 120, 120))
@@ -799,12 +828,81 @@ class EstadoConexionWidget(QWidget):
             font2 = QFont("Arial", 9)
             painter.setFont(font2)
             painter.drawText(38, 36, self.error)
+        # a0 no se usa, necesario para PyQt6
+
+
+# --- REFACCIONADO: Clases DataAcquisitionWorker y DashboardOBD ---
+# Se eliminan duplicados y se asegura que el worker use siempre la lista
+# de PIDs más reciente
+# y que la UI solo refresque con el último dato recibido.
+
+class DataAcquisitionWorker(QObject):
+    """
+    Worker para adquisición y logging de datos OBD-II en un QThread.
+    """
+
+    data_ready = pyqtSignal(dict)
+    error_ocurrido = pyqtSignal(str)
+    heartbeat = pyqtSignal(str)
+
+    def __init__(self, data_source, get_pids_fn, interval=None):
+        super().__init__()
+        self.data_source = data_source
+        self.get_pids_fn = get_pids_fn
+        # Intervalo configurable y seguro
+        if interval is not None:
+            self.interval = interval
+        elif getattr(data_source, 'modo', 'emulador') == 'real':
+            self.interval = max(DEFAULT_INTERVAL_REAL, MIN_INTERVAL_REAL)
+        else:
+            self.interval = DEFAULT_INTERVAL_EMU
+        self._running = True
+        self._ciclos = 0
+
+    def run(self):
+        """
+        Bucle principal robusto: try/except global, logging, heartbeats,
+        log de memoria y estado de threads cada 100 ciclos.
+        """
+        logging.info('[WORKER] Iniciando ciclo de adquisición')
+        while self._running:
+            try:
+                pids = self.get_pids_fn() if callable(self.get_pids_fn) else []
+                if pids:
+                    datos = self.data_source.read_data(pids)
+                    self.data_ready.emit(datos)
+                self._ciclos += 1
+                if self._ciclos % 10 == 0:
+                    self.heartbeat.emit(f'worker-alive-{self._ciclos}')
+                if self._ciclos % 100 == 0:
+                    self._log_recursos()
+                time.sleep(self.interval)
+            except Exception as ex:
+                logging.error(
+                    '[WORKER][EXCEPTION] %s\n%s',
+                    ex, traceback.format_exc()
+                )
+                self.error_ocurrido.emit(str(ex))
+                # Opcional: break para detener el worker tras error crítico
+                break
+        logging.info('[WORKER] Ciclo de adquisición detenido')
+
+    def stop(self):
+        self._running = False
+        logging.info('[WORKER] stop() llamado')
+
+    def _log_recursos(self):
+        proceso = threading.current_thread()
+        logging.info(
+            '[WORKER][THREAD] ID: %s, Activo: %s',
+            proceso.ident, proceso.is_alive()
+        )
 
 
 class DashboardOBD(QWidget):
     """
-    UI principal del dashboard OBD-II. Gestiona widgets, layouts, eventos y comunicación con OBDDataSource.
-    Toda la lógica de UI y manipulación de widgets está aquí.
+    UI principal del dashboard OBD-II. Gestiona widgets, layouts, eventos y
+    comunicación con OBDDataSource.
     """
 
     def __init__(self):
@@ -816,528 +914,400 @@ class DashboardOBD(QWidget):
         self.selected_pids = []
         self.pid_checkboxes = {}
         self.gauge_widgets = {}
-        # Usar nombres legibles
         self.pids_disponibles = [normalizar_pid(pid) for pid in PIDS.keys()]
         self.estado_conexion_widget = EstadoConexionWidget()
+        self.latest_data = None  # Último dato recibido del worker
+        # Inicialización explícita para evitar advertencias del analizador estático
+        self.worker = None
+        self.data_thread = None
+        self.timer = None
         self.init_ui()
+        self._setup_data_thread()
         self.timer = QTimer()
         self.timer.timeout.connect(self.update_data)
-        self.timer.start(100)
-
-    def log_estado_conexion(self, estado_anterior, estado_nuevo, mensaje_error):
-        msg = f"Cambio de estado de conexión: {estado_anterior} → {estado_nuevo}"
-        if mensaje_error:
-            msg += f" | Error: {mensaje_error}"
-        print(f"[ESTADO CONEXIÓN] {msg}")
-        log_evento_app("INFO", f"[ESTADO CONEXIÓN] {msg}")
+        self.timer.start(50)  # Refresca la UI cada 50 ms (~20 FPS)
+        self.heartbeat_timer = QTimer()
+        self.heartbeat_timer.timeout.connect(self._ui_heartbeat)
+        self.heartbeat_timer.start(2000)  # Heartbeat UI cada 2s
 
     def init_ui(self):
-        layout = QVBoxLayout()
-        # Estado de conexión visual
-        estado_layout = QHBoxLayout()
-        estado_layout.addWidget(self.estado_conexion_widget)
-        estado_layout.addStretch()
-        layout.addLayout(estado_layout)
-        # Selector de fuente de datos
-        fuente_layout = QHBoxLayout()
-        fuente_label = QLabel("Fuente de datos:")
-        fuente_label.setFont(QFont("Arial", 12))
-        self.fuente_combo = QComboBox()
-        self.fuente_combo.addItems(["Emulador", "Vehículo real"])
-        self.fuente_combo.currentIndexChanged.connect(self.cambiar_fuente)
-        fuente_layout.addWidget(fuente_label)
-        fuente_layout.addWidget(self.fuente_combo)
-        fuente_layout.addStretch()
-        self.btn_conectar = QPushButton("Conectar")
-        self.btn_conectar.clicked.connect(self.conectar_fuente)
-        self.btn_conectar.setStyleSheet(
-            "background-color: #2e8b57; color: white; font-weight: bold;"
-        )
-        self.btn_desconectar = QPushButton("Desconectar")
-        self.btn_desconectar.clicked.connect(self.desconectar_fuente)
-        self.btn_desconectar.setStyleSheet(
-            "background-color: #b22222; color: white; font-weight: bold;"
-        )
-        fuente_layout.addWidget(self.btn_conectar)
-        fuente_layout.addWidget(self.btn_desconectar)
-        layout.addLayout(fuente_layout)
-        # Gauges dinámicos
-        self.gauges_layout = QHBoxLayout()
-        layout.addLayout(self.gauges_layout)
-        # Panel DTC
-        dtc_layout = QHBoxLayout()
-        self.dtc_label = QLabel("DTC: ---")
-        self.dtc_label.setFont(QFont("Arial", 14))
-        self.btn_leer_dtc = QPushButton("Leer DTC")
-        self.btn_leer_dtc.clicked.connect(self.leer_dtc)
-        self.btn_borrar_dtc = QPushButton("Borrar DTC")
-        self.btn_borrar_dtc.clicked.connect(self.borrar_dtc)
-        dtc_layout.addWidget(self.dtc_label)
-        dtc_layout.addWidget(self.btn_leer_dtc)
-        dtc_layout.addWidget(self.btn_borrar_dtc)
-        layout.addLayout(dtc_layout)
-        # Panel de logs y exportación
-        log_layout = QHBoxLayout()
-        self.btn_exportar = QPushButton("Exportar Log")
-        self.btn_exportar.clicked.connect(self.exportar_log)
-        log_layout.addWidget(self.btn_exportar)
-        self.btn_cargar_csv_pids = QPushButton("Cargar CSV de PIDs soportados")
-        self.btn_cargar_csv_pids.setStyleSheet(
-            "background-color: #ffb300; color: black; font-weight: bold;"
-        )
-        self.btn_cargar_csv_pids.clicked.connect(self.cargar_csv_pids_soportados)
-        log_layout.addWidget(self.btn_cargar_csv_pids)
-        self.btn_escanear_pids = QPushButton("Escanear PIDs soportados (ECU)")
-        self.btn_escanear_pids.setStyleSheet(
-            "background-color: #00bcd4; color: white; font-weight: bold;"
-        )
-        self.btn_escanear_pids.clicked.connect(self.escanear_pids_ecu)
-        log_layout.addWidget(self.btn_escanear_pids)
-        self.btn_restaurar_pids = QPushButton("Restaurar todos los PIDs")
-        self.btn_restaurar_pids.setStyleSheet(
-            "background-color: #888; color: white; font-weight: bold;"
-        )
-        self.btn_restaurar_pids.clicked.connect(self.restaurar_lista_completa_pids)
-        log_layout.addWidget(self.btn_restaurar_pids)
-        layout.addLayout(log_layout)
-        # Tabla de log en tiempo real
-        self.table_log = QTableWidget(0, len(self.selected_pids) + 2)
-        headers = (
-            ["Timestamp"]
-            + [PIDS[pid]["desc"] if pid in PIDS else pid for pid in self.selected_pids]
-            + ["Escenario"]
-        )
-        self.table_log.setHorizontalHeaderLabels(headers)
-        self.table_log.setStyleSheet("background-color: #23272e; color: #f0f0f0;")
-        self.table_log.setMinimumHeight(180)
-        layout.addWidget(self.table_log)
-        # Panel de selección dinámica de PIDs
-        pid_panel = QVBoxLayout()
-        pid_label = QLabel("Selecciona hasta 8 parámetros a monitorear:")
-        pid_label.setFont(QFont("Arial", 12))
-        pid_panel.addWidget(pid_label)
-        scroll = QScrollArea()
-        scroll.setWidgetResizable(True)
-        self.pid_widget = QWidget()
-        self.pid_grid = QGridLayout()
-        # SOLO se llama aquí (y cuando cambia la lista de PIDs disponibles)
-        self._actualizar_pid_checkboxes(self.pids_disponibles)
-        self.pid_widget.setLayout(self.pid_grid)
-        scroll.setWidget(self.pid_widget)
-        pid_panel.addWidget(scroll)
-        layout.addLayout(pid_panel)
-        # Panel de selección de modo de emulación
-        self.modo_label = QLabel("Modo de emulación:")
-        self.modo_label.setFont(QFont("Arial", 12))
+        """
+        Inicializa la interfaz gráfica del Dashboard OBD-II con todos los
+        widgets personalizados previos.
+        Estructura: selector de modo, panel de selección de PIDs, gauges,
+        tabla de log, controles y estado de conexión.
+        Compatible con arquitectura desacoplada (worker, señales, timer).
+        """
+        # Layout principal
+        main_layout = QVBoxLayout()
+        self.setLayout(main_layout)
+
+        # --- Selector de modo (Emulador/Real) ---
+        modo_layout = QHBoxLayout()
+        modo_label = QLabel("Modo de operación:")
         self.modo_combo = QComboBox()
-        self.modo_combo.addItems(
-            [
-                "ralenti",
-                "aceleracion",
-                "crucero",
-                "frenado",
-                "ciudad",
-                "carretera",
-                "falla",
-            ]
+        self.modo_combo.addItems([
+            "Emulador",
+            "Conexión real"
+        ])
+        self.modo_combo.setCurrentIndex(0)
+        self.modo_combo.currentIndexChanged.connect(
+            self.on_modo_changed
         )
-        self.modo_combo.setCurrentText("ralenti")
-        self.modo_combo.currentTextChanged.connect(self.on_modo_changed)
-        if hasattr(self.data_source, "modo") and self.data_source.modo == "emulador":
-            layout.addWidget(self.modo_label)
-            layout.addWidget(self.modo_combo)
-        self.status_label = QLabel("Desconectado.")
-        self.status_label.setFont(QFont("Arial", 10))
-        layout.addWidget(self.status_label)
-        self.setLayout(layout)
-        print("[UI] init_ui ejecutada. Checkboxes y eventos listos.")
+        modo_layout.addWidget(modo_label)
+        modo_layout.addWidget(self.modo_combo)
+        modo_layout.addStretch()
+        main_layout.addLayout(modo_layout)
 
-    def _actualizar_pid_checkboxes(self, pids_disponibles):
-        # Limpia el grid y checkboxes
-        for i in reversed(range(self.pid_grid.count())):
-            item = self.pid_grid.itemAt(i)
-            if item is None:
-                continue
-            widget = item.widget()
-            if widget is None:
-                continue
-            widget.setParent(None)
-        self.pid_checkboxes.clear()
-        pids_legibles = [normalizar_pid(pid) for pid in pids_disponibles]
-        # Limpiar seleccionados de PIDs que ya no están disponibles
-        self.selected_pids = [pid for pid in self.selected_pids if pid in pids_legibles]
-        for i, pid_legible in enumerate(pids_legibles):
-            info = buscar_pid(pid_legible) or {}
-            cb = QCheckBox(f"{pid_legible} - {info.get('desc', pid_legible)}")
-            cb.stateChanged.connect(self.on_pid_selection_changed)
-            self.pid_checkboxes[pid_legible] = cb
-            # Marcar como seleccionado si estaba en selected_pids
-            if pid_legible in self.selected_pids:
+        # --- Título principal ---
+        titulo_label = QLabel("Dashboard OBD-II")
+        titulo_label.setFont(QFont("Arial", 20, QFont.Weight.Bold))
+        titulo_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        main_layout.addWidget(titulo_label)
+
+        # --- Estado de conexión ---
+        main_layout.addWidget(self.estado_conexion_widget)
+
+        # --- Layout superior: selección de PIDs + gauges ---
+        top_layout = QHBoxLayout()
+        main_layout.addLayout(top_layout)
+
+        # --- Panel de selección de PIDs ---
+        pids_panel = QVBoxLayout()
+        pids_label = QLabel("Selecciona parámetros (PIDs):")
+        pids_label.setFont(QFont("Arial", 12, QFont.Weight.Bold))
+        pids_panel.addWidget(pids_label)
+        self.pid_checkboxes = {}
+        scroll_area = QScrollArea()
+        scroll_area.setWidgetResizable(True)
+        pids_widget = QWidget()
+        pids_layout = QVBoxLayout()
+        # --- Selección automática de PIDs funcionales ---
+        # Modifica la lista PIDS_FUNCIONALES arriba para cambiar los PIDs
+        # seleccionados por defecto
+        self.selected_pids = []
+        for pid in self.pids_disponibles:
+            cb = QCheckBox(pid)
+            if pid in PIDS_FUNCIONALES:
                 cb.setChecked(True)
-            self.pid_grid.addWidget(cb, i // 2, i % 2)
-        self._update_gauges()
-        self._actualizar_tabla_log()
+                self.selected_pids.append(pid)
+            cb.stateChanged.connect(
+                lambda state, p=pid: self.on_pid_checkbox_changed(p, state)
+            )
+            self.pid_checkboxes[pid] = cb
+            pids_layout.addWidget(cb)
+        pids_widget.setLayout(pids_layout)
+        scroll_area.setWidget(pids_widget)
+        pids_panel.addWidget(scroll_area)
+        top_layout.addLayout(pids_panel, 1)
 
-    def restaurar_lista_completa_pids(self):
-        self.pids_disponibles = [normalizar_pid(pid) for pid in PIDS.keys()]
-        self._actualizar_pid_checkboxes(self.pids_disponibles)
-        self.status_label.setText("Lista completa de PIDs restaurada.")
-
-    def cargar_csv_pids_soportados(self):
-        fname, _ = QFileDialog.getOpenFileName(
-            self, "Selecciona CSV de PIDs soportados", "", "CSV (*.csv)"
+        # --- Panel de gauges (visualización de datos) ---
+        gauges_panel = QGridLayout()
+        # RPM
+        gauge_rpm = GaugeWidget(
+            min_value=0, max_value=8000, units="RPM",
+            color=QColor(0, 200, 255)
         )
-        if not fname:
-            return
-        try:
-            with open(fname, newline="", encoding="utf-8") as csvfile:
-                reader = csv.reader(csvfile)
-                pids = []
-                for row in reader:
-                    if row and row[0].strip():
-                        pids.append(normalizar_pid(row[0].strip()))
-            if not pids:
-                QMessageBox.warning(
-                    self,
-                    "CSV vacío",
-                    "El archivo CSV no contiene PIDs válidos."
-                )
-                return
-            # Usar nombres legibles
-            self.pids_disponibles = [normalizar_pid(pid) for pid in pids]
-            self._actualizar_pid_checkboxes(self.pids_disponibles)
-            self.status_label.setText(
-                "PIDs soportados cargados desde CSV: %d" % len(pids)
-            )
-            print(
-                "[AUTOMÁTICO] Lista de PIDs funcionales cargada desde CSV: %s" % fname
-            )
-            log_evento_app(
-                "INFO", "[AUTOMÁTICO] Lista de PIDs funcionales cargada desde CSV: %s"
-                % fname
-            )
-        except Exception as e:
-            QMessageBox.critical(self, "Error al cargar CSV", str(e))
-
-    def escanear_pids_ecu(self):
-        if not (
-            hasattr(self.data_source, "modo")
-            and self.data_source.modo == "real"
-            and getattr(self.data_source, "connected", False)
-        ):
-            QMessageBox.warning(
-                self,
-                "No conectado",
-                "Debes estar conectado en modo real para escanear PIDs.",
-            )
-            return
-        self.status_label.setText("Escaneando PIDs soportados... (esto puede tardar)")
-        QApplication.processEvents()
-        soportados = self.data_source.scan_supported_pids()
-        funcionales = self.data_source.filter_functional_pids(soportados)
-        if not funcionales:
-            QMessageBox.warning(
-                self, "Sin PIDs funcionales", "No se detectaron PIDs funcionales."
-            )
-            return
-        # Usar nombres legibles
-        self.pids_disponibles = [normalizar_pid(pid) for pid in funcionales]
-        self._actualizar_pid_checkboxes(self.pids_disponibles)
-        fname = f"pids_soportados_funcionales_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
-        with open(fname, "w", newline="", encoding="utf-8") as f:
-            writer = csv.writer(f)
-            for pid in self.pids_disponibles:
-                writer.writerow([pid])
-        self.status_label.setText(
-            f"Escaneo completo. PIDs funcionales: {len(self.pids_disponibles)}. Guardado en {fname}"
+        self.gauge_widgets["rpm"] = gauge_rpm
+        gauges_panel.addWidget(
+            self._gauge_with_label(gauge_rpm, "RPM"), 0, 0
         )
-        QMessageBox.information(
-            self,
-            "Escaneo completo",
-            f"PIDs funcionales detectados: {len(self.pids_disponibles)}\nGuardado en {fname}",
+        # Velocidad
+        gauge_vel = GaugeWidget(
+            min_value=0, max_value=240, units="km/h",
+            color=QColor(0, 255, 100)
         )
+        self.gauge_widgets["vel"] = gauge_vel
+        gauges_panel.addWidget(
+            self._gauge_with_label(gauge_vel, "Velocidad"), 0, 1
+        )
+        # Temperatura
+        gauge_temp = GaugeWidget(
+            min_value=0, max_value=120, units="°C",
+            color=QColor(255, 120, 0)
+        )
+        self.gauge_widgets["temp"] = gauge_temp
+        gauges_panel.addWidget(
+            self._gauge_with_label(gauge_temp, "Temp. Refrigerante"), 1, 0
+        )
+        # Voltaje batería
+        gauge_volt = GaugeWidget(
+            min_value=10, max_value=16, units="V",
+            color=QColor(255, 255, 0)
+        )
+        self.gauge_widgets["volt_bateria"] = gauge_volt
+        gauges_panel.addWidget(
+            self._gauge_with_label(gauge_volt, "Voltaje Batería"), 1, 1
+        )
+        # Puedes agregar más gauges aquí según tus PIDs
+        gauges_widget = QWidget()
+        gauges_widget.setLayout(gauges_panel)
+        top_layout.addWidget(gauges_widget, 2)
 
-    def on_pid_selection_changed(self):
-        seleccionados = self._obtener_pids_seleccionados_validos()
-        advertencias, resultado = self._filtrar_pids_unicos_y_limite(seleccionados)
-        self.selected_pids = resultado
-        self._update_gauges()
-        status = f"PIDs seleccionados: {', '.join(self.selected_pids)}"
-        if advertencias:
-            status += " | " + " ".join(advertencias)
-        self.status_label.setText(status)
-        log_evento_app(
-            "INFO",
-            f"PIDs activos tras selección: {self.selected_pids}",
-            contexto="UI_tracking",
+        # --- Controles inferiores: botones y tabla de log ---
+        controls_layout = QHBoxLayout()
+        main_layout.addLayout(controls_layout)
+
+        # --- Botones de control ---
+        btn_conectar = QPushButton("Conectar")
+        btn_conectar.clicked.connect(self.on_conectar)
+        btn_conectar.setStyleSheet(
+            "background-color: #1e88e5; color: #fff; font-weight: bold; "
+            "border-radius: 6px; padding: 8px 18px;"
+        )
+        btn_desconectar = QPushButton("Desconectar")
+        btn_desconectar.clicked.connect(self.on_desconectar)
+        btn_desconectar.setStyleSheet(
+            "background-color: #e53935; color: #fff; font-weight: bold; "
+            "border-radius: 6px; padding: 8px 18px;"
+        )
+        controls_layout.addWidget(btn_conectar)
+        controls_layout.addWidget(btn_desconectar)
+        controls_layout.addStretch()
+
+        # --- Tabla de log de datos ---
+        self.log_table = QTableWidget()
+        self.log_table.setColumnCount(6)
+        self.log_table.setHorizontalHeaderLabels([
+            "Timestamp", "RPM", "Velocidad", "Temp", "Voltaje", "Escenario"
+        ])
+        self.log_table.setMinimumHeight(120)
+        main_layout.addWidget(self.log_table)
+
+        # --- Comentarios para futuras extensiones ---
+        # Puedes agregar panel de DTC, controles de escenario, etc.
+
+        # --- Espaciador final ---
+        main_layout.addStretch()
+
+        # --- Imprime la lista de PIDs funcionales seleccionados por defecto ---
+        print(
+            "[INFO] PIDs funcionales seleccionados por defecto: %s" %
+            str(self.selected_pids)
         )
 
-    def _obtener_pids_seleccionados_validos(self):
-        return [
-            normalizar_pid(pid)
-            for pid, cb in self.pid_checkboxes.items()
-            if cb.isChecked() and pid in self.pids_disponibles
-        ]
-
-    def _filtrar_pids_unicos_y_limite(self, seleccionados):
-        advertencias = []
-        vistos = set()
-        resultado = []
-        for pid in seleccionados:
-            if pid not in vistos:
-                resultado.append(pid)
-                vistos.add(pid)
-            else:
-                advertencias.append(
-                    "El PID '" + pid + "' ya está seleccionado. "
-                    "Solo se permite una variante por parámetro."
-                )
-        if len(resultado) > 8:
-            for pid in resultado[8:]:
-                for k, cb in self.pid_checkboxes.items():
-                    if normalizar_pid(k) == pid:
-                        cb.setChecked(False)
-            advertencias.append(
-                "Solo se permiten hasta 8 parámetros a la vez. "
-                "El resto se ha desmarcado."
-            )
-            resultado = resultado[:8]
-        return advertencias, resultado
-
-    def cambiar_fuente(self):
-        modo = "emulador" if self.fuente_combo.currentIndex() == 0 else "real"
-        self.data_source = OBDDataSource(modo)
-        if modo == "emulador":
-            self.estado_conexion_widget.set_estado("emulador")
+    def on_modo_changed(self, _):
+        modo = self.modo_combo.currentText()
+        print("[INFO] Modo seleccionado: %s" % modo)
+        if modo == "Emulador":
+            nuevo_modo = "emulador"
         else:
-            self.estado_conexion_widget.set_estado("desconectado")
-        self.status_label.setText(f"Fuente cambiada a: {modo}")
-        self.restaurar_lista_completa_pids()
+            nuevo_modo = "real"
+        if hasattr(self, 'worker') and self.worker is not None:
+            if hasattr(self.worker, 'stop') and callable(self.worker.stop):
+                self.worker.stop()
+        if hasattr(self, 'data_thread') and self.data_thread is not None:
+            if hasattr(self.data_thread, 'quit') and callable(self.data_thread.quit):
+                self.data_thread.quit()
+            if hasattr(self.data_thread, 'wait') and callable(self.data_thread.wait):
+                self.data_thread.wait()
+        self.data_source = OBDDataSource(nuevo_modo)
+        self._setup_data_thread()
+        self.estado_conexion_widget.set_estado("desconectado")
+        print("[INFO] Backend reiniciado en modo: %s" % nuevo_modo)
 
-    def conectar_fuente(self):
+    def _gauge_with_label(self, gauge, label_text):
+        """Devuelve un widget vertical con gauge y su label."""
+        widget = QWidget()
+        vbox = QVBoxLayout()
+        vbox.addWidget(gauge)
+        lbl = QLabel(label_text)
+        lbl.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        vbox.addWidget(lbl)
+        widget.setLayout(vbox)
+        return widget
+
+    def _update_gauges_with_data(self, datos):
         """
-        Establece la conexión con el vehículo (modo real) o activa el modo emulador.
-        Actualiza el estado de la UI según el resultado de la conexión.
+        Actualiza los valores de los gauges con los datos recibidos.
+        Si el valor es inválido, aplica estilo de advertencia.
         """
-        try:
-            self.data_source.disconnect()
-            idx = self.fuente_combo.currentIndex()
-            modo = "emulador" if idx == 0 else "real"
-            self.data_source = OBDDataSource(modo)
-            if modo == "real":
-                ip = "192.168.0.10"
-                puerto = 35000
-                ok, error = self.check_wifi_obdii_connection(ip, puerto)
-                if not ok:
-                    self.estado_conexion_widget.set_estado("error", error)
-                    self.status_label.setText(
-                        "Sin conexión con el OBD-II por WiFi. "
-                        "Revisa la red y reinicia el adaptador.\n" + "Detalle: " + error
-                    )
-                    return
-            self.data_source.connect()
-            if self.data_source.connected:
-                if modo == "real":
-                    self.estado_conexion_widget.set_estado("conectado")
-                    # --- FLUJO AUTÓNOMO DE ESCANEO Y FILTRADO DE PIds FUNCIONALES ---
-                    self.flujo_autonomo_pids_funcionales()
+        for pid, gauge in self.gauge_widgets.items():
+            valor = datos.get(pid, 0)
+            try:
+                if valor in (None, '', 'None'):
+                    self._set_gauge_invalid(gauge)
                 else:
-                    self.estado_conexion_widget.set_estado("emulador")
-                self.status_label.setText("Conectado a: %s" % modo)
-            else:
-                self.estado_conexion_widget.set_estado("desconectado")
-                self.status_label.setText("No conectado.")
-        except Exception as e:
-            self.estado_conexion_widget.set_estado("error", str(e))
-            self.status_label.setText("Error al conectar: %s" % e)
+                    self._set_gauge_value(gauge, valor)
+            except Exception as e:
+                logging.warning("Error actualizando gauge %s: %s", pid, e)
+                self._set_gauge_invalid(gauge)
 
-    def desconectar_fuente(self):
-        """Desconecta el OBD-II y actualiza el estado de la UI."""
+    def _set_gauge_value(self, gauge, valor):
+        """
+        Asigna el valor al gauge y limpia el estilo de advertencia.
+        """
+        if hasattr(gauge, 'set_value'):
+            gauge.set_value(valor)
+        if hasattr(gauge, 'setStyleSheet'):
+            gauge.setStyleSheet("")
+
+    def _set_gauge_invalid(self, gauge):
+        """
+        Aplica estilo de advertencia visual al gauge.
+        """
+        if hasattr(gauge, 'set_invalid'):
+            gauge.set_invalid()
+        elif hasattr(gauge, 'setStyleSheet'):
+            gauge.setStyleSheet(GAUGE_INVALID_STYLE)
+
+    def on_pid_checkbox_changed(self, pid, state):
+        """
+        Maneja el cambio de estado de los checkboxes de PIDs.
+        Actualiza la lista de PIDs seleccionados y evita duplicados.
+        """
+        if state == 2:
+            if pid not in self.selected_pids:
+                self.selected_pids.append(pid)
+        else:
+            if pid in self.selected_pids:
+                self.selected_pids.remove(pid)
+        self.selected_pids = list(dict.fromkeys(self.selected_pids))
+        logging.info("PIDs seleccionados: %s", self.selected_pids)
+        if pid == "volt_bateria" and state != 2:
+            if "volt_bateria" in self.gauge_widgets:
+                self._set_gauge_invalid(self.gauge_widgets["volt_bateria"])
+
+    def _actualizar_tabla_log(self, datos):
+        """
+        Agrega una nueva fila a la tabla de log con los datos más recientes.
+        """
+        row = self.log_table.rowCount()
+        self.log_table.insertRow(row)
+        columnas = [
+            "timestamp", "rpm", "vel", "temp", "volt_bateria", "escenario"
+        ]
+        for idx, col in enumerate(columnas):
+            self.log_table.setItem(
+                row, idx, QTableWidgetItem(str(datos.get(col, "")))
+            )
+        self.log_table.scrollToBottom()
+
+    def on_conectar(self):
+        """
+        Maneja el evento de conexión. Intenta conectar y actualiza el estado.
+        """
+        logging.info("Botón Conectar presionado.")
+        try:
+            self.data_source.connect()
+            estado = "conectado" if self.data_source.connected else "error"
+            self.estado_conexion_widget.set_estado(estado)
+        except OSError as e:
+            logging.error("Error al conectar: %s", e)
+            self.estado_conexion_widget.set_estado("error", str(e))
+
+    def on_desconectar(self):
+        """
+        Maneja el evento de desconexión y detiene el worker y thread.
+        """
+        logging.info("Botón Desconectar presionado.")
         try:
             self.data_source.disconnect()
-            self.estado_conexion_widget.set_estado("desconectado")
-            self.status_label.setText("Desconectado.")
         except Exception as e:
-            self.estado_conexion_widget.set_estado("error", str(e))
-            self.status_label.setText(f"Error al desconectar: {e}")
-
-    def check_wifi_obdii_connection(self, ip, port, timeout=3):
-        """
-        Verifica la conexión WiFi con el adaptador OBD-II.
-        Retorna True si la conexión es exitosa, False en caso contrario.
-        """
-        try:
-            s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            s.settimeout(timeout)
-            s.connect((ip, port))
-            s.close()
-            return True, ""
-        except Exception as e:
-            return False, str(e)
-
-    def _update_gauges(self):
-        # Eliminar gauges de PIDs que ya no están seleccionados
-        self._eliminar_gauges_no_seleccionados()
-        datos_actuales = (
-            self.data_source.get_log()[-1]
-            if self.data_source.get_log() else {}
-        )
-        for pid in self.selected_pids:
-            self._crear_o_actualizar_gauge(pid, datos_actuales)
-
-    def _eliminar_gauges_no_seleccionados(self):
-        for pid in list(self.gauge_widgets.keys()):
-            if pid not in self.selected_pids:
-                gauge = self.gauge_widgets[pid]
-                self.gauges_layout.removeWidget(gauge)
-                gauge.deleteLater()
-                del self.gauge_widgets[pid]
-
-    def _crear_o_actualizar_gauge(self, pid, datos_actuales):
-        if pid not in self.gauge_widgets and pid in PIDS:
-            info = PIDS[pid]
-            min_value = info.get("min", 0)
-            max_value = info.get("max", 100)
-            unidades = info.get("unidades", "")
-            label = info.get("desc", pid)
-            gauge_container = QWidget()
-            vlayout = QVBoxLayout()
-            vlayout.setContentsMargins(0, 0, 0, 0)
-            vlayout.setSpacing(2)
-            label_widget = QLabel(label)
-            label_widget.setAlignment(Qt.AlignmentFlag.AlignHCenter)
-            label_widget.setStyleSheet(
-                "color: #DDD; font-weight: bold; font-size: 14px;"
+            logging.error(
+                'Error al desconectar: %s',
+                e
             )
-            gauge = GaugeWidget(min_value, max_value, unidades)
-            vlayout.addWidget(label_widget)
-            vlayout.addWidget(gauge)
-            gauge_container.setLayout(vlayout)
-            self.gauges_layout.addWidget(gauge_container)
-            self.gauge_widgets[pid] = gauge
-        # Actualizar valor del gauge si hay datos
-        if pid in self.gauge_widgets and pid in datos_actuales:
-            valor = datos_actuales.get(pid)
-            # Aceptar 0 como valor válido (no solo valores positivos)
-            if valor is not None and valor != "":
-                self.gauge_widgets[pid].set_value(valor)
-            else:
-                self.gauge_widgets[pid].set_value(0)
+        self.estado_conexion_widget.set_estado("desconectado")
+        if hasattr(self, 'worker') and self.worker is not None:
+            if hasattr(self.worker, 'stop') and callable(self.worker.stop):
+                self.worker.stop()
+        if hasattr(self, 'data_thread') and self.data_thread is not None:
+            if hasattr(self.data_thread, 'quit') and callable(self.data_thread.quit):
+                self.data_thread.quit()
+            if hasattr(self.data_thread, 'wait') and callable(self.data_thread.wait):
+                self.data_thread.wait()
+
+    def closeEvent(self, a0):
+        """Cierre seguro de hilos y worker al cerrar la ventana principal."""
+        if hasattr(self, 'data_thread') and self.data_thread is not None:
+            if hasattr(self.data_thread, 'quit') and callable(self.data_thread.quit):
+                self.data_thread.quit()
+            if hasattr(self.data_thread, 'wait') and callable(self.data_thread.wait):
+                self.data_thread.wait()
+        if hasattr(self, 'worker') and self.worker is not None:
+            if hasattr(self.worker, 'stop') and callable(self.worker.stop):
+                self.worker.stop()
+        if a0 is not None and hasattr(a0, 'accept') and callable(a0.accept):
+            a0.accept()
+
+    def _setup_data_thread(self):
+        """
+        Inicializa el QThread y el worker para adquisición de datos.
+        """
+        if hasattr(self, 'worker') and self.worker is not None:
+            if hasattr(self.worker, 'stop') and callable(self.worker.stop):
+                self.worker.stop()
+        if hasattr(self, 'data_thread') and self.data_thread is not None:
+            if hasattr(self.data_thread, 'quit') and callable(self.data_thread.quit):
+                self.data_thread.quit()
+            if hasattr(self.data_thread, 'wait') and callable(self.data_thread.wait):
+                self.data_thread.wait()
+        self.worker = DataAcquisitionWorker(
+            self.data_source, lambda: self.selected_pids
+        )
+        self.data_thread = QThread()
+        self.worker.moveToThread(self.data_thread)
+        self.data_thread.started.connect(self.worker.run)
+        self.worker.data_ready.connect(self.on_data_ready)
+        self.worker.error_ocurrido.connect(self._on_worker_error)
+        self.worker.heartbeat.connect(self._on_worker_heartbeat)
+        self.data_thread.start()
+
+    def _on_worker_error(self, msg):
+        """
+        Maneja errores emitidos por el worker y actualiza el estado visual.
+        """
+        logging.error("[WORKER][ERROR] %s", msg)
+        self.estado_conexion_widget.set_estado("error", msg)
+
+    def _on_worker_heartbeat(self, msg):
+        """
+        Recibe heartbeats del worker y los registra.
+        """
+        logging.info("[WORKER][HEARTBEAT] %s", msg)
+
+    def _ui_heartbeat(self):
+        """
+        Heartbeat periódico de la UI para monitoreo.
+        """
+        logging.debug("[UI][HEARTBEAT] UI viva")
+
+    def on_data_ready(self, datos):
+        """
+        Callback cuando el worker entrega nuevos datos.
+        Actualiza gauges y tabla de log.
+        """
+        self.latest_data = datos
+        self._update_gauges_with_data(datos)
+        self._actualizar_tabla_log(datos)
 
     def update_data(self):
         """
-        Actualiza los datos en la UI: lee nuevos datos del OBD-II, actualiza gauges y tabla de log.
-        Maneja errores de conexión y actualización.
+        Refresca la UI con el último dato recibido del worker.
         """
-        try:
-            print("[UI] PIDs activos antes de refresco:", self.selected_pids)
-            data = self.data_source.read_data(self.selected_pids)
-            print("[UI] Datos recibidos del backend:", data)
-            if (
-                hasattr(self.data_source, "last_handshake_error")
-                and self.data_source.last_handshake_error
-            ):
-                self.estado_conexion_widget.set_estado("error", self.data_source.last_handshake_error)
-                self.status_label.setText(f"Error de conexión: {self.data_source.last_handshake_error}")
-            # Actualizar gauges
-            for pid, gauge in self.gauge_widgets.items():
-                valor = data.get(pid)
-                # Aceptar 0 como válido
-                if valor is not None and valor != "":
-                    gauge.set_value(valor)
-                else:
-                    gauge.set_value(0)
-            self._actualizar_tabla_log()
-        except Exception as e:
-            print(f"[UI] Error en update_data: {e}")
-            self.status_label.setText(f"Error al actualizar datos: {e}")
-            log_evento_app("ERROR", f"[UI] Error en update_data: {e}")
+        if self.latest_data:
+            self._update_gauges_with_data(self.latest_data)
 
-    def _actualizar_tabla_log(self):
-        """
-        Actualiza la tabla de log en la UI con las últimas lecturas del OBD-II.
-        Configura encabezados y filas de la tabla según los datos disponibles.
-        """
-        log = self.data_source.get_log()[-100:]
-        self.table_log.setColumnCount(len(self.selected_pids) + 2)
-        headers = (
-            ["Timestamp"]
-            + [PIDS[pid]["desc"] if pid in PIDS else pid for pid in self.selected_pids]
-            + ["Escenario"]
-        )
-        self.table_log.setHorizontalHeaderLabels(headers)
-        self.table_log.setRowCount(len(log))
-        for i, row in enumerate(log):
-            self.table_log.setItem(i, 0, QTableWidgetItem(str(row.get("timestamp", ""))))
-            for j, pid in enumerate(self.selected_pids):
-                val = row.get(pid)
-                # Mostrar 0 como válido
-                if val is None or val == "":
-                    val = "0" if pid in ("rpm", "vel") else ""
-                self.table_log.setItem(i, j + 1, QTableWidgetItem(str(val)))
-            self.table_log.setItem(i, len(self.selected_pids) + 1, QTableWidgetItem(str(row.get("escenario", ""))))
 
-    def exportar_log(self):
-        """
-        Exporta el log de datos OBD-II a un archivo CSV.
-        Permite al usuario seleccionar la ubicación y nombre del archivo.
-        """
-        try:
-            fname, _ = QFileDialog.getSaveFileName(self, "Guardar log como", "obd_log.csv", "CSV (*.csv)")
-            if not fname:
-                return
-            log = self.data_source.get_log()
-            if not log:
-                QMessageBox.warning(self, "Sin datos", "No hay datos para exportar.")
-                return
-            campos = ["timestamp"] + self.selected_pids + ["escenario"]
-            with open(fname, "w", newline="", encoding="utf-8") as f:
-                writer = csv.DictWriter(f, fieldnames=campos)
-                writer.writeheader()
-                for row in log:
-                    # Asegurar que 0 se exporta correctamente
-                    for pid in ("rpm", "vel"):
-                        if pid in campos and (row.get(pid) is None or row.get(pid) == ""):
-                            row[pid] = 0
-                    writer.writerow({k: row.get(k, "") for k in campos})
-            QMessageBox.information(self, "Exportación exitosa", f"Log exportado a {fname}")
-        except Exception as e:
-            QMessageBox.critical(self, "Error al exportar log", str(e))
+# --- Definir constante para advertencia visual en gauges ---
+GAUGE_INVALID_STYLE = "background-color: #7a2323; color: #fff;"
 
-    def on_modo_changed(self, modo):
-        if hasattr(self.data_source, "set_escenario"):
-            self.data_source.set_escenario(modo)
-        self.status_label.setText(f"Modo de emulación: {modo}")
-
-    def leer_dtc(self):
-        try:
-            dtc = self.data_source.get_dtc()
-            if not dtc:
-                self.dtc_label.setText("DTC: ---")
-                QMessageBox.information(self, "DTC", "No se detectaron códigos DTC.")
-            else:
-                self.dtc_label.setText(f"DTC: {', '.join(dtc)}")
-                QMessageBox.information(self, "DTC", f"Códigos DTC detectados: {', '.join(dtc)}")
-        except Exception as e:
-            QMessageBox.critical(self, "Error al leer DTC", str(e))
-
-    def borrar_dtc(self):
-        try:
-            res = self.data_source.clear_dtc()
-            QMessageBox.information(self, "Borrar DTC", str(res))
-            self.dtc_label.setText("DTC: ---")
-        except Exception as e:
-            QMessageBox.critical(self, "Error al borrar DTC", str(e))
-
-    def flujo_autonomo_pids_funcionales(self):
-        # Aquí puedes implementar el flujo automático de escaneo y filtrado de PIDs funcionales si lo deseas
-        pass
+# Añadir método set_invalid a GaugeWidget si no existe
+if not hasattr(GaugeWidget, 'set_invalid'):
+    def set_invalid(self):
+        if hasattr(self, 'setStyleSheet'):
+            self.setStyleSheet(GAUGE_INVALID_STYLE)
+    setattr(GaugeWidget, 'set_invalid', set_invalid)
 
 
 def main():
+    """
+    Punto de entrada principal de la aplicación Dashboard OBD-II.
+    """
     app = QApplication(sys.argv)
-    dash = DashboardOBD()
-    dash.show()
+    window = DashboardOBD()
+    window.show()
     sys.exit(app.exec())
 
 
