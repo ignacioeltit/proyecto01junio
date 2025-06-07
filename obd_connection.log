@@ -1,0 +1,35 @@
+2025-06-06 15:56:16,487 - OBD - INFO - Cambiando modo: None -> wifi
+2025-06-06 15:56:19,053 - OBD - INFO - Iniciando conexión en modo: wifi
+2025-06-06 15:56:21,109 - OBD - DEBUG - Comando ATZ: OBDII v1.5>...
+2025-06-06 15:56:23,611 - OBD - DEBUG - Comando 0100: ATE0OK>OK>OK>OK>OK>...
+2025-06-06 15:56:23,873 - OBD - ERROR - Formato de respuesta inválido: STOPPED>SEARCHING...
+2025-06-06 15:56:23,873 - OBD - ERROR - Falló verificación de conexión real
+2025-06-06 15:56:43,613 - OBD - INFO - Iniciando conexión en modo: wifi
+2025-06-06 15:56:54,549 - OBD - INFO - Iniciando conexión en modo: wifi
+2025-06-06 15:56:56,580 - OBD - DEBUG - Comando ATZ: OBDII v1.5>...
+2025-06-06 15:56:59,084 - OBD - DEBUG - Comando 0100: ATE0OK>OK>OK>OK>OK>...
+2025-06-06 15:56:59,229 - OBD - ERROR - Formato de respuesta inválido: STOPPED>SEARCHING...
+2025-06-06 15:56:59,229 - OBD - ERROR - Falló verificación de conexión real
+2025-06-06 15:57:05,869 - OBD - INFO - Cambiando modo: wifi -> emulator
+2025-06-06 15:59:22,815 - OBD - INFO - Cambiando modo: None -> wifi
+2025-06-06 15:59:28,301 - OBD - INFO - Cambiando modo: wifi -> emulator
+2025-06-06 15:59:45,534 - OBD - INFO - Iniciando conexión en modo: emulator
+2025-06-06 16:00:23,117 - OBD - INFO - Iniciando conexión en modo: emulator
+2025-06-06 16:08:10,044 - OBD - INFO - Cambiando modo: None -> wifi
+2025-06-06 17:00:17,908 - OBD - INFO - Cambiando modo: None -> wifi
+2025-06-06 17:00:47,941 - OBD - INFO - Iniciando conexión en modo: wifi
+2025-06-06 17:04:59,948 - OBD - INFO - Iniciando conexión en modo: wifi
+2025-06-06 17:05:01,969 - OBD - DEBUG - Comando ATZ: OBDII v1.5>...
+2025-06-06 17:05:04,473 - OBD - DEBUG - Comando 0100: ATE0OK>OK>OK>OK>OK>...
+2025-06-06 17:05:33,745 - OBD - INFO - Cambiando modo: wifi -> emulator
+2025-06-06 17:05:51,465 - OBD - INFO - Iniciando conexión en modo: emulator
+2025-06-06 17:05:56,220 - OBD - INFO - Iniciando conexión en modo: emulator
+2025-06-06 17:08:17,220 - OBD - INFO - Cambiando modo: None -> wifi
+2025-06-06 17:09:34,708 - OBD - INFO - Iniciando conexión en modo: wifi
+2025-06-06 17:09:36,740 - OBD - DEBUG - Comando ATZ: OBDII v1.5>...
+2025-06-06 17:09:39,243 - OBD - DEBUG - Comando 0100: ATE0OK>OK>OK>OK>OK>...
+2025-06-06 19:07:40,154 - OBD - INFO - Cambiando modo: None -> wifi
+2025-06-06 19:08:26,282 - OBD - INFO - Iniciando conexión en modo: wifi
+2025-06-06 19:09:12,522 - OBD - INFO - Iniciando conexión en modo: wifi
+2025-06-06 19:09:14,576 - OBD - DEBUG - Comando ATZ: ATZ OBDII v1.5>...
+2025-06-06 19:09:17,080 - OBD - DEBUG - Comando 0100: ATE0OK>OK>OK>OK>OK>...

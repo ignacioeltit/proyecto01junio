@@ -1,0 +1,2 @@
+2025-06-06 12:46:22,434 [INFO] dashboard: Conexión OBD establecida.
+2025-06-06 12:46:30,361 [ERROR] dashboard: Error al cerrar conexión OBD: 'OBDConnection' object has no attribute 'disconnect'

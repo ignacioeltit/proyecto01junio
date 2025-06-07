@@ -1,0 +1,2048 @@
+=== REPORTE DEL DÍA 2025-06-05 ===
+[2025-06-05 14:24:03] INFO: Conexión TCP/IP establecida | Contexto: elm327_wifi
+[2025-06-05 14:24:03] ERROR: Fallo al enviar comando: No conectado | Contexto: elm327_wifi
+[2025-06-05 14:24:03] ERROR: Fallo al enviar comando: No conectado | Contexto: elm327_wifi
+[2025-06-05 14:24:04] ERROR: Fallo al enviar comando: No conectado | Contexto: elm327_wifi
+[2025-06-05 14:24:04] ERROR: Fallo al enviar comando: No conectado | Contexto: elm327_wifi
+[2025-06-05 14:24:04] ERROR: Fallo al enviar comando: No conectado | Contexto: elm327_wifi
+[2025-06-05 14:24:07] DEBUG: Comando enviado: 010C | Respuesta: 010C
+410C0EF0
+410C0EF0
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:07] DEBUG: Comando enviado: 010D | Respuesta: 010D
+410D00
+410D00
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:07] DEBUG: Comando enviado: 0105 | Respuesta: 0105
+410580
+41057F
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:07] INFO: Datos: {'timestamp': '2025-06-05 14:24:06.969', 'escenario': 'wifi_real', 'rpm': None, 'vel': None, 'temp': None} | Contexto: wifi_dashboard
+[2025-06-05 14:24:09] DEBUG: Comando enviado: 010C | Respuesta: 010C
+410C0E9C
+410C0E88
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:09] DEBUG: Comando enviado: 010D | Respuesta: 010D
+410D00
+410D00
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:09] DEBUG: Comando enviado: 0105 | Respuesta: 0105
+410580
+41057F
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:09] INFO: Datos: {'timestamp': '2025-06-05 14:24:08.975', 'escenario': 'wifi_real', 'rpm': None, 'vel': None, 'temp': None} | Contexto: wifi_dashboard
+[2025-06-05 14:24:11] DEBUG: Comando enviado: 010C | Respuesta: 010C
+410C0E60
+410C0E4C
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:11] DEBUG: Comando enviado: 010D | Respuesta: 010D
+410D00
+410D00
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:11] DEBUG: Comando enviado: 0105 | Respuesta: 0105
+410580
+410580
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:11] INFO: Datos: {'timestamp': '2025-06-05 14:24:10.980', 'escenario': 'wifi_real', 'rpm': None, 'vel': None, 'temp': None} | Contexto: wifi_dashboard
+[2025-06-05 14:24:12] DEBUG: Comando enviado: 010C | Respuesta: 010C
+410C0E0C
+410C0E0C
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:12] DEBUG: Comando enviado: 010D | Respuesta: 010D
+410D00
+410D00
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:13] DEBUG: Comando enviado: 0105 | Respuesta: 0105
+410581
+410580
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:13] INFO: Datos: {'timestamp': '2025-06-05 14:24:12.492', 'escenario': 'wifi_real', 'rpm': None, 'vel': None, 'temp': None} | Contexto: wifi_dashboard
+[2025-06-05 14:24:13] DEBUG: Comando enviado: 010C | Respuesta: 010C
+410C0DAC
+410C0DAC
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:13] DEBUG: Comando enviado: 010D | Respuesta: 010D
+410D00
+410D00
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:13] DEBUG: Comando enviado: 0105 | Respuesta: 0105
+410581
+410580
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:13] INFO: Datos: {'timestamp': '2025-06-05 14:24:13.096', 'escenario': 'wifi_real', 'rpm': None, 'vel': None, 'temp': None} | Contexto: wifi_dashboard
+[2025-06-05 14:24:15] DEBUG: Comando enviado: 010C | Respuesta: 010C
+410C0D80
+410C0D90
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:15] DEBUG: Comando enviado: 010D | Respuesta: 010D
+410D00
+410D00
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:15] DEBUG: Comando enviado: 0105 | Respuesta: 0105
+410581
+410580
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:15] INFO: Datos: {'timestamp': '2025-06-05 14:24:14.982', 'escenario': 'wifi_real', 'rpm': None, 'vel': None, 'temp': None} | Contexto: wifi_dashboard
+[2025-06-05 14:24:17] DEBUG: Comando enviado: 010C | Respuesta: 010C
+410C0D24
+410C0D10
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:17] DEBUG: Comando enviado: 010D | Respuesta: 010D
+410D00
+410D00
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:17] DEBUG: Comando enviado: 0105 | Respuesta: 0105
+410581
+410580 | Contexto: elm327_wifi
+[2025-06-05 14:24:17] INFO: Datos: {'timestamp': '2025-06-05 14:24:16.974', 'escenario': 'wifi_real', 'rpm': None, 'vel': None, 'temp': None} | Contexto: wifi_dashboard
+[2025-06-05 14:24:19] DEBUG: Comando enviado: 010C | Respuesta: >010C
+410C0CA8
+410C0CA8 | Contexto: elm327_wifi
+[2025-06-05 14:24:19] DEBUG: Comando enviado: 010D | Respuesta: >010D
+410D00
+410D00
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:19] DEBUG: Comando enviado: 0105 | Respuesta: 0105
+410581
+410580 | Contexto: elm327_wifi
+[2025-06-05 14:24:19] INFO: Datos: {'timestamp': '2025-06-05 14:24:18.973', 'escenario': 'wifi_real', 'rpm': None, 'vel': None, 'temp': None} | Contexto: wifi_dashboard
+[2025-06-05 14:24:21] DEBUG: Comando enviado: 010C | Respuesta: >010C
+410C0C48
+410C0C50 | Contexto: elm327_wifi
+[2025-06-05 14:24:21] DEBUG: Comando enviado: 010D | Respuesta: >010D
+410D00
+410D00
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:21] DEBUG: Comando enviado: 0105 | Respuesta: 0105
+410581
+410580 | Contexto: elm327_wifi
+[2025-06-05 14:24:21] INFO: Datos: {'timestamp': '2025-06-05 14:24:20.987', 'escenario': 'wifi_real', 'rpm': None, 'vel': None, 'temp': None} | Contexto: wifi_dashboard
+[2025-06-05 14:24:21] DEBUG: Comando enviado: 010C | Respuesta: >010C
+410C0C2C
+410C0C2C
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:21] DEBUG: Comando enviado: 010D | Respuesta: 010D
+410D00
+410D00 | Contexto: elm327_wifi
+[2025-06-05 14:24:22] DEBUG: Comando enviado: 0105 | Respuesta: >0105
+410581
+410580
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:22] INFO: Datos: {'timestamp': '2025-06-05 14:24:21.595', 'escenario': 'wifi_real', 'rpm': None, 'vel': None, 'temp': None} | Contexto: wifi_dashboard
+[2025-06-05 14:24:22] DEBUG: Comando enviado: 010C | Respuesta: 010C
+410C0BC4
+410C0BD8 | Contexto: elm327_wifi
+[2025-06-05 14:24:22] DEBUG: Comando enviado: 010D | Respuesta: >010D
+410D00
+410D00
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:22] DEBUG: Comando enviado: 0105 | Respuesta: 0105
+410581
+410580 | Contexto: elm327_wifi
+[2025-06-05 14:24:22] INFO: Datos: {'timestamp': '2025-06-05 14:24:22.283', 'escenario': 'wifi_real', 'rpm': None, 'vel': None, 'temp': None} | Contexto: wifi_dashboard
+[2025-06-05 14:24:23] DEBUG: Comando enviado: 010C | Respuesta: >010C
+410C0BE0
+410C0BFC | Contexto: elm327_wifi
+[2025-06-05 14:24:23] DEBUG: Comando enviado: 010D | Respuesta: >010D
+410D00
+410D00
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:23] DEBUG: Comando enviado: 0105 | Respuesta: 0105
+410581
+410580 | Contexto: elm327_wifi
+[2025-06-05 14:24:23] INFO: Datos: {'timestamp': '2025-06-05 14:24:22.974', 'escenario': 'wifi_real', 'rpm': None, 'vel': None, 'temp': None} | Contexto: wifi_dashboard
+[2025-06-05 14:24:23] INFO: Desconectado de ELM327 WiFi | Contexto: elm327_wifi
+[2025-06-05 14:24:25] INFO: Conexión TCP/IP establecida | Contexto: elm327_wifi
+[2025-06-05 14:24:25] ERROR: Fallo al enviar comando: No conectado | Contexto: elm327_wifi
+[2025-06-05 14:24:25] ERROR: Fallo al enviar comando: No conectado | Contexto: elm327_wifi
+[2025-06-05 14:24:25] ERROR: Fallo al enviar comando: No conectado | Contexto: elm327_wifi
+[2025-06-05 14:24:25] ERROR: Fallo al enviar comando: No conectado | Contexto: elm327_wifi
+[2025-06-05 14:24:26] ERROR: Fallo al enviar comando: No conectado | Contexto: elm327_wifi
+[2025-06-05 14:24:27] DEBUG: Comando enviado: 010C | Respuesta: 010C
+410C0B30
+410C0B54
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:28] DEBUG: Comando enviado: 010D | Respuesta: 010D
+410D00
+410D00
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:28] DEBUG: Comando enviado: 0105 | Respuesta: 0105
+410580
+410580
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:28] INFO: Datos: {'timestamp': '2025-06-05 14:24:27.787', 'escenario': 'wifi_real', 'rpm': None, 'vel': None, 'temp': None} | Contexto: wifi_dashboard
+[2025-06-05 14:24:28] DEBUG: Comando enviado: 010C | Respuesta: 010C
+410C0AF4
+410C0AF4
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:28] DEBUG: Comando enviado: 010D | Respuesta: 010D
+410D00
+410D00
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:29] DEBUG: Comando enviado: 0105 | Respuesta: 0105
+410580
+410580
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:29] INFO: Datos: {'timestamp': '2025-06-05 14:24:28.581', 'escenario': 'wifi_real', 'rpm': None, 'vel': None, 'temp': None} | Contexto: wifi_dashboard
+[2025-06-05 14:24:30] DEBUG: Comando enviado: 010C | Respuesta: 010C
+410C0AE8
+410C0AF0
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:30] DEBUG: Comando enviado: 010D | Respuesta: 010D
+410D00
+410D00
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:31] DEBUG: Comando enviado: 0105 | Respuesta: 0105
+410580
+410580
+
+> | Contexto: elm327_wifi
+[2025-06-05 14:24:31] INFO: Datos: {'timestamp': '2025-06-05 14:24:30.579', 'escenario': 'wifi_real', 'rpm': None, 'vel': None, 'temp': None} | Contexto: wifi_dashboard
+2025-06-05 14:24:50,844 [INFO][Dummy-1] [WORKER] Iniciando ciclo de adquisición
+2025-06-05 14:24:50,846 [ERROR][Dummy-1] [WORKER][EXCEPTION] 'OBDDataSource' object has no attribute 'read_data'
+Traceback (most recent call last):
+  File "C:\proyecto01junio\src\ui\dashboard_gui.py", line 872, in run
+    datos = self.data_source.read_data(pids)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OBDDataSource' object has no attribute 'read_data'
+
+2025-06-05 14:24:50,846 [INFO][Dummy-1] [WORKER] Ciclo de adquisición detenido
+2025-06-05 14:24:50,869 [ERROR][MainThread] [WORKER][ERROR] 'OBDDataSource' object has no attribute 'read_data'
+2025-06-05 14:24:55,700 [INFO][MainThread] [WORKER] stop() llamado
+2025-06-05 14:24:55,700 [INFO][MainThread] [WORKER] stop() llamado
+2025-06-05 14:24:55,703 [INFO][Dummy-2] [WORKER] Iniciando ciclo de adquisición
+2025-06-05 14:24:55,704 [ERROR][Dummy-2] [WORKER][EXCEPTION] 'OBDDataSource' object has no attribute 'read_data'
+Traceback (most recent call last):
+  File "C:\proyecto01junio\src\ui\dashboard_gui.py", line 872, in run
+    datos = self.data_source.read_data(pids)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OBDDataSource' object has no attribute 'read_data'
+
+2025-06-05 14:24:55,705 [INFO][Dummy-2] [WORKER] Ciclo de adquisición detenido
+2025-06-05 14:24:55,705 [ERROR][MainThread] [WORKER][ERROR] 'OBDDataSource' object has no attribute 'read_data'
+2025-06-05 14:24:59,594 [INFO][MainThread] Botón Conectar presionado.
+[2025-06-05 14:25:01] INFO: Handshake OK con ELM327 | Contexto: connect
+2025-06-05 14:25:09,082 [INFO][MainThread] PIDs seleccionados: ['rpm', 'vel', 'temp', 'temp_aire']
+2025-06-05 14:25:09,770 [INFO][MainThread] PIDs seleccionados: ['rpm', 'vel', 'temp_aire']
+2025-06-05 14:25:10,499 [INFO][MainThread] PIDs seleccionados: ['rpm', 'temp_aire']
+2025-06-05 14:25:11,034 [INFO][MainThread] PIDs seleccionados: ['temp_aire']
+2025-06-05 14:25:12,426 [INFO][MainThread] PIDs seleccionados: []
+2025-06-05 14:25:13,034 [INFO][MainThread] PIDs seleccionados: []
+2025-06-05 14:25:13,530 [INFO][MainThread] PIDs seleccionados: []
+2025-06-05 14:25:14,307 [INFO][MainThread] PIDs seleccionados: []
+2025-06-05 14:25:14,786 [INFO][MainThread] PIDs seleccionados: ['rpm']
+2025-06-05 14:25:16,050 [INFO][MainThread] PIDs seleccionados: ['rpm', 'vel']
+2025-06-05 14:25:16,986 [INFO][MainThread] PIDs seleccionados: ['rpm', 'vel', 'temp']
+2025-06-05 14:25:17,914 [INFO][MainThread] PIDs seleccionados: ['rpm', 'vel', 'temp', 'temp_aire']
+2025-06-05 14:25:18,779 [INFO][MainThread] PIDs seleccionados: ['rpm', 'vel', 'temp', 'temp_aire']
+2025-06-05 14:25:19,946 [INFO][MainThread] PIDs seleccionados: ['rpm', 'vel', 'temp', 'temp_aire']
+2025-06-05 14:25:20,858 [INFO][MainThread] PIDs seleccionados: ['rpm', 'vel', 'temp', 'temp_aire']
+2025-06-05 14:25:22,018 [INFO][MainThread] PIDs seleccionados: ['rpm', 'vel', 'temp', 'temp_aire']
+2025-06-05 14:25:23,722 [INFO][MainThread] Botón Conectar presionado.
+[2025-06-05 14:25:25] INFO: Handshake OK con ELM327 | Contexto: connect
+2025-06-05 14:25:25,531 [INFO][MainThread] Botón Desconectar presionado.
+[2025-06-05 14:25:25] INFO: Desconexión OBD-II exitosa | Contexto: disconnect
+[2025-06-05 14:25:25] INFO: Base de datos cerrada | Contexto: disconnect
+2025-06-05 14:25:25,533 [INFO][MainThread] [WORKER] stop() llamado
+2025-06-05 14:25:26,834 [INFO][MainThread] Botón Conectar presionado.
+[2025-06-05 14:25:28] INFO: Handshake OK con ELM327 | Contexto: connect
+2025-06-05 14:25:31,602 [INFO][MainThread] Botón Conectar presionado.
+[2025-06-05 14:25:33] INFO: Handshake OK con ELM327 | Contexto: connect
+2025-06-05 14:25:40,932 [INFO][MainThread] [WORKER] stop() llamado
+2025-06-05 14:51:49,951 [INFO][Dummy-1] [WORKER] Iniciando ciclo de adquisición
+2025-06-05 14:51:50,867 [INFO][MainThread] [WORKER][HEARTBEAT] worker-alive-10
+2025-06-05 14:51:51,870 [INFO][MainThread] [WORKER][HEARTBEAT] worker-alive-20
+2025-06-05 14:51:52,876 [INFO][MainThread] [WORKER][HEARTBEAT] worker-alive-30
+2025-06-05 14:51:53,416 [INFO][MainThread] [WORKER] stop() llamado
+2025-06-05 14:51:53,476 [INFO][Dummy-1] [WORKER] Ciclo de adquisición detenido
+2025-06-05 14:51:53,476 [INFO][MainThread] [WORKER] stop() llamado
+2025-06-05 14:51:53,478 [INFO][Dummy-2] [WORKER] Iniciando ciclo de adquisición
+[2025-06-05 14:51:53] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 14:51:53] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 14:51:53] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 14:51:54] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 14:51:54] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 14:51:54] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 14:51:54] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 14:51:54] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 14:51:55] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+2025-06-05 14:51:55,124 [INFO][MainThread] Botón Conectar presionado.
+[2025-06-05 14:51:55] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<src.obd.elm327.ELM327 object at 0x000001B09DB756A0> | Contexto: read_data
+[2025-06-05 14:51:55] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<src.obd.elm327.ELM327 object at 0x000001B09DB756A0> | Contexto: read_data
+[2025-06-05 14:51:55] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<src.obd.elm327.ELM327 object at 0x000001B09DB756A0> | Contexto: read_data
+[2025-06-05 14:51:55] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<src.obd.elm327.ELM327 object at 0x000001B09DB756A0> | Contexto: read_data
+[2025-06-05 14:51:56] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<src.obd.elm327.ELM327 object at 0x000001B09DB756A0> | Contexto: read_data
+[2025-06-05 14:51:56] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<src.obd.elm327.ELM327 object at 0x000001B09DB756A0> | Contexto: read_data
+[2025-06-05 14:51:56] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<src.obd.elm327.ELM327 object at 0x000001B09DB756A0> | Contexto: read_data
+[2025-06-05 14:51:56] INFO: Handshake OK con ELM327 | Contexto: connect
+2025-06-05 14:51:56,654 [INFO][MainThread] [WORKER][HEARTBEAT] worker-alive-10
+[2025-06-05 14:51:57] ADVERTENCIA: [PARSE][rpm] Ninguna línea válida para RPM. cmd=010C, resp=SEARCHING...
+
+[2025-06-05 14:51:57] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 1. Resp: SEARCHING...
+ | Contexto: read_data
+[2025-06-05 14:51:57] ADVERTENCIA: [PARSE][rpm] Ninguna línea válida para RPM. cmd=010C, resp=STOPPED
+
+>
+[2025-06-05 14:51:57] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 2. Resp: STOPPED
+
+> | Contexto: read_data
+[2025-06-05 14:51:57] ADVERTENCIA: [PARSE][rpm] Ninguna línea válida para RPM. cmd=010C, resp=SEARCHING...
+
+[2025-06-05 14:51:57] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 3. Resp: SEARCHING...
+ | Contexto: read_data
+[2025-06-05 14:51:57] INFO: [OBD] PID=rpm, valor=0 | Contexto: read_data
+[2025-06-05 14:51:58] ADVERTENCIA: [PARSE][vel] Ninguna línea válida para velocidad.
+cmd=010D, resp=STOPPED
+
+>
+[2025-06-05 14:51:58] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 1. Resp: STOPPED
+
+> | Contexto: read_data
+[2025-06-05 14:51:58] ADVERTENCIA: [PARSE][vel] Ninguna línea válida para velocidad.
+cmd=010D, resp=SEARCHING...
+
+[2025-06-05 14:51:58] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 2. Resp: SEARCHING...
+ | Contexto: read_data
+[2025-06-05 14:51:59] ADVERTENCIA: [PARSE][vel] Ninguna línea válida para velocidad.
+cmd=010D, resp=STOPPED
+
+>
+[2025-06-05 14:51:59] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 3. Resp: STOPPED
+
+> | Contexto: read_data
+[2025-06-05 14:51:59] INFO: [OBD] PID=vel, valor=0 | Contexto: read_data
+[2025-06-05 14:51:59] ADVERTENCIA: [PARSE][temp] Ninguna línea válida para temp.
+cmd=0105, resp=SEARCHING...
+
+[2025-06-05 14:51:59] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp en intento 1. Resp: SEARCHING...
+ | Contexto: read_data
+[2025-06-05 14:51:59] ADVERTENCIA: [PARSE][temp] Ninguna línea válida para temp.
+cmd=0105, resp=STOPPED
+
+>
+[2025-06-05 14:51:59] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp en intento 2. Resp: STOPPED
+
+> | Contexto: read_data
+[2025-06-05 14:52:00] ADVERTENCIA: [PARSE][temp] Ninguna línea válida para temp.
+cmd=0105, resp=SEARCHING...
+
+[2025-06-05 14:52:00] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp en intento 3. Resp: SEARCHING...
+ | Contexto: read_data
+[2025-06-05 14:52:00] INFO: [OBD] PID=temp, valor=0 | Contexto: read_data
+[2025-06-05 14:52:00] ADVERTENCIA: [PARSE][temp_aire] Ninguna línea válida para temp_aire.
+cmd=010F, resp=STOPPED
+
+>
+[2025-06-05 14:52:00] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp_aire en intento 1. Resp: STOPPED
+
+> | Contexto: read_data
+[2025-06-05 14:52:00] ADVERTENCIA: [PARSE][temp_aire] Ninguna línea válida para temp_aire.
+cmd=010F, resp=SEARCHING...
+
+[2025-06-05 14:52:00] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp_aire en intento 2. Resp: SEARCHING...
+ | Contexto: read_data
+[2025-06-05 14:52:01] ADVERTENCIA: [PARSE][temp_aire] Ninguna línea válida para temp_aire.
+cmd=010F, resp=STOPPED
+
+>
+[2025-06-05 14:52:01] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp_aire en intento 3. Resp: STOPPED
+
+> | Contexto: read_data
+[2025-06-05 14:52:01] INFO: [OBD] PID=temp_aire, valor=0 | Contexto: read_data
+[2025-06-05 14:52:01] ADVERTENCIA: [PARSE][rpm] Ninguna línea válida para RPM. cmd=010C, resp=SEARCHING...
+
+[2025-06-05 14:52:01] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 1. Resp: SEARCHING...
+ | Contexto: read_data
+[2025-06-05 14:52:02] ADVERTENCIA: [PARSE][rpm] Ninguna línea válida para RPM. cmd=010C, resp=STOPPED
+
+>
+[2025-06-05 14:52:02] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 2. Resp: STOPPED
+
+> | Contexto: read_data
+[2025-06-05 14:52:02] ADVERTENCIA: [PARSE][rpm] Ninguna línea válida para RPM. cmd=010C, resp=SEARCHING...
+
+[2025-06-05 14:52:02] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 3. Resp: SEARCHING...
+ | Contexto: read_data
+[2025-06-05 14:52:02] INFO: [OBD] PID=rpm, valor=0 | Contexto: read_data
+[2025-06-05 14:52:02] ADVERTENCIA: [PARSE][vel] Ninguna línea válida para velocidad.
+cmd=010D, resp=STOPPED
+
+>SEARCHING...
+
+[2025-06-05 14:52:02] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 1. Resp: STOPPED
+
+>SEARCHING...
+ | Contexto: read_data
+[2025-06-05 14:52:02] ADVERTENCIA: [PARSE][vel] Ninguna línea válida para velocidad.
+cmd=010D, resp=STOPPED
+
+>SEARCHING...
+
+[2025-06-05 14:52:02] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 2. Resp: STOPPED
+
+>SEARCHING...
+ | Contexto: read_data
+[2025-06-05 14:52:02] ADVERTENCIA: [PARSE][vel] Ninguna línea válida para velocidad.
+cmd=010D, resp=STOPPED
+
+>SEARCHING...
+
+[2025-06-05 14:52:02] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 3. Resp: STOPPED
+
+>SEARCHING...
+ | Contexto: read_data
+[2025-06-05 14:52:02] INFO: [OBD] PID=vel, valor=0 | Contexto: read_data
+[2025-06-05 14:52:03] ADVERTENCIA: [PARSE][temp] Ninguna línea válida para temp.
+cmd=0105, resp=STOPPED
+
+>SEARCHING...
+
+[2025-06-05 14:52:03] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp en intento 1. Resp: STOPPED
+
+>SEARCHING...
+ | Contexto: read_data
+[2025-06-05 14:52:03] ADVERTENCIA: [PARSE][temp] Ninguna línea válida para temp.
+cmd=0105, resp=STOPPED
+
+>SEARCHING...
+
+[2025-06-05 14:52:03] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp en intento 2. Resp: STOPPED
+
+>SEARCHING...
+ | Contexto: read_data
+[2025-06-05 14:52:03] ADVERTENCIA: [PARSE][temp] Ninguna línea válida para temp.
+cmd=0105, resp=STOPPED
+
+>SEARCHING...
+
+[2025-06-05 14:52:03] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp en intento 3. Resp: STOPPED
+
+>SEARCHING...
+ | Contexto: read_data
+[2025-06-05 14:52:03] INFO: [OBD] PID=temp, valor=0 | Contexto: read_data
+[2025-06-05 14:52:03] ADVERTENCIA: [PARSE][temp_aire] Ninguna línea válida para temp_aire.
+cmd=010F, resp=STOPPED
+
+>SEARCHING...
+
+[2025-06-05 14:52:03] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp_aire en intento 1. Resp: STOPPED
+
+>SEARCHING...
+ | Contexto: read_data
+[2025-06-05 14:52:03] ADVERTENCIA: [PARSE][temp_aire] Ninguna línea válida para temp_aire.
+cmd=010F, resp=STOPPED
+
+>SEARCHING...
+
+[2025-06-05 14:52:03] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp_aire en intento 2. Resp: STOPPED
+
+>SEARCHING...
+ | Contexto: read_data
+[2025-06-05 14:52:04] ADVERTENCIA: [PARSE][temp_aire] Ninguna línea válida para temp_aire.
+cmd=010F, resp=STOPPED
+
+>SEARCHING...
+
+[2025-06-05 14:52:04] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp_aire en intento 3. Resp: STOPPED
+
+>SEARCHING...
+ | Contexto: read_data
+[2025-06-05 14:52:04] INFO: [OBD] PID=temp_aire, valor=0 | Contexto: read_data
+[2025-06-05 14:52:04] ADVERTENCIA: [PARSE][rpm] Ninguna línea válida para RPM. cmd=010C, resp=STOPPED
+
+>SEARCHING...
+
+[2025-06-05 14:52:04] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 1. Resp: STOPPED
+
+>SEARCHING...
+ | Contexto: read_data
+[2025-06-05 14:52:04] ADVERTENCIA: [PARSE][rpm] Ninguna línea válida para RPM. cmd=010C, resp=STOPPED
+
+>SEARCHING...
+
+[2025-06-05 14:52:04] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 2. Resp: STOPPED
+
+>SEARCHING...
+ | Contexto: read_data
+[2025-06-05 14:52:04] ADVERTENCIA: [PARSE][rpm] Ninguna línea válida para RPM. cmd=010C, resp=STOPPED
+
+>SEARCHING...
+
+[2025-06-05 14:52:04] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 3. Resp: STOPPED
+
+>SEARCHING...
+ | Contexto: read_data
+[2025-06-05 14:52:04] INFO: [OBD] PID=rpm, valor=0 | Contexto: read_data
+[2025-06-05 14:52:05] ADVERTENCIA: [PARSE][vel] Ninguna línea válida para velocidad.
+cmd=010D, resp=STOPPED
+
+>SEARCHING...
+
+[2025-06-05 14:52:05] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 1. Resp: STOPPED
+
+>SEARCHING...
+ | Contexto: read_data
+[2025-06-05 14:52:05] ADVERTENCIA: [PARSE][vel] Ninguna línea válida para velocidad.
+cmd=010D, resp=STOPPED
+
+>SEARCHING...
+
+[2025-06-05 14:52:05] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 2. Resp: STOPPED
+
+>SEARCHING...
+ | Contexto: read_data
+[2025-06-05 14:52:05] ADVERTENCIA: [PARSE][vel] Ninguna línea válida para velocidad.
+cmd=010D, resp=7F1012
+7F1013
+STOPPED
+
+>7F1012
+7F1013
+
+[2025-06-05 14:52:05] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 3. Resp: 7F1012
+7F1013
+STOPPED
+
+>7F1012
+7F1013
+ | Contexto: read_data
+[2025-06-05 14:52:05] INFO: [OBD] PID=vel, valor=0 | Contexto: read_data
+[2025-06-05 14:52:05] ADVERTENCIA: [PARSE][temp] Ninguna línea válida para temp.
+cmd=0105, resp=STOPPED
+
+>7F1012
+7F1013
+
+[2025-06-05 14:52:05] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp en intento 1. Resp: STOPPED
+
+>7F1012
+7F1013
+ | Contexto: read_data
+[2025-06-05 14:52:05] INFO: [OBD] PID=temp, valor=88 | Contexto: read_data
+[2025-06-05 14:52:06] INFO: [OBD] PID=temp_aire, valor=63 | Contexto: read_data
+[2025-06-05 14:52:06] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 1. Resp: 
+>410C0000
+410C0000
+ | Contexto: read_data
+[2025-06-05 14:52:06] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 2. Resp: 
+>410C0000
+410C0000
+ | Contexto: read_data
+[2025-06-05 14:52:06] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 3. Resp: 
+>410C0000
+410C0000
+ | Contexto: read_data
+[2025-06-05 14:52:06] INFO: [OBD] PID=rpm, valor=0 | Contexto: read_data
+[2025-06-05 14:52:06] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 1. Resp: 
+>410D00
+410D00
+ | Contexto: read_data
+[2025-06-05 14:52:06] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 2. Resp: 
+>410D00
+410D00
+ | Contexto: read_data
+[2025-06-05 14:52:07] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 3. Resp: 
+>410D00
+410D00
+ | Contexto: read_data
+[2025-06-05 14:52:07] INFO: [OBD] PID=vel, valor=0 | Contexto: read_data
+[2025-06-05 14:52:07] INFO: [OBD] PID=temp, valor=88 | Contexto: read_data
+[2025-06-05 14:52:07] INFO: [OBD] PID=temp_aire, valor=63 | Contexto: read_data
+[2025-06-05 14:52:07] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 1. Resp: 
+>410C0000
+410C0000
+ | Contexto: read_data
+[2025-06-05 14:52:08] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 2. Resp: 
+>410C0000
+410C0000
+ | Contexto: read_data
+[2025-06-05 14:52:08] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 3. Resp: 
+>410C0000
+410C0000
+ | Contexto: read_data
+[2025-06-05 14:52:08] INFO: [OBD] PID=rpm, valor=0 | Contexto: read_data
+[2025-06-05 14:52:08] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 1. Resp: 
+>410D00
+410D00
+ | Contexto: read_data
+[2025-06-05 14:52:08] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 2. Resp: 
+>410D00
+410D00
+ | Contexto: read_data
+[2025-06-05 14:52:08] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 3. Resp: 
+>410D00
+410D00
+ | Contexto: read_data
+[2025-06-05 14:52:08] INFO: [OBD] PID=vel, valor=0 | Contexto: read_data
+[2025-06-05 14:52:08] INFO: [OBD] PID=temp, valor=88 | Contexto: read_data
+[2025-06-05 14:52:09] INFO: [OBD] PID=temp_aire, valor=63 | Contexto: read_data
+[2025-06-05 14:52:09] INFO: [OBD] PID=rpm, valor=1598 | Contexto: read_data
+[2025-06-05 14:52:09] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 1. Resp: 
+>410D00
+410D00
+
+> | Contexto: read_data
+[2025-06-05 14:52:09] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 2. Resp: 410D00
+410D00
+ | Contexto: read_data
+[2025-06-05 14:52:09] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 3. Resp: 
+>410D00
+410D00
+ | Contexto: read_data
+[2025-06-05 14:52:09] INFO: [OBD] PID=vel, valor=0 | Contexto: read_data
+[2025-06-05 14:52:09] INFO: [OBD] PID=temp, valor=88 | Contexto: read_data
+[2025-06-05 14:52:09] INFO: [OBD] PID=temp_aire, valor=63 | Contexto: read_data
+[2025-06-05 14:52:10] INFO: [OBD] PID=rpm, valor=1136 | Contexto: read_data
+[2025-06-05 14:52:10] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 1. Resp: 
+>410D00
+410D00
+ | Contexto: read_data
+[2025-06-05 14:52:10] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 2. Resp: 
+>410D00
+410D00
+ | Contexto: read_data
+[2025-06-05 14:52:10] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 3. Resp: 
+>410D00
+410D00
+ | Contexto: read_data
+[2025-06-05 14:52:10] INFO: [OBD] PID=vel, valor=0 | Contexto: read_data
+[2025-06-05 14:52:10] INFO: [OBD] PID=temp, valor=88 | Contexto: read_data
+[2025-06-05 14:52:11] INFO: [OBD] PID=temp_aire, valor=62 | Contexto: read_data
+[2025-06-05 14:52:11] INFO: [OBD] PID=rpm, valor=1104 | Contexto: read_data
+[2025-06-05 14:52:11] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 1. Resp: 
+>410D00
+410D00
+ | Contexto: read_data
+[2025-06-05 14:52:11] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 2. Resp: 
+>410D00
+410D00
+ | Contexto: read_data
+[2025-06-05 14:52:11] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 3. Resp: 
+>410D00
+410D00
+ | Contexto: read_data
+[2025-06-05 14:52:11] INFO: [OBD] PID=vel, valor=0 | Contexto: read_data
+[2025-06-05 14:52:11] INFO: [OBD] PID=temp, valor=88 | Contexto: read_data
+[2025-06-05 14:52:12] INFO: [OBD] PID=temp_aire, valor=62 | Contexto: read_data
+2025-06-05 14:52:12,004 [INFO][MainThread] [WORKER][HEARTBEAT] worker-alive-20
+[2025-06-05 14:52:12] INFO: [OBD] PID=rpm, valor=1104 | Contexto: read_data
+[2025-06-05 14:52:12] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 1. Resp: 
+>410D00
+410D00
+ | Contexto: read_data
+[2025-06-05 14:52:12] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 2. Resp: 
+>410D00
+410D00
+
+> | Contexto: read_data
+[2025-06-05 14:52:12] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 3. Resp: 410D00
+410D00
+ | Contexto: read_data
+[2025-06-05 14:52:12] INFO: [OBD] PID=vel, valor=0 | Contexto: read_data
+[2025-06-05 14:52:13] INFO: [OBD] PID=temp, valor=88 | Contexto: read_data
+[2025-06-05 14:52:13] INFO: [OBD] PID=temp_aire, valor=61 | Contexto: read_data
+[2025-06-05 14:52:13] INFO: [OBD] PID=rpm, valor=1094 | Contexto: read_data
+[2025-06-05 14:52:13] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 1. Resp: 
+>410D00
+410D00
+ | Contexto: read_data
+[2025-06-05 14:52:13] ADVERTENCIA: [PARSE][vel] Ninguna línea válida para velocidad.
+cmd=010D, resp=
+>
+[2025-06-05 14:52:13] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 2. Resp: 
+> | Contexto: read_data
+[2025-06-05 14:52:13] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 3. Resp: 410D00
+410D00
+
+> | Contexto: read_data
+[2025-06-05 14:52:13] INFO: [OBD] PID=vel, valor=0 | Contexto: read_data
+[2025-06-05 14:52:13] ADVERTENCIA: [PARSE][temp] Ninguna línea válida para temp.
+cmd=0105, resp=410D00
+410D00
+
+>
+[2025-06-05 14:52:13] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp en intento 1. Resp: 410D00
+410D00
+
+> | Contexto: read_data
+[2025-06-05 14:52:14] INFO: [OBD] PID=temp, valor=87 | Contexto: read_data
+[2025-06-05 14:52:14] ADVERTENCIA: [PARSE][temp_aire] Ninguna línea válida para temp_aire.
+cmd=010F, resp=41057F
+41057E
+
+[2025-06-05 14:52:14] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp_aire en intento 1. Resp: 41057F
+41057E
+ | Contexto: read_data
+[2025-06-05 14:52:14] INFO: [OBD] PID=temp_aire, valor=61 | Contexto: read_data
+[2025-06-05 14:52:14] ADVERTENCIA: [PARSE][rpm] Ninguna línea válida para RPM. cmd=010C, resp=410F65
+
+>
+[2025-06-05 14:52:14] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 1. Resp: 410F65
+
+> | Contexto: read_data
+[2025-06-05 14:52:15] INFO: [OBD] PID=rpm, valor=1125 | Contexto: read_data
+[2025-06-05 14:52:15] ADVERTENCIA: [PARSE][vel] Ninguna línea válida para velocidad.
+cmd=010D, resp=
+>
+[2025-06-05 14:52:15] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 1. Resp: 
+> | Contexto: read_data
+[2025-06-05 14:52:15] ADVERTENCIA: [PARSE][vel] Ninguna línea válida para velocidad.
+cmd=010D, resp=410C1184
+410C1184
+
+>
+[2025-06-05 14:52:15] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 2. Resp: 410C1184
+410C1184
+
+> | Contexto: read_data
+[2025-06-05 14:52:15] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 3. Resp: 410D00
+410D00
+
+>410D00
+410D00
+
+> | Contexto: read_data
+[2025-06-05 14:52:15] INFO: [OBD] PID=vel, valor=0 | Contexto: read_data
+[2025-06-05 14:52:15] ADVERTENCIA: [PARSE][temp] Ninguna línea válida para temp.
+cmd=0105, resp=410D00
+410D00
+
+>
+[2025-06-05 14:52:15] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp en intento 1. Resp: 410D00
+410D00
+
+> | Contexto: read_data
+[2025-06-05 14:52:16] INFO: [OBD] PID=temp, valor=86 | Contexto: read_data
+[2025-06-05 14:52:16] ADVERTENCIA: [PARSE][temp_aire] Ninguna línea válida para temp_aire.
+cmd=010F, resp=41057E
+41057E
+
+>
+[2025-06-05 14:52:16] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp_aire en intento 1. Resp: 41057E
+41057E
+
+> | Contexto: read_data
+[2025-06-05 14:52:16] INFO: [OBD] PID=temp_aire, valor=61 | Contexto: read_data
+[2025-06-05 14:52:16] ADVERTENCIA: [PARSE][rpm] Ninguna línea válida para RPM. cmd=010C, resp=410F65
+
+[2025-06-05 14:52:16] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 1. Resp: 410F65
+ | Contexto: read_data
+[2025-06-05 14:52:16] INFO: [OBD] PID=rpm, valor=1110 | Contexto: read_data
+[2025-06-05 14:52:16] ADVERTENCIA: [PARSE][vel] Ninguna línea válida para velocidad.
+cmd=010D, resp=410C115C
+410C1150
+
+>
+[2025-06-05 14:52:16] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 1. Resp: 410C115C
+410C1150
+
+> | Contexto: read_data
+[2025-06-05 14:52:17] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 2. Resp: 410D00
+410D00
+
+> | Contexto: read_data
+[2025-06-05 14:52:17] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 3. Resp: 410D00
+410D00
+
+> | Contexto: read_data
+[2025-06-05 14:52:17] INFO: [OBD] PID=vel, valor=0 | Contexto: read_data
+[2025-06-05 14:52:17] ADVERTENCIA: [PARSE][temp] Ninguna línea válida para temp.
+cmd=0105, resp=410D00
+410D00
+
+[2025-06-05 14:52:17] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp en intento 1. Resp: 410D00
+410D00
+ | Contexto: read_data
+[2025-06-05 14:52:17] INFO: [OBD] PID=temp, valor=85 | Contexto: read_data
+[2025-06-05 14:52:17] ADVERTENCIA: [PARSE][temp_aire] Ninguna línea válida para temp_aire.
+cmd=010F, resp=41057D
+41057D
+
+>
+[2025-06-05 14:52:17] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp_aire en intento 1. Resp: 41057D
+41057D
+
+> | Contexto: read_data
+[2025-06-05 14:52:18] INFO: [OBD] PID=temp_aire, valor=60 | Contexto: read_data
+[2025-06-05 14:52:18] ADVERTENCIA: [PARSE][rpm] Ninguna línea válida para RPM. cmd=010C, resp=410F64
+
+>
+[2025-06-05 14:52:18] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 1. Resp: 410F64
+
+> | Contexto: read_data
+[2025-06-05 14:52:18] INFO: [OBD] PID=rpm, valor=1109 | Contexto: read_data
+[2025-06-05 14:52:18] ADVERTENCIA: [PARSE][vel] Ninguna línea válida para velocidad.
+cmd=010D, resp=410C1224
+410C1220
+
+>
+[2025-06-05 14:52:18] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 1. Resp: 410C1224
+410C1220
+
+> | Contexto: read_data
+[2025-06-05 14:52:19] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 2. Resp: 410D00
+410D00
+
+>410D00
+410D00
+ | Contexto: read_data
+[2025-06-05 14:52:19] ADVERTENCIA: [PARSE][vel] Ninguna línea válida para velocidad.
+cmd=010D, resp=
+>
+[2025-06-05 14:52:19] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 3. Resp: 
+> | Contexto: read_data
+[2025-06-05 14:52:19] INFO: [OBD] PID=vel, valor=0 | Contexto: read_data
+[2025-06-05 14:52:19] ADVERTENCIA: [PARSE][temp] Ninguna línea válida para temp.
+cmd=0105, resp=410D00
+410D00
+
+>
+[2025-06-05 14:52:19] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp en intento 1. Resp: 410D00
+410D00
+
+> | Contexto: read_data
+[2025-06-05 14:52:19] INFO: [OBD] PID=temp, valor=84 | Contexto: read_data
+[2025-06-05 14:52:19] ADVERTENCIA: [PARSE][temp_aire] Ninguna línea válida para temp_aire.
+cmd=010F, resp=
+>
+[2025-06-05 14:52:19] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp_aire en intento 1. Resp: 
+> | Contexto: read_data
+[2025-06-05 14:52:19] INFO: [OBD] PID=temp_aire, valor=60 | Contexto: read_data
+[2025-06-05 14:52:20] ADVERTENCIA: [PARSE][rpm] Ninguna línea válida para RPM. cmd=010C, resp=410F64
+
+>
+[2025-06-05 14:52:20] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 1. Resp: 410F64
+
+> | Contexto: read_data
+[2025-06-05 14:52:20] INFO: [OBD] PID=rpm, valor=1076 | Contexto: read_data
+[2025-06-05 14:52:20] ADVERTENCIA: [PARSE][vel] Ninguna línea válida para velocidad.
+cmd=010D, resp=410C10C8
+410C10D0
+
+>
+[2025-06-05 14:52:20] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 1. Resp: 410C10C8
+410C10D0
+
+> | Contexto: read_data
+[2025-06-05 14:52:20] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 2. Resp: 410D00
+410D00
+
+> | Contexto: read_data
+[2025-06-05 14:52:20] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 3. Resp: 410D00
+410D00
+
+> | Contexto: read_data
+[2025-06-05 14:52:20] INFO: [OBD] PID=vel, valor=0 | Contexto: read_data
+[2025-06-05 14:52:21] ADVERTENCIA: [PARSE][temp] Ninguna línea válida para temp.
+cmd=0105, resp=410D00
+410D00
+
+[2025-06-05 14:52:21] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp en intento 1. Resp: 410D00
+410D00
+ | Contexto: read_data
+[2025-06-05 14:52:21] INFO: [OBD] PID=temp, valor=83 | Contexto: read_data
+[2025-06-05 14:52:21] ADVERTENCIA: [PARSE][temp_aire] Ninguna línea válida para temp_aire.
+cmd=010F, resp=41057B
+41057D
+
+>
+[2025-06-05 14:52:21] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp_aire en intento 1. Resp: 41057B
+41057D
+
+> | Contexto: read_data
+[2025-06-05 14:52:21] INFO: [OBD] PID=temp_aire, valor=60 | Contexto: read_data
+[2025-06-05 14:52:21] ADVERTENCIA: [PARSE][rpm] Ninguna línea válida para RPM. cmd=010C, resp=410F64
+
+>
+[2025-06-05 14:52:21] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 1. Resp: 410F64
+
+> | Contexto: read_data
+[2025-06-05 14:52:22] INFO: [OBD] PID=rpm, valor=1009 | Contexto: read_data
+[2025-06-05 14:52:22] ADVERTENCIA: [PARSE][vel] Ninguna línea válida para velocidad.
+cmd=010D, resp=410C1034
+410C101C
+
+[2025-06-05 14:52:22] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 1. Resp: 410C1034
+410C101C
+ | Contexto: read_data
+[2025-06-05 14:52:22] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 2. Resp: 
+>410D00
+410D00
+
+>410D00
+410D00
+ | Contexto: read_data
+[2025-06-05 14:52:22] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 3. Resp: 
+>410D00
+ | Contexto: read_data
+[2025-06-05 14:52:22] INFO: [OBD] PID=vel, valor=0 | Contexto: read_data
+[2025-06-05 14:52:23] INFO: [OBD] PID=temp, valor=82 | Contexto: read_data
+[2025-06-05 14:52:23] INFO: [OBD] PID=temp_aire, valor=59 | Contexto: read_data
+[2025-06-05 14:52:23] ADVERTENCIA: [PARSE][rpm] Ninguna línea válida para RPM. cmd=010C, resp=NO DATA
+
+>
+[2025-06-05 14:52:23] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 1. Resp: NO DATA
+
+> | Contexto: read_data
+[2025-06-05 14:52:23] ADVERTENCIA: [PARSE][rpm] Ninguna línea válida para RPM. cmd=010C, resp=NO DATA
+
+>
+[2025-06-05 14:52:23] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 2. Resp: NO DATA
+
+> | Contexto: read_data
+[2025-06-05 14:52:24] ADVERTENCIA: [PARSE][rpm] Ninguna línea válida para RPM. cmd=010C, resp=NO DATA
+
+>
+[2025-06-05 14:52:24] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID rpm en intento 3. Resp: NO DATA
+
+> | Contexto: read_data
+[2025-06-05 14:52:24] INFO: [OBD] PID=rpm, valor=0 | Contexto: read_data
+[2025-06-05 14:52:24] ADVERTENCIA: [PARSE][vel] Ninguna línea válida para velocidad.
+cmd=010D, resp=NO DATA
+
+>
+[2025-06-05 14:52:24] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 1. Resp: NO DATA
+
+> | Contexto: read_data
+[2025-06-05 14:52:24] ADVERTENCIA: [PARSE][vel] Ninguna línea válida para velocidad.
+cmd=010D, resp=NO DATA
+
+>
+[2025-06-05 14:52:24] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 2. Resp: NO DATA
+
+> | Contexto: read_data
+[2025-06-05 14:52:25] ADVERTENCIA: [PARSE][vel] Ninguna línea válida para velocidad.
+cmd=010D, resp=NO DATA
+
+>
+[2025-06-05 14:52:25] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID vel en intento 3. Resp: NO DATA
+
+> | Contexto: read_data
+[2025-06-05 14:52:25] INFO: [OBD] PID=vel, valor=0 | Contexto: read_data
+2025-06-05 14:52:25,260 [INFO][MainThread] Botón Desconectar presionado.
+[2025-06-05 14:52:25] INFO: Desconexión OBD-II exitosa | Contexto: disconnect
+[2025-06-05 14:52:25] INFO: Base de datos cerrada | Contexto: disconnect
+2025-06-05 14:52:25,261 [INFO][MainThread] [WORKER] stop() llamado
+2025-06-05 14:52:25,331 [ERROR][Dummy-2] [BACKEND] Error al enviar comando 0105 (PID: temp)
+Traceback (most recent call last):
+  File "C:\proyecto01junio\src\ui\dashboard_gui.py", line 608, in _send_pid_command
+    resp = self.elm.send_pid(cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\proyecto01junio\src\obd\elm327.py", line 36, in send_pid
+    return self.connection.read(128)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\proyecto01junio\src\obd\connection.py", line 47, in read
+    return self.connection.recv(size).decode(errors="ignore")
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'recv'
+[2025-06-05 14:52:25] ADVERTENCIA: [OBD] Error al enviar comando 0105 (PID: temp)
+[2025-06-05 14:52:25] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp en intento 1. Resp: None | Contexto: read_data
+2025-06-05 14:52:25,486 [ERROR][Dummy-2] [BACKEND] Error al enviar comando 0105 (PID: temp)
+Traceback (most recent call last):
+  File "C:\proyecto01junio\src\ui\dashboard_gui.py", line 608, in _send_pid_command
+    resp = self.elm.send_pid(cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\proyecto01junio\src\obd\elm327.py", line 34, in send_pid
+    self.connection.write(pid_cmd + "\r")
+  File "C:\proyecto01junio\src\obd\connection.py", line 41, in write
+    self.connection.sendall(data.encode())
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'sendall'
+[2025-06-05 14:52:25] ADVERTENCIA: [OBD] Error al enviar comando 0105 (PID: temp)
+[2025-06-05 14:52:25] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp en intento 2. Resp: None | Contexto: read_data
+2025-06-05 14:52:25,638 [ERROR][Dummy-2] [BACKEND] Error al enviar comando 0105 (PID: temp)
+Traceback (most recent call last):
+  File "C:\proyecto01junio\src\ui\dashboard_gui.py", line 608, in _send_pid_command
+    resp = self.elm.send_pid(cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\proyecto01junio\src\obd\elm327.py", line 34, in send_pid
+    self.connection.write(pid_cmd + "\r")
+  File "C:\proyecto01junio\src\obd\connection.py", line 41, in write
+    self.connection.sendall(data.encode())
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'sendall'
+[2025-06-05 14:52:25] ADVERTENCIA: [OBD] Error al enviar comando 0105 (PID: temp)
+[2025-06-05 14:52:25] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp en intento 3. Resp: None | Contexto: read_data
+[2025-06-05 14:52:25] INFO: [OBD] PID=temp, valor=0 | Contexto: read_data
+2025-06-05 14:52:25,640 [ERROR][Dummy-2] [BACKEND] Error al enviar comando 010F (PID: temp_aire)
+Traceback (most recent call last):
+  File "C:\proyecto01junio\src\ui\dashboard_gui.py", line 608, in _send_pid_command
+    resp = self.elm.send_pid(cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\proyecto01junio\src\obd\elm327.py", line 34, in send_pid
+    self.connection.write(pid_cmd + "\r")
+  File "C:\proyecto01junio\src\obd\connection.py", line 41, in write
+    self.connection.sendall(data.encode())
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'sendall'
+[2025-06-05 14:52:25] ADVERTENCIA: [OBD] Error al enviar comando 010F (PID: temp_aire)
+[2025-06-05 14:52:25] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp_aire en intento 1. Resp: None | Contexto: read_data
+2025-06-05 14:52:25,793 [ERROR][Dummy-2] [BACKEND] Error al enviar comando 010F (PID: temp_aire)
+Traceback (most recent call last):
+  File "C:\proyecto01junio\src\ui\dashboard_gui.py", line 608, in _send_pid_command
+    resp = self.elm.send_pid(cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\proyecto01junio\src\obd\elm327.py", line 34, in send_pid
+    self.connection.write(pid_cmd + "\r")
+  File "C:\proyecto01junio\src\obd\connection.py", line 41, in write
+    self.connection.sendall(data.encode())
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'sendall'
+[2025-06-05 14:52:25] ADVERTENCIA: [OBD] Error al enviar comando 010F (PID: temp_aire)
+[2025-06-05 14:52:25] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp_aire en intento 2. Resp: None | Contexto: read_data
+2025-06-05 14:52:25,944 [ERROR][Dummy-2] [BACKEND] Error al enviar comando 010F (PID: temp_aire)
+Traceback (most recent call last):
+  File "C:\proyecto01junio\src\ui\dashboard_gui.py", line 608, in _send_pid_command
+    resp = self.elm.send_pid(cmd)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\proyecto01junio\src\obd\elm327.py", line 34, in send_pid
+    self.connection.write(pid_cmd + "\r")
+  File "C:\proyecto01junio\src\obd\connection.py", line 41, in write
+    self.connection.sendall(data.encode())
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'sendall'
+[2025-06-05 14:52:25] ADVERTENCIA: [OBD] Error al enviar comando 010F (PID: temp_aire)
+[2025-06-05 14:52:25] ADVERTENCIA: [OBD][REINTENTO] Valor inválido para PID temp_aire en intento 3. Resp: None | Contexto: read_data
+[2025-06-05 14:52:25] INFO: [OBD] PID=temp_aire, valor=0 | Contexto: read_data
+2025-06-05 14:52:26,148 [INFO][Dummy-2] [WORKER] Ciclo de adquisición detenido
+2025-06-05 14:52:27,087 [INFO][MainThread] [WORKER] stop() llamado
+[2025-06-05 15:01:29] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:29] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:30] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:30] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:30] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:30] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:30] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:30] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:30] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:30] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:30] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:31] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:31] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:31] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:31] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:31] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:31] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:31] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:31] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:31] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:32] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:32] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:32] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:32] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:32] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:32] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:32] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:32] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:32] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:32] INFO: PIDs activos tras selección: [] | Contexto: UI_tracking
+[2025-06-05 15:01:33] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:33] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:33] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:33] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:33] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:33] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:33] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:33] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:33] INFO: PIDs activos tras selección: [] | Contexto: UI_tracking
+[2025-06-05 15:01:33] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:34] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:34] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:34] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:34] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:34] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:34] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:34] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:34] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:34] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:34] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:35] INFO: PIDs activos tras selección: [] | Contexto: UI_tracking
+[2025-06-05 15:01:35] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:35] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:35] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:35] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:35] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:35] INFO: PIDs activos tras selección: [] | Contexto: UI_tracking
+[2025-06-05 15:01:35] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:35] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:35] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:35] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:36] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:36] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:36] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:36] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:36] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:36] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:36] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:36] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:36] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:37] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:37] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:37] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:37] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:37] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:37] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:37] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:37] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:37] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:38] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:38] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:38] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:38] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:38] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:38] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:38] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:38] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:38] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:39] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:39] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:39] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:39] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:39] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:39] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:39] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:39] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:39] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:40] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:40] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:40] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:40] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:40] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:40] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:40] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:40] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:40] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:41] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=None | Contexto: read_data
+[2025-06-05 15:01:42] INFO: Handshake OK con ELM327 | Contexto: connect
+[2025-06-05 15:01:42] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:42] INFO: PIDs activos tras selección: ['vel'] | Contexto: UI_tracking
+[2025-06-05 15:01:42] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'SEARCHING...', cmd=010D
+[2025-06-05 15:01:42] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:42] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:42] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:42] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:42] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:42] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:42] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:42] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:42] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:42] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:42] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:43] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:43] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:43] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:43] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:43] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:43] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:43] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:43] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:43] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:43] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:43] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:43] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:43] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:43] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:43] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:43] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:43] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:43] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:43] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:43] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:43] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:43] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:43] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:43] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:43] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:43] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:43] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:43] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:43] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:43] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:43] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:43] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:43] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:44] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:44] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:44] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:44] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:44] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:44] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:44] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:44] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:44] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:44] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:44] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:44] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:44] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:44] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:44] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:44] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:44] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:44] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:44] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:44] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:44] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:44] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:44] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:44] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:44] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:44] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:44] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:44] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:44] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:44] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:44] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:44] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:44] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:44] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:44] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:44] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:44] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:44] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+[2025-06-05 15:01:44] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:44] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:44] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:44] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:45] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'SEARCHING...', cmd=010D
+[2025-06-05 15:01:45] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:45] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:45] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:45] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:45] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:45] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:45] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:45] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:45] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:45] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:45] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:45] INFO: PIDs activos tras selección: ['rpm', 'vel'] | Contexto: UI_tracking
+[2025-06-05 15:01:45] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:45] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:45] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>', cmd=010C
+[2025-06-05 15:01:45] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:45] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:45] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:45] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'SEARCHING...', cmd=010D
+[2025-06-05 15:01:45] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:45] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:45] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:45] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:45] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:45] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:45] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+[2025-06-05 15:01:45] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:45] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:45] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:45] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:45] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:45] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:45] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:45] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:45] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:45] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:47] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:47] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:47] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+[2025-06-05 15:01:47] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:47] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:47] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:47] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:47] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:47] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+[2025-06-05 15:01:47] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:47] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:47] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:47] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:47] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'SEARCHING...', cmd=010C
+[2025-06-05 15:01:47] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:47] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:47] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:47] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:47] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:47] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:47] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:47] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:47] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:47] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:47] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:47] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:47] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+[2025-06-05 15:01:47] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:47] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:47] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:48] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:48] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:48] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+[2025-06-05 15:01:48] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:48] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:48] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:48] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:48] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'SEARCHING...', cmd=010C
+[2025-06-05 15:01:48] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:48] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:48] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:49] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:49] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:49] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+[2025-06-05 15:01:49] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:49] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:49] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:49] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:49] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'SEARCHING...', cmd=010C
+[2025-06-05 15:01:49] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:49] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:49] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:49] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:49] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:49] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:49] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:49] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:49] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:49] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:49] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:49] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:49] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+[2025-06-05 15:01:49] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:49] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:49] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:49] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:49] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:49] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:49] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:49] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:49] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:49] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:49] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:49] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:49] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+[2025-06-05 15:01:49] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:49] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:49] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:50] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:50] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:50] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+[2025-06-05 15:01:50] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:50] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:50] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:50] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:50] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'SEARCHING...', cmd=010C
+[2025-06-05 15:01:50] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:50] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:50] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:50] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:50] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:50] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:50] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:50] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:50] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:50] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:50] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:50] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:50] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+[2025-06-05 15:01:50] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:50] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:50] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:50] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:50] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:50] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:50] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:50] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:50] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:50] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:50] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:50] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:50] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+[2025-06-05 15:01:50] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:50] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:50] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:51] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:51] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:51] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:51] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:51] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:51] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:51] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:51] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:51] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:51] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+[2025-06-05 15:01:51] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:51] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:51] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:51] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:51] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:51] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:51] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:51] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:51] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:51] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:51] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:51] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:51] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+[2025-06-05 15:01:51] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:51] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:51] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:52] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:52] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:52] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:52] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:52] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:52] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:52] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:52] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:52] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:52] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+[2025-06-05 15:01:52] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:52] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:52] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:52] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:52] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:52] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:52] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:52] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:52] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:52] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:52] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:52] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:52] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+[2025-06-05 15:01:52] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:52] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:52] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:52] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:52] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:52] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:52] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:52] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:52] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:52] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:52] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:52] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:52] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+[2025-06-05 15:01:52] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:52] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:52] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:52] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:52] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:52] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:52] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:52] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:52] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:52] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:53] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:53] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:53] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+[2025-06-05 15:01:53] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:53] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:53] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:53] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:53] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:53] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:53] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:53] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:53] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:53] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:53] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:53] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:53] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+[2025-06-05 15:01:53] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:53] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:53] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:53] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:53] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:53] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:53] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:53] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:53] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:53] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:53] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:53] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:53] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+[2025-06-05 15:01:53] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:53] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:53] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:53] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:53] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:53] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:53] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:53] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:53] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:53] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:54] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:54] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:54] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+[2025-06-05 15:01:54] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:54] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:54] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:54] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:54] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:54] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:54] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:54] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:54] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:54] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:54] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:54] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:54] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+[2025-06-05 15:01:54] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:54] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:54] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:54] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:54] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:54] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:54] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:54] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:54] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:54] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:54] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:54] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:54] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+[2025-06-05 15:01:54] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:54] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:54] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:54] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:54] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:54] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:54] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:54] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:54] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:54] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:55] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:55] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:55] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+[2025-06-05 15:01:55] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:55] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:55] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:55] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:55] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:55] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:55] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:55] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:55] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:55] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:55] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:55] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:55] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+[2025-06-05 15:01:55] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:55] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:55] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:55] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:55] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:55] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:55] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:55] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:55] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:55] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:55] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:55] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:55] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+[2025-06-05 15:01:55] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:55] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:55] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:55] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:55] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:55] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:01:55] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:55] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:55] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:55] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:56] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'STOPPED', cmd=010C
+[2025-06-05 15:01:56] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '', cmd=010C
+[2025-06-05 15:01:56] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: '>SEARCHING...', cmd=010C
+[2025-06-05 15:01:56] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:56] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:56] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:56] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:56] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:56] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+[2025-06-05 15:01:56] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:56] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:56] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:56] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:56] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'SEARCHING...', cmd=010C
+[2025-06-05 15:01:56] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:56] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:56] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:57] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:57] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:57] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+[2025-06-05 15:01:57] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:57] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:57] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:57] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:57] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'SEARCHING...', cmd=010C
+[2025-06-05 15:01:57] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:57] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:57] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:57] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:57] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:57] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+[2025-06-05 15:01:57] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:57] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:57] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:57] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:57] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'SEARCHING...', cmd=010C
+[2025-06-05 15:01:57] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:57] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:57] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:58] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:58] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:58] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+[2025-06-05 15:01:58] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:58] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:58] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:58] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:58] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'SEARCHING...', cmd=010C
+[2025-06-05 15:01:58] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:58] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:58] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:59] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:59] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:59] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+[2025-06-05 15:01:59] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:59] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:59] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:59] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:59] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'SEARCHING...', cmd=010C
+[2025-06-05 15:01:59] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:59] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:59] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:59] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:01:59] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:01:59] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+[2025-06-05 15:01:59] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:59] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:01:59] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>, Parsing: None | Contexto: read_data
+[2025-06-05 15:01:59] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:01:59] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'SEARCHING...', cmd=010C
+[2025-06-05 15:01:59] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:59] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:01:59] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:02:00] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:02:00] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:02:00] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+[2025-06-05 15:02:00] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:02:00] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:02:00] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>, Parsing: None | Contexto: read_data
+[2025-06-05 15:02:00] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:02:00] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'SEARCHING...', cmd=010C
+[2025-06-05 15:02:00] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:02:00] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:02:00] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:02:01] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:02:01] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:02:01] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+[2025-06-05 15:02:01] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:02:01] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:02:01] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>, Parsing: None | Contexto: read_data
+[2025-06-05 15:02:01] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:02:01] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'SEARCHING...', cmd=010C
+[2025-06-05 15:02:01] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:02:01] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:02:01] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:02:01] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:02:01] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:02:01] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+[2025-06-05 15:02:01] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:02:01] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:02:01] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>, Parsing: None | Contexto: read_data
+[2025-06-05 15:02:01] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:02:01] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'SEARCHING...', cmd=010C
+[2025-06-05 15:02:01] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:02:01] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:02:01] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:02:02] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:02:02] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:02:02] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+[2025-06-05 15:02:02] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:02:02] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:02:02] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>, Parsing: None | Contexto: read_data
+[2025-06-05 15:02:02] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:02:02] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'SEARCHING...', cmd=010C
+[2025-06-05 15:02:02] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:02:02] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:02:02] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:02:03] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:02:03] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:02:03] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>', cmd=010D
+[2025-06-05 15:02:03] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:02:03] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:02:03] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>, Parsing: None | Contexto: read_data
+[2025-06-05 15:02:03] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:02:04] ADVERTENCIA: [PARSE][rpm] Respuesta cruda no válida para RPM. Línea: 'SEARCHING...', cmd=010C
+[2025-06-05 15:02:04] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:02:04] INFO: [OBD] PID=rpm, valor=None | Contexto: read_data
+[2025-06-05 15:02:04] ADVERTENCIA: ADVERTENCIA: El PID rpm no entregó datos válidos. Comando: 010C, Respuesta: SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:02:04] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: 'STOPPED', cmd=010D
+[2025-06-05 15:02:04] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '', cmd=010D
+[2025-06-05 15:02:04] ADVERTENCIA: [PARSE][vel] Respuesta cruda no válida para velocidad. Línea: '>SEARCHING...', cmd=010D
+[2025-06-05 15:02:04] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:02:04] INFO: [OBD] PID=vel, valor=None | Contexto: read_data
+[2025-06-05 15:02:04] ADVERTENCIA: ADVERTENCIA: El PID vel no entregó datos válidos. Comando: 010D, Respuesta: STOPPED
+
+>SEARCHING...
+, Parsing: None | Contexto: read_data
+[2025-06-05 15:02:04] ADVERTENCIA: [read_data] Error al guardar en la base de datos: table lecturas has no column named escenario
+[2025-06-05 15:02:04] INFO: Desconexión OBD-II exitosa | Contexto: disconnect
+[2025-06-05 15:02:04] INFO: Base de datos cerrada | Contexto: disconnect
+[2025-06-05 15:02:04] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000002E1314E5A60> | Contexto: read_data
+[2025-06-05 15:02:04] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000002E1314E5A60> | Contexto: read_data
+[2025-06-05 15:02:04] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000002E1314E5A60> | Contexto: read_data
+[2025-06-05 15:02:04] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000002E1314E5A60> | Contexto: read_data
+[2025-06-05 15:02:04] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000002E1314E5A60> | Contexto: read_data
+[2025-06-05 15:02:04] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000002E1314E5A60> | Contexto: read_data
+[2025-06-05 15:02:04] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000002E1314E5A60> | Contexto: read_data
+[2025-06-05 15:02:05] ADVERTENCIA: ADVERTENCIA: Intento de adquisición de datos OBD-II en modo real sin conexión activa o ELM327 no inicializado. self.connected=False, self.elm=<obd.elm327.ELM327 object at 0x000002E1314E5A60> | Contexto: read_data
+[2025-06-05 17:15:56] INFO: [EMULADOR] PIDs recibidos: ['rpm', 'vel', 'temp', 'carga_motor', 'boost_pressure', 'turbo_rpm', 'turbo_temp', 'fuel_rate', 'dpf_temperature', 'egr_commanded', 'oil_temp', 'control_module_voltage', 'ambient_temp', 'vin', 'calibration_id', 'escenario'] | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'boost_pressure' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'turbo_rpm' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'turbo_temp' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'fuel_rate' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'dpf_temperature' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'egr_commanded' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'oil_temp' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'control_module_voltage' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'ambient_temp' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'vin' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'calibration_id' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] INFO: [EMULADOR] Registro generado: {'rpm': 865, 'vel': 0, 'temp': 83, 'carga_motor': 14, 'boost_pressure': '', 'turbo_rpm': '', 'turbo_temp': '', 'fuel_rate': '', 'dpf_temperature': '', 'egr_commanded': '', 'oil_temp': '', 'control_module_voltage': '', 'ambient_temp': '', 'vin': '', 'calibration_id': '', 'escenario': 'ralenti'} | Contexto: emulador
+[2025-06-05 17:15:56] INFO: [EMULADOR] PIDs recibidos: ['rpm', 'vel', 'temp', 'carga_motor', 'boost_pressure', 'turbo_rpm', 'turbo_temp', 'fuel_rate', 'dpf_temperature', 'egr_commanded', 'oil_temp', 'control_module_voltage', 'ambient_temp', 'vin', 'calibration_id', 'escenario'] | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'boost_pressure' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'turbo_rpm' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'turbo_temp' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'fuel_rate' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'dpf_temperature' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'egr_commanded' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'oil_temp' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'control_module_voltage' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'ambient_temp' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'vin' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'calibration_id' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] INFO: [EMULADOR] Registro generado: {'rpm': 1105, 'vel': 10, 'temp': 91, 'carga_motor': 79, 'boost_pressure': '', 'turbo_rpm': '', 'turbo_temp': '', 'fuel_rate': '', 'dpf_temperature': '', 'egr_commanded': '', 'oil_temp': '', 'control_module_voltage': '', 'ambient_temp': '', 'vin': '', 'calibration_id': '', 'escenario': 'aceleracion'} | Contexto: emulador
+[2025-06-05 17:15:56] INFO: [EMULADOR] PIDs recibidos: ['rpm', 'vel', 'temp', 'carga_motor', 'boost_pressure', 'turbo_rpm', 'turbo_temp', 'fuel_rate', 'dpf_temperature', 'egr_commanded', 'oil_temp', 'control_module_voltage', 'ambient_temp', 'vin', 'calibration_id', 'escenario'] | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'boost_pressure' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'turbo_rpm' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'turbo_temp' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'fuel_rate' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'dpf_temperature' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'egr_commanded' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'oil_temp' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'control_module_voltage' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'ambient_temp' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'vin' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'calibration_id' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] INFO: [EMULADOR] Registro generado: {'rpm': 1936, 'vel': 93, 'temp': 89, 'carga_motor': 45, 'boost_pressure': '', 'turbo_rpm': '', 'turbo_temp': '', 'fuel_rate': '', 'dpf_temperature': '', 'egr_commanded': '', 'oil_temp': '', 'control_module_voltage': '', 'ambient_temp': '', 'vin': '', 'calibration_id': '', 'escenario': 'crucero'} | Contexto: emulador
+[2025-06-05 17:15:56] INFO: [EMULADOR] PIDs recibidos: ['rpm', 'vel', 'temp', 'carga_motor', 'boost_pressure', 'turbo_rpm', 'turbo_temp', 'fuel_rate', 'dpf_temperature', 'egr_commanded', 'oil_temp', 'control_module_voltage', 'ambient_temp', 'vin', 'calibration_id', 'escenario'] | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'boost_pressure' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'turbo_rpm' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'turbo_temp' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'fuel_rate' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'dpf_temperature' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'egr_commanded' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'oil_temp' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'control_module_voltage' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'ambient_temp' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'vin' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'calibration_id' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] INFO: [EMULADOR] Registro generado: {'rpm': 800, 'vel': 0, 'temp': 82, 'carga_motor': 14, 'boost_pressure': '', 'turbo_rpm': '', 'turbo_temp': '', 'fuel_rate': '', 'dpf_temperature': '', 'egr_commanded': '', 'oil_temp': '', 'control_module_voltage': '', 'ambient_temp': '', 'vin': '', 'calibration_id': '', 'escenario': 'frenado'} | Contexto: emulador
+[2025-06-05 17:15:56] INFO: [EMULADOR] PIDs recibidos: ['boost_pressure', 'turbo_rpm', 'fuel_rate', 'dpf_temperature', 'egr_commanded', 'escenario'] | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'boost_pressure' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'turbo_rpm' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'fuel_rate' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'dpf_temperature' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'egr_commanded' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] INFO: [EMULADOR] Registro generado: {'boost_pressure': '', 'turbo_rpm': '', 'fuel_rate': '', 'dpf_temperature': '', 'egr_commanded': '', 'escenario': 'aceleracion'} | Contexto: emulador
+[2025-06-05 17:15:56] INFO: [EMULADOR] PIDs recibidos: ['rpm', 'vel', 'temp', 'carga_motor', 'boost_pressure', 'turbo_rpm', 'turbo_temp', 'fuel_rate', 'dpf_temperature', 'egr_commanded', 'oil_temp', 'control_module_voltage', 'ambient_temp', 'vin', 'calibration_id', 'escenario'] | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'boost_pressure' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'turbo_rpm' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'turbo_temp' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'fuel_rate' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'dpf_temperature' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'egr_commanded' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'oil_temp' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'control_module_voltage' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'ambient_temp' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'vin' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] ADVERTENCIA: Advertencia: El PID solicitado 'calibration_id' no está soportado en la emulación. Se exportará vacío. | Contexto: emulador
+[2025-06-05 17:15:56] INFO: [EMULADOR] Registro generado: {'rpm': 2167, 'vel': 114, 'temp': 88, 'carga_motor': 44, 'boost_pressure': '', 'turbo_rpm': '', 'turbo_temp': '', 'fuel_rate': '', 'dpf_temperature': '', 'egr_commanded': '', 'oil_temp': '', 'control_module_voltage': '', 'ambient_temp': '', 'vin': '', 'calibration_id': '', 'escenario': 'crucero'} | Contexto: emulador

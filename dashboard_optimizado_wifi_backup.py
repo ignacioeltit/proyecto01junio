@@ -1,56 +1,172 @@
-import sys
+import json
+import logging
 import os
 import socket
+import sys
 import time
-import csv
+import random
 import threading
+import csv
 from datetime import datetime
-from PyQt6.QtWidgets import *
-from PyQt6.QtCore import *
-from PyQt6.QtGui import *
+
+from PyQt6.QtCore import QObject, QTimer, pyqtSignal
+from PyQt6.QtGui import QCloseEvent
+from PyQt6.QtWidgets import (
+    QApplication, QComboBox, QGroupBox, QLabel, QMainWindow,
+    QMessageBox, QVBoxLayout, QWidget, QPushButton, QHBoxLayout,
+    QGridLayout
+)
+
+# Constantes
+NO_DATA_MSG = "NO DATA"
+ERROR_MSG = "ERROR"
+LOG_PREFIX = "📊"
+
+# Modos de operación
+OPERATION_MODES = {
+    "WIFI": "wifi",
+    "EMULATOR": "emulator"
+}
+
+# Agregar el directorio src al path si existe
+if os.path.exists('src'):
+    sys.path.append('src')
+
+try:
+    # Importaciones básicas OBD
+    from src.obd.connection import OBDConnection
+    from src.obd.emulador import EmuladorOBD
+    from src.obd.test_hilux_emulator import HiluxDieselEmulador
+    from src.obd.pid_decoder import PIDDecoder, get_supported_pids
+    from src.obd.elm327 import ELM327
+    from utils.obd_parsers import parse_pid_response  # Nueva importación
+    # Importaciones para autodetección y decodificador universal
+    from src.obd.protocol_detector import ProtocolDetector
+    from src.utils.logging_app import setup_logging
+except ImportError as e:
+    print(f"🔧 Usando implementaciones básicas... Error: {e}")
+    from obd_connection import OBDConnection
+    from obd_emulador import EmuladorOBD
+    from utils.logging_app import setup_logging
 
 class OptimizedELM327Connection:
     def __init__(self, ip="192.168.0.10", port=35000, mode="wifi"):
         self.ip = ip
         self.port = port
-        self.mode = mode  # NUEVO
+        self._mode = None  # Modo interno
         self.socket = None
         self.connected = False
+        self._data_cache = {}
+        self.logger = logging.getLogger('OBD')
+        self.logger.setLevel(logging.DEBUG)
+        
+        # Configurar handler para archivo
+        fh = logging.FileHandler('obd_connection.log')
+        fh.setLevel(logging.DEBUG)
+        formatter = logging.Formatter(
+            '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        fh.setFormatter(formatter)
+        self.logger.addHandler(fh)
+        
+        # Validar y establecer modo
+        self.set_mode(mode)
+        
         # PIDs optimizados para velocidad (solo los esenciales)
         self.fast_pids = {
-            '010C': {'name': 'RPM', 'unit': 'RPM', 'bytes': 2, 'formula': lambda d: ((int(d[0], 16) * 256) + int(d[1], 16)) / 4},
-            '010D': {'name': 'Velocidad', 'unit': 'km/h', 'bytes': 1, 'formula': lambda d: int(d[0], 16)},
-            '0105': {'name': 'Temp_Motor', 'unit': '°C', 'bytes': 1, 'formula': lambda d: int(d[0], 16) - 40},
-            '0104': {'name': 'Carga_Motor', 'unit': '%', 'bytes': 1, 'formula': lambda d: round(int(d[0], 16) * 100 / 255, 1)},
-            '0111': {'name': 'Acelerador', 'unit': '%', 'bytes': 1, 'formula': lambda d: round(int(d[0], 16) * 100 / 255, 1)},
+            '010C': {'name': 'RPM', 'unit': 'RPM', 'bytes': 2, 
+                    'formula': lambda d: ((int(d[0], 16) * 256) + int(d[1], 16)) / 4},
+            '010D': {'name': 'Velocidad', 'unit': 'km/h', 'bytes': 1, 
+                    'formula': lambda d: int(d[0], 16)},
+            '0105': {'name': 'Temp_Motor', 'unit': '°C', 'bytes': 1, 
+                    'formula': lambda d: int(d[0], 16) - 40},
+            '0104': {'name': 'Carga_Motor', 'unit': '%', 'bytes': 1, 
+                    'formula': lambda d: round(int(d[0], 16) * 100 / 255, 1)},
+            '0111': {'name': 'Acelerador', 'unit': '%', 'bytes': 1, 
+                    'formula': lambda d: round(int(d[0], 16) * 100 / 255, 1)},
         }
+        
         # PIDs adicionales (lectura menos frecuente)
         self.slow_pids = {
-            '010F': {'name': 'Temp_Admision', 'unit': '°C', 'bytes': 1, 'formula': lambda d: int(d[0], 16) - 40},
-            '012F': {'name': 'Combustible', 'unit': '%', 'bytes': 1, 'formula': lambda d: round(int(d[0], 16) * 100 / 255, 1)},
-            '0142': {'name': 'Voltaje', 'unit': 'V', 'bytes': 2, 'formula': lambda d: round(((int(d[0], 16) * 256) + int(d[1], 16)) / 1000, 2)},
-            '010B': {'name': 'Presion_Colector', 'unit': 'kPa', 'bytes': 1, 'formula': lambda d: int(d[0], 16)},
+            '010F': {'name': 'Temp_Admision', 'unit': '°C', 'bytes': 1, 
+                    'formula': lambda d: int(d[0], 16) - 40},
+            '012F': {'name': 'Combustible', 'unit': '%', 'bytes': 1, 
+                    'formula': lambda d: round(int(d[0], 16) * 100 / 255, 1)},
+            '0142': {'name': 'Voltaje', 'unit': 'V', 'bytes': 2, 
+                    'formula': lambda d: round(((int(d[0], 16) * 256) + 
+                                              int(d[1], 16)) / 1000, 2)},
+            '010B': {'name': 'Presion_Colector', 'unit': 'kPa', 'bytes': 1, 
+                    'formula': lambda d: int(d[0], 16)},
         }
+        
+    def set_mode(self, mode):
+        """Establece el modo de operación con validación"""
+        if mode not in OPERATION_MODES.values():
+            raise ValueError(f"Modo inválido: {mode}. Debe ser {OPERATION_MODES.values()}")
+        
+        if self._mode != mode:
+            self.logger.info(f"Cambiando modo: {self._mode} -> {mode}")
+            self._mode = mode
+            self.disconnect()  # Desconectar al cambiar modo
+            
+    @property
+    def mode(self):
+        return self._mode
+        
+    @mode.setter
+    def mode(self, value):
+        self.set_mode(value)
+
     def connect(self):
+        """Establece conexión con validación de modo y estado"""
         try:
-            print(f"📡 Conectando ELM327 optimizado a {self.ip}:{self.port}")
+            self.logger.info(f"Iniciando conexión en modo: {self._mode}")
+            
+            if self._mode == OPERATION_MODES["EMULATOR"]:
+                self.logger.warning("⚠️ MODO EMULADOR ACTIVO - Datos simulados")
+                self.connected = True
+                return True
+                
+            # Modo WiFi real
+            self.logger.info(f"📡 Conectando ELM327 optimizado a {self.ip}:{self.port}")
             self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             self.socket.settimeout(3)
             self.socket.connect((self.ip, self.port))
+            
+            # Inicialización y verificación
             commands = [
-                ("ATZ", 2), ("ATE0", 0.3), ("ATL0", 0.3), ("ATS0", 0.3), ("ATH1", 0.3), ("ATSP0", 0.3), ("0100", 1)
+                ("ATZ", 2), ("ATE0", 0.3), ("ATL0", 0.3), 
+                ("ATS0", 0.3), ("ATH1", 0.3), ("ATSP0", 0.3), ("0100", 1)
             ]
+            
             for cmd, wait in commands:
                 self.socket.sendall(f"{cmd}\r".encode())
                 time.sleep(wait)
                 if wait > 0.5:
                     response = self.socket.recv(512).decode('utf-8', errors='ignore')
-                    print(f"   {cmd}: {response.strip()[:30]}...")
+                    self.logger.debug(f"Comando {cmd}: {response.strip()[:30]}...")
+                    
+                    # Verificar respuesta válida
+                    if "?" in response or "ERROR" in response:
+                        self.logger.error(f"Error en comando {cmd}: {response}")
+                        self.disconnect()
+                        return False
+            
+            # Verificación final de conexión real
+            self.socket.sendall("0100\r".encode())
+            init_response = self.socket.recv(512).decode('utf-8', errors='ignore')
+            
+            if not self._verify_connection(init_response):
+                self.logger.error("Falló verificación de conexión real")
+                self.disconnect()
+                return False
+            
             self.connected = True
-            print("✅ ELM327 optimizado conectado")
+            self.logger.info("✅ ELM327 conectado y verificado")
             return True
+            
         except Exception as e:
-            print(f"❌ Error conexión: {e}")
+            self.logger.error(f"❌ Error conexión: {str(e)}")
+            self.disconnect()
             return False
     def disconnect(self):
         if self.socket:
@@ -58,169 +174,628 @@ class OptimizedELM327Connection:
             self.socket = None
         self.connected = False
     def read_fast_data(self):
-        # Modo emulador
-        if hasattr(self, 'mode') and self.mode == "emulator":
-            import random
-            simulated_data = {
-                '010C': {'name': 'RPM', 'value': 720 + random.randint(-20, 20), 'unit': 'RPM'},
-                '010D': {'name': 'Velocidad', 'value': 0, 'unit': 'km/h'},
-                '0105': {'name': 'Temp_Motor', 'value': 95 + random.randint(-3, 3), 'unit': '°C'},
-                '0104': {'name': 'Carga_Motor', 'value': round(20.0 + random.uniform(-2, 2), 1), 'unit': '%'},
-                '0111': {'name': 'Acelerador', 'value': round(21.0 + random.uniform(-1, 1), 1), 'unit': '%'},
-            }
-            return simulated_data
-        # Código WiFi real (idéntico al original)
-        if not self.connected or not self.socket:
-            return {}
-        data = {}
-        start_time = time.time()
+        """Lee los PIDs rápidos (datos críticos) del vehículo con validación mejorada."""
         try:
-            for pid, info in self.fast_pids.items():
-                try:
-                    self.socket.sendall(f"{pid}\r".encode())
-                    time.sleep(0.05)
-                    self.socket.settimeout(0.5)
-                    response = self.socket.recv(256).decode('utf-8', errors='ignore')
-                    if '41' in response and 'NODATA' not in response:
-                        parts = response.replace('\r', '').replace('\n', '').replace('>', '').split()
-                        for i, part in enumerate(parts):
-                            if part == '41' and i + 1 < len(parts) and parts[i + 1] == pid[2:4]:
-                                data_start = i + 2
-                                if data_start < len(parts):
-                                    data_bytes = []
-                                    for j in range(info['bytes']):
-                                        if data_start + j < len(parts):
-                                            try:
-                                                int(parts[data_start + j], 16)
-                                                data_bytes.append(parts[data_start + j])
-                                            except:
-                                                break
-                                    if len(data_bytes) == info['bytes']:
-                                        value = info['formula'](data_bytes)
-                                        data[pid] = {
-                                            'name': info['name'],
-                                            'value': value,
-                                            'unit': info['unit']
-                                        }
-                                break
-                except Exception as pid_error:
-                    continue
-            return data
+            # Modo emulador
+            if self._mode == OPERATION_MODES["EMULATOR"]:
+                valid_data = {}
+                for pid in self.fast_pids:
+                    data = self.query_pid(pid)
+                    if data and self._validate_pid_data(pid, data):
+                        valid_data[pid] = data
+                
+                self.fast_data_cache = valid_data
+                self._update_display(valid_data, self.fast_labels)
+                self.logger.log_data(self.fast_data_cache)
+                self._update_log_status()
+                return
+    
+            # Modo WiFi real
+            valid_data = {}
+            for pid in self.fast_pids:
+                data = self.query_pid(pid)
+                if data and self._validate_pid_data(pid, data):
+                    valid_data[pid] = data
+                else:
+                    self.logger.warning(f"Datos inválidos para PID {pid}: {data}")
+            
+            self.fast_data_cache = valid_data
+            self._update_display(valid_data, self.fast_labels)
+            self.logger.log_data(self.fast_data_cache)
+            self._update_log_status()
+                    
         except Exception as e:
-            print(f"❌ Error lectura rápida: {e}")
-            return {}
+            self.logger.error(f"Error en read_fast_data: {str(e)}")
     def read_slow_data(self):
-        # Modo emulador
-        if hasattr(self, 'mode') and self.mode == "emulator":
-            import random
-            simulated_slow_data = {
-                '010F': {'name': 'Temp_Admision', 'value': 25 + random.randint(-3, 3), 'unit': '°C'},
-                '012F': {'name': 'Combustible', 'value': round(75 + random.uniform(-5, 5), 1), 'unit': '%'},
-                '0142': {'name': 'Voltaje', 'value': round(12.5 + random.uniform(-0.3, 0.3), 2), 'unit': 'V'},
-                '010B': {'name': 'Presion_Colector', 'value': 100 + random.randint(-5, 5), 'unit': 'kPa'},
+        """Lee los PIDs lentos (datos secundarios) del vehículo con validación mejorada."""
+        try:
+            # Modo emulador
+            if self._mode == OPERATION_MODES["EMULATOR"]:
+                valid_data = {}
+                for pid in self.slow_pids:
+                    data = self.query_pid(pid)
+                    if data and self._validate_pid_data(pid, data):
+                        valid_data[pid] = data
+                
+                self.slow_data_cache = valid_data
+                self._update_display(valid_data, self.slow_labels)
+                self.logger.log_data(self.slow_data_cache)
+                return
+    
+            # Modo WiFi real
+            valid_data = {}
+            for pid in self.slow_pids:
+                data = self.query_pid(pid)
+                if data and self._validate_pid_data(pid, data):
+                    valid_data[pid] = data
+                else:
+                    self.logger.warning(f"Datos inválidos para PID {pid}: {data}")
+            
+            self.slow_data_cache = valid_data
+            self._update_display(valid_data, self.slow_labels)
+            self.logger.log_data(self.slow_data_cache)
+                    
+        except Exception as e:
+            self.logger.error(f"Error en read_slow_data: {str(e)}")
+    def _scan_pid_group(self, cmd):
+        """Escanea un grupo de PIDs y retorna los soportados con manejo mejorado de errores"""
+        try:
+            # Validación del comando
+            if not cmd or len(cmd) != 4 or not cmd.startswith("01"):
+                self.logger.error(f"Comando PID inválido: {cmd}")
+                return []
+                
+            resp = self.elm327.send_pid(cmd)
+            if not resp:
+                self.logger.warning(f"No hay respuesta para el grupo {cmd}")
+                return []
+                
+            # Limpiar y validar respuesta
+            resp = resp.replace(" ", "").upper()
+            if "NO DATA" in resp or "ERROR" in resp:
+                self.logger.warning(f"Respuesta inválida para grupo {cmd}: {resp}")
+                return []
+                
+            # Verificar formato de respuesta (41 + cmd[2:] + 4 bytes de datos)
+            expected_prefix = "41" + cmd[2:]
+            if not (resp.startswith(expected_prefix) and len(resp) >= len(expected_prefix) + 8):
+                self.logger.error(f"Formato de respuesta inválido para {cmd}: {resp}")
+                return []
+                
+            # Extraer y procesar máscara de bits
+            try:
+                mask = int(resp[len(expected_prefix):len(expected_prefix) + 8], 16)
+                base_pid = int(cmd[2:], 16)
+                pids = []
+                
+                for i in range(32):
+                    if mask & (1 << (31 - i)):
+                        pid = f"01{base_pid + i + 1:02X}"
+                        pids.append(pid)
+                        self.logger.debug(f"PID soportado detectado: {pid}")
+                        
+                return pids
+                
+            except ValueError as e:
+                self.logger.error(f"Error procesando máscara de bits para {cmd}: {e}")
+                return []
+                
+        except Exception as e:
+            self.logger.error(f"Error escaneando grupo {cmd}: {e}")
+            return []
+
+    def autodetect_protocol_and_scan_pids(self):
+        """Autodetecta el protocolo y escanea los PIDs soportados con mejor manejo de errores"""
+        try:
+            if not self.connection or not self.is_connected:
+                self.logger.error("No hay conexión activa")
+                self.status_changed.emit("❌ No hay conexión")
+                return False
+                
+            # Inicializar ELM327 con timeout
+            self.elm327 = ELM327(self.connection)
+            if not self.elm327.initialize():
+                self.logger.error("Falló inicialización ELM327")
+                self.status_changed.emit("❌ Error de inicialización ELM327")
+                return False
+            
+            # Verificar comunicación básica
+            resp = self.elm327.send_command("0100")
+            if not resp or "NO DATA" in resp:
+                self.logger.error("No hay respuesta del vehículo")
+                self.status_changed.emit("❌ Sin respuesta del vehículo")
+                return False
+                
+            self.status_changed.emit("🔍 Detectando PIDs soportados...")
+            
+            # Escanear grupos de PIDs principales
+            pid_groups = ['0100', '0120', '0140', '0160']
+            supported_pids = []
+            
+            for group in pid_groups:
+                try:
+                    pids = self._scan_pid_group(group)
+                    if pids:
+                        supported_pids.extend(pids)
+                        self.logger.info(f"Grupo {group}: {len(pids)} PIDs")
+                except Exception as e:
+                    self.logger.warning(f"Error escaneando grupo {group}: {e}")
+                    continue
+            
+            if not supported_pids:
+                self.logger.error("No se detectaron PIDs soportados")
+                self.status_changed.emit("⚠️ No se encontraron PIDs")
+                return False
+                
+            # Filtrar PIDs prioritarios
+            priority_pids = {
+                '010C': 'RPM',
+                '010D': 'Velocidad',
+                '0105': 'Temp. Motor',
+                '0104': 'Carga Motor'
             }
-            return simulated_slow_data
-        # Código WiFi real (idéntico al original)
-        if not self.connected:
+            
+            self.supported_pids = supported_pids
+            self.selected_pids = [
+                pid for pid in priority_pids.keys()
+                if pid in supported_pids
+            ]
+            
+            if not self.selected_pids:
+                self.logger.warning("PIDs prioritarios no soportados")
+                # Usar los primeros PIDs encontrados
+                self.selected_pids = supported_pids[:5]
+                
+            msg = (f"✅ {len(self.supported_pids)} PIDs detectados, " +
+                  f"{len(self.selected_pids)} seleccionados")
+            self.logger.info(msg)
+            self.status_changed.emit(msg)
+            return True
+            
+        except Exception as e:
+            self.logger.error(f"Error en autodetección: {str(e)}")
+            self.status_changed.emit(f"❌ Error: {str(e)}")
+            return False
+    def read_data(self):
+        """Lee datos con mejor manejo de errores y optimización de memoria"""
+        if not self.is_connected:
             return {}
+            
+        self.cleanup_cache()
+        
+        try:
+            # Medir tiempo de lectura para diagnósticos
+            start_time = time.time()
+            
+            # Determinar modo de lectura
+            if self.connection_mode == "emulator" and self.emulator:
+                data = self._read_emulator_data()
+            elif self.connection_mode == "wifi" and self.connection:
+                data = self._read_wifi_data()
+            else:
+                self.logger.error(f"Modo inválido: {self.connection_mode}")
+                return {}
+                
+            # Monitorear rendimiento
+            elapsed = time.time() - start_time
+            self.performance_monitor.log_read_time(elapsed)
+            
+            if data:  # Si hay datos válidos
+                self._failed_reads = 0  # Resetear contador de errores
+            else:
+                self._failed_reads += 1
+                if self._failed_reads >= self._max_failed_reads:
+                    self.logger.error("Demasiados errores consecutivos")
+                    self.status_changed.emit("⚠️ Múltiples errores de lectura")
+                    self.is_connected = False
+                    
+            return data
+            
+        except Exception as e:
+            self.logger.error(f"Error en lectura: {str(e)}")
+            self._failed_reads += 1
+            return {}
+
+    def _read_wifi_data(self):
+        """Lee datos por WiFi con mejor manejo de errores y decodificación"""
+        if not self.elm327 or not self.selected_pids:
+            return {}
+            
         data = {}
-        for pid, info in self.slow_pids.items():
-            try:
-                self.socket.sendall(f"{pid}\r".encode())
-                time.sleep(0.1)
-                response = self.socket.recv(256).decode('utf-8', errors='ignore')
-                if '41' in response and 'NODATA' not in response:
-                    parts = response.replace('\r', '').replace('\n', '').replace('>', '').split()
-                    for i, part in enumerate(parts):
-                        if part == '41' and i + 1 < len(parts) and parts[i + 1] == pid[2:4]:
-                            data_start = i + 2
-                            if data_start < len(parts):
-                                data_bytes = []
-                                for j in range(info['bytes']):
-                                    if data_start + j < len(parts):
-                                        try:
-                                            int(parts[data_start + j], 16)
-                                            data_bytes.append(parts[data_start + j])
-                                        except:
-                                            break
-                                if len(data_bytes) == info['bytes']:
-                                    value = info['formula'](data_bytes)
-                                    data[pid] = {
-                                        'name': info['name'],
-                                        'value': value,
-                                        'unit': info['unit']
-                                    }
-                            break
-            except:
-                continue
-        return data
+        start_decode = time.time()
+        
+        try:
+            for pid in self.selected_pids:
+                try:
+                    # Verificar caché primero
+                    if self._should_use_cache(pid):
+                        data[pid] = self._get_cached_value(pid)
+                        continue
+                        
+                    # Leer datos del dispositivo
+                    raw = self.elm327.send_pid(pid)
+                    if not raw or "NO DATA" in raw or "ERROR" in raw:
+                        self.logger.warning(f"Error leyendo PID {pid}: {raw}")
+                        continue
+                        
+                    # Limpiar y validar respuesta
+                    raw = raw.replace(" ", "").upper()
+                    if not (raw.startswith("41" + pid[2:]) and len(raw) >= 4):
+                        self.logger.error(f"Respuesta inválida para {pid}: {raw}")
+                        continue
+                        
+                    # Extraer bytes de datos
+                    data_bytes = raw[4:]
+                    if not data_bytes:
+                        continue
+                        
+                    # Decodificar valor
+                    try:
+                        decoded = self.pid_decoder.decode(pid, [data_bytes])
+                        if decoded and 'value' in decoded:
+                            data[pid] = decoded['value']
+                            self._cache_data(pid, raw, decoded['value'])
+                    except ValueError as e:
+                        self.logger.error(f"Error decodificando {pid}: {e}")
+                        continue
+                        
+                except Exception as e:
+                    self.logger.error(f"Error procesando PID {pid}: {e}")
+                    continue
+                    
+            # Registrar tiempo de decodificación
+            decode_time = time.time() - start_decode
+            self.performance_monitor.log_decode_time(decode_time)
+            
+            return data
+            
+        except Exception as e:
+            self.logger.error(f"Error en lectura WiFi: {e}")
+            return {}
 
-class DataLogger:
-    def __init__(self, max_size_mb=2.5):
-        self.max_size_bytes = max_size_mb * 1024 * 1024
-        self.current_file = None
-        self.file_counter = 1
-        self.current_size = 0
-        self.csv_writer = None
-        self.csv_file = None
-        self.lock = threading.Lock()
-        self.log_dir = "logs_obd"
-        if not os.path.exists(self.log_dir):
-            os.makedirs(self.log_dir)
-        self.start_new_file()
-    def start_new_file(self):
-        with self.lock:
-            if self.csv_file:
-                self.csv_file.close()
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            filename = f"obd_log_{timestamp}_{self.file_counter:03d}.csv"
-            filepath = os.path.join(self.log_dir, filename)
-            self.csv_file = open(filepath, 'w', newline='', encoding='utf-8')
-            self.csv_writer = csv.writer(self.csv_file)
-            header = ['timestamp', 'rpm', 'velocidad', 'temp_motor', 'carga_motor', 
-                     'acelerador', 'temp_admision', 'combustible', 'voltaje', 'presion_colector']
-            self.csv_writer.writerow(header)
-            self.csv_file.flush()
-            self.current_size = 0
-            self.current_file = filepath
-            print(f"📝 Nuevo log iniciado: {filename}")
-    def log_data(self, fast_data, slow_data):
-        with self.lock:
-            try:
-                timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
-                rpm = fast_data.get('010C', {}).get('value', 0)
-                velocidad = fast_data.get('010D', {}).get('value', 0)
-                temp_motor = fast_data.get('0105', {}).get('value', 0)
-                carga_motor = fast_data.get('0104', {}).get('value', 0)
-                acelerador = fast_data.get('0111', {}).get('value', 0)
-                temp_admision = slow_data.get('010F', {}).get('value', 0)
-                combustible = slow_data.get('012F', {}).get('value', 0)
-                voltaje = slow_data.get('0142', {}).get('value', 0)
-                presion_colector = slow_data.get('010B', {}).get('value', 0)
-                row = [timestamp, rpm, velocidad, temp_motor, carga_motor, acelerador,
-                       temp_admision, combustible, voltaje, presion_colector]
-                self.csv_writer.writerow(row)
-                self.csv_file.flush()
-                self.current_size = os.path.getsize(self.current_file)
-                if self.current_size >= self.max_size_bytes:
-                    self.file_counter += 1
-                    self.start_new_file()
-                    print(f"📦 Archivo rotado - Tamaño: {self.current_size/1024/1024:.1f}MB")
-            except Exception as e:
-                print(f"❌ Error logging: {e}")
-    def get_status(self):
-        size_mb = self.current_size / 1024 / 1024
+    def _read_emulator_data(self):
+        """Lee datos del emulador con simulación realista"""
+        try:
+            if not self.emulator or not self.selected_pids:
+                return {}
+                
+            simulated_data = {
+                '010C': {
+                    'name': 'RPM', 
+                    'value': round(720 + random.randint(-20, 20)), 
+                    'unit': 'RPM'
+                },
+                '010D': {
+                    'name': 'Velocidad',
+                    'value': round(60 + random.randint(-5, 5)), 
+                    'unit': 'km/h'
+                },
+                '0105': {
+                    'name': 'Temp_Motor',
+                    'value': round(95 + random.randint(-3, 3)), 
+                    'unit': '°C'
+                },
+                '0104': {
+                    'name': 'Carga_Motor',
+                    'value': round(20.0 + random.uniform(-2, 2), 1), 
+                    'unit': '%'
+                },
+                '0111': {
+                    'name': 'Acelerador',
+                    'value': round(21.0 + random.uniform(-1, 1), 1), 
+                    'unit': '%'
+                }
+            }
+            
+            # Filtrar solo PIDs solicitados
+            data = {}
+            for pid in self.selected_pids:
+                if pid in simulated_data:
+                    # Usar valor en caché si existe y es reciente
+                    if self._should_use_cache(pid):
+                        data[pid] = self._get_cached_value(pid)
+                    else:
+                        value = simulated_data[pid]['value']
+                        data[pid] = value
+                        self._cache_data(pid, value)
+                        
+            return data
+            
+        except Exception as e:
+            self.logger.error(f"Error en emulador: {e}")
+            return {}
+
+    def _should_use_cache(self, pid):
+        """Determina si se debe usar el valor en caché para un PID"""
+        cache_entry = self._data_cache.get(pid)
+        if not cache_entry:
+            return False
+            
+        # Usar caché solo si el valor es reciente
+        age = time.time() - cache_entry['timestamp']
+        
+        # Diferentes tiempos de caché según el tipo de PID
+        max_age = {
+            '010C': 0.1,  # RPM: actualización muy rápida
+            '010D': 0.2,  # Velocidad: actualización rápida
+            '0104': 0.5,  # Carga: actualización media
+            '0105': 1.0,  # Temperatura: actualización lenta
+            '0111': 0.3   # Acelerador: actualización media-rápida
+        }.get(pid, 0.5)  # Valor por defecto
+        
+        return age < max_age
+        
+    def _cache_data(self, pid, raw_value=None, decoded_value=None):
+        """Almacena datos en caché con timestamp"""
+        current_time = time.time()
+        
+        if raw_value is not None:
+            self._data_cache[f"raw_{pid}"] = {
+                'value': raw_value,
+                'timestamp': current_time
+            }
+            
+        if decoded_value is not None:
+            self._data_cache[pid] = {
+                'value': decoded_value,
+                'timestamp': current_time
+            }
+            
+    def _get_cached_value(self, pid, raw=False):
+        """Obtiene valor del caché"""
+        key = f"raw_{pid}" if raw else pid
+        cache_entry = self._data_cache.get(key)
+        return cache_entry['value'] if cache_entry else None
+    def _verify_connection(self, response):
+        """Verifica que la conexión sea real y no simulada"""
+        try:
+            # Verificar formato de respuesta OBD
+            if not response or len(response) < 4:
+                self.logger.error("Respuesta OBD inválida")
+                return False
+                
+            # Verificar que no sea respuesta simulada
+            response = response.strip().upper()
+            if "EMULATOR" in response or "SIMULATOR" in response:
+                self.logger.error("Detectada respuesta de emulador")
+                return False
+                
+            # Verificar respuesta estándar OBD
+            if not (response.startswith("41") or response.startswith("7E8")):
+                self.logger.error(f"Formato de respuesta inválido: {response}")
+                return False
+                
+            return True
+            
+        except Exception as e:
+            self.logger.error(f"Error en verificación: {str(e)}")
+            return False
+            
+    def _validate_pid_value(self, pid, value):
+        """Valida que los valores de los PIDs estén dentro de rangos realistas"""
+        try:
+            # Rangos realistas para los PIDs principales
+            valid_ranges = {
+                # RPM: ralentí (500-1000), max 8000
+                '010C': {'min': 500, 'max': 8000},  
+                # Velocidad: 0-250 km/h
+                '010D': {'min': 0, 'max': 250},     
+                # Temperatura motor: -40 a 215°C
+                '0105': {'min': -40, 'max': 215},   
+                # Carga motor: 0-100%
+                '0104': {'min': 0, 'max': 100},     
+                # Acelerador: 0-100%
+                '0111': {'min': 0, 'max': 100},     
+                # Temperatura admisión: -40 a 215°C
+                '010F': {'min': -40, 'max': 215},   
+                # Nivel combustible: 0-100%
+                '012F': {'min': 0, 'max': 100},     
+                # Voltaje: 8-16V
+                '0142': {'min': 8, 'max': 16},      
+                # Presión colector: 0-255 kPa
+                '010B': {'min': 0, 'max': 255}      
+            }
+            
+            # Verificar si el PID tiene rango definido
+            if pid not in valid_ranges:
+                self.logger.warning(f"No hay rango definido para PID: {pid}")
+                return True
+                
+            # Obtener rango y validar
+            range_info = valid_ranges[pid]
+            if not isinstance(value, (int, float)):
+                self.logger.error(f"Valor no numérico para {pid}: {value}")
+                return False
+                
+            if value < range_info['min'] or value > range_info['max']:
+                self.logger.warning(
+                    f"Valor fuera de rango para {pid}: {value} "
+                    f"[{range_info['min']}-{range_info['max']}]"
+                )
+                return False
+                
+            return True
+            
+        except Exception as e:
+            self.logger.error(f"Error validando valor para {pid}: {str(e)}")
+            return False
+            
+    def _generate_simulated_data(self):
+        """Genera datos simulados con valores realistas"""
         return {
-            'file': os.path.basename(self.current_file) if self.current_file else "None",
-            'size_mb': round(size_mb, 2),
-            'progress': round((size_mb / 2.5) * 100, 1)
+            '010C': {
+                'name': 'RPM',
+                'value': 800 + random.randint(-50, 50),  # Ralentí realista
+                'unit': 'RPM'
+            },
+            '010D': {
+                'name': 'Velocidad',
+                'value': 0,  # Vehículo detenido
+                'unit': 'km/h'
+            },
+            '0105': {
+                'name': 'Temp_Motor',
+                'value': 90 + random.randint(-5, 5),  # Temperatura normal
+                'unit': '°C'
+            },
+            '0104': {
+                'name': 'Carga_Motor',
+                'value': round(15.0 + random.uniform(-2, 2), 1),  # Ralentí
+                'unit': '%'
+            },
+            '0111': {
+                'name': 'Acelerador',
+                'value': round(5.0 + random.uniform(-1, 1), 1),  # Ralentí
+                'unit': '%'
+            }
         }
-
+class DataLogger:
+    def __init__(self, log_file='obd_data.log', max_size_mb=2.5):
+        """
+        Inicializa el logger con soporte para emojis y caracteres especiales
+        
+        Args:
+            log_file (str): Nombre del archivo de log
+            max_size_mb (float): Tamaño máximo del archivo de log en MB
+        """
+        self.log_file = log_file
+        self.max_size_mb = max_size_mb
+        self.logger = logging.getLogger('DataLogger')
+        self.logger.setLevel(logging.DEBUG)
+        
+        # Configurar handler para consola sin emojis
+        console_handler = logging.StreamHandler(sys.stdout)
+        console_handler.setLevel(logging.INFO)
+        console_formatter = logging.Formatter(
+            '%(asctime)s - %(levelname)s - %(message)s',
+            datefmt='%Y-%m-%d %H:%M:%S'
+        )
+        console_handler.setFormatter(console_formatter)
+        self.logger.addHandler(console_handler)
+        
+        # Configurar handler para archivo con encoding UTF-8 y emojis
+        try:
+            fh = logging.FileHandler(log_file, encoding='utf-8', mode='a')
+            fh.setLevel(logging.DEBUG)
+            file_formatter = logging.Formatter(
+                '%(asctime)s [%(levelname)s] %(message)s',
+                datefmt='%Y-%m-%d %H:%M:%S'
+            )
+            fh.setFormatter(file_formatter)
+            self.logger.addHandler(fh)
+        except Exception as e:
+            print(f"Error configurando log file: {str(e)}")
+            
+        # Diccionario de emojis y sus alternativas en texto
+        self.emojis = {
+            'error': ('❌', '[ERROR]'),
+            'warning': ('⚠️', '[WARN]'),
+            'info': ('ℹ️', '[INFO]'),
+            'debug': ('🔍', '[DEBUG]'),
+            'speed': ('🚗', '[SPEED]'),
+            'rpm': ('⚙️', '[RPM]'),
+            'temp': ('🌡️', '[TEMP]'),
+            'fuel': ('⛽', '[FUEL]'),
+            'voltage': ('⚡', '[VOLT]')
+        }
+    
+    def _format_message(self, level, msg):
+        """Formatea el mensaje con emoji o texto alternativo según el destino"""
+        emoji, alt_text = self.emojis.get(level.lower(), ('📊', '[DATA]'))
+        return f"{emoji} {msg}", f"{alt_text} {msg}"
+    
+    def error(self, msg):
+        emoji_msg, alt_msg = self._format_message('error', msg)
+        for handler in self.logger.handlers:
+            if isinstance(handler, logging.FileHandler):
+                handler.emit(logging.LogRecord(
+                    'DataLogger', logging.ERROR, '', 0, emoji_msg, (), None))
+            else:
+                handler.emit(logging.LogRecord(
+                    'DataLogger', logging.ERROR, '', 0, alt_msg, (), None))
+    
+    def warning(self, msg):
+        emoji_msg, alt_msg = self._format_message('warning', msg)
+        for handler in self.logger.handlers:
+            if isinstance(handler, logging.FileHandler):
+                handler.emit(logging.LogRecord(
+                    'DataLogger', logging.WARNING, '', 0, emoji_msg, (), None))
+            else:
+                handler.emit(logging.LogRecord(
+                    'DataLogger', logging.WARNING, '', 0, alt_msg, (), None))
+    
+    def info(self, msg):
+        emoji_msg, alt_msg = self._format_message('info', msg)
+        for handler in self.logger.handlers:
+            if isinstance(handler, logging.FileHandler):
+                handler.emit(logging.LogRecord(
+                    'DataLogger', logging.INFO, '', 0, emoji_msg, (), None))
+            else:
+                handler.emit(logging.LogRecord(
+                    'DataLogger', logging.INFO, '', 0, alt_msg, (), None))
+    
+    def debug(self, msg):
+        emoji_msg, alt_msg = self._format_message('debug', msg)
+        for handler in self.logger.handlers:
+            if isinstance(handler, logging.FileHandler):
+                handler.emit(logging.LogRecord(
+                    'DataLogger', logging.DEBUG, '', 0, emoji_msg, (), None))
+            else:
+                handler.emit(logging.LogRecord(
+                    'DataLogger', logging.DEBUG, '', 0, alt_msg, (), None))
+    
+    def log_data(self, data_dict):
+        """
+        Registra datos del vehículo con formato amigable y emojis
+        
+        Args:
+            data_dict (dict): Diccionario con datos del vehículo
+        """
+        try:
+            timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            
+            for pid, data in data_dict.items():
+                if isinstance(data, dict):
+                    name = data.get('name', '').lower()
+                    value = data.get('value', '')
+                    unit = data.get('unit', '')
+                    
+                    emoji = self.emojis.get(name, '📊')
+                    log_msg = f"{emoji} {name.title()}: {value} {unit}"
+                    self.logger.info(log_msg)
+                    
+        except Exception as e:
+            self.error(f"Error al registrar datos: {str(e)}")
+    
+    def get_status(self):
+        """
+        Retorna el estado actual del logger
+        
+        Returns:
+            dict: Estado del logger incluyendo tamaño del archivo
+        """
+        try:
+            size_bytes = os.path.getsize(self.log_file)
+            size_mb = round(size_bytes / (1024 * 1024), 2)
+            
+            return {
+                'file': self.log_file,
+                'size_mb': size_mb,
+                'size_bytes': size_bytes
+            }
+        except Exception as e:
+            self.error(f"Error al obtener estado del logger: {str(e)}")
+            return {
+                'file': self.log_file,
+                'size_mb': 0,
+                'size_bytes': 0
+            }
 class HighSpeedOBDDashboard(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("⚡ Dashboard OBD-II ALTA VELOCIDAD + WiFi + Logging")
         self.setGeometry(50, 50, 1600, 1000)
+        self._mode = OPERATION_MODES["WIFI"]  # Modo por defecto
         self.elm327 = OptimizedELM327Connection()
         self.logger = DataLogger(max_size_mb=2.5)
         self.fast_timer = QTimer()
@@ -229,6 +804,11 @@ class HighSpeedOBDDashboard(QMainWindow):
         self.slow_timer.timeout.connect(self.read_slow_data)
         self.fast_data_cache = {}
         self.slow_data_cache = {}
+        
+        # Definir PIDs
+        self.fast_pids = ['010C', '010D', '0105', '0104', '0111']
+        self.slow_pids = ['010F', '012F', '0142', '010B']
+        
         self.init_ui()
     def init_ui(self):
         central_widget = QWidget()
@@ -316,27 +896,115 @@ class HighSpeedOBDDashboard(QMainWindow):
         layout.addStretch()
         return group_box
     def create_fast_data_panel(self):
-        group_box = QGroupBox("⚡ Datos Críticos (Actualización Rápida)")
+        """Crea el panel de datos de alta frecuencia con estilo mejorado"""
+        group_box = QGroupBox("⚡ Datos en Tiempo Real")
+        group_box.setStyleSheet("""
+            QGroupBox {
+                font-weight: bold;
+                font-size: 14px;
+                border: 2px solid #4CAF50;
+                border-radius: 6px;
+                margin-top: 6px;
+                background-color: #FAFAFA;
+            }
+            QGroupBox::title {
+                subcontrol-origin: margin;
+                left: 7px;
+                padding: 0px 5px 0px 5px;
+                background-color: #4CAF50;
+                color: white;
+                border-radius: 3px;
+            }
+        """)
+        
         layout = QGridLayout(group_box)
+        layout.setSpacing(10)
+        
+        # Crear contenedores individuales para cada métrica
         self.fast_labels = {}
-        fast_pids = ['010C', '010D', '0105', '0104', '0111']
-        for i, pid in enumerate(fast_pids):
-            info = self.elm327.fast_pids[pid]
-            name_label = QLabel(f"{info['name']}:")
-            name_label.setStyleSheet("font-weight: bold; font-size: 14px; color: #333;")
-            value_label = QLabel("--")
-            value_label.setStyleSheet("""
-                font-weight: bold; font-size: 22px; color: #D32F2F;
-                border: 3px solid #D32F2F; padding: 12px; 
-                background-color: #FFEBEE; min-width: 140px; 
-                border-radius: 8px; text-align: center;
-            """)
-            row = i // 3
-            col = (i % 3) * 2
-            layout.addWidget(name_label, row, col)
-            layout.addWidget(value_label, row, col + 1)
-            self.fast_labels[pid] = value_label
+        
+        # RPM
+        rpm_container = QGroupBox("⚙️ RPM")
+        rpm_layout = QVBoxLayout(rpm_container)
+        self.fast_labels['010C'] = QLabel("----")
+        self.fast_labels['010C'].setStyleSheet("""
+            font-size: 24px;
+            font-weight: bold;
+            color: #2196F3;
+            padding: 10px;
+            background-color: #E3F2FD;
+            border: 1px solid #90CAF9;
+            border-radius: 4px;
+        """)
+        rpm_layout.addWidget(self.fast_labels['010C'])
+        layout.addWidget(rpm_container, 0, 0)
+        
+        # Velocidad
+        speed_container = QGroupBox("🚗 Velocidad")
+        speed_layout = QVBoxLayout(speed_container)
+        self.fast_labels['010D'] = QLabel("----")
+        self.fast_labels['010D'].setStyleSheet("""
+            font-size: 24px;
+            font-weight: bold;
+            color: #4CAF50;
+            padding: 10px;
+            background-color: #E8F5E9;
+            border: 1px solid #A5D6A7;
+            border-radius: 4px;
+        """)
+        speed_layout.addWidget(self.fast_labels['010D'])
+        layout.addWidget(speed_container, 0, 1)
+        
+        # Temperatura del Motor
+        temp_container = QGroupBox("🌡️ Temperatura Motor")
+        temp_layout = QVBoxLayout(temp_container)
+        self.fast_labels['0105'] = QLabel("----")
+        self.fast_labels['0105'].setStyleSheet("""
+            font-size: 24px;
+            font-weight: bold;
+            color: #F44336;
+            padding: 10px;
+            background-color: #FFEBEE;
+            border: 1px solid #FFCDD2;
+            border-radius: 4px;
+        """)
+        temp_layout.addWidget(self.fast_labels['0105'])
+        layout.addWidget(temp_container, 0, 2)
+        
+        # Carga del Motor
+        load_container = QGroupBox("💪 Carga Motor")
+        load_layout = QVBoxLayout(load_container)
+        self.fast_labels['0104'] = QLabel("----")
+        self.fast_labels['0104'].setStyleSheet("""
+            font-size: 24px;
+            font-weight: bold;
+            color: #FF9800;
+            padding: 10px;
+            background-color: #FFF3E0;
+            border: 1px solid #FFE0B2;
+            border-radius: 4px;
+        """)
+        load_layout.addWidget(self.fast_labels['0104'])
+        layout.addWidget(load_container, 1, 0)
+        
+        # Posición del Acelerador
+        throttle_container = QGroupBox("🎮 Acelerador")
+        throttle_layout = QVBoxLayout(throttle_container)
+        self.fast_labels['0111'] = QLabel("----")
+        self.fast_labels['0111'].setStyleSheet("""
+            font-size: 24px;
+            font-weight: bold;
+            color: #9C27B0;
+            padding: 10px;
+            background-color: #F3E5F5;
+            border: 1px solid #E1BEE7;
+            border-radius: 4px;
+        """)
+        throttle_layout.addWidget(self.fast_labels['0111'])
+        layout.addWidget(throttle_container, 1, 1)
+        
         return group_box
+
     def create_slow_data_panel(self):
         group_box = QGroupBox("📊 Datos Adicionales (Actualización Normal)")
         layout = QGridLayout(group_box)
@@ -422,47 +1090,169 @@ class HighSpeedOBDDashboard(QMainWindow):
         self.speed_status.setText("⚡ Velocidad: Detenido")
         print("⏹️ Monitoreo detenido")
     def read_fast_data(self):
-        # Modo emulador
-        if hasattr(self.elm327, 'mode') and self.elm327.mode == "emulator":
-            simulated_data = self.elm327.read_fast_data()
-            self.fast_data_cache = simulated_data
-            for pid, value_label in self.fast_labels.items():
-                if pid in simulated_data:
-                    info = simulated_data[pid]
-                    value_label.setText(f"{info['value']} {info['unit']}")
-            self.logger.log_data(self.fast_data_cache, self.slow_data_cache)
-            log_status = self.logger.get_status()
-            self.logging_status.setText(f"📝 Log: {log_status['file']} ({log_status['size_mb']}MB)")
-            return
-        data = self.elm327.read_fast_data()
-        if data:
-            self.fast_data_cache = data
-            for pid, value_label in self.fast_labels.items():
-                if pid in data:
-                    info = data[pid]
-                    value_label.setText(f"{info['value']} {info['unit']}")
-            self.logger.log_data(self.fast_data_cache, self.slow_data_cache)
-            log_status = self.logger.get_status()
-            self.logging_status.setText(f"📝 Log: {log_status['file']} ({log_status['size_mb']}MB)")
+        """Lee los PIDs rápidos (datos críticos) del vehículo con validación mejorada."""
+        try:
+            # Modo emulador
+            if self._mode == OPERATION_MODES["EMULATOR"]:
+                valid_data = {}
+                for pid in self.fast_pids:
+                    data = self.query_pid(pid)
+                    if data and self._validate_pid_data(pid, data):
+                        valid_data[pid] = data
+                
+                self.fast_data_cache = valid_data
+                self._update_display(valid_data, self.fast_labels)
+                self.logger.log_data(self.fast_data_cache)
+                self._update_log_status()
+                return
+    
+            # Modo WiFi real
+            valid_data = {}
+            for pid in self.fast_pids:
+                data = self.query_pid(pid)
+                if data and self._validate_pid_data(pid, data):
+                    valid_data[pid] = data
+                else:
+                    self.logger.warning(f"Datos inválidos para PID {pid}: {data}")
+            
+            self.fast_data_cache = valid_data
+            self._update_display(valid_data, self.fast_labels)
+            self.logger.log_data(self.fast_data_cache)
+            self._update_log_status()
+                    
+        except Exception as e:
+            self.logger.error(f"Error en read_fast_data: {str(e)}")
     def read_slow_data(self):
-        # Modo emulador
-        if hasattr(self.elm327, 'mode') and self.elm327.mode == "emulator":
-            simulated_slow_data = self.elm327.read_slow_data()
-            self.slow_data_cache = simulated_slow_data
-            for pid, value_label in self.slow_labels.items():
-                if pid in simulated_slow_data:
-                    info = simulated_slow_data[pid]
-                    value_label.setText(f"{info['value']} {info['unit']}")
-            return
-        data = self.elm327.read_slow_data()
-        if data:
-            self.slow_data_cache = data
-            for pid, value_label in self.slow_labels.items():
-                if pid in data:
-                    info = data[pid]
-                    value_label.setText(f"{info['value']} {info['unit']}")
+        """Lee los PIDs lentos (datos secundarios) del vehículo con validación mejorada."""
+        try:
+            # Modo emulador
+            if self._mode == OPERATION_MODES["EMULATOR"]:
+                valid_data = {}
+                for pid in self.slow_pids:
+                    data = self.query_pid(pid)
+                    if data and self._validate_pid_data(pid, data):
+                        valid_data[pid] = data
+                
+                self.slow_data_cache = valid_data
+                self._update_display(valid_data, self.slow_labels)
+                self.logger.log_data(self.slow_data_cache)
+                return
+    
+            # Modo WiFi real
+            valid_data = {}
+            for pid in self.slow_pids:
+                data = self.query_pid(pid)
+                if data and self._validate_pid_data(pid, data):
+                    valid_data[pid] = data
+                else:
+                    self.logger.warning(f"Datos inválidos para PID {pid}: {data}")
+            
+            self.slow_data_cache = valid_data
+            self._update_display(valid_data, self.slow_labels)
+            self.logger.log_data(self.slow_data_cache)
+                    
+        except Exception as e:
+            self.logger.error(f"Error en read_slow_data: {str(e)}")
+    def _validate_pid_data(self, pid, data):
+        """Valida los datos recibidos de un PID"""
+        if not isinstance(data, dict):
+            return False
+            
+        required_keys = ['value', 'unit']
+        if not all(key in data for key in required_keys):
+            return False
+            
+        # Validar rangos según el tipo de PID
+        if pid == '010C':  # RPM
+            return 0 <= data['value'] <= 8000
+        elif pid == '010D':  # Velocidad
+            return 0 <= data['value'] <= 255
+        elif pid == '0105':  # Temp Motor
+            return -40 <= data['value'] <= 215
+        elif pid == '0104':  # Carga Motor
+            return 0 <= data['value'] <= 100
+        elif pid == '0111':  # Posición Acelerador
+            return 0 <= data['value'] <= 100
+            
+        return True
 
+    def _update_display(self, pid_data, labels):
+        """Actualiza las etiquetas de la interfaz con los datos validados"""
+        for pid, value_label in labels.items():
+            if pid in pid_data:
+                data = pid_data[pid]
+                if self._validate_pid_data(pid, data):
+                    value_label.setText(f"{data['value']} {data['unit']}")
+                else:
+                    value_label.setText("ERR")
+                    self.logger.warning(f"Datos inválidos para PID {pid}: {data}")
+
+    def _update_log_status(self):
+        """Actualiza el estado del registro en la interfaz"""
+        try:
+            log_status = self.logger.get_status()
+            self.logging_status.setText(
+                f"📝 Log: {log_status['file']} ({log_status['size_mb']}MB)")
+        except Exception as e:
+            self.logger.error(f"Error actualizando estado del log: {str(e)}")
+
+    def query_pid(self, pid):
+        """Consulta un PID específico y retorna el valor decodificado"""
+        try:
+            # Modo emulador
+            if self._mode == OPERATION_MODES["EMULATOR"]:
+                simulated_data = {
+                    '010C': lambda: random.randint(700, 1000),  # RPM
+                    '010D': lambda: random.randint(0, 80),      # Velocidad
+                    '0105': lambda: random.randint(80, 95),     # Temperatura
+                    '0104': lambda: random.randint(10, 30),     # Carga
+                    '0111': lambda: random.randint(0, 20)       # Acelerador
+                }
+                return simulated_data.get(pid, lambda: 0)()
+
+            # Modo WiFi real
+            if not self.socket:
+                self.logger.error("Socket no inicializado")
+                return None
+
+            # Enviar comando y esperar respuesta
+            cmd = f"{pid}\r"
+            self.socket.sendall(cmd.encode())
+            response = self.socket.recv(1024).decode('utf-8', errors='ignore')
+            
+            # Limpiar y validar respuesta
+            response = response.strip().replace('\r', '').replace('\n', '')
+            if "NO DATA" in response or "ERROR" in response or "?" in response:
+                self.logger.warning(f"Sin datos para PID {pid}: {response}")
+                return None
+
+            # Extraer bytes de datos
+            if not response.startswith("41"):
+                self.logger.error(f"Respuesta inválida para {pid}: {response}")
+                return None
+
+            data_bytes = response[4:].split()
+            if not data_bytes:
+                return None
+
+            # Aplicar fórmula según PID
+            if pid in self.fast_pids:
+                formula = self.fast_pids[pid]['formula']
+                try:
+                    value = formula(data_bytes)
+                    if self._validate_pid_data(pid, value):
+                        return value
+                except Exception as e:
+                    self.logger.error(f"Error decodificando {pid}: {e}")
+                    return None
+
+            return None
+
+        except Exception as e:
+            self.logger.error(f"Error en query_pid {pid}: {str(e)}")
+            return None
 def main():
+    """Función principal que inicia el dashboard."""
     app = QApplication(sys.argv)
     app.setStyle('Fusion')
     print("⚡ Dashboard OBD-II Alta Velocidad + WiFi + Logging Automático")
@@ -471,6 +1261,7 @@ def main():
     dashboard = HighSpeedOBDDashboard()
     dashboard.show()
     sys.exit(app.exec())
+
 
 if __name__ == "__main__":
     main()

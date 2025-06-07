@@ -1,0 +1,12 @@
+{
+  "vehicle_id": "template",
+  "identification": {},
+  "supported_pids": [],
+  "optimal_pids": [],
+  "diesel_specific_pids": [],
+  "turbo_specific_pids": [],
+  "specific_settings": {},
+  "obd_quirks": {},
+  "emission_system": {},
+  "diagnostic_notes": []
+}

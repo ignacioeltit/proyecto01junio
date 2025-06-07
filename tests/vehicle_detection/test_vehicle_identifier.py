@@ -1,0 +1,1 @@
+# Test unitario para VehicleIdentifier

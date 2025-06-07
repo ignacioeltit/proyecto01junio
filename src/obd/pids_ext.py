@@ -204,3 +204,256 @@ PIDS["010F"]["parse_fn"] = parse_temp_aire_admision
 for _hex, _nombre in PID_MAP.items():
     if _nombre not in PIDS:
         PIDS[_nombre] = PIDS[_hex]
+
+# --- PIDs Toyota Hilux 2018 Diesel - Agregados 2025-06-05 ---
+# PIDs de Identificación
+PIDS["vin"] = {
+    "cmd": "0902",
+    "desc": "Vehicle Identification Number - Hilux 2018",
+    "min": 17,
+    "max": 17,
+    "parse_fn": lambda resp: parse_vin(resp),
+}
+PIDS["calibration_id"] = {
+    "cmd": "0904",
+    "desc": "Calibration ID - ECU Toyota 2GD",
+    "min": 0,
+    "max": 50,
+    "parse_fn": lambda resp: parse_calibration_id(resp),
+}
+PIDS["ecu_name"] = {
+    "cmd": "090A",
+    "desc": "ECU Name",
+    "min": 0,
+    "max": 50,
+}
+PIDS["supported_pids_mode09"] = {
+    "cmd": "0900",
+    "desc": "PIDs soportados Mode 09",
+    "min": 0,
+    "max": 255,
+}
+# PIDs Específicos Diesel/Turbo
+PIDS["fuel_rail_pressure_abs"] = {
+    "cmd": "0123",
+    "desc": "Presión absoluta riel combustible",
+    "min": 0,
+    "max": 655350,
+    "parse_fn": lambda resp: parse_fuel_rail_pressure_abs(resp),
+}
+PIDS["boost_pressure"] = {
+    "cmd": "0170",
+    "desc": "Presión boost turbo",
+    "min": 0,
+    "max": 512,
+    "parse_fn": lambda resp: parse_boost_pressure(resp),
+}
+PIDS["turbo_rpm"] = {
+    "cmd": "0174",
+    "desc": "RPM turbocompresor",
+    "min": 0,
+    "max": 65535,
+    "parse_fn": lambda resp: parse_turbo_rpm(resp),
+}
+PIDS["turbo_temp"] = {
+    "cmd": "0175",
+    "desc": "Temperatura turbo",
+    "min": -40,
+    "max": 215,
+}
+PIDS["egr_commanded"] = {
+    "cmd": "012C",
+    "desc": "EGR comandado",
+    "min": 0,
+    "max": 100,
+}
+PIDS["egr_temp"] = {
+    "cmd": "016B",
+    "desc": "Temperatura EGR",
+    "min": -40,
+    "max": 215,
+}
+PIDS["dpf_differential_pressure"] = {
+    "cmd": "017A",
+    "desc": "Presión diferencial DPF",
+    "min": 0,
+    "max": 65535,
+}
+PIDS["dpf_temperature"] = {
+    "cmd": "017C",
+    "desc": "Temperatura DPF",
+    "min": -40,
+    "max": 1200,
+    "parse_fn": lambda resp: parse_dpf_temperature(resp),
+}
+# PIDs Adicionales Motor
+PIDS["fuel_rate"] = {
+    "cmd": "015E",
+    "desc": "Tasa consumo combustible",
+    "min": 0,
+    "max": 6553.5,
+    "parse_fn": lambda resp: parse_fuel_rate(resp),
+}
+PIDS["control_module_voltage"] = {
+    "cmd": "0142",
+    "desc": "Voltaje ECU",
+    "min": 0,
+    "max": 65.535,
+    "parse_fn": lambda resp: parse_control_module_voltage(resp),
+}
+PIDS["maf"] = {
+    "cmd": "0110",
+    "desc": "Mass Air Flow Rate",
+    "min": 0,
+    "max": 655.35,
+}
+PIDS["presion_adm"] = {
+    "cmd": "010B",
+    "desc": "Intake Manifold Pressure",
+    "min": 0,
+    "max": 255,
+}
+PIDS["ambient_temp"] = {
+    "cmd": "0146",
+    "desc": "Temperatura ambiente",
+    "min": -40,
+    "max": 215,
+}
+PIDS["oil_temp"] = {
+    "cmd": "015C",
+    "desc": "Temperatura aceite motor",
+    "min": -40,
+    "max": 215,
+}
+PIDS["fuel_rail_absolute_pressure"] = {
+    "cmd": "0159",
+    "desc": "Presión absoluta riel",
+    "min": 0,
+    "max": 655350,
+}
+PIDS["intake_air_temp"] = {
+    "cmd": "010F",
+    "desc": "Temperatura aire admisión",
+    "min": -40,
+    "max": 215,
+}
+
+# --- Funciones de parsing específicas para los nuevos PIDs ---
+def parse_vin(resp):
+    """Parsea VIN específicamente para Toyota Hilux 2018"""
+    if not resp:
+        return None
+    try:
+        raw = resp.replace(" ", "")
+        if raw.startswith("4902"):
+            data_bytes = raw[4:]
+            vin = ""
+            for i in range(0, len(data_bytes), 2):
+                byte_val = int(data_bytes[i:i+2], 16)
+                if 32 <= byte_val <= 126:
+                    vin += chr(byte_val)
+            return vin if len(vin) == 17 else None
+    except Exception:
+        return None
+
+def parse_calibration_id(resp):
+    """Parsea Calibration ID para Toyota Hilux 2018"""
+    if not resp:
+        return None
+    try:
+        raw = resp.replace(" ", "")
+        if raw.startswith("4904"):
+            data_bytes = raw[4:]
+            cal_id = ""
+            for i in range(0, len(data_bytes), 2):
+                byte_val = int(data_bytes[i:i+2], 16)
+                if 32 <= byte_val <= 126:
+                    cal_id += chr(byte_val)
+            return cal_id
+    except Exception:
+        return None
+
+def parse_fuel_rail_pressure_abs(resp):
+    """Parsea presión absoluta riel combustible (PID 0123)"""
+    if not resp:
+        return None
+    try:
+        raw = resp.replace(" ", "")
+        if raw.startswith("4123") and len(raw) >= 8:
+            a = int(raw[4:6], 16)
+            b = int(raw[6:8], 16)
+            pressure = ((a * 256) + b) * 10
+            return pressure
+    except Exception:
+        return None
+
+def parse_boost_pressure(resp):
+    """Parsea presión boost turbo (PID 0170)"""
+    if not resp:
+        return None
+    try:
+        raw = resp.replace(" ", "")
+        if raw.startswith("4170") and len(raw) >= 8:
+            a = int(raw[4:6], 16)
+            b = int(raw[6:8], 16)
+            boost = ((a * 256) + b) / 128
+            return boost
+    except Exception:
+        return None
+
+def parse_turbo_rpm(resp):
+    """Parsea RPM turbocompresor (PID 0174)"""
+    if not resp:
+        return None
+    try:
+        raw = resp.replace(" ", "")
+        if raw.startswith("4174") and len(raw) >= 8:
+            a = int(raw[4:6], 16)
+            b = int(raw[6:8], 16)
+            rpm = (a * 256) + b
+            return rpm
+    except Exception:
+        return None
+
+def parse_dpf_temperature(resp):
+    """Parsea temperatura DPF (PID 017C)"""
+    if not resp:
+        return None
+    try:
+        raw = resp.replace(" ", "")
+        if raw.startswith("417C") and len(raw) >= 8:
+            a = int(raw[4:6], 16)
+            b = int(raw[6:8], 16)
+            temp = ((a * 256) + b) * 0.1 - 40
+            return temp
+    except Exception:
+        return None
+
+def parse_fuel_rate(resp):
+    """Parsea tasa de consumo de combustible (PID 015E)"""
+    if not resp:
+        return None
+    try:
+        raw = resp.replace(" ", "")
+        if raw.startswith("415E") and len(raw) >= 8:
+            a = int(raw[4:6], 16)
+            b = int(raw[6:8], 16)
+            rate = ((a * 256) + b) * 0.05
+            return rate
+    except Exception:
+        return None
+
+def parse_control_module_voltage(resp):
+    """Parsea voltaje ECU (PID 0142)"""
+    if not resp:
+        return None
+    try:
+        raw = resp.replace(" ", "")
+        if raw.startswith("4142") and len(raw) >= 8:
+            a = int(raw[4:6], 16)
+            b = int(raw[6:8], 16)
+            voltage = ((a * 256) + b) * 0.001
+            return voltage
+    except Exception:
+        return None
+# --- Fin PIDs Toyota Hilux 2018 Diesel ---

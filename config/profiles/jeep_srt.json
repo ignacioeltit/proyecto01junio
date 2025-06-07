@@ -1,0 +1,36 @@
+{
+    "profile_name": "jeep_srt",
+    "description": "Perfil propietario para Jeep Grand Cherokee SRT",
+    "pids": [
+        {
+            "pid": "2201",
+            "name": "boost_pressure",
+            "description": "Presión del turbo",
+            "bytes": 2,
+            "formula": "(A*256+B)/4",
+            "min": -14.7,
+            "max": 50.0,
+            "units": "psi"
+        },
+        {
+            "pid": "2204",
+            "name": "knock_retard",
+            "description": "Retardo por detonación",
+            "bytes": 1,
+            "formula": "A/2",
+            "min": 0,
+            "max": 127.5,
+            "units": "°"
+        },
+        {
+            "pid": "2207",
+            "name": "timing_advance",
+            "description": "Avance de encendido",
+            "bytes": 1,
+            "formula": "A/2-64",
+            "min": -64,
+            "max": 63.5,
+            "units": "°"
+        }
+    ]
+}

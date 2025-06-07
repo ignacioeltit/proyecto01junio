@@ -34,14 +34,46 @@ class OBDConnection:
             self.connection.close()
             self.connection = None
 
+    def disconnect(self):
+        """Cierra la conexión actual"""
+        if not self.connection:
+            return
+
+        try:
+            if self.mode == "usb":
+                self.connection.close()
+            elif self.mode == "wifi":
+                self.connection.close()
+            self.connection = None
+        except Exception as e:
+            print(f"Error al cerrar conexión: {e}")
+
     def write(self, data):
-        if self.mode == "usb":
-            self.connection.write(data.encode())
-        elif self.mode == "wifi":
-            self.connection.sendall(data.encode())
+        """Envía datos a través de la conexión"""
+        if not self.connection:
+            return False
+
+        try:
+            if self.mode == "usb":
+                self.connection.write(data.encode())
+            else:
+                self.connection.send(data.encode())
+            return True
+        except Exception as e:
+            print(f"Error escribiendo datos: {e}")
+            return False
 
     def read(self, size=128):
-        if self.mode == "usb":
-            return self.connection.read(size).decode(errors="ignore")
-        elif self.mode == "wifi":
-            return self.connection.recv(size).decode(errors="ignore")
+        """Lee datos de la conexión"""
+        if not self.connection:
+            return None
+
+        try:
+            if self.mode == "usb":
+                data = self.connection.read(size)
+            else:
+                data = self.connection.recv(size)
+            return data.decode(errors="ignore")
+        except Exception as e:
+            print(f"Error leyendo datos: {e}")
+            return None

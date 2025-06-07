@@ -1,0 +1,26 @@
+﻿PID_Hex,PID_Dec,Descripcion,Formula_Conversion,Unidad,Ejemplo_Hex,Valor_Real,Status_Verification,Fuente_Documentacion
+0100,0,PIDs soportados [01-20],Bit encoded [A7..D0] == [PID $01..PID $20],Binario,41 00 BE 1F B8 10,Mapa de bits PIDs soportados,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+0101,1,Estado monitor desde DTCs borrados,"Bit encoded - MIL status, DTCs count",Binario,41 01 00 07 E5 00,"MIL OFF, 0 DTCs almacenados",✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+0103,3,Estado sistema combustible,Bit encoded fuel system status,Enum,41 03 02 00,Closed loop - O2 sensor,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+0104,4,Carga calculada motor,A/2.55,%,41 04 7F,50.0,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+0105,5,Temperatura refrigerante motor,A-40,°C,41 05 80,88,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+010C,12,Revoluciones motor (RPM),((A*256)+B)/4,rpm,41 0C 0A B8,686,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+010D,13,Velocidad vehículo,A,km/h,41 0D 50,80,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+010F,15,Temperatura aire admisión,A-40,°C,41 0F 4C,36,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+0110,16,Flujo aire sensor MAF,((A*256)+B)/100,g/s,41 10 14 7B,52.59,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+0114,20,Sensor O2 1 - Voltaje y STFT,"Voltage: A/200, STFT: (B/1.28)-100","V, %",41 14 80 FF,"0.64V, sensor no usado",✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+011C,28,Estándares OBD conformidad,Enumerated value,Enum,41 1C 01,OBD-II CARB,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+011F,31,Tiempo funcionamiento desde arranque,256A+B,segundos,41 1F 03 E8,1000,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+0120,32,PIDs soportados [21-40],Bit encoded [A7..D0] == [PID $21..PID $40],Binario,41 20 80 00 00 00,Mapa de bits PIDs soportados,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+012F,47,Nivel tanque combustible,A/2.55,%,41 2F 7F,50.0,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+0130,48,Calentamientos desde códigos borrados,A,conteo,41 30 0A,10,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+0142,66,Voltaje módulo control,((A*256)+B)/1000,V,41 42 30 D4,12.5,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+0143,67,Valor carga absoluta,((A*256)+B)/2.55,%,41 43 19 9A,2500.0,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+0144,68,Relación aire-combustible comandada,((A*256)+B)/32768,ratio,41 44 80 00,1.0,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+0145,69,Posición relativa acelerador,A/2.55,%,41 45 33,20.0,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+0146,70,Temperatura aire ambiente,A-40,°C,41 46 50,40,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+0147,71,Posición absoluta acelerador B,A/2.55,%,41 47 66,40.0,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+0148,72,Posición absoluta acelerador C,A/2.55,%,41 48 4C,30.0,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+0149,73,Posición pedal acelerador D,A/2.55,%,41 49 32,19.6,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+015E,94,Tasa consumo combustible motor,((A*256)+B)/20,L/h,41 5E 01 90,20.0,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs
+015F,95,Requisitos emisiones diseño vehículo,Bit encoded emission requirements,Binario,41 5F 01,EPA Tier 1,✓ Estándar SAE J1979,https://en.wikipedia.org/wiki/OBD-II_PIDs

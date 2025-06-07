@@ -1,0 +1,60 @@
+{
+  "vehicle_id": "toyota_hilux_2018_diesel",
+  "identification": {
+    "vin_pattern": "MR0FB8CD3.*",
+    "chassis_specific": "MR0FB8CD3H0320802",
+    "calibration_id_pattern": "89.*",
+    "make": "Toyota",
+    "model": "Hilux DX 4X4 2.4",
+    "year": 2018,
+    "engine": "2GD-FTV 2.4L Turbo Diesel",
+    "engine_code": "2GDC181606",
+    "origin": "Thailand"
+  },
+  "supported_pids": [
+    "010C", "010D", "0105", "0104", "0110", "010B",
+    "0902", "0904", "090A", "0900",
+    "0123", "015E", "012C", "016B",
+    "0170", "0174", "0175", "0171",
+    "017A", "017C", "017B", "0181",
+    "0142", "015C", "0146"
+  ],
+  "optimal_pids": [
+    "010C", "010D", "0105", "0104", "0123", "0170", "017C"
+  ],
+  "diesel_specific_pids": [
+    "0123", "015E", "012C", "016B", "017A", "017C", "017B", "0181"
+  ],
+  "turbo_specific_pids": [
+    "0170", "0174", "0175", "0171"
+  ],
+  "specific_settings": {
+    "temp_warning_threshold": 95,
+    "temp_critical_threshold": 105,
+    "rpm_redline": 4500,
+    "max_speed": 180,
+    "boost_pressure_max": 200,
+    "dpf_temp_regen_threshold": 600,
+    "fuel_pressure_normal_range": [20000, 180000]
+  },
+  "obd_quirks": {
+    "vin_requires_multiple_reads": true,
+    "temperature_offset": 0,
+    "rpm_multiplier": 1.0,
+    "boost_pressure_reliable": true,
+    "dpf_data_available": true,
+    "turbo_rpm_available": true
+  },
+  "emission_system": {
+    "has_dpf": true,
+    "has_egr": true,
+    "has_scr": false,
+    "euro_standard": "Euro 5"
+  },
+  "diagnostic_notes": [
+    "Motor 2GD-FTV es conocido por problemas en turbo en altos kilometrajes",
+    "DPF requiere regeneración cada 300-500km en uso urbano",
+    "Presión riel combustible crítica para diagnóstico inyectores",
+    "EGR problemático en versiones previas a 2019"
+  ]
+}

@@ -1,0 +1,8 @@
+pid,name,description,bytes,formula,min,max,units
+010C,rpm,Velocidad del motor,2,A*256+B/4,0,16383.75,RPM
+010D,vel,Velocidad del vehículo,1,A,0,255,km/h
+0105,temp,Temperatura del refrigerante,1,A-40,-40,215,°C
+0104,carga,Carga calculada del motor,1,A*100/255,0,100,%
+0111,throttle,Posición del acelerador,1,A*100/255,0,100,%
+0110,maf,Flujo de aire másico,2,A*256+B/100,0,655.35,g/s
+014C,volt_bateria,Voltaje de batería,2,A*256+B/1000,0,65.535,V

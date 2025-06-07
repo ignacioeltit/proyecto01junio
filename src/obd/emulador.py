@@ -423,3 +423,341 @@ INTEGRACIÓN:
 - Llama a emular_datos_obd2 con los PIDs y escenarios deseados.
 - Exporta usando tu función de logging/exportación dinámica.
 """
+
+# =========================
+# Funciones de emulación específicas Toyota Hilux 2018 Diesel
+# =========================
+def gen_boost_pressure(fase, estado):
+    """Genera presión de boost turbo realista para 2GD-FTV"""
+    base_pressure = {
+        'ralenti': random.uniform(0, 5),
+        'aceleracion': random.uniform(80, 180),
+        'crucero': random.uniform(40, 90),
+        'frenado': random.uniform(0, 20)
+    }
+    pressure = base_pressure.get(fase, 30)
+    estado['boost_pressure'] = round(pressure + random.uniform(-5, 5), 1)
+    return estado['boost_pressure']
+
+def gen_turbo_rpm(fase, estado):
+    """Genera RPM turbocompresor 2GD-FTV"""
+    rpm_motor = estado.get('rpm', 800)
+    multiplier = {
+        'ralenti': random.uniform(8, 10),
+        'aceleracion': random.uniform(12, 15),
+        'crucero': random.uniform(10, 12),
+        'frenado': random.uniform(8, 9)
+    }
+    turbo_rpm = rpm_motor * multiplier.get(fase, 10)
+    estado['turbo_rpm'] = round(turbo_rpm + random.uniform(-500, 500))
+    return estado['turbo_rpm']
+
+def gen_turbo_temp(fase, estado):
+    """Genera temperatura turbocompresor"""
+    base_temp = {
+        'ralenti': random.uniform(60, 80),
+        'aceleracion': random.uniform(200, 350),
+        'crucero': random.uniform(150, 250),
+        'frenado': random.uniform(100, 180)
+    }
+    temp = base_temp.get(fase, 120)
+    estado['turbo_temp'] = round(temp + random.uniform(-10, 10), 1)
+    return estado['turbo_temp']
+
+def gen_egr_commanded(fase, estado):
+    """Genera EGR comandado para diesel"""
+    egr_percent = {
+        'ralenti': random.uniform(15, 25),
+        'aceleracion': random.uniform(0, 5),
+        'crucero': random.uniform(10, 20),
+        'frenado': random.uniform(5, 15)
+    }
+    estado['egr_commanded'] = round(egr_percent.get(fase, 10), 1)
+    return estado['egr_commanded']
+
+def gen_egr_temp(fase, estado):
+    """Genera temperatura EGR"""
+    temp_motor = estado.get('temp', 85)
+    egr_temp = temp_motor + random.uniform(20, 60)
+    estado['egr_temp'] = round(egr_temp, 1)
+    return estado['egr_temp']
+
+def gen_dpf_temperature(fase, estado):
+    """Genera temperatura DPF (Diesel Particulate Filter)"""
+    base_temp = {
+        'ralenti': random.uniform(200, 300),
+        'aceleracion': random.uniform(400, 600),
+        'crucero': random.uniform(350, 450),
+        'frenado': random.uniform(250, 350)
+    }
+    if random.randint(1, 100) <= 5:
+        temp = random.uniform(600, 700)
+    else:
+        temp = base_temp.get(fase, 300)
+    estado['dpf_temperature'] = round(temp + random.uniform(-20, 20), 1)
+    return estado['dpf_temperature']
+
+def gen_dpf_differential_pressure(fase, estado):
+    """Genera presión diferencial DPF"""
+    base_pressure = {
+        'ralenti': random.uniform(100, 500),
+        'aceleracion': random.uniform(800, 1500),
+        'crucero': random.uniform(500, 1000),
+        'frenado': random.uniform(200, 600)
+    }
+    pressure = base_pressure.get(fase, 400)
+    estado['dpf_differential_pressure'] = round(pressure + random.uniform(-50, 50))
+    return estado['dpf_differential_pressure']
+
+def gen_fuel_rate(fase, estado):
+    """Genera tasa consumo combustible diesel L/h"""
+    rpm = estado.get('rpm', 800)
+    carga = estado.get('carga_motor', 20)
+    base_consumption = {
+        'ralenti': 1.2,
+        'aceleracion': 8.5,
+        'crucero': 4.2,
+        'frenado': 0.8
+    }
+    base = base_consumption.get(fase, 2.0)
+    consumption = base * (rpm / 1000) * (carga / 50)
+    consumption = max(0.5, min(15.0, consumption))
+    estado['fuel_rate'] = round(consumption + random.uniform(-0.2, 0.2), 2)
+    return estado['fuel_rate']
+
+def gen_fuel_rail_pressure_abs(fase, estado):
+    """Genera presión absoluta riel combustible diesel"""
+    base_pressure = {
+        'ralenti': random.uniform(25000, 35000),
+        'aceleracion': random.uniform(45000, 65000),
+        'crucero': random.uniform(35000, 50000),
+        'frenado': random.uniform(20000, 30000)
+    }
+    pressure = base_pressure.get(fase, 30000)
+    estado['fuel_rail_pressure_abs'] = round(pressure + random.uniform(-2000, 2000))
+    return estado['fuel_rail_pressure_abs']
+
+def gen_fuel_rail_absolute_pressure(fase, estado):
+    """Alias para fuel_rail_pressure_abs"""
+    return gen_fuel_rail_pressure_abs(fase, estado)
+
+def gen_control_module_voltage(fase, estado):
+    """Genera voltaje ECU"""
+    base_voltage = 13.8
+    voltage = base_voltage + random.uniform(-0.3, 0.4)
+    estado['control_module_voltage'] = round(voltage, 2)
+    return estado['control_module_voltage']
+
+def gen_oil_temp(fase, estado):
+    """Genera temperatura aceite motor"""
+    temp_motor = estado.get('temp', 85)
+    oil_temp = temp_motor + random.uniform(10, 25)
+    estado['oil_temp'] = round(oil_temp, 1)
+    return estado['oil_temp']
+
+def gen_ambient_temp(fase, estado):
+    """Genera temperatura ambiente"""
+    base_temp = 22
+    temp = base_temp + random.uniform(-5, 8)
+    estado['ambient_temp'] = round(temp, 1)
+    return estado['ambient_temp']
+
+def gen_intake_air_temp(fase, estado):
+    """Genera temperatura aire admisión"""
+    ambient = estado.get('ambient_temp', 22)
+    turbo_heating = estado.get('boost_pressure', 0) * 0.3
+    intake_temp = ambient + turbo_heating + random.uniform(5, 15)
+    estado['intake_air_temp'] = round(intake_temp, 1)
+    return estado['intake_air_temp']
+
+def update_diesel_interdependencies(estado):
+    """Actualiza interdependencias específicas motor diesel"""
+    boost = estado.get('boost_pressure', 0)
+    if boost > 100:
+        estado['fuel_rate'] = estado.get('fuel_rate', 2) * 1.2
+    dpf_temp = estado.get('dpf_temperature', 300)
+    if dpf_temp > 600:
+        estado['egr_temp'] = estado.get('egr_temp', 100) + 50
+    rpm_motor = estado.get('rpm', 800)
+    if 'turbo_rpm' in estado:
+        estado['turbo_rpm'] = rpm_motor * random.uniform(8, 15)
+
+# --- Actualización del diccionario de generadores ---
+if 'pid_generators' in globals():
+    pid_generators.update({
+        'boost_pressure': gen_boost_pressure,
+        'turbo_rpm': gen_turbo_rpm,
+        'turbo_temp': gen_turbo_temp,
+        'egr_commanded': gen_egr_commanded,
+        'egr_temp': gen_egr_temp,
+        'dpf_temperature': gen_dpf_temperature,
+        'dpf_differential_pressure': gen_dpf_differential_pressure,
+        'fuel_rate': gen_fuel_rate,
+        'fuel_rail_pressure_abs': gen_fuel_rail_pressure_abs,
+        'fuel_rail_absolute_pressure': gen_fuel_rail_absolute_pressure,
+        'control_module_voltage': gen_control_module_voltage,
+        'oil_temp': gen_oil_temp,
+        'ambient_temp': gen_ambient_temp,
+        'intake_air_temp': gen_intake_air_temp,
+    })
+else:
+    pid_generators = {
+        'boost_pressure': gen_boost_pressure,
+        'turbo_rpm': gen_turbo_rpm,
+        'turbo_temp': gen_turbo_temp,
+        'egr_commanded': gen_egr_commanded,
+        'egr_temp': gen_egr_temp,
+        'dpf_temperature': gen_dpf_temperature,
+        'dpf_differential_pressure': gen_dpf_differential_pressure,
+        'fuel_rate': gen_fuel_rate,
+        'fuel_rail_pressure_abs': gen_fuel_rail_pressure_abs,
+        'fuel_rail_absolute_pressure': gen_fuel_rail_absolute_pressure,
+        'control_module_voltage': gen_control_module_voltage,
+        'oil_temp': gen_oil_temp,
+        'ambient_temp': gen_ambient_temp,
+        'intake_air_temp': gen_intake_air_temp,
+    }
+
+# =========================
+# Clase EmuladorOBD para curriculum All Motors
+# =========================
+class EmuladorOBD:
+    """Emulador OBD-II profesional con soporte para curriculum All Motors"""
+    
+    def __init__(self):
+        # Importar configuración
+        try:
+            from src.config import EMULATOR_SETTINGS
+            self.settings = EMULATOR_SETTINGS
+        except ImportError:
+            self.settings = {
+                'update_interval': 0.1,
+                'noise_factor': 0.05,
+                'correlate_values': True
+            }
+            
+        # Estado inicial del emulador
+        self.estado = {
+            'rpm': 800,
+            'vel': 0,
+            'temp': 85,
+            'maf': 2.5,
+            'throttle': 0,
+            'consumo': 0,
+            'presion_adm': 101,
+            'volt_bateria': 14.2,
+            'carga_motor': 0
+        }
+        
+        # Configuración de comportamiento
+        self._last_update = datetime.now()
+        self._escenario = "ralenti"
+        self._fase = 0
+        self._ruido = self.settings['noise_factor']
+        
+    def get_simulated_data(self, pids: List[str]) -> Dict[str, Any]:
+        """Genera datos simulados según el escenario actual"""
+        self._actualizar_estado()
+        
+        # Convertir PIDs a formato legible
+        pids_legibles = [self._convertir_pid(pid) for pid in pids]
+        
+        # Generar respuesta con ruido aleatorio
+        respuesta = {}
+        for pid in pids_legibles:
+            if pid in self.estado:
+                valor_base = self.estado[pid]
+                ruido = random.uniform(-self._ruido, self._ruido) * valor_base
+                respuesta[pid] = max(0, valor_base + ruido)
+                
+        return respuesta
+        
+    def _actualizar_estado(self):
+        """Actualiza estado según tiempo transcurrido y escenario"""
+        now = datetime.now()
+        delta = (now - self._last_update).total_seconds()
+        
+        if self._escenario == "ralenti":
+            self._actualizar_ralenti(delta)
+        elif self._escenario == "aceleracion":
+            self._actualizar_aceleracion(delta)
+        elif self._escenario == "crucero":
+            self._actualizar_crucero(delta)
+        elif self._escenario == "frenado":
+            self._actualizar_frenado(delta)
+            
+        self._last_update = now
+        
+    def _actualizar_ralenti(self, delta):
+        """Actualiza estado en ralentí"""
+        self.estado['rpm'] = self._suavizar(800, self.estado['rpm'], delta)
+        self.estado['vel'] = 0
+        self.estado['throttle'] = 0
+        self.estado['carga_motor'] = 5
+        self._actualizar_dependencias()
+        
+    def _actualizar_aceleracion(self, delta):
+        """Actualiza estado en aceleración"""
+        self.estado['rpm'] = self._suavizar(3500, self.estado['rpm'], delta)
+        self.estado['vel'] = self._suavizar(60, self.estado['vel'], delta)
+        self.estado['throttle'] = 70
+        self.estado['carga_motor'] = 80
+        self._actualizar_dependencias()
+        
+    def _actualizar_crucero(self, delta):
+        """Actualiza estado en velocidad crucero"""
+        self.estado['rpm'] = self._suavizar(2200, self.estado['rpm'], delta)
+        self.estado['vel'] = self._suavizar(90, self.estado['vel'], delta)
+        self.estado['throttle'] = 20
+        self.estado['carga_motor'] = 40
+        self._actualizar_dependencias()
+        
+    def _actualizar_frenado(self, delta):
+        """Actualiza estado en frenado"""
+        self.estado['rpm'] = self._suavizar(1200, self.estado['rpm'], delta)
+        self.estado['vel'] = max(0, self.estado['vel'] - 30 * delta)
+        self.estado['throttle'] = 0
+        self.estado['carga_motor'] = 10
+        self._actualizar_dependencias()
+        
+    def _actualizar_dependencias(self):
+        """Actualiza valores interdependientes"""
+        rpm = self.estado['rpm']
+        vel = self.estado['vel']
+        throttle = self.estado['throttle']
+        
+        # MAF depende de RPM y throttle
+        self.estado['maf'] = (rpm * throttle * 0.001) + 1.5
+        
+        # Consumo depende de RPM, velocidad y throttle
+        if vel > 0:
+            self.estado['consumo'] = (rpm * throttle * 0.0001) + 0.5
+        else:
+            self.estado['consumo'] = 0.2  # Consumo en ralentí
+            
+        # Presión de admisión depende del throttle
+        self.estado['presion_adm'] = 101 + (throttle * 0.5)
+        
+        # Temperatura según carga
+        delta_temp = (self.estado['carga_motor'] - 20) * 0.1
+        self.estado['temp'] = min(95, max(82, 85 + delta_temp))
+        
+    def _suavizar(self, objetivo: float, actual: float, delta: float) -> float:
+        """Suaviza transición entre valores"""
+        factor = min(1, delta * 2)
+        return actual + (objetivo - actual) * factor
+        
+    def _convertir_pid(self, pid: str) -> str:
+        """Convierte PID numérico a nombre legible"""
+        pid_map = {
+            '010C': 'rpm',
+            '010D': 'vel',
+            '0105': 'temp',
+            '0110': 'maf',
+            '0111': 'throttle',
+            '015E': 'consumo',
+            '010B': 'presion_adm',
+            '0142': 'volt_bateria',
+            '0104': 'carga_motor'
+        }
+        return pid_map.get(pid, pid)

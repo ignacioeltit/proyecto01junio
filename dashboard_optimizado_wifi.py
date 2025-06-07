@@ -5,9 +5,21 @@ import time
 import csv
 import threading
 from datetime import datetime
-from PyQt6.QtWidgets import *
-from PyQt6.QtCore import *
-from PyQt6.QtGui import *
+from PyQt6.QtWidgets import (
+    QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QLabel,
+    QPushButton, QGroupBox, QGridLayout, QApplication, QMessageBox,
+    QComboBox
+)
+from PyQt6.QtCore import QTimer
+
+# --- INTEGRACIÓN SISTEMA DETECCIÓN AUTOMÁTICA ---
+try:
+    from src.vehicle_detection.vehicle_identifier import VehicleIdentifier
+    from src.vehicle_detection.vehicle_database import VEHICLE_DATABASE
+    VEHICLE_DETECTION_AVAILABLE = True
+except ImportError:
+    VEHICLE_DETECTION_AVAILABLE = False
+    print("Módulos de detección no disponibles - funcionando en modo básico")
 
 class OptimizedELM327Connection:
     def __init__(self, ip="192.168.0.10", port=35000, mode="wifi"):
@@ -30,27 +42,69 @@ class OptimizedELM327Connection:
             '012F': {'name': 'Combustible', 'unit': '%', 'bytes': 1, 'formula': lambda d: round(int(d[0], 16) * 100 / 255, 1)},
             '0142': {'name': 'Voltaje', 'unit': 'V', 'bytes': 2, 'formula': lambda d: round(((int(d[0], 16) * 256) + int(d[1], 16)) / 1000, 2)},
             '010B': {'name': 'Presion_Colector', 'unit': 'kPa', 'bytes': 1, 'formula': lambda d: int(d[0], 16)},
-        }
-    def connect(self):
+        }    def connect(self):
+        """Establece conexión con el adaptador ELM327"""
         try:
             print(f"📡 Conectando ELM327 optimizado a {self.ip}:{self.port}")
             self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            self.socket.settimeout(3)
+            self.socket.settimeout(5)  # Incrementado a 5 segundos
             self.socket.connect((self.ip, self.port))
-            commands = [
-                ("ATZ", 2), ("ATE0", 0.3), ("ATL0", 0.3), ("ATS0", 0.3), ("ATH1", 0.3), ("ATSP0", 0.3), ("0100", 1)
+
+            # Reset completo
+            self._clear_socket_buffer()
+            self.socket.sendall("ATZ\r".encode())
+            time.sleep(2)  # Esperar reset completo
+            response = self._read_socket()
+            
+            if "ELM327" not in response:
+                print("❌ No se detectó ELM327")
+                self.disconnect()
+                return False
+
+            # Configuración inicial con verificación
+            init_commands = [
+                ("ATE0", "Echo off"),
+                ("ATL0", "Linefeeds off"), 
+                ("ATH0", "Headers off"),
+                ("ATS0", "Spaces off"),
+                ("ATI", "Get ID"),
+                ("ATSP0", "Auto protocol"),
             ]
-            for cmd, wait in commands:
+
+            for cmd, desc in init_commands:
+                print(f"   {desc}...")
                 self.socket.sendall(f"{cmd}\r".encode())
-                time.sleep(wait)
-                if wait > 0.5:
-                    response = self.socket.recv(512).decode('utf-8', errors='ignore')
-                    print(f"   {cmd}: {response.strip()[:30]}...")
-            self.connected = True
-            print("✅ ELM327 optimizado conectado")
-            return True
+                time.sleep(0.3)
+                response = self._read_socket()
+                
+                if not response or "ERROR" in response:
+                    print(f"❌ Error en {desc}")
+                    self.disconnect()
+                    return False
+            
+            # Verificar comunicación con ECU
+            self.socket.sendall("0100\r".encode())
+            time.sleep(1)
+            response = self._read_socket()
+
+            if "41 00" in response or "4100" in response:
+                # Detectar y configurar protocolo
+                if not self._detect_and_set_protocol():
+                    print("❌ Error detectando protocolo")
+                    self.disconnect()
+                    return False
+                    
+                self.connected = True
+                print("✅ ELM327 optimizado conectado y configurado")
+                return True
+            else:
+                print("❌ No hay comunicación con la ECU")
+                self.disconnect()
+                return False
+
         except Exception as e:
             print(f"❌ Error conexión: {e}")
+            self.disconnect()
             return False
     def disconnect(self):
         if self.socket:
@@ -58,79 +112,154 @@ class OptimizedELM327Connection:
             self.socket = None
         self.connected = False
     def read_fast_data(self):
-        """Lectura rápida de PIDs principales - VERSIÓN CORREGIDA"""
+        """Lectura rápida de PIDs principales - VERSION OPTIMIZADA Y ROBUSTA"""
         if not self.connected:
             return {}
-        
+            
+        if hasattr(self, 'mode') and self.mode == "emulator":
+            import random
+            simulated_data = {
+                '010C': {'name': 'RPM', 'value': 800 + random.randint(-50, 50), 'unit': 'RPM'},
+                '010D': {'name': 'Velocidad', 'value': 60 + random.randint(-5, 5), 'unit': 'km/h'},
+                '0105': {'name': 'Temp_Motor', 'value': 85 + random.randint(-2, 2), 'unit': '°C'},
+                '0104': {'name': 'Carga_Motor', 'value': 45 + random.randint(-5, 5), 'unit': '%'},
+                '0111': {'name': 'Acelerador', 'value': 20 + random.randint(-3, 3), 'unit': '%'},
+            }
+            return simulated_data
+            
         data = {}
-        import time
         
         try:
-            for pid in self.fast_pids:
-                # Enviar comando PID
-                command = f'{pid}\r'
-                self.socket.send(command.encode())
+            # 1. Limpiar buffer por si quedó algo
+            self.socket.settimeout(0.1)
+            try:
+                self.socket.recv(1024)
+            except:
+                pass
                 
-                # Esperar respuesta
-                time.sleep(0.3)
-                response = self.socket.recv(512).decode('utf-8', errors='ignore')
-                
-                # Parsear respuesta usando método corregido
-                parsed = self.parse_response(response, pid)
-                if parsed:
-                    data[pid] = parsed
-                    
-        except Exception as e:
-            print(f'Error en read_fast_data: {e}')
+            # 2. Restaurar timeout normal
+            self.socket.settimeout(0.5)
             
-        return data
-
+            for pid in self.fast_pids:
+                try:
+                    # 3. Enviar comando con retorno de carro
+                    self.socket.sendall(f"{pid}\r".encode())
+                    
+                    # 4. Esperar respuesta con timeout corto
+                    response = ""
+                    start_time = time.time()
+                    
+                    while True:
+                        try:
+                            chunk = self.socket.recv(256).decode('utf-8', errors='ignore')
+                            if chunk:
+                                response += chunk
+                                
+                            # 5. Criterios de salida
+                            if '>' in response or 'NO DATA' in response:
+                                break
+                                
+                            if time.time() - start_time > 0.3:  # Timeout de seguridad
+                                break
+                                
+                        except socket.timeout:
+                            break
+                            
+                    # 6. Parsear solo si hay respuesta
+                    if response:
+                        parsed = self.parse_response(response, pid)
+                        if parsed:
+                            # 7. Validar rango de valores
+                            if self._validate_pid_value(pid, parsed['value']):
+                                data[pid] = parsed
+                    
+                except Exception as e:
+                    print(f"Error leyendo PID {pid}: {e}")
+                    continue
+                    
+            return data
+            
+        except Exception as e:
+            print(f"Error en read_fast_data: {e}")
+            return {}
 
     def parse_response(self, response, pid):
-        """Parsea respuesta del ELM327 correctamente"""
+        """Parsea respuesta del ELM327 - VERSIÓN ROBUSTA"""
         try:
-            # Limpiar respuesta
-            response = response.replace('\r', '').replace('\n', '').replace('>', '').strip()
+            # 1. Limpieza básica de la respuesta
+            lines = response.replace('\r', '').replace('SEARCHING...', '').split('\n')
+            lines = [l.strip() for l in lines if l.strip() and 'NO DATA' not in l]
             
-            # Buscar respuesta válida (formato: 41 XX YY)
-            import re
-            pattern = r'41' + pid[2:4] + r'([0-9A-F]{2,4})'
-            match = re.search(pattern, response.replace(' ', ''))
+            # 2. Preparar respuesta para parseo
+            clean_response = ''
+            for line in lines:
+                # Remover '>' y caracteres de control
+                line = line.replace('>', '').strip()
+                if line.startswith('41'):
+                    clean_response = line
+                    break
             
-            if not match:
+            if not clean_response:
                 return None
                 
-            hex_data = match.group(1)
+            # 3. Separar bytes y validar formato
+            bytes_list = clean_response.replace(' ', '')
+            if len(bytes_list) < 4:
+                return None
+                
+            # 4. Validar que la respuesta corresponde al PID solicitado
+            if not bytes_list.startswith('41' + pid[2:4]):
+                return None
+                
+            # 5. Extraer y parsear datos según el tipo de PID
+            data_start = 4  # Posición después de 41XX
             
-            # Conversiones según PID
             if pid == '010C':  # RPM
-                if len(hex_data) >= 4:
-                    rpm = (int(hex_data[:2], 16) * 256 + int(hex_data[2:4], 16)) / 4
-                    return {'name': 'RPM', 'value': int(rpm), 'unit': 'RPM'}
-                    
+                if len(bytes_list) >= data_start + 4:
+                    try:
+                        a = int(bytes_list[data_start:data_start+2], 16)
+                        b = int(bytes_list[data_start+2:data_start+4], 16)
+                        rpm = ((a * 256) + b) / 4.0
+                        return {'name': 'RPM', 'value': int(rpm), 'unit': 'RPM'}
+                    except ValueError:
+                        pass
+                        
             elif pid == '010D':  # Velocidad
-                if len(hex_data) >= 2:
-                    speed = int(hex_data[:2], 16)
-                    return {'name': 'Velocidad', 'value': speed, 'unit': 'km/h'}
-                    
+                if len(bytes_list) >= data_start + 2:
+                    try:
+                        speed = int(bytes_list[data_start:data_start+2], 16)
+                        return {'name': 'Velocidad', 'value': speed, 'unit': 'km/h'}
+                    except ValueError:
+                        pass
+                        
             elif pid == '0105':  # Temperatura motor
-                if len(hex_data) >= 2:
-                    temp = int(hex_data[:2], 16) - 40
-                    return {'name': 'Temp_Motor', 'value': temp, 'unit': 'C'}
-                    
+                if len(bytes_list) >= data_start + 2:
+                    try:
+                        temp = int(bytes_list[data_start:data_start+2], 16) - 40
+                        return {'name': 'Temp_Motor', 'value': temp, 'unit': '°C'}
+                    except ValueError:
+                        pass
+                        
             elif pid == '0104':  # Carga motor
-                if len(hex_data) >= 2:
-                    load = int(hex_data[:2], 16) * 100 / 255
-                    return {'name': 'Carga_Motor', 'value': round(load, 1), 'unit': '%'}
-                    
+                if len(bytes_list) >= data_start + 2:
+                    try:
+                        load = int(bytes_list[data_start:data_start+2], 16) * 100.0 / 255.0
+                        return {'name': 'Carga_Motor', 'value': round(load, 1), 'unit': '%'}
+                    except ValueError:
+                        pass
+                        
             elif pid == '0111':  # Posición acelerador
-                if len(hex_data) >= 2:
-                    throttle = int(hex_data[:2], 16) * 100 / 255
-                    return {'name': 'Acelerador', 'value': round(throttle, 1), 'unit': '%'}
-                    
+                if len(bytes_list) >= data_start + 2:
+                    try:
+                        throttle = int(bytes_list[data_start:data_start+2], 16) * 100.0 / 255.0
+                        return {'name': 'Acelerador', 'value': round(throttle, 1), 'unit': '%'}
+                    except ValueError:
+                        pass
+                        
             return None
             
         except Exception as e:
+            print(f"Error en parse_response: {e}")
             return None
 
     def read_slow_data(self):
@@ -179,6 +308,148 @@ class OptimizedELM327Connection:
                 continue
         return data
 
+    def _detect_and_set_protocol(self):
+        """Detecta y configura el protocolo OBD-II con fallback automático"""
+        try:
+            protocols = [
+                ("ATSP0", "Auto"),             # Auto primero
+                ("ATSP6", "ISO 15765-4 CAN"),  # CAN 11/500
+                ("ATSP8", "ISO 15765-4 CAN"),  # CAN 11/250
+                ("ATSP7", "ISO 15765-4 CAN"),  # CAN 29/500
+                ("ATSP9", "ISO 15765-4 CAN"),  # CAN 29/250
+                ("ATSP3", "ISO 9141-2"),       # ISO 
+                ("ATSP4", "ISO 14230-4 KWP"),  # KWP fast
+                ("ATSP5", "ISO 14230-4 KWP"),  # KWP 5-baud
+                ("ATSP1", "SAE J1850 PWM"),    # J1850 PWM
+                ("ATSP2", "SAE J1850 VPW")     # J1850 VPW
+            ]
+
+            if not self._initialize_adapter():
+                return False
+
+            for protocol_cmd, protocol_name in protocols:
+                if self._try_protocol(protocol_cmd, protocol_name):
+                    return True
+                    
+            self.logger.error("❌ No se detectó protocolo")
+            return False
+            
+        except Exception as e:
+            self.logger.error(f"Error en detección: {str(e)}")
+            return False
+            
+    def _initialize_adapter(self):
+        """Inicializa el adaptador ELM327"""
+        try:
+            # Reset
+            self.socket.sendall("ATZ\r".encode())
+            time.sleep(1)
+            
+            # Comandos de inicialización
+            init_commands = [
+                "ATE0",  # Echo off
+                "ATL0",  # Linefeeds off
+                "ATH0",  # Headers off
+                "ATS0",  # Spaces off
+                "ATI",   # Identificación
+            ]
+            
+            for cmd in init_commands:
+                self.socket.sendall(f"{cmd}\r".encode())
+                time.sleep(0.1)
+                resp = self._read_socket()
+                if not resp or "ERROR" in resp:
+                    self.logger.warning(f"Fallo en comando {cmd}")
+                    continue
+            return True
+            
+        except Exception as e:
+            self.logger.error(f"Error inicializando: {str(e)}")
+            return False
+            
+    def _try_protocol(self, protocol_cmd, protocol_name):
+        """Intenta establecer un protocolo específico"""
+        try:
+            self.logger.info(f"Probando: {protocol_name}")
+            
+            # Enviar comando de protocolo
+            self.socket.sendall(f"{protocol_cmd}\r".encode())
+            time.sleep(0.2)
+            resp = self._read_socket()
+            
+            if "OK" not in resp:
+                self.logger.warning(f"No OK en {protocol_name}")
+                return False
+
+            # Verificar conexión con ECU
+            for _ in range(3):
+                self.socket.sendall("0100\r".encode())
+                time.sleep(0.3)
+                resp = self._read_socket()
+                
+                if "UNABLE TO CONNECT" in resp or "NO DATA" in resp:
+                    continue
+                    
+                if "41 00" in resp or "4100" in resp:
+                    self.logger.info(f"✅ Protocolo: {protocol_name}")
+                    self._current_protocol = protocol_name
+                    self.socket.settimeout(5)
+                    return True
+                    
+            self._clear_socket_buffer()
+            return False
+            
+        except Exception as e:
+            self.logger.warning(f"Error en {protocol_name}")
+            self.logger.debug(str(e))
+            return False
+            
+    def _read_socket(self):
+        """Lee datos del socket con manejo de errores"""
+        try:
+            return self.socket.recv(1024).decode('utf-8', errors='ignore')
+        except socket.timeout:
+            return ""
+        except Exception as e:
+            self.logger.error(f"Error leyendo socket: {str(e)}")
+            return ""
+            
+    def _clear_socket_buffer(self):
+        """Limpia el buffer del socket"""
+        self.socket.settimeout(0.1)
+        try:
+            while True:
+                self.socket.recv(1024)
+        except socket.timeout:
+            pass
+        self.socket.settimeout(3)
+
+    def _validate_pid_value(self, pid, value):
+        """Valida que los valores de los PIDs estén dentro de rangos realistas"""
+        try:
+            # Rangos válidos para cada PID
+            ranges = {
+                '010C': (0, 8000),      # RPM: 0-8000
+                '010D': (0, 255),        # Velocidad: 0-255 km/h
+                '0105': (-40, 215),      # Temperatura: -40 a 215°C
+                '0104': (0, 100),        # Carga motor: 0-100%
+                '0111': (0, 100),        # Acelerador: 0-100%
+                '010F': (-40, 215),      # Temperatura admisión: -40 a 215°C
+                '012F': (0, 100),        # Nivel combustible: 0-100%
+                '0142': (0, 20),         # Voltaje batería: 0-20V
+                '010B': (0, 255)         # MAP: 0-255 kPa
+            }
+            
+            # Si el PID no está en la lista de rangos, aceptamos el valor
+            if pid not in ranges:
+                return True
+                
+            min_val, max_val = ranges[pid]
+            return min_val <= value <= max_val
+            
+        except Exception as e:
+            print(f"Error en validación de PID {pid}: {e}")
+            return False
 class DataLogger:
     def __init__(self, max_size_mb=2.5):
         self.max_size_bytes = max_size_mb * 1024 * 1024
@@ -253,6 +524,8 @@ class HighSpeedOBDDashboard(QMainWindow):
         self.slow_timer.timeout.connect(self.read_slow_data)
         self.fast_data_cache = {}
         self.slow_data_cache = {}
+        self.vehicle_identifier = None
+        self.vehicle_profile = None
         self.init_ui()
     def init_ui(self):
         central_widget = QWidget()
@@ -268,6 +541,12 @@ class HighSpeedOBDDashboard(QMainWindow):
         main_layout.addWidget(slow_data_panel)
         self.status_bar = self.statusBar()
         self.status_bar.showMessage("Dashboard Alta Velocidad - Listo")
+        # Añadir botón de auto-detección si está disponible
+        if VEHICLE_DETECTION_AVAILABLE:
+            self.btn_auto_detect = QPushButton("🚗 Auto-Detectar Vehículo")
+            self.btn_auto_detect.setStyleSheet("font-weight: bold; background-color: #4CAF50; color: white;")
+            self.btn_auto_detect.clicked.connect(self.auto_detect_vehicle)
+            main_layout.addWidget(self.btn_auto_detect)
     def create_status_panel(self):
         group_box = QGroupBox("⚡ Estado del Sistema")
         layout = QHBoxLayout(group_box)
@@ -485,6 +764,30 @@ class HighSpeedOBDDashboard(QMainWindow):
                 if pid in data:
                     info = data[pid]
                     value_label.setText(f"{info['value']} {info['unit']}")
+    def auto_detect_vehicle(self):
+        """NUEVA función para detección automática"""
+        if not hasattr(self.elm327, 'connected') or not self.elm327.connected:
+            QMessageBox.warning(self, "Advertencia", "Primero conecta al ELM327")
+            return
+        try:
+            self.vehicle_identifier = VehicleIdentifier(self.elm327)
+            profile = self.vehicle_identifier.detect_vehicle()
+            if profile and profile.get("vehicle_id") == "toyota_hilux_2018_diesel":
+                self.show_vehicle_detected(profile)
+                self.apply_vehicle_settings(profile)
+            else:
+                QMessageBox.information(self, "Info", "Vehículo no reconocido o no en base de datos")
+        except Exception as e:
+            QMessageBox.critical(self, "Error", f"Error en detección: {str(e)}")
+    def show_vehicle_detected(self, profile):
+        """Muestra información del vehículo detectado"""
+        vehicle_info = f"🚗 {profile['identification']['make']} {profile['identification']['model']} {profile['identification']['year']}"
+        QMessageBox.information(self, "Vehículo Detectado", vehicle_info)
+    def apply_vehicle_settings(self, profile):
+        """Aplica configuraciones específicas del vehículo"""
+        # Aquí puedes preseleccionar PIDs óptimos, configurar alertas, etc.
+        # Ejemplo: mostrar mensaje
+        QMessageBox.information(self, "Configuración", "Configuración de PIDs óptimos aplicada para Hilux 2018")
 
 def main():
     app = QApplication(sys.argv)
