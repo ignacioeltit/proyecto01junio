@@ -1,0 +1,10 @@
+PID,Name,Unit,Type
+010C,RPM,RPM,fast
+010D,Velocidad,km/h,fast
+0105,Temp_Motor,°C,fast
+0104,Carga_Motor,%,fast
+0111,Acelerador,%,fast
+010F,Temp_Admision,°C,slow
+012F,Combustible,%,slow
+0142,Voltaje,V,slow
+010B,Presion_MAP,kPa,slow

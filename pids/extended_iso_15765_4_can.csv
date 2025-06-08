@@ -1,0 +1,34 @@
+PID,Name,Unit
+221910,Trans Fluid Temp,C
+221136,Engine Oil Temp,C
+22111C,Oil Pressure,kPa
+221134,Battery Voltage,V
+2220CB,Knock Retard,°
+220298,Injector PW1,us
+22029A,Injector PW2,us
+22029C,Injector PW3,us
+22029E,Injector PW4,us
+2202A0,Injector PW5,us
+2202A2,Injector PW6,us
+2202A4,Injector PW7,us
+2202A6,Injector PW8,us
+221A00,Trans Output Shaft Speed,rpm
+221A02,Trans Input Shaft Speed,rpm
+221A08,Trans Torque Converter Slip,rpm
+22201D,Engine Torque,Nm
+22191A,Trans Fluid Pressure,bar
+221138,Oil Life Remaining,%
+221A18,Gearbox Selected Gear,N
+22190E,Transmission Fluid Level,L
+221A10,Transfer Case Oil Temp,C
+22110A,Differential Oil Temp,C
+224901,ABS Wheel Speed FL,km/h
+224903,ABS Wheel Speed FR,km/h
+224905,ABS Wheel Speed RL,km/h
+224907,ABS Wheel Speed RR,km/h
+2216BC,Steering Angle,deg
+2216A2,G-Force Lateral,g
+2216A0,G-Force Longitudinal,g
+2216A4,Yaw Rate,deg/s
+22120B,Barometric Pressure,kPa
+221202,Manifold Absolute Pressure,bar

@@ -1,0 +1,374 @@
+Timestamp,PID,Name,Value,Unit
+2025-06-07 15:28:10.731,PID_SELECTION,FAST,010C,
+2025-06-07 15:28:10.731,PID_SELECTION,SLOW,010F,
+2025-06-07 15:28:10.731,PID_SELECTION,EXTENDED,"221910,221136,221134,22029A,22029C,2202A0,22191A,224901,22120B",
+2025-06-07 15:28:10.732,PID_SELECTION,FAST,010C,
+2025-06-07 15:28:10.732,PID_SELECTION,SLOW,010F,
+2025-06-07 15:28:10.732,PID_SELECTION,EXTENDED,"221910,221136,221134,22029A,22029C,2202A0,22191A,224901,22120B",
+2025-06-07 15:28:15.020,010C,RPM,700,RPM
+2025-06-07 15:28:15.271,010C,RPM,709,RPM
+2025-06-07 15:28:15.379,010C,RPM,721,RPM
+2025-06-07 15:28:17.713,010F,Temp_Admision,44,°C
+2025-06-07 15:28:17.713,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:28:17.713,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:28:17.713,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:28:17.713,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:28:17.713,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:28:17.713,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:28:17.713,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:28:17.713,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:28:17.713,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:28:17.831,010C,RPM,686,RPM
+2025-06-07 15:28:20.217,010F,Temp_Admision,45,°C
+2025-06-07 15:28:20.217,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:28:20.217,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:28:20.217,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:28:20.217,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:28:20.217,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:28:20.217,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:28:20.217,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:28:20.217,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:28:20.217,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:28:20.332,010C,RPM,689,RPM
+2025-06-07 15:28:22.697,010F,Temp_Admision,45,°C
+2025-06-07 15:28:22.697,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:28:22.697,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:28:22.697,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:28:22.697,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:28:22.697,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:28:22.697,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:28:22.697,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:28:22.697,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:28:22.697,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:28:22.811,010C,RPM,718,RPM
+2025-06-07 15:28:25.220,010F,Temp_Admision,45,°C
+2025-06-07 15:28:25.220,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:28:25.220,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:28:25.220,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:28:25.220,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:28:25.220,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:28:25.220,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:28:25.220,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:28:25.220,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:28:25.220,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:28:25.311,010C,RPM,690,RPM
+2025-06-07 15:28:27.752,010F,Temp_Admision,45,°C
+2025-06-07 15:28:27.752,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:28:27.752,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:28:27.752,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:28:27.752,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:28:27.752,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:28:27.752,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:28:27.752,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:28:27.752,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:28:27.752,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:28:27.849,010C,RPM,702,RPM
+2025-06-07 15:28:30.178,010F,Temp_Admision,45,°C
+2025-06-07 15:28:30.178,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:28:30.178,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:28:30.178,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:28:30.178,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:28:30.178,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:28:30.178,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:28:30.178,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:28:30.178,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:28:30.178,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:28:30.307,010C,RPM,696,RPM
+2025-06-07 15:28:32.708,010F,Temp_Admision,45,°C
+2025-06-07 15:28:32.708,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:28:32.708,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:28:32.708,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:28:32.708,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:28:32.708,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:28:32.708,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:28:32.708,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:28:32.708,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:28:32.708,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:28:32.850,010C,RPM,717,RPM
+2025-06-07 15:28:35.227,010F,Temp_Admision,46,°C
+2025-06-07 15:28:35.227,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:28:35.227,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:28:35.227,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:28:35.227,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:28:35.227,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:28:35.227,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:28:35.227,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:28:35.227,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:28:35.227,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:28:35.349,010C,RPM,716,RPM
+2025-06-07 15:28:37.715,010F,Temp_Admision,46,°C
+2025-06-07 15:28:37.715,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:28:37.715,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:28:37.715,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:28:37.715,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:28:37.715,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:28:37.715,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:28:37.715,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:28:37.715,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:28:37.715,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:28:37.837,010C,RPM,703,RPM
+2025-06-07 15:28:40.204,010F,Temp_Admision,46,°C
+2025-06-07 15:28:40.204,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:28:40.204,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:28:40.204,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:28:40.204,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:28:40.204,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:28:40.204,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:28:40.204,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:28:40.204,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:28:40.204,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:28:40.325,010C,RPM,703,RPM
+2025-06-07 15:28:42.800,010F,Temp_Admision,46,°C
+2025-06-07 15:28:42.800,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:28:42.800,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:28:42.800,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:28:42.800,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:28:42.800,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:28:42.800,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:28:42.800,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:28:42.800,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:28:42.800,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:28:42.876,010C,RPM,695,RPM
+2025-06-07 15:28:45.230,010F,Temp_Admision,45,°C
+2025-06-07 15:28:45.230,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:28:45.230,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:28:45.230,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:28:45.230,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:28:45.230,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:28:45.230,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:28:45.230,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:28:45.230,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:28:45.230,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:28:45.306,010C,RPM,693,RPM
+2025-06-07 15:28:47.528,010F,Temp_Admision,45,°C
+2025-06-07 15:28:47.528,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:28:47.528,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:28:47.528,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:28:47.528,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:28:47.528,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:28:47.528,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:28:47.528,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:28:47.528,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:28:47.528,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:28:47.609,010C,RPM,670,RPM
+2025-06-07 15:28:49.936,010F,Temp_Admision,45,°C
+2025-06-07 15:28:49.936,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:28:49.936,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:28:49.936,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:28:49.936,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:28:49.936,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:28:49.936,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:28:49.936,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:28:49.936,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:28:49.936,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:28:50.018,010C,RPM,692,RPM
+2025-06-07 15:28:52.249,010F,Temp_Admision,45,°C
+2025-06-07 15:28:52.249,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:28:52.249,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:28:52.249,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:28:52.249,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:28:52.249,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:28:52.249,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:28:52.249,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:28:52.249,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:28:52.249,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:28:52.336,010C,RPM,691,RPM
+2025-06-07 15:28:54.714,010F,Temp_Admision,45,°C
+2025-06-07 15:28:54.714,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:28:54.714,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:28:54.714,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:28:54.714,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:28:54.714,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:28:54.714,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:28:54.714,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:28:54.714,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:28:54.714,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:28:57.902,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:28:57.902,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:28:57.902,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:28:57.902,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:28:57.902,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:28:57.902,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:28:57.902,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:28:57.902,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:28:57.902,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:29:00.439,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:29:00.439,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:29:00.439,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:29:00.439,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:29:00.439,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:29:00.439,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:29:00.439,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:29:00.439,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:29:00.439,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:29:03.589,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:29:03.589,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:29:03.589,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:29:03.589,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:29:03.589,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:29:03.589,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:29:03.589,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:29:03.589,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:29:03.589,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:29:05.957,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:29:05.957,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:29:05.957,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:29:05.957,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:29:05.957,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:29:05.957,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:29:05.957,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:29:05.957,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:29:05.957,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:29:08.503,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:29:08.503,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:29:08.503,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:29:08.503,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:29:08.503,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:29:08.503,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:29:08.503,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:29:08.503,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:29:08.503,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:29:11.169,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:29:11.169,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:29:11.169,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:29:11.169,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:29:11.169,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:29:11.169,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:29:11.169,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:29:11.169,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:29:11.169,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:29:13.561,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:29:13.561,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:29:13.561,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:29:13.561,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:29:13.561,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:29:13.561,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:29:13.561,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:29:13.561,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:29:13.561,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:29:16.113,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:29:16.113,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:29:16.113,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:29:16.113,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:29:16.113,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:29:16.113,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:29:16.113,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:29:16.113,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:29:16.113,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:29:18.493,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:29:18.493,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:29:18.493,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:29:18.493,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:29:18.493,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:29:18.493,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:29:18.493,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:29:18.493,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:29:18.493,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:29:21.067,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:29:21.067,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:29:21.067,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:29:21.067,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:29:21.067,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:29:21.067,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:29:21.067,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:29:21.067,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:29:21.067,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:29:24.306,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:29:24.306,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:29:24.306,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:29:24.306,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:29:24.306,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:29:24.306,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:29:24.306,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:29:24.306,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:29:24.306,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:29:26.970,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:29:26.970,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:29:26.970,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:29:26.970,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:29:26.970,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:29:26.970,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:29:26.970,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:29:26.970,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:29:26.970,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:29:29.433,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:29:29.433,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:29:29.433,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:29:29.433,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:29:29.433,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:29:29.433,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:29:29.433,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:29:29.433,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:29:29.433,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:29:31.959,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:29:31.959,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:29:31.959,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:29:31.959,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:29:31.959,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:29:31.959,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:29:31.959,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:29:31.959,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:29:31.959,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:29:34.775,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:29:34.775,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:29:34.775,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:29:34.775,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:29:34.775,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:29:34.775,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:29:34.775,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:29:34.775,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:29:34.775,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:29:37.516,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:29:37.516,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:29:37.516,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:29:37.516,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:29:37.516,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:29:37.516,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:29:37.516,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:29:37.516,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:29:37.516,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:29:40.077,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:29:40.077,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:29:40.077,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:29:40.077,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:29:40.077,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:29:40.077,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:29:40.077,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:29:40.077,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:29:40.077,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:29:42.636,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:29:42.636,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:29:42.636,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:29:42.636,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:29:42.636,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:29:42.636,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:29:42.636,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:29:42.636,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:29:42.636,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:29:45.008,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:29:45.008,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:29:45.008,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:29:45.008,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:29:45.008,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:29:45.008,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:29:45.008,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:29:45.008,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:29:45.008,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:29:47.552,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:29:47.552,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:29:47.552,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:29:47.552,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:29:47.552,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:29:47.552,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:29:47.552,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:29:47.552,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:29:47.552,22120B,Barometric Pressure,Sin datos,kPa
+2025-06-07 15:29:50.317,221910,Trans Fluid Temp,Sin datos,C
+2025-06-07 15:29:50.317,221136,Engine Oil Temp,Sin datos,C
+2025-06-07 15:29:50.317,221134,Battery Voltage,Sin datos,V
+2025-06-07 15:29:50.317,22029A,Injector PW2,Sin datos,us
+2025-06-07 15:29:50.317,22029C,Injector PW3,Sin datos,us
+2025-06-07 15:29:50.317,2202A0,Injector PW5,Sin datos,us
+2025-06-07 15:29:50.317,22191A,Trans Fluid Pressure,Sin datos,bar
+2025-06-07 15:29:50.317,224901,ABS Wheel Speed FL,Sin datos,km/h
+2025-06-07 15:29:50.317,22120B,Barometric Pressure,Sin datos,kPa
