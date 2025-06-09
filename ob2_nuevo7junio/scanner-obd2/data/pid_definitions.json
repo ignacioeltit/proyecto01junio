@@ -1,0 +1,83 @@
+{
+  "010C": {
+    "name": "RPM",
+    "desc": "Revoluciones por minuto (RPM)",
+    "unit": "rpm",
+    "formula": "((A*256)+B)/4",
+    "protocol": "ISO 9141-2",
+    "min": 0,
+    "max": 16383.75
+  },
+  "010D": {
+    "name": "Velocidad",
+    "desc": "Velocidad del vehículo",
+    "unit": "km/h",
+    "formula": "A",
+    "protocol": "ISO 9141-2",
+    "min": 0,
+    "max": 255
+  },
+  "0105": {
+    "name": "Temp Refrigerante",
+    "desc": "Temperatura del refrigerante",
+    "unit": "°C",
+    "formula": "A-40",
+    "protocol": "ISO 9141-2",
+    "min": -40,
+    "max": 215
+  },
+  "010F": {
+    "name": "Temp Aire Admision",
+    "desc": "Temperatura aire de admisión",
+    "unit": "°C",
+    "formula": "A-40",
+    "protocol": "ISO 9141-2",
+    "min": -40,
+    "max": 215
+  },
+  "0104": {
+    "name": "Carga Motor",
+    "desc": "Carga calculada del motor",
+    "unit": "%",
+    "formula": "A*100/255",
+    "protocol": "ISO 9141-2",
+    "min": 0,
+    "max": 100
+  },
+  "0111": {
+    "name": "Acelerador",
+    "desc": "Posición del acelerador",
+    "unit": "%",
+    "formula": "A*100/255",
+    "protocol": "ISO 9141-2",
+    "min": 0,
+    "max": 100
+  },
+  "0110": {
+    "name": "MAF",
+    "desc": "Flujo de aire másico",
+    "unit": "g/s",
+    "formula": "((A*256)+B)/100",
+    "protocol": "ISO 9141-2",
+    "min": 0,
+    "max": 655.35
+  },
+  "014C": {
+    "name": "Voltaje Batería",
+    "desc": "Voltaje de batería",
+    "unit": "V",
+    "formula": "((A*256)+B)/1000",
+    "protocol": "ISO 15765 (CAN)",
+    "min": 0,
+    "max": 65.535
+  },
+  "012F": {
+    "name": "Nivel Combustible",
+    "desc": "Nivel de combustible",
+    "unit": "%",
+    "formula": "A*100/255",
+    "protocol": "ISO 15765 (CAN)",
+    "min": 0,
+    "max": 100
+  }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gauge OBD-II</title>
+    <script src="gauge.min.js"></script>
+    <script src="qwebchannel.js"></script>
+    <style>
+        body { background: #23272e; margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh; }
+    </style>
+</head>
+<body>
+<canvas id="gauge" width="300" height="300"></canvas>
+<script>
+    var gauge = new RadialGauge({
+        renderTo: 'gauge',
+        width: 300,
+        height: 300,
+        units: 'RPM',
+        minValue: 0,
+        maxValue: 8000,
+        majorTicks: [0,1000,2000,3000,4000,5000,6000,7000,8000],
+        minorTicks: 2,
+        strokeTicks: true,
+        highlights: [
+            { from: 0, to: 4000, color: 'rgba(76,175,80,.3)' },
+            { from: 4000, to: 6000, color: 'rgba(255,235,59,.3)' },
+            { from: 6000, to: 8000, color: 'rgba(244,67,54,.3)' }
+        ],
+        colorPlate: '#23272e',
+        colorMajorTicks: '#fff',
+        colorMinorTicks: '#fff',
+        colorTitle: '#fff',
+        colorUnits: '#fff',
+        colorNumbers: '#fff',
+        colorNeedle: 'rgba(255,0,0,1)',
+        colorNeedleEnd: 'rgba(255,0,0,1)',
+        valueBox: true,
+        animationRule: 'bounce',
+        animationDuration: 500,
+        value: 0
+    }).draw();
+    // Comunicación con Python
+    if (typeof QWebChannel !== 'undefined') {
+        new QWebChannel(qt.webChannelTransport, function(channel) {
+            window.gaugeBridge = channel.objects.gaugeBridge;
+            window.gaugeBridge.valueChanged.connect(function(val) {
+                gauge.value = val;
+            });
+        });
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,1262 @@
+{
+  "0100": {
+    "name": "PIDs supported [01 - 20]",
+    "desc": "PIDs supported [01 - 20]",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0101": {
+    "name": "Monitor status since DTCs cleared.",
+    "desc": "Monitor status since DTCs cleared.",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0102": {
+    "name": "Freeze DTC",
+    "desc": "Freeze DTC",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0103": {
+    "name": "Fuel system status",
+    "desc": "Fuel system status",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0104": {
+    "name": "Calculated engine load value",
+    "desc": "Calculated engine load value",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0105": {
+    "name": "Engine coolant temperature",
+    "desc": "Engine coolant temperature",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0106": {
+    "name": "Short term fuel % trim—Bank 1",
+    "desc": "Short term fuel % trim—Bank 1",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0107": {
+    "name": "Long term fuel % trim—Bank 1",
+    "desc": "Long term fuel % trim—Bank 1",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0108": {
+    "name": "Short term fuel % trim—Bank 2",
+    "desc": "Short term fuel % trim—Bank 2",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0109": {
+    "name": "Long term fuel % trim—Bank 2",
+    "desc": "Long term fuel % trim—Bank 2",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "010A": {
+    "name": "Fuel pressure",
+    "desc": "Fuel pressure",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "010B": {
+    "name": "Intake manifold absolute pressure",
+    "desc": "Intake manifold absolute pressure",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "010C": {
+    "name": "Engine RPM",
+    "desc": "Engine RPM",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "010D": {
+    "name": "Vehicle speed",
+    "desc": "Vehicle speed",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "010E": {
+    "name": "Timing advance",
+    "desc": "Timing advance",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "010F": {
+    "name": "Intake air temperature",
+    "desc": "Intake air temperature",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0110": {
+    "name": "MAF air flow rate",
+    "desc": "MAF air flow rate",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0111": {
+    "name": "Throttle position",
+    "desc": "Throttle position",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0112": {
+    "name": "Commanded secondary air status",
+    "desc": "Commanded secondary air status",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0113": {
+    "name": "Oxygen sensors present",
+    "desc": "Oxygen sensors present",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0114": {
+    "name": "Bank 1, Sensor 1: Oxygen sensor voltage, Short term fuel trim",
+    "desc": "Bank 1, Sensor 1: Oxygen sensor voltage, Short term fuel trim",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0115": {
+    "name": "Bank 1, Sensor 2: Oxygen sensor voltage, Short term fuel trim",
+    "desc": "Bank 1, Sensor 2: Oxygen sensor voltage, Short term fuel trim",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0116": {
+    "name": "Bank 1, Sensor 3: Oxygen sensor voltage, Short term fuel trim",
+    "desc": "Bank 1, Sensor 3: Oxygen sensor voltage, Short term fuel trim",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0117": {
+    "name": "Bank 1, Sensor 4: Oxygen sensor voltage, Short term fuel trim",
+    "desc": "Bank 1, Sensor 4: Oxygen sensor voltage, Short term fuel trim",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0118": {
+    "name": "Bank 2, Sensor 1: Oxygen sensor voltage, Short term fuel trim",
+    "desc": "Bank 2, Sensor 1: Oxygen sensor voltage, Short term fuel trim",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0119": {
+    "name": "Bank 2, Sensor 2: Oxygen sensor voltage, Short term fuel trim",
+    "desc": "Bank 2, Sensor 2: Oxygen sensor voltage, Short term fuel trim",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "011A": {
+    "name": "Bank 2, Sensor 3: Oxygen sensor voltage, Short term fuel trim",
+    "desc": "Bank 2, Sensor 3: Oxygen sensor voltage, Short term fuel trim",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "011B": {
+    "name": "Bank 2, Sensor 4: Oxygen sensor voltage, Short term fuel trim",
+    "desc": "Bank 2, Sensor 4: Oxygen sensor voltage, Short term fuel trim",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "011C": {
+    "name": "OBD standards this vehicle conforms to",
+    "desc": "OBD standards this vehicle conforms to",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "011D": {
+    "name": "Oxygen sensors present",
+    "desc": "Oxygen sensors present",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "011E": {
+    "name": "Auxiliary input status",
+    "desc": "Auxiliary input status",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "011F": {
+    "name": "Run time since engine start",
+    "desc": "Run time since engine start",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0120": {
+    "name": "PIDs supported [21 - 40]",
+    "desc": "PIDs supported [21 - 40]",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0121": {
+    "name": "Distance traveled with malfunction indicator lamp",
+    "desc": "Distance traveled with malfunction indicator lamp (MIL) on",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0122": {
+    "name": "Fuel Rail Pressure",
+    "desc": "Fuel Rail Pressure (relative to manifold vacuum)",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0123": {
+    "name": "Fuel Rail Pressure",
+    "desc": "Fuel Rail Pressure (diesel, or gasoline direct inject)",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0124": {
+    "name": "O2S1_WR_lambda",
+    "desc": "O2S1_WR_lambda(1): Equivalence Ratio Voltage",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0125": {
+    "name": "O2S2_WR_lambda",
+    "desc": "O2S2_WR_lambda(1): Equivalence Ratio Voltage",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0126": {
+    "name": "O2S3_WR_lambda",
+    "desc": "O2S3_WR_lambda(1): Equivalence Ratio Voltage",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0127": {
+    "name": "O2S4_WR_lambda",
+    "desc": "O2S4_WR_lambda(1): Equivalence Ratio Voltage",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0128": {
+    "name": "O2S5_WR_lambda",
+    "desc": "O2S5_WR_lambda(1): Equivalence Ratio Voltage",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0129": {
+    "name": "O2S6_WR_lambda",
+    "desc": "O2S6_WR_lambda(1): Equivalence Ratio Voltage",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "012A": {
+    "name": "O2S7_WR_lambda",
+    "desc": "O2S7_WR_lambda(1): Equivalence Ratio Voltage",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "012B": {
+    "name": "O2S8_WR_lambda",
+    "desc": "O2S8_WR_lambda(1): Equivalence Ratio Voltage",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "012C": {
+    "name": "Commanded EGR",
+    "desc": "Commanded EGR",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "012D": {
+    "name": "EGR Error",
+    "desc": "EGR Error",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "012E": {
+    "name": "Commanded evaporative purge",
+    "desc": "Commanded evaporative purge",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "012F": {
+    "name": "Fuel Level Input",
+    "desc": "Fuel Level Input",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0130": {
+    "name": "# of warm-ups since codes cleared",
+    "desc": "# of warm-ups since codes cleared",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0131": {
+    "name": "Distance traveled since codes cleared",
+    "desc": "Distance traveled since codes cleared",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0132": {
+    "name": "Evap. System Vapor Pressure",
+    "desc": "Evap. System Vapor Pressure",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0133": {
+    "name": "Barometric pressure",
+    "desc": "Barometric pressure",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0134": {
+    "name": "O2S1_WR_lambda",
+    "desc": "O2S1_WR_lambda(1): Equivalence Ratio Current",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0135": {
+    "name": "O2S2_WR_lambda",
+    "desc": "O2S2_WR_lambda(1): Equivalence Ratio Current",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0136": {
+    "name": "O2S3_WR_lambda",
+    "desc": "O2S3_WR_lambda(1): Equivalence Ratio Current",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0137": {
+    "name": "O2S4_WR_lambda",
+    "desc": "O2S4_WR_lambda(1): Equivalence Ratio Current",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0138": {
+    "name": "O2S5_WR_lambda",
+    "desc": "O2S5_WR_lambda(1): Equivalence Ratio Current",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0139": {
+    "name": "O2S6_WR_lambda",
+    "desc": "O2S6_WR_lambda(1): Equivalence Ratio Current",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "013A": {
+    "name": "O2S7_WR_lambda",
+    "desc": "O2S7_WR_lambda(1): Equivalence Ratio Current",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "013B": {
+    "name": "O2S8_WR_lambda",
+    "desc": "O2S8_WR_lambda(1): Equivalence Ratio Current",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "013C": {
+    "name": "Catalyst Temperature Bank 1, Sensor 1",
+    "desc": "Catalyst Temperature Bank 1, Sensor 1",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "013D": {
+    "name": "Catalyst Temperature Bank 2, Sensor 1",
+    "desc": "Catalyst Temperature Bank 2, Sensor 1",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "013E": {
+    "name": "Catalyst Temperature Bank 1, Sensor 2",
+    "desc": "Catalyst Temperature Bank 1, Sensor 2",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "013F": {
+    "name": "Catalyst Temperature Bank 2, Sensor 2",
+    "desc": "Catalyst Temperature Bank 2, Sensor 2",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0140": {
+    "name": "PIDs supported [41 - 60]",
+    "desc": "PIDs supported [41 - 60]",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0141": {
+    "name": "Monitor status this drive cycle",
+    "desc": "Monitor status this drive cycle",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0142": {
+    "name": "Control module voltage",
+    "desc": "Control module voltage",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0143": {
+    "name": "Absolute load value",
+    "desc": "Absolute load value",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0144": {
+    "name": "Fuel/Air commanded equivalence ratio",
+    "desc": "Fuel/Air commanded equivalence ratio",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0145": {
+    "name": "Relative throttle position",
+    "desc": "Relative throttle position",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0146": {
+    "name": "Ambient air temperature",
+    "desc": "Ambient air temperature",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0147": {
+    "name": "Absolute throttle position B",
+    "desc": "Absolute throttle position B",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0148": {
+    "name": "Absolute throttle position C",
+    "desc": "Absolute throttle position C",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0149": {
+    "name": "Accelerator pedal position D",
+    "desc": "Accelerator pedal position D",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "014A": {
+    "name": "Accelerator pedal position E",
+    "desc": "Accelerator pedal position E",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "014B": {
+    "name": "Accelerator pedal position F",
+    "desc": "Accelerator pedal position F",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "014C": {
+    "name": "Commanded throttle actuator",
+    "desc": "Commanded throttle actuator",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "014D": {
+    "name": "Time run with MIL on",
+    "desc": "Time run with MIL on",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "014E": {
+    "name": "Time since trouble codes cleared",
+    "desc": "Time since trouble codes cleared",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "014F": {
+    "name": "Maximum value for equivalence ratio, oxygen sensor voltage, oxygen sensor current, and intake manifold absolute pressure",
+    "desc": "Maximum value for equivalence ratio, oxygen sensor voltage, oxygen sensor current, and intake manifold absolute pressure",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0150": {
+    "name": "Maximum value for air flow rate from mass air flow sensor",
+    "desc": "Maximum value for air flow rate from mass air flow sensor",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0151": {
+    "name": "Fuel Type",
+    "desc": "Fuel Type",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0152": {
+    "name": "Ethanol fuel %",
+    "desc": "Ethanol fuel %",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0153": {
+    "name": "Absolute Evap system Vapor Pressure",
+    "desc": "Absolute Evap system Vapor Pressure",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0154": {
+    "name": "Evap system vapor pressure",
+    "desc": "Evap system vapor pressure",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0155": {
+    "name": "Short term secondary oxygen sensor trim bank 1 and bank 3",
+    "desc": "Short term secondary oxygen sensor trim bank 1 and bank 3",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0156": {
+    "name": "Long term secondary oxygen sensor trim bank 1 and bank 3",
+    "desc": "Long term secondary oxygen sensor trim bank 1 and bank 3",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0157": {
+    "name": "Short term secondary oxygen sensor trim bank 2 and bank 4",
+    "desc": "Short term secondary oxygen sensor trim bank 2 and bank 4",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0158": {
+    "name": "Long term secondary oxygen sensor trim bank 2 and bank 4",
+    "desc": "Long term secondary oxygen sensor trim bank 2 and bank 4",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0159": {
+    "name": "Fuel rail pressure",
+    "desc": "Fuel rail pressure (absolute)",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "015A": {
+    "name": "Relative accelerator pedal position",
+    "desc": "Relative accelerator pedal position",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "015B": {
+    "name": "Hybrid battery pack remaining life",
+    "desc": "Hybrid battery pack remaining life",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "015C": {
+    "name": "Engine oil temperature",
+    "desc": "Engine oil temperature",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "015D": {
+    "name": "Fuel injection timing",
+    "desc": "Fuel injection timing",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "015E": {
+    "name": "Engine fuel rate",
+    "desc": "Engine fuel rate",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "015F": {
+    "name": "Emission requirements to which vehicle is designed",
+    "desc": "Emission requirements to which vehicle is designed",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0160": {
+    "name": "PIDs supported [61 - 80]",
+    "desc": "PIDs supported [61 - 80]",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0161": {
+    "name": "Driver's demand engine - percent torque",
+    "desc": "Driver's demand engine - percent torque",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0162": {
+    "name": "Actual engine - percent torque",
+    "desc": "Actual engine - percent torque",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0163": {
+    "name": "Engine reference torque",
+    "desc": "Engine reference torque",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0164": {
+    "name": "Engine percent torque data",
+    "desc": "Engine percent torque data",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0165": {
+    "name": "Auxiliary input / output supported",
+    "desc": "Auxiliary input / output supported",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0166": {
+    "name": "Mass air flow sensor",
+    "desc": "Mass air flow sensor",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0167": {
+    "name": "Engine coolant temperature",
+    "desc": "Engine coolant temperature",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0168": {
+    "name": "Intake air temperature sensor",
+    "desc": "Intake air temperature sensor",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0169": {
+    "name": "Commanded EGR and EGR Error",
+    "desc": "Commanded EGR and EGR Error",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "016A": {
+    "name": "Commanded Diesel intake air flow control and relative intake air flow position",
+    "desc": "Commanded Diesel intake air flow control and relative intake air flow position",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "016B": {
+    "name": "Exhaust gas recirculation temperature",
+    "desc": "Exhaust gas recirculation temperature",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "016C": {
+    "name": "Commanded throttle actuator control and relative throttle position",
+    "desc": "Commanded throttle actuator control and relative throttle position",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "016D": {
+    "name": "Fuel pressure control system",
+    "desc": "Fuel pressure control system",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "016E": {
+    "name": "Injection pressure control system",
+    "desc": "Injection pressure control system",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "016F": {
+    "name": "Turbocharger compressor inlet pressure",
+    "desc": "Turbocharger compressor inlet pressure",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0170": {
+    "name": "Boost pressure control",
+    "desc": "Boost pressure control",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0171": {
+    "name": "Variable Geometry turbo",
+    "desc": "Variable Geometry turbo (VGT) control",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0172": {
+    "name": "Wastegate control",
+    "desc": "Wastegate control",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0173": {
+    "name": "Exhaust pressure",
+    "desc": "Exhaust pressure",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0174": {
+    "name": "Turbocharger RPM",
+    "desc": "Turbocharger RPM",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0175": {
+    "name": "Turbocharger temperature",
+    "desc": "Turbocharger temperature",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0176": {
+    "name": "Turbocharger temperature",
+    "desc": "Turbocharger temperature",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0177": {
+    "name": "Charge air cooler temperature",
+    "desc": "Charge air cooler temperature (CACT)",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0178": {
+    "name": "Exhaust Gas temperature",
+    "desc": "Exhaust Gas temperature (EGT) Bank 1",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0179": {
+    "name": "Exhaust Gas temperature",
+    "desc": "Exhaust Gas temperature (EGT) Bank 2",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "017A": {
+    "name": "Diesel particulate filter",
+    "desc": "Diesel particulate filter (DPF)",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "017B": {
+    "name": "Diesel particulate filter",
+    "desc": "Diesel particulate filter (DPF)",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "017C": {
+    "name": "Diesel Particulate filter",
+    "desc": "Diesel Particulate filter (DPF) temperature",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "017D": {
+    "name": "NOx NTE control area status",
+    "desc": "NOx NTE control area status",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "017E": {
+    "name": "PM NTE control area status",
+    "desc": "PM NTE control area status",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "017F": {
+    "name": "Engine run time",
+    "desc": "Engine run time",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0180": {
+    "name": "PIDs supported [81 - A0]",
+    "desc": "PIDs supported [81 - A0]",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0181": {
+    "name": "Engine run time for Auxiliary Emissions Control Device",
+    "desc": "Engine run time for Auxiliary Emissions Control Device(AECD)",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0182": {
+    "name": "Engine run time for Auxiliary Emissions Control Device",
+    "desc": "Engine run time for Auxiliary Emissions Control Device(AECD)",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0183": {
+    "name": "NOx sensor",
+    "desc": "NOx sensor",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0184": {
+    "name": "Manifold surface temperature",
+    "desc": "Manifold surface temperature",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0185": {
+    "name": "NOx reagent system",
+    "desc": "NOx reagent system",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0186": {
+    "name": "Particulate matter",
+    "desc": "Particulate matter (PM) sensor",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "0187": {
+    "name": "Intake manifold absolute pressure",
+    "desc": "Intake manifold absolute pressure",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "01A0": {
+    "name": "PIDs supported [A1 - C0]",
+    "desc": "PIDs supported [A1 - C0]",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "01C0": {
+    "name": "PIDs supported [C1 - E0]",
+    "desc": "PIDs supported [C1 - E0]",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "01C3": {
+    "name": "?",
+    "desc": " ?",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  },
+  "01C4": {
+    "name": "?",
+    "desc": " ?",
+    "unit": "",
+    "formula": "",
+    "protocol": "ISO 9141-2",
+    "min": null,
+    "max": null
+  }
+}
