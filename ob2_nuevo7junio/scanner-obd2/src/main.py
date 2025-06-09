@@ -30,13 +30,18 @@ class DataAcquisitionThread(QThread):
         self.error_counts = {}
         from core.logger import get_logger
         self.logger = get_logger()
-        # Buffers circulares para suavizado (ahora para todos los PIDs)
+        # Buffer circular mínimo para refresco inmediato
         self.buffers = {}
-        self.buffer_len = 8  # Puedes ajustar el tamaño del suavizado
+        self.buffer_len = 1  # Sin suavizado
 
     def run(self):
         import time
-        last_emit = time.time()
+        # Últimos valores válidos para RPM y velocidad (inicializar como float)
+        last_valid = {"010C": 0.0, "010D": 0.0}
+        last_valid_count = {"010C": 0, "010D": 0}
+        max_keep = 2  # ciclos a mantener el último valor válido si llega 0 o valor anómalo (más bajo para respuesta rápida)
+        max_rpm_jump = 200  # Máximo salto permitido en rpm para considerar el valor como válido
+        max_speed_jump = 20  # Máximo salto permitido en km/h para considerar el valor como válido
         while self.running:
             data = {}
             pids = self.get_selected_pids_fn()
@@ -54,28 +59,69 @@ class DataAcquisitionThread(QThread):
                     else:
                         self.error_counts[pid] = 0
                     value = self.parse_pid_response(resp, info.get('formula', 'A'))
-                    # Suavizado: aplicar a todos los PIDs
                     try:
                         val_float = float(str(value).split()[0])
                     except Exception:
-                        val_float = 0
+                        val_float = 0.0
+                    # Filtro especial para RPM y velocidad
+                    if pid == "010C":  # RPM
+                        # Filtro de salto brusco SOLO si el auto está en relenti (RPM < 1200)
+                        if last_valid[pid] > 0 and last_valid[pid] < 1200 and abs(val_float - last_valid[pid]) > max_rpm_jump:
+                            if last_valid_count[pid] < max_keep:
+                                val_float = last_valid[pid]
+                                last_valid_count[pid] += 1
+                            else:
+                                last_valid_count[pid] = 0
+                        elif val_float <= 0:
+                            if last_valid[pid] > 0 and last_valid_count[pid] < max_keep:
+                                val_float = last_valid[pid]
+                                last_valid_count[pid] += 1
+                            else:
+                                last_valid_count[pid] = 0
+                        else:
+                            last_valid[pid] = val_float
+                            last_valid_count[pid] = 0
+                    if pid == "010D":  # Velocidad
+                        # Filtro de salto brusco SOLO si la velocidad anterior era baja (<30 km/h)
+                        if last_valid[pid] >= 0 and last_valid[pid] < 30 and abs(val_float - last_valid[pid]) > max_speed_jump:
+                            if last_valid_count[pid] < max_keep:
+                                val_float = last_valid[pid]
+                                last_valid_count[pid] += 1
+                            else:
+                                last_valid_count[pid] = 0
+                        elif val_float < 0 or val_float > 250:  # fuera de rango
+                            if last_valid[pid] >= 0 and last_valid_count[pid] < max_keep:
+                                val_float = last_valid[pid]
+                                last_valid_count[pid] += 1
+                            else:
+                                val_float = 0.0
+                                last_valid_count[pid] = 0
+                        # Filtro adicional: si el auto está detenido, forzar 0 km/h si el valor es <= 15 km/h
+                        elif val_float <= 15.0:
+                            val_float = 0.0
+                            last_valid[pid] = 0.0
+                            last_valid_count[pid] = 0
+                        else:
+                            last_valid[pid] = val_float
+                            last_valid_count[pid] = 0
                     if pid not in self.buffers:
                         from collections import deque
                         self.buffers[pid] = deque(maxlen=self.buffer_len)
                     self.buffers[pid].append(val_float)
                     smoothed = sum(self.buffers[pid]) / len(self.buffers[pid])
                     data[pid] = f"{round(smoothed, 2)} {info['unit']}"
+                    # Loggear explícitamente RPM y velocidad
+                    if pid in ("010C", "010D"):
+                        self.logger.info(f"LOG_OBD2 | PID={pid} | valor={round(smoothed,2)} | unidad={info['unit']}")
                 except Exception as e:
                     self.logger.error(f"Error leyendo PID {pid}: {e}")
                     self.error_counts[pid] = self.error_counts.get(pid, 0) + 1
                     if self.error_counts[pid] >= 3:
                         self.pid_disabled.emit(pid)
-            # Emitir solo si hay cambios o cada 0.5s
-            now = time.time()
-            if data and (now - last_emit > 0.15):
+            # Emitir datos en cada ciclo para máximo refresco
+            if data:
                 self.data_updated.emit(data)
-                last_emit = now
-            self.msleep(80)  # Reduce el tiempo de espera para mayor fluidez
+            self.msleep(25)  # Refresco muy rápido (ajustable)
 
     def stop(self):
         self.running = False
