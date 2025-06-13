@@ -6,49 +6,110 @@
     <script src="gauge.min.js"></script>
     <script src="qwebchannel.js"></script>
     <style>
-        body { background: #23272e; margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh; }
+        body { font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background-color: #f0f0f0; }
+        .gauge-container { display: flex; gap: 20px; }
+        .gauge-wrapper { text-align: center; }
+        .gauge-label { font-size: 16px; font-weight: bold; margin-bottom: 10px; }
     </style>
 </head>
 <body>
-<canvas id="gauge" width="300" height="300"></canvas>
-<script>
-    var gauge = new RadialGauge({
-        renderTo: 'gauge',
-        width: 300,
-        height: 300,
-        units: 'RPM',
-        minValue: 0,
-        maxValue: 8000,
-        majorTicks: [0,1000,2000,3000,4000,5000,6000,7000,8000],
-        minorTicks: 2,
-        strokeTicks: true,
-        highlights: [
-            { from: 0, to: 4000, color: 'rgba(76,175,80,.3)' },
-            { from: 4000, to: 6000, color: 'rgba(255,235,59,.3)' },
-            { from: 6000, to: 8000, color: 'rgba(244,67,54,.3)' }
-        ],
-        colorPlate: '#23272e',
-        colorMajorTicks: '#fff',
-        colorMinorTicks: '#fff',
-        colorTitle: '#fff',
-        colorUnits: '#fff',
-        colorNumbers: '#fff',
-        colorNeedle: 'rgba(255,0,0,1)',
-        colorNeedleEnd: 'rgba(255,0,0,1)',
-        valueBox: true,
-        animationRule: 'bounce',
-        animationDuration: 500,
-        value: 0
-    }).draw();
-    // Comunicación con Python
-    if (typeof QWebChannel !== 'undefined') {
-        new QWebChannel(qt.webChannelTransport, function(channel) {
-            window.gaugeBridge = channel.objects.gaugeBridge;
-            window.gaugeBridge.valueChanged.connect(function(val) {
-                gauge.value = val;
-            });
+    <div class="gauge-container">
+        <div class="gauge-wrapper">
+            <div class="gauge-label">Velocímetro (km/h)</div>
+            <canvas id="speed-gauge"></canvas>
+        </div>
+        <div class="gauge-wrapper">
+            <div class="gauge-label">Tacómetro (RPM)</div>
+            <canvas id="rpm-gauge"></canvas>
+        </div>
+    </div>
+
+    <script>
+        var speedGauge = new RadialGauge({
+            renderTo: 'speed-gauge',
+            width: 300,
+            height: 300,
+            units: "km/h",
+            minValue: 0,
+            maxValue: 220,
+            majorTicks: ["0", "20", "40", "60", "80", "100", "120", "140", "160", "180", "200", "220"],
+            minorTicks: 2,
+            strokeTicks: true,
+            highlights: [
+                { from: 160, to: 220, color: "rgba(200, 50, 50, .75)" }
+            ],
+            colorPlate: "#fff",
+            borderShadowWidth: 0,
+            borders: false,
+            needleType: "arrow",
+            needleWidth: 2,
+            needleCircleSize: 7,
+            needleCircleOuter: true,
+            needleCircleInner: false,
+            animationDuration: 100, // Reducir para actualizaciones más rápidas
+            animationRule: "linear",
+            value: 0 // Valor inicial
+        }).draw();
+
+        var rpmGauge = new RadialGauge({
+            renderTo: 'rpm-gauge',
+            width: 300,
+            height: 300,
+            units: "RPM",
+            minValue: 0,
+            maxValue: 8000,
+            majorTicks: ["0", "1000", "2000", "3000", "4000", "5000", "6000", "7000", "8000"],
+            minorTicks: 5,
+            strokeTicks: true,
+            highlights: [
+                { from: 6000, to: 8000, color: "rgba(200, 50, 50, .75)" }
+            ],
+            colorPlate: "#fff",
+            borderShadowWidth: 0,
+            borders: false,
+            needleType: "arrow",
+            needleWidth: 2,
+            needleCircleSize: 7,
+            needleCircleOuter: true,
+            needleCircleInner: false,
+            animationDuration: 100, // Reducir para actualizaciones más rápidas
+            animationRule: "linear",
+            value: 0 // Valor inicial
+        }).draw();
+
+        // Funciones para actualizar los gauges
+        function updateSpeedGauge(value) {
+            speedGauge.value = value;
+        }
+
+        function updateRpmGauge(value) {
+            rpmGauge.value = value;
+        }
+
+        // Inicialización de QWebChannel
+        document.addEventListener("DOMContentLoaded", function () {
+            if (typeof qt !== 'undefined' && typeof qt.webChannelTransport !== 'undefined') {
+                new QWebChannel(qt.webChannelTransport, function (channel) {
+                    window.gaugeBridge = channel.objects.gauge_bridge;
+                    if (window.gaugeBridge) {
+                        console.log("Conectado a gauge_bridge de Python.");
+                        // Conectar señales de Python a funciones JS
+                        window.gaugeBridge.speedChanged.connect(updateSpeedGauge);
+                        window.gaugeBridge.rpmChanged.connect(updateRpmGauge);
+                    } else {
+                        console.error("El objeto gauge_bridge no está disponible en el canal.");
+                    }
+                });
+            } else {
+                console.error("qt.webChannelTransport no está definido. Asegúrate de que la aplicación Qt está configurada correctamente.");
+                // Fallback para pruebas en navegador sin Qt
+                // Simulación de datos si no está en Qt
+                // setInterval(function() {
+                //     updateSpeedGauge(Math.random() * 220);
+                //     updateRpmGauge(Math.random() * 8000);
+                // }, 200);
+            }
         });
-    }
-</script>
+    </script>
 </body>
 </html>

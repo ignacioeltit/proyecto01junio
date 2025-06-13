@@ -1,0 +1,76 @@
+2025-06-11 20:27:17,032 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-11 20:27:17,972 [INFO] Ventana principal mostrada. Esperando eventos Qt...
+2025-06-11 20:27:21,016 [INFO] Acción: conectar/desconectar OBD
+2025-06-11 20:27:26,832 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-11 20:27:26,833 [INFO] Estado de conexión OBD: Car Connected
+2025-06-11 20:27:34,719 [INFO] Acción: iniciar stream multipid
+2025-06-11 20:27:34,722 [INFO] PIDs seleccionados para stream multipid: ['RPM']
+2025-06-11 20:27:34,723 [INFO] [UI] show_gauges llamado con 1 PIDs: ['RPM']
+2025-06-11 20:27:34,725 [INFO] [UI] 1 gauges agregados al layout de la pestaña Gauges
+2025-06-11 20:27:40,363 [INFO] Stream multipid iniciado con PIDs: ['RPM']
+2025-06-11 20:27:40,471 [DEBUG] PID RPM valor recibido: 672.0 revolutions_per_minute
+2025-06-11 20:27:40,471 [INFO] PID RPM actualizado en stream multipid: 672.0
+2025-06-11 20:27:40,633 [DEBUG] PID RPM valor recibido: 698.0 revolutions_per_minute
+2025-06-11 20:27:40,634 [INFO] PID RPM actualizado en stream multipid: 698.0
+2025-06-11 20:27:40,779 [DEBUG] PID RPM valor recibido: 704.0 revolutions_per_minute
+2025-06-11 20:27:40,779 [INFO] PID RPM actualizado en stream multipid: 704.0
+2025-06-11 20:27:40,930 [DEBUG] PID RPM valor recibido: 707.0 revolutions_per_minute
+2025-06-11 20:27:40,930 [INFO] PID RPM actualizado en stream multipid: 707.0
+2025-06-11 20:27:41,078 [DEBUG] PID RPM valor recibido: 699.0 revolutions_per_minute
+2025-06-11 20:27:41,078 [INFO] PID RPM actualizado en stream multipid: 699.0
+2025-06-11 20:27:41,231 [DEBUG] PID RPM valor recibido: 698.0 revolutions_per_minute
+2025-06-11 20:27:41,231 [INFO] PID RPM actualizado en stream multipid: 698.0
+2025-06-11 20:27:41,380 [DEBUG] PID RPM valor recibido: 689.0 revolutions_per_minute
+2025-06-11 20:27:41,380 [INFO] PID RPM actualizado en stream multipid: 689.0
+2025-06-11 20:27:41,524 [DEBUG] PID RPM valor recibido: 689.0 revolutions_per_minute
+2025-06-11 20:27:41,524 [INFO] PID RPM actualizado en stream multipid: 689.0
+2025-06-11 20:27:41,659 [DEBUG] PID RPM valor recibido: 685.0 revolutions_per_minute
+2025-06-11 20:27:41,660 [INFO] PID RPM actualizado en stream multipid: 685.0
+2025-06-11 20:27:41,785 [DEBUG] PID RPM valor recibido: 704.0 revolutions_per_minute
+2025-06-11 20:27:41,786 [INFO] PID RPM actualizado en stream multipid: 704.0
+2025-06-11 20:27:41,925 [DEBUG] PID RPM valor recibido: 694.0 revolutions_per_minute
+2025-06-11 20:27:41,926 [INFO] PID RPM actualizado en stream multipid: 694.0
+2025-06-11 20:27:42,068 [DEBUG] PID RPM valor recibido: 697.0 revolutions_per_minute
+2025-06-11 20:27:42,069 [INFO] PID RPM actualizado en stream multipid: 697.0
+2025-06-11 20:27:42,207 [DEBUG] PID RPM valor recibido: 694.0 revolutions_per_minute
+2025-06-11 20:27:42,209 [INFO] PID RPM actualizado en stream multipid: 694.0
+2025-06-11 20:27:42,335 [DEBUG] PID RPM valor recibido: 691.0 revolutions_per_minute
+2025-06-11 20:27:42,336 [INFO] PID RPM actualizado en stream multipid: 691.0
+2025-06-11 20:27:42,470 [DEBUG] PID RPM valor recibido: 707.0 revolutions_per_minute
+2025-06-11 20:27:42,471 [INFO] PID RPM actualizado en stream multipid: 707.0
+2025-06-11 20:27:42,606 [DEBUG] PID RPM valor recibido: 683.0 revolutions_per_minute
+2025-06-11 20:27:42,606 [INFO] PID RPM actualizado en stream multipid: 683.0
+2025-06-11 20:28:02,021 [INFO] Acción: iniciar stream multipid
+2025-06-11 20:28:02,023 [INFO] PIDs seleccionados para stream multipid: ['RPM']
+2025-06-11 20:28:02,024 [INFO] [UI] show_gauges llamado con 1 PIDs: ['RPM']
+2025-06-11 20:28:02,024 [INFO] [UI] 1 gauges agregados al layout de la pestaña Gauges
+2025-06-11 20:28:07,703 [INFO] Stream multipid iniciado con PIDs: ['RPM']
+2025-06-11 20:28:07,812 [DEBUG] PID RPM valor recibido: 693.0 revolutions_per_minute
+2025-06-11 20:28:07,813 [INFO] PID RPM actualizado en stream multipid: 693.0
+2025-06-11 20:28:07,979 [DEBUG] PID RPM valor recibido: 701.0 revolutions_per_minute
+2025-06-11 20:28:07,980 [INFO] PID RPM actualizado en stream multipid: 701.0
+2025-06-11 20:28:08,138 [DEBUG] PID RPM valor recibido: 698.0 revolutions_per_minute
+2025-06-11 20:28:08,138 [INFO] PID RPM actualizado en stream multipid: 698.0
+2025-06-11 20:28:08,298 [DEBUG] PID RPM valor recibido: 693.0 revolutions_per_minute
+2025-06-11 20:28:08,298 [INFO] PID RPM actualizado en stream multipid: 693.0
+2025-06-11 20:28:08,463 [DEBUG] PID RPM valor recibido: 688.0 revolutions_per_minute
+2025-06-11 20:28:08,464 [INFO] PID RPM actualizado en stream multipid: 688.0
+2025-06-11 20:28:08,620 [DEBUG] PID RPM valor recibido: 690.0 revolutions_per_minute
+2025-06-11 20:28:08,620 [INFO] PID RPM actualizado en stream multipid: 690.0
+2025-06-11 20:28:08,778 [DEBUG] PID RPM valor recibido: 692.0 revolutions_per_minute
+2025-06-11 20:28:08,778 [INFO] PID RPM actualizado en stream multipid: 692.0
+2025-06-11 20:28:08,940 [DEBUG] PID RPM valor recibido: 685.0 revolutions_per_minute
+2025-06-11 20:28:08,940 [INFO] PID RPM actualizado en stream multipid: 685.0
+2025-06-11 20:28:09,084 [DEBUG] PID RPM valor recibido: 689.0 revolutions_per_minute
+2025-06-11 20:28:09,084 [INFO] PID RPM actualizado en stream multipid: 689.0
+2025-06-11 20:28:09,226 [DEBUG] PID RPM valor recibido: 695.0 revolutions_per_minute
+2025-06-11 20:28:09,227 [INFO] PID RPM actualizado en stream multipid: 695.0
+2025-06-11 20:28:09,366 [DEBUG] PID RPM valor recibido: 695.0 revolutions_per_minute
+2025-06-11 20:28:09,366 [INFO] PID RPM actualizado en stream multipid: 695.0
+2025-06-11 20:28:09,506 [DEBUG] PID RPM valor recibido: 700.0 revolutions_per_minute
+2025-06-11 20:28:09,506 [INFO] PID RPM actualizado en stream multipid: 700.0
+2025-06-11 20:28:09,656 [DEBUG] PID RPM valor recibido: 700.0 revolutions_per_minute
+2025-06-11 20:28:09,657 [INFO] PID RPM actualizado en stream multipid: 700.0
+2025-06-11 20:28:09,804 [DEBUG] PID RPM valor recibido: 682.0 revolutions_per_minute
+2025-06-11 20:28:09,804 [INFO] PID RPM actualizado en stream multipid: 682.0
+2025-06-11 20:28:09,859 [INFO] Cerrando aplicación OBD2 Scanner...

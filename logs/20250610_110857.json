@@ -1,0 +1,27 @@
+{
+  "session": "20250610_110857",
+  "vin": null,
+  "readings": {},
+  "events": [
+    {
+      "time": "2025-06-10T11:09:03.052007",
+      "type": "warning",
+      "message": "Intento 1 de VIN fallido"
+    },
+    {
+      "time": "2025-06-10T11:09:08.126790",
+      "type": "warning",
+      "message": "Intento 2 de VIN fallido"
+    },
+    {
+      "time": "2025-06-10T11:09:13.127188",
+      "type": "warning",
+      "message": "Intento 3 de VIN fallido"
+    },
+    {
+      "time": "2025-06-10T11:09:13.128128",
+      "type": "error",
+      "message": "No se pudo leer el VIN"
+    }
+  ]
+}

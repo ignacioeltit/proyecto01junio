@@ -1,0 +1,6 @@
+2025-06-08 12:52:27,036 - scanner-obd2 - INFO - Iniciando Scanner OBD2...
+2025-06-08 12:52:32,690 - scanner-obd2 - INFO - PIDs disponibles: 9
+2025-06-08 12:52:36,719 - scanner-obd2 - INFO - Conexión ELM327 real exitosa.
+2025-06-08 12:52:36,806 - scanner-obd2 - INFO - Respuesta a 0100: 41 00 98 3B A0 13
+2025-06-08 12:52:36,806 - scanner-obd2 - INFO - PIDs soportados detectados: ['0100', '0103', '0104', '010A', '010B', '010C', '010E', '010F', '0110', '0112', '011B', '011E', '011F']
+2025-06-08 12:53:42,846 - scanner-obd2 - INFO - Sesión finalizada.

@@ -58,3 +58,10 @@ class PIDManager:
         Devuelve el diccionario completo de PIDs cargados, útil para integración directa con el scanner principal.
         """
         return self.pids
+
+    def list_proprietary_pids(self) -> List[str]:
+        """
+        Devuelve una lista de PIDs propietarios (no estándar SAE J1979).
+        Considera propietarios los que no empiezan con '01' ni '09'.
+        """
+        return [pid for pid, info in self.pids.items() if not (pid.startswith('01') or pid.startswith('09'))]

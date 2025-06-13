@@ -1,0 +1,162 @@
+2025-06-11 20:00:50,394 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-11 20:00:50,901 [INFO] Ventana principal mostrada. Esperando eventos Qt...
+2025-06-11 20:01:04,704 [INFO] Acción: conectar/desconectar OBD
+2025-06-11 20:01:10,264 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-11 20:01:10,264 [INFO] Estado de conexión OBD: Car Connected
+2025-06-11 20:01:32,858 [INFO] Acción: iniciar stream multipid
+2025-06-11 20:01:32,861 [INFO] PIDs seleccionados para stream multipid: ['ACCELERATOR_POS_E', 'AMBIANT_AIR_TEMP']
+2025-06-11 20:01:38,411 [INFO] Stream multipid iniciado con PIDs: ['ACCELERATOR_POS_E', 'AMBIANT_AIR_TEMP']
+2025-06-11 20:01:38,517 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:01:38,517 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:01:38,592 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 19 degree_Celsius
+2025-06-11 20:01:38,593 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 19.0
+2025-06-11 20:01:38,724 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:01:38,725 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:01:38,805 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 19 degree_Celsius
+2025-06-11 20:01:38,806 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 19.0
+2025-06-11 20:01:38,937 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:01:38,937 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:01:39,014 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 19 degree_Celsius
+2025-06-11 20:01:39,014 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 19.0
+2025-06-11 20:01:39,143 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:01:39,144 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:01:39,223 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 19 degree_Celsius
+2025-06-11 20:01:39,224 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 19.0
+2025-06-11 20:01:39,360 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:01:39,360 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:01:39,437 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 19 degree_Celsius
+2025-06-11 20:01:39,438 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 19.0
+2025-06-11 20:01:39,571 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:01:39,572 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:01:39,653 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 19 degree_Celsius
+2025-06-11 20:01:39,654 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 19.0
+2025-06-11 20:01:39,786 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:01:39,786 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:01:39,865 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 19 degree_Celsius
+2025-06-11 20:01:39,866 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 19.0
+2025-06-11 20:01:40,004 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:01:40,004 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:01:40,083 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 19 degree_Celsius
+2025-06-11 20:01:40,083 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 19.0
+2025-06-11 20:01:40,213 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 0.0 percent
+2025-06-11 20:01:40,214 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 0.0
+2025-06-11 20:01:40,283 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 19 degree_Celsius
+2025-06-11 20:01:40,283 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 19.0
+2025-06-11 20:01:40,407 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:01:40,408 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:01:40,476 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 20 degree_Celsius
+2025-06-11 20:01:40,477 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 20.0
+2025-06-11 20:01:40,601 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:01:40,601 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:01:40,667 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 20 degree_Celsius
+2025-06-11 20:01:40,667 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 20.0
+2025-06-11 20:01:40,791 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:01:40,792 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:01:40,857 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 20 degree_Celsius
+2025-06-11 20:01:40,858 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 20.0
+2025-06-11 20:01:40,983 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:01:40,984 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:01:41,049 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 20 degree_Celsius
+2025-06-11 20:01:41,050 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 20.0
+2025-06-11 20:01:41,169 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:01:41,170 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:01:41,239 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 20 degree_Celsius
+2025-06-11 20:01:41,240 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 20.0
+2025-06-11 20:01:41,364 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:01:41,364 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:01:41,433 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 20 degree_Celsius
+2025-06-11 20:01:41,433 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 20.0
+2025-06-11 20:01:41,553 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:01:41,554 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:01:41,621 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 20 degree_Celsius
+2025-06-11 20:01:41,623 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 20.0
+2025-06-11 20:01:41,749 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:01:41,750 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:01:41,819 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 20 degree_Celsius
+2025-06-11 20:01:41,820 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 20.0
+2025-06-11 20:01:41,940 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:01:41,941 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:01:42,009 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 20 degree_Celsius
+2025-06-11 20:01:42,010 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 20.0
+2025-06-11 20:01:42,129 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:01:42,130 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:01:42,199 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 20 degree_Celsius
+2025-06-11 20:01:42,200 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 20.0
+2025-06-11 20:01:42,319 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:01:42,320 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:01:42,385 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 20 degree_Celsius
+2025-06-11 20:01:42,386 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 20.0
+2025-06-11 20:01:42,506 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:01:42,506 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:01:42,577 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 20 degree_Celsius
+2025-06-11 20:01:42,578 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 20.0
+2025-06-11 20:01:59,275 [INFO] Acción: iniciar stream multipid
+2025-06-11 20:01:59,280 [INFO] PIDs seleccionados para stream multipid: ['ACCELERATOR_POS_E', 'AMBIANT_AIR_TEMP', 'RPM']
+2025-06-11 20:02:04,823 [INFO] Stream multipid iniciado con PIDs: ['ACCELERATOR_POS_E', 'AMBIANT_AIR_TEMP', 'RPM']
+2025-06-11 20:02:04,923 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:02:04,924 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:02:05,001 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 21 degree_Celsius
+2025-06-11 20:02:05,001 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 21.0
+2025-06-11 20:02:05,097 [DEBUG] PID RPM valor recibido: 699.0 revolutions_per_minute
+2025-06-11 20:02:05,097 [INFO] PID RPM actualizado en stream multipid: 699.0
+2025-06-11 20:02:05,229 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:02:05,229 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:02:05,307 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 21 degree_Celsius
+2025-06-11 20:02:05,307 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 21.0
+2025-06-11 20:02:05,395 [DEBUG] PID RPM valor recibido: 706.0 revolutions_per_minute
+2025-06-11 20:02:05,395 [INFO] PID RPM actualizado en stream multipid: 706.0
+2025-06-11 20:02:05,527 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:02:05,527 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:02:05,605 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 21 degree_Celsius
+2025-06-11 20:02:05,606 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 21.0
+2025-06-11 20:02:05,698 [DEBUG] PID RPM valor recibido: 699.0 revolutions_per_minute
+2025-06-11 20:02:05,699 [INFO] PID RPM actualizado en stream multipid: 699.0
+2025-06-11 20:02:05,833 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:02:05,833 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:02:05,911 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 21 degree_Celsius
+2025-06-11 20:02:05,912 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 21.0
+2025-06-11 20:02:06,007 [DEBUG] PID RPM valor recibido: 698.0 revolutions_per_minute
+2025-06-11 20:02:06,008 [INFO] PID RPM actualizado en stream multipid: 698.0
+2025-06-11 20:02:06,144 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:02:06,144 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:02:06,209 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 21 degree_Celsius
+2025-06-11 20:02:06,210 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 21.0
+2025-06-11 20:02:06,294 [DEBUG] PID RPM valor recibido: 701.0 revolutions_per_minute
+2025-06-11 20:02:06,294 [INFO] PID RPM actualizado en stream multipid: 701.0
+2025-06-11 20:02:06,413 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:02:06,413 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:02:06,479 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 21 degree_Celsius
+2025-06-11 20:02:06,479 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 21.0
+2025-06-11 20:02:06,575 [DEBUG] PID RPM valor recibido: 702.0 revolutions_per_minute
+2025-06-11 20:02:06,576 [INFO] PID RPM actualizado en stream multipid: 702.0
+2025-06-11 20:02:06,704 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:02:06,704 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:02:06,777 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 21 degree_Celsius
+2025-06-11 20:02:06,778 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 21.0
+2025-06-11 20:02:06,874 [DEBUG] PID RPM valor recibido: 684.0 revolutions_per_minute
+2025-06-11 20:02:06,875 [INFO] PID RPM actualizado en stream multipid: 684.0
+2025-06-11 20:02:07,006 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:02:07,006 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:02:07,080 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 21 degree_Celsius
+2025-06-11 20:02:07,080 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 21.0
+2025-06-11 20:02:07,172 [DEBUG] PID RPM valor recibido: 694.0 revolutions_per_minute
+2025-06-11 20:02:07,173 [INFO] PID RPM actualizado en stream multipid: 694.0
+2025-06-11 20:02:07,299 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:02:07,299 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:02:07,373 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 21 degree_Celsius
+2025-06-11 20:02:07,374 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 21.0
+2025-06-11 20:02:07,461 [DEBUG] PID RPM valor recibido: 709.0 revolutions_per_minute
+2025-06-11 20:02:07,462 [INFO] PID RPM actualizado en stream multipid: 709.0
+2025-06-11 20:02:07,589 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:02:07,589 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:02:07,664 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 21 degree_Celsius
+2025-06-11 20:02:07,664 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 21.0
+2025-06-11 20:02:07,750 [DEBUG] PID RPM valor recibido: 703.0 revolutions_per_minute
+2025-06-11 20:02:07,750 [INFO] PID RPM actualizado en stream multipid: 703.0
+2025-06-11 20:02:07,876 [DEBUG] PID ACCELERATOR_POS_E valor recibido: 3.9215686274509802 percent
+2025-06-11 20:02:07,876 [INFO] PID ACCELERATOR_POS_E actualizado en stream multipid: 3.9215686274509802
+2025-06-11 20:02:07,954 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 21 degree_Celsius
+2025-06-11 20:02:07,954 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 21.0
+2025-06-11 20:02:08,039 [DEBUG] PID RPM valor recibido: 692.0 revolutions_per_minute
+2025-06-11 20:02:08,040 [INFO] PID RPM actualizado en stream multipid: 692.0
+2025-06-11 20:02:21,967 [INFO] Cerrando aplicación OBD2 Scanner...

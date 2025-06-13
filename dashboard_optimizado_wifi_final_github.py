@@ -137,28 +137,55 @@ class OptimizedELM327Connection:
         self.logger = logging.getLogger(__name__)
 
     def connect(self):
-        """Establece conexión con el dispositivo"""
+        """Establece conexión con el dispositivo ELM327 (mejorada para compatibilidad y debug)."""
         if self._mode == OPERATION_MODES["EMULATOR"]:
             self.connected = True
             return True
-            
         try:
             self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            self.socket.settimeout(2)  # 2 segundos de timeout
+            self.socket.settimeout(2)
             self.socket.connect((self.ip, self.port))
             self.connected = True
-            # Inicialización
-            self._send_command("ATZ")  # Reset
-            self._send_command("ATE0")  # Echo off
-            self._send_command("ATL0")  # Linefeeds off
-            self._send_command("ATS0")  # Spaces off
-            self._send_command("ATH0")  # Headers off
-            self._send_command("ATSP0")  # Auto protocol
+            # Inicialización con mayor espera y debug
+            print("[DEBUG] Enviando ATZ...")
+            resp = self._send_command_with_wait("ATZ", wait=2.0)
+            print(f"[DEBUG] Respuesta ATZ: {repr(resp)}")
+            self._send_command("ATE0")
+            self._send_command("ATL0")
+            self._send_command("ATS0")
+            self._send_command("ATH0")
+            self._send_command("ATSP0")
             return True
         except Exception as e:
             self.logger.error(f"Error de conexión: {e}")
             self.connected = False
             return False
+
+    def _send_command_with_wait(self, cmd, wait=1.0):
+        """Envía un comando y espera explícitamente el tiempo indicado para recibir respuesta completa."""
+        if not self.connected:
+            return None
+        if self._mode == OPERATION_MODES["EMULATOR"]:
+            return self._emulate_response(cmd)
+        try:
+            cmd = cmd.encode() + b'\r\n'
+            self.socket.send(cmd)
+            time.sleep(wait)
+            response = ""
+            while True:
+                try:
+                    chunk = self.socket.recv(256).decode('utf-8', errors='ignore')
+                    if not chunk:
+                        break
+                    response += chunk
+                    if '>' in response:
+                        break
+                except Exception:
+                    break
+            return response
+        except Exception as e:
+            self.logger.error(f"Error enviando comando (wait): {e}")
+            return None
 
     def disconnect(self):
         """Cierra la conexión"""
@@ -853,23 +880,48 @@ class HighSpeedOBDDashboard(QMainWindow):
         self.speed_status.setText("⚡ Velocidad: -- Hz")
         
     def apply_pid_selection(self):
-        """Aplica la selección de PIDs y la registra en el log"""
+        """
+        Aplica la selección de PIDs y actualiza los paneles de datos y el log.
+        Limpia y actualiza los labels de los paneles fast, slow y extendidos según la selección.
+        """
         selected_fast = self.pid_selection.get_selected_pids()
         selected_slow = self.slow_pid_selection.get_selected_pids()
         self.selected_extended_pids = {}
         for fam, panel in self.extended_pid_panels.items():
             self.selected_extended_pids[fam] = panel.get_selected_pids()
-        if not selected_fast and not selected_slow and not any(self.selected_extended_pids.values()):
-            return
-        # Resetear los valores
-        for pid in self.pid_labels:
-            self.pid_labels[pid].setText("--")
-        for pid in self.slow_pid_labels:
-            self.slow_pid_labels[pid].setText("--")
+        # Limpiar labels fast
+        for pid, label in self.pid_labels.items():
+            label.setText("--")
+        # Limpiar labels slow
+        for pid, label in self.slow_pid_labels.items():
+            label.setText("--")
+        # Actualizar visualmente los paneles extendidos: solo mostrar labels para los PIDs seleccionados
+        if not hasattr(self, 'extended_pid_labels'):
+            self.extended_pid_labels = {}
+        for fam, panel in self.extended_pid_panels.items():
+            # Eliminar labels previos
+            if hasattr(panel, 'labels'):
+                for label in panel.labels.values():
+                    label.setText("--")
+            else:
+                panel.labels = {}
+            # Crear labels solo para los seleccionados
+            for pid in panel.checkboxes:
+                if pid in self.selected_extended_pids[fam]:
+                    if pid not in panel.labels:
+                        label = QLabel("--")
+                        panel.layout().addWidget(label)
+                        panel.labels[pid] = label
+                else:
+                    # Si el label existe pero ya no está seleccionado, ocultar
+                    if pid in panel.labels:
+                        panel.labels[pid].setText("")
         # Registrar selección de PIDs
         if not self.logger.active:
             self.logger.start_logging()
         self.logger.log_pid_selection(selected_fast, selected_slow, self.selected_extended_pids)
+        # (Opcional) Si quieres actualizar dinámicamente los paneles de datos extendidos, puedes agregar lógica aquí
+        # Por ejemplo, podrías crear/actualizar widgets para los PIDs extendidos seleccionados
 
     def read_fast_data(self):
         """Lee y actualiza solo el dato de RPM en la interfaz para máxima fluidez"""

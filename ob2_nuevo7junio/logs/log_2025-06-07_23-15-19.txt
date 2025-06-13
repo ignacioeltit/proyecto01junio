@@ -1,0 +1,7 @@
+2025-06-07 23:15:19,504 - scanner-obd2 - INFO - Iniciando Scanner OBD2...
+2025-06-07 23:15:28,571 - scanner-obd2 - INFO - PIDs disponibles: 9
+2025-06-07 23:15:28,572 - scanner-obd2 - INFO - Conexión ELM327 emulador exitosa.
+2025-06-07 23:15:28,572 - scanner-obd2 - INFO - Respuesta a 0100: NO DATA>
+2025-06-07 23:15:28,572 - scanner-obd2 - INFO - PIDs soportados detectados: []
+2025-06-07 23:15:28,572 - scanner-obd2 - WARNING - No se detectaron PIDs soportados. Usando ejemplo por defecto.
+2025-06-07 23:15:29,186 - scanner-obd2 - INFO - Sesión finalizada.

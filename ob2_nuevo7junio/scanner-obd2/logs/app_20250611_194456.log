@@ -1,0 +1,45 @@
+2025-06-11 19:44:56,597 [DEBUG] matplotlib data path: /Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/matplotlib/mpl-data
+2025-06-11 19:44:56,604 [DEBUG] CONFIGDIR=/Users/ignacioeltit/.matplotlib
+2025-06-11 19:44:56,605 [DEBUG] interactive is False
+2025-06-11 19:44:56,605 [DEBUG] platform is darwin
+2025-06-11 19:44:56,849 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-11 19:44:57,454 [INFO] Ventana principal mostrada. Esperando eventos Qt...
+2025-06-11 19:45:01,752 [INFO] Acción: conectar/desconectar OBD
+2025-06-11 19:45:07,364 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-11 19:45:07,366 [INFO] Estado de conexión OBD: Car Connected
+2025-06-11 19:45:18,569 [INFO] Acción: iniciar stream multipid
+2025-06-11 19:45:18,570 [INFO] PIDs seleccionados para stream multipid: ['AMBIANT_AIR_TEMP']
+2025-06-11 19:45:24,284 [INFO] Stream multipid iniciado con PIDs: ['AMBIANT_AIR_TEMP']
+2025-06-11 19:45:24,406 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 15 degree_Celsius
+2025-06-11 19:45:24,406 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 15.0
+2025-06-11 19:45:24,546 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 15 degree_Celsius
+2025-06-11 19:45:24,547 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 15.0
+2025-06-11 19:45:24,685 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 15 degree_Celsius
+2025-06-11 19:45:24,685 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 15.0
+2025-06-11 19:45:24,828 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 15 degree_Celsius
+2025-06-11 19:45:24,828 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 15.0
+2025-06-11 19:45:24,974 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 15 degree_Celsius
+2025-06-11 19:45:24,974 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 15.0
+2025-06-11 19:45:25,116 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 15 degree_Celsius
+2025-06-11 19:45:25,116 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 15.0
+2025-06-11 19:45:25,266 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 15 degree_Celsius
+2025-06-11 19:45:25,267 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 15.0
+2025-06-11 19:45:25,406 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 15 degree_Celsius
+2025-06-11 19:45:25,406 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 15.0
+2025-06-11 19:45:25,552 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 15 degree_Celsius
+2025-06-11 19:45:25,553 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 15.0
+2025-06-11 19:45:25,696 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 15 degree_Celsius
+2025-06-11 19:45:25,697 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 15.0
+2025-06-11 19:45:25,857 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 15 degree_Celsius
+2025-06-11 19:45:25,857 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 15.0
+2025-06-11 19:45:25,998 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 15 degree_Celsius
+2025-06-11 19:45:25,999 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 15.0
+2025-06-11 19:45:26,144 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 15 degree_Celsius
+2025-06-11 19:45:26,144 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 15.0
+2025-06-11 19:45:26,288 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 15 degree_Celsius
+2025-06-11 19:45:26,289 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 15.0
+2025-06-11 19:45:26,426 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 15 degree_Celsius
+2025-06-11 19:45:26,426 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 15.0
+2025-06-11 19:45:26,570 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 15 degree_Celsius
+2025-06-11 19:45:26,570 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 15.0
+2025-06-11 19:45:48,854 [INFO] Cerrando aplicación OBD2 Scanner...

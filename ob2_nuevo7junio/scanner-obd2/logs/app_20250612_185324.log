@@ -1,0 +1,546 @@
+2025-06-12 18:53:25,130 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-12 18:53:25,550 [DEBUG] Using selector: _Selector
+2025-06-12 18:53:25,883 [INFO] Ventana principal mostrada. Esperando eventos Qt+asyncio...
+2025-06-12 18:53:29,013 [INFO] Acción: conectar/desconectar OBD
+2025-06-12 18:53:34,645 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-12 18:53:34,646 [INFO] Estado de conexión OBD: Car Connected
+2025-06-12 18:53:36,853 [INFO] Acción: leer VIN
+2025-06-12 18:53:36,941 [INFO] VIN leído por OBD: bytearray(b'C4RJFDJ6EC56987')
+2025-06-12 18:53:36,942 [WARNING] Error decodificando VIN: VIN number requires 17 chars (29 given)
+2025-06-12 18:53:38,323 [INFO] VIN manual ingresado: bytearray(b'C4RJFDJ6EC56987'), ok=True
+2025-06-12 18:53:38,324 [WARNING] VIN inválido. Activando fallback manual.
+2025-06-12 18:53:39,749 [WARNING] No se pudo agregar botón a _main_layout: 'DataVisualizer' object has no attribute '_main_layout'
+2025-06-12 18:53:50,344 [INFO] Acción: iniciar stream multipid
+2025-06-12 18:53:50,347 [INFO] PIDs seleccionados para stream multipid: ['RPM']
+2025-06-12 18:53:50,347 [INFO] [UI] show_gauges llamado con 1 PIDs: ['RPM']
+2025-06-12 18:53:50,350 [INFO] [UI] 1 gauges agregados al layout de la pestaña Gauges
+2025-06-12 18:53:56,011 [INFO] Stream multipid iniciado con PIDs: ['RPM']
+2025-06-12 18:53:56,114 [DEBUG] PID RPM valor recibido: 707.0 revolutions_per_minute
+2025-06-12 18:53:56,115 [INFO] PID RPM actualizado en stream multipid: 707.0
+2025-06-12 18:53:56,275 [DEBUG] PID RPM valor recibido: 700.0 revolutions_per_minute
+2025-06-12 18:53:56,276 [INFO] PID RPM actualizado en stream multipid: 700.0
+2025-06-12 18:53:56,430 [DEBUG] PID RPM valor recibido: 701.0 revolutions_per_minute
+2025-06-12 18:53:56,430 [INFO] PID RPM actualizado en stream multipid: 701.0
+2025-06-12 18:53:56,592 [DEBUG] PID RPM valor recibido: 688.0 revolutions_per_minute
+2025-06-12 18:53:56,593 [INFO] PID RPM actualizado en stream multipid: 688.0
+2025-06-12 18:53:56,755 [DEBUG] PID RPM valor recibido: 699.0 revolutions_per_minute
+2025-06-12 18:53:56,756 [INFO] PID RPM actualizado en stream multipid: 699.0
+2025-06-12 18:53:56,913 [DEBUG] PID RPM valor recibido: 698.0 revolutions_per_minute
+2025-06-12 18:53:56,913 [INFO] PID RPM actualizado en stream multipid: 698.0
+2025-06-12 18:53:57,072 [DEBUG] PID RPM valor recibido: 706.0 revolutions_per_minute
+2025-06-12 18:53:57,072 [INFO] PID RPM actualizado en stream multipid: 706.0
+2025-06-12 18:53:57,236 [DEBUG] PID RPM valor recibido: 707.0 revolutions_per_minute
+2025-06-12 18:53:57,236 [INFO] PID RPM actualizado en stream multipid: 707.0
+2025-06-12 18:53:57,379 [DEBUG] PID RPM valor recibido: 710.0 revolutions_per_minute
+2025-06-12 18:53:57,380 [INFO] PID RPM actualizado en stream multipid: 710.0
+2025-06-12 18:53:57,520 [DEBUG] PID RPM valor recibido: 715.0 revolutions_per_minute
+2025-06-12 18:53:57,520 [INFO] PID RPM actualizado en stream multipid: 715.0
+2025-06-12 18:53:57,670 [DEBUG] PID RPM valor recibido: 710.0 revolutions_per_minute
+2025-06-12 18:53:57,671 [INFO] PID RPM actualizado en stream multipid: 710.0
+2025-06-12 18:53:57,820 [DEBUG] PID RPM valor recibido: 703.0 revolutions_per_minute
+2025-06-12 18:53:57,820 [INFO] PID RPM actualizado en stream multipid: 703.0
+2025-06-12 18:53:57,958 [DEBUG] PID RPM valor recibido: 711.0 revolutions_per_minute
+2025-06-12 18:53:57,958 [INFO] PID RPM actualizado en stream multipid: 711.0
+2025-06-12 18:53:58,099 [DEBUG] PID RPM valor recibido: 700.0 revolutions_per_minute
+2025-06-12 18:53:58,100 [INFO] PID RPM actualizado en stream multipid: 700.0
+2025-06-12 18:53:58,248 [DEBUG] PID RPM valor recibido: 711.0 revolutions_per_minute
+2025-06-12 18:53:58,254 [INFO] PID RPM actualizado en stream multipid: 711.0
+2025-06-12 18:53:58,412 [DEBUG] PID RPM valor recibido: 699.0 revolutions_per_minute
+2025-06-12 18:53:58,413 [INFO] PID RPM actualizado en stream multipid: 699.0
+2025-06-12 18:53:58,558 [DEBUG] PID RPM valor recibido: 715.0 revolutions_per_minute
+2025-06-12 18:53:58,559 [INFO] PID RPM actualizado en stream multipid: 715.0
+2025-06-12 18:53:58,704 [DEBUG] PID RPM valor recibido: 710.0 revolutions_per_minute
+2025-06-12 18:53:58,705 [INFO] PID RPM actualizado en stream multipid: 710.0
+2025-06-12 18:53:58,849 [DEBUG] PID RPM valor recibido: 715.0 revolutions_per_minute
+2025-06-12 18:53:58,850 [INFO] PID RPM actualizado en stream multipid: 715.0
+2025-06-12 18:53:59,001 [DEBUG] PID RPM valor recibido: 708.0 revolutions_per_minute
+2025-06-12 18:53:59,002 [INFO] PID RPM actualizado en stream multipid: 708.0
+2025-06-12 18:53:59,140 [DEBUG] PID RPM valor recibido: 708.0 revolutions_per_minute
+2025-06-12 18:53:59,141 [INFO] PID RPM actualizado en stream multipid: 708.0
+2025-06-12 18:53:59,291 [DEBUG] PID RPM valor recibido: 689.0 revolutions_per_minute
+2025-06-12 18:53:59,291 [INFO] PID RPM actualizado en stream multipid: 689.0
+2025-06-12 18:53:59,447 [DEBUG] PID RPM valor recibido: 707.0 revolutions_per_minute
+2025-06-12 18:53:59,448 [INFO] PID RPM actualizado en stream multipid: 707.0
+2025-06-12 18:53:59,591 [DEBUG] PID RPM valor recibido: 704.0 revolutions_per_minute
+2025-06-12 18:53:59,591 [INFO] PID RPM actualizado en stream multipid: 704.0
+2025-06-12 18:53:59,740 [DEBUG] PID RPM valor recibido: 720.0 revolutions_per_minute
+2025-06-12 18:53:59,740 [INFO] PID RPM actualizado en stream multipid: 720.0
+2025-06-12 18:53:59,884 [DEBUG] PID RPM valor recibido: 708.0 revolutions_per_minute
+2025-06-12 18:53:59,884 [INFO] PID RPM actualizado en stream multipid: 708.0
+2025-06-12 18:54:00,030 [DEBUG] PID RPM valor recibido: 703.0 revolutions_per_minute
+2025-06-12 18:54:00,030 [INFO] PID RPM actualizado en stream multipid: 703.0
+2025-06-12 18:54:00,181 [DEBUG] PID RPM valor recibido: 698.0 revolutions_per_minute
+2025-06-12 18:54:00,182 [INFO] PID RPM actualizado en stream multipid: 698.0
+2025-06-12 18:54:00,330 [DEBUG] PID RPM valor recibido: 696.0 revolutions_per_minute
+2025-06-12 18:54:00,331 [INFO] PID RPM actualizado en stream multipid: 696.0
+2025-06-12 18:54:00,482 [DEBUG] PID RPM valor recibido: 680.0 revolutions_per_minute
+2025-06-12 18:54:00,482 [INFO] PID RPM actualizado en stream multipid: 680.0
+2025-06-12 18:54:00,641 [DEBUG] PID RPM valor recibido: 687.0 revolutions_per_minute
+2025-06-12 18:54:00,641 [INFO] PID RPM actualizado en stream multipid: 687.0
+2025-06-12 18:54:00,792 [DEBUG] PID RPM valor recibido: 697.0 revolutions_per_minute
+2025-06-12 18:54:00,793 [INFO] PID RPM actualizado en stream multipid: 697.0
+2025-06-12 18:54:00,941 [DEBUG] PID RPM valor recibido: 712.0 revolutions_per_minute
+2025-06-12 18:54:00,941 [INFO] PID RPM actualizado en stream multipid: 712.0
+2025-06-12 18:54:01,092 [DEBUG] PID RPM valor recibido: 703.0 revolutions_per_minute
+2025-06-12 18:54:01,092 [INFO] PID RPM actualizado en stream multipid: 703.0
+2025-06-12 18:54:01,239 [DEBUG] PID RPM valor recibido: 717.0 revolutions_per_minute
+2025-06-12 18:54:01,240 [INFO] PID RPM actualizado en stream multipid: 717.0
+2025-06-12 18:54:01,397 [DEBUG] PID RPM valor recibido: 686.0 revolutions_per_minute
+2025-06-12 18:54:01,398 [INFO] PID RPM actualizado en stream multipid: 686.0
+2025-06-12 18:54:01,542 [DEBUG] PID RPM valor recibido: 693.0 revolutions_per_minute
+2025-06-12 18:54:01,543 [INFO] PID RPM actualizado en stream multipid: 693.0
+2025-06-12 18:54:01,684 [DEBUG] PID RPM valor recibido: 689.0 revolutions_per_minute
+2025-06-12 18:54:01,684 [INFO] PID RPM actualizado en stream multipid: 689.0
+2025-06-12 18:54:01,830 [DEBUG] PID RPM valor recibido: 710.0 revolutions_per_minute
+2025-06-12 18:54:01,830 [INFO] PID RPM actualizado en stream multipid: 710.0
+2025-06-12 18:54:01,970 [DEBUG] PID RPM valor recibido: 715.0 revolutions_per_minute
+2025-06-12 18:54:01,970 [INFO] PID RPM actualizado en stream multipid: 715.0
+2025-06-12 18:54:02,120 [DEBUG] PID RPM valor recibido: 715.0 revolutions_per_minute
+2025-06-12 18:54:02,120 [INFO] PID RPM actualizado en stream multipid: 715.0
+2025-06-12 18:54:02,261 [DEBUG] PID RPM valor recibido: 695.0 revolutions_per_minute
+2025-06-12 18:54:02,262 [INFO] PID RPM actualizado en stream multipid: 695.0
+2025-06-12 18:54:02,408 [DEBUG] PID RPM valor recibido: 692.0 revolutions_per_minute
+2025-06-12 18:54:02,409 [INFO] PID RPM actualizado en stream multipid: 692.0
+2025-06-12 18:54:02,551 [DEBUG] PID RPM valor recibido: 694.0 revolutions_per_minute
+2025-06-12 18:54:02,551 [INFO] PID RPM actualizado en stream multipid: 694.0
+2025-06-12 18:54:02,698 [DEBUG] PID RPM valor recibido: 693.0 revolutions_per_minute
+2025-06-12 18:54:02,698 [INFO] PID RPM actualizado en stream multipid: 693.0
+2025-06-12 18:54:02,841 [DEBUG] PID RPM valor recibido: 718.0 revolutions_per_minute
+2025-06-12 18:54:02,841 [INFO] PID RPM actualizado en stream multipid: 718.0
+2025-06-12 18:54:02,983 [DEBUG] PID RPM valor recibido: 715.0 revolutions_per_minute
+2025-06-12 18:54:02,983 [INFO] PID RPM actualizado en stream multipid: 715.0
+2025-06-12 18:54:03,132 [DEBUG] PID RPM valor recibido: 701.0 revolutions_per_minute
+2025-06-12 18:54:03,133 [INFO] PID RPM actualizado en stream multipid: 701.0
+2025-06-12 18:54:03,283 [DEBUG] PID RPM valor recibido: 700.0 revolutions_per_minute
+2025-06-12 18:54:03,284 [INFO] PID RPM actualizado en stream multipid: 700.0
+2025-06-12 18:54:03,436 [DEBUG] PID RPM valor recibido: 704.0 revolutions_per_minute
+2025-06-12 18:54:03,436 [INFO] PID RPM actualizado en stream multipid: 704.0
+2025-06-12 18:54:03,576 [DEBUG] PID RPM valor recibido: 692.0 revolutions_per_minute
+2025-06-12 18:54:03,577 [INFO] PID RPM actualizado en stream multipid: 692.0
+2025-06-12 18:54:03,720 [DEBUG] PID RPM valor recibido: 697.0 revolutions_per_minute
+2025-06-12 18:54:03,720 [INFO] PID RPM actualizado en stream multipid: 697.0
+2025-06-12 18:54:03,868 [DEBUG] PID RPM valor recibido: 705.0 revolutions_per_minute
+2025-06-12 18:54:03,868 [INFO] PID RPM actualizado en stream multipid: 705.0
+2025-06-12 18:54:04,009 [DEBUG] PID RPM valor recibido: 702.0 revolutions_per_minute
+2025-06-12 18:54:04,009 [INFO] PID RPM actualizado en stream multipid: 702.0
+2025-06-12 18:54:04,153 [DEBUG] PID RPM valor recibido: 690.0 revolutions_per_minute
+2025-06-12 18:54:04,154 [INFO] PID RPM actualizado en stream multipid: 690.0
+2025-06-12 18:54:04,297 [DEBUG] PID RPM valor recibido: 690.0 revolutions_per_minute
+2025-06-12 18:54:04,298 [INFO] PID RPM actualizado en stream multipid: 690.0
+2025-06-12 18:54:04,439 [DEBUG] PID RPM valor recibido: 693.0 revolutions_per_minute
+2025-06-12 18:54:04,439 [INFO] PID RPM actualizado en stream multipid: 693.0
+2025-06-12 18:54:04,585 [DEBUG] PID RPM valor recibido: 689.0 revolutions_per_minute
+2025-06-12 18:54:04,586 [INFO] PID RPM actualizado en stream multipid: 689.0
+2025-06-12 18:54:04,728 [DEBUG] PID RPM valor recibido: 697.0 revolutions_per_minute
+2025-06-12 18:54:04,728 [INFO] PID RPM actualizado en stream multipid: 697.0
+2025-06-12 18:54:04,869 [DEBUG] PID RPM valor recibido: 711.0 revolutions_per_minute
+2025-06-12 18:54:04,869 [INFO] PID RPM actualizado en stream multipid: 711.0
+2025-06-12 18:54:05,011 [DEBUG] PID RPM valor recibido: 707.0 revolutions_per_minute
+2025-06-12 18:54:05,011 [INFO] PID RPM actualizado en stream multipid: 707.0
+2025-06-12 18:54:05,159 [DEBUG] PID RPM valor recibido: 705.0 revolutions_per_minute
+2025-06-12 18:54:05,159 [INFO] PID RPM actualizado en stream multipid: 705.0
+2025-06-12 18:54:05,309 [DEBUG] PID RPM valor recibido: 699.0 revolutions_per_minute
+2025-06-12 18:54:05,310 [INFO] PID RPM actualizado en stream multipid: 699.0
+2025-06-12 18:54:05,457 [DEBUG] PID RPM valor recibido: 702.0 revolutions_per_minute
+2025-06-12 18:54:05,458 [INFO] PID RPM actualizado en stream multipid: 702.0
+2025-06-12 18:54:05,598 [DEBUG] PID RPM valor recibido: 706.0 revolutions_per_minute
+2025-06-12 18:54:05,599 [INFO] PID RPM actualizado en stream multipid: 706.0
+2025-06-12 18:54:05,751 [DEBUG] PID RPM valor recibido: 723.0 revolutions_per_minute
+2025-06-12 18:54:05,751 [INFO] PID RPM actualizado en stream multipid: 723.0
+2025-06-12 18:54:05,900 [DEBUG] PID RPM valor recibido: 714.0 revolutions_per_minute
+2025-06-12 18:54:05,901 [INFO] PID RPM actualizado en stream multipid: 714.0
+2025-06-12 18:54:06,053 [DEBUG] PID RPM valor recibido: 719.0 revolutions_per_minute
+2025-06-12 18:54:06,054 [INFO] PID RPM actualizado en stream multipid: 719.0
+2025-06-12 18:54:06,199 [DEBUG] PID RPM valor recibido: 708.0 revolutions_per_minute
+2025-06-12 18:54:06,199 [INFO] PID RPM actualizado en stream multipid: 708.0
+2025-06-12 18:54:06,351 [DEBUG] PID RPM valor recibido: 695.0 revolutions_per_minute
+2025-06-12 18:54:06,351 [INFO] PID RPM actualizado en stream multipid: 695.0
+2025-06-12 18:54:06,500 [DEBUG] PID RPM valor recibido: 690.0 revolutions_per_minute
+2025-06-12 18:54:06,500 [INFO] PID RPM actualizado en stream multipid: 690.0
+2025-06-12 18:54:06,652 [DEBUG] PID RPM valor recibido: 704.0 revolutions_per_minute
+2025-06-12 18:54:06,653 [INFO] PID RPM actualizado en stream multipid: 704.0
+2025-06-12 18:54:06,798 [DEBUG] PID RPM valor recibido: 689.0 revolutions_per_minute
+2025-06-12 18:54:06,799 [INFO] PID RPM actualizado en stream multipid: 689.0
+2025-06-12 18:54:06,939 [DEBUG] PID RPM valor recibido: 718.0 revolutions_per_minute
+2025-06-12 18:54:06,940 [INFO] PID RPM actualizado en stream multipid: 718.0
+2025-06-12 18:54:07,081 [DEBUG] PID RPM valor recibido: 704.0 revolutions_per_minute
+2025-06-12 18:54:07,082 [INFO] PID RPM actualizado en stream multipid: 704.0
+2025-06-12 18:54:07,229 [DEBUG] PID RPM valor recibido: 699.0 revolutions_per_minute
+2025-06-12 18:54:07,229 [INFO] PID RPM actualizado en stream multipid: 699.0
+2025-06-12 18:54:07,378 [DEBUG] PID RPM valor recibido: 694.0 revolutions_per_minute
+2025-06-12 18:54:07,379 [INFO] PID RPM actualizado en stream multipid: 694.0
+2025-06-12 18:54:07,529 [DEBUG] PID RPM valor recibido: 673.0 revolutions_per_minute
+2025-06-12 18:54:07,531 [INFO] PID RPM actualizado en stream multipid: 673.0
+2025-06-12 18:54:07,681 [DEBUG] PID RPM valor recibido: 682.0 revolutions_per_minute
+2025-06-12 18:54:07,682 [INFO] PID RPM actualizado en stream multipid: 682.0
+2025-06-12 18:54:07,833 [DEBUG] PID RPM valor recibido: 689.0 revolutions_per_minute
+2025-06-12 18:54:07,833 [INFO] PID RPM actualizado en stream multipid: 689.0
+2025-06-12 18:54:07,978 [DEBUG] PID RPM valor recibido: 693.0 revolutions_per_minute
+2025-06-12 18:54:07,979 [INFO] PID RPM actualizado en stream multipid: 693.0
+2025-06-12 18:54:08,132 [DEBUG] PID RPM valor recibido: 694.0 revolutions_per_minute
+2025-06-12 18:54:08,132 [INFO] PID RPM actualizado en stream multipid: 694.0
+2025-06-12 18:54:08,268 [DEBUG] PID RPM valor recibido: 693.0 revolutions_per_minute
+2025-06-12 18:54:08,269 [INFO] PID RPM actualizado en stream multipid: 693.0
+2025-06-12 18:54:08,410 [DEBUG] PID RPM valor recibido: 680.0 revolutions_per_minute
+2025-06-12 18:54:08,411 [INFO] PID RPM actualizado en stream multipid: 680.0
+2025-06-12 18:54:08,566 [DEBUG] PID RPM valor recibido: 668.0 revolutions_per_minute
+2025-06-12 18:54:08,566 [INFO] PID RPM actualizado en stream multipid: 668.0
+2025-06-12 18:54:08,710 [DEBUG] PID RPM valor recibido: 681.0 revolutions_per_minute
+2025-06-12 18:54:08,710 [INFO] PID RPM actualizado en stream multipid: 681.0
+2025-06-12 18:54:08,852 [DEBUG] PID RPM valor recibido: 698.0 revolutions_per_minute
+2025-06-12 18:54:08,853 [INFO] PID RPM actualizado en stream multipid: 698.0
+2025-06-12 18:54:08,998 [DEBUG] PID RPM valor recibido: 701.0 revolutions_per_minute
+2025-06-12 18:54:08,999 [INFO] PID RPM actualizado en stream multipid: 701.0
+2025-06-12 18:54:09,138 [DEBUG] PID RPM valor recibido: 698.0 revolutions_per_minute
+2025-06-12 18:54:09,139 [INFO] PID RPM actualizado en stream multipid: 698.0
+2025-06-12 18:54:09,283 [DEBUG] PID RPM valor recibido: 702.0 revolutions_per_minute
+2025-06-12 18:54:09,284 [INFO] PID RPM actualizado en stream multipid: 702.0
+2025-06-12 18:54:09,430 [DEBUG] PID RPM valor recibido: 692.0 revolutions_per_minute
+2025-06-12 18:54:09,431 [INFO] PID RPM actualizado en stream multipid: 692.0
+2025-06-12 18:54:09,583 [DEBUG] PID RPM valor recibido: 701.0 revolutions_per_minute
+2025-06-12 18:54:09,585 [INFO] PID RPM actualizado en stream multipid: 701.0
+2025-06-12 18:54:09,733 [DEBUG] PID RPM valor recibido: 695.0 revolutions_per_minute
+2025-06-12 18:54:09,734 [INFO] PID RPM actualizado en stream multipid: 695.0
+2025-06-12 18:54:09,889 [DEBUG] PID RPM valor recibido: 691.0 revolutions_per_minute
+2025-06-12 18:54:09,889 [INFO] PID RPM actualizado en stream multipid: 691.0
+2025-06-12 18:54:10,038 [DEBUG] PID RPM valor recibido: 697.0 revolutions_per_minute
+2025-06-12 18:54:10,038 [INFO] PID RPM actualizado en stream multipid: 697.0
+2025-06-12 18:54:10,176 [DEBUG] PID RPM valor recibido: 689.0 revolutions_per_minute
+2025-06-12 18:54:10,176 [INFO] PID RPM actualizado en stream multipid: 689.0
+2025-06-12 18:54:10,319 [DEBUG] PID RPM valor recibido: 691.0 revolutions_per_minute
+2025-06-12 18:54:10,319 [INFO] PID RPM actualizado en stream multipid: 691.0
+2025-06-12 18:54:10,469 [DEBUG] PID RPM valor recibido: 670.0 revolutions_per_minute
+2025-06-12 18:54:10,481 [INFO] PID RPM actualizado en stream multipid: 670.0
+2025-06-12 18:54:10,640 [DEBUG] PID RPM valor recibido: 662.0 revolutions_per_minute
+2025-06-12 18:54:10,640 [INFO] PID RPM actualizado en stream multipid: 662.0
+2025-06-12 18:54:10,790 [DEBUG] PID RPM valor recibido: 692.0 revolutions_per_minute
+2025-06-12 18:54:10,790 [INFO] PID RPM actualizado en stream multipid: 692.0
+2025-06-12 18:54:10,940 [DEBUG] PID RPM valor recibido: 710.0 revolutions_per_minute
+2025-06-12 18:54:10,941 [INFO] PID RPM actualizado en stream multipid: 710.0
+2025-06-12 18:54:11,095 [DEBUG] PID RPM valor recibido: 712.0 revolutions_per_minute
+2025-06-12 18:54:11,222 [INFO] PID RPM actualizado en stream multipid: 712.0
+2025-06-12 18:54:11,371 [DEBUG] PID RPM valor recibido: 697.0 revolutions_per_minute
+2025-06-12 18:54:11,372 [INFO] PID RPM actualizado en stream multipid: 697.0
+2025-06-12 18:54:11,510 [DEBUG] PID RPM valor recibido: 677.0 revolutions_per_minute
+2025-06-12 18:54:11,510 [INFO] PID RPM actualizado en stream multipid: 677.0
+2025-06-12 18:54:11,659 [DEBUG] PID RPM valor recibido: 689.0 revolutions_per_minute
+2025-06-12 18:54:11,660 [INFO] PID RPM actualizado en stream multipid: 689.0
+2025-06-12 18:54:11,811 [DEBUG] PID RPM valor recibido: 688.0 revolutions_per_minute
+2025-06-12 18:54:11,811 [INFO] PID RPM actualizado en stream multipid: 688.0
+2025-06-12 18:54:11,965 [DEBUG] PID RPM valor recibido: 714.0 revolutions_per_minute
+2025-06-12 18:54:11,965 [INFO] PID RPM actualizado en stream multipid: 714.0
+2025-06-12 18:54:12,111 [DEBUG] PID RPM valor recibido: 702.0 revolutions_per_minute
+2025-06-12 18:54:12,112 [INFO] PID RPM actualizado en stream multipid: 702.0
+2025-06-12 18:54:12,252 [DEBUG] PID RPM valor recibido: 712.0 revolutions_per_minute
+2025-06-12 18:54:12,252 [INFO] PID RPM actualizado en stream multipid: 712.0
+2025-06-12 18:54:12,391 [DEBUG] PID RPM valor recibido: 679.0 revolutions_per_minute
+2025-06-12 18:54:12,392 [INFO] PID RPM actualizado en stream multipid: 679.0
+2025-06-12 18:54:12,530 [DEBUG] PID RPM valor recibido: 685.0 revolutions_per_minute
+2025-06-12 18:54:12,531 [INFO] PID RPM actualizado en stream multipid: 685.0
+2025-06-12 18:54:12,681 [DEBUG] PID RPM valor recibido: 691.0 revolutions_per_minute
+2025-06-12 18:54:12,682 [INFO] PID RPM actualizado en stream multipid: 691.0
+2025-06-12 18:54:12,827 [DEBUG] PID RPM valor recibido: 713.0 revolutions_per_minute
+2025-06-12 18:54:12,827 [INFO] PID RPM actualizado en stream multipid: 713.0
+2025-06-12 18:54:12,972 [DEBUG] PID RPM valor recibido: 703.0 revolutions_per_minute
+2025-06-12 18:54:12,973 [INFO] PID RPM actualizado en stream multipid: 703.0
+2025-06-12 18:54:13,117 [DEBUG] PID RPM valor recibido: 702.0 revolutions_per_minute
+2025-06-12 18:54:13,117 [INFO] PID RPM actualizado en stream multipid: 702.0
+2025-06-12 18:54:13,258 [DEBUG] PID RPM valor recibido: 701.0 revolutions_per_minute
+2025-06-12 18:54:13,259 [INFO] PID RPM actualizado en stream multipid: 701.0
+2025-06-12 18:54:13,408 [DEBUG] PID RPM valor recibido: 682.0 revolutions_per_minute
+2025-06-12 18:54:13,409 [INFO] PID RPM actualizado en stream multipid: 682.0
+2025-06-12 18:54:13,573 [DEBUG] PID RPM valor recibido: 693.0 revolutions_per_minute
+2025-06-12 18:54:13,574 [INFO] PID RPM actualizado en stream multipid: 693.0
+2025-06-12 18:54:13,711 [DEBUG] PID RPM valor recibido: 707.0 revolutions_per_minute
+2025-06-12 18:54:13,712 [INFO] PID RPM actualizado en stream multipid: 707.0
+2025-06-12 18:54:13,859 [DEBUG] PID RPM valor recibido: 707.0 revolutions_per_minute
+2025-06-12 18:54:13,859 [INFO] PID RPM actualizado en stream multipid: 707.0
+2025-06-12 18:54:13,993 [DEBUG] PID RPM valor recibido: 703.0 revolutions_per_minute
+2025-06-12 18:54:13,994 [INFO] PID RPM actualizado en stream multipid: 703.0
+2025-06-12 18:54:14,131 [DEBUG] PID RPM valor recibido: 701.0 revolutions_per_minute
+2025-06-12 18:54:14,132 [INFO] PID RPM actualizado en stream multipid: 701.0
+2025-06-12 18:54:14,275 [DEBUG] PID RPM valor recibido: 697.0 revolutions_per_minute
+2025-06-12 18:54:14,276 [INFO] PID RPM actualizado en stream multipid: 697.0
+2025-06-12 18:54:14,413 [DEBUG] PID RPM valor recibido: 696.0 revolutions_per_minute
+2025-06-12 18:54:14,413 [INFO] PID RPM actualizado en stream multipid: 696.0
+2025-06-12 18:54:14,549 [DEBUG] PID RPM valor recibido: 696.0 revolutions_per_minute
+2025-06-12 18:54:14,550 [INFO] PID RPM actualizado en stream multipid: 696.0
+2025-06-12 18:54:14,697 [DEBUG] PID RPM valor recibido: 707.0 revolutions_per_minute
+2025-06-12 18:54:14,698 [INFO] PID RPM actualizado en stream multipid: 707.0
+2025-06-12 18:54:14,833 [DEBUG] PID RPM valor recibido: 694.0 revolutions_per_minute
+2025-06-12 18:54:14,835 [INFO] PID RPM actualizado en stream multipid: 694.0
+2025-06-12 18:54:14,976 [DEBUG] PID RPM valor recibido: 685.0 revolutions_per_minute
+2025-06-12 18:54:14,977 [INFO] PID RPM actualizado en stream multipid: 685.0
+2025-06-12 18:54:15,109 [DEBUG] PID RPM valor recibido: 675.0 revolutions_per_minute
+2025-06-12 18:54:15,109 [INFO] PID RPM actualizado en stream multipid: 675.0
+2025-06-12 18:54:15,254 [DEBUG] PID RPM valor recibido: 690.0 revolutions_per_minute
+2025-06-12 18:54:15,255 [INFO] PID RPM actualizado en stream multipid: 690.0
+2025-06-12 18:54:15,391 [DEBUG] PID RPM valor recibido: 709.0 revolutions_per_minute
+2025-06-12 18:54:15,392 [INFO] PID RPM actualizado en stream multipid: 709.0
+2025-06-12 18:54:15,525 [DEBUG] PID RPM valor recibido: 705.0 revolutions_per_minute
+2025-06-12 18:54:15,525 [INFO] PID RPM actualizado en stream multipid: 705.0
+2025-06-12 18:54:15,659 [DEBUG] PID RPM valor recibido: 698.0 revolutions_per_minute
+2025-06-12 18:54:15,659 [INFO] PID RPM actualizado en stream multipid: 698.0
+2025-06-12 18:54:15,801 [DEBUG] PID RPM valor recibido: 683.0 revolutions_per_minute
+2025-06-12 18:54:15,803 [INFO] PID RPM actualizado en stream multipid: 683.0
+2025-06-12 18:54:15,947 [DEBUG] PID RPM valor recibido: 702.0 revolutions_per_minute
+2025-06-12 18:54:15,948 [INFO] PID RPM actualizado en stream multipid: 702.0
+2025-06-12 18:54:16,089 [DEBUG] PID RPM valor recibido: 700.0 revolutions_per_minute
+2025-06-12 18:54:16,089 [INFO] PID RPM actualizado en stream multipid: 700.0
+2025-06-12 18:54:16,219 [DEBUG] PID RPM valor recibido: 693.0 revolutions_per_minute
+2025-06-12 18:54:16,220 [INFO] PID RPM actualizado en stream multipid: 693.0
+2025-06-12 18:54:16,360 [DEBUG] PID RPM valor recibido: 683.0 revolutions_per_minute
+2025-06-12 18:54:16,361 [INFO] PID RPM actualizado en stream multipid: 683.0
+2025-06-12 18:54:16,498 [DEBUG] PID RPM valor recibido: 670.0 revolutions_per_minute
+2025-06-12 18:54:16,498 [INFO] PID RPM actualizado en stream multipid: 670.0
+2025-06-12 18:54:16,632 [DEBUG] PID RPM valor recibido: 687.0 revolutions_per_minute
+2025-06-12 18:54:16,633 [INFO] PID RPM actualizado en stream multipid: 687.0
+2025-06-12 18:54:16,769 [DEBUG] PID RPM valor recibido: 684.0 revolutions_per_minute
+2025-06-12 18:54:16,769 [INFO] PID RPM actualizado en stream multipid: 684.0
+2025-06-12 18:54:16,909 [DEBUG] PID RPM valor recibido: 676.0 revolutions_per_minute
+2025-06-12 18:54:16,909 [INFO] PID RPM actualizado en stream multipid: 676.0
+2025-06-12 18:54:17,052 [DEBUG] PID RPM valor recibido: 673.0 revolutions_per_minute
+2025-06-12 18:54:17,053 [INFO] PID RPM actualizado en stream multipid: 673.0
+2025-06-12 18:54:17,191 [DEBUG] PID RPM valor recibido: 678.0 revolutions_per_minute
+2025-06-12 18:54:17,191 [INFO] PID RPM actualizado en stream multipid: 678.0
+2025-06-12 18:54:17,321 [DEBUG] PID RPM valor recibido: 691.0 revolutions_per_minute
+2025-06-12 18:54:17,321 [INFO] PID RPM actualizado en stream multipid: 691.0
+2025-06-12 18:54:17,462 [DEBUG] PID RPM valor recibido: 710.0 revolutions_per_minute
+2025-06-12 18:54:17,462 [INFO] PID RPM actualizado en stream multipid: 710.0
+2025-06-12 18:54:17,601 [DEBUG] PID RPM valor recibido: 710.0 revolutions_per_minute
+2025-06-12 18:54:17,602 [INFO] PID RPM actualizado en stream multipid: 710.0
+2025-06-12 18:54:17,729 [DEBUG] PID RPM valor recibido: 691.0 revolutions_per_minute
+2025-06-12 18:54:17,729 [INFO] PID RPM actualizado en stream multipid: 691.0
+2025-06-12 18:54:17,871 [DEBUG] PID RPM valor recibido: 690.0 revolutions_per_minute
+2025-06-12 18:54:17,871 [INFO] PID RPM actualizado en stream multipid: 690.0
+2025-06-12 18:54:18,010 [DEBUG] PID RPM valor recibido: 701.0 revolutions_per_minute
+2025-06-12 18:54:18,011 [INFO] PID RPM actualizado en stream multipid: 701.0
+2025-06-12 18:54:18,161 [DEBUG] PID RPM valor recibido: 708.0 revolutions_per_minute
+2025-06-12 18:54:18,161 [INFO] PID RPM actualizado en stream multipid: 708.0
+2025-06-12 18:54:18,309 [DEBUG] PID RPM valor recibido: 706.0 revolutions_per_minute
+2025-06-12 18:54:18,310 [INFO] PID RPM actualizado en stream multipid: 706.0
+2025-06-12 18:54:18,458 [DEBUG] PID RPM valor recibido: 702.0 revolutions_per_minute
+2025-06-12 18:54:18,458 [INFO] PID RPM actualizado en stream multipid: 702.0
+2025-06-12 18:54:18,598 [DEBUG] PID RPM valor recibido: 675.0 revolutions_per_minute
+2025-06-12 18:54:18,598 [INFO] PID RPM actualizado en stream multipid: 675.0
+2025-06-12 18:54:18,748 [DEBUG] PID RPM valor recibido: 679.0 revolutions_per_minute
+2025-06-12 18:54:18,748 [INFO] PID RPM actualizado en stream multipid: 679.0
+2025-06-12 18:54:18,888 [DEBUG] PID RPM valor recibido: 682.0 revolutions_per_minute
+2025-06-12 18:54:18,888 [INFO] PID RPM actualizado en stream multipid: 682.0
+2025-06-12 18:54:19,030 [DEBUG] PID RPM valor recibido: 701.0 revolutions_per_minute
+2025-06-12 18:54:19,030 [INFO] PID RPM actualizado en stream multipid: 701.0
+2025-06-12 18:54:19,180 [DEBUG] PID RPM valor recibido: 703.0 revolutions_per_minute
+2025-06-12 18:54:19,180 [INFO] PID RPM actualizado en stream multipid: 703.0
+2025-06-12 18:54:19,330 [DEBUG] PID RPM valor recibido: 694.0 revolutions_per_minute
+2025-06-12 18:54:19,330 [INFO] PID RPM actualizado en stream multipid: 694.0
+2025-06-12 18:54:19,476 [DEBUG] PID RPM valor recibido: 695.0 revolutions_per_minute
+2025-06-12 18:54:19,477 [INFO] PID RPM actualizado en stream multipid: 695.0
+2025-06-12 18:54:19,616 [DEBUG] PID RPM valor recibido: 689.0 revolutions_per_minute
+2025-06-12 18:54:19,617 [INFO] PID RPM actualizado en stream multipid: 689.0
+2025-06-12 18:54:19,760 [DEBUG] PID RPM valor recibido: 704.0 revolutions_per_minute
+2025-06-12 18:54:19,760 [INFO] PID RPM actualizado en stream multipid: 704.0
+2025-06-12 18:54:19,907 [DEBUG] PID RPM valor recibido: 708.0 revolutions_per_minute
+2025-06-12 18:54:19,907 [INFO] PID RPM actualizado en stream multipid: 708.0
+2025-06-12 18:54:20,054 [DEBUG] PID RPM valor recibido: 717.0 revolutions_per_minute
+2025-06-12 18:54:20,055 [INFO] PID RPM actualizado en stream multipid: 717.0
+2025-06-12 18:54:20,202 [DEBUG] PID RPM valor recibido: 709.0 revolutions_per_minute
+2025-06-12 18:54:20,203 [INFO] PID RPM actualizado en stream multipid: 709.0
+2025-06-12 18:54:20,351 [DEBUG] PID RPM valor recibido: 701.0 revolutions_per_minute
+2025-06-12 18:54:20,352 [INFO] PID RPM actualizado en stream multipid: 701.0
+2025-06-12 18:54:20,502 [DEBUG] PID RPM valor recibido: 698.0 revolutions_per_minute
+2025-06-12 18:54:20,503 [INFO] PID RPM actualizado en stream multipid: 698.0
+2025-06-12 18:54:20,650 [DEBUG] PID RPM valor recibido: 683.0 revolutions_per_minute
+2025-06-12 18:54:20,651 [INFO] PID RPM actualizado en stream multipid: 683.0
+2025-06-12 18:54:20,800 [DEBUG] PID RPM valor recibido: 688.0 revolutions_per_minute
+2025-06-12 18:54:20,800 [INFO] PID RPM actualizado en stream multipid: 688.0
+2025-06-12 18:54:20,952 [DEBUG] PID RPM valor recibido: 704.0 revolutions_per_minute
+2025-06-12 18:54:20,952 [INFO] PID RPM actualizado en stream multipid: 704.0
+2025-06-12 18:54:21,099 [DEBUG] PID RPM valor recibido: 693.0 revolutions_per_minute
+2025-06-12 18:54:21,100 [INFO] PID RPM actualizado en stream multipid: 693.0
+2025-06-12 18:54:21,252 [DEBUG] PID RPM valor recibido: 711.0 revolutions_per_minute
+2025-06-12 18:54:21,252 [INFO] PID RPM actualizado en stream multipid: 711.0
+2025-06-12 18:54:21,400 [DEBUG] PID RPM valor recibido: 701.0 revolutions_per_minute
+2025-06-12 18:54:21,400 [INFO] PID RPM actualizado en stream multipid: 701.0
+2025-06-12 18:54:21,546 [DEBUG] PID RPM valor recibido: 707.0 revolutions_per_minute
+2025-06-12 18:54:21,546 [INFO] PID RPM actualizado en stream multipid: 707.0
+2025-06-12 18:54:21,686 [DEBUG] PID RPM valor recibido: 693.0 revolutions_per_minute
+2025-06-12 18:54:21,686 [INFO] PID RPM actualizado en stream multipid: 693.0
+2025-06-12 18:54:21,828 [DEBUG] PID RPM valor recibido: 690.0 revolutions_per_minute
+2025-06-12 18:54:21,828 [INFO] PID RPM actualizado en stream multipid: 690.0
+2025-06-12 18:54:21,970 [DEBUG] PID RPM valor recibido: 702.0 revolutions_per_minute
+2025-06-12 18:54:21,970 [INFO] PID RPM actualizado en stream multipid: 702.0
+2025-06-12 18:54:22,110 [DEBUG] PID RPM valor recibido: 705.0 revolutions_per_minute
+2025-06-12 18:54:22,111 [INFO] PID RPM actualizado en stream multipid: 705.0
+2025-06-12 18:54:22,258 [DEBUG] PID RPM valor recibido: 693.0 revolutions_per_minute
+2025-06-12 18:54:22,260 [INFO] PID RPM actualizado en stream multipid: 693.0
+2025-06-12 18:54:22,408 [DEBUG] PID RPM valor recibido: 708.0 revolutions_per_minute
+2025-06-12 18:54:22,408 [INFO] PID RPM actualizado en stream multipid: 708.0
+2025-06-12 18:54:22,548 [DEBUG] PID RPM valor recibido: 699.0 revolutions_per_minute
+2025-06-12 18:54:22,549 [INFO] PID RPM actualizado en stream multipid: 699.0
+2025-06-12 18:54:22,688 [DEBUG] PID RPM valor recibido: 710.0 revolutions_per_minute
+2025-06-12 18:54:22,688 [INFO] PID RPM actualizado en stream multipid: 710.0
+2025-06-12 18:54:22,833 [DEBUG] PID RPM valor recibido: 715.0 revolutions_per_minute
+2025-06-12 18:54:22,833 [INFO] PID RPM actualizado en stream multipid: 715.0
+2025-06-12 18:54:22,978 [DEBUG] PID RPM valor recibido: 717.0 revolutions_per_minute
+2025-06-12 18:54:22,978 [INFO] PID RPM actualizado en stream multipid: 717.0
+2025-06-12 18:54:23,128 [DEBUG] PID RPM valor recibido: 708.0 revolutions_per_minute
+2025-06-12 18:54:23,128 [INFO] PID RPM actualizado en stream multipid: 708.0
+2025-06-12 18:54:23,268 [DEBUG] PID RPM valor recibido: 707.0 revolutions_per_minute
+2025-06-12 18:54:23,268 [INFO] PID RPM actualizado en stream multipid: 707.0
+2025-06-12 18:54:23,410 [DEBUG] PID RPM valor recibido: 700.0 revolutions_per_minute
+2025-06-12 18:54:23,410 [INFO] PID RPM actualizado en stream multipid: 700.0
+2025-06-12 18:54:23,560 [DEBUG] PID RPM valor recibido: 698.0 revolutions_per_minute
+2025-06-12 18:54:23,560 [INFO] PID RPM actualizado en stream multipid: 698.0
+2025-06-12 18:54:23,710 [DEBUG] PID RPM valor recibido: 702.0 revolutions_per_minute
+2025-06-12 18:54:23,710 [INFO] PID RPM actualizado en stream multipid: 702.0
+2025-06-12 18:54:23,859 [DEBUG] PID RPM valor recibido: 703.0 revolutions_per_minute
+2025-06-12 18:54:23,859 [INFO] PID RPM actualizado en stream multipid: 703.0
+2025-06-12 18:54:24,018 [DEBUG] PID RPM valor recibido: 706.0 revolutions_per_minute
+2025-06-12 18:54:24,018 [INFO] PID RPM actualizado en stream multipid: 706.0
+2025-06-12 18:54:24,158 [DEBUG] PID RPM valor recibido: 708.0 revolutions_per_minute
+2025-06-12 18:54:24,159 [INFO] PID RPM actualizado en stream multipid: 708.0
+2025-06-12 18:54:24,308 [DEBUG] PID RPM valor recibido: 692.0 revolutions_per_minute
+2025-06-12 18:54:24,308 [INFO] PID RPM actualizado en stream multipid: 692.0
+2025-06-12 18:54:24,460 [DEBUG] PID RPM valor recibido: 695.0 revolutions_per_minute
+2025-06-12 18:54:24,460 [INFO] PID RPM actualizado en stream multipid: 695.0
+2025-06-12 18:54:24,610 [DEBUG] PID RPM valor recibido: 670.0 revolutions_per_minute
+2025-06-12 18:54:24,610 [INFO] PID RPM actualizado en stream multipid: 670.0
+2025-06-12 18:54:24,760 [DEBUG] PID RPM valor recibido: 687.0 revolutions_per_minute
+2025-06-12 18:54:24,760 [INFO] PID RPM actualizado en stream multipid: 687.0
+2025-06-12 18:54:24,908 [DEBUG] PID RPM valor recibido: 708.0 revolutions_per_minute
+2025-06-12 18:54:24,908 [INFO] PID RPM actualizado en stream multipid: 708.0
+2025-06-12 18:54:25,048 [DEBUG] PID RPM valor recibido: 731.0 revolutions_per_minute
+2025-06-12 18:54:25,048 [INFO] PID RPM actualizado en stream multipid: 731.0
+2025-06-12 18:54:25,186 [DEBUG] PID RPM valor recibido: 733.0 revolutions_per_minute
+2025-06-12 18:54:25,186 [INFO] PID RPM actualizado en stream multipid: 733.0
+2025-06-12 18:54:25,327 [DEBUG] PID RPM valor recibido: 715.0 revolutions_per_minute
+2025-06-12 18:54:25,327 [INFO] PID RPM actualizado en stream multipid: 715.0
+2025-06-12 18:54:25,476 [DEBUG] PID RPM valor recibido: 703.0 revolutions_per_minute
+2025-06-12 18:54:25,476 [INFO] PID RPM actualizado en stream multipid: 703.0
+2025-06-12 18:54:25,616 [DEBUG] PID RPM valor recibido: 678.0 revolutions_per_minute
+2025-06-12 18:54:25,616 [INFO] PID RPM actualizado en stream multipid: 678.0
+2025-06-12 18:54:25,756 [DEBUG] PID RPM valor recibido: 666.0 revolutions_per_minute
+2025-06-12 18:54:25,756 [INFO] PID RPM actualizado en stream multipid: 666.0
+2025-06-12 18:54:25,899 [DEBUG] PID RPM valor recibido: 695.0 revolutions_per_minute
+2025-06-12 18:54:25,900 [INFO] PID RPM actualizado en stream multipid: 695.0
+2025-06-12 18:54:26,046 [DEBUG] PID RPM valor recibido: 684.0 revolutions_per_minute
+2025-06-12 18:54:26,046 [INFO] PID RPM actualizado en stream multipid: 684.0
+2025-06-12 18:54:26,198 [DEBUG] PID RPM valor recibido: 683.0 revolutions_per_minute
+2025-06-12 18:54:26,198 [INFO] PID RPM actualizado en stream multipid: 683.0
+2025-06-12 18:54:26,348 [DEBUG] PID RPM valor recibido: 681.0 revolutions_per_minute
+2025-06-12 18:54:26,349 [INFO] PID RPM actualizado en stream multipid: 681.0
+2025-06-12 18:54:26,498 [DEBUG] PID RPM valor recibido: 690.0 revolutions_per_minute
+2025-06-12 18:54:26,499 [INFO] PID RPM actualizado en stream multipid: 690.0
+2025-06-12 18:54:26,653 [DEBUG] PID RPM valor recibido: 682.0 revolutions_per_minute
+2025-06-12 18:54:26,654 [INFO] PID RPM actualizado en stream multipid: 682.0
+2025-06-12 18:54:26,798 [DEBUG] PID RPM valor recibido: 690.0 revolutions_per_minute
+2025-06-12 18:54:26,799 [INFO] PID RPM actualizado en stream multipid: 690.0
+2025-06-12 18:54:26,948 [DEBUG] PID RPM valor recibido: 700.0 revolutions_per_minute
+2025-06-12 18:54:26,948 [INFO] PID RPM actualizado en stream multipid: 700.0
+2025-06-12 18:54:27,100 [DEBUG] PID RPM valor recibido: 709.0 revolutions_per_minute
+2025-06-12 18:54:27,101 [INFO] PID RPM actualizado en stream multipid: 709.0
+2025-06-12 18:54:27,248 [DEBUG] PID RPM valor recibido: 693.0 revolutions_per_minute
+2025-06-12 18:54:27,248 [INFO] PID RPM actualizado en stream multipid: 693.0
+2025-06-12 18:54:27,398 [DEBUG] PID RPM valor recibido: 697.0 revolutions_per_minute
+2025-06-12 18:54:27,398 [INFO] PID RPM actualizado en stream multipid: 697.0
+2025-06-12 18:54:27,548 [DEBUG] PID RPM valor recibido: 702.0 revolutions_per_minute
+2025-06-12 18:54:27,548 [INFO] PID RPM actualizado en stream multipid: 702.0
+2025-06-12 18:54:27,698 [DEBUG] PID RPM valor recibido: 693.0 revolutions_per_minute
+2025-06-12 18:54:27,698 [INFO] PID RPM actualizado en stream multipid: 693.0
+2025-06-12 18:54:27,836 [DEBUG] PID RPM valor recibido: 682.0 revolutions_per_minute
+2025-06-12 18:54:27,836 [INFO] PID RPM actualizado en stream multipid: 682.0
+2025-06-12 18:54:27,976 [DEBUG] PID RPM valor recibido: 710.0 revolutions_per_minute
+2025-06-12 18:54:27,977 [INFO] PID RPM actualizado en stream multipid: 710.0
+2025-06-12 18:54:28,118 [DEBUG] PID RPM valor recibido: 706.0 revolutions_per_minute
+2025-06-12 18:54:28,118 [INFO] PID RPM actualizado en stream multipid: 706.0
+2025-06-12 18:54:28,266 [DEBUG] PID RPM valor recibido: 685.0 revolutions_per_minute
+2025-06-12 18:54:28,266 [INFO] PID RPM actualizado en stream multipid: 685.0
+2025-06-12 18:54:28,406 [DEBUG] PID RPM valor recibido: 685.0 revolutions_per_minute
+2025-06-12 18:54:28,406 [INFO] PID RPM actualizado en stream multipid: 685.0
+2025-06-12 18:54:28,549 [DEBUG] PID RPM valor recibido: 684.0 revolutions_per_minute
+2025-06-12 18:54:28,550 [INFO] PID RPM actualizado en stream multipid: 684.0
+2025-06-12 18:54:28,693 [DEBUG] PID RPM valor recibido: 700.0 revolutions_per_minute
+2025-06-12 18:54:28,694 [INFO] PID RPM actualizado en stream multipid: 700.0
+2025-06-12 18:54:28,839 [DEBUG] PID RPM valor recibido: 701.0 revolutions_per_minute
+2025-06-12 18:54:28,839 [INFO] PID RPM actualizado en stream multipid: 701.0
+2025-06-12 18:54:28,978 [DEBUG] PID RPM valor recibido: 699.0 revolutions_per_minute
+2025-06-12 18:54:28,978 [INFO] PID RPM actualizado en stream multipid: 699.0
+2025-06-12 18:54:29,118 [DEBUG] PID RPM valor recibido: 696.0 revolutions_per_minute
+2025-06-12 18:54:29,118 [INFO] PID RPM actualizado en stream multipid: 696.0
+2025-06-12 18:54:29,258 [DEBUG] PID RPM valor recibido: 684.0 revolutions_per_minute
+2025-06-12 18:54:29,258 [INFO] PID RPM actualizado en stream multipid: 684.0
+2025-06-12 18:54:29,408 [DEBUG] PID RPM valor recibido: 702.0 revolutions_per_minute
+2025-06-12 18:54:29,408 [INFO] PID RPM actualizado en stream multipid: 702.0
+2025-06-12 18:54:29,546 [DEBUG] PID RPM valor recibido: 695.0 revolutions_per_minute
+2025-06-12 18:54:29,546 [INFO] PID RPM actualizado en stream multipid: 695.0
+2025-06-12 18:54:29,686 [DEBUG] PID RPM valor recibido: 708.0 revolutions_per_minute
+2025-06-12 18:54:29,686 [INFO] PID RPM actualizado en stream multipid: 708.0
+2025-06-12 18:54:29,832 [DEBUG] PID RPM valor recibido: 698.0 revolutions_per_minute
+2025-06-12 18:54:29,833 [INFO] PID RPM actualizado en stream multipid: 698.0
+2025-06-12 18:54:29,976 [DEBUG] PID RPM valor recibido: 688.0 revolutions_per_minute
+2025-06-12 18:54:29,976 [INFO] PID RPM actualizado en stream multipid: 688.0
+2025-06-12 18:54:30,117 [DEBUG] PID RPM valor recibido: 677.0 revolutions_per_minute
+2025-06-12 18:54:30,118 [INFO] PID RPM actualizado en stream multipid: 677.0
+2025-06-12 18:54:30,268 [DEBUG] PID RPM valor recibido: 679.0 revolutions_per_minute
+2025-06-12 18:54:30,268 [INFO] PID RPM actualizado en stream multipid: 679.0
+2025-06-12 18:54:30,409 [DEBUG] PID RPM valor recibido: 701.0 revolutions_per_minute
+2025-06-12 18:54:30,409 [INFO] PID RPM actualizado en stream multipid: 701.0
+2025-06-12 18:54:30,556 [DEBUG] PID RPM valor recibido: 706.0 revolutions_per_minute
+2025-06-12 18:54:30,556 [INFO] PID RPM actualizado en stream multipid: 706.0
+2025-06-12 18:54:30,703 [DEBUG] PID RPM valor recibido: 707.0 revolutions_per_minute
+2025-06-12 18:54:30,703 [INFO] PID RPM actualizado en stream multipid: 707.0
+2025-06-12 18:54:30,847 [DEBUG] PID RPM valor recibido: 703.0 revolutions_per_minute
+2025-06-12 18:54:30,847 [INFO] PID RPM actualizado en stream multipid: 703.0
+2025-06-12 18:54:30,986 [DEBUG] PID RPM valor recibido: 702.0 revolutions_per_minute
+2025-06-12 18:54:30,987 [INFO] PID RPM actualizado en stream multipid: 702.0
+2025-06-12 18:54:31,127 [DEBUG] PID RPM valor recibido: 681.0 revolutions_per_minute
+2025-06-12 18:54:31,128 [INFO] PID RPM actualizado en stream multipid: 681.0
+2025-06-12 18:54:31,273 [DEBUG] PID RPM valor recibido: 709.0 revolutions_per_minute
+2025-06-12 18:54:31,274 [INFO] PID RPM actualizado en stream multipid: 709.0
+2025-06-12 18:54:31,423 [DEBUG] PID RPM valor recibido: 705.0 revolutions_per_minute
+2025-06-12 18:54:31,423 [INFO] PID RPM actualizado en stream multipid: 705.0
+2025-06-12 18:54:31,572 [DEBUG] PID RPM valor recibido: 687.0 revolutions_per_minute
+2025-06-12 18:54:31,572 [INFO] PID RPM actualizado en stream multipid: 687.0
+2025-06-12 18:54:31,721 [DEBUG] PID RPM valor recibido: 700.0 revolutions_per_minute
+2025-06-12 18:54:31,721 [INFO] PID RPM actualizado en stream multipid: 700.0
+2025-06-12 18:54:31,873 [DEBUG] PID RPM valor recibido: 712.0 revolutions_per_minute
+2025-06-12 18:54:31,873 [INFO] PID RPM actualizado en stream multipid: 712.0
+2025-06-12 18:54:32,020 [DEBUG] PID RPM valor recibido: 692.0 revolutions_per_minute
+2025-06-12 18:54:32,021 [INFO] PID RPM actualizado en stream multipid: 692.0
+2025-06-12 18:54:32,171 [DEBUG] PID RPM valor recibido: 691.0 revolutions_per_minute
+2025-06-12 18:54:32,172 [INFO] PID RPM actualizado en stream multipid: 691.0
+2025-06-12 18:54:32,317 [DEBUG] PID RPM valor recibido: 695.0 revolutions_per_minute
+2025-06-12 18:54:32,318 [INFO] PID RPM actualizado en stream multipid: 695.0
+2025-06-12 18:54:32,449 [DEBUG] PID RPM valor recibido: 710.0 revolutions_per_minute
+2025-06-12 18:54:32,450 [INFO] PID RPM actualizado en stream multipid: 710.0
+2025-06-12 18:54:32,593 [DEBUG] PID RPM valor recibido: 699.0 revolutions_per_minute
+2025-06-12 18:54:32,594 [INFO] PID RPM actualizado en stream multipid: 699.0
+2025-06-12 18:54:32,740 [DEBUG] PID RPM valor recibido: 716.0 revolutions_per_minute
+2025-06-12 18:54:32,741 [INFO] PID RPM actualizado en stream multipid: 716.0
+2025-06-12 18:54:32,871 [DEBUG] PID RPM valor recibido: 676.0 revolutions_per_minute
+2025-06-12 18:54:32,871 [INFO] PID RPM actualizado en stream multipid: 676.0
+2025-06-12 18:54:33,013 [DEBUG] PID RPM valor recibido: 696.0 revolutions_per_minute
+2025-06-12 18:54:33,014 [INFO] PID RPM actualizado en stream multipid: 696.0
+2025-06-12 18:54:33,149 [DEBUG] PID RPM valor recibido: 698.0 revolutions_per_minute
+2025-06-12 18:54:33,149 [INFO] PID RPM actualizado en stream multipid: 698.0
+2025-06-12 18:54:33,288 [DEBUG] PID RPM valor recibido: 693.0 revolutions_per_minute
+2025-06-12 18:54:33,289 [INFO] PID RPM actualizado en stream multipid: 693.0
+2025-06-12 18:54:33,439 [DEBUG] PID RPM valor recibido: 700.0 revolutions_per_minute
+2025-06-12 18:54:33,439 [INFO] PID RPM actualizado en stream multipid: 700.0
+2025-06-12 18:54:33,587 [DEBUG] PID RPM valor recibido: 700.0 revolutions_per_minute
+2025-06-12 18:54:33,587 [INFO] PID RPM actualizado en stream multipid: 700.0
+2025-06-12 18:54:33,734 [DEBUG] PID RPM valor recibido: 699.0 revolutions_per_minute
+2025-06-12 18:54:33,735 [INFO] PID RPM actualizado en stream multipid: 699.0
+2025-06-12 18:54:33,883 [DEBUG] PID RPM valor recibido: 699.0 revolutions_per_minute
+2025-06-12 18:54:33,884 [INFO] PID RPM actualizado en stream multipid: 699.0
+2025-06-12 18:54:34,033 [DEBUG] PID RPM valor recibido: 697.0 revolutions_per_minute
+2025-06-12 18:54:34,034 [INFO] PID RPM actualizado en stream multipid: 697.0
+2025-06-12 18:54:34,183 [DEBUG] PID RPM valor recibido: 700.0 revolutions_per_minute
+2025-06-12 18:54:34,184 [INFO] PID RPM actualizado en stream multipid: 700.0
+2025-06-12 18:54:34,333 [DEBUG] PID RPM valor recibido: 695.0 revolutions_per_minute
+2025-06-12 18:54:34,334 [INFO] PID RPM actualizado en stream multipid: 695.0
+2025-06-12 18:54:34,450 [INFO] Cerrando aplicación OBD2 Scanner...
+2025-06-12 18:54:34,483 [DEBUG] PID RPM valor recibido: 694.0 revolutions_per_minute
+2025-06-12 18:54:34,484 [INFO] PID RPM actualizado en stream multipid: 694.0
+2025-06-12 18:54:34,838 [INFO] Stream multipid detenido
+2025-06-12 18:54:34,885 [DEBUG] Closing

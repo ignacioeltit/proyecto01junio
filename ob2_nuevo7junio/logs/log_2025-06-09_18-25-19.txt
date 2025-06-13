@@ -1,0 +1,26 @@
+2025-06-09 18:25:19,329 - scanner-obd2 - INFO - Iniciando Scanner OBD2...
+2025-06-09 18:25:38,096 - scanner-obd2 - INFO - PIDs disponibles: 10
+2025-06-09 18:25:42,115 - scanner-obd2 - INFO - Conexión ELM327 real exitosa.
+2025-06-09 18:25:42,197 - scanner-obd2 - INFO - Respuesta a 0100: 41 00 BF BE B9 93 41 00 98 18 00 01
+2025-06-09 18:25:42,197 - scanner-obd2 - INFO - PIDs soportados detectados: ['0100', '0102', '0103', '0104', '0105', '0106', '0107', '0108', '010A', '010B', '010C', '010D', '010E', '0110', '0112', '0113', '0114', '0117', '0118', '011B', '011E', '011F']
+2025-06-09 18:25:42,555 - scanner-obd2 - INFO - LOG_OBD2 | PID=010C | valor=717.0 | unidad=rpm
+2025-06-09 18:25:42,638 - scanner-obd2 - INFO - LOG_OBD2 | PID=010D | valor=16.0 | unidad=km/h
+2025-06-09 18:25:43,897 - scanner-obd2 - INFO - LOG_OBD2 | PID=010C | valor=711.0 | unidad=rpm
+2025-06-09 18:25:43,979 - scanner-obd2 - INFO - LOG_OBD2 | PID=010D | valor=8.0 | unidad=km/h
+2025-06-09 18:25:44,778 - scanner-obd2 - INFO - LOG_OBD2 | PID=010C | valor=709.0 | unidad=rpm
+2025-06-09 18:25:44,864 - scanner-obd2 - INFO - LOG_OBD2 | PID=010D | valor=5.33 | unidad=km/h
+2025-06-09 18:25:45,693 - scanner-obd2 - INFO - LOG_OBD2 | PID=010C | valor=714.5 | unidad=rpm
+2025-06-09 18:25:46,857 - scanner-obd2 - INFO - LOG_OBD2 | PID=010C | valor=717.2 | unidad=rpm
+2025-06-09 18:25:46,939 - scanner-obd2 - INFO - LOG_OBD2 | PID=010D | valor=4.0 | unidad=km/h
+2025-06-09 18:25:47,748 - scanner-obd2 - INFO - LOG_OBD2 | PID=010C | valor=719.4 | unidad=rpm
+2025-06-09 18:25:47,834 - scanner-obd2 - INFO - LOG_OBD2 | PID=010D | valor=3.2 | unidad=km/h
+2025-06-09 18:25:48,698 - scanner-obd2 - INFO - LOG_OBD2 | PID=010C | valor=721.2 | unidad=rpm
+2025-06-09 18:25:48,783 - scanner-obd2 - INFO - LOG_OBD2 | PID=010D | valor=0.0 | unidad=km/h
+2025-06-09 18:25:49,676 - scanner-obd2 - INFO - LOG_OBD2 | PID=010C | valor=725.0 | unidad=rpm
+2025-06-09 18:25:49,760 - scanner-obd2 - INFO - LOG_OBD2 | PID=010D | valor=0.0 | unidad=km/h
+2025-06-09 18:25:50,571 - scanner-obd2 - INFO - LOG_OBD2 | PID=010C | valor=723.6 | unidad=rpm
+2025-06-09 18:25:50,654 - scanner-obd2 - INFO - LOG_OBD2 | PID=010D | valor=0.0 | unidad=km/h
+2025-06-09 18:25:51,456 - scanner-obd2 - INFO - LOG_OBD2 | PID=010C | valor=726.8 | unidad=rpm
+2025-06-09 18:25:51,538 - scanner-obd2 - INFO - LOG_OBD2 | PID=010D | valor=0.0 | unidad=km/h
+2025-06-09 18:25:52,408 - scanner-obd2 - INFO - LOG_OBD2 | PID=010C | valor=723.8 | unidad=rpm
+2025-06-09 18:25:52,494 - scanner-obd2 - INFO - LOG_OBD2 | PID=010D | valor=0.0 | unidad=km/h

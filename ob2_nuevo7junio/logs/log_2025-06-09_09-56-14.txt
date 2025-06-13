@@ -1,0 +1,6 @@
+2025-06-09 09:56:14,801 - scanner-obd2 - INFO - Iniciando Scanner OBD2...
+2025-06-09 09:56:22,438 - scanner-obd2 - INFO - PIDs disponibles: 9
+2025-06-09 09:56:26,446 - scanner-obd2 - INFO - Conexión ELM327 real exitosa.
+2025-06-09 09:56:26,527 - scanner-obd2 - INFO - Respuesta a 0100: 41 00 BF BE B9 93 41 00 98 18 00 01
+2025-06-09 09:56:26,527 - scanner-obd2 - INFO - PIDs soportados detectados: ['0100', '0102', '0103', '0104', '0105', '0106', '0107', '0108', '010A', '010B', '010C', '010D', '010E', '0110', '0112', '0113', '0114', '0117', '0118', '011B', '011E', '011F']
+2025-06-09 09:58:52,690 - scanner-obd2 - INFO - Sesión finalizada.

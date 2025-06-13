@@ -1,0 +1,360 @@
+2025-06-11 18:51:54,629 [DEBUG] matplotlib data path: /Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/matplotlib/mpl-data
+2025-06-11 18:51:54,637 [DEBUG] CONFIGDIR=/Users/ignacioeltit/.matplotlib
+2025-06-11 18:51:54,639 [DEBUG] interactive is False
+2025-06-11 18:51:54,639 [DEBUG] platform is darwin
+2025-06-11 18:51:54,984 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-11 18:51:55,624 [INFO] Ventana principal mostrada. Esperando eventos Qt...
+2025-06-11 18:51:59,200 [INFO] Acción: conectar/desconectar OBD
+2025-06-11 18:52:04,923 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-11 18:52:04,924 [INFO] Estado de conexión OBD: Car Connected
+2025-06-11 18:52:24,983 [INFO] Acción: leer VIN
+2025-06-11 18:52:25,075 [INFO] VIN leído por OBD: bytearray(b'C4RJFDJ6EC56987')
+2025-06-11 18:52:25,076 [WARNING] Error decodificando VIN: VIN number requires 17 chars (29 given)
+2025-06-11 18:52:36,885 [INFO] VIN manual ingresado: 1C4RJFDJ6EC56987, ok=True
+2025-06-11 18:52:36,885 [WARNING] VIN inválido. Activando fallback manual.
+2025-06-11 18:52:41,230 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 251, in leer_vin
+    self.visualizer.enable_vehicle_fallback(True)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 295, in enable_vehicle_fallback
+    self.label_fallback.setVisible(enabled)
+AttributeError: 'DataVisualizer' object has no attribute 'label_fallback'
+2025-06-11 18:53:08,388 [INFO] Acción: iniciar stream multipid
+2025-06-11 18:53:08,392 [INFO] PIDs seleccionados para stream multipid: ['RPM', 'SPEED']
+2025-06-11 18:53:13,961 [INFO] Stream multipid iniciado con PIDs: ['RPM', 'SPEED']
+2025-06-11 18:53:14,063 [DEBUG] PID RPM valor recibido: 670.0 revolutions_per_minute
+2025-06-11 18:53:14,063 [INFO] PID RPM actualizado en stream multipid: 670.0
+2025-06-11 18:53:14,159 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:14,159 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:29,370 [INFO] Acción: iniciar stream multipid
+2025-06-11 18:53:29,372 [INFO] PIDs seleccionados para stream multipid: ['DTC_SPEED', 'RPM', 'SPEED']
+2025-06-11 18:53:35,063 [INFO] Stream multipid iniciado con PIDs: ['DTC_SPEED', 'RPM', 'SPEED']
+2025-06-11 18:53:35,305 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:35,305 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:35,401 [DEBUG] PID RPM valor recibido: 709.0 revolutions_per_minute
+2025-06-11 18:53:35,401 [INFO] PID RPM actualizado en stream multipid: 709.0
+2025-06-11 18:53:35,502 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:35,502 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:36,041 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:36,041 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:36,142 [DEBUG] PID RPM valor recibido: 685.0 revolutions_per_minute
+2025-06-11 18:53:36,142 [INFO] PID RPM actualizado en stream multipid: 685.0
+2025-06-11 18:53:36,280 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:36,281 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:36,958 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:36,959 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:37,047 [DEBUG] PID RPM valor recibido: 680.0 revolutions_per_minute
+2025-06-11 18:53:37,048 [INFO] PID RPM actualizado en stream multipid: 680.0
+2025-06-11 18:53:37,137 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:37,137 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:37,647 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:37,648 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:37,737 [DEBUG] PID RPM valor recibido: 680.0 revolutions_per_minute
+2025-06-11 18:53:37,738 [INFO] PID RPM actualizado en stream multipid: 680.0
+2025-06-11 18:53:37,831 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:37,831 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:38,333 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:38,334 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:38,417 [DEBUG] PID RPM valor recibido: 685.0 revolutions_per_minute
+2025-06-11 18:53:38,418 [INFO] PID RPM actualizado en stream multipid: 685.0
+2025-06-11 18:53:38,495 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:38,495 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:39,007 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:39,008 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:39,100 [DEBUG] PID RPM valor recibido: 669.0 revolutions_per_minute
+2025-06-11 18:53:39,101 [INFO] PID RPM actualizado en stream multipid: 669.0
+2025-06-11 18:53:39,189 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:39,190 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:39,685 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:39,686 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:39,767 [DEBUG] PID RPM valor recibido: 696.0 revolutions_per_minute
+2025-06-11 18:53:39,767 [INFO] PID RPM actualizado en stream multipid: 696.0
+2025-06-11 18:53:39,845 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:39,846 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:40,353 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:40,354 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:40,437 [DEBUG] PID RPM valor recibido: 699.0 revolutions_per_minute
+2025-06-11 18:53:40,437 [INFO] PID RPM actualizado en stream multipid: 699.0
+2025-06-11 18:53:40,514 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:40,514 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:41,157 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:41,157 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:41,237 [DEBUG] PID RPM valor recibido: 674.0 revolutions_per_minute
+2025-06-11 18:53:41,237 [INFO] PID RPM actualizado en stream multipid: 674.0
+2025-06-11 18:53:41,315 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:41,315 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:41,813 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:41,814 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:41,894 [DEBUG] PID RPM valor recibido: 686.0 revolutions_per_minute
+2025-06-11 18:53:41,895 [INFO] PID RPM actualizado en stream multipid: 686.0
+2025-06-11 18:53:41,979 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:41,979 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:42,591 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:42,592 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:42,677 [DEBUG] PID RPM valor recibido: 695.0 revolutions_per_minute
+2025-06-11 18:53:42,678 [INFO] PID RPM actualizado en stream multipid: 695.0
+2025-06-11 18:53:42,755 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:42,755 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:43,422 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:43,423 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:43,505 [DEBUG] PID RPM valor recibido: 680.0 revolutions_per_minute
+2025-06-11 18:53:43,506 [INFO] PID RPM actualizado en stream multipid: 680.0
+2025-06-11 18:53:43,588 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:43,589 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:44,091 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:44,092 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:44,175 [DEBUG] PID RPM valor recibido: 675.0 revolutions_per_minute
+2025-06-11 18:53:44,176 [INFO] PID RPM actualizado en stream multipid: 675.0
+2025-06-11 18:53:44,259 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:44,259 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:44,850 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:44,851 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:44,937 [DEBUG] PID RPM valor recibido: 707.0 revolutions_per_minute
+2025-06-11 18:53:44,937 [INFO] PID RPM actualizado en stream multipid: 707.0
+2025-06-11 18:53:45,050 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:45,050 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:45,557 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:45,557 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:45,637 [DEBUG] PID RPM valor recibido: 690.0 revolutions_per_minute
+2025-06-11 18:53:45,637 [INFO] PID RPM actualizado en stream multipid: 690.0
+2025-06-11 18:53:45,722 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:45,722 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:46,278 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:46,278 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:46,368 [DEBUG] PID RPM valor recibido: 695.0 revolutions_per_minute
+2025-06-11 18:53:46,368 [INFO] PID RPM actualizado en stream multipid: 695.0
+2025-06-11 18:53:46,445 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:46,445 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:46,996 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:46,996 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:47,103 [DEBUG] PID RPM valor recibido: 698.0 revolutions_per_minute
+2025-06-11 18:53:47,104 [INFO] PID RPM actualizado en stream multipid: 698.0
+2025-06-11 18:53:47,192 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:47,192 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:47,704 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:47,704 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:47,807 [DEBUG] PID RPM valor recibido: 685.0 revolutions_per_minute
+2025-06-11 18:53:47,808 [INFO] PID RPM actualizado en stream multipid: 685.0
+2025-06-11 18:53:47,905 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:47,905 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:48,434 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:48,435 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:48,911 [DEBUG] PID RPM valor recibido: 690.0 revolutions_per_minute
+2025-06-11 18:53:48,912 [INFO] PID RPM actualizado en stream multipid: 690.0
+2025-06-11 18:53:49,007 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:49,007 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:49,641 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:49,643 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:49,765 [DEBUG] PID RPM valor recibido: 692.0 revolutions_per_minute
+2025-06-11 18:53:49,766 [INFO] PID RPM actualizado en stream multipid: 692.0
+2025-06-11 18:53:49,868 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:49,869 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:50,371 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:50,372 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:50,464 [DEBUG] PID RPM valor recibido: 687.0 revolutions_per_minute
+2025-06-11 18:53:50,465 [INFO] PID RPM actualizado en stream multipid: 687.0
+2025-06-11 18:53:50,562 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:50,562 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:51,091 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:51,092 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:51,136 [INFO] Acción: iniciar stream multipid
+2025-06-11 18:53:51,185 [DEBUG] PID RPM valor recibido: 693.0 revolutions_per_minute
+2025-06-11 18:53:51,186 [INFO] PID RPM actualizado en stream multipid: 693.0
+2025-06-11 18:53:51,293 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:51,294 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:51,846 [INFO] Stream multipid anterior detenido
+2025-06-11 18:53:51,851 [INFO] PIDs seleccionados para stream multipid: ['AMBIANT_AIR_TEMP', 'CATALYST_TEMP_B1S1', 'CATALYST_TEMP_B2S1', 'COOLANT_TEMP', 'DTC_SPEED', 'INTAKE_TEMP', 'RPM', 'SPEED']
+2025-06-11 18:53:57,634 [INFO] Stream multipid iniciado con PIDs: ['AMBIANT_AIR_TEMP', 'CATALYST_TEMP_B1S1', 'CATALYST_TEMP_B2S1', 'COOLANT_TEMP', 'DTC_SPEED', 'INTAKE_TEMP', 'RPM', 'SPEED']
+2025-06-11 18:53:57,747 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 16 degree_Celsius
+2025-06-11 18:53:57,747 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 16.0
+2025-06-11 18:53:57,833 [DEBUG] PID CATALYST_TEMP_B1S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:53:57,833 [INFO] PID CATALYST_TEMP_B1S1 actualizado en stream multipid: 479.0
+2025-06-11 18:53:58,235 [DEBUG] PID CATALYST_TEMP_B2S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:53:58,236 [INFO] PID CATALYST_TEMP_B2S1 actualizado en stream multipid: 479.0
+2025-06-11 18:53:58,647 [DEBUG] PID COOLANT_TEMP valor recibido: 97 degree_Celsius
+2025-06-11 18:53:58,648 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 97.0
+2025-06-11 18:53:58,893 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:53:58,894 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:53:58,975 [DEBUG] PID INTAKE_TEMP valor recibido: 39 degree_Celsius
+2025-06-11 18:53:58,975 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 39.0
+2025-06-11 18:53:59,093 [DEBUG] PID RPM valor recibido: 676.0 revolutions_per_minute
+2025-06-11 18:53:59,093 [INFO] PID RPM actualizado en stream multipid: 676.0
+2025-06-11 18:53:59,191 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:53:59,191 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:53:59,541 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 16 degree_Celsius
+2025-06-11 18:53:59,542 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 16.0
+2025-06-11 18:53:59,629 [DEBUG] PID CATALYST_TEMP_B1S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:53:59,629 [INFO] PID CATALYST_TEMP_B1S1 actualizado en stream multipid: 479.0
+2025-06-11 18:53:59,719 [DEBUG] PID CATALYST_TEMP_B2S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:53:59,720 [INFO] PID CATALYST_TEMP_B2S1 actualizado en stream multipid: 479.0
+2025-06-11 18:53:59,819 [DEBUG] PID COOLANT_TEMP valor recibido: 97 degree_Celsius
+2025-06-11 18:53:59,820 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 97.0
+2025-06-11 18:54:00,091 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:54:00,092 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:54:00,177 [DEBUG] PID INTAKE_TEMP valor recibido: 38 degree_Celsius
+2025-06-11 18:54:00,177 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 38.0
+2025-06-11 18:54:00,269 [DEBUG] PID RPM valor recibido: 696.0 revolutions_per_minute
+2025-06-11 18:54:00,269 [INFO] PID RPM actualizado en stream multipid: 696.0
+2025-06-11 18:54:00,368 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:54:00,369 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:54:00,704 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 16 degree_Celsius
+2025-06-11 18:54:00,705 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 16.0
+2025-06-11 18:54:00,786 [DEBUG] PID CATALYST_TEMP_B1S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:54:00,787 [INFO] PID CATALYST_TEMP_B1S1 actualizado en stream multipid: 479.0
+2025-06-11 18:54:00,866 [DEBUG] PID CATALYST_TEMP_B2S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:54:00,866 [INFO] PID CATALYST_TEMP_B2S1 actualizado en stream multipid: 479.0
+2025-06-11 18:54:00,983 [DEBUG] PID COOLANT_TEMP valor recibido: 97 degree_Celsius
+2025-06-11 18:54:00,984 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 97.0
+2025-06-11 18:54:01,236 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:54:01,236 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:54:01,313 [DEBUG] PID INTAKE_TEMP valor recibido: 39 degree_Celsius
+2025-06-11 18:54:01,314 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 39.0
+2025-06-11 18:54:01,405 [DEBUG] PID RPM valor recibido: 671.0 revolutions_per_minute
+2025-06-11 18:54:01,405 [INFO] PID RPM actualizado en stream multipid: 671.0
+2025-06-11 18:54:01,495 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:54:01,495 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:54:01,841 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 16 degree_Celsius
+2025-06-11 18:54:01,842 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 16.0
+2025-06-11 18:54:01,934 [DEBUG] PID CATALYST_TEMP_B1S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:54:01,934 [INFO] PID CATALYST_TEMP_B1S1 actualizado en stream multipid: 479.0
+2025-06-11 18:54:02,018 [DEBUG] PID CATALYST_TEMP_B2S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:54:02,018 [INFO] PID CATALYST_TEMP_B2S1 actualizado en stream multipid: 479.0
+2025-06-11 18:54:02,113 [DEBUG] PID COOLANT_TEMP valor recibido: 97 degree_Celsius
+2025-06-11 18:54:02,114 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 97.0
+2025-06-11 18:54:02,359 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:54:02,360 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:54:02,442 [DEBUG] PID INTAKE_TEMP valor recibido: 39 degree_Celsius
+2025-06-11 18:54:02,442 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 39.0
+2025-06-11 18:54:02,543 [DEBUG] PID RPM valor recibido: 690.0 revolutions_per_minute
+2025-06-11 18:54:02,544 [INFO] PID RPM actualizado en stream multipid: 690.0
+2025-06-11 18:54:02,635 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:54:02,635 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:54:02,987 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 16 degree_Celsius
+2025-06-11 18:54:02,988 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 16.0
+2025-06-11 18:54:03,074 [DEBUG] PID CATALYST_TEMP_B1S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:54:03,074 [INFO] PID CATALYST_TEMP_B1S1 actualizado en stream multipid: 479.0
+2025-06-11 18:54:03,151 [DEBUG] PID CATALYST_TEMP_B2S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:54:03,152 [INFO] PID CATALYST_TEMP_B2S1 actualizado en stream multipid: 479.0
+2025-06-11 18:54:03,243 [DEBUG] PID COOLANT_TEMP valor recibido: 97 degree_Celsius
+2025-06-11 18:54:03,244 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 97.0
+2025-06-11 18:54:03,492 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:54:03,493 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:54:03,586 [DEBUG] PID INTAKE_TEMP valor recibido: 39 degree_Celsius
+2025-06-11 18:54:03,587 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 39.0
+2025-06-11 18:54:03,676 [DEBUG] PID RPM valor recibido: 669.0 revolutions_per_minute
+2025-06-11 18:54:03,677 [INFO] PID RPM actualizado en stream multipid: 669.0
+2025-06-11 18:54:03,775 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:54:03,776 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:54:04,117 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 16 degree_Celsius
+2025-06-11 18:54:04,118 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 16.0
+2025-06-11 18:54:04,199 [DEBUG] PID CATALYST_TEMP_B1S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:54:04,200 [INFO] PID CATALYST_TEMP_B1S1 actualizado en stream multipid: 479.0
+2025-06-11 18:54:04,280 [DEBUG] PID CATALYST_TEMP_B2S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:54:04,281 [INFO] PID CATALYST_TEMP_B2S1 actualizado en stream multipid: 479.0
+2025-06-11 18:54:04,381 [DEBUG] PID COOLANT_TEMP valor recibido: 97 degree_Celsius
+2025-06-11 18:54:04,381 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 97.0
+2025-06-11 18:54:04,626 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:54:04,626 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:54:04,708 [DEBUG] PID INTAKE_TEMP valor recibido: 39 degree_Celsius
+2025-06-11 18:54:04,708 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 39.0
+2025-06-11 18:54:04,815 [DEBUG] PID RPM valor recibido: 682.0 revolutions_per_minute
+2025-06-11 18:54:04,815 [INFO] PID RPM actualizado en stream multipid: 682.0
+2025-06-11 18:54:04,915 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:54:04,915 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:54:05,249 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 16 degree_Celsius
+2025-06-11 18:54:05,249 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 16.0
+2025-06-11 18:54:05,333 [DEBUG] PID CATALYST_TEMP_B1S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:54:05,334 [INFO] PID CATALYST_TEMP_B1S1 actualizado en stream multipid: 479.0
+2025-06-11 18:54:05,417 [DEBUG] PID CATALYST_TEMP_B2S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:54:05,417 [INFO] PID CATALYST_TEMP_B2S1 actualizado en stream multipid: 479.0
+2025-06-11 18:54:05,536 [DEBUG] PID COOLANT_TEMP valor recibido: 97 degree_Celsius
+2025-06-11 18:54:05,536 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 97.0
+2025-06-11 18:54:05,938 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:54:05,939 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:54:06,037 [DEBUG] PID INTAKE_TEMP valor recibido: 39 degree_Celsius
+2025-06-11 18:54:06,038 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 39.0
+2025-06-11 18:54:06,133 [DEBUG] PID RPM valor recibido: 679.0 revolutions_per_minute
+2025-06-11 18:54:06,134 [INFO] PID RPM actualizado en stream multipid: 679.0
+2025-06-11 18:54:06,237 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:54:06,237 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:54:06,579 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 16 degree_Celsius
+2025-06-11 18:54:06,580 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 16.0
+2025-06-11 18:54:06,666 [DEBUG] PID CATALYST_TEMP_B1S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:54:06,666 [INFO] PID CATALYST_TEMP_B1S1 actualizado en stream multipid: 479.0
+2025-06-11 18:54:06,741 [DEBUG] PID CATALYST_TEMP_B2S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:54:06,741 [INFO] PID CATALYST_TEMP_B2S1 actualizado en stream multipid: 479.0
+2025-06-11 18:54:06,833 [DEBUG] PID COOLANT_TEMP valor recibido: 97 degree_Celsius
+2025-06-11 18:54:06,833 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 97.0
+2025-06-11 18:54:07,149 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:54:07,150 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:54:07,247 [DEBUG] PID INTAKE_TEMP valor recibido: 39 degree_Celsius
+2025-06-11 18:54:07,248 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 39.0
+2025-06-11 18:54:07,341 [DEBUG] PID RPM valor recibido: 678.0 revolutions_per_minute
+2025-06-11 18:54:07,342 [INFO] PID RPM actualizado en stream multipid: 678.0
+2025-06-11 18:54:07,444 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:54:07,444 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:54:07,850 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 16 degree_Celsius
+2025-06-11 18:54:07,851 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 16.0
+2025-06-11 18:54:07,975 [DEBUG] PID CATALYST_TEMP_B1S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:54:07,976 [INFO] PID CATALYST_TEMP_B1S1 actualizado en stream multipid: 479.0
+2025-06-11 18:54:08,092 [DEBUG] PID CATALYST_TEMP_B2S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:54:08,092 [INFO] PID CATALYST_TEMP_B2S1 actualizado en stream multipid: 479.0
+2025-06-11 18:54:09,002 [DEBUG] PID COOLANT_TEMP valor recibido: 97 degree_Celsius
+2025-06-11 18:54:09,002 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 97.0
+2025-06-11 18:54:09,260 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:54:09,260 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:54:09,374 [DEBUG] PID INTAKE_TEMP valor recibido: 39 degree_Celsius
+2025-06-11 18:54:09,375 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 39.0
+2025-06-11 18:54:09,473 [DEBUG] PID RPM valor recibido: 702.0 revolutions_per_minute
+2025-06-11 18:54:09,474 [INFO] PID RPM actualizado en stream multipid: 702.0
+2025-06-11 18:54:09,565 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:54:09,565 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:54:09,904 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 16 degree_Celsius
+2025-06-11 18:54:09,905 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 16.0
+2025-06-11 18:54:09,979 [DEBUG] PID CATALYST_TEMP_B1S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:54:09,980 [INFO] PID CATALYST_TEMP_B1S1 actualizado en stream multipid: 479.0
+2025-06-11 18:54:10,077 [DEBUG] PID CATALYST_TEMP_B2S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:54:10,077 [INFO] PID CATALYST_TEMP_B2S1 actualizado en stream multipid: 479.0
+2025-06-11 18:54:10,165 [DEBUG] PID COOLANT_TEMP valor recibido: 97 degree_Celsius
+2025-06-11 18:54:10,165 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 97.0
+2025-06-11 18:54:10,411 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:54:10,411 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:54:10,487 [DEBUG] PID INTAKE_TEMP valor recibido: 39 degree_Celsius
+2025-06-11 18:54:10,487 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 39.0
+2025-06-11 18:54:10,570 [DEBUG] PID RPM valor recibido: 707.0 revolutions_per_minute
+2025-06-11 18:54:10,571 [INFO] PID RPM actualizado en stream multipid: 707.0
+2025-06-11 18:54:10,665 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:54:10,665 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:54:11,007 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 16 degree_Celsius
+2025-06-11 18:54:11,007 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 16.0
+2025-06-11 18:54:11,093 [DEBUG] PID CATALYST_TEMP_B1S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:54:11,094 [INFO] PID CATALYST_TEMP_B1S1 actualizado en stream multipid: 479.0
+2025-06-11 18:54:11,187 [DEBUG] PID CATALYST_TEMP_B2S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:54:11,188 [INFO] PID CATALYST_TEMP_B2S1 actualizado en stream multipid: 479.0
+2025-06-11 18:54:11,303 [DEBUG] PID COOLANT_TEMP valor recibido: 97 degree_Celsius
+2025-06-11 18:54:11,304 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 97.0
+2025-06-11 18:54:11,559 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:54:11,560 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:54:11,663 [DEBUG] PID INTAKE_TEMP valor recibido: 39 degree_Celsius
+2025-06-11 18:54:11,664 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 39.0
+2025-06-11 18:54:11,772 [DEBUG] PID RPM valor recibido: 691.0 revolutions_per_minute
+2025-06-11 18:54:11,773 [INFO] PID RPM actualizado en stream multipid: 691.0
+2025-06-11 18:54:11,866 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:54:11,866 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:54:12,208 [DEBUG] PID AMBIANT_AIR_TEMP valor recibido: 16 degree_Celsius
+2025-06-11 18:54:12,209 [INFO] PID AMBIANT_AIR_TEMP actualizado en stream multipid: 16.0
+2025-06-11 18:54:12,285 [DEBUG] PID CATALYST_TEMP_B1S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:54:12,286 [INFO] PID CATALYST_TEMP_B1S1 actualizado en stream multipid: 479.0
+2025-06-11 18:54:12,364 [DEBUG] PID CATALYST_TEMP_B2S1 valor recibido: 479.0 degree_Celsius
+2025-06-11 18:54:12,364 [INFO] PID CATALYST_TEMP_B2S1 actualizado en stream multipid: 479.0
+2025-06-11 18:54:12,463 [DEBUG] PID COOLANT_TEMP valor recibido: 97 degree_Celsius
+2025-06-11 18:54:12,464 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 97.0
+2025-06-11 18:54:12,707 [DEBUG] PID DTC_SPEED valor recibido: None
+2025-06-11 18:54:12,707 [WARNING] PID DTC_SPEED sin datos en stream multipid
+2025-06-11 18:54:12,790 [DEBUG] PID INTAKE_TEMP valor recibido: 39 degree_Celsius
+2025-06-11 18:54:12,791 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 39.0
+2025-06-11 18:54:12,886 [DEBUG] PID RPM valor recibido: 688.0 revolutions_per_minute
+2025-06-11 18:54:12,886 [INFO] PID RPM actualizado en stream multipid: 688.0
+2025-06-11 18:54:12,971 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 18:54:12,972 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 18:54:37,199 [INFO] Cerrando aplicación OBD2 Scanner...

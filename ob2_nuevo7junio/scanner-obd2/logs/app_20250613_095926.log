@@ -1,0 +1,11 @@
+2025-06-13 09:59:26,688 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-13 09:59:27,041 [DEBUG] Using selector: _Selector
+2025-06-13 09:59:27,459 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 542, in <module>
+    win = DataVisualizer(lambda: {}, pid_manager=None, elm327=None, parse_pid_response=None, backend=backend)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 110, in __init__
+    self.init_ui()  # <-- Primero inicializa la UI (crea self.tabs)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 242, in init_ui
+    self.pid_search.textChanged.connect(self.pid_acquisition_tab.filtrar_pid_list)
+AttributeError: 'DataVisualizer' object has no attribute 'pid_acquisition_tab'

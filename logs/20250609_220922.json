@@ -1,0 +1,12 @@
+{
+  "session": "20250609_220922",
+  "vin": "1HGCM82633A123456",
+  "readings": {},
+  "events": [
+    {
+      "time": "2025-06-09T22:09:22.369081",
+      "type": "info",
+      "message": "VIN le\u00eddo correctamente: 1HGCM82633A123456"
+    }
+  ]
+}

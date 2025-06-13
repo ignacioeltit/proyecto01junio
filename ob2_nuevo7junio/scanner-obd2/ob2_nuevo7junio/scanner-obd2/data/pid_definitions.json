@@ -596,11 +596,11 @@
   "0142": {
     "name": "Control module voltage",
     "desc": "Control module voltage",
-    "unit": "",
-    "formula": "",
+    "unit": "V",
+    "formula": "((A * 256) + B) / 1000",
     "protocol": "ISO 9141-2",
-    "min": null,
-    "max": null
+    "min": 0,
+    "max": 25
   },
   "0143": {
     "name": "Absolute load value",

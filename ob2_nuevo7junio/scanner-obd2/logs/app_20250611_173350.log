@@ -1,0 +1,326 @@
+2025-06-11 17:33:50,894 [DEBUG] matplotlib data path: /Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/matplotlib/mpl-data
+2025-06-11 17:33:50,902 [DEBUG] CONFIGDIR=/Users/ignacioeltit/.matplotlib
+2025-06-11 17:33:50,903 [DEBUG] interactive is False
+2025-06-11 17:33:50,903 [DEBUG] platform is darwin
+2025-06-11 17:33:51,164 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-11 17:33:52,266 [INFO] Ventana principal mostrada. Esperando eventos Qt...
+2025-06-11 17:34:17,018 [INFO] Acción: conectar/desconectar OBD
+2025-06-11 17:34:22,631 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-11 17:34:22,633 [INFO] Estado de conexión OBD: Car Connected
+2025-06-11 17:34:32,519 [INFO] Acción: leer VIN
+2025-06-11 17:34:32,614 [INFO] VIN leído por OBD: bytearray(b'C4RJFDJ6EC56987')
+2025-06-11 17:34:32,614 [WARNING] Error decodificando VIN: VIN number requires 17 chars (29 given)
+2025-06-11 17:34:34,406 [INFO] VIN manual ingresado: , ok=False
+2025-06-11 17:34:34,406 [WARNING] VIN inválido. Activando fallback manual.
+2025-06-11 17:34:57,925 [INFO] Acción: iniciar stream multipid
+2025-06-11 17:34:57,931 [INFO] PIDs seleccionados para stream multipid: ['RPM', 'ENGINE_LOAD', 'COOLANT_TEMP', 'INTAKE_TEMP']
+2025-06-11 17:35:03,644 [INFO] Stream multipid iniciado con PIDs: ['RPM', 'ENGINE_LOAD', 'COOLANT_TEMP', 'INTAKE_TEMP']
+2025-06-11 17:35:03,750 [DEBUG] PID RPM valor recibido: 682.0 revolutions_per_minute
+2025-06-11 17:35:03,750 [INFO] PID RPM actualizado en stream multipid: 682.0
+2025-06-11 17:35:03,848 [DEBUG] PID ENGINE_LOAD valor recibido: 26.274509803921568 percent
+2025-06-11 17:35:03,848 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 26.274509803921568
+2025-06-11 17:35:03,949 [DEBUG] PID COOLANT_TEMP valor recibido: 88 degree_Celsius
+2025-06-11 17:35:03,949 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 88.0
+2025-06-11 17:35:04,037 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:04,038 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:04,402 [DEBUG] PID RPM valor recibido: 706.0 revolutions_per_minute
+2025-06-11 17:35:04,403 [INFO] PID RPM actualizado en stream multipid: 706.0
+2025-06-11 17:35:04,506 [DEBUG] PID ENGINE_LOAD valor recibido: 26.666666666666668 percent
+2025-06-11 17:35:04,507 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 26.666666666666668
+2025-06-11 17:35:04,606 [DEBUG] PID COOLANT_TEMP valor recibido: 88 degree_Celsius
+2025-06-11 17:35:04,642 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 88.0
+2025-06-11 17:35:04,730 [DEBUG] PID INTAKE_TEMP valor recibido: 36 degree_Celsius
+2025-06-11 17:35:04,731 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 36.0
+2025-06-11 17:35:05,087 [DEBUG] PID RPM valor recibido: 701.0 revolutions_per_minute
+2025-06-11 17:35:05,087 [INFO] PID RPM actualizado en stream multipid: 701.0
+2025-06-11 17:35:05,178 [DEBUG] PID ENGINE_LOAD valor recibido: 25.49019607843137 percent
+2025-06-11 17:35:05,179 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 25.49019607843137
+2025-06-11 17:35:05,264 [DEBUG] PID COOLANT_TEMP valor recibido: 88 degree_Celsius
+2025-06-11 17:35:05,264 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 88.0
+2025-06-11 17:35:05,347 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:05,348 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:05,706 [DEBUG] PID RPM valor recibido: 675.0 revolutions_per_minute
+2025-06-11 17:35:05,707 [INFO] PID RPM actualizado en stream multipid: 675.0
+2025-06-11 17:35:05,801 [DEBUG] PID ENGINE_LOAD valor recibido: 26.274509803921568 percent
+2025-06-11 17:35:05,802 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 26.274509803921568
+2025-06-11 17:35:05,894 [DEBUG] PID COOLANT_TEMP valor recibido: 88 degree_Celsius
+2025-06-11 17:35:05,895 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 88.0
+2025-06-11 17:35:05,972 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:05,973 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:06,317 [DEBUG] PID RPM valor recibido: 776.0 revolutions_per_minute
+2025-06-11 17:35:06,318 [INFO] PID RPM actualizado en stream multipid: 776.0
+2025-06-11 17:35:06,406 [DEBUG] PID ENGINE_LOAD valor recibido: 24.313725490196077 percent
+2025-06-11 17:35:06,406 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 24.313725490196077
+2025-06-11 17:35:06,494 [DEBUG] PID COOLANT_TEMP valor recibido: 88 degree_Celsius
+2025-06-11 17:35:06,495 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 88.0
+2025-06-11 17:35:06,579 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:06,580 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:06,944 [DEBUG] PID RPM valor recibido: 699.0 revolutions_per_minute
+2025-06-11 17:35:06,945 [INFO] PID RPM actualizado en stream multipid: 699.0
+2025-06-11 17:35:07,036 [DEBUG] PID ENGINE_LOAD valor recibido: 24.705882352941178 percent
+2025-06-11 17:35:07,036 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 24.705882352941178
+2025-06-11 17:35:07,136 [DEBUG] PID COOLANT_TEMP valor recibido: 88 degree_Celsius
+2025-06-11 17:35:07,136 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 88.0
+2025-06-11 17:35:07,214 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:07,214 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:07,566 [DEBUG] PID RPM valor recibido: 714.0 revolutions_per_minute
+2025-06-11 17:35:07,566 [INFO] PID RPM actualizado en stream multipid: 714.0
+2025-06-11 17:35:07,656 [DEBUG] PID ENGINE_LOAD valor recibido: 25.49019607843137 percent
+2025-06-11 17:35:07,656 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 25.49019607843137
+2025-06-11 17:35:07,747 [DEBUG] PID COOLANT_TEMP valor recibido: 88 degree_Celsius
+2025-06-11 17:35:07,747 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 88.0
+2025-06-11 17:35:07,822 [DEBUG] PID INTAKE_TEMP valor recibido: 36 degree_Celsius
+2025-06-11 17:35:07,823 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 36.0
+2025-06-11 17:35:08,174 [DEBUG] PID RPM valor recibido: 680.0 revolutions_per_minute
+2025-06-11 17:35:08,175 [INFO] PID RPM actualizado en stream multipid: 680.0
+2025-06-11 17:35:08,266 [DEBUG] PID ENGINE_LOAD valor recibido: 26.666666666666668 percent
+2025-06-11 17:35:08,266 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 26.666666666666668
+2025-06-11 17:35:08,364 [DEBUG] PID COOLANT_TEMP valor recibido: 88 degree_Celsius
+2025-06-11 17:35:08,364 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 88.0
+2025-06-11 17:35:08,444 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:08,445 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:08,789 [DEBUG] PID RPM valor recibido: 678.0 revolutions_per_minute
+2025-06-11 17:35:08,789 [INFO] PID RPM actualizado en stream multipid: 678.0
+2025-06-11 17:35:08,876 [DEBUG] PID ENGINE_LOAD valor recibido: 27.45098039215686 percent
+2025-06-11 17:35:08,877 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 27.45098039215686
+2025-06-11 17:35:08,966 [DEBUG] PID COOLANT_TEMP valor recibido: 88 degree_Celsius
+2025-06-11 17:35:08,966 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 88.0
+2025-06-11 17:35:09,045 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:09,046 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:09,396 [DEBUG] PID RPM valor recibido: 684.0 revolutions_per_minute
+2025-06-11 17:35:09,396 [INFO] PID RPM actualizado en stream multipid: 684.0
+2025-06-11 17:35:09,486 [DEBUG] PID ENGINE_LOAD valor recibido: 25.49019607843137 percent
+2025-06-11 17:35:09,486 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 25.49019607843137
+2025-06-11 17:35:09,574 [DEBUG] PID COOLANT_TEMP valor recibido: 88 degree_Celsius
+2025-06-11 17:35:09,574 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 88.0
+2025-06-11 17:35:09,648 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:09,649 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:09,997 [DEBUG] PID RPM valor recibido: 685.0 revolutions_per_minute
+2025-06-11 17:35:09,998 [INFO] PID RPM actualizado en stream multipid: 685.0
+2025-06-11 17:35:10,395 [DEBUG] PID ENGINE_LOAD valor recibido: 24.705882352941178 percent
+2025-06-11 17:35:10,396 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 24.705882352941178
+2025-06-11 17:35:10,484 [DEBUG] PID COOLANT_TEMP valor recibido: 88 degree_Celsius
+2025-06-11 17:35:10,484 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 88.0
+2025-06-11 17:35:10,568 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:10,569 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:10,907 [DEBUG] PID RPM valor recibido: 701.0 revolutions_per_minute
+2025-06-11 17:35:10,907 [INFO] PID RPM actualizado en stream multipid: 701.0
+2025-06-11 17:35:10,995 [DEBUG] PID ENGINE_LOAD valor recibido: 25.88235294117647 percent
+2025-06-11 17:35:10,995 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 25.88235294117647
+2025-06-11 17:35:11,084 [DEBUG] PID COOLANT_TEMP valor recibido: 88 degree_Celsius
+2025-06-11 17:35:11,084 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 88.0
+2025-06-11 17:35:11,173 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:11,173 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:11,517 [DEBUG] PID RPM valor recibido: 670.0 revolutions_per_minute
+2025-06-11 17:35:11,517 [INFO] PID RPM actualizado en stream multipid: 670.0
+2025-06-11 17:35:11,608 [DEBUG] PID ENGINE_LOAD valor recibido: 25.49019607843137 percent
+2025-06-11 17:35:11,609 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 25.49019607843137
+2025-06-11 17:35:11,704 [DEBUG] PID COOLANT_TEMP valor recibido: 89 degree_Celsius
+2025-06-11 17:35:11,705 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 89.0
+2025-06-11 17:35:11,782 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:11,782 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:12,136 [DEBUG] PID RPM valor recibido: 691.0 revolutions_per_minute
+2025-06-11 17:35:12,136 [INFO] PID RPM actualizado en stream multipid: 691.0
+2025-06-11 17:35:12,224 [DEBUG] PID ENGINE_LOAD valor recibido: 25.88235294117647 percent
+2025-06-11 17:35:12,224 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 25.88235294117647
+2025-06-11 17:35:12,314 [DEBUG] PID COOLANT_TEMP valor recibido: 89 degree_Celsius
+2025-06-11 17:35:12,314 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 89.0
+2025-06-11 17:35:12,394 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:12,394 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:12,739 [DEBUG] PID RPM valor recibido: 670.0 revolutions_per_minute
+2025-06-11 17:35:12,740 [INFO] PID RPM actualizado en stream multipid: 670.0
+2025-06-11 17:35:12,836 [DEBUG] PID ENGINE_LOAD valor recibido: 25.88235294117647 percent
+2025-06-11 17:35:12,836 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 25.88235294117647
+2025-06-11 17:35:12,925 [DEBUG] PID COOLANT_TEMP valor recibido: 89 degree_Celsius
+2025-06-11 17:35:12,925 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 89.0
+2025-06-11 17:35:13,003 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:13,004 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:13,355 [DEBUG] PID RPM valor recibido: 688.0 revolutions_per_minute
+2025-06-11 17:35:13,355 [INFO] PID RPM actualizado en stream multipid: 688.0
+2025-06-11 17:35:13,444 [DEBUG] PID ENGINE_LOAD valor recibido: 25.88235294117647 percent
+2025-06-11 17:35:13,444 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 25.88235294117647
+2025-06-11 17:35:13,536 [DEBUG] PID COOLANT_TEMP valor recibido: 89 degree_Celsius
+2025-06-11 17:35:13,537 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 89.0
+2025-06-11 17:35:13,615 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:13,615 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:13,958 [DEBUG] PID RPM valor recibido: 692.0 revolutions_per_minute
+2025-06-11 17:35:13,958 [INFO] PID RPM actualizado en stream multipid: 692.0
+2025-06-11 17:35:14,050 [DEBUG] PID ENGINE_LOAD valor recibido: 29.019607843137255 percent
+2025-06-11 17:35:14,050 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 29.019607843137255
+2025-06-11 17:35:14,144 [DEBUG] PID COOLANT_TEMP valor recibido: 89 degree_Celsius
+2025-06-11 17:35:14,144 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 89.0
+2025-06-11 17:35:14,230 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:14,230 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:14,588 [DEBUG] PID RPM valor recibido: 739.0 revolutions_per_minute
+2025-06-11 17:35:14,589 [INFO] PID RPM actualizado en stream multipid: 739.0
+2025-06-11 17:35:14,679 [DEBUG] PID ENGINE_LOAD valor recibido: 23.92156862745098 percent
+2025-06-11 17:35:14,679 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 23.92156862745098
+2025-06-11 17:35:14,766 [DEBUG] PID COOLANT_TEMP valor recibido: 89 degree_Celsius
+2025-06-11 17:35:14,767 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 89.0
+2025-06-11 17:35:14,844 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:14,845 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:15,187 [DEBUG] PID RPM valor recibido: 710.0 revolutions_per_minute
+2025-06-11 17:35:15,188 [INFO] PID RPM actualizado en stream multipid: 710.0
+2025-06-11 17:35:15,290 [DEBUG] PID ENGINE_LOAD valor recibido: 25.098039215686274 percent
+2025-06-11 17:35:15,290 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 25.098039215686274
+2025-06-11 17:35:15,400 [DEBUG] PID COOLANT_TEMP valor recibido: 89 degree_Celsius
+2025-06-11 17:35:15,400 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 89.0
+2025-06-11 17:35:15,490 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:15,491 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:15,849 [DEBUG] PID RPM valor recibido: 696.0 revolutions_per_minute
+2025-06-11 17:35:15,850 [INFO] PID RPM actualizado en stream multipid: 696.0
+2025-06-11 17:35:15,920 [INFO] Acción: iniciar stream multipid
+2025-06-11 17:35:15,932 [DEBUG] PID ENGINE_LOAD valor recibido: 26.274509803921568 percent
+2025-06-11 17:35:15,932 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 26.274509803921568
+2025-06-11 17:35:16,035 [DEBUG] PID COOLANT_TEMP valor recibido: 89 degree_Celsius
+2025-06-11 17:35:16,035 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 89.0
+2025-06-11 17:35:16,110 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:16,111 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:16,665 [INFO] Stream multipid anterior detenido
+2025-06-11 17:35:16,665 [INFO] PIDs seleccionados para stream multipid: ['RPM', 'ENGINE_LOAD', 'COOLANT_TEMP', 'INTAKE_TEMP', 'SPEED', 'FUEL_LEVEL', 'FUEL_STATUS', 'INTAKE_PRESSURE', 'THROTTLE_POS']
+2025-06-11 17:35:22,316 [INFO] Stream multipid iniciado con PIDs: ['RPM', 'ENGINE_LOAD', 'COOLANT_TEMP', 'INTAKE_TEMP', 'SPEED', 'FUEL_LEVEL', 'FUEL_STATUS', 'INTAKE_PRESSURE', 'THROTTLE_POS']
+2025-06-11 17:35:22,410 [DEBUG] PID RPM valor recibido: 711.0 revolutions_per_minute
+2025-06-11 17:35:22,410 [INFO] PID RPM actualizado en stream multipid: 711.0
+2025-06-11 17:35:22,510 [DEBUG] PID ENGINE_LOAD valor recibido: 24.705882352941178 percent
+2025-06-11 17:35:22,510 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 24.705882352941178
+2025-06-11 17:35:22,610 [DEBUG] PID COOLANT_TEMP valor recibido: 89 degree_Celsius
+2025-06-11 17:35:22,611 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 89.0
+2025-06-11 17:35:22,692 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:22,692 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:22,786 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 17:35:22,786 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 17:35:22,870 [DEBUG] PID FUEL_LEVEL valor recibido: 88.62745098039215 percent
+2025-06-11 17:35:22,870 [INFO] PID FUEL_LEVEL actualizado en stream multipid: 88.62745098039215
+2025-06-11 17:35:22,952 [DEBUG] PID FUEL_STATUS valor recibido: ('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')
+2025-06-11 17:35:22,952 [ERROR] No se pudo extraer valor numérico de PID FUEL_STATUS: ('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')
+2025-06-11 17:35:23,033 [DEBUG] PID INTAKE_PRESSURE valor recibido: 32 kilopascal
+2025-06-11 17:35:23,034 [INFO] PID INTAKE_PRESSURE actualizado en stream multipid: 32.0
+2025-06-11 17:35:23,114 [DEBUG] PID THROTTLE_POS valor recibido: 14.509803921568627 percent
+2025-06-11 17:35:23,114 [INFO] PID THROTTLE_POS actualizado en stream multipid: 14.509803921568627
+2025-06-11 17:35:23,471 [DEBUG] PID RPM valor recibido: 706.0 revolutions_per_minute
+2025-06-11 17:35:23,471 [INFO] PID RPM actualizado en stream multipid: 706.0
+2025-06-11 17:35:23,571 [DEBUG] PID ENGINE_LOAD valor recibido: 24.705882352941178 percent
+2025-06-11 17:35:23,572 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 24.705882352941178
+2025-06-11 17:35:23,656 [DEBUG] PID COOLANT_TEMP valor recibido: 89 degree_Celsius
+2025-06-11 17:35:23,657 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 89.0
+2025-06-11 17:35:23,727 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:23,727 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:23,806 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 17:35:23,807 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 17:35:23,879 [DEBUG] PID FUEL_LEVEL valor recibido: 88.62745098039215 percent
+2025-06-11 17:35:23,879 [INFO] PID FUEL_LEVEL actualizado en stream multipid: 88.62745098039215
+2025-06-11 17:35:23,948 [DEBUG] PID FUEL_STATUS valor recibido: ('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')
+2025-06-11 17:35:23,949 [ERROR] No se pudo extraer valor numérico de PID FUEL_STATUS: ('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')
+2025-06-11 17:35:24,016 [DEBUG] PID INTAKE_PRESSURE valor recibido: 32 kilopascal
+2025-06-11 17:35:24,016 [INFO] PID INTAKE_PRESSURE actualizado en stream multipid: 32.0
+2025-06-11 17:35:24,086 [DEBUG] PID THROTTLE_POS valor recibido: 14.509803921568627 percent
+2025-06-11 17:35:24,086 [INFO] PID THROTTLE_POS actualizado en stream multipid: 14.509803921568627
+2025-06-11 17:35:24,453 [DEBUG] PID RPM valor recibido: 712.0 revolutions_per_minute
+2025-06-11 17:35:24,453 [INFO] PID RPM actualizado en stream multipid: 712.0
+2025-06-11 17:35:24,534 [DEBUG] PID ENGINE_LOAD valor recibido: 23.92156862745098 percent
+2025-06-11 17:35:24,534 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 23.92156862745098
+2025-06-11 17:35:24,616 [DEBUG] PID COOLANT_TEMP valor recibido: 89 degree_Celsius
+2025-06-11 17:35:24,616 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 89.0
+2025-06-11 17:35:24,684 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:24,684 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:24,769 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 17:35:24,769 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 17:35:24,840 [DEBUG] PID FUEL_LEVEL valor recibido: 88.62745098039215 percent
+2025-06-11 17:35:24,840 [INFO] PID FUEL_LEVEL actualizado en stream multipid: 88.62745098039215
+2025-06-11 17:35:24,909 [DEBUG] PID FUEL_STATUS valor recibido: ('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')
+2025-06-11 17:35:24,909 [ERROR] No se pudo extraer valor numérico de PID FUEL_STATUS: ('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')
+2025-06-11 17:35:24,977 [DEBUG] PID INTAKE_PRESSURE valor recibido: 32 kilopascal
+2025-06-11 17:35:24,978 [INFO] PID INTAKE_PRESSURE actualizado en stream multipid: 32.0
+2025-06-11 17:35:25,045 [DEBUG] PID THROTTLE_POS valor recibido: 14.509803921568627 percent
+2025-06-11 17:35:25,045 [INFO] PID THROTTLE_POS actualizado en stream multipid: 14.509803921568627
+2025-06-11 17:35:25,388 [DEBUG] PID RPM valor recibido: 679.0 revolutions_per_minute
+2025-06-11 17:35:25,393 [INFO] PID RPM actualizado en stream multipid: 679.0
+2025-06-11 17:35:25,476 [DEBUG] PID ENGINE_LOAD valor recibido: 23.529411764705884 percent
+2025-06-11 17:35:25,477 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 23.529411764705884
+2025-06-11 17:35:25,556 [DEBUG] PID COOLANT_TEMP valor recibido: 89 degree_Celsius
+2025-06-11 17:35:25,557 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 89.0
+2025-06-11 17:35:25,631 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:25,631 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:25,724 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 17:35:25,725 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 17:35:25,795 [DEBUG] PID FUEL_LEVEL valor recibido: 88.62745098039215 percent
+2025-06-11 17:35:25,796 [INFO] PID FUEL_LEVEL actualizado en stream multipid: 88.62745098039215
+2025-06-11 17:35:25,862 [DEBUG] PID FUEL_STATUS valor recibido: ('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')
+2025-06-11 17:35:25,863 [ERROR] No se pudo extraer valor numérico de PID FUEL_STATUS: ('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')
+2025-06-11 17:35:25,930 [DEBUG] PID INTAKE_PRESSURE valor recibido: 32 kilopascal
+2025-06-11 17:35:25,931 [INFO] PID INTAKE_PRESSURE actualizado en stream multipid: 32.0
+2025-06-11 17:35:26,000 [DEBUG] PID THROTTLE_POS valor recibido: 14.509803921568627 percent
+2025-06-11 17:35:26,001 [INFO] PID THROTTLE_POS actualizado en stream multipid: 14.509803921568627
+2025-06-11 17:35:26,349 [DEBUG] PID RPM valor recibido: 696.0 revolutions_per_minute
+2025-06-11 17:35:26,349 [INFO] PID RPM actualizado en stream multipid: 696.0
+2025-06-11 17:35:26,426 [DEBUG] PID ENGINE_LOAD valor recibido: 23.92156862745098 percent
+2025-06-11 17:35:26,427 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 23.92156862745098
+2025-06-11 17:35:26,513 [DEBUG] PID COOLANT_TEMP valor recibido: 89 degree_Celsius
+2025-06-11 17:35:26,513 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 89.0
+2025-06-11 17:35:26,581 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:26,581 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:26,667 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 17:35:26,667 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 17:35:26,737 [DEBUG] PID FUEL_LEVEL valor recibido: 88.62745098039215 percent
+2025-06-11 17:35:26,737 [INFO] PID FUEL_LEVEL actualizado en stream multipid: 88.62745098039215
+2025-06-11 17:35:26,808 [DEBUG] PID FUEL_STATUS valor recibido: ('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')
+2025-06-11 17:35:26,808 [ERROR] No se pudo extraer valor numérico de PID FUEL_STATUS: ('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')
+2025-06-11 17:35:26,879 [DEBUG] PID INTAKE_PRESSURE valor recibido: 31 kilopascal
+2025-06-11 17:35:26,879 [INFO] PID INTAKE_PRESSURE actualizado en stream multipid: 31.0
+2025-06-11 17:35:26,951 [DEBUG] PID THROTTLE_POS valor recibido: 14.509803921568627 percent
+2025-06-11 17:35:26,951 [INFO] PID THROTTLE_POS actualizado en stream multipid: 14.509803921568627
+2025-06-11 17:35:27,297 [DEBUG] PID RPM valor recibido: 687.0 revolutions_per_minute
+2025-06-11 17:35:27,297 [INFO] PID RPM actualizado en stream multipid: 687.0
+2025-06-11 17:35:27,374 [DEBUG] PID ENGINE_LOAD valor recibido: 24.313725490196077 percent
+2025-06-11 17:35:27,375 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 24.313725490196077
+2025-06-11 17:35:27,459 [DEBUG] PID COOLANT_TEMP valor recibido: 89 degree_Celsius
+2025-06-11 17:35:27,459 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 89.0
+2025-06-11 17:35:27,547 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:27,548 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:27,631 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 17:35:27,631 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 17:35:27,701 [DEBUG] PID FUEL_LEVEL valor recibido: 88.62745098039215 percent
+2025-06-11 17:35:27,701 [INFO] PID FUEL_LEVEL actualizado en stream multipid: 88.62745098039215
+2025-06-11 17:35:27,773 [DEBUG] PID FUEL_STATUS valor recibido: ('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')
+2025-06-11 17:35:27,773 [ERROR] No se pudo extraer valor numérico de PID FUEL_STATUS: ('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')
+2025-06-11 17:35:27,839 [DEBUG] PID INTAKE_PRESSURE valor recibido: 34 kilopascal
+2025-06-11 17:35:27,839 [INFO] PID INTAKE_PRESSURE actualizado en stream multipid: 34.0
+2025-06-11 17:35:27,908 [DEBUG] PID THROTTLE_POS valor recibido: 14.509803921568627 percent
+2025-06-11 17:35:27,908 [INFO] PID THROTTLE_POS actualizado en stream multipid: 14.509803921568627
+2025-06-11 17:35:28,249 [DEBUG] PID RPM valor recibido: 740.0 revolutions_per_minute
+2025-06-11 17:35:28,250 [INFO] PID RPM actualizado en stream multipid: 740.0
+2025-06-11 17:35:28,338 [DEBUG] PID ENGINE_LOAD valor recibido: 23.92156862745098 percent
+2025-06-11 17:35:28,338 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 23.92156862745098
+2025-06-11 17:35:28,434 [DEBUG] PID COOLANT_TEMP valor recibido: 90 degree_Celsius
+2025-06-11 17:35:28,434 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 90.0
+2025-06-11 17:35:28,508 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:28,508 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:28,600 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 17:35:28,601 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 17:35:28,692 [DEBUG] PID FUEL_LEVEL valor recibido: 88.62745098039215 percent
+2025-06-11 17:35:28,693 [INFO] PID FUEL_LEVEL actualizado en stream multipid: 88.62745098039215
+2025-06-11 17:35:28,762 [DEBUG] PID FUEL_STATUS valor recibido: ('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')
+2025-06-11 17:35:28,763 [ERROR] No se pudo extraer valor numérico de PID FUEL_STATUS: ('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')
+2025-06-11 17:35:28,833 [DEBUG] PID INTAKE_PRESSURE valor recibido: 32 kilopascal
+2025-06-11 17:35:28,834 [INFO] PID INTAKE_PRESSURE actualizado en stream multipid: 32.0
+2025-06-11 17:35:28,904 [DEBUG] PID THROTTLE_POS valor recibido: 14.509803921568627 percent
+2025-06-11 17:35:28,904 [INFO] PID THROTTLE_POS actualizado en stream multipid: 14.509803921568627
+2025-06-11 17:35:29,267 [DEBUG] PID RPM valor recibido: 701.0 revolutions_per_minute
+2025-06-11 17:35:29,268 [INFO] PID RPM actualizado en stream multipid: 701.0
+2025-06-11 17:35:29,344 [DEBUG] PID ENGINE_LOAD valor recibido: 23.92156862745098 percent
+2025-06-11 17:35:29,345 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 23.92156862745098
+2025-06-11 17:35:29,429 [DEBUG] PID COOLANT_TEMP valor recibido: 90 degree_Celsius
+2025-06-11 17:35:29,429 [INFO] PID COOLANT_TEMP actualizado en stream multipid: 90.0
+2025-06-11 17:35:29,499 [DEBUG] PID INTAKE_TEMP valor recibido: 37 degree_Celsius
+2025-06-11 17:35:29,500 [INFO] PID INTAKE_TEMP actualizado en stream multipid: 37.0
+2025-06-11 17:35:29,587 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 17:35:29,588 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 17:35:29,657 [DEBUG] PID FUEL_LEVEL valor recibido: 88.62745098039215 percent
+2025-06-11 17:35:29,657 [INFO] PID FUEL_LEVEL actualizado en stream multipid: 88.62745098039215
+2025-06-11 17:35:29,726 [DEBUG] PID FUEL_STATUS valor recibido: ('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')
+2025-06-11 17:35:29,727 [ERROR] No se pudo extraer valor numérico de PID FUEL_STATUS: ('Closed loop, using oxygen sensor feedback to determine fuel mix', 'Closed loop, using oxygen sensor feedback to determine fuel mix')
+2025-06-11 17:35:29,797 [DEBUG] PID INTAKE_PRESSURE valor recibido: 32 kilopascal
+2025-06-11 17:35:29,798 [INFO] PID INTAKE_PRESSURE actualizado en stream multipid: 32.0
+2025-06-11 17:35:29,867 [DEBUG] PID THROTTLE_POS valor recibido: 14.509803921568627 percent
+2025-06-11 17:35:29,868 [INFO] PID THROTTLE_POS actualizado en stream multipid: 14.509803921568627
+2025-06-11 17:35:45,270 [INFO] Cerrando aplicación OBD2 Scanner...

@@ -1,0 +1,200 @@
+2025-06-11 20:09:05,427 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-11 20:09:06,071 [INFO] Ventana principal mostrada. Esperando eventos Qt...
+2025-06-11 20:09:09,268 [INFO] Acción: conectar/desconectar OBD
+2025-06-11 20:09:14,940 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-11 20:09:14,942 [INFO] Estado de conexión OBD: Car Connected
+2025-06-11 20:09:29,788 [INFO] Acción: iniciar stream multipid
+2025-06-11 20:09:29,790 [INFO] PIDs seleccionados para stream multipid: ['RPM', 'SPEED']
+2025-06-11 20:09:35,357 [INFO] Stream multipid iniciado con PIDs: ['RPM', 'SPEED']
+2025-06-11 20:09:35,455 [DEBUG] PID RPM valor recibido: 686.0 revolutions_per_minute
+2025-06-11 20:09:35,456 [INFO] PID RPM actualizado en stream multipid: 686.0
+2025-06-11 20:09:35,553 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:35,554 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:35,701 [DEBUG] PID RPM valor recibido: 694.0 revolutions_per_minute
+2025-06-11 20:09:35,702 [INFO] PID RPM actualizado en stream multipid: 694.0
+2025-06-11 20:09:35,795 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:35,796 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:35,940 [DEBUG] PID RPM valor recibido: 674.0 revolutions_per_minute
+2025-06-11 20:09:35,941 [INFO] PID RPM actualizado en stream multipid: 674.0
+2025-06-11 20:09:36,032 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:36,033 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:36,183 [DEBUG] PID RPM valor recibido: 680.0 revolutions_per_minute
+2025-06-11 20:09:36,184 [INFO] PID RPM actualizado en stream multipid: 680.0
+2025-06-11 20:09:36,293 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:36,294 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:36,439 [DEBUG] PID RPM valor recibido: 686.0 revolutions_per_minute
+2025-06-11 20:09:36,440 [INFO] PID RPM actualizado en stream multipid: 686.0
+2025-06-11 20:09:36,528 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:36,529 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:36,667 [DEBUG] PID RPM valor recibido: 683.0 revolutions_per_minute
+2025-06-11 20:09:36,668 [INFO] PID RPM actualizado en stream multipid: 683.0
+2025-06-11 20:09:36,757 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:36,757 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:36,907 [DEBUG] PID RPM valor recibido: 694.0 revolutions_per_minute
+2025-06-11 20:09:36,908 [INFO] PID RPM actualizado en stream multipid: 694.0
+2025-06-11 20:09:36,997 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:36,998 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:37,139 [DEBUG] PID RPM valor recibido: 684.0 revolutions_per_minute
+2025-06-11 20:09:37,140 [INFO] PID RPM actualizado en stream multipid: 684.0
+2025-06-11 20:09:37,229 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:37,230 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:37,379 [DEBUG] PID RPM valor recibido: 681.0 revolutions_per_minute
+2025-06-11 20:09:37,380 [INFO] PID RPM actualizado en stream multipid: 681.0
+2025-06-11 20:09:37,469 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:37,470 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:46,054 [INFO] Acción: iniciar stream multipid
+2025-06-11 20:09:46,057 [INFO] PIDs seleccionados para stream multipid: ['RPM', 'SPEED']
+2025-06-11 20:09:51,635 [INFO] Stream multipid iniciado con PIDs: ['RPM', 'SPEED']
+2025-06-11 20:09:51,733 [DEBUG] PID RPM valor recibido: 693.0 revolutions_per_minute
+2025-06-11 20:09:51,733 [INFO] PID RPM actualizado en stream multipid: 693.0
+2025-06-11 20:09:51,820 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:51,820 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:51,961 [DEBUG] PID RPM valor recibido: 693.0 revolutions_per_minute
+2025-06-11 20:09:51,962 [INFO] PID RPM actualizado en stream multipid: 693.0
+2025-06-11 20:09:52,052 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:52,053 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:52,203 [DEBUG] PID RPM valor recibido: 678.0 revolutions_per_minute
+2025-06-11 20:09:52,204 [INFO] PID RPM actualizado en stream multipid: 678.0
+2025-06-11 20:09:52,292 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:52,292 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:52,441 [DEBUG] PID RPM valor recibido: 701.0 revolutions_per_minute
+2025-06-11 20:09:52,442 [INFO] PID RPM actualizado en stream multipid: 701.0
+2025-06-11 20:09:52,535 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:52,535 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:52,669 [DEBUG] PID RPM valor recibido: 677.0 revolutions_per_minute
+2025-06-11 20:09:52,670 [INFO] PID RPM actualizado en stream multipid: 677.0
+2025-06-11 20:09:52,746 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:52,747 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:52,883 [DEBUG] PID RPM valor recibido: 681.0 revolutions_per_minute
+2025-06-11 20:09:52,884 [INFO] PID RPM actualizado en stream multipid: 681.0
+2025-06-11 20:09:52,960 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:52,961 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:53,100 [DEBUG] PID RPM valor recibido: 690.0 revolutions_per_minute
+2025-06-11 20:09:53,101 [INFO] PID RPM actualizado en stream multipid: 690.0
+2025-06-11 20:09:53,177 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:53,178 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:53,311 [DEBUG] PID RPM valor recibido: 689.0 revolutions_per_minute
+2025-06-11 20:09:53,311 [INFO] PID RPM actualizado en stream multipid: 689.0
+2025-06-11 20:09:53,389 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:53,389 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:53,529 [DEBUG] PID RPM valor recibido: 693.0 revolutions_per_minute
+2025-06-11 20:09:53,530 [INFO] PID RPM actualizado en stream multipid: 693.0
+2025-06-11 20:09:53,612 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:53,613 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:53,764 [DEBUG] PID RPM valor recibido: 687.0 revolutions_per_minute
+2025-06-11 20:09:53,764 [INFO] PID RPM actualizado en stream multipid: 687.0
+2025-06-11 20:09:53,849 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:53,850 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:53,989 [DEBUG] PID RPM valor recibido: 696.0 revolutions_per_minute
+2025-06-11 20:09:53,990 [INFO] PID RPM actualizado en stream multipid: 696.0
+2025-06-11 20:09:54,068 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:54,068 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:54,201 [DEBUG] PID RPM valor recibido: 697.0 revolutions_per_minute
+2025-06-11 20:09:54,202 [INFO] PID RPM actualizado en stream multipid: 697.0
+2025-06-11 20:09:54,279 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:54,280 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:54,419 [DEBUG] PID RPM valor recibido: 685.0 revolutions_per_minute
+2025-06-11 20:09:54,420 [INFO] PID RPM actualizado en stream multipid: 685.0
+2025-06-11 20:09:54,505 [DEBUG] PID SPEED valor recibido: 1.0 kilometer_per_hour
+2025-06-11 20:09:54,505 [INFO] PID SPEED actualizado en stream multipid: 1.0
+2025-06-11 20:09:54,639 [DEBUG] PID RPM valor recibido: 692.0 revolutions_per_minute
+2025-06-11 20:09:54,640 [INFO] PID RPM actualizado en stream multipid: 692.0
+2025-06-11 20:09:54,721 [DEBUG] PID SPEED valor recibido: 1.0 kilometer_per_hour
+2025-06-11 20:09:54,722 [INFO] PID SPEED actualizado en stream multipid: 1.0
+2025-06-11 20:09:54,860 [DEBUG] PID RPM valor recibido: 705.0 revolutions_per_minute
+2025-06-11 20:09:54,861 [INFO] PID RPM actualizado en stream multipid: 705.0
+2025-06-11 20:09:54,950 [DEBUG] PID SPEED valor recibido: 2.0 kilometer_per_hour
+2025-06-11 20:09:54,951 [INFO] PID SPEED actualizado en stream multipid: 2.0
+2025-06-11 20:09:55,100 [DEBUG] PID RPM valor recibido: 696.0 revolutions_per_minute
+2025-06-11 20:09:55,100 [INFO] PID RPM actualizado en stream multipid: 696.0
+2025-06-11 20:09:55,189 [DEBUG] PID SPEED valor recibido: 2.0 kilometer_per_hour
+2025-06-11 20:09:55,190 [INFO] PID SPEED actualizado en stream multipid: 2.0
+2025-06-11 20:09:55,339 [DEBUG] PID RPM valor recibido: 699.0 revolutions_per_minute
+2025-06-11 20:09:55,340 [INFO] PID RPM actualizado en stream multipid: 699.0
+2025-06-11 20:09:55,447 [DEBUG] PID SPEED valor recibido: 2.0 kilometer_per_hour
+2025-06-11 20:09:55,448 [INFO] PID SPEED actualizado en stream multipid: 2.0
+2025-06-11 20:09:55,587 [DEBUG] PID RPM valor recibido: 696.0 revolutions_per_minute
+2025-06-11 20:09:55,588 [INFO] PID RPM actualizado en stream multipid: 696.0
+2025-06-11 20:09:55,679 [DEBUG] PID SPEED valor recibido: 2.0 kilometer_per_hour
+2025-06-11 20:09:55,680 [INFO] PID SPEED actualizado en stream multipid: 2.0
+2025-06-11 20:09:55,819 [DEBUG] PID RPM valor recibido: 691.0 revolutions_per_minute
+2025-06-11 20:09:55,820 [INFO] PID RPM actualizado en stream multipid: 691.0
+2025-06-11 20:09:55,911 [DEBUG] PID SPEED valor recibido: 2.0 kilometer_per_hour
+2025-06-11 20:09:55,911 [INFO] PID SPEED actualizado en stream multipid: 2.0
+2025-06-11 20:09:56,060 [DEBUG] PID RPM valor recibido: 696.0 revolutions_per_minute
+2025-06-11 20:09:56,060 [INFO] PID RPM actualizado en stream multipid: 696.0
+2025-06-11 20:09:56,159 [DEBUG] PID SPEED valor recibido: 2.0 kilometer_per_hour
+2025-06-11 20:09:56,160 [INFO] PID SPEED actualizado en stream multipid: 2.0
+2025-06-11 20:09:56,307 [DEBUG] PID RPM valor recibido: 690.0 revolutions_per_minute
+2025-06-11 20:09:56,307 [INFO] PID RPM actualizado en stream multipid: 690.0
+2025-06-11 20:09:56,403 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:56,404 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:56,547 [DEBUG] PID RPM valor recibido: 707.0 revolutions_per_minute
+2025-06-11 20:09:56,548 [INFO] PID RPM actualizado en stream multipid: 707.0
+2025-06-11 20:09:56,641 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:56,642 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:56,787 [DEBUG] PID RPM valor recibido: 703.0 revolutions_per_minute
+2025-06-11 20:09:56,788 [INFO] PID RPM actualizado en stream multipid: 703.0
+2025-06-11 20:09:56,879 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:56,880 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:57,017 [DEBUG] PID RPM valor recibido: 688.0 revolutions_per_minute
+2025-06-11 20:09:57,018 [INFO] PID RPM actualizado en stream multipid: 688.0
+2025-06-11 20:09:57,107 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:57,107 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:57,247 [DEBUG] PID RPM valor recibido: 686.0 revolutions_per_minute
+2025-06-11 20:09:57,247 [INFO] PID RPM actualizado en stream multipid: 686.0
+2025-06-11 20:09:57,339 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:57,339 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:57,490 [DEBUG] PID RPM valor recibido: 683.0 revolutions_per_minute
+2025-06-11 20:09:57,491 [INFO] PID RPM actualizado en stream multipid: 683.0
+2025-06-11 20:09:57,579 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:57,580 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:57,727 [DEBUG] PID RPM valor recibido: 677.0 revolutions_per_minute
+2025-06-11 20:09:57,728 [INFO] PID RPM actualizado en stream multipid: 677.0
+2025-06-11 20:09:57,819 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:57,820 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:57,959 [DEBUG] PID RPM valor recibido: 676.0 revolutions_per_minute
+2025-06-11 20:09:57,960 [INFO] PID RPM actualizado en stream multipid: 676.0
+2025-06-11 20:09:58,047 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:58,048 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:58,188 [DEBUG] PID RPM valor recibido: 692.0 revolutions_per_minute
+2025-06-11 20:09:58,188 [INFO] PID RPM actualizado en stream multipid: 692.0
+2025-06-11 20:09:58,279 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:58,280 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:58,427 [DEBUG] PID RPM valor recibido: 690.0 revolutions_per_minute
+2025-06-11 20:09:58,429 [INFO] PID RPM actualizado en stream multipid: 690.0
+2025-06-11 20:09:58,519 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:58,520 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:58,659 [DEBUG] PID RPM valor recibido: 677.0 revolutions_per_minute
+2025-06-11 20:09:58,660 [INFO] PID RPM actualizado en stream multipid: 677.0
+2025-06-11 20:09:58,745 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:58,746 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:58,887 [DEBUG] PID RPM valor recibido: 679.0 revolutions_per_minute
+2025-06-11 20:09:58,888 [INFO] PID RPM actualizado en stream multipid: 679.0
+2025-06-11 20:09:58,977 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:58,978 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:59,128 [DEBUG] PID RPM valor recibido: 673.0 revolutions_per_minute
+2025-06-11 20:09:59,128 [INFO] PID RPM actualizado en stream multipid: 673.0
+2025-06-11 20:09:59,217 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:59,218 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:59,359 [DEBUG] PID RPM valor recibido: 688.0 revolutions_per_minute
+2025-06-11 20:09:59,360 [INFO] PID RPM actualizado en stream multipid: 688.0
+2025-06-11 20:09:59,445 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:59,446 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:59,599 [DEBUG] PID RPM valor recibido: 681.0 revolutions_per_minute
+2025-06-11 20:09:59,600 [INFO] PID RPM actualizado en stream multipid: 681.0
+2025-06-11 20:09:59,685 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:59,686 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:09:59,828 [DEBUG] PID RPM valor recibido: 674.0 revolutions_per_minute
+2025-06-11 20:09:59,828 [INFO] PID RPM actualizado en stream multipid: 674.0
+2025-06-11 20:09:59,917 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:09:59,918 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:10:00,068 [DEBUG] PID RPM valor recibido: 686.0 revolutions_per_minute
+2025-06-11 20:10:00,069 [INFO] PID RPM actualizado en stream multipid: 686.0
+2025-06-11 20:10:00,158 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:10:00,159 [INFO] PID SPEED actualizado en stream multipid: 0.0
+2025-06-11 20:10:00,307 [DEBUG] PID RPM valor recibido: 699.0 revolutions_per_minute
+2025-06-11 20:10:00,308 [INFO] PID RPM actualizado en stream multipid: 699.0
+2025-06-11 20:10:00,369 [INFO] Cerrando aplicación OBD2 Scanner...
+2025-06-11 20:10:00,399 [DEBUG] PID SPEED valor recibido: 0.0 kilometer_per_hour
+2025-06-11 20:10:00,399 [INFO] PID SPEED actualizado en stream multipid: 0.0

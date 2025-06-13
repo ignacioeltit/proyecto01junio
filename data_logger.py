@@ -1,16 +1,20 @@
 import os
 import csv
 import logging
+import sqlite3
 from datetime import datetime
 
 class DataLogger:
-    """Clase para el registro de datos OBD"""
+    """Clase para el registro de datos OBD (CSV y SQLite)"""
     def __init__(self):
         self.log_dir = "logs"
         self.log_file = None
+        self.sqlite_file = None
         self.active = False
         self.logger = logging.getLogger(__name__)
         self._setup_logging()
+        self.sqlite_conn = None
+        self.sqlite_enabled = False
 
     def _setup_logging(self):
         """Configura el directorio de logs"""
@@ -52,6 +56,50 @@ class DataLogger:
             self.logger.error(f"Error registrando datos: {e}")
             return False
 
+    def enable_sqlite(self, enable=True):
+        """Habilita o deshabilita el logging en SQLite"""
+        self.sqlite_enabled = enable
+        if enable:
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            self.sqlite_file = os.path.join(self.log_dir, f"obd_log_{timestamp}.sqlite")
+            self.sqlite_conn = sqlite3.connect(self.sqlite_file)
+            self._create_sqlite_table()
+
+    def _create_sqlite_table(self):
+        """Crea la tabla en la base de datos SQLite si no existe"""
+        if self.sqlite_conn:
+            c = self.sqlite_conn.cursor()
+            c.execute('''CREATE TABLE IF NOT EXISTS obd_data (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                timestamp TEXT,
+                pid TEXT,
+                value REAL
+            )''')
+            self.sqlite_conn.commit()
+
+    def log_data_row(self, data_row):
+        """Registra una fila de datos (dict {pid: valor}) en el log CSV y/o SQLite."""
+        if not self.active or not self.log_file:
+            return False
+        try:
+            # CSV
+            with open(self.log_file, 'a', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f)
+                timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
+                for pid, value in data_row.items():
+                    writer.writerow([timestamp, pid, '', value, ''])
+            # SQLite
+            if self.sqlite_enabled and self.sqlite_conn:
+                c = self.sqlite_conn.cursor()
+                timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
+                for pid, value in data_row.items():
+                    c.execute("INSERT INTO obd_data (timestamp, pid, value) VALUES (?, ?, ?)", (timestamp, pid, value))
+                self.sqlite_conn.commit()
+            return True
+        except Exception as e:
+            self.logger.error(f"Error registrando fila de datos: {e}")
+            return False
+
     def get_status(self):
         """Obtiene el estado actual del logger"""
         try:
@@ -86,3 +134,9 @@ class DataLogger:
         except Exception as e:
             self.logger.error(f"Error registrando selección de PIDs: {e}")
             return False
+
+    def close(self):
+        """Cierra las conexiones abiertas (CSV y SQLite)"""
+        if self.sqlite_conn:
+            self.sqlite_conn.close()
+            self.sqlite_conn = None

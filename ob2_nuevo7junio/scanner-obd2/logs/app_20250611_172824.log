@@ -1,0 +1,277 @@
+2025-06-11 17:28:24,659 [DEBUG] matplotlib data path: /Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/matplotlib/mpl-data
+2025-06-11 17:28:24,668 [DEBUG] CONFIGDIR=/Users/ignacioeltit/.matplotlib
+2025-06-11 17:28:24,669 [DEBUG] interactive is False
+2025-06-11 17:28:24,669 [DEBUG] platform is darwin
+2025-06-11 17:28:24,915 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-11 17:28:25,486 [INFO] Ventana principal mostrada. Esperando eventos Qt...
+2025-06-11 17:28:40,575 [INFO] Acción: conectar/desconectar OBD
+2025-06-11 17:28:46,128 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-11 17:28:46,129 [INFO] Estado de conexión OBD: Car Connected
+2025-06-11 17:28:56,746 [INFO] Acción: leer VIN
+2025-06-11 17:28:56,848 [INFO] VIN leído por OBD: bytearray(b'C4RJFDJ6EC56987')
+2025-06-11 17:28:56,849 [WARNING] Error decodificando VIN: VIN number requires 17 chars (29 given)
+2025-06-11 17:28:58,584 [INFO] VIN manual ingresado: , ok=False
+2025-06-11 17:28:58,584 [WARNING] VIN inválido. Activando fallback manual.
+2025-06-11 17:29:03,182 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 386, in update_model_list
+    if make in catalog:
+TypeError: argument of type 'NoneType' is not iterable
+2025-06-11 17:29:03,867 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 386, in update_model_list
+    if make in catalog:
+TypeError: argument of type 'NoneType' is not iterable
+2025-06-11 17:29:04,828 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 386, in update_model_list
+    if make in catalog:
+TypeError: argument of type 'NoneType' is not iterable
+2025-06-11 17:29:04,933 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 386, in update_model_list
+    if make in catalog:
+TypeError: argument of type 'NoneType' is not iterable
+2025-06-11 17:29:05,141 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 386, in update_model_list
+    if make in catalog:
+TypeError: argument of type 'NoneType' is not iterable
+2025-06-11 17:29:05,378 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 386, in update_model_list
+    if make in catalog:
+TypeError: argument of type 'NoneType' is not iterable
+2025-06-11 17:29:05,513 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 386, in update_model_list
+    if make in catalog:
+TypeError: argument of type 'NoneType' is not iterable
+2025-06-11 17:29:15,158 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 386, in update_model_list
+    if make in catalog:
+TypeError: argument of type 'NoneType' is not iterable
+2025-06-11 17:29:15,284 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 386, in update_model_list
+    if make in catalog:
+TypeError: argument of type 'NoneType' is not iterable
+2025-06-11 17:29:15,557 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 386, in update_model_list
+    if make in catalog:
+TypeError: argument of type 'NoneType' is not iterable
+2025-06-11 17:29:15,804 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 386, in update_model_list
+    if make in catalog:
+TypeError: argument of type 'NoneType' is not iterable
+2025-06-11 17:29:42,814 [INFO] Acción: iniciar stream multipid
+2025-06-11 17:29:42,816 [INFO] PIDs seleccionados para stream multipid: ['RPM', 'ENGINE_LOAD', 'COOLANT_TEMP', 'INTAKE_TEMP']
+2025-06-11 17:29:48,418 [INFO] Stream multipid iniciado con PIDs: ['RPM', 'ENGINE_LOAD', 'COOLANT_TEMP', 'INTAKE_TEMP']
+2025-06-11 17:29:48,461 [DEBUG] PID RPM valor recibido: 735.0 revolutions_per_minute
+2025-06-11 17:29:48,464 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:29:48,490 [DEBUG] PID ENGINE_LOAD valor recibido: None
+2025-06-11 17:29:48,490 [WARNING] PID ENGINE_LOAD sin datos en stream multipid
+2025-06-11 17:29:48,538 [DEBUG] PID COOLANT_TEMP valor recibido: None
+2025-06-11 17:29:48,538 [WARNING] PID COOLANT_TEMP sin datos en stream multipid
+2025-06-11 17:29:48,582 [DEBUG] PID INTAKE_TEMP valor recibido: None
+2025-06-11 17:29:48,582 [WARNING] PID INTAKE_TEMP sin datos en stream multipid
+2025-06-11 17:29:48,925 [DEBUG] PID RPM valor recibido: 717.0 revolutions_per_minute
+2025-06-11 17:29:48,926 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:29:48,988 [DEBUG] PID ENGINE_LOAD valor recibido: 22.745098039215687 percent
+2025-06-11 17:29:48,989 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 0.2274509803921569
+2025-06-11 17:29:49,038 [DEBUG] PID COOLANT_TEMP valor recibido: None
+2025-06-11 17:29:49,038 [WARNING] PID COOLANT_TEMP sin datos en stream multipid
+2025-06-11 17:29:49,082 [DEBUG] PID INTAKE_TEMP valor recibido: None
+2025-06-11 17:29:49,082 [WARNING] PID INTAKE_TEMP sin datos en stream multipid
+2025-06-11 17:29:49,414 [DEBUG] PID RPM valor recibido: 695.0 revolutions_per_minute
+2025-06-11 17:29:49,415 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:29:49,497 [DEBUG] PID ENGINE_LOAD valor recibido: 22.352941176470587 percent
+2025-06-11 17:29:49,498 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 0.22352941176470587
+2025-06-11 17:29:49,531 [DEBUG] PID COOLANT_TEMP valor recibido: -29 degree_Celsius
+2025-06-11 17:29:49,533 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:49,578 [DEBUG] PID INTAKE_TEMP valor recibido: None
+2025-06-11 17:29:49,579 [WARNING] PID INTAKE_TEMP sin datos en stream multipid
+2025-06-11 17:29:49,916 [DEBUG] PID RPM valor recibido: 686.0 revolutions_per_minute
+2025-06-11 17:29:49,917 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:29:49,994 [DEBUG] PID ENGINE_LOAD valor recibido: 22.352941176470587 percent
+2025-06-11 17:29:49,995 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 0.22352941176470587
+2025-06-11 17:29:50,061 [DEBUG] PID COOLANT_TEMP valor recibido: 84 degree_Celsius
+2025-06-11 17:29:50,062 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:50,209 [DEBUG] PID INTAKE_TEMP valor recibido: 33 degree_Celsius
+2025-06-11 17:29:50,210 [ERROR] Error convirtiendo valor de PID INTAKE_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:50,552 [DEBUG] PID RPM valor recibido: 706.0 revolutions_per_minute
+2025-06-11 17:29:50,553 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:29:50,580 [DEBUG] PID ENGINE_LOAD valor recibido: 4.313725490196078 percent
+2025-06-11 17:29:50,581 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 0.043137254901960784
+2025-06-11 17:29:50,626 [DEBUG] PID COOLANT_TEMP valor recibido: None
+2025-06-11 17:29:50,627 [WARNING] PID COOLANT_TEMP sin datos en stream multipid
+2025-06-11 17:29:50,772 [DEBUG] PID INTAKE_TEMP valor recibido: 33 degree_Celsius
+2025-06-11 17:29:50,773 [ERROR] Error convirtiendo valor de PID INTAKE_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:51,118 [DEBUG] PID RPM valor recibido: 699.0 revolutions_per_minute
+2025-06-11 17:29:51,122 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:29:51,201 [DEBUG] PID ENGINE_LOAD valor recibido: 22.745098039215687 percent
+2025-06-11 17:29:51,202 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 0.2274509803921569
+2025-06-11 17:29:51,322 [DEBUG] PID COOLANT_TEMP valor recibido: 84 degree_Celsius
+2025-06-11 17:29:51,322 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:51,390 [DEBUG] PID INTAKE_TEMP valor recibido: 33 degree_Celsius
+2025-06-11 17:29:51,390 [ERROR] Error convirtiendo valor de PID INTAKE_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:51,772 [DEBUG] PID RPM valor recibido: 706.0 revolutions_per_minute
+2025-06-11 17:29:51,772 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:29:51,852 [DEBUG] PID ENGINE_LOAD valor recibido: 22.745098039215687 percent
+2025-06-11 17:29:51,852 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 0.2274509803921569
+2025-06-11 17:29:51,936 [DEBUG] PID COOLANT_TEMP valor recibido: 84 degree_Celsius
+2025-06-11 17:29:51,938 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:52,007 [DEBUG] PID INTAKE_TEMP valor recibido: 33 degree_Celsius
+2025-06-11 17:29:52,008 [ERROR] Error convirtiendo valor de PID INTAKE_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:52,371 [DEBUG] PID RPM valor recibido: 712.0 revolutions_per_minute
+2025-06-11 17:29:52,372 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:29:52,454 [DEBUG] PID ENGINE_LOAD valor recibido: 23.137254901960784 percent
+2025-06-11 17:29:52,455 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 0.23137254901960785
+2025-06-11 17:29:52,536 [DEBUG] PID COOLANT_TEMP valor recibido: 84 degree_Celsius
+2025-06-11 17:29:52,536 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:52,602 [DEBUG] PID INTAKE_TEMP valor recibido: 33 degree_Celsius
+2025-06-11 17:29:52,603 [ERROR] Error convirtiendo valor de PID INTAKE_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:52,935 [DEBUG] PID RPM valor recibido: 694.0 revolutions_per_minute
+2025-06-11 17:29:52,936 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:29:53,033 [DEBUG] PID ENGINE_LOAD valor recibido: 22.745098039215687 percent
+2025-06-11 17:29:53,034 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 0.2274509803921569
+2025-06-11 17:29:53,116 [DEBUG] PID COOLANT_TEMP valor recibido: 84 degree_Celsius
+2025-06-11 17:29:53,116 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:53,208 [DEBUG] PID INTAKE_TEMP valor recibido: 33 degree_Celsius
+2025-06-11 17:29:53,209 [ERROR] Error convirtiendo valor de PID INTAKE_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:53,554 [DEBUG] PID RPM valor recibido: 727.0 revolutions_per_minute
+2025-06-11 17:29:53,555 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:29:53,635 [DEBUG] PID ENGINE_LOAD valor recibido: 22.745098039215687 percent
+2025-06-11 17:29:53,636 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 0.2274509803921569
+2025-06-11 17:29:53,680 [DEBUG] PID COOLANT_TEMP valor recibido: 84 degree_Celsius
+2025-06-11 17:29:53,680 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:53,727 [DEBUG] PID INTAKE_TEMP valor recibido: None
+2025-06-11 17:29:53,729 [WARNING] PID INTAKE_TEMP sin datos en stream multipid
+2025-06-11 17:29:54,064 [DEBUG] PID RPM valor recibido: 718.0 revolutions_per_minute
+2025-06-11 17:29:54,064 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:29:54,143 [DEBUG] PID ENGINE_LOAD valor recibido: 22.352941176470587 percent
+2025-06-11 17:29:54,144 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 0.22352941176470587
+2025-06-11 17:29:54,197 [DEBUG] PID COOLANT_TEMP valor recibido: 84 degree_Celsius
+2025-06-11 17:29:54,198 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:54,241 [DEBUG] PID INTAKE_TEMP valor recibido: None
+2025-06-11 17:29:54,242 [WARNING] PID INTAKE_TEMP sin datos en stream multipid
+2025-06-11 17:29:54,586 [DEBUG] PID RPM valor recibido: 691.0 revolutions_per_minute
+2025-06-11 17:29:54,588 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:29:54,666 [DEBUG] PID ENGINE_LOAD valor recibido: 23.137254901960784 percent
+2025-06-11 17:29:54,667 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 0.23137254901960785
+2025-06-11 17:29:54,693 [DEBUG] PID COOLANT_TEMP valor recibido: -30 degree_Celsius
+2025-06-11 17:29:54,694 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:54,740 [DEBUG] PID INTAKE_TEMP valor recibido: None
+2025-06-11 17:29:54,740 [WARNING] PID INTAKE_TEMP sin datos en stream multipid
+2025-06-11 17:29:55,076 [DEBUG] PID RPM valor recibido: 723.0 revolutions_per_minute
+2025-06-11 17:29:55,077 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:29:55,153 [DEBUG] PID ENGINE_LOAD valor recibido: 22.745098039215687 percent
+2025-06-11 17:29:55,154 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 0.2274509803921569
+2025-06-11 17:29:55,211 [DEBUG] PID COOLANT_TEMP valor recibido: 84 degree_Celsius
+2025-06-11 17:29:55,213 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:55,358 [DEBUG] PID INTAKE_TEMP valor recibido: 33 degree_Celsius
+2025-06-11 17:29:55,359 [ERROR] Error convirtiendo valor de PID INTAKE_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:55,679 [DEBUG] PID RPM valor recibido: 701.0 revolutions_per_minute
+2025-06-11 17:29:55,680 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:29:55,708 [DEBUG] PID ENGINE_LOAD valor recibido: None
+2025-06-11 17:29:55,708 [WARNING] PID ENGINE_LOAD sin datos en stream multipid
+2025-06-11 17:29:55,767 [DEBUG] PID COOLANT_TEMP valor recibido: None
+2025-06-11 17:29:55,768 [WARNING] PID COOLANT_TEMP sin datos en stream multipid
+2025-06-11 17:29:55,887 [DEBUG] PID INTAKE_TEMP valor recibido: 33 degree_Celsius
+2025-06-11 17:29:55,887 [ERROR] Error convirtiendo valor de PID INTAKE_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:56,183 [DEBUG] PID RPM valor recibido: 720.0 revolutions_per_minute
+2025-06-11 17:29:56,183 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:29:56,226 [DEBUG] PID ENGINE_LOAD valor recibido: None
+2025-06-11 17:29:56,227 [WARNING] PID ENGINE_LOAD sin datos en stream multipid
+2025-06-11 17:29:56,388 [DEBUG] PID COOLANT_TEMP valor recibido: 84 degree_Celsius
+2025-06-11 17:29:56,389 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:56,456 [DEBUG] PID INTAKE_TEMP valor recibido: 33 degree_Celsius
+2025-06-11 17:29:56,456 [ERROR] Error convirtiendo valor de PID INTAKE_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:56,875 [DEBUG] PID RPM valor recibido: 700.0 revolutions_per_minute
+2025-06-11 17:29:56,876 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:29:56,955 [DEBUG] PID ENGINE_LOAD valor recibido: 22.745098039215687 percent
+2025-06-11 17:29:56,956 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 0.2274509803921569
+2025-06-11 17:29:57,032 [DEBUG] PID COOLANT_TEMP valor recibido: 84 degree_Celsius
+2025-06-11 17:29:57,032 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:57,098 [DEBUG] PID INTAKE_TEMP valor recibido: 33 degree_Celsius
+2025-06-11 17:29:57,099 [ERROR] Error convirtiendo valor de PID INTAKE_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:57,434 [DEBUG] PID RPM valor recibido: 700.0 revolutions_per_minute
+2025-06-11 17:29:57,435 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:29:57,513 [DEBUG] PID ENGINE_LOAD valor recibido: 22.352941176470587 percent
+2025-06-11 17:29:57,513 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 0.22352941176470587
+2025-06-11 17:29:57,596 [DEBUG] PID COOLANT_TEMP valor recibido: 84 degree_Celsius
+2025-06-11 17:29:57,596 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:57,666 [DEBUG] PID INTAKE_TEMP valor recibido: 33 degree_Celsius
+2025-06-11 17:29:57,667 [ERROR] Error convirtiendo valor de PID INTAKE_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:58,005 [DEBUG] PID RPM valor recibido: 710.0 revolutions_per_minute
+2025-06-11 17:29:58,007 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:29:58,092 [DEBUG] PID ENGINE_LOAD valor recibido: 22.745098039215687 percent
+2025-06-11 17:29:58,093 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 0.2274509803921569
+2025-06-11 17:29:58,208 [DEBUG] PID COOLANT_TEMP valor recibido: 84 degree_Celsius
+2025-06-11 17:29:58,209 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:58,358 [DEBUG] PID INTAKE_TEMP valor recibido: 33 degree_Celsius
+2025-06-11 17:29:58,359 [ERROR] Error convirtiendo valor de PID INTAKE_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:58,616 [INFO] Acción: iniciar stream multipid
+2025-06-11 17:29:58,692 [DEBUG] PID RPM valor recibido: 683.0 revolutions_per_minute
+2025-06-11 17:29:58,693 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:29:58,777 [DEBUG] PID ENGINE_LOAD valor recibido: 22.745098039215687 percent
+2025-06-11 17:29:58,778 [INFO] PID ENGINE_LOAD actualizado en stream multipid: 0.2274509803921569
+2025-06-11 17:29:58,863 [DEBUG] PID COOLANT_TEMP valor recibido: 84 degree_Celsius
+2025-06-11 17:29:58,863 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:58,932 [DEBUG] PID INTAKE_TEMP valor recibido: 33 degree_Celsius
+2025-06-11 17:29:58,932 [ERROR] Error convirtiendo valor de PID INTAKE_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:29:59,489 [INFO] Stream multipid anterior detenido
+2025-06-11 17:29:59,491 [INFO] PIDs seleccionados para stream multipid: ['RPM', 'COOLANT_TEMP']
+2025-06-11 17:30:05,057 [INFO] Stream multipid iniciado con PIDs: ['RPM', 'COOLANT_TEMP']
+2025-06-11 17:30:05,176 [DEBUG] PID RPM valor recibido: 695.0 revolutions_per_minute
+2025-06-11 17:30:05,176 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:30:05,226 [DEBUG] PID COOLANT_TEMP valor recibido: None
+2025-06-11 17:30:05,226 [WARNING] PID COOLANT_TEMP sin datos en stream multipid
+2025-06-11 17:30:05,581 [DEBUG] PID RPM valor recibido: 696.0 revolutions_per_minute
+2025-06-11 17:30:05,582 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:30:05,692 [DEBUG] PID COOLANT_TEMP valor recibido: 85 degree_Celsius
+2025-06-11 17:30:05,693 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:30:06,037 [DEBUG] PID RPM valor recibido: 694.0 revolutions_per_minute
+2025-06-11 17:30:06,038 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:30:06,135 [DEBUG] PID COOLANT_TEMP valor recibido: 85 degree_Celsius
+2025-06-11 17:30:06,136 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:30:06,466 [DEBUG] PID RPM valor recibido: 702.0 revolutions_per_minute
+2025-06-11 17:30:06,468 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:30:06,545 [DEBUG] PID COOLANT_TEMP valor recibido: 85 degree_Celsius
+2025-06-11 17:30:06,546 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:30:06,913 [DEBUG] PID RPM valor recibido: 695.0 revolutions_per_minute
+2025-06-11 17:30:06,913 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:30:06,993 [DEBUG] PID COOLANT_TEMP valor recibido: 85 degree_Celsius
+2025-06-11 17:30:06,994 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:30:07,359 [DEBUG] PID RPM valor recibido: 703.0 revolutions_per_minute
+2025-06-11 17:30:07,360 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:30:07,456 [DEBUG] PID COOLANT_TEMP valor recibido: 85 degree_Celsius
+2025-06-11 17:30:07,457 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:30:07,871 [DEBUG] PID RPM valor recibido: 705.0 revolutions_per_minute
+2025-06-11 17:30:07,872 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:30:07,960 [DEBUG] PID COOLANT_TEMP valor recibido: 85 degree_Celsius
+2025-06-11 17:30:07,961 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:30:08,258 [DEBUG] PID RPM valor recibido: None
+2025-06-11 17:30:08,259 [WARNING] PID RPM sin datos en stream multipid
+2025-06-11 17:30:08,306 [DEBUG] PID COOLANT_TEMP valor recibido: None
+2025-06-11 17:30:08,307 [WARNING] PID COOLANT_TEMP sin datos en stream multipid
+2025-06-11 17:30:08,653 [DEBUG] PID RPM valor recibido: 710.0 revolutions_per_minute
+2025-06-11 17:30:08,654 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:30:08,707 [DEBUG] PID COOLANT_TEMP valor recibido: 85 degree_Celsius
+2025-06-11 17:30:08,708 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:30:09,054 [DEBUG] PID RPM valor recibido: 705.0 revolutions_per_minute
+2025-06-11 17:30:09,054 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:30:09,140 [DEBUG] PID COOLANT_TEMP valor recibido: 85 degree_Celsius
+2025-06-11 17:30:09,141 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:30:09,483 [DEBUG] PID RPM valor recibido: 690.0 revolutions_per_minute
+2025-06-11 17:30:09,484 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:30:09,573 [DEBUG] PID COOLANT_TEMP valor recibido: 85 degree_Celsius
+2025-06-11 17:30:09,574 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:30:09,923 [DEBUG] PID RPM valor recibido: 705.0 revolutions_per_minute
+2025-06-11 17:30:09,923 [ERROR] Error convirtiendo valor de PID RPM: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-11 17:30:10,011 [DEBUG] PID COOLANT_TEMP valor recibido: 85 degree_Celsius
+2025-06-11 17:30:10,012 [ERROR] Error convirtiendo valor de PID COOLANT_TEMP: Cannot convert from 'degree_Celsius' to 'dimensionless'
+2025-06-11 17:30:35,142 [INFO] Cerrando aplicación OBD2 Scanner...

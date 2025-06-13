@@ -3,9 +3,9 @@ GaugeWidget: Widget de gauge animado para PyQt6
 Inspirado en dashboards automotrices modernos.
 """
 
-from PyQt6.QtWidgets import QWidget
-from PyQt6.QtGui import QPainter, QColor, QFont, QPen
-from PyQt6.QtCore import Qt, QRectF, QTimer
+from PySide6.QtWidgets import QWidget
+from PySide6.QtGui import QPainter, QColor, QFont, QPen, QRadialGradient
+from PySide6.QtCore import Qt, QRectF, QTimer, QPointF
 import math
 
 
@@ -120,35 +120,74 @@ class GaugeWidget(QWidget):
         painter = QPainter(self)
         painter.setRenderHint(QPainter.RenderHint.Antialiasing)
         rect = QRectF(10, 10, self.width() - 20, self.height() - 20)
-        # Fondo
+        # Fondo con gradiente radial
+        grad = QRadialGradient(rect.center(), rect.width() / 2)
+        grad.setColorAt(0, QColor(40, 44, 54))
+        grad.setColorAt(1, QColor(20, 22, 28))
         painter.setPen(Qt.PenStyle.NoPen)
-        painter.setBrush(QColor(30, 34, 40))
+        painter.setBrush(grad)
         painter.drawEllipse(rect)
-        # Arco gauge (solo si el valor es válido)
+        # Escala y ticks
+        num_ticks = 9
+        tick_len = 12
+        tick_color = QColor(120, 120, 120)
+        font_ticks = QFont("Arial", 9)
+        painter.setFont(font_ticks)
+        for i in range(num_ticks):
+            angle = 225 - i * 270 / (num_ticks - 1)
+            rad = math.radians(angle)
+            x1 = rect.center().x() + (rect.width() / 2 - 18) * math.cos(rad)
+            y1 = rect.center().y() - (rect.height() / 2 - 18) * math.sin(rad)
+            x2 = rect.center().x() + (rect.width() / 2 - 6) * math.cos(rad)
+            y2 = rect.center().y() - (rect.height() / 2 - 6) * math.sin(rad)
+            painter.setPen(QPen(tick_color, 2))
+            painter.drawLine(int(x1), int(y1), int(x2), int(y2))
+            # Valor numérico
+            val = int(self.min_value + i * (self.max_value - self.min_value) / (num_ticks - 1))
+            tx = rect.center().x() + (rect.width() / 2 - 32) * math.cos(rad)
+            ty = rect.center().y() - (rect.height() / 2 - 32) * math.sin(rad)
+            painter.setPen(QColor(180, 180, 180))
+            painter.drawText(int(tx) - 12, int(ty) + 6, 24, 14, Qt.AlignmentFlag.AlignCenter, str(val))
+        # Arco gauge (color dinámico)
         start_angle = 225
         span_angle = 270
+        percent = 0
         if not self.invalid:
             percent = (self._animated_value - self.min_value) / (
                 self.max_value - self.min_value
             )
-            pen = QPen(self.color, 18)
+            percent = max(0, min(1, percent))
+            # Color dinámico
+            if percent < 0.6:
+                arc_color = QColor(60, 220, 60)  # Verde
+            elif percent < 0.85:
+                arc_color = QColor(255, 200, 40)  # Amarillo
+            else:
+                arc_color = QColor(255, 60, 60)  # Rojo
+            pen = QPen(arc_color, 18, Qt.PenStyle.SolidLine, Qt.PenCapStyle.RoundCap)
             painter.setPen(pen)
             painter.drawArc(
                 rect,
                 int((start_angle - span_angle * percent) * 16),
                 int(span_angle * percent * 16),
             )
+        # Aguja tipo velocímetro
+        if not self.invalid:
+            angle = math.radians(225 - 270 * percent)
+            needle_len = rect.width() / 2 - 32
+            x = rect.center().x() + needle_len * math.cos(angle)
+            y = rect.center().y() - needle_len * math.sin(angle)
+            painter.setPen(QPen(QColor(220, 220, 220), 4))
+            painter.drawLine(rect.center(), QPointF(x, y))
+            # Centro de la aguja
+            painter.setBrush(QColor(180, 180, 180))
+            painter.setPen(Qt.PenStyle.NoPen)
+            painter.drawEllipse(rect.center(), 8, 8)
         # Texto valor
-        painter.setPen(QColor(240, 240, 240))
+        painter.setPen(QColor(240, 240, 240) if not self.invalid else QColor(255, 80, 80))
         font = QFont("Consolas", 32, QFont.Weight.Bold)
         painter.setFont(font)
-        if self.invalid:
-            value_str = "---"
-            # Opcional: color de advertencia
-            painter.setPen(QColor(255, 80, 80))
-        else:
-            value_str = f"{int(self._animated_value):,}"
-        # Usar la sobrecarga correcta: QRectF, int, str
+        value_str = "---" if self.invalid else f"{int(self._animated_value):,}"
         painter.drawText(
             rect,
             int(Qt.AlignmentFlag.AlignCenter),
@@ -157,6 +196,7 @@ class GaugeWidget(QWidget):
         # Unidades
         font2 = QFont("Arial", 14)
         painter.setFont(font2)
+        painter.setPen(QColor(180, 180, 180))
         painter.drawText(
             rect.adjusted(0, 60, 0, 0),
             int(Qt.AlignmentFlag.AlignHCenter),

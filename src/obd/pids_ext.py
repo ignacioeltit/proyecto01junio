@@ -197,6 +197,12 @@ def parse_temp_aire_admision(resp):
 PIDS["0105"]["parse_fn"] = parse_temp_refrigerante
 # Asignar la función de parseo robusta al PID 010F
 PIDS["010F"]["parse_fn"] = parse_temp_aire_admision
+PIDS["010C"]["parse_fn"] = lambda resp: (
+    int(resp.replace(' ', '')[4:8], 16) / 4 if resp and len(resp.replace(' ', '')) >= 8 and resp.replace(' ', '').startswith('410C') else None
+)
+PIDS["010D"]["parse_fn"] = lambda resp: (
+    int(resp.replace(' ', '')[4:6], 16) if resp and len(resp.replace(' ', '')) >= 6 and resp.replace(' ', '').startswith('410D') else None
+)
 
 # --- FIN DEL MÓDULO CENTRALIZADO DE PIds ---
 
@@ -444,16 +450,26 @@ def parse_fuel_rate(resp):
         return None
 
 def parse_control_module_voltage(resp):
-    """Parsea voltaje ECU (PID 0142)"""
+    """Parsea voltaje ECU (PID 0142) de respuestas simples o múltiples (concatenadas)."""
     if not resp:
         return None
     try:
-        raw = resp.replace(" ", "")
-        if raw.startswith("4142") and len(raw) >= 8:
-            a = int(raw[4:6], 16)
-            b = int(raw[6:8], 16)
+        # Buscar todas las ocurrencias de 41 42 XX YY
+        import re
+        # Permite respuestas con o sin espacios
+        pattern = re.compile(r"41\s*42\s*([0-9A-Fa-f]{2})\s*([0-9A-Fa-f]{2})")
+        matches = pattern.findall(resp)
+        if not matches:
+            # Buscar también en formato compacto (sin espacios)
+            pattern2 = re.compile(r"4142([0-9A-Fa-f]{2})([0-9A-Fa-f]{2})")
+            matches = pattern2.findall(resp)
+        for a_hex, b_hex in matches:
+            a = int(a_hex, 16)
+            b = int(b_hex, 16)
             voltage = ((a * 256) + b) * 0.001
+            # Solo retorna el primer valor válido encontrado
             return voltage
     except Exception:
         return None
+    return None
 # --- Fin PIDs Toyota Hilux 2018 Diesel ---

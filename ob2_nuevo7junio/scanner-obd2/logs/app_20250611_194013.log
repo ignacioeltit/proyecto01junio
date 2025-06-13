@@ -1,0 +1,100 @@
+2025-06-11 19:40:13,832 [DEBUG] matplotlib data path: /Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/matplotlib/mpl-data
+2025-06-11 19:40:13,839 [DEBUG] CONFIGDIR=/Users/ignacioeltit/.matplotlib
+2025-06-11 19:40:13,841 [DEBUG] interactive is False
+2025-06-11 19:40:13,841 [DEBUG] platform is darwin
+2025-06-11 19:40:14,092 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-11 19:40:14,689 [INFO] Ventana principal mostrada. Esperando eventos Qt...
+2025-06-11 19:41:31,161 [INFO] Acción: conectar/desconectar OBD
+2025-06-11 19:41:36,816 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-11 19:41:36,817 [INFO] Estado de conexión OBD: Car Connected
+2025-06-11 19:41:51,123 [INFO] Acción: leer VIN
+2025-06-11 19:41:51,220 [INFO] VIN leído por OBD: bytearray(b'C4RJFDJ6EC56987')
+2025-06-11 19:41:51,221 [WARNING] Error decodificando VIN: VIN number requires 17 chars (29 given)
+2025-06-11 19:41:53,607 [INFO] VIN manual ingresado: , ok=True
+2025-06-11 19:41:53,607 [WARNING] VIN inválido. Activando fallback manual.
+2025-06-11 19:41:55,418 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 251, in leer_vin
+    self.visualizer.enable_vehicle_fallback(True)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 295, in enable_vehicle_fallback
+    self.label_fallback.setVisible(enabled)
+AttributeError: 'DataVisualizer' object has no attribute 'label_fallback'
+2025-06-11 19:42:18,992 [INFO] Acción: iniciar stream multipid
+2025-06-11 19:42:18,995 [INFO] PIDs seleccionados para stream multipid: ['RPM']
+2025-06-11 19:42:24,618 [INFO] Stream multipid iniciado con PIDs: ['RPM']
+2025-06-11 19:42:24,679 [DEBUG] PID RPM valor recibido: 723.0 revolutions_per_minute
+2025-06-11 19:42:24,679 [INFO] PID RPM actualizado en stream multipid: 723.0
+2025-06-11 19:42:36,590 [INFO] Acción: iniciar stream multipid
+2025-06-11 19:42:36,593 [INFO] PIDs seleccionados para stream multipid: ['RPM']
+2025-06-11 19:42:42,195 [INFO] Stream multipid iniciado con PIDs: ['RPM']
+2025-06-11 19:42:42,237 [DEBUG] PID RPM valor recibido: 698.0 revolutions_per_minute
+2025-06-11 19:42:42,238 [INFO] PID RPM actualizado en stream multipid: 698.0
+2025-06-11 19:42:42,399 [DEBUG] PID RPM valor recibido: 697.0 revolutions_per_minute
+2025-06-11 19:42:42,399 [INFO] PID RPM actualizado en stream multipid: 697.0
+2025-06-11 19:42:42,552 [DEBUG] PID RPM valor recibido: 693.0 revolutions_per_minute
+2025-06-11 19:42:42,552 [INFO] PID RPM actualizado en stream multipid: 693.0
+2025-06-11 19:42:42,695 [DEBUG] PID RPM valor recibido: 702.0 revolutions_per_minute
+2025-06-11 19:42:42,696 [INFO] PID RPM actualizado en stream multipid: 702.0
+2025-06-11 19:42:42,773 [DEBUG] PID RPM valor recibido: 704.0 revolutions_per_minute
+2025-06-11 19:42:42,773 [INFO] PID RPM actualizado en stream multipid: 704.0
+2025-06-11 19:42:42,940 [DEBUG] PID RPM valor recibido: 700.0 revolutions_per_minute
+2025-06-11 19:42:42,941 [INFO] PID RPM actualizado en stream multipid: 700.0
+2025-06-11 19:42:43,090 [DEBUG] PID RPM valor recibido: 694.0 revolutions_per_minute
+2025-06-11 19:42:43,091 [INFO] PID RPM actualizado en stream multipid: 694.0
+2025-06-11 19:42:43,232 [DEBUG] PID RPM valor recibido: 699.0 revolutions_per_minute
+2025-06-11 19:42:43,233 [INFO] PID RPM actualizado en stream multipid: 699.0
+2025-06-11 19:42:43,314 [DEBUG] PID RPM valor recibido: 711.0 revolutions_per_minute
+2025-06-11 19:42:43,315 [INFO] PID RPM actualizado en stream multipid: 711.0
+2025-06-11 19:42:43,460 [DEBUG] PID RPM valor recibido: 699.0 revolutions_per_minute
+2025-06-11 19:42:43,461 [INFO] PID RPM actualizado en stream multipid: 699.0
+2025-06-11 19:42:43,600 [DEBUG] PID RPM valor recibido: 685.0 revolutions_per_minute
+2025-06-11 19:42:43,601 [INFO] PID RPM actualizado en stream multipid: 685.0
+2025-06-11 19:42:43,740 [DEBUG] PID RPM valor recibido: 691.0 revolutions_per_minute
+2025-06-11 19:42:43,741 [INFO] PID RPM actualizado en stream multipid: 691.0
+2025-06-11 19:42:43,824 [DEBUG] PID RPM valor recibido: 705.0 revolutions_per_minute
+2025-06-11 19:42:43,825 [INFO] PID RPM actualizado en stream multipid: 705.0
+2025-06-11 19:42:43,968 [DEBUG] PID RPM valor recibido: 707.0 revolutions_per_minute
+2025-06-11 19:42:43,969 [INFO] PID RPM actualizado en stream multipid: 707.0
+2025-06-11 19:42:44,102 [DEBUG] PID RPM valor recibido: 704.0 revolutions_per_minute
+2025-06-11 19:42:44,102 [INFO] PID RPM actualizado en stream multipid: 704.0
+2025-06-11 19:42:44,238 [DEBUG] PID RPM valor recibido: 713.0 revolutions_per_minute
+2025-06-11 19:42:44,239 [INFO] PID RPM actualizado en stream multipid: 713.0
+2025-06-11 19:42:44,334 [DEBUG] PID RPM valor recibido: 711.0 revolutions_per_minute
+2025-06-11 19:42:44,334 [INFO] PID RPM actualizado en stream multipid: 711.0
+2025-06-11 19:42:44,500 [DEBUG] PID RPM valor recibido: 689.0 revolutions_per_minute
+2025-06-11 19:42:44,500 [INFO] PID RPM actualizado en stream multipid: 689.0
+2025-06-11 19:42:44,640 [DEBUG] PID RPM valor recibido: 693.0 revolutions_per_minute
+2025-06-11 19:42:44,640 [INFO] PID RPM actualizado en stream multipid: 693.0
+2025-06-11 19:42:44,768 [DEBUG] PID RPM valor recibido: 714.0 revolutions_per_minute
+2025-06-11 19:42:44,769 [INFO] PID RPM actualizado en stream multipid: 714.0
+2025-06-11 19:42:44,867 [DEBUG] PID RPM valor recibido: 706.0 revolutions_per_minute
+2025-06-11 19:42:44,867 [INFO] PID RPM actualizado en stream multipid: 706.0
+2025-06-11 19:42:45,033 [DEBUG] PID RPM valor recibido: 708.0 revolutions_per_minute
+2025-06-11 19:42:45,033 [INFO] PID RPM actualizado en stream multipid: 708.0
+2025-06-11 19:42:45,168 [DEBUG] PID RPM valor recibido: 704.0 revolutions_per_minute
+2025-06-11 19:42:45,169 [INFO] PID RPM actualizado en stream multipid: 704.0
+2025-06-11 19:42:45,298 [DEBUG] PID RPM valor recibido: 697.0 revolutions_per_minute
+2025-06-11 19:42:45,299 [INFO] PID RPM actualizado en stream multipid: 697.0
+2025-06-11 19:42:45,439 [DEBUG] PID RPM valor recibido: 698.0 revolutions_per_minute
+2025-06-11 19:42:45,439 [INFO] PID RPM actualizado en stream multipid: 698.0
+2025-06-11 19:42:45,578 [DEBUG] PID RPM valor recibido: 699.0 revolutions_per_minute
+2025-06-11 19:42:45,579 [INFO] PID RPM actualizado en stream multipid: 699.0
+2025-06-11 19:42:45,720 [DEBUG] PID RPM valor recibido: 705.0 revolutions_per_minute
+2025-06-11 19:42:45,720 [INFO] PID RPM actualizado en stream multipid: 705.0
+2025-06-11 19:42:45,860 [DEBUG] PID RPM valor recibido: 700.0 revolutions_per_minute
+2025-06-11 19:42:45,860 [INFO] PID RPM actualizado en stream multipid: 700.0
+2025-06-11 19:42:45,936 [DEBUG] PID RPM valor recibido: 704.0 revolutions_per_minute
+2025-06-11 19:42:45,936 [INFO] PID RPM actualizado en stream multipid: 704.0
+2025-06-11 19:42:46,108 [DEBUG] PID RPM valor recibido: 718.0 revolutions_per_minute
+2025-06-11 19:42:46,108 [INFO] PID RPM actualizado en stream multipid: 718.0
+2025-06-11 19:42:46,238 [DEBUG] PID RPM valor recibido: 714.0 revolutions_per_minute
+2025-06-11 19:42:46,239 [INFO] PID RPM actualizado en stream multipid: 714.0
+2025-06-11 19:42:46,370 [DEBUG] PID RPM valor recibido: 703.0 revolutions_per_minute
+2025-06-11 19:42:46,370 [INFO] PID RPM actualizado en stream multipid: 703.0
+2025-06-11 19:42:46,449 [DEBUG] PID RPM valor recibido: 703.0 revolutions_per_minute
+2025-06-11 19:42:46,450 [INFO] PID RPM actualizado en stream multipid: 703.0
+2025-06-11 19:42:46,628 [DEBUG] PID RPM valor recibido: 701.0 revolutions_per_minute
+2025-06-11 19:42:46,629 [INFO] PID RPM actualizado en stream multipid: 701.0
+2025-06-11 19:42:46,768 [DEBUG] PID RPM valor recibido: 726.0 revolutions_per_minute
+2025-06-11 19:42:46,768 [INFO] PID RPM actualizado en stream multipid: 726.0
+2025-06-11 19:42:53,672 [INFO] Cerrando aplicación OBD2 Scanner...

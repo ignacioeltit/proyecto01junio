@@ -1,0 +1,3 @@
+2025-06-08 18:38:41,838 - scanner-obd2 - INFO - Iniciando Scanner OBD2...
+2025-06-08 18:54:24,924 - scanner-obd2 - INFO - PIDs disponibles: 9
+2025-06-08 18:54:42,942 - scanner-obd2 - ERROR - No se pudo conectar con ELM327.

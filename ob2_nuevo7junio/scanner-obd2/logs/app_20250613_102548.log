@@ -1,0 +1,10 @@
+2025-06-13 10:25:49,000 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-13 10:25:49,322 [DEBUG] Using selector: _Selector
+2025-06-13 10:25:50,038 [INFO] Ventana principal mostrada. Esperando eventos Qt+asyncio...
+2025-06-13 10:25:57,172 [INFO] Acción: leer VIN
+2025-06-13 10:25:57,173 [INFO] VIN leído por OBD: None
+2025-06-13 10:25:59,753 [INFO] VIN manual ingresado: , ok=False
+2025-06-13 10:25:59,754 [WARNING] VIN inválido. Activando fallback manual.
+2025-06-13 10:26:01,494 [WARNING] No se pudo agregar botón a _main_layout: 'DataVisualizer' object has no attribute '_main_layout'
+2025-06-13 10:26:03,169 [INFO] Cerrando aplicación OBD2 Scanner...
+2025-06-13 10:26:03,180 [DEBUG] Closing

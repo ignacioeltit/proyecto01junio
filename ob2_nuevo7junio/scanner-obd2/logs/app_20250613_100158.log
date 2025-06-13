@@ -1,0 +1,9 @@
+2025-06-13 10:01:58,707 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-13 10:01:58,881 [DEBUG] Using selector: _Selector
+2025-06-13 10:01:59,291 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 542, in <module>
+    win = DataVisualizer(lambda: {}, pid_manager=None, elm327=None, parse_pid_response=None, backend=backend)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 113, in __init__
+    self.tuning_widget.tuning_update.connect(self.on_tuning_update)
+AttributeError: 'DataVisualizer' object has no attribute 'on_tuning_update'

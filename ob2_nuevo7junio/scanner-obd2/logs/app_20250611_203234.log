@@ -1,0 +1,51 @@
+2025-06-11 20:32:35,260 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-11 20:32:35,882 [INFO] Ventana principal mostrada. Esperando eventos Qt...
+2025-06-11 20:32:38,769 [INFO] Acción: conectar/desconectar OBD
+2025-06-11 20:32:47,944 [ERROR] Failed to query protocol 0100: unable to connect
+2025-06-11 20:32:47,966 [ERROR] Adapter connected, but the ignition is off
+2025-06-11 20:32:47,966 [WARNING] Cannot load commands: No connection to car
+2025-06-11 20:32:47,966 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-11 20:32:47,968 [INFO] Estado de conexión OBD: OBD Connected
+2025-06-11 20:33:08,600 [INFO] Acción: conectar/desconectar OBD
+2025-06-11 20:33:14,606 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-11 20:33:14,607 [INFO] Estado de conexión OBD: Car Connected
+2025-06-11 20:33:28,334 [INFO] Acción: iniciar stream multipid
+2025-06-11 20:33:28,339 [INFO] PIDs seleccionados para stream multipid: ['RPM']
+2025-06-11 20:33:28,339 [INFO] [UI] show_gauges llamado con 1 PIDs: ['RPM']
+2025-06-11 20:33:28,345 [INFO] [UI] 1 gauges agregados al layout de la pestaña Gauges
+2025-06-11 20:33:35,254 [INFO] Stream multipid iniciado con PIDs: ['RPM']
+2025-06-11 20:33:35,364 [DEBUG] PID RPM valor recibido: 842.0 revolutions_per_minute
+2025-06-11 20:33:35,365 [INFO] PID RPM actualizado en stream multipid: 842.0
+2025-06-11 20:33:35,515 [DEBUG] PID RPM valor recibido: 848.0 revolutions_per_minute
+2025-06-11 20:33:35,516 [INFO] PID RPM actualizado en stream multipid: 848.0
+2025-06-11 20:33:35,670 [DEBUG] PID RPM valor recibido: 849.0 revolutions_per_minute
+2025-06-11 20:33:35,671 [INFO] PID RPM actualizado en stream multipid: 849.0
+2025-06-11 20:33:35,817 [DEBUG] PID RPM valor recibido: 850.0 revolutions_per_minute
+2025-06-11 20:33:35,818 [INFO] PID RPM actualizado en stream multipid: 850.0
+2025-06-11 20:33:35,968 [DEBUG] PID RPM valor recibido: 840.0 revolutions_per_minute
+2025-06-11 20:33:35,969 [INFO] PID RPM actualizado en stream multipid: 840.0
+2025-06-11 20:33:36,115 [DEBUG] PID RPM valor recibido: 831.0 revolutions_per_minute
+2025-06-11 20:33:36,115 [INFO] PID RPM actualizado en stream multipid: 831.0
+2025-06-11 20:33:36,265 [DEBUG] PID RPM valor recibido: 822.0 revolutions_per_minute
+2025-06-11 20:33:36,266 [INFO] PID RPM actualizado en stream multipid: 822.0
+2025-06-11 20:33:36,427 [DEBUG] PID RPM valor recibido: 817.0 revolutions_per_minute
+2025-06-11 20:33:36,428 [INFO] PID RPM actualizado en stream multipid: 817.0
+2025-06-11 20:33:36,572 [DEBUG] PID RPM valor recibido: 821.0 revolutions_per_minute
+2025-06-11 20:33:36,573 [INFO] PID RPM actualizado en stream multipid: 821.0
+2025-06-11 20:33:36,725 [DEBUG] PID RPM valor recibido: 816.0 revolutions_per_minute
+2025-06-11 20:33:36,725 [INFO] PID RPM actualizado en stream multipid: 816.0
+2025-06-11 20:33:36,873 [DEBUG] PID RPM valor recibido: 819.0 revolutions_per_minute
+2025-06-11 20:33:36,874 [INFO] PID RPM actualizado en stream multipid: 819.0
+2025-06-11 20:33:37,023 [DEBUG] PID RPM valor recibido: 823.0 revolutions_per_minute
+2025-06-11 20:33:37,024 [INFO] PID RPM actualizado en stream multipid: 823.0
+2025-06-11 20:33:37,173 [DEBUG] PID RPM valor recibido: 823.0 revolutions_per_minute
+2025-06-11 20:33:37,174 [INFO] PID RPM actualizado en stream multipid: 823.0
+2025-06-11 20:33:37,323 [DEBUG] PID RPM valor recibido: 813.0 revolutions_per_minute
+2025-06-11 20:33:37,324 [INFO] PID RPM actualizado en stream multipid: 813.0
+2025-06-11 20:33:37,477 [DEBUG] PID RPM valor recibido: 797.0 revolutions_per_minute
+2025-06-11 20:33:37,477 [INFO] PID RPM actualizado en stream multipid: 797.0
+2025-06-11 20:33:37,624 [DEBUG] PID RPM valor recibido: 812.0 revolutions_per_minute
+2025-06-11 20:33:37,624 [INFO] PID RPM actualizado en stream multipid: 812.0
+2025-06-11 20:33:37,773 [DEBUG] PID RPM valor recibido: 800.0 revolutions_per_minute
+2025-06-11 20:33:37,773 [INFO] PID RPM actualizado en stream multipid: 800.0
+2025-06-11 20:33:48,874 [INFO] Cerrando aplicación OBD2 Scanner...

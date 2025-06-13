@@ -187,3 +187,22 @@ class ELM327Interface:
     def query(self, cmd: str) -> str:
         """Alias para send_command, usado por la GUI para compatibilidad."""
         return self.send_command(cmd)
+
+    async def read_vin_iso_tp(self):
+        """Lee el VIN usando el comando estándar OBD-II 09 02 (modo 09 PID 02)."""
+        import asyncio
+        if not self.connected:
+            raise RuntimeError("No conectado a ELM327 WiFi")
+        # Enviar comando y esperar respuesta
+        loop = asyncio.get_event_loop()
+        resp = await loop.run_in_executor(None, self.send_command, "09 02")
+        # Procesar la respuesta para extraer el VIN
+        import re
+        hex_bytes = re.findall(r'([0-9A-Fa-f]{2})', resp)
+        ascii_chars = [chr(int(b, 16)) for b in hex_bytes if 32 <= int(b, 16) <= 126]
+        vin = ''.join(ascii_chars)
+        return vin.strip()[:17] if len(vin.strip()) >= 10 else None
+
+    async def read_vin_at(self):
+        """Stub para compatibilidad: fallback de lectura de VIN por AT (no implementado en hardware real)."""
+        return None

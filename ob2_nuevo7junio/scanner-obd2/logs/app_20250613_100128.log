@@ -1,0 +1,11 @@
+2025-06-13 10:01:28,804 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-13 10:01:29,132 [DEBUG] Using selector: _Selector
+2025-06-13 10:01:29,533 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 542, in <module>
+    win = DataVisualizer(lambda: {}, pid_manager=None, elm327=None, parse_pid_response=None, backend=backend)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 111, in __init__
+    self.init_ui()  # <-- Primero inicializa la UI (crea self.tabs)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 270, in init_ui
+    self.pid_acquisition_tab = PIDAcquisitionTab(self.pid_manager, self.backend, self)
+TypeError: __init__() takes from 1 to 2 positional arguments but 4 were given

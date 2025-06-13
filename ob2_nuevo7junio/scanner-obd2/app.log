@@ -1,0 +1,47 @@
+2025-06-11 16:59:01,244 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-11 16:59:01,820 [INFO] Ventana principal mostrada. Esperando eventos Qt...
+2025-06-11 16:59:07,530 [INFO] Acción: conectar/desconectar OBD
+2025-06-11 16:59:12,551 [ERROR] Could not open port socket://192.168.0.10:35000: timed out
+2025-06-11 16:59:12,553 [WARNING] Cannot load commands: No connection to car
+2025-06-11 16:59:12,553 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-11 16:59:12,553 [INFO] Estado de conexión OBD: Not Connected
+2025-06-11 16:59:17,158 [INFO] Acción: leer VIN
+2025-06-11 16:59:17,159 [INFO] VIN leído por OBD: None
+2025-06-11 16:59:38,130 [INFO] VIN manual ingresado: 1C4RJFDJ6EC569872, ok=True
+2025-06-11 16:59:38,134 [WARNING] VIN inconsistente: OBD=None, manual=1C4RJFDJ6EC569872
+2025-06-11 16:59:40,057 [INFO] VIN final usado: 1C4RJFDJ6EC569872 (manual)
+2025-06-11 16:59:45,277 [INFO] Acción: conectar/desconectar OBD
+2025-06-11 16:59:50,288 [ERROR] Could not open port socket://192.168.0.10:35000: timed out
+2025-06-11 16:59:50,288 [WARNING] Cannot load commands: No connection to car
+2025-06-11 16:59:50,288 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-11 16:59:50,288 [INFO] Estado de conexión OBD: Not Connected
+2025-06-11 17:00:00,579 [INFO] Acción: conectar/desconectar OBD
+2025-06-11 17:00:05,585 [ERROR] Could not open port socket://192.168.0.10:35000: timed out
+2025-06-11 17:00:05,585 [WARNING] Cannot load commands: No connection to car
+2025-06-11 17:00:05,585 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-11 17:00:05,585 [INFO] Estado de conexión OBD: Not Connected
+2025-06-11 17:00:09,061 [INFO] Acción: conectar/desconectar OBD
+2025-06-11 17:00:14,068 [ERROR] Could not open port socket://192.168.0.10:35000: timed out
+2025-06-11 17:00:14,068 [WARNING] Cannot load commands: No connection to car
+2025-06-11 17:00:14,068 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-11 17:00:14,069 [INFO] Estado de conexión OBD: Not Connected
+2025-06-11 17:00:15,827 [INFO] Acción: leer VIN
+2025-06-11 17:00:15,829 [INFO] VIN leído por OBD: None
+2025-06-11 17:00:20,993 [INFO] VIN manual ingresado: 1C4RJFDJ6EC569872, ok=True
+2025-06-11 17:00:20,994 [WARNING] VIN inconsistente: OBD=None, manual=1C4RJFDJ6EC569872
+2025-06-11 17:00:22,404 [INFO] VIN final usado: 1C4RJFDJ6EC569872 (manual)
+2025-06-11 17:00:24,594 [INFO] Acción: conectar/desconectar OBD
+2025-06-11 17:00:29,599 [ERROR] Could not open port socket://192.168.0.10:35000: timed out
+2025-06-11 17:00:29,600 [WARNING] Cannot load commands: No connection to car
+2025-06-11 17:00:29,601 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-11 17:00:29,601 [INFO] Estado de conexión OBD: Not Connected
+2025-06-11 17:00:43,245 [INFO] Acción: conectar/desconectar OBD
+2025-06-11 17:00:48,872 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-11 17:00:48,873 [INFO] Estado de conexión OBD: Car Connected
+2025-06-11 17:00:52,007 [INFO] Acción: leer VIN
+2025-06-11 17:00:52,102 [INFO] VIN leído por OBD: bytearray(b'C4RJFDJ6EC56987')
+2025-06-11 17:00:52,103 [WARNING] Error decodificando VIN: VIN number requires 17 chars (29 given)
+2025-06-11 17:00:55,299 [INFO] VIN manual ingresado: 1C4RJFDJ6EC569872, ok=True
+2025-06-11 17:00:55,299 [WARNING] VIN inconsistente: OBD=bytearray(b'C4RJFDJ6EC56987'), manual=1C4RJFDJ6EC569872
+2025-06-11 17:00:57,058 [INFO] VIN final usado: 1C4RJFDJ6EC569872 (manual)
+2025-06-11 17:02:47,328 [INFO] Cerrando aplicación OBD2 Scanner...
