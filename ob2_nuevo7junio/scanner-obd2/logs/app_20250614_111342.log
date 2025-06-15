@@ -1,0 +1,110 @@
+2025-06-14 11:13:42,411 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-14 11:13:42,558 [DEBUG] Using selector: _Selector
+2025-06-14 11:13:42,765 [INFO] Ventana principal mostrada. Esperando eventos Qt+asyncio...
+2025-06-14 11:13:42,972 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:42,973 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:42,973 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:43,050 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:43,050 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:43,050 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:43,155 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:43,155 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:43,155 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:43,261 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:43,261 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:43,261 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:43,363 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:43,363 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:43,364 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:43,464 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:43,465 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:43,465 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:43,563 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:43,564 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:43,564 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:43,665 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:43,665 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:43,665 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:43,764 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:43,765 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:43,765 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:43,864 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:43,865 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:43,865 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:43,963 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:43,964 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:43,964 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:44,063 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:44,064 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:44,064 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:44,165 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:44,165 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:44,166 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:44,264 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:44,265 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:44,265 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:44,363 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:44,363 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:44,363 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:44,464 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:44,464 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:44,464 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:44,564 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:44,564 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:44,565 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:44,663 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:44,664 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:44,664 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:44,764 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:44,765 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:44,765 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:44,864 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:44,865 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:44,865 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:44,963 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:44,964 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:44,964 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:45,064 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:45,065 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:45,065 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:45,164 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:45,165 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:45,165 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:45,264 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:45,264 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:45,264 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:45,362 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:45,362 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:45,362 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:45,463 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:45,463 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:45,463 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:45,564 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:45,565 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:45,565 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:45,664 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:45,664 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:45,664 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:45,764 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:45,765 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:45,765 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:45,863 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:45,864 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:45,864 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:45,964 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:45,964 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:45,964 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:46,064 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:46,064 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:46,064 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:46,165 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:46,165 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:46,165 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:46,264 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:46,265 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:46,265 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:46,364 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-14 11:13:46,365 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-14 11:13:46,365 [DEBUG] [consume_data_buffer] update_graphs() y update_multipid_labels() llamados tras consumir buffer.
+2025-06-14 11:13:46,435 [INFO] Cerrando aplicación OBD2 Scanner...
+2025-06-14 11:13:46,479 [DEBUG] Closing

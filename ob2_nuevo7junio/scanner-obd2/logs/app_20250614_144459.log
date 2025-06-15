@@ -1,0 +1,65 @@
+2025-06-14 14:44:59,338 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-14 14:44:59,516 [DEBUG] Using selector: _Selector
+2025-06-14 14:44:59,763 [INFO] Ventana principal mostrada. Esperando eventos Qt+asyncio...
+2025-06-14 14:45:52,557 [INFO] Acción: conectar/desconectar OBD
+2025-06-14 14:46:32,832 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-14 14:46:32,837 [INFO] Estado de conexión OBD: Car Connected
+2025-06-14 14:46:44,259 [INFO] Acción: leer VIN
+2025-06-14 14:46:44,346 [INFO] VIN leído por OBD: bytearray(b'C4RJFDJ6EC56987')
+2025-06-14 14:46:44,346 [WARNING] Error decodificando VIN: VIN number requires 17 chars (29 given)
+2025-06-14 14:46:50,268 [INFO] VIN manual ingresado: bytearray(b'C4RJFDJ6EC56987'), ok=True
+2025-06-14 14:46:50,269 [WARNING] VIN inválido. Activando fallback manual.
+2025-06-14 14:46:52,227 [WARNING] No se pudo agregar botón a _main_layout: 'DataVisualizer' object has no attribute 'create_and_connect_save_button'
+2025-06-14 14:46:52,229 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 251, in leer_vin
+    self.visualizer.create_and_connect_save_button(self.visualizer._main_layout)
+AttributeError: 'DataVisualizer' object has no attribute 'create_and_connect_save_button'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 254, in leer_vin
+    self.visualizer.create_and_connect_save_button(self.visualizer.tabs.currentWidget().layout())
+AttributeError: 'DataVisualizer' object has no attribute 'create_and_connect_save_button'
+2025-06-14 14:47:14,580 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 434, in decodificar_vin
+    decoder = VinDecoder()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/vin_decoder.py", line 11, in __init__
+    with open(os.path.join(base, 'wmi_codes.json'), encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/vin_data/wmi_codes.json'
+2025-06-14 14:47:19,294 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 434, in decodificar_vin
+    decoder = VinDecoder()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/vin_decoder.py", line 11, in __init__
+    with open(os.path.join(base, 'wmi_codes.json'), encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/vin_data/wmi_codes.json'
+2025-06-14 14:47:41,263 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 434, in decodificar_vin
+    decoder = VinDecoder()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/vin_decoder.py", line 11, in __init__
+    with open(os.path.join(base, 'wmi_codes.json'), encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/vin_data/wmi_codes.json'
+2025-06-14 14:47:48,409 [INFO] Acción: leer VIN
+2025-06-14 14:47:48,499 [INFO] VIN leído por OBD: bytearray(b'C4RJFDJ6EC56987')
+2025-06-14 14:47:48,500 [WARNING] Error decodificando VIN: VIN number requires 17 chars (29 given)
+2025-06-14 14:47:49,986 [INFO] VIN manual ingresado: , ok=False
+2025-06-14 14:47:49,987 [WARNING] VIN inválido. Activando fallback manual.
+2025-06-14 14:47:51,901 [WARNING] No se pudo agregar botón a _main_layout: 'DataVisualizer' object has no attribute 'create_and_connect_save_button'
+2025-06-14 14:47:51,901 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 251, in leer_vin
+    self.visualizer.create_and_connect_save_button(self.visualizer._main_layout)
+AttributeError: 'DataVisualizer' object has no attribute 'create_and_connect_save_button'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 254, in leer_vin
+    self.visualizer.create_and_connect_save_button(self.visualizer.tabs.currentWidget().layout())
+AttributeError: 'DataVisualizer' object has no attribute 'create_and_connect_save_button'
+2025-06-14 14:48:29,725 [INFO] Cerrando aplicación OBD2 Scanner...
+2025-06-14 14:48:29,767 [DEBUG] Closing

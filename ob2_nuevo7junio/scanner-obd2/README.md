@@ -1,72 +1,90 @@
-# Scanner OBD2 Profesional
+# OBD2 Professional Scanner
 
-## Objetivo
-Desarrollar un escáner automotriz OBD2 profesional en Python 3.11+ compatible con ELM327 (WiFi/Bluetooth/USB), capaz de leer VIN, DTCs, datos en vivo y graficar parámetros.
+A robust, modular, and extensible OBD-II diagnostic suite for automotive professionals and enthusiasts. Integrates real-time data acquisition, advanced DTC management, and a modern GUI for both real and simulated environments.
 
-## Estructura del Proyecto
-- Modular, escalable y documentado.
-- Soporte para logs, simulador ECU, selección dinámica de PIDs y visualización de datos.
+## 🚀 Main Objective
+This application provides advanced OBD-II diagnostics, real-time vehicle data visualization, and DTC management. It supports ELM327 (WiFi/USB) and J2534 hardware interfaces, and can operate in both real and simulation modes. Designed for workshops, researchers, and power users.
 
-## Uso Básico
-1. Instala dependencias: `pip install -r requirements.txt`
-2. Ejecuta: `python src/main.py`
+## 🧱 General Architecture
+- **GUI (PySide6/PyQt6):** Multi-tab interface for diagnostics, live data, DTCs, and realistic automotive gauges (GAUGES 2.0).
+- **Backend Acquisition:** Modular support for ELM327 (WiFi/USB) and J2534 adapters. Async and multiprocess data streams.
+- **PID Manager:** Centralized PID definition, grouping, and batch reading.
+- **Async Logger:** Non-blocking, session-based JSON logging for all events and readings.
+- **DTC Reader:** Reads, decodes, and clears DTCs with VIN-aware logic and suggestions.
+- **ELM327 Simulator:** Integrated for offline development and demo mode.
+- **Offline/Emulation Mode:** Full functionality without vehicle connection for testing and training.
 
-# OBD2 Async Scanner Premium
+## 📦 Folder Structure (Excerpt)
+```
+scanner-obd2/
+├── src/
+│   ├── main.py                # Main app entry point
+│   ├── main_async.py          # Async backend runner
+│   ├── ui/
+│   │   ├── data_visualizer.py # Main GUI logic
+│   │   └── widgets/
+│   │       └── gauge_realista.py # Realistic gauge widget
+│   ├── core/
+│   │   └── elm327_interface.py   # ELM327 comms
+│   ├── elm327_async.py       # Async ELM327 logic
+│   ├── obd2_async_utils.py   # Async helpers
+│   ├── diagnostico/
+│   │   └── dtc_manager.py    # DTC backend
+│   └── ...
+├── demo_gauges.py            # Standalone gauge demo
+├── requirements.txt          # Dependencies
+└── ...
+```
 
-## Ejecución
+## ⚙️ Requirements
+- Python 3.9+
+- PySide6 / PyQt6
+- pyqtgraph
+- python-OBD
+- qasync
+- (Optional) J2534 Python bindings
+- OS: Windows, macOS, or Linux
 
+## 🧪 Installation
 ```bash
-python src/main_async.py
+# Clone the repository
+$ git clone <repo_url>
+$ cd scanner-obd2
+
+# (Recommended) Create a virtual environment
+$ python3 -m venv venv
+$ source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+$ pip install -r requirements.txt
+
+# Run the app
+$ python src/main.py
 ```
 
-## Logs
-- Se generan en `/logs/SESSION.json` en formato estructurado.
-- Ejemplo:
-```json
-{
-  "session": "20250609_184617",
-  "vin": "1HGCM82633A123456",
-  "readings": { "010C": 2200, "010D": 84 },
-  "events": [ { "time": "...", "type": "info", "message": "PID timeout" } ]
-}
-```
+## 🖥️ Simulator vs Real Mode
+- **Simulator:** Launch with the ELM327 simulator script or set the app to "Emulation" mode in the GUI. No hardware required.
+- **Real Hardware:** Connect an ELM327 (WiFi/USB) or J2534 device. Configure connection parameters in the GUI or config file.
+- **Switching Modes:** Use the GUI toggle or command-line flags. See `main.py` for details.
 
-## Personalización
-- Modifica la lista de PIDs en el código o UI.
-- Ajusta el tamaño de lote en la función `read_pids_batch`.
+## 📊 Logging & Export
+- All sessions are logged in `/logs/SESSION.json` (JSON format).
+- Logs include VIN, all readings, DTC events, and user actions.
+- Export tools/scripts available for CSV or custom formats.
+- Logs can be used for post-analysis, reporting, or training.
 
-## Tests
-- Ejecuta `pytest` en la carpeta `tests/` para pruebas unitarias.
+## 💻 Testing & Maintenance
+- Run all tests with:
+  ```bash
+  pytest tests/
+  ```
+- Follow PEP8 and use type hints for new code.
+- Contribute via pull requests. Document new modules and update this README as needed.
+- TODO: Add CI/CD and code coverage badges.
 
-## Características premium
-- Backend 100% asíncrono (`asyncio`), sin threads.
-- Logger JSON no bloqueante por sesión.
-- Lectura robusta de VIN (multi-frame, fallback, validación).
-- Batching de PIDs y cache por VIN.
-- Heartbeat y reconexión automática.
-- Hooks para UI: indicadores de PIDs caídos, botón de rescan, campo VIN y estado de conexión.
-
-## Flujo de obtención de VIN y fallback manual
-
-Al iniciar la aplicación, el sistema intenta leer el VIN automáticamente desde la ECU vía OBD-II:
-- Si el VIN es válido, se decodifica usando `vininfo` y se muestran fabricante, año y país.
-- Si el VIN es inválido, incompleto o no se puede leer, se habilita la entrada manual y el usuario puede ingresar el VIN.
-- Si el VIN manual sigue siendo inválido o el usuario lo omite, se activa el modo fallback: aparecen los combos de selección de Marca, Modelo y Año.
-
-### Fallback y UI reactiva
-- Los combos de Marca, Modelo y Año se habilitan solo si el VIN no es válido.
-- Al cambiar la Marca, la lista de Modelos se actualiza automáticamente según la selección.
-- El Año puede ser seleccionado libremente o filtrado según la base de datos de vehículos.
-- El sistema utiliza la base de datos de vehículos instalada (vehicle-makes/open-vehicle-db) para poblar los combos.
-
-### Verificación del flujo
-1. Ejecuta la app y conecta a un vehículo real o simulador OBD-II.
-2. Si el VIN se obtiene correctamente, verifica que se muestre la información decodificada.
-3. Si el VIN no se obtiene o es inválido, prueba ingresar uno manualmente.
-4. Si el VIN manual es inválido o se omite, verifica que los combos de Marca/Modelo/Año se activen y sean reactivos.
-5. Cambia la Marca y observa que el combo de Modelo se actualiza dinámicamente.
-
-Este flujo asegura compatibilidad universal y una experiencia de usuario robusta incluso en vehículos sin soporte completo de VIN OBD-II.
-
-## Licencia
+## 🔒 License
 MIT License
+
+---
+
+_Built to be the ultimate open automotive scanner._

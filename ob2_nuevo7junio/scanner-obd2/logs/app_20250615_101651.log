@@ -1,0 +1,7 @@
+2025-06-15 10:16:52,252 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 540, in <module>
+    controller = OBDController(visualizer)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 166, in __init__
+    self.init_connections()
+AttributeError: 'OBDController' object has no attribute 'init_connections'

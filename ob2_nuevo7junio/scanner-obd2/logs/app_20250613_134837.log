@@ -1,0 +1,1722 @@
+2025-06-13 13:48:37,988 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-13 13:48:38,343 [DEBUG] Using selector: _Selector
+2025-06-13 13:48:39,138 [INFO] Ventana principal mostrada. Esperando eventos Qt+asyncio...
+2025-06-13 13:49:03,898 [INFO] Acción: conectar/desconectar OBD
+2025-06-13 13:49:09,601 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-13 13:49:09,601 [INFO] Estado de conexión OBD: Car Connected
+2025-06-13 13:49:33,421 [INFO] Acción: iniciar stream multipid
+2025-06-13 13:49:33,423 [INFO] PIDs seleccionados para stream multipid: ['RPM', 'SPEED']
+2025-06-13 13:49:38,985 [INFO] Stream multipid iniciado con PIDs: ['RPM', 'SPEED']
+2025-06-13 13:49:39,151 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:39,164 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:49:39,358 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:39,463 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:39,620 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:39,622 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:49:39,764 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:39,864 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:39,965 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:40,265 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:40,465 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:40,565 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:49:40,765 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:40,865 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:41,026 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:41,065 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:41,165 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:49:41,265 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:41,365 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:41,497 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:41,565 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:49:41,865 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:49:41,990 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:42,065 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:42,067 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:49:42,265 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:42,267 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:42,616 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:42,764 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:43,015 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:43,264 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:43,515 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:43,765 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:44,015 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:44,266 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:44,635 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:44,765 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:44,987 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:45,065 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:49:45,165 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:45,365 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:45,486 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:45,565 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:45,567 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:45,664 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:45,765 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:45,980 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:46,266 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:46,492 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:46,566 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:49:46,665 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:46,864 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:46,974 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:47,065 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:47,067 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:49:47,163 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:47,264 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:47,628 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:47,765 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:47,975 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:48,064 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:49:48,164 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:48,265 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:48,619 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:48,765 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:49,010 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:49,264 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:49,625 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:49,766 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:49,992 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:50,065 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:49:50,166 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:50,365 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:50,488 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:50,564 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:50,565 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:52,046 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:52,047 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:52,048 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:52,050 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:52,051 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:52,052 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:52,054 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:52,055 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:52,228 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:52,439 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:52,753 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:52,964 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:53,064 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:49:53,164 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:53,365 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:53,487 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:53,565 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:53,568 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:53,764 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:53,766 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:53,864 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:54,064 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:54,164 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:49:54,265 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:54,365 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:54,615 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:54,763 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:55,085 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:55,265 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:55,585 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:55,664 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:55,864 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:56,063 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:56,165 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:49:56,264 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:56,364 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:49:56,509 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:56,664 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:57,082 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:57,264 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:57,514 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:57,765 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:58,014 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:58,264 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:58,514 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:58,765 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:59,014 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:59,264 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:59,506 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:49:59,765 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:00,014 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:00,265 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:00,515 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:00,763 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:01,265 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:01,496 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:01,564 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:50:01,664 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:50:01,864 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:01,994 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:50:02,065 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:02,068 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:50:02,265 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:02,365 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:50:02,518 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:02,765 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:03,126 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:03,265 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:03,636 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:03,763 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:04,116 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:04,263 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:04,587 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:04,764 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:05,074 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:05,162 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:05,586 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:05,663 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:06,114 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:06,264 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:06,486 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:06,563 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:50:06,664 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:50:06,863 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:07,005 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:50:07,063 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:07,064 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:50:07,264 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:07,364 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:50:07,573 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:07,576 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:50:07,665 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:50:07,764 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:07,865 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:50:08,119 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:08,121 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:50:08,265 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:08,364 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:50:08,520 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:08,664 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:09,092 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:09,365 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:09,563 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:09,664 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:50:09,765 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:09,864 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:50:10,053 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:10,265 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:10,508 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:10,764 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:11,010 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:11,263 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:11,631 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:11,764 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:12,013 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:12,064 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+2025-06-13 13:50:12,164 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:12,264 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 505, in update_gauge
+    self.gauge_bridge.set_speed(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'kilometer_per_hour' to 'dimensionless'
+2025-06-13 13:50:12,581 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 565, in update_pid_gui
+    self.update_gauge(pid, value)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 503, in update_gauge
+    self.gauge_bridge.set_rpm(float(value))
+  File "/Users/ignacioeltit/Library/Python/3.9/lib/python/site-packages/pint/facets/plain/quantity.py", line 596, in __float__
+    raise DimensionalityError(self._units, "dimensionless")
+pint.errors.DimensionalityError: Cannot convert from 'revolutions_per_minute' to 'dimensionless'
+2025-06-13 13:50:22,653 [WARNING] Failed to read port
+2025-06-13 13:50:22,965 [WARNING] Failed to read port
+2025-06-13 13:50:32,663 [WARNING] Failed to read port
+2025-06-13 13:50:33,068 [WARNING] Failed to read port
+2025-06-13 13:50:42,769 [WARNING] Failed to read port
+2025-06-13 13:50:43,170 [WARNING] Failed to read port

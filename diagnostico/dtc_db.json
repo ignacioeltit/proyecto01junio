@@ -1,0 +1,107 @@
+{
+  "P0100": {
+    "descripcion": "Mal funcionamiento en el circuito del sensor de flujo de aire (MAF)",
+    "sugerencia": "Verificar el sensor MAF, cableado y conectores. Limpiar o reemplazar el sensor si es necesario.",
+    "pids_relevantes": ["MAF", "RPM", "THROTTLE_POS"]
+  },
+  "P0101": {
+    "descripcion": "Rango o funcionamiento incorrecto en el sensor de flujo de aire (MAF)",
+    "sugerencia": "Inspeccionar el sensor MAF, revisar fugas de aire y limpiar el sensor.",
+    "pids_relevantes": ["MAF", "RPM", "LONG_FUEL_TRIM_1"]
+  },
+  "P0102": {
+    "descripcion": "Entrada baja en el circuito del sensor de flujo de aire (MAF)",
+    "sugerencia": "Revisar el cableado, limpiar el sensor MAF y comprobar la alimentación eléctrica.",
+    "pids_relevantes": ["MAF", "RPM", "SHORT_FUEL_TRIM_1"]
+  },
+  "P0103": {
+    "descripcion": "Entrada alta en el circuito del sensor de flujo de aire (MAF)",
+    "sugerencia": "Verificar el sensor MAF y su cableado por cortocircuitos o conexiones sueltas.",
+    "pids_relevantes": ["MAF", "RPM", "THROTTLE_POS"]
+  },
+  "P0110": {
+    "descripcion": "Mal funcionamiento en el circuito del sensor de temperatura de aire de admisión (IAT)",
+    "sugerencia": "Revisar el sensor IAT y su cableado. Limpiar o reemplazar el sensor si es necesario.",
+    "pids_relevantes": ["INTAKE_TEMP", "MAF", "RPM"]
+  },
+  "P0113": {
+    "descripcion": "Entrada alta en el circuito del sensor de temperatura de aire de admisión (IAT)",
+    "sugerencia": "Verificar el sensor IAT y el cableado por conexiones abiertas.",
+    "pids_relevantes": ["INTAKE_TEMP", "MAF"]
+  },
+  "P0115": {
+    "descripcion": "Mal funcionamiento en el circuito del sensor de temperatura del refrigerante (ECT)",
+    "sugerencia": "Revisar el sensor ECT, el cableado y el conector. Reemplazar si es necesario.",
+    "pids_relevantes": ["COOLANT_TEMP", "RPM", "MAF"]
+  },
+  "P0120": {
+    "descripcion": "Mal funcionamiento en el circuito del sensor de posición del acelerador (TPS)",
+    "sugerencia": "Inspeccionar el sensor TPS y su cableado. Ajustar o reemplazar el sensor si es necesario.",
+    "pids_relevantes": ["THROTTLE_POS", "RPM", "MAF"]
+  },
+  "P0171": {
+    "descripcion": "Mezcla demasiado pobre (Banco 1)",
+    "sugerencia": "Revisar fugas de vacío, sensor MAF, inyectores y presión de combustible.",
+    "pids_relevantes": ["SHORT_FUEL_TRIM_1", "LONG_FUEL_TRIM_1", "MAF", "O2S11"]
+  },
+  "P0172": {
+    "descripcion": "Mezcla demasiado rica (Banco 1)",
+    "sugerencia": "Verificar inyectores, sensor MAF, presión de combustible y sensor de oxígeno.",
+    "pids_relevantes": ["SHORT_FUEL_TRIM_1", "LONG_FUEL_TRIM_1", "MAF", "O2S11"]
+  },
+  "P0201": {
+    "descripcion": "Mal funcionamiento en el inyector del cilindro 1",
+    "sugerencia": "Revisar el inyector, cableado y conector del cilindro 1.",
+    "pids_relevantes": ["INJECTOR_TIMING", "RPM", "MAF"]
+  },
+  "P0300": {
+    "descripcion": "Fallo de encendido aleatorio/múltiple detectado",
+    "sugerencia": "Verificar bujías, bobinas, inyectores y sistema de combustible.",
+    "pids_relevantes": ["RPM", "MAF", "O2S11", "SHORT_FUEL_TRIM_1"]
+  },
+  "P0301": {
+    "descripcion": "Fallo de encendido detectado en el cilindro 1",
+    "sugerencia": "Revisar bujía, bobina e inyector del cilindro 1.",
+    "pids_relevantes": ["RPM", "MAF", "O2S11"]
+  },
+  "P0401": {
+    "descripcion": "Flujo insuficiente en el sistema EGR",
+    "sugerencia": "Limpiar la válvula EGR y revisar el sistema de vacío.",
+    "pids_relevantes": ["EGR_ERROR", "RPM", "MAF"]
+  },
+  "P0420": {
+    "descripcion": "Eficiencia del catalizador por debajo del umbral (Banco 1)",
+    "sugerencia": "Verificar el catalizador y los sensores de oxígeno.",
+    "pids_relevantes": ["O2S11", "O2S12", "CAT_TEMP_B1"]
+  },
+  "P0440": {
+    "descripcion": "Mal funcionamiento en el sistema de control de emisiones evaporativas (EVAP)",
+    "sugerencia": "Revisar el tapón de combustible, líneas EVAP y válvulas.",
+    "pids_relevantes": ["FUEL_LEVEL", "PURGE", "RPM"]
+  },
+  "P0442": {
+    "descripcion": "Fuga pequeña detectada en el sistema EVAP",
+    "sugerencia": "Inspeccionar mangueras y conexiones del sistema EVAP.",
+    "pids_relevantes": ["FUEL_LEVEL", "PURGE"]
+  },
+  "P0500": {
+    "descripcion": "Mal funcionamiento en el sensor de velocidad del vehículo (VSS)",
+    "sugerencia": "Verificar el sensor VSS, cableado y conexiones.",
+    "pids_relevantes": ["SPEED", "RPM"]
+  },
+  "P0606": {
+    "descripcion": "Mal funcionamiento en el procesador ECM/PCM",
+    "sugerencia": "Revisar conexiones eléctricas y considerar reprogramación o reemplazo de la ECU.",
+    "pids_relevantes": ["RPM", "MAF", "COOLANT_TEMP"]
+  },
+  "P0700": {
+    "descripcion": "Mal funcionamiento en el sistema de control de transmisión",
+    "sugerencia": "Escanear la TCM (unidad de transmisión) para códigos adicionales.",
+    "pids_relevantes": ["TRANS_TEMP", "RPM", "SPEED"]
+  },
+  "P1101": {
+    "descripcion": "Rango/funcionamiento incorrecto en el sistema de admisión de aire",
+    "sugerencia": "Verificar el sensor MAF, fugas de admisión y el filtro de aire.",
+    "pids_relevantes": ["MAF", "RPM", "THROTTLE_POS"]
+  }
+}

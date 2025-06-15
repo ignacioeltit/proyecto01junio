@@ -1,0 +1,26 @@
+2025-06-13 20:35:40,871 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-13 20:35:41,189 [DEBUG] Using selector: _Selector
+2025-06-13 20:35:41,438 [INFO] Ventana principal mostrada. Esperando eventos Qt+asyncio...
+2025-06-13 20:36:17,904 [INFO] Acción: conectar/desconectar OBD
+2025-06-13 20:36:26,673 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-13 20:36:26,675 [INFO] Estado de conexión OBD: Car Connected
+2025-06-13 20:36:48,359 [INFO] Acción: iniciar stream multipid
+2025-06-13 20:36:48,362 [INFO] PIDs seleccionados para stream multipid: ['RPM']
+2025-06-13 20:36:53,989 [INFO] Stream multipid iniciado con PIDs: ['RPM']
+2025-06-13 20:36:53,994 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 387, in iniciar_stream_pids
+    self.visualizer.select_graph_pids([cmd.name for cmd in selected_cmds if cmd])
+AttributeError: 'DataVisualizer' object has no attribute 'select_graph_pids'
+2025-06-13 20:37:05,091 [INFO] Acción: iniciar stream multipid
+2025-06-13 20:37:05,435 [INFO] Stream multipid anterior detenido
+2025-06-13 20:37:05,438 [INFO] PIDs seleccionados para stream multipid: ['RPM', 'SPEED']
+2025-06-13 20:37:11,049 [INFO] Stream multipid iniciado con PIDs: ['RPM', 'SPEED']
+2025-06-13 20:37:11,050 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 387, in iniciar_stream_pids
+    self.visualizer.select_graph_pids([cmd.name for cmd in selected_cmds if cmd])
+AttributeError: 'DataVisualizer' object has no attribute 'select_graph_pids'
+2025-06-13 20:37:48,807 [INFO] Cerrando aplicación OBD2 Scanner...
+2025-06-13 20:37:49,177 [INFO] Stream multipid detenido
+2025-06-13 20:37:49,212 [DEBUG] Closing

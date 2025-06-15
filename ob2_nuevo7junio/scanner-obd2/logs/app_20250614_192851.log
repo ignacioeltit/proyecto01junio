@@ -1,0 +1,24 @@
+2025-06-14 19:28:51,337 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-14 19:28:51,591 [DEBUG] Using selector: _Selector
+2025-06-14 19:28:51,884 [INFO] Ventana principal mostrada. Esperando eventos Qt+asyncio...
+2025-06-14 19:29:00,848 [INFO] Acción: conectar/desconectar OBD
+2025-06-14 19:29:19,983 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-14 19:29:19,985 [INFO] Estado de conexión OBD: Car Connected
+2025-06-14 19:29:22,667 [INFO] Acción: leer VIN
+2025-06-14 19:29:22,760 [INFO] VIN leído por OBD: bytearray(b'C4RJFDJ6EC56987')
+2025-06-14 19:29:22,760 [WARNING] Error decodificando VIN: VIN number requires 17 chars (29 given)
+2025-06-14 19:29:25,166 [INFO] VIN manual ingresado: bytearray(b'C4RJFDJ6EC56987'), ok=True
+2025-06-14 19:29:25,167 [WARNING] VIN inválido. Activando fallback manual.
+2025-06-14 19:29:26,505 [INFO] Fallback manual de VIN activado correctamente.
+2025-06-14 19:29:47,254 [INFO] Acción: iniciar stream multipid
+2025-06-14 19:29:47,257 [INFO] PIDs seleccionados para stream multipid: ['RPM', 'SPEED']
+2025-06-14 19:30:05,163 [INFO] Stream multipid iniciado con PIDs: ['RPM', 'SPEED']
+2025-06-14 19:30:06,483 [DEBUG] PID RPM valor recibido: 729.0 revolutions_per_minute
+2025-06-14 19:30:19,188 [INFO] Acción: iniciar stream multipid
+2025-06-14 19:30:19,491 [INFO] Stream multipid anterior detenido
+2025-06-14 19:30:19,495 [INFO] PIDs seleccionados para stream multipid: ['RPM', 'SPEED']
+2025-06-14 19:30:34,033 [INFO] Stream multipid iniciado con PIDs: ['RPM', 'SPEED']
+2025-06-14 19:30:34,134 [DEBUG] PID RPM valor recibido: 736.0 revolutions_per_minute
+2025-06-15 09:37:13,770 [INFO] Cerrando aplicación OBD2 Scanner...
+2025-06-15 09:37:14,095 [INFO] Stream multipid detenido
+2025-06-15 09:37:14,142 [DEBUG] Closing

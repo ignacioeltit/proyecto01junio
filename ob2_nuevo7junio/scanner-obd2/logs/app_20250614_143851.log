@@ -1,0 +1,12 @@
+2025-06-14 14:38:51,975 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-14 14:38:52,270 [DEBUG] Using selector: _Selector
+2025-06-14 14:38:52,543 [INFO] Ventana principal mostrada. Esperando eventos Qt+asyncio...
+2025-06-14 14:39:03,707 [INFO] Cerrando aplicación OBD2 Scanner...
+2025-06-14 14:39:03,708 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 559, in new_close
+    controller.stop_pid_stream()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 426, in stop_pid_stream
+    self.visualizer.clear_gauges()
+AttributeError: 'DataVisualizer' object has no attribute 'clear_gauges'
+2025-06-14 14:39:03,730 [DEBUG] Closing

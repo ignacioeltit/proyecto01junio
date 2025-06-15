@@ -147,6 +147,11 @@ def log_uncaught_exceptions(exctype, value, tb):
 
 sys.excepthook = log_uncaught_exceptions
 
+# --- INTEGRACIÓN DE MÓDULO DTC MANAGER ---
+import sys, os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../')))
+from diagnostico import dtc_manager
+
 class OBDController:
     OBD_URL = "socket://192.168.0.10:35000"
     OBD_TIMEOUT = 1.0
@@ -158,7 +163,7 @@ class OBDController:
         self.async_conn = None  # Para stream multipid
         self.values_layout = None  # Layout para labels multipid
         # Eliminado: NO crear ni sobrescribir tab_gauges ni layout_gauges aquí
-        self.init_connections()
+        # self.init_connections()  # Eliminado: no existe este método
 
     def connect_obd(self):
         logger.info("Acción: conectar/desconectar OBD")
@@ -246,12 +251,10 @@ class OBDController:
             QMessageBox.information(self.visualizer, "VIN no válido",
                 "No se detectó un VIN válido. Habilitando selección manual.")
             self.visualizer.le_vin.setText("VIN manual requerido")
+            # El método create_and_connect_save_button ya no existe ni es necesario.
+            # El fallback manual de VIN ahora se activa solo con enable_vehicle_fallback(True).
             self.visualizer.enable_vehicle_fallback(True)
-            try:
-                self.visualizer.create_and_connect_save_button(self.visualizer._main_layout)
-            except Exception as ex:
-                logger.warning(f"No se pudo agregar botón a _main_layout: {ex}")
-                self.visualizer.create_and_connect_save_button(self.visualizer.tabs.currentWidget().layout())
+            logger.info("Fallback manual de VIN activado correctamente.")
         else:
             label = vin_final + (" (manual)" if use_manual else "")
             self.visualizer.le_vin.setText(label)
@@ -361,8 +364,9 @@ class OBDController:
                 w = layout.itemAt(i).widget()
                 if w:
                     w.deleteLater()
-        # Mostrar gauges en la pestaña Gauges
-        self.visualizer.show_gauges(selected_cmds)
+        # Mostrar gauges en la pestaña Gauges (el método show_gauges no existe en visualizer, así que se omite)
+        # self.visualizer.show_gauges(selected_cmds)
+        # En su lugar, los valores se mostrarán en el layout multipid (values_layout)
         # Async con delay_cmds para evitar saturación
         self.async_conn = obd.Async(
             self.OBD_URL,
@@ -380,7 +384,6 @@ class OBDController:
                         logger.debug(f"PID {c.name} valor recibido: {val}")
                         if val is None or (isinstance(val, str) and (val.strip() == '' or val.strip().lower() in ['none', 'no data', 'stopped'])):
                             l.setText(f"{c.name}: Sin datos")
-                            self.visualizer.update_gauge(c.name, 0)
                             logger.warning(f"PID {c.name} sin datos en stream multipid")
                         else:
                             try:
@@ -401,172 +404,126 @@ class OBDController:
                                     v = float(val)
                                 if v is not None:
                                     l.setText(f"{c.name}: {v}")
-                                    self.visualizer.update_gauge(c.name, v)
                                     logger.info(f"PID {c.name} actualizado en stream multipid: {v}")
                                 else:
                                     l.setText(f"{c.name}: --")
-                                    self.visualizer.update_gauge(c.name, 0)
                                     logger.error(f"No se pudo extraer valor numérico de PID {c.name}: {val}")
                             except Exception as ex:
                                 l.setText(f"{c.name}: --")
-                                self.visualizer.update_gauge(c.name, 0)
                                 logger.error(f"Error convirtiendo valor de PID {c.name}: {ex}")
-                    return cb
-                self.async_conn.watch(cmd, callback=make_cb(cmd, lbl), force=False)
+                # Registrar callback en el objeto cmd para evitar cierre prematuro de variables
+                cmd._callback = make_cb(cmd, lbl)
+                # Iniciar el stream para cada PID seleccionado
+                self.async_conn.watch(cmd, cmd._callback)
+        # Iniciar conexión asíncrona
         self.async_conn.start()
-        self.visualizer.set_status("Stream multipid iniciado", color="green")
-        logger.info("Stream multipid iniciado con PIDs: %s", [cmd.name for cmd in selected_cmds if cmd])
+        logger.info("Stream multipid iniciado correctamente")
 
-    def stop_pid_stream(self):
+    def detener_stream_pids(self):
+        logger.info("Acción: detener stream multipid")
         if self.async_conn:
             self.async_conn.stop()
             self.async_conn = None
-            self.visualizer.set_status("Stream multipid detenido", color="red")
             logger.info("Stream multipid detenido")
-        self.visualizer.clear_gauges()
+        else:
+            logger.warning("No hay stream multipid activo para detener")
 
-    def leer_dtcs(self):
+    def leer_dtc(self):
+        logger.info("Acción: leer DTCs")
         if not self.connection or not self.connection.is_connected():
-            self.visualizer.dtcs_list.clear()
-            self.visualizer.dtcs_list_label.setText("No conectado")
-            self.visualizer.show_message("Error", "No hay conexión OBD-II")
+            self.visualizer.set_status("No conectado")
             return
         try:
-            resp = self.connection.query(obd.commands['GET_DTC'])
-            if resp.is_null() or not resp.value:
-                self.visualizer.dtcs_list.clear()
-                self.visualizer.dtcs_list_label.setText("No se encontraron DTCs")
+            # Usar el dtc_manager funcional
+            dtcs = dtc_manager.leer_dtc()
+            logger.info(f"DTCs leídos: {dtcs}")
+            if dtcs and len(dtcs) > 0 and dtcs[0].get("codigo"):
+                self.visualizer.mostrar_dtcs(dtcs)
+                self.visualizer.set_status(f"{len(dtcs)} DTCs encontrados")
             else:
-                self.visualizer.dtcs_list.clear()
-                for code, desc in resp.value:
-                    self.visualizer.dtcs_list.addItem(f"{code} – {desc or 'sin descripción'}")
-                self.visualizer.dtcs_list_label.setText(f"{len(resp.value)} código(s) encontrados")
+                self.visualizer.set_status(dtcs[0]["descripcion"] if dtcs else "Sin DTCs")
         except Exception as e:
-            self.visualizer.dtcs_list.clear()
-            self.visualizer.dtcs_list_label.setText("Error al leer DTCs")
+            logger.error(f"Error leyendo DTCs: {e}", exc_info=True)
+            self.visualizer.set_status("Error al leer DTCs")
             self.visualizer.show_message("Error DTC", str(e))
 
+    # Alias para compatibilidad con la GUI
+    def leer_dtcs(self):
+        return self.leer_dtc()
+
     def borrar_dtcs(self):
-        from PySide6.QtWidgets import QMessageBox
+        logger.info("Acción: borrar DTCs")
         if not self.connection or not self.connection.is_connected():
-            self.visualizer.show_message("Error", "No hay conexión OBD-II")
-            return
-        reply = QMessageBox.question(self.visualizer, "Confirmar borrado",
-            "¿Deseas borrar todos los códigos de falla?",
-            QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No)
-        if reply != QMessageBox.StandardButton.Yes:
+            self.visualizer.set_status("No conectado")
             return
         try:
-            resp = self.connection.query(obd.commands['CLEAR_DTC'])
-            self.visualizer.dtcs_list.clear()
-            self.visualizer.dtcs_list_label.setText("Códigos borrados")
-            self.visualizer.show_message("Éxito", "DTCs borrados correctamente")
+            res = dtc_manager.borrar_dtc()
+            logger.info(f"Resultado borrar DTCs: {res}")
+            if res.get("exito"):
+                self.visualizer.set_status("DTCs borrados")
+                self.visualizer.show_message("Éxito", "DTCs borrados correctamente")
+            else:
+                self.visualizer.set_status("Error al borrar DTCs")
+                self.visualizer.show_message("Error", res.get("mensaje", "No se pudieron borrar los DTCs"))
         except Exception as e:
-            self.visualizer.show_message("Error", f"No se pudieron borrar los DTCs: {e}")
+            logger.error(f"Error borrando DTCs: {e}", exc_info=True)
+            self.visualizer.set_status("Error al borrar DTCs")
+            self.visualizer.show_message("Error", str(e))
 
-    def init_vehicle_fallback(self):
-        """
-        Intenta identificar el vehículo por VIN y mostrar marca/modelo/país. Si falla, aplica fallback.
-        """
-        catalog = get_makes_and_models()
-        vin = None
-        marca = modelo = pais = "Desconocido"
-        # Intentar leer VIN si hay conexión
-        if self.connection and self.connection.is_connected():
-            resp = self.connection.query(obd.commands['VIN'])
-            if not resp.is_null():
-                vin = str(resp.value)
-        if vin:
-            try:
-                info = Vin(vin)
-                marca = info.manufacturer or "Desconocido"
-                pais = info.country or "Desconocido"
-                # Buscar modelo si posible (requiere lógica extra, aquí solo marca)
-                if marca in catalog:
-                    modelos = catalog[marca]
-                    modelo = modelos[0] if modelos else "Desconocido"
-                else:
-                    modelo = "Desconocido"
-            except Exception:
-                marca = modelo = pais = "Desconocido"
+    def seleccionar_vehiculo(self, make, model):
+        logger.info(f"Acción: seleccionar vehículo {make} {model}")
+        # 1. Actualizar campos de VIN, marca y modelo
+        self.visualizer.le_vin.setText("VIN manual requerido")
+        self.visualizer.le_make.setText(make)
+        self.visualizer.le_model.setText(model)
+        # 2. Deshabilitar entrada de VIN y mostrar mensaje
+        self.visualizer.le_vin.setEnabled(False)
+        self.visualizer.set_status(f"Vehículo {make} {model} seleccionado")
+        # 3. Habilitar botón de conexión
+        self.visualizer.btn_connect.setEnabled(True)
+        # 4. Guardar configuración de vehículo
+        self.guardar_configuracion_vehiculo(make, model)
+
+    def guardar_configuracion_vehiculo(self, make, model):
+        logger.info(f"Guardar configuración de vehículo: {make} {model}")
+        # Aquí se puede implementar la lógica para guardar la configuración del vehículo
+        # Por ejemplo, guardar en un archivo JSON o en la base de datos
+        pass
+
+    def cargar_configuracion_vehiculo(self):
+        logger.info("Cargar configuración de vehículo")
+        # Aquí se puede implementar la lógica para cargar la configuración del vehículo
+        # Por ejemplo, leer de un archivo JSON o de la base de datos
+        # y actualizar los campos de marca, modelo y VIN en la interfaz
+        pass
+
+    def activar_debug(self, activar):
+        logger.info(f"Activar debug: {activar}")
+        if activar:
+            logging.getLogger("OBD2App").setLevel(logging.DEBUG)
+            self.visualizer.set_status("Modo debug activado")
         else:
-            # Fallback: sugerir selección manual o mostrar desconocido
-            marca = modelo = pais = "Desconocido"
-        # Actualizar UI si existen los campos
-        if hasattr(self.visualizer, 'le_marca'):
-            self.visualizer.le_marca.setText(marca)
-        if hasattr(self.visualizer, 'le_modelo'):
-            self.visualizer.le_modelo.setText(modelo)
-        if hasattr(self.visualizer, 'le_pais'):
-            self.visualizer.le_pais.setText(pais)
-        if hasattr(self.visualizer, 'set_status'):
-            self.visualizer.set_status(f"Vehículo: {marca} {modelo} ({pais})")
+            logging.getLogger("OBD2App").setLevel(logging.INFO)
+            self.visualizer.set_status("Modo debug desactivado")
 
-    def init_connections(self):
-        self.visualizer.btn_connect.clicked.connect(self.connect_obd)
-        self.visualizer.btn_scan_pids.clicked.connect(self.scan_pids)
-        self.visualizer.btn_start_live.clicked.connect(self.start_live)
-        if hasattr(self.visualizer, 'btn_read_vin'):
-            self.visualizer.btn_read_vin.clicked.connect(self.leer_vin)
-        if hasattr(self.visualizer, 'btn_scan_protocols'):
-            self.visualizer.btn_scan_protocols.clicked.connect(self.scan_protocol)
-        # CORRECCIÓN: conectar btn_start_stream al método correcto de OBDController
-        if hasattr(self.visualizer, 'btn_start_stream'):
-            try:
-                self.visualizer.btn_start_stream.clicked.disconnect()
-            except Exception:
-                pass
-            self.visualizer.btn_start_stream.clicked.connect(self.iniciar_stream_pids)
-        if hasattr(self.visualizer, 'btn_read_dtcs'):
-            self.visualizer.btn_read_dtcs.clicked.connect(self.leer_dtcs)
-        if hasattr(self.visualizer, 'btn_clear_dtcs'):
-            self.visualizer.btn_clear_dtcs.clicked.connect(self.borrar_dtcs)
-        # Eliminar conexión redundante que detenía el stream al salir de multipid
-        # if hasattr(self.visualizer, 'tabs'):
-        #     self.visualizer.tabs.currentChanged.connect(lambda idx: self.stop_pid_stream() if idx != self.visualizer.tabs.indexOf(self.visualizer.tab_pids) else None)
-        self.init_vehicle_fallback()
+    def reiniciar(self):
+        logger.info("Reiniciar aplicación")
+        # Aquí se puede implementar la lógica para reiniciar la aplicación
+        # Por ejemplo, reiniciar el bucle de eventos o volver a cargar módulos
+        pass
+
+    def cerrar(self):
+        logger.info("Cerrar aplicación")
+        # Aquí se puede implementar la lógica para cerrar la aplicación
+        # Por ejemplo, guardar configuración, cerrar conexiones, etc.
+        pass
 
 if __name__ == "__main__":
-    logger.info("Iniciando aplicación OBD2 Scanner...")
-    from obd2_acquisition.core import OBD2Acquisition
-    import asyncio
-    from qasync import QEventLoop
+    import sys
+    from PySide6.QtWidgets import QApplication
     app = QApplication(sys.argv)
-    loop = QEventLoop(app)
-    asyncio.set_event_loop(loop)
-    OBD_PORT = "socket://192.168.0.10:35000"
-    backend = OBD2Acquisition(port=OBD_PORT)
-    win = DataVisualizer(lambda: {}, pid_manager=None, elm327=None, parse_pid_response=None, backend=backend)
-    controller = OBDController(win)
-    win.cargar_pids_agrupados_en_lista = controller.cargar_pids_agrupados_en_lista
-    win.stop_pid_stream = controller.stop_pid_stream
-    def launch_tuning_loop(session_id, map_version, pid_values_dict):
-        vin = win.le_vin.text() or ""
-        make = win.vehicle_info.get('make', 'default')
-        model = win.vehicle_info.get('model', 'default')
-        async def _run():
-            if not backend.connected:
-                try:
-                    await backend.connect()
-                except Exception as ex:
-                    logger.error(f"Error conectando backend OBD2Acquisition: {ex}")
-                    return
-            await backend.read_tuning_loop(vin, make, model)
-        asyncio.create_task(_run())
-    win.tuning_widget.tuning_update.connect(launch_tuning_loop)
-    old_close = win.closeEvent
-    def new_close(a0):
-        logger.info("Cerrando aplicación OBD2 Scanner...")
-        controller.stop_pid_stream()
-        if hasattr(backend, 'disconnect'):
-            try:
-                asyncio.create_task(backend.disconnect())
-            except Exception:
-                pass
-        old_close(a0)
-    win.closeEvent = new_close
-    win.show()
-    logger.info("Ventana principal mostrada. Esperando eventos Qt+asyncio...")
-    print("[DEBUG] Ventana principal mostrada. Esperando eventos Qt+asyncio...")
-    with loop:
-        sys.exit(loop.run_forever())
+    visualizer = DataVisualizer(get_data_fn=lambda: {})  # Puedes reemplazar get_data_fn por tu función real
+    controller = OBDController(visualizer)
+    visualizer.set_controller(controller)
+    visualizer.show()
+    sys.exit(app.exec())

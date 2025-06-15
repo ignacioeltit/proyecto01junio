@@ -1,0 +1,11 @@
+2025-06-13 20:48:52,621 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-13 20:48:53,049 [DEBUG] Using selector: _Selector
+2025-06-13 20:48:53,054 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 507, in <module>
+    win = DataVisualizer(lambda: {}, pid_manager=None, elm327=None, parse_pid_response=None, backend=backend)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 112, in __init__
+    self.init_ui()  # Inicializa la UI (crea self.tabs)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 374, in init_ui
+    main_layout.addWidget(self.tabs)
+NameError: name 'main_layout' is not defined

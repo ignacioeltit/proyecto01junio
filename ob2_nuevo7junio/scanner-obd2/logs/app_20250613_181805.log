@@ -1,0 +1,37 @@
+2025-06-13 18:18:05,347 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-13 18:18:05,593 [DEBUG] Using selector: _Selector
+2025-06-13 18:18:05,926 [INFO] Ventana principal mostrada. Esperando eventos Qt+asyncio...
+2025-06-13 20:28:43,786 [INFO] Acción: conectar/desconectar OBD
+2025-06-13 20:28:49,699 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-13 20:28:49,700 [INFO] Estado de conexión OBD: Car Connected
+2025-06-13 20:29:06,722 [INFO] Acción: iniciar stream multipid
+2025-06-13 20:29:06,724 [INFO] PIDs seleccionados para stream multipid: ['RPM']
+2025-06-13 20:29:06,726 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 368, in iniciar_stream_pids
+    self.visualizer.show_gauges(selected_cmds)
+AttributeError: 'DataVisualizer' object has no attribute 'show_gauges'
+2025-06-13 20:29:17,239 [INFO] Acción: iniciar stream multipid
+2025-06-13 20:29:17,242 [INFO] PIDs seleccionados para stream multipid: ['RPM']
+2025-06-13 20:29:17,242 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 368, in iniciar_stream_pids
+    self.visualizer.show_gauges(selected_cmds)
+AttributeError: 'DataVisualizer' object has no attribute 'show_gauges'
+2025-06-13 20:29:37,576 [INFO] Acción: iniciar stream multipid
+2025-06-13 20:29:37,578 [INFO] PIDs seleccionados para stream multipid: ['RPM']
+2025-06-13 20:29:37,578 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 368, in iniciar_stream_pids
+    self.visualizer.show_gauges(selected_cmds)
+AttributeError: 'DataVisualizer' object has no attribute 'show_gauges'
+2025-06-13 20:29:49,686 [INFO] Conectado a socket://192.168.0.10:35000 @ 38400bps
+2025-06-13 20:30:06,868 [INFO] Cerrando aplicación OBD2 Scanner...
+2025-06-13 20:30:06,869 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 529, in new_close
+    controller.stop_pid_stream()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 396, in stop_pid_stream
+    self.visualizer.clear_gauges()
+AttributeError: 'DataVisualizer' object has no attribute 'clear_gauges'
+2025-06-13 20:30:06,899 [DEBUG] Closing

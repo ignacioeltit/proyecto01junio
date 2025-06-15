@@ -1,0 +1,16 @@
+2025-06-13 20:40:45,881 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-13 20:40:46,145 [DEBUG] Using selector: _Selector
+2025-06-13 20:40:46,374 [INFO] Ventana principal mostrada. Esperando eventos Qt+asyncio...
+2025-06-13 20:40:48,956 [INFO] Acción: conectar/desconectar OBD
+2025-06-13 20:40:53,975 [ERROR] Could not open port socket://192.168.0.10:35000: timed out
+2025-06-13 20:40:53,976 [WARNING] Cannot load commands: No connection to car
+2025-06-13 20:40:53,976 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-13 20:40:53,976 [INFO] Estado de conexión OBD: Not Connected
+2025-06-13 20:41:21,742 [INFO] Acción: conectar/desconectar OBD
+2025-06-13 20:41:26,747 [ERROR] Could not open port socket://192.168.0.10:35000: timed out
+2025-06-13 20:41:26,748 [WARNING] Cannot load commands: No connection to car
+2025-06-13 20:41:26,748 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-13 20:41:26,748 [INFO] Estado de conexión OBD: Not Connected
+2025-06-13 20:41:26,765 [INFO] Cerrando aplicación OBD2 Scanner...
+2025-06-13 20:41:26,814 [INFO] Desconectado
+2025-06-13 20:41:26,815 [DEBUG] Closing

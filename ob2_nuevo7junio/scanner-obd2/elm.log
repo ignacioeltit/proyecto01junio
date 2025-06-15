@@ -1,0 +1,20 @@
+2025-06-14 12:13:40,488  root       get_pty         DEBUG    Pty name: /dev/ttys031
+2025-06-14 12:13:40,488  root       run             INFO     
+
+ELM327 OBD-II adapter emulator v3.0.4 started on pseudo-tty port "/dev/ttys031".
+
+2025-06-14 12:14:35,751  root       get_pty         DEBUG    Pty name: /dev/ttys032
+2025-06-14 12:14:35,751  root       run             INFO     
+
+ELM327 OBD-II adapter emulator v3.0.4 started on pseudo-tty port "/dev/ttys032".
+
+2025-06-14 12:14:49,011  root       terminate       DEBUG    Start termination procedure.
+2025-06-14 12:14:49,012  root       terminate       DEBUG    Start termination procedure.
+2025-06-14 12:14:50,120  root       read_from_device DEBUG    Read interrupted. Terminating.
+2025-06-14 12:14:50,121  root       read_from_device DEBUG    Read interrupted. Terminating.
+2025-06-14 12:14:50,121  root       terminate       DEBUG    Start termination procedure.
+2025-06-14 12:14:50,121  root       terminate       DEBUG    Cannot close file descriptors.
+2025-06-14 12:14:50,121  root       terminate       DEBUG    Terminated.
+2025-06-14 12:14:50,121  root       terminate       DEBUG    Terminated.
+2025-06-14 12:14:50,121  root       terminate       DEBUG    Terminated.
+2025-06-14 12:14:50,121  root       terminate       DEBUG    Start termination procedure.

@@ -1,0 +1,7 @@
+2025-06-15 10:27:17,438 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 523, in <module>
+    visualizer.set_controller(controller)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 1684, in set_controller
+    self.btn_read_dtcs.clicked.connect(self.controller.leer_dtcs)
+AttributeError: 'OBDController' object has no attribute 'leer_dtcs'

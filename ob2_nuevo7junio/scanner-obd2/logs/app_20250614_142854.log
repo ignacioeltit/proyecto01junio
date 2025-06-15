@@ -1,0 +1,11 @@
+2025-06-14 14:28:54,261 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-14 14:28:54,525 [DEBUG] Using selector: _Selector
+2025-06-14 14:28:54,687 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 539, in <module>
+    win = DataVisualizer(lambda: {}, pid_manager=None, elm327=None, parse_pid_response=None, backend=backend)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 90, in __init__
+    self.init_ui()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 198, in init_ui
+    self.pid_acquisition_tab = PIDAcquisitionTab(self)
+NameError: name 'PIDAcquisitionTab' is not defined

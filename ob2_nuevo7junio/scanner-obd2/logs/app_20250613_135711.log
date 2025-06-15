@@ -1,0 +1,13 @@
+2025-06-13 13:57:11,846 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-13 13:57:12,104 [DEBUG] Using selector: _Selector
+2025-06-13 13:57:12,592 [INFO] Ventana principal mostrada. Esperando eventos Qt+asyncio...
+2025-06-13 13:57:14,984 [INFO] Acción: conectar/desconectar OBD
+2025-06-13 13:57:20,572 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-13 13:57:20,572 [INFO] Estado de conexión OBD: Car Connected
+2025-06-13 13:57:34,984 [INFO] Acción: iniciar stream multipid
+2025-06-13 13:57:34,985 [INFO] PIDs seleccionados para stream multipid: ['RPM', 'SPEED']
+2025-06-13 13:57:40,530 [INFO] Stream multipid iniciado con PIDs: ['RPM', 'SPEED']
+2025-06-13 13:58:06,139 [INFO] Conectado a socket://192.168.0.10:35000 @ 38400bps
+2025-06-13 13:58:14,750 [INFO] Cerrando aplicación OBD2 Scanner...
+2025-06-13 13:58:15,221 [INFO] Stream multipid detenido
+2025-06-13 13:58:15,256 [DEBUG] Closing

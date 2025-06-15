@@ -1,0 +1,11 @@
+2025-06-14 12:27:00,373 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-14 12:27:00,527 [DEBUG] Using selector: _Selector
+2025-06-14 12:27:00,530 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 528, in <module>
+    win = DataVisualizer(lambda: {}, pid_manager=None, elm327=None, parse_pid_response=None, backend=backend)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 114, in __init__
+    self.init_ui()  # Inicializa la UI (crea self.tabs)
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 157, in init_ui
+    main_layout = QVBoxLayout(self)
+UnboundLocalError: local variable 'QVBoxLayout' referenced before assignment

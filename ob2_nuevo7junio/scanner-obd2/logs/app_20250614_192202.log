@@ -1,0 +1,47 @@
+2025-06-14 19:22:02,637 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-14 19:22:02,794 [DEBUG] Using selector: _Selector
+2025-06-14 19:22:03,038 [INFO] Ventana principal mostrada. Esperando eventos Qt+asyncio...
+2025-06-14 19:22:32,229 [INFO] Acción: conectar/desconectar OBD
+2025-06-14 19:22:58,939 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-14 19:22:58,941 [INFO] Estado de conexión OBD: Car Connected
+2025-06-14 19:23:00,931 [INFO] Acción: leer VIN
+2025-06-14 19:23:01,024 [INFO] VIN leído por OBD: bytearray(b'C4RJFDJ6EC56987')
+2025-06-14 19:23:01,024 [WARNING] Error decodificando VIN: VIN number requires 17 chars (29 given)
+2025-06-14 19:23:11,436 [INFO] VIN manual ingresado: bytearray(b'C4RJFDJ6EC56987'), ok=True
+2025-06-14 19:23:11,437 [WARNING] VIN inválido. Activando fallback manual.
+2025-06-14 19:23:12,793 [WARNING] No se pudo agregar botón a _main_layout: 'DataVisualizer' object has no attribute 'create_and_connect_save_button'
+2025-06-14 19:23:12,795 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 256, in leer_vin
+    self.visualizer.create_and_connect_save_button(self.visualizer._main_layout)
+AttributeError: 'DataVisualizer' object has no attribute 'create_and_connect_save_button'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 259, in leer_vin
+    self.visualizer.create_and_connect_save_button(self.visualizer.tabs.currentWidget().layout())
+AttributeError: 'DataVisualizer' object has no attribute 'create_and_connect_save_button'
+2025-06-14 19:23:50,851 [INFO] Acción: iniciar stream multipid
+2025-06-14 19:23:50,856 [INFO] PIDs seleccionados para stream multipid: ['AMBIANT_AIR_TEMP', 'COOLANT_TEMP', 'INTAKE_TEMP', 'RPM', 'SPEED']
+2025-06-14 19:23:50,856 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 370, in iniciar_stream_pids
+    self.visualizer.show_gauges(selected_cmds)
+AttributeError: 'DataVisualizer' object has no attribute 'show_gauges'
+2025-06-14 19:24:27,035 [INFO] Acción: iniciar stream multipid
+2025-06-14 19:24:27,039 [INFO] PIDs seleccionados para stream multipid: ['AMBIANT_AIR_TEMP', 'COOLANT_TEMP', 'INTAKE_TEMP', 'RPM', 'SPEED']
+2025-06-14 19:24:27,039 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 370, in iniciar_stream_pids
+    self.visualizer.show_gauges(selected_cmds)
+AttributeError: 'DataVisualizer' object has no attribute 'show_gauges'
+2025-06-14 19:25:16,603 [INFO] Acción: iniciar stream multipid
+2025-06-14 19:25:16,605 [INFO] PIDs seleccionados para stream multipid: ['AMBIANT_AIR_TEMP', 'COOLANT_TEMP', 'INTAKE_TEMP', 'RPM', 'SPEED']
+2025-06-14 19:25:16,605 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 370, in iniciar_stream_pids
+    self.visualizer.show_gauges(selected_cmds)
+AttributeError: 'DataVisualizer' object has no attribute 'show_gauges'
+2025-06-14 19:25:42,069 [INFO] Cerrando aplicación OBD2 Scanner...
+2025-06-14 19:25:42,103 [DEBUG] Closing

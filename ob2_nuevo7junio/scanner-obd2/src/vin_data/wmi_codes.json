@@ -1,0 +1,23 @@
+{
+  "1HG": {"country": "USA", "manufacturer": "Honda"},
+  "1FA": {"country": "USA", "manufacturer": "Ford"},
+  "1G1": {"country": "USA", "manufacturer": "Chevrolet"},
+  "1C4": {"country": "USA", "manufacturer": "Chrysler/Jeep"},
+  "2HG": {"country": "Canada", "manufacturer": "Honda"},
+  "2FA": {"country": "Canada", "manufacturer": "Ford"},
+  "3VW": {"country": "Mexico", "manufacturer": "Volkswagen"},
+  "3FA": {"country": "Mexico", "manufacturer": "Ford"},
+  "JHM": {"country": "Japan", "manufacturer": "Honda"},
+  "JTD": {"country": "Japan", "manufacturer": "Toyota"},
+  "JT3": {"country": "Japan", "manufacturer": "Toyota SUV"},
+  "WVW": {"country": "Germany", "manufacturer": "Volkswagen"},
+  "WDB": {"country": "Germany", "manufacturer": "Mercedes-Benz"},
+  "WAU": {"country": "Germany", "manufacturer": "Audi"},
+  "SAL": {"country": "UK", "manufacturer": "Land Rover"},
+  "VF1": {"country": "France", "manufacturer": "Renault"},
+  "YS3": {"country": "Sweden", "manufacturer": "Saab"},
+  "ZFA": {"country": "Italy", "manufacturer": "Fiat"},
+  "ZFF": {"country": "Italy", "manufacturer": "Ferrari"},
+  "KL1": {"country": "Korea", "manufacturer": "Daewoo"},
+  "KM8": {"country": "Korea", "manufacturer": "Hyundai"}
+}

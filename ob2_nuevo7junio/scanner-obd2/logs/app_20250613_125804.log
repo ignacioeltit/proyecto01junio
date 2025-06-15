@@ -1,0 +1,66 @@
+2025-06-13 12:58:05,055 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-13 12:58:05,313 [DEBUG] Using selector: _Selector
+2025-06-13 12:58:05,922 [INFO] Ventana principal mostrada. Esperando eventos Qt+asyncio...
+2025-06-13 12:58:16,806 [INFO] Acción: conectar/desconectar OBD
+2025-06-13 12:58:21,821 [ERROR] Could not open port socket://192.168.0.10:35000: timed out
+2025-06-13 12:58:21,821 [WARNING] Cannot load commands: No connection to car
+2025-06-13 12:58:21,821 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-13 12:58:21,821 [INFO] Estado de conexión OBD: Not Connected
+2025-06-13 12:58:24,172 [INFO] Acción: conectar/desconectar OBD
+2025-06-13 12:58:29,175 [ERROR] Could not open port socket://192.168.0.10:35000: timed out
+2025-06-13 12:58:29,175 [WARNING] Cannot load commands: No connection to car
+2025-06-13 12:58:29,175 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-13 12:58:29,175 [INFO] Estado de conexión OBD: Not Connected
+2025-06-13 12:59:14,190 [INFO] Acción: conectar/desconectar OBD
+2025-06-13 12:59:19,838 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-13 12:59:19,838 [INFO] Estado de conexión OBD: Car Connected
+2025-06-13 12:59:22,828 [INFO] Acción: leer VIN
+2025-06-13 12:59:22,925 [INFO] VIN leído por OBD: bytearray(b'C4RJFDJ6EC56987')
+2025-06-13 12:59:22,926 [WARNING] Error decodificando VIN: VIN number requires 17 chars (29 given)
+2025-06-13 12:59:33,684 [INFO] VIN manual ingresado: 1C4RJFDJ6EC56987, ok=True
+2025-06-13 12:59:33,685 [WARNING] VIN inválido. Activando fallback manual.
+2025-06-13 12:59:36,370 [WARNING] No se pudo agregar botón a _main_layout: 'DataVisualizer' object has no attribute '_main_layout'
+2025-06-13 13:00:07,301 [INFO] Acción: iniciar stream multipid
+2025-06-13 13:00:07,304 [INFO] PIDs seleccionados para stream multipid: ['RPM']
+2025-06-13 13:00:07,308 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 368, in iniciar_stream_pids
+    self.visualizer.show_gauges(selected_cmds)
+AttributeError: 'DataVisualizer' object has no attribute 'show_gauges'
+2025-06-13 13:00:15,916 [INFO] Acción: iniciar stream multipid
+2025-06-13 13:00:15,917 [INFO] PIDs seleccionados para stream multipid: ['RPM']
+2025-06-13 13:00:15,917 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 368, in iniciar_stream_pids
+    self.visualizer.show_gauges(selected_cmds)
+AttributeError: 'DataVisualizer' object has no attribute 'show_gauges'
+2025-06-13 13:00:35,866 [INFO] Acción: iniciar stream multipid
+2025-06-13 13:00:35,868 [INFO] PIDs seleccionados para stream multipid: ['RPM']
+2025-06-13 13:00:35,868 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 368, in iniciar_stream_pids
+    self.visualizer.show_gauges(selected_cmds)
+AttributeError: 'DataVisualizer' object has no attribute 'show_gauges'
+2025-06-13 13:01:05,498 [INFO] Acción: leer VIN
+2025-06-13 13:01:05,596 [INFO] VIN leído por OBD: bytearray(b'C4RJFDJ6EC56987')
+2025-06-13 13:01:05,597 [WARNING] Error decodificando VIN: VIN number requires 17 chars (29 given)
+2025-06-13 13:01:07,370 [INFO] VIN manual ingresado: bytearray(b'C4RJFDJ6EC56987'), ok=True
+2025-06-13 13:01:07,370 [WARNING] VIN inválido. Activando fallback manual.
+2025-06-13 13:01:08,883 [WARNING] No se pudo agregar botón a _main_layout: 'DataVisualizer' object has no attribute '_main_layout'
+2025-06-13 13:01:16,165 [INFO] Acción: iniciar stream multipid
+2025-06-13 13:01:16,167 [INFO] PIDs seleccionados para stream multipid: ['RPM']
+2025-06-13 13:01:16,167 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 368, in iniciar_stream_pids
+    self.visualizer.show_gauges(selected_cmds)
+AttributeError: 'DataVisualizer' object has no attribute 'show_gauges'
+2025-06-13 13:01:38,144 [INFO] Acción: iniciar stream multipid
+2025-06-13 13:01:38,146 [INFO] PIDs seleccionados para stream multipid: ['RPM']
+2025-06-13 13:01:38,146 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 368, in iniciar_stream_pids
+    self.visualizer.show_gauges(selected_cmds)
+AttributeError: 'DataVisualizer' object has no attribute 'show_gauges'
+2025-06-13 13:18:00,876 [CRITICAL] Device disconnected while reading
+2025-06-13 13:27:13,091 [INFO] Cerrando aplicación OBD2 Scanner...
+2025-06-13 13:27:13,156 [DEBUG] Closing

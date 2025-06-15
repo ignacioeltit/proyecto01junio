@@ -1,0 +1,1172 @@
+2025-06-13 21:20:47,868 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-13 21:20:48,402 [DEBUG] Using selector: _Selector
+2025-06-13 21:20:48,810 [INFO] Ventana principal mostrada. Esperando eventos Qt+asyncio...
+2025-06-13 21:20:50,814 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:50,814 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:50,814 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:50,816 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:50,817 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:50,817 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:50,918 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:50,919 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:50,919 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:51,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:51,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:51,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:51,119 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:51,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:51,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:51,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:51,219 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:51,220 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:51,319 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:51,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:51,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:51,419 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:51,419 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:51,419 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:51,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:51,520 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:51,520 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:51,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:51,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:51,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:51,718 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:51,718 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:51,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:51,818 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:51,818 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:51,818 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:51,919 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:51,919 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:51,919 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:52,018 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:52,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:52,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:52,119 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:52,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:52,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:52,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:52,219 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:52,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:52,319 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:52,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:52,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:52,420 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:52,420 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:52,420 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:52,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:52,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:52,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:52,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:52,620 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:52,620 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:52,719 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:52,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:52,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:52,819 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:52,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:52,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:52,919 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:52,919 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:52,919 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:53,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:53,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:53,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:53,120 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:53,120 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:53,120 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:53,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:53,220 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:53,220 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:53,323 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:53,326 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:53,326 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:53,419 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:53,420 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:53,420 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:53,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:53,520 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:53,520 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:53,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:53,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:53,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:53,718 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:53,718 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:53,718 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:53,818 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:53,818 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:53,818 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:53,919 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:53,922 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:53,922 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:54,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:54,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:54,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:54,119 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:54,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:54,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:54,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:54,219 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:54,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:54,319 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:54,320 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:54,320 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:54,419 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:54,419 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:54,419 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:54,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:54,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:54,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:54,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:54,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:54,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:54,719 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:54,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:54,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:54,820 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:54,820 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:54,821 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:54,920 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:54,920 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:54,921 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:55,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:55,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:55,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:55,119 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:55,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:55,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:55,220 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:55,220 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:55,220 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:55,324 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:55,325 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:55,325 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:55,419 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:55,420 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:55,420 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:55,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:55,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:55,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:55,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:55,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:55,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:55,719 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:55,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:55,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:55,819 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:55,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:55,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:55,919 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:55,919 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:55,919 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:56,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:56,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:56,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:56,119 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:56,167 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:56,167 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:56,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:56,228 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:56,228 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:56,318 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:56,318 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:56,318 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:56,419 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:56,419 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:56,419 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:56,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:56,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:56,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:56,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:56,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:56,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:56,719 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:56,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:56,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:56,818 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:56,818 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:56,818 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:56,919 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:56,919 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:56,919 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:57,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:57,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:57,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:57,119 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:57,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:57,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:57,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:57,219 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:57,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:57,319 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:57,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:57,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:57,419 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:57,419 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:57,419 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:57,518 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:57,518 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:57,518 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:57,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:57,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:57,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:57,719 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:57,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:57,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:57,819 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:57,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:57,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:57,919 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:57,919 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:57,919 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:58,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:58,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:58,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:58,118 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:58,118 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:58,118 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:58,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:58,219 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:58,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:58,318 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:58,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:58,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:58,419 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:58,419 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:58,419 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:58,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:58,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:58,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:58,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:58,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:58,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:58,719 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:58,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:58,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:58,819 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:58,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:58,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:58,919 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:58,919 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:58,919 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:59,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:59,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:59,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:59,119 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:59,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:59,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:59,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:59,219 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:59,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:59,319 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:59,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:59,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:59,418 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:59,418 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:59,418 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:59,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:59,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:59,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:59,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:59,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:59,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:59,718 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:59,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:59,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:59,819 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:59,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:59,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:20:59,919 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:20:59,919 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:20:59,919 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:00,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:00,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:00,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:00,119 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:00,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:00,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:00,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:00,219 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:00,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:00,319 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:00,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:00,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:00,419 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:00,419 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:00,419 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:00,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:00,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:00,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:00,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:00,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:00,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:00,719 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:00,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:00,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:00,819 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:00,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:00,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:00,919 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:00,919 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:00,919 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:01,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:01,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:01,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:01,119 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:01,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:01,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:01,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:01,219 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:01,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:01,319 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:01,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:01,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:01,419 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:01,419 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:01,419 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:01,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:01,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:01,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:01,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:01,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:01,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:01,718 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:01,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:01,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:01,819 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:01,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:01,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:01,919 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:01,919 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:01,919 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:02,018 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:02,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:02,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:02,119 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:02,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:02,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:02,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:02,219 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:02,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:02,319 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:02,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:02,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:02,418 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:02,418 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:02,418 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:02,518 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:02,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:02,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:02,618 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:02,618 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:02,618 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:02,719 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:02,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:02,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:02,819 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:02,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:02,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:02,918 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:02,918 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:02,918 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:03,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:03,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:03,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:03,119 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:03,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:03,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:03,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:03,219 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:03,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:03,319 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:03,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:03,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:03,419 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:03,419 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:03,419 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:03,518 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:03,518 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:03,518 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:03,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:03,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:03,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:03,719 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:03,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:03,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:03,818 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:03,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:03,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:03,919 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:03,919 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:03,919 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:04,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:04,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:04,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:04,119 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:04,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:04,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:04,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:04,219 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:04,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:04,318 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:04,318 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:04,318 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:04,419 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:04,419 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:04,419 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:04,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:04,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:04,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:04,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:04,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:04,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:04,718 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:04,718 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:04,718 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:04,819 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:04,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:04,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:04,919 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:04,919 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:04,919 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:05,018 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:05,018 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:05,018 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:05,119 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:05,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:05,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:05,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:05,219 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:05,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:05,318 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:05,318 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:05,318 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:05,418 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:05,418 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:05,418 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:05,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:05,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:05,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:05,618 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:05,618 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:05,618 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:05,718 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:05,718 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:05,718 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:05,818 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:05,818 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:05,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:05,919 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:05,919 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:05,919 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:06,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:06,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:06,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:06,118 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:06,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:06,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:06,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:06,219 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:06,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:06,319 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:06,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:06,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:06,418 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:06,418 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:06,418 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:06,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:06,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:06,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:06,618 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:06,618 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:06,618 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:06,719 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:06,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:06,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:06,819 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:06,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:06,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:06,918 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:06,919 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:06,919 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:07,018 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:07,018 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:07,018 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:07,118 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:07,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:07,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:07,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:07,219 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:07,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:07,319 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:07,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:07,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:07,418 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:07,419 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:07,419 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:07,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:07,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:07,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:07,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:07,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:07,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:07,719 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:07,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:07,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:07,819 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:07,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:07,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:07,918 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:07,918 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:07,918 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:08,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:08,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:08,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:08,119 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:08,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:08,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:08,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:08,219 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:08,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:08,318 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:08,318 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:08,318 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:08,419 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:08,419 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:08,419 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:08,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:08,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:08,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:08,618 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:08,618 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:08,618 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:08,718 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:08,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:08,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:08,819 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:08,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:08,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:08,918 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:08,918 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:08,918 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:09,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:09,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:09,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:09,119 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:09,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:09,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:09,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:09,219 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:09,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:09,318 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:09,318 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:09,318 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:09,419 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:09,419 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:09,419 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:09,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:09,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:09,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:09,618 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:09,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:09,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:09,719 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:09,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:09,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:09,818 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:09,818 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:09,818 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:09,919 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:09,919 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:09,919 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:10,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:10,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:10,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:10,118 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:10,118 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:10,118 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:10,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:10,219 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:10,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:10,319 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:10,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:10,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:10,418 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:10,418 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:10,418 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:10,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:10,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:10,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:10,618 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:10,618 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:10,618 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:10,718 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:10,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:10,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:10,818 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:10,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:10,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:10,919 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:10,919 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:10,919 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:11,018 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:11,018 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:11,018 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:11,118 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:11,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:11,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:11,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:11,219 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:11,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:11,318 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:11,318 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:11,318 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:11,418 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:11,418 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:11,418 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:11,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:11,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:11,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:11,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:11,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:11,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:11,718 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:11,718 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:11,718 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:11,819 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:11,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:11,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:11,918 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:11,920 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:11,920 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:12,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:12,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:12,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:12,118 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:12,118 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:12,118 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:12,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:12,219 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:12,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:12,319 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:12,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:12,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:12,418 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:12,418 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:12,418 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:12,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:12,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:12,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:12,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:12,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:12,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:12,718 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:12,718 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:12,718 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:12,819 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:12,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:12,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:12,918 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:12,918 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:12,918 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:13,018 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:13,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:13,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:13,119 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:13,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:13,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:13,218 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:13,218 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:13,218 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:13,319 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:13,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:13,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:13,419 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:13,419 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:13,419 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:13,518 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:13,518 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:13,518 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:13,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:13,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:13,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:13,719 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:13,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:13,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:13,818 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:13,818 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:13,818 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:13,918 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:13,918 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:13,918 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:14,018 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:14,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:14,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:14,119 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:14,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:14,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:14,218 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:14,218 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:14,218 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:14,319 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:14,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:14,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:14,419 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:14,419 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:14,419 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:14,518 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:14,518 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:14,518 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:14,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:14,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:14,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:14,719 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:14,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:14,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:14,818 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:14,818 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:14,818 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:14,919 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:14,919 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:14,919 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:15,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:15,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:15,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:15,118 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:15,118 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:15,118 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:15,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:15,219 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:15,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:15,319 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:15,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:15,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:15,418 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:15,418 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:15,418 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:15,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:15,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:15,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:15,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:15,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:15,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:15,718 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:15,718 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:15,718 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:15,819 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:15,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:15,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:15,918 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:15,918 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:15,918 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:16,018 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:16,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:16,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:16,119 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:16,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:16,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:16,218 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:16,218 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:16,218 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:16,318 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:16,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:16,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:16,419 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:16,419 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:16,419 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:16,518 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:16,518 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:16,518 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:16,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:16,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:16,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:16,719 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:16,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:16,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:16,818 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:16,818 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:16,818 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:16,919 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:16,919 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:16,919 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:17,018 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:17,018 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:17,018 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:17,118 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:17,118 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:17,118 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:17,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:17,219 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:17,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:17,317 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:17,317 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:17,317 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:17,419 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:17,419 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:17,419 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:17,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:17,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:17,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:17,618 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:17,618 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:17,618 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:17,719 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:17,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:17,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:17,818 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:17,818 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:17,818 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:17,918 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:17,918 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:17,919 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:18,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:18,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:18,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:18,118 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:18,118 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:18,118 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:18,218 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:18,218 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:18,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:18,319 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:18,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:18,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:18,418 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:18,418 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:18,418 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:18,518 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:18,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:18,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:18,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:18,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:18,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:18,718 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:18,718 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:18,718 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:18,818 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:18,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:18,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:18,919 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:18,919 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:18,919 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:19,017 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:19,017 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:19,017 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:19,119 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:19,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:19,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:19,218 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:19,218 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:19,218 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:19,319 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:19,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:19,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:19,419 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:19,419 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:19,419 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:19,518 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:19,518 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:19,518 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:19,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:19,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:19,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:19,719 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:19,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:19,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:19,818 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:19,818 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:19,818 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:19,919 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:19,919 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:19,919 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:20,018 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:20,018 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:20,018 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:20,118 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:20,118 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:20,118 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:20,219 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:20,219 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:20,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:20,318 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:20,318 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:20,318 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:20,418 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:20,418 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:20,418 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:20,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:20,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:20,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:20,618 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:20,618 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:20,618 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:20,718 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:20,718 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:20,718 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:20,819 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:20,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:20,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:20,918 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:20,918 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:20,918 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:21,018 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:21,018 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:21,018 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:21,119 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:21,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:21,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:21,218 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:21,218 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:21,218 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:21,318 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:21,318 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:21,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:21,419 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:21,419 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:21,419 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:21,518 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:21,518 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:21,518 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:21,618 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:21,618 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:21,618 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:21,719 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:21,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:21,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:21,818 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:21,818 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:21,818 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:21,918 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:21,918 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:21,918 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:22,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:22,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:22,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:22,118 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:22,118 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:22,118 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:22,218 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:22,218 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:22,219 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:22,319 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:22,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:22,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:22,418 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:22,418 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:22,418 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:22,518 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:22,518 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:22,518 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:22,618 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:22,618 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:22,618 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:22,718 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:22,718 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:22,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:22,819 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:22,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:22,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:22,918 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:22,918 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:22,918 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:23,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:23,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:23,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:23,118 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:23,118 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:23,118 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:23,218 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:23,218 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:23,218 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:23,319 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:23,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:23,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:23,418 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:23,418 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:23,418 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:23,518 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:23,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:23,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:23,618 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:23,618 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:23,618 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:23,718 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:23,718 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:23,718 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:23,818 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:23,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:23,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:23,918 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:23,918 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:23,918 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:24,018 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:24,018 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:24,018 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:24,118 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:24,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:24,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:24,218 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:24,218 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:24,218 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:24,318 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:24,318 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:24,318 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:24,419 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:24,419 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:24,419 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:24,518 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:24,518 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:24,518 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:24,618 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:24,618 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:24,618 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:24,718 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:24,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:24,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:24,818 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:24,818 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:24,818 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:24,918 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:24,918 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:24,918 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:25,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:25,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:25,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:25,118 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:25,118 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:25,118 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:25,218 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:25,218 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:25,218 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:25,319 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:25,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:25,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:25,418 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:25,418 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:25,418 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:25,518 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:25,518 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:25,518 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:25,619 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:25,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:25,619 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:25,717 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:25,717 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:25,717 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:25,819 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:25,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:25,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:25,918 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:25,918 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:25,918 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:26,018 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:26,018 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:26,018 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:26,119 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:26,119 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:26,119 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:26,218 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:26,218 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:26,218 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:26,318 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:26,318 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:26,318 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:26,417 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:26,417 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:26,417 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:26,519 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:26,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:26,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:26,618 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:26,618 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:26,618 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:26,718 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:26,718 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:26,718 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:26,819 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:26,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:26,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:26,918 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:26,918 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:26,918 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:27,018 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:27,018 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:27,018 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:27,118 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:27,118 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:27,118 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:27,218 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:27,218 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:27,218 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:27,318 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:27,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:27,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:27,418 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:27,418 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:27,418 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:27,518 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:27,518 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:27,518 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:27,618 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:27,618 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:27,618 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:27,718 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:27,719 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:27,719 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:27,818 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:27,818 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:27,818 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:27,918 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:27,918 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:27,918 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:28,019 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:28,019 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:28,019 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:28,118 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:28,118 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:28,118 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:28,218 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:28,218 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:28,218 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:28,318 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:28,318 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:28,318 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:28,418 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:28,418 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:28,418 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:28,518 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:28,519 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:28,519 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:28,618 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:28,618 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:28,618 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:28,718 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:28,718 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:28,718 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:28,819 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:28,819 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:28,819 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:28,918 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:28,918 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:28,918 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:29,018 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:29,018 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:29,018 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:29,118 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:29,118 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:29,118 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:29,218 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:29,218 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:29,218 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:29,318 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:29,319 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:29,319 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:29,418 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:29,418 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:29,418 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:29,518 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:29,518 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.
+2025-06-13 21:21:29,518 [DEBUG] [consume_data_buffer] update_graphs() llamado tras consumir buffer.
+2025-06-13 21:21:29,618 [DEBUG] [update_graphs] PIDs seleccionados para graficar: set()
+2025-06-13 21:21:29,619 [DEBUG] [update_graphs] No hay PIDs seleccionados. Gráficos limpiados.

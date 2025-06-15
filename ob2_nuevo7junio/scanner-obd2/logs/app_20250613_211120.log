@@ -1,0 +1,2971 @@
+2025-06-13 21:11:20,548 [INFO] Iniciando aplicación OBD2 Scanner...
+2025-06-13 21:11:20,894 [DEBUG] Using selector: _Selector
+2025-06-13 21:11:21,383 [INFO] Ventana principal mostrada. Esperando eventos Qt+asyncio...
+2025-06-13 21:11:58,692 [INFO] Acción: conectar/desconectar OBD
+2025-06-13 21:12:03,770 [ERROR] Could not open port socket://192.168.0.10:35000: timed out
+2025-06-13 21:12:03,772 [WARNING] Cannot load commands: No connection to car
+2025-06-13 21:12:03,772 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-13 21:12:03,773 [INFO] Estado de conexión OBD: Not Connected
+2025-06-13 21:12:15,966 [INFO] Acción: conectar/desconectar OBD
+2025-06-13 21:12:21,944 [INFO] Intentando conectar a OBD en socket://192.168.0.10:35000
+2025-06-13 21:12:21,945 [INFO] Estado de conexión OBD: Car Connected
+2025-06-13 21:12:34,309 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:34,383 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:34,482 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:34,583 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:34,681 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:34,782 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:34,881 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:34,983 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:35,082 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:35,181 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:35,282 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:35,380 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:35,480 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:35,580 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:35,681 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:35,781 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:35,881 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:35,980 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:36,080 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:36,149 [INFO] Acción: iniciar stream multipid
+2025-06-13 21:12:36,150 [INFO] PIDs seleccionados para stream multipid: ['RPM']
+2025-06-13 21:12:41,873 [INFO] Stream multipid iniciado con PIDs: ['RPM']
+2025-06-13 21:12:41,874 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 387, in iniciar_stream_pids
+    self.visualizer.select_graph_pids([cmd.name for cmd in selected_cmds if cmd])
+AttributeError: 'DataVisualizer' object has no attribute 'select_graph_pids'
+2025-06-13 21:12:41,895 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:41,991 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:42,088 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:42,183 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:42,281 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:42,382 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:42,482 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:42,582 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:42,680 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:42,782 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:42,882 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:42,981 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:43,082 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:43,182 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:43,283 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:43,382 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:43,481 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:43,583 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:43,682 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:43,782 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:43,883 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:43,982 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:44,081 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:44,181 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:44,282 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:44,381 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:44,481 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:44,582 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:44,682 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:44,782 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:44,883 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:44,981 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:45,122 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:45,179 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:45,281 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:45,380 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:45,480 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:45,582 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:45,682 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:45,782 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:45,882 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:45,982 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:46,081 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:46,182 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:46,282 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:46,382 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:46,482 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:46,582 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:46,682 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:46,781 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:46,882 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:46,980 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:47,080 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:47,181 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:47,281 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:47,382 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:47,482 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:47,583 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:47,682 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:47,782 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:47,882 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:47,981 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:48,081 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:48,182 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:48,280 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:48,381 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:48,480 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:48,581 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:48,680 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:48,781 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:48,881 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:48,981 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:49,080 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:49,182 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:49,282 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:49,383 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:49,482 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:49,582 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:49,682 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:49,781 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:49,880 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:49,982 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:50,082 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:50,182 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:50,282 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:50,380 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:50,480 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:50,580 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:50,682 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:50,782 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:50,880 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:50,980 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:51,080 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:51,181 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:51,280 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:51,382 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:51,481 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:51,580 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:51,680 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:51,782 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:51,882 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:51,982 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:52,082 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:52,182 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:52,280 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:52,381 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:52,479 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:52,580 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:52,681 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:52,782 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:52,882 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:52,982 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:53,080 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:53,181 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:53,281 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:53,381 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:53,482 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:53,582 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:53,682 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:53,782 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:53,882 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:53,982 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:54,081 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:54,181 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:54,282 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:54,381 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:54,481 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:54,580 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:54,681 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:54,782 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:54,882 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:54,982 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:55,081 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:55,182 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:55,281 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:55,380 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:55,480 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:55,581 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:55,681 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:55,781 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:55,881 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:55,981 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:56,081 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:56,179 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:56,282 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:56,382 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:56,480 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:56,580 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:56,681 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:56,781 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:56,880 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:56,980 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:57,080 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:57,180 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:57,281 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:57,381 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:57,482 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:57,581 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:57,682 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:57,783 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:57,882 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:57,981 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:58,080 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:58,180 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:58,280 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:58,380 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:58,523 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:58,579 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:58,680 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:58,781 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:58,882 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:58,982 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:59,082 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:59,181 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:59,281 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:59,382 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:59,482 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:59,581 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:59,692 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:59,782 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:59,882 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:12:59,982 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:00,083 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:00,182 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:00,282 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:00,380 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:00,480 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:00,621 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:00,680 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:00,781 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:00,882 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:00,981 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:01,081 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:01,181 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:01,283 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:01,382 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:01,481 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:01,582 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:01,683 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:01,780 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:01,880 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:01,981 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:02,081 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:02,183 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:02,281 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:02,380 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:02,482 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:02,582 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:02,681 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:02,782 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:02,946 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:02,980 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:03,081 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:03,181 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:03,282 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:03,449 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:03,480 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:03,581 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:03,682 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:03,782 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:03,970 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:03,989 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:04,081 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:04,181 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:04,282 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:04,431 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:04,480 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:04,581 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:04,681 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:04,781 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:05,011 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:05,023 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:05,080 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:05,181 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:05,281 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:05,429 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:05,480 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:05,581 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:05,681 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:05,781 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:06,044 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:06,055 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:06,080 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:06,181 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:06,282 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:06,507 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:06,518 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:06,580 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:06,681 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:06,781 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:07,003 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:07,013 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:07,080 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:07,181 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:07,281 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:07,492 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:07,501 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:07,581 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:07,681 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:07,780 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:07,995 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:08,001 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:08,079 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:08,180 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:08,279 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:08,502 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:08,511 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:08,581 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:08,680 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:08,779 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:08,912 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:08,979 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:09,080 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:09,181 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:09,282 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:09,492 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:09,503 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:09,580 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:09,681 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:09,781 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:09,935 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:09,982 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:10,081 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:10,181 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:10,280 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:10,542 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:10,545 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:10,580 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:10,681 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:10,782 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:10,940 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:10,982 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:11,081 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:11,182 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:11,282 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:11,405 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:11,481 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:11,582 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:11,682 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:11,780 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:11,998 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:12,001 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:12,081 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:12,182 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:12,280 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:12,454 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:12,481 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:12,582 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:12,638 [INFO] Acción: iniciar stream multipid
+2025-06-13 21:13:12,980 [INFO] Stream multipid anterior detenido
+2025-06-13 21:13:12,981 [INFO] PIDs seleccionados para stream multipid: ['RPM']
+2025-06-13 21:13:18,768 [INFO] Stream multipid iniciado con PIDs: ['RPM']
+2025-06-13 21:13:18,769 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/main.py", line 387, in iniciar_stream_pids
+    self.visualizer.select_graph_pids([cmd.name for cmd in selected_cmds if cmd])
+AttributeError: 'DataVisualizer' object has no attribute 'select_graph_pids'
+2025-06-13 21:13:18,786 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:18,930 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:18,979 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:19,079 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:19,180 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:19,280 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:19,428 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:19,480 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:19,580 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:19,682 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:19,781 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:19,961 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:19,981 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:20,082 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:20,181 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:20,282 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:20,488 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:20,584 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:20,681 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:20,781 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:20,934 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:20,981 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:21,081 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:21,181 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:21,281 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:21,506 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:21,509 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:21,581 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:21,682 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:21,781 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:21,994 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:21,996 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:22,081 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:22,182 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:22,281 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:22,415 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:22,481 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:22,581 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:22,680 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:22,780 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:22,979 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:22,982 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:23,081 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:23,182 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:23,281 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:23,416 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:23,480 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:23,582 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:23,681 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:23,782 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:24,043 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:24,045 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:24,081 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:24,182 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:24,282 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:24,413 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:24,481 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:24,581 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:24,681 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:24,781 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:24,907 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:24,981 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:25,081 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:25,180 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:25,279 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:25,495 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:25,497 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:25,581 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:25,681 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:25,780 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:25,989 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:25,992 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:26,079 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:26,180 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:26,282 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:26,499 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:26,501 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:26,580 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:26,681 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:26,781 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:26,998 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:27,001 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:27,081 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:27,181 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:27,281 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:27,504 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:27,506 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:27,581 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:27,680 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:27,781 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:27,980 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:27,983 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:28,081 [CRITICAL] Excepción no capturada:
+Traceback (most recent call last):
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 300, in consume_data_buffer
+    self.update_graphs()
+  File "/Users/ignacioeltit/git/proyecto01junio/ob2_nuevo7junio/scanner-obd2/src/ui/data_visualizer.py", line 409, in update_graphs
+    ydata = self.graph_data[pid_name]
+KeyError: 'RPM'
+2025-06-13 21:13:28,087 [INFO] Cerrando aplicación OBD2 Scanner...
+2025-06-13 21:13:28,522 [INFO] Stream multipid detenido
+2025-06-13 21:13:28,563 [DEBUG] Closing
