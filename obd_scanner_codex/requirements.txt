@@ -1,0 +1,5 @@
+python-OBD
+PySide6
+pyqtgraph
+qasync
+pyserial
