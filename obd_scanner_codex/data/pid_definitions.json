@@ -1,0 +1,10 @@
+{
+  "engine": [
+    {"pid": "0C", "name": "RPM"},
+    {"pid": "0D", "name": "SPEED"},
+    {"pid": "05", "name": "COOLANT_TEMP"}
+  ],
+  "fuel": [
+    {"pid": "2F", "name": "FUEL_LEVEL"}
+  ]
+}
